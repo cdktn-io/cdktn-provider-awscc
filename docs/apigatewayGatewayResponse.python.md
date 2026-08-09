@@ -1,0 +1,1165 @@
+# `apigatewayGatewayResponse` Submodule <a name="`apigatewayGatewayResponse` Submodule" id="@cdktn/provider-awscc.apigatewayGatewayResponse"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### ApigatewayGatewayResponse <a name="ApigatewayGatewayResponse" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import apigateway_gateway_response
+
+apigatewayGatewayResponse.ApigatewayGatewayResponse(
+  scope: Construct,
+  id: str,
+  connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
+  count: typing.Union[int, float] | TerraformCount = None,
+  depends_on: typing.List[ITerraformDependable] = None,
+  for_each: ITerraformIterator = None,
+  lifecycle: TerraformResourceLifecycle = None,
+  provider: TerraformProvider = None,
+  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  response_type: str,
+  rest_api_id: str,
+  response_parameters: typing.Mapping[str] = None,
+  response_templates: typing.Mapping[str] = None,
+  status_code: str = None
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseType">response_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseParameters">response_parameters</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseTemplates">response_templates</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.statusCode">status_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}. |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.id"></a>
+
+- *Type:* str
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.connection"></a>
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.count"></a>
+
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
+
+---
+
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.dependsOn"></a>
+
+- *Type:* typing.List[cdktn.ITerraformDependable]
+
+---
+
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.forEach"></a>
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.lifecycle"></a>
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.provisioners"></a>
+
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `response_type`<sup>Required</sup> <a name="response_type" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseType"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
+
+---
+
+##### `rest_api_id`<sup>Required</sup> <a name="rest_api_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.restApiId"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
+
+---
+
+##### `response_parameters`<sup>Optional</sup> <a name="response_parameters" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseParameters"></a>
+
+- *Type:* typing.Mapping[str]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
+
+---
+
+##### `response_templates`<sup>Optional</sup> <a name="response_templates" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseTemplates"></a>
+
+- *Type:* typing.Mapping[str]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
+
+---
+
+##### `status_code`<sup>Optional</sup> <a name="status_code" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.statusCode"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetResponseParameters">reset_response_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetResponseTemplates">reset_response_templates</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetStatusCode">reset_status_code</a></code> | *No description.* |
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.with"></a>
+
+```python
+def with(
+  mixins: *IMixin
+) -> IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.with.parameter.mixins"></a>
+
+- *Type:* *constructs.IMixin
+
+The mixins to apply.
+
+---
+
+##### `add_override` <a name="add_override" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addOverride"></a>
+
+```python
+def add_override(
+  path: str,
+  value: typing.Any
+) -> None
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addOverride.parameter.path"></a>
+
+- *Type:* str
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addOverride.parameter.value"></a>
+
+- *Type:* typing.Any
+
+---
+
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.overrideLogicalId"></a>
+
+```python
+def override_logical_id(
+  new_logical_id: str
+) -> None
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* str
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetOverrideLogicalId"></a>
+
+```python
+def reset_override_logical_id() -> None
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toHclTerraform"></a>
+
+```python
+def to_hcl_terraform() -> typing.Any
+```
+
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toMetadata"></a>
+
+```python
+def to_metadata() -> typing.Any
+```
+
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.toTerraform"></a>
+
+```python
+def to_terraform() -> typing.Any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addMoveTarget"></a>
+
+```python
+def add_move_target(
+  move_target: str
+) -> None
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* str
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.hasResourceMove"></a>
+
+```python
+def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `import_from` <a name="import_from" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.importFrom"></a>
+
+```python
+def import_from(
+  id: str,
+  provider: TerraformProvider = None
+) -> None
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.importFrom.parameter.id"></a>
+
+- *Type:* str
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveFromId"></a>
+
+```python
+def move_from_id(
+  id: str
+) -> None
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveFromId.parameter.id"></a>
+
+- *Type:* str
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `move_to` <a name="move_to" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveTo"></a>
+
+```python
+def move_to(
+  move_target: str,
+  index: str | typing.Union[int, float] = None
+) -> None
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveTo.parameter.moveTarget"></a>
+
+- *Type:* str
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveTo.parameter.index"></a>
+
+- *Type:* str | typing.Union[int, float]
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveToId"></a>
+
+```python
+def move_to_id(
+  id: str
+) -> None
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.moveToId.parameter.id"></a>
+
+- *Type:* str
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `reset_response_parameters` <a name="reset_response_parameters" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetResponseParameters"></a>
+
+```python
+def reset_response_parameters() -> None
+```
+
+##### `reset_response_templates` <a name="reset_response_templates" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetResponseTemplates"></a>
+
+```python
+def reset_response_templates() -> None
+```
+
+##### `reset_status_code` <a name="reset_status_code" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.resetStatusCode"></a>
+
+```python
+def reset_status_code() -> None
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTN code for importing a ApigatewayGatewayResponse resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isConstruct"></a>
+
+```python
+from cdktn_provider_awscc import apigateway_gateway_response
+
+apigatewayGatewayResponse.ApigatewayGatewayResponse.is_construct(
+  x: typing.Any
+)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isConstruct.parameter.x"></a>
+
+- *Type:* typing.Any
+
+Any object.
+
+---
+
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isTerraformElement"></a>
+
+```python
+from cdktn_provider_awscc import apigateway_gateway_response
+
+apigatewayGatewayResponse.ApigatewayGatewayResponse.is_terraform_element(
+  x: typing.Any
+)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isTerraformElement.parameter.x"></a>
+
+- *Type:* typing.Any
+
+---
+
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isTerraformResource"></a>
+
+```python
+from cdktn_provider_awscc import apigateway_gateway_response
+
+apigatewayGatewayResponse.ApigatewayGatewayResponse.is_terraform_resource(
+  x: typing.Any
+)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.isTerraformResource.parameter.x"></a>
+
+- *Type:* typing.Any
+
+---
+
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.generateConfigForImport"></a>
+
+```python
+from cdktn_provider_awscc import apigateway_gateway_response
+
+apigatewayGatewayResponse.ApigatewayGatewayResponse.generate_config_for_import(
+  scope: Construct,
+  import_to_id: str,
+  import_from_id: str,
+  provider: TerraformProvider = None
+)
+```
+
+Generates CDKTN code for importing a ApigatewayGatewayResponse resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* str
+
+The construct id used in the generated config for the ApigatewayGatewayResponse to import.
+
+---
+
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* str
+
+The id of the existing ApigatewayGatewayResponse that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the ApigatewayGatewayResponse to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.cdktfStack">cdktf_stack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.gatewayResponseId">gateway_response_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseParametersInput">response_parameters_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseTemplatesInput">response_templates_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseTypeInput">response_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.restApiIdInput">rest_api_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.statusCodeInput">status_code_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseParameters">response_parameters</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseTemplates">response_templates</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseType">response_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.restApiId">rest_api_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.statusCode">status_code</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.node"></a>
+
+```python
+node: Node
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.cdktfStack"></a>
+
+```python
+cdktf_stack: TerraformStack
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.friendlyUniqueId"></a>
+
+```python
+friendly_unique_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.terraformMetaArguments"></a>
+
+```python
+terraform_meta_arguments: typing.Mapping[typing.Any]
+```
+
+- *Type:* typing.Mapping[typing.Any]
+
+---
+
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.terraformResourceType"></a>
+
+```python
+terraform_resource_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.terraformGeneratorMetadata"></a>
+
+```python
+terraform_generator_metadata: TerraformProviderGeneratorMetadata
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.connection"></a>
+
+```python
+connection: SSHProvisionerConnection | WinrmProvisionerConnection
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.count"></a>
+
+```python
+count: typing.Union[int, float] | TerraformCount
+```
+
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
+
+---
+
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.dependsOn"></a>
+
+```python
+depends_on: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.forEach"></a>
+
+```python
+for_each: ITerraformIterator
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.lifecycle"></a>
+
+```python
+lifecycle: TerraformResourceLifecycle
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.provider"></a>
+
+```python
+provider: TerraformProvider
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.provisioners"></a>
+
+```python
+provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
+```
+
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `gateway_response_id`<sup>Required</sup> <a name="gateway_response_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.gatewayResponseId"></a>
+
+```python
+gateway_response_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `response_parameters_input`<sup>Optional</sup> <a name="response_parameters_input" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseParametersInput"></a>
+
+```python
+response_parameters_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `response_templates_input`<sup>Optional</sup> <a name="response_templates_input" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseTemplatesInput"></a>
+
+```python
+response_templates_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `response_type_input`<sup>Optional</sup> <a name="response_type_input" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseTypeInput"></a>
+
+```python
+response_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `rest_api_id_input`<sup>Optional</sup> <a name="rest_api_id_input" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.restApiIdInput"></a>
+
+```python
+rest_api_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `status_code_input`<sup>Optional</sup> <a name="status_code_input" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.statusCodeInput"></a>
+
+```python
+status_code_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `response_parameters`<sup>Required</sup> <a name="response_parameters" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseParameters"></a>
+
+```python
+response_parameters: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `response_templates`<sup>Required</sup> <a name="response_templates" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseTemplates"></a>
+
+```python
+response_templates: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `response_type`<sup>Required</sup> <a name="response_type" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.responseType"></a>
+
+```python
+response_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `rest_api_id`<sup>Required</sup> <a name="rest_api_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.restApiId"></a>
+
+```python
+rest_api_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `status_code`<sup>Required</sup> <a name="status_code" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.statusCode"></a>
+
+```python
+status_code: str
+```
+
+- *Type:* str
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.property.tfResourceType"></a>
+
+```python
+tfResourceType: str
+```
+
+- *Type:* str
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### ApigatewayGatewayResponseConfig <a name="ApigatewayGatewayResponseConfig" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import apigateway_gateway_response
+
+apigatewayGatewayResponse.ApigatewayGatewayResponseConfig(
+  connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
+  count: typing.Union[int, float] | TerraformCount = None,
+  depends_on: typing.List[ITerraformDependable] = None,
+  for_each: ITerraformIterator = None,
+  lifecycle: TerraformResourceLifecycle = None,
+  provider: TerraformProvider = None,
+  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  response_type: str,
+  rest_api_id: str,
+  response_parameters: typing.Mapping[str] = None,
+  response_templates: typing.Mapping[str] = None,
+  status_code: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseType">response_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.restApiId">rest_api_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseParameters">response_parameters</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseTemplates">response_templates</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.statusCode">status_code</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.connection"></a>
+
+```python
+connection: SSHProvisionerConnection | WinrmProvisionerConnection
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.count"></a>
+
+```python
+count: typing.Union[int, float] | TerraformCount
+```
+
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
+
+---
+
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.dependsOn"></a>
+
+```python
+depends_on: typing.List[ITerraformDependable]
+```
+
+- *Type:* typing.List[cdktn.ITerraformDependable]
+
+---
+
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.forEach"></a>
+
+```python
+for_each: ITerraformIterator
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.lifecycle"></a>
+
+```python
+lifecycle: TerraformResourceLifecycle
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.provider"></a>
+
+```python
+provider: TerraformProvider
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.provisioners"></a>
+
+```python
+provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
+```
+
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `response_type`<sup>Required</sup> <a name="response_type" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseType"></a>
+
+```python
+response_type: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
+
+---
+
+##### `rest_api_id`<sup>Required</sup> <a name="rest_api_id" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.restApiId"></a>
+
+```python
+rest_api_id: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
+
+---
+
+##### `response_parameters`<sup>Optional</sup> <a name="response_parameters" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseParameters"></a>
+
+```python
+response_parameters: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
+
+---
+
+##### `response_templates`<sup>Optional</sup> <a name="response_templates" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseTemplates"></a>
+
+```python
+response_templates: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
+
+---
+
+##### `status_code`<sup>Optional</sup> <a name="status_code" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.statusCode"></a>
+
+```python
+status_code: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
+
+---
+
+
+

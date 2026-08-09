@@ -1,0 +1,1280 @@
+# `dataAwsccGuarddutyTrustedEntitySet` Submodule <a name="`dataAwsccGuarddutyTrustedEntitySet` Submodule" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### DataAwsccGuarddutyTrustedEntitySet <a name="DataAwsccGuarddutyTrustedEntitySet" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+new dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet(scope: Construct, id: string, config: DataAwsccGuarddutyTrustedEntitySetConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig">DataAwsccGuarddutyTrustedEntitySetConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig">DataAwsccGuarddutyTrustedEntitySetConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toHclTerraform">toHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a DataAwsccGuarddutyTrustedEntitySet resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isConstruct"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformElement"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformDataSource"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a DataAwsccGuarddutyTrustedEntitySet resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the DataAwsccGuarddutyTrustedEntitySet to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing DataAwsccGuarddutyTrustedEntitySet that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_trusted_entity_set#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the DataAwsccGuarddutyTrustedEntitySet to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.activate">activate</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.createdAt">createdAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.detectorId">detectorId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.errorDetails">errorDetails</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.expectedBucketOwner">expectedBucketOwner</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.format">format</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.location">location</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList">DataAwsccGuarddutyTrustedEntitySetTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.trustedEntitySetId">trustedEntitySetId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.updatedAt">updatedAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.id">id</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `activate`<sup>Required</sup> <a name="activate" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.activate"></a>
+
+```typescript
+public readonly activate: IResolvable;
+```
+
+- *Type:* cdktn.IResolvable
+
+---
+
+##### `createdAt`<sup>Required</sup> <a name="createdAt" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.createdAt"></a>
+
+```typescript
+public readonly createdAt: string;
+```
+
+- *Type:* string
+
+---
+
+##### `detectorId`<sup>Required</sup> <a name="detectorId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.detectorId"></a>
+
+```typescript
+public readonly detectorId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `errorDetails`<sup>Required</sup> <a name="errorDetails" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.errorDetails"></a>
+
+```typescript
+public readonly errorDetails: string;
+```
+
+- *Type:* string
+
+---
+
+##### `expectedBucketOwner`<sup>Required</sup> <a name="expectedBucketOwner" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.expectedBucketOwner"></a>
+
+```typescript
+public readonly expectedBucketOwner: string;
+```
+
+- *Type:* string
+
+---
+
+##### `format`<sup>Required</sup> <a name="format" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.format"></a>
+
+```typescript
+public readonly format: string;
+```
+
+- *Type:* string
+
+---
+
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.location"></a>
+
+```typescript
+public readonly location: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.tags"></a>
+
+```typescript
+public readonly tags: DataAwsccGuarddutyTrustedEntitySetTagsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList">DataAwsccGuarddutyTrustedEntitySetTagsList</a>
+
+---
+
+##### `trustedEntitySetId`<sup>Required</sup> <a name="trustedEntitySetId" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.trustedEntitySetId"></a>
+
+```typescript
+public readonly trustedEntitySetId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `updatedAt`<sup>Required</sup> <a name="updatedAt" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.updatedAt"></a>
+
+```typescript
+public readonly updatedAt: string;
+```
+
+- *Type:* string
+
+---
+
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.idInput"></a>
+
+```typescript
+public readonly idInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySet.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### DataAwsccGuarddutyTrustedEntitySetConfig <a name="DataAwsccGuarddutyTrustedEntitySetConfig" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.Initializer"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+const dataAwsccGuarddutyTrustedEntitySetConfig: dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.id">id</a></code> | <code>string</code> | Uniquely identifies the resource. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetConfig.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+Uniquely identifies the resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_trusted_entity_set#id DataAwsccGuarddutyTrustedEntitySet#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+### DataAwsccGuarddutyTrustedEntitySetTags <a name="DataAwsccGuarddutyTrustedEntitySetTags" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTags.Initializer"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+const dataAwsccGuarddutyTrustedEntitySetTags: dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTags = { ... }
+```
+
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccGuarddutyTrustedEntitySetTagsList <a name="DataAwsccGuarddutyTrustedEntitySetTagsList" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+new dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.get"></a>
+
+```typescript
+public get(index: number): DataAwsccGuarddutyTrustedEntitySetTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccGuarddutyTrustedEntitySetTagsOutputReference <a name="DataAwsccGuarddutyTrustedEntitySetTagsOutputReference" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccGuarddutyTrustedEntitySet } from '@cdktn/provider-awscc'
+
+new dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTags">DataAwsccGuarddutyTrustedEntitySetTags</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.key"></a>
+
+```typescript
+public readonly key: string;
+```
+
+- *Type:* string
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTagsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccGuarddutyTrustedEntitySetTags;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGuarddutyTrustedEntitySet.DataAwsccGuarddutyTrustedEntitySetTags">DataAwsccGuarddutyTrustedEntitySetTags</a>
+
+---
+
+
+

@@ -1,0 +1,1611 @@
+# `medialiveEventBridgeRuleTemplate` Submodule <a name="`medialiveEventBridgeRuleTemplate` Submodule" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### MedialiveEventBridgeRuleTemplate <a name="MedialiveEventBridgeRuleTemplate" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template awscc_medialive_event_bridge_rule_template}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+new medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate(scope: Construct, id: string, config: MedialiveEventBridgeRuleTemplateConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig">MedialiveEventBridgeRuleTemplateConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig">MedialiveEventBridgeRuleTemplateConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.putEventTargets">putEventTargets</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetEventTargets">resetEventTargets</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetGroupIdentifier">resetGroupIdentifier</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetTags">resetTags</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `putEventTargets` <a name="putEventTargets" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.putEventTargets"></a>
+
+```typescript
+public putEventTargets(value: IResolvable | MedialiveEventBridgeRuleTemplateEventTargets[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.putEventTargets.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]
+
+---
+
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetDescription"></a>
+
+```typescript
+public resetDescription(): void
+```
+
+##### `resetEventTargets` <a name="resetEventTargets" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetEventTargets"></a>
+
+```typescript
+public resetEventTargets(): void
+```
+
+##### `resetGroupIdentifier` <a name="resetGroupIdentifier" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetGroupIdentifier"></a>
+
+```typescript
+public resetGroupIdentifier(): void
+```
+
+##### `resetTags` <a name="resetTags" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.resetTags"></a>
+
+```typescript
+public resetTags(): void
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a MedialiveEventBridgeRuleTemplate resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isConstruct"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformElement"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformResource"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a MedialiveEventBridgeRuleTemplate resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the MedialiveEventBridgeRuleTemplate to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing MedialiveEventBridgeRuleTemplate that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the MedialiveEventBridgeRuleTemplate to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.arn">arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.createdAt">createdAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventBridgeRuleTemplateId">eventBridgeRuleTemplateId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventTargets">eventTargets</a></code> | <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList">MedialiveEventBridgeRuleTemplateEventTargetsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.groupId">groupId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.identifier">identifier</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.modifiedAt">modifiedAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventTargetsInput">eventTargetsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventTypeInput">eventTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.groupIdentifierInput">groupIdentifierInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.tagsInput">tagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventType">eventType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.groupIdentifier">groupIdentifier</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `arn`<sup>Required</sup> <a name="arn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.arn"></a>
+
+```typescript
+public readonly arn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `createdAt`<sup>Required</sup> <a name="createdAt" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.createdAt"></a>
+
+```typescript
+public readonly createdAt: string;
+```
+
+- *Type:* string
+
+---
+
+##### `eventBridgeRuleTemplateId`<sup>Required</sup> <a name="eventBridgeRuleTemplateId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventBridgeRuleTemplateId"></a>
+
+```typescript
+public readonly eventBridgeRuleTemplateId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `eventTargets`<sup>Required</sup> <a name="eventTargets" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventTargets"></a>
+
+```typescript
+public readonly eventTargets: MedialiveEventBridgeRuleTemplateEventTargetsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList">MedialiveEventBridgeRuleTemplateEventTargetsList</a>
+
+---
+
+##### `groupId`<sup>Required</sup> <a name="groupId" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.groupId"></a>
+
+```typescript
+public readonly groupId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `identifier`<sup>Required</sup> <a name="identifier" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.identifier"></a>
+
+```typescript
+public readonly identifier: string;
+```
+
+- *Type:* string
+
+---
+
+##### `modifiedAt`<sup>Required</sup> <a name="modifiedAt" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.modifiedAt"></a>
+
+```typescript
+public readonly modifiedAt: string;
+```
+
+- *Type:* string
+
+---
+
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.descriptionInput"></a>
+
+```typescript
+public readonly descriptionInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `eventTargetsInput`<sup>Optional</sup> <a name="eventTargetsInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventTargetsInput"></a>
+
+```typescript
+public readonly eventTargetsInput: IResolvable | MedialiveEventBridgeRuleTemplateEventTargets[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]
+
+---
+
+##### `eventTypeInput`<sup>Optional</sup> <a name="eventTypeInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventTypeInput"></a>
+
+```typescript
+public readonly eventTypeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `groupIdentifierInput`<sup>Optional</sup> <a name="groupIdentifierInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.groupIdentifierInput"></a>
+
+```typescript
+public readonly groupIdentifierInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.nameInput"></a>
+
+```typescript
+public readonly nameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `tagsInput`<sup>Optional</sup> <a name="tagsInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.tagsInput"></a>
+
+```typescript
+public readonly tagsInput: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.description"></a>
+
+```typescript
+public readonly description: string;
+```
+
+- *Type:* string
+
+---
+
+##### `eventType`<sup>Required</sup> <a name="eventType" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.eventType"></a>
+
+```typescript
+public readonly eventType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `groupIdentifier`<sup>Required</sup> <a name="groupIdentifier" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.groupIdentifier"></a>
+
+```typescript
+public readonly groupIdentifier: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.tags"></a>
+
+```typescript
+public readonly tags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplate.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### MedialiveEventBridgeRuleTemplateConfig <a name="MedialiveEventBridgeRuleTemplateConfig" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.Initializer"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+const medialiveEventBridgeRuleTemplateConfig: medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.eventType">eventType</a></code> | <code>string</code> | The type of event to match with the rule. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.name">name</a></code> | <code>string</code> | A resource's name. Names must be unique within the scope of a resource type in a specific region. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.description">description</a></code> | <code>string</code> | A resource's optional description. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.eventTargets">eventTargets</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]</code> | Placeholder documentation for __listOfEventBridgeRuleTemplateTarget. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.groupIdentifier">groupIdentifier</a></code> | <code>string</code> | An eventbridge rule template group's identifier. Can be either be its id or current name. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Represents the tags associated with a resource. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `eventType`<sup>Required</sup> <a name="eventType" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.eventType"></a>
+
+```typescript
+public readonly eventType: string;
+```
+
+- *Type:* string
+
+The type of event to match with the rule.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#event_type MedialiveEventBridgeRuleTemplate#event_type}
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+A resource's name. Names must be unique within the scope of a resource type in a specific region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#name MedialiveEventBridgeRuleTemplate#name}
+
+---
+
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.description"></a>
+
+```typescript
+public readonly description: string;
+```
+
+- *Type:* string
+
+A resource's optional description.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#description MedialiveEventBridgeRuleTemplate#description}
+
+---
+
+##### `eventTargets`<sup>Optional</sup> <a name="eventTargets" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.eventTargets"></a>
+
+```typescript
+public readonly eventTargets: IResolvable | MedialiveEventBridgeRuleTemplateEventTargets[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]
+
+Placeholder documentation for __listOfEventBridgeRuleTemplateTarget.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#event_targets MedialiveEventBridgeRuleTemplate#event_targets}
+
+---
+
+##### `groupIdentifier`<sup>Optional</sup> <a name="groupIdentifier" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.groupIdentifier"></a>
+
+```typescript
+public readonly groupIdentifier: string;
+```
+
+- *Type:* string
+
+An eventbridge rule template group's identifier. Can be either be its id or current name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#group_identifier MedialiveEventBridgeRuleTemplate#group_identifier}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateConfig.property.tags"></a>
+
+```typescript
+public readonly tags: {[ key: string ]: string};
+```
+
+- *Type:* {[ key: string ]: string}
+
+Represents the tags associated with a resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#tags MedialiveEventBridgeRuleTemplate#tags}
+
+---
+
+### MedialiveEventBridgeRuleTemplateEventTargets <a name="MedialiveEventBridgeRuleTemplateEventTargets" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets.Initializer"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+const medialiveEventBridgeRuleTemplateEventTargets: medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets.property.arn">arn</a></code> | <code>string</code> | Target ARNs must be either an SNS topic or CloudWatch log group. |
+
+---
+
+##### `arn`<sup>Optional</sup> <a name="arn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets.property.arn"></a>
+
+```typescript
+public readonly arn: string;
+```
+
+- *Type:* string
+
+Target ARNs must be either an SNS topic or CloudWatch log group.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template#arn MedialiveEventBridgeRuleTemplate#arn}
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### MedialiveEventBridgeRuleTemplateEventTargetsList <a name="MedialiveEventBridgeRuleTemplateEventTargetsList" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+new medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.get"></a>
+
+```typescript
+public get(index: number): MedialiveEventBridgeRuleTemplateEventTargetsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | MedialiveEventBridgeRuleTemplateEventTargets[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>[]
+
+---
+
+
+### MedialiveEventBridgeRuleTemplateEventTargetsOutputReference <a name="MedialiveEventBridgeRuleTemplateEventTargetsOutputReference" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer"></a>
+
+```typescript
+import { medialiveEventBridgeRuleTemplate } from '@cdktn/provider-awscc'
+
+new medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.resetArn">resetArn</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetArn` <a name="resetArn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.resetArn"></a>
+
+```typescript
+public resetArn(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.arnInput">arnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.arn">arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `arnInput`<sup>Optional</sup> <a name="arnInput" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.arnInput"></a>
+
+```typescript
+public readonly arnInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `arn`<sup>Required</sup> <a name="arn" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.arn"></a>
+
+```typescript
+public readonly arn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargetsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | MedialiveEventBridgeRuleTemplateEventTargets;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.medialiveEventBridgeRuleTemplate.MedialiveEventBridgeRuleTemplateEventTargets">MedialiveEventBridgeRuleTemplateEventTargets</a>
+
+---
+
+
+

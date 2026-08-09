@@ -1,0 +1,1324 @@
+# `apigatewayv2Route` Submodule <a name="`apigatewayv2Route` Submodule" id="@cdktn/provider-awscc.apigatewayv2Route"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### Apigatewayv2Route <a name="Apigatewayv2Route" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route awscc_apigatewayv2_route}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer"></a>
+
+```typescript
+import { apigatewayv2Route } from '@cdktn/provider-awscc'
+
+new apigatewayv2Route.Apigatewayv2Route(scope: Construct, id: string, config: Apigatewayv2RouteConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig">Apigatewayv2RouteConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig">Apigatewayv2RouteConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetApiKeyRequired">resetApiKeyRequired</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetAuthorizationScopes">resetAuthorizationScopes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetAuthorizationType">resetAuthorizationType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetAuthorizerId">resetAuthorizerId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetModelSelectionExpression">resetModelSelectionExpression</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetOperationName">resetOperationName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetRequestModels">resetRequestModels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetRequestParameters">resetRequestParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetRouteResponseSelectionExpression">resetRouteResponseSelectionExpression</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetTarget">resetTarget</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `resetApiKeyRequired` <a name="resetApiKeyRequired" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetApiKeyRequired"></a>
+
+```typescript
+public resetApiKeyRequired(): void
+```
+
+##### `resetAuthorizationScopes` <a name="resetAuthorizationScopes" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetAuthorizationScopes"></a>
+
+```typescript
+public resetAuthorizationScopes(): void
+```
+
+##### `resetAuthorizationType` <a name="resetAuthorizationType" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetAuthorizationType"></a>
+
+```typescript
+public resetAuthorizationType(): void
+```
+
+##### `resetAuthorizerId` <a name="resetAuthorizerId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetAuthorizerId"></a>
+
+```typescript
+public resetAuthorizerId(): void
+```
+
+##### `resetModelSelectionExpression` <a name="resetModelSelectionExpression" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetModelSelectionExpression"></a>
+
+```typescript
+public resetModelSelectionExpression(): void
+```
+
+##### `resetOperationName` <a name="resetOperationName" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetOperationName"></a>
+
+```typescript
+public resetOperationName(): void
+```
+
+##### `resetRequestModels` <a name="resetRequestModels" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetRequestModels"></a>
+
+```typescript
+public resetRequestModels(): void
+```
+
+##### `resetRequestParameters` <a name="resetRequestParameters" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetRequestParameters"></a>
+
+```typescript
+public resetRequestParameters(): void
+```
+
+##### `resetRouteResponseSelectionExpression` <a name="resetRouteResponseSelectionExpression" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetRouteResponseSelectionExpression"></a>
+
+```typescript
+public resetRouteResponseSelectionExpression(): void
+```
+
+##### `resetTarget` <a name="resetTarget" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.resetTarget"></a>
+
+```typescript
+public resetTarget(): void
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a Apigatewayv2Route resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isConstruct"></a>
+
+```typescript
+import { apigatewayv2Route } from '@cdktn/provider-awscc'
+
+apigatewayv2Route.Apigatewayv2Route.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformElement"></a>
+
+```typescript
+import { apigatewayv2Route } from '@cdktn/provider-awscc'
+
+apigatewayv2Route.Apigatewayv2Route.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformResource"></a>
+
+```typescript
+import { apigatewayv2Route } from '@cdktn/provider-awscc'
+
+apigatewayv2Route.Apigatewayv2Route.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport"></a>
+
+```typescript
+import { apigatewayv2Route } from '@cdktn/provider-awscc'
+
+apigatewayv2Route.Apigatewayv2Route.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a Apigatewayv2Route resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the Apigatewayv2Route to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing Apigatewayv2Route that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the Apigatewayv2Route to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeId">routeId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiIdInput">apiIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiKeyRequiredInput">apiKeyRequiredInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationScopesInput">authorizationScopesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationTypeInput">authorizationTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizerIdInput">authorizerIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.modelSelectionExpressionInput">modelSelectionExpressionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.operationNameInput">operationNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestModelsInput">requestModelsInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestParametersInput">requestParametersInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeKeyInput">routeKeyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeResponseSelectionExpressionInput">routeResponseSelectionExpressionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.targetInput">targetInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiId">apiId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiKeyRequired">apiKeyRequired</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationScopes">authorizationScopes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationType">authorizationType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizerId">authorizerId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.modelSelectionExpression">modelSelectionExpression</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.operationName">operationName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestModels">requestModels</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestParameters">requestParameters</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeKey">routeKey</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeResponseSelectionExpression">routeResponseSelectionExpression</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.target">target</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `routeId`<sup>Required</sup> <a name="routeId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeId"></a>
+
+```typescript
+public readonly routeId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `apiIdInput`<sup>Optional</sup> <a name="apiIdInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiIdInput"></a>
+
+```typescript
+public readonly apiIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `apiKeyRequiredInput`<sup>Optional</sup> <a name="apiKeyRequiredInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiKeyRequiredInput"></a>
+
+```typescript
+public readonly apiKeyRequiredInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `authorizationScopesInput`<sup>Optional</sup> <a name="authorizationScopesInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationScopesInput"></a>
+
+```typescript
+public readonly authorizationScopesInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `authorizationTypeInput`<sup>Optional</sup> <a name="authorizationTypeInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationTypeInput"></a>
+
+```typescript
+public readonly authorizationTypeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `authorizerIdInput`<sup>Optional</sup> <a name="authorizerIdInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizerIdInput"></a>
+
+```typescript
+public readonly authorizerIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `modelSelectionExpressionInput`<sup>Optional</sup> <a name="modelSelectionExpressionInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.modelSelectionExpressionInput"></a>
+
+```typescript
+public readonly modelSelectionExpressionInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `operationNameInput`<sup>Optional</sup> <a name="operationNameInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.operationNameInput"></a>
+
+```typescript
+public readonly operationNameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `requestModelsInput`<sup>Optional</sup> <a name="requestModelsInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestModelsInput"></a>
+
+```typescript
+public readonly requestModelsInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `requestParametersInput`<sup>Optional</sup> <a name="requestParametersInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestParametersInput"></a>
+
+```typescript
+public readonly requestParametersInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `routeKeyInput`<sup>Optional</sup> <a name="routeKeyInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeKeyInput"></a>
+
+```typescript
+public readonly routeKeyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `routeResponseSelectionExpressionInput`<sup>Optional</sup> <a name="routeResponseSelectionExpressionInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeResponseSelectionExpressionInput"></a>
+
+```typescript
+public readonly routeResponseSelectionExpressionInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `targetInput`<sup>Optional</sup> <a name="targetInput" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.targetInput"></a>
+
+```typescript
+public readonly targetInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `apiId`<sup>Required</sup> <a name="apiId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiId"></a>
+
+```typescript
+public readonly apiId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `apiKeyRequired`<sup>Required</sup> <a name="apiKeyRequired" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.apiKeyRequired"></a>
+
+```typescript
+public readonly apiKeyRequired: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `authorizationScopes`<sup>Required</sup> <a name="authorizationScopes" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationScopes"></a>
+
+```typescript
+public readonly authorizationScopes: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `authorizationType`<sup>Required</sup> <a name="authorizationType" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizationType"></a>
+
+```typescript
+public readonly authorizationType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `authorizerId`<sup>Required</sup> <a name="authorizerId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.authorizerId"></a>
+
+```typescript
+public readonly authorizerId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `modelSelectionExpression`<sup>Required</sup> <a name="modelSelectionExpression" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.modelSelectionExpression"></a>
+
+```typescript
+public readonly modelSelectionExpression: string;
+```
+
+- *Type:* string
+
+---
+
+##### `operationName`<sup>Required</sup> <a name="operationName" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.operationName"></a>
+
+```typescript
+public readonly operationName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `requestModels`<sup>Required</sup> <a name="requestModels" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestModels"></a>
+
+```typescript
+public readonly requestModels: string;
+```
+
+- *Type:* string
+
+---
+
+##### `requestParameters`<sup>Required</sup> <a name="requestParameters" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.requestParameters"></a>
+
+```typescript
+public readonly requestParameters: string;
+```
+
+- *Type:* string
+
+---
+
+##### `routeKey`<sup>Required</sup> <a name="routeKey" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeKey"></a>
+
+```typescript
+public readonly routeKey: string;
+```
+
+- *Type:* string
+
+---
+
+##### `routeResponseSelectionExpression`<sup>Required</sup> <a name="routeResponseSelectionExpression" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.routeResponseSelectionExpression"></a>
+
+```typescript
+public readonly routeResponseSelectionExpression: string;
+```
+
+- *Type:* string
+
+---
+
+##### `target`<sup>Required</sup> <a name="target" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.target"></a>
+
+```typescript
+public readonly target: string;
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2Route.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### Apigatewayv2RouteConfig <a name="Apigatewayv2RouteConfig" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.Initializer"></a>
+
+```typescript
+import { apigatewayv2Route } from '@cdktn/provider-awscc'
+
+const apigatewayv2RouteConfig: apigatewayv2Route.Apigatewayv2RouteConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.apiId">apiId</a></code> | <code>string</code> | The API identifier. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.routeKey">routeKey</a></code> | <code>string</code> | The route key for the route. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.apiKeyRequired">apiKeyRequired</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specifies whether an API key is required for the route. Supported only for WebSocket APIs. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.authorizationScopes">authorizationScopes</a></code> | <code>string[]</code> | The authorization scopes supported by this route. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.authorizationType">authorizationType</a></code> | <code>string</code> | The authorization type for the route. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.authorizerId">authorizerId</a></code> | <code>string</code> | The identifier of the ``Authorizer`` resource to be associated with this route. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.modelSelectionExpression">modelSelectionExpression</a></code> | <code>string</code> | The model selection expression for the route. Supported only for WebSocket APIs. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.operationName">operationName</a></code> | <code>string</code> | The operation name for the route. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.requestModels">requestModels</a></code> | <code>string</code> | The request models for the route. Supported only for WebSocket APIs. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.requestParameters">requestParameters</a></code> | <code>string</code> | The request parameters for the route. Supported only for WebSocket APIs. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.routeResponseSelectionExpression">routeResponseSelectionExpression</a></code> | <code>string</code> | The route response selection expression for the route. Supported only for WebSocket APIs. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.target">target</a></code> | <code>string</code> | The target for the route. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `apiId`<sup>Required</sup> <a name="apiId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.apiId"></a>
+
+```typescript
+public readonly apiId: string;
+```
+
+- *Type:* string
+
+The API identifier.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#api_id Apigatewayv2Route#api_id}
+
+---
+
+##### `routeKey`<sup>Required</sup> <a name="routeKey" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.routeKey"></a>
+
+```typescript
+public readonly routeKey: string;
+```
+
+- *Type:* string
+
+The route key for the route.
+
+For HTTP APIs, the route key can be either ``$default``, or a combination of an HTTP method and resource path, for example, ``GET /pets``.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#route_key Apigatewayv2Route#route_key}
+
+---
+
+##### `apiKeyRequired`<sup>Optional</sup> <a name="apiKeyRequired" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.apiKeyRequired"></a>
+
+```typescript
+public readonly apiKeyRequired: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Specifies whether an API key is required for the route. Supported only for WebSocket APIs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#api_key_required Apigatewayv2Route#api_key_required}
+
+---
+
+##### `authorizationScopes`<sup>Optional</sup> <a name="authorizationScopes" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.authorizationScopes"></a>
+
+```typescript
+public readonly authorizationScopes: string[];
+```
+
+- *Type:* string[]
+
+The authorization scopes supported by this route.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#authorization_scopes Apigatewayv2Route#authorization_scopes}
+
+---
+
+##### `authorizationType`<sup>Optional</sup> <a name="authorizationType" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.authorizationType"></a>
+
+```typescript
+public readonly authorizationType: string;
+```
+
+- *Type:* string
+
+The authorization type for the route.
+
+For WebSocket APIs, valid values are ``NONE`` for open access, ``AWS_IAM`` for using AWS IAM permissions, and ``CUSTOM`` for using a Lambda authorizer. For HTTP APIs, valid values are ``NONE`` for open access, ``JWT`` for using JSON Web Tokens, ``AWS_IAM`` for using AWS IAM permissions, and ``CUSTOM`` for using a Lambda authorizer.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#authorization_type Apigatewayv2Route#authorization_type}
+
+---
+
+##### `authorizerId`<sup>Optional</sup> <a name="authorizerId" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.authorizerId"></a>
+
+```typescript
+public readonly authorizerId: string;
+```
+
+- *Type:* string
+
+The identifier of the ``Authorizer`` resource to be associated with this route.
+
+The authorizer identifier is generated by API Gateway when you created the authorizer.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#authorizer_id Apigatewayv2Route#authorizer_id}
+
+---
+
+##### `modelSelectionExpression`<sup>Optional</sup> <a name="modelSelectionExpression" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.modelSelectionExpression"></a>
+
+```typescript
+public readonly modelSelectionExpression: string;
+```
+
+- *Type:* string
+
+The model selection expression for the route. Supported only for WebSocket APIs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#model_selection_expression Apigatewayv2Route#model_selection_expression}
+
+---
+
+##### `operationName`<sup>Optional</sup> <a name="operationName" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.operationName"></a>
+
+```typescript
+public readonly operationName: string;
+```
+
+- *Type:* string
+
+The operation name for the route.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#operation_name Apigatewayv2Route#operation_name}
+
+---
+
+##### `requestModels`<sup>Optional</sup> <a name="requestModels" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.requestModels"></a>
+
+```typescript
+public readonly requestModels: string;
+```
+
+- *Type:* string
+
+The request models for the route. Supported only for WebSocket APIs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#request_models Apigatewayv2Route#request_models}
+
+---
+
+##### `requestParameters`<sup>Optional</sup> <a name="requestParameters" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.requestParameters"></a>
+
+```typescript
+public readonly requestParameters: string;
+```
+
+- *Type:* string
+
+The request parameters for the route. Supported only for WebSocket APIs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#request_parameters Apigatewayv2Route#request_parameters}
+
+---
+
+##### `routeResponseSelectionExpression`<sup>Optional</sup> <a name="routeResponseSelectionExpression" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.routeResponseSelectionExpression"></a>
+
+```typescript
+public readonly routeResponseSelectionExpression: string;
+```
+
+- *Type:* string
+
+The route response selection expression for the route. Supported only for WebSocket APIs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#route_response_selection_expression Apigatewayv2Route#route_response_selection_expression}
+
+---
+
+##### `target`<sup>Optional</sup> <a name="target" id="@cdktn/provider-awscc.apigatewayv2Route.Apigatewayv2RouteConfig.property.target"></a>
+
+```typescript
+public readonly target: string;
+```
+
+- *Type:* string
+
+The target for the route.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_route#target Apigatewayv2Route#target}
+
+---
+
+
+
