@@ -1,0 +1,1981 @@
+# `ec2TransitGateway` Submodule <a name="`ec2TransitGateway` Submodule" id="@cdktn/provider-awscc.ec2TransitGateway"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### Ec2TransitGateway <a name="Ec2TransitGateway" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.NewEc2TransitGateway(scope Construct, id *string, config Ec2TransitGatewayConfig) Ec2TransitGateway
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig">Ec2TransitGatewayConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer.parameter.id"></a>
+
+- *Type:* *string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Optional</sup> <a name="config" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig">Ec2TransitGatewayConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.with">With</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.putTags">PutTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetAmazonSideAsn">ResetAmazonSideAsn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetAssociationDefaultRouteTableId">ResetAssociationDefaultRouteTableId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetAutoAcceptSharedAttachments">ResetAutoAcceptSharedAttachments</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDefaultRouteTableAssociation">ResetDefaultRouteTableAssociation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDefaultRouteTablePropagation">ResetDefaultRouteTablePropagation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDnsSupport">ResetDnsSupport</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetEncryptionSupport">ResetEncryptionSupport</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetMulticastSupport">ResetMulticastSupport</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetPropagationDefaultRouteTableId">ResetPropagationDefaultRouteTableId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetSecurityGroupReferencingSupport">ResetSecurityGroupReferencingSupport</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetTags">ResetTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetTransitGatewayCidrBlocks">ResetTransitGatewayCidrBlocks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetVpnEcmpSupport">ResetVpnEcmpSupport</a></code> | *No description.* |
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Returns a string representation of this construct.
+
+##### `With` <a name="With" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.with"></a>
+
+```go
+func With(mixins ...IMixin) IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.with.parameter.mixins"></a>
+
+- *Type:* ...github.com/aws/constructs-go/constructs/v10.IMixin
+
+The mixins to apply.
+
+---
+
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addOverride"></a>
+
+```go
+func AddOverride(path *string, value interface{})
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addOverride.parameter.path"></a>
+
+- *Type:* *string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addOverride.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.overrideLogicalId"></a>
+
+```go
+func OverrideLogicalId(newLogicalId *string)
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* *string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetOverrideLogicalId"></a>
+
+```go
+func ResetOverrideLogicalId()
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
+
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toMetadata"></a>
+
+```go
+func ToMetadata() interface{}
+```
+
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.toTerraform"></a>
+
+```go
+func ToTerraform() interface{}
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addMoveTarget"></a>
+
+```go
+func AddMoveTarget(moveTarget *string)
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.hasResourceMove"></a>
+
+```go
+func HasResourceMove() interface{}
+```
+
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.importFrom"></a>
+
+```go
+func ImportFrom(id *string, provider TerraformProvider)
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.importFrom.parameter.id"></a>
+
+- *Type:* *string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.importFrom.parameter.provider"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveFromId"></a>
+
+```go
+func MoveFromId(id *string)
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveFromId.parameter.id"></a>
+
+- *Type:* *string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveTo"></a>
+
+```go
+func MoveTo(moveTarget *string, index interface{})
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveTo.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveTo.parameter.index"></a>
+
+- *Type:* interface{}
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveToId"></a>
+
+```go
+func MoveToId(id *string)
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.moveToId.parameter.id"></a>
+
+- *Type:* *string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `PutTags` <a name="PutTags" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.putTags"></a>
+
+```go
+func PutTags(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.putTags.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `ResetAmazonSideAsn` <a name="ResetAmazonSideAsn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetAmazonSideAsn"></a>
+
+```go
+func ResetAmazonSideAsn()
+```
+
+##### `ResetAssociationDefaultRouteTableId` <a name="ResetAssociationDefaultRouteTableId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetAssociationDefaultRouteTableId"></a>
+
+```go
+func ResetAssociationDefaultRouteTableId()
+```
+
+##### `ResetAutoAcceptSharedAttachments` <a name="ResetAutoAcceptSharedAttachments" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetAutoAcceptSharedAttachments"></a>
+
+```go
+func ResetAutoAcceptSharedAttachments()
+```
+
+##### `ResetDefaultRouteTableAssociation` <a name="ResetDefaultRouteTableAssociation" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDefaultRouteTableAssociation"></a>
+
+```go
+func ResetDefaultRouteTableAssociation()
+```
+
+##### `ResetDefaultRouteTablePropagation` <a name="ResetDefaultRouteTablePropagation" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDefaultRouteTablePropagation"></a>
+
+```go
+func ResetDefaultRouteTablePropagation()
+```
+
+##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDescription"></a>
+
+```go
+func ResetDescription()
+```
+
+##### `ResetDnsSupport` <a name="ResetDnsSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetDnsSupport"></a>
+
+```go
+func ResetDnsSupport()
+```
+
+##### `ResetEncryptionSupport` <a name="ResetEncryptionSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetEncryptionSupport"></a>
+
+```go
+func ResetEncryptionSupport()
+```
+
+##### `ResetMulticastSupport` <a name="ResetMulticastSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetMulticastSupport"></a>
+
+```go
+func ResetMulticastSupport()
+```
+
+##### `ResetPropagationDefaultRouteTableId` <a name="ResetPropagationDefaultRouteTableId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetPropagationDefaultRouteTableId"></a>
+
+```go
+func ResetPropagationDefaultRouteTableId()
+```
+
+##### `ResetSecurityGroupReferencingSupport` <a name="ResetSecurityGroupReferencingSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetSecurityGroupReferencingSupport"></a>
+
+```go
+func ResetSecurityGroupReferencingSupport()
+```
+
+##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetTags"></a>
+
+```go
+func ResetTags()
+```
+
+##### `ResetTransitGatewayCidrBlocks` <a name="ResetTransitGatewayCidrBlocks" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetTransitGatewayCidrBlocks"></a>
+
+```go
+func ResetTransitGatewayCidrBlocks()
+```
+
+##### `ResetVpnEcmpSupport` <a name="ResetVpnEcmpSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.resetVpnEcmpSupport"></a>
+
+```go
+func ResetVpnEcmpSupport()
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a Ec2TransitGateway resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isConstruct"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.Ec2TransitGateway_IsConstruct(x interface{}) *bool
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isConstruct.parameter.x"></a>
+
+- *Type:* interface{}
+
+Any object.
+
+---
+
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isTerraformElement"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.Ec2TransitGateway_IsTerraformElement(x interface{}) *bool
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isTerraformElement.parameter.x"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isTerraformResource"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.Ec2TransitGateway_IsTerraformResource(x interface{}) *bool
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.isTerraformResource.parameter.x"></a>
+
+- *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.Ec2TransitGateway_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTN code for importing a Ec2TransitGateway resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the Ec2TransitGateway to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing Ec2TransitGateway that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
+
+? Optional instance of the provider where the Ec2TransitGateway to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.encryptionSupportState">EncryptionSupportState</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList">Ec2TransitGatewayTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayArn">TransitGatewayArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayId">TransitGatewayId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.amazonSideAsnInput">AmazonSideAsnInput</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.associationDefaultRouteTableIdInput">AssociationDefaultRouteTableIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.autoAcceptSharedAttachmentsInput">AutoAcceptSharedAttachmentsInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTableAssociationInput">DefaultRouteTableAssociationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTablePropagationInput">DefaultRouteTablePropagationInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.dnsSupportInput">DnsSupportInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.encryptionSupportInput">EncryptionSupportInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.multicastSupportInput">MulticastSupportInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.propagationDefaultRouteTableIdInput">PropagationDefaultRouteTableIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.securityGroupReferencingSupportInput">SecurityGroupReferencingSupportInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.tagsInput">TagsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayCidrBlocksInput">TransitGatewayCidrBlocksInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.vpnEcmpSupportInput">VpnEcmpSupportInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.amazonSideAsn">AmazonSideAsn</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.associationDefaultRouteTableId">AssociationDefaultRouteTableId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.autoAcceptSharedAttachments">AutoAcceptSharedAttachments</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTableAssociation">DefaultRouteTableAssociation</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTablePropagation">DefaultRouteTablePropagation</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.dnsSupport">DnsSupport</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.encryptionSupport">EncryptionSupport</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.multicastSupport">MulticastSupport</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.propagationDefaultRouteTableId">PropagationDefaultRouteTableId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.securityGroupReferencingSupport">SecurityGroupReferencingSupport</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayCidrBlocks">TransitGatewayCidrBlocks</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.vpnEcmpSupport">VpnEcmpSupport</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.node"></a>
+
+```go
+func Node() Node
+```
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Node
+
+The tree node.
+
+---
+
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.cdktfStack"></a>
+
+```go
+func CdktfStack() TerraformStack
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.friendlyUniqueId"></a>
+
+```go
+func FriendlyUniqueId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.terraformMetaArguments"></a>
+
+```go
+func TerraformMetaArguments() *map[string]interface{}
+```
+
+- *Type:* *map[string]interface{}
+
+---
+
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.terraformResourceType"></a>
+
+```go
+func TerraformResourceType() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.terraformGeneratorMetadata"></a>
+
+```go
+func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.connection"></a>
+
+```go
+func Connection() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.count"></a>
+
+```go
+func Count() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.dependsOn"></a>
+
+```go
+func DependsOn() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.forEach"></a>
+
+```go
+func ForEach() ITerraformIterator
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
+
+---
+
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.lifecycle"></a>
+
+```go
+func Lifecycle() TerraformResourceLifecycle
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
+
+---
+
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.provider"></a>
+
+```go
+func Provider() TerraformProvider
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
+
+---
+
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.provisioners"></a>
+
+```go
+func Provisioners() *[]interface{}
+```
+
+- *Type:* *[]interface{}
+
+---
+
+##### `EncryptionSupportState`<sup>Required</sup> <a name="EncryptionSupportState" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.encryptionSupportState"></a>
+
+```go
+func EncryptionSupportState() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.id"></a>
+
+```go
+func Id() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.tags"></a>
+
+```go
+func Tags() Ec2TransitGatewayTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList">Ec2TransitGatewayTagsList</a>
+
+---
+
+##### `TransitGatewayArn`<sup>Required</sup> <a name="TransitGatewayArn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayArn"></a>
+
+```go
+func TransitGatewayArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TransitGatewayId`<sup>Required</sup> <a name="TransitGatewayId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayId"></a>
+
+```go
+func TransitGatewayId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AmazonSideAsnInput`<sup>Optional</sup> <a name="AmazonSideAsnInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.amazonSideAsnInput"></a>
+
+```go
+func AmazonSideAsnInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `AssociationDefaultRouteTableIdInput`<sup>Optional</sup> <a name="AssociationDefaultRouteTableIdInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.associationDefaultRouteTableIdInput"></a>
+
+```go
+func AssociationDefaultRouteTableIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AutoAcceptSharedAttachmentsInput`<sup>Optional</sup> <a name="AutoAcceptSharedAttachmentsInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.autoAcceptSharedAttachmentsInput"></a>
+
+```go
+func AutoAcceptSharedAttachmentsInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DefaultRouteTableAssociationInput`<sup>Optional</sup> <a name="DefaultRouteTableAssociationInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTableAssociationInput"></a>
+
+```go
+func DefaultRouteTableAssociationInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DefaultRouteTablePropagationInput`<sup>Optional</sup> <a name="DefaultRouteTablePropagationInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTablePropagationInput"></a>
+
+```go
+func DefaultRouteTablePropagationInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.descriptionInput"></a>
+
+```go
+func DescriptionInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DnsSupportInput`<sup>Optional</sup> <a name="DnsSupportInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.dnsSupportInput"></a>
+
+```go
+func DnsSupportInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EncryptionSupportInput`<sup>Optional</sup> <a name="EncryptionSupportInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.encryptionSupportInput"></a>
+
+```go
+func EncryptionSupportInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MulticastSupportInput`<sup>Optional</sup> <a name="MulticastSupportInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.multicastSupportInput"></a>
+
+```go
+func MulticastSupportInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PropagationDefaultRouteTableIdInput`<sup>Optional</sup> <a name="PropagationDefaultRouteTableIdInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.propagationDefaultRouteTableIdInput"></a>
+
+```go
+func PropagationDefaultRouteTableIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SecurityGroupReferencingSupportInput`<sup>Optional</sup> <a name="SecurityGroupReferencingSupportInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.securityGroupReferencingSupportInput"></a>
+
+```go
+func SecurityGroupReferencingSupportInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TagsInput`<sup>Optional</sup> <a name="TagsInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.tagsInput"></a>
+
+```go
+func TagsInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `TransitGatewayCidrBlocksInput`<sup>Optional</sup> <a name="TransitGatewayCidrBlocksInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayCidrBlocksInput"></a>
+
+```go
+func TransitGatewayCidrBlocksInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `VpnEcmpSupportInput`<sup>Optional</sup> <a name="VpnEcmpSupportInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.vpnEcmpSupportInput"></a>
+
+```go
+func VpnEcmpSupportInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AmazonSideAsn`<sup>Required</sup> <a name="AmazonSideAsn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.amazonSideAsn"></a>
+
+```go
+func AmazonSideAsn() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `AssociationDefaultRouteTableId`<sup>Required</sup> <a name="AssociationDefaultRouteTableId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.associationDefaultRouteTableId"></a>
+
+```go
+func AssociationDefaultRouteTableId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AutoAcceptSharedAttachments`<sup>Required</sup> <a name="AutoAcceptSharedAttachments" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.autoAcceptSharedAttachments"></a>
+
+```go
+func AutoAcceptSharedAttachments() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DefaultRouteTableAssociation`<sup>Required</sup> <a name="DefaultRouteTableAssociation" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTableAssociation"></a>
+
+```go
+func DefaultRouteTableAssociation() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DefaultRouteTablePropagation`<sup>Required</sup> <a name="DefaultRouteTablePropagation" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.defaultRouteTablePropagation"></a>
+
+```go
+func DefaultRouteTablePropagation() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.description"></a>
+
+```go
+func Description() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DnsSupport`<sup>Required</sup> <a name="DnsSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.dnsSupport"></a>
+
+```go
+func DnsSupport() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EncryptionSupport`<sup>Required</sup> <a name="EncryptionSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.encryptionSupport"></a>
+
+```go
+func EncryptionSupport() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `MulticastSupport`<sup>Required</sup> <a name="MulticastSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.multicastSupport"></a>
+
+```go
+func MulticastSupport() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `PropagationDefaultRouteTableId`<sup>Required</sup> <a name="PropagationDefaultRouteTableId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.propagationDefaultRouteTableId"></a>
+
+```go
+func PropagationDefaultRouteTableId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SecurityGroupReferencingSupport`<sup>Required</sup> <a name="SecurityGroupReferencingSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.securityGroupReferencingSupport"></a>
+
+```go
+func SecurityGroupReferencingSupport() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TransitGatewayCidrBlocks`<sup>Required</sup> <a name="TransitGatewayCidrBlocks" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.transitGatewayCidrBlocks"></a>
+
+```go
+func TransitGatewayCidrBlocks() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `VpnEcmpSupport`<sup>Required</sup> <a name="VpnEcmpSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.vpnEcmpSupport"></a>
+
+```go
+func VpnEcmpSupport() *string
+```
+
+- *Type:* *string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGateway.property.tfResourceType"></a>
+
+```go
+func TfResourceType() *string
+```
+
+- *Type:* *string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### Ec2TransitGatewayConfig <a name="Ec2TransitGatewayConfig" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+&ec2transitgateway.Ec2TransitGatewayConfig {
+	Connection: interface{},
+	Count: interface{},
+	DependsOn: *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable,
+	ForEach: github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator,
+	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
+	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
+	Provisioners: *[]interface{},
+	AmazonSideAsn: *f64,
+	AssociationDefaultRouteTableId: *string,
+	AutoAcceptSharedAttachments: *string,
+	DefaultRouteTableAssociation: *string,
+	DefaultRouteTablePropagation: *string,
+	Description: *string,
+	DnsSupport: *string,
+	EncryptionSupport: *string,
+	MulticastSupport: *string,
+	PropagationDefaultRouteTableId: *string,
+	SecurityGroupReferencingSupport: *string,
+	Tags: interface{},
+	TransitGatewayCidrBlocks: *[]*string,
+	VpnEcmpSupport: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.amazonSideAsn">AmazonSideAsn</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#amazon_side_asn Ec2TransitGateway#amazon_side_asn}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.associationDefaultRouteTableId">AssociationDefaultRouteTableId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#association_default_route_table_id Ec2TransitGateway#association_default_route_table_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.autoAcceptSharedAttachments">AutoAcceptSharedAttachments</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#auto_accept_shared_attachments Ec2TransitGateway#auto_accept_shared_attachments}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.defaultRouteTableAssociation">DefaultRouteTableAssociation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#default_route_table_association Ec2TransitGateway#default_route_table_association}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.defaultRouteTablePropagation">DefaultRouteTablePropagation</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#default_route_table_propagation Ec2TransitGateway#default_route_table_propagation}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#description Ec2TransitGateway#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.dnsSupport">DnsSupport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#dns_support Ec2TransitGateway#dns_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.encryptionSupport">EncryptionSupport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#encryption_support Ec2TransitGateway#encryption_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.multicastSupport">MulticastSupport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#multicast_support Ec2TransitGateway#multicast_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.propagationDefaultRouteTableId">PropagationDefaultRouteTableId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#propagation_default_route_table_id Ec2TransitGateway#propagation_default_route_table_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.securityGroupReferencingSupport">SecurityGroupReferencingSupport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#security_group_referencing_support Ec2TransitGateway#security_group_referencing_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#tags Ec2TransitGateway#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.transitGatewayCidrBlocks">TransitGatewayCidrBlocks</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#transit_gateway_cidr_blocks Ec2TransitGateway#transit_gateway_cidr_blocks}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.vpnEcmpSupport">VpnEcmpSupport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#vpn_ecmp_support Ec2TransitGateway#vpn_ecmp_support}. |
+
+---
+
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.connection"></a>
+
+```go
+Connection interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.count"></a>
+
+```go
+Count interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.dependsOn"></a>
+
+```go
+DependsOn *[]ITerraformDependable
+```
+
+- *Type:* *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable
+
+---
+
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.forEach"></a>
+
+```go
+ForEach ITerraformIterator
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
+
+---
+
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.lifecycle"></a>
+
+```go
+Lifecycle TerraformResourceLifecycle
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
+
+---
+
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.provider"></a>
+
+```go
+Provider TerraformProvider
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
+
+---
+
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.provisioners"></a>
+
+```go
+Provisioners *[]interface{}
+```
+
+- *Type:* *[]interface{}
+
+---
+
+##### `AmazonSideAsn`<sup>Optional</sup> <a name="AmazonSideAsn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.amazonSideAsn"></a>
+
+```go
+AmazonSideAsn *f64
+```
+
+- *Type:* *f64
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#amazon_side_asn Ec2TransitGateway#amazon_side_asn}.
+
+---
+
+##### `AssociationDefaultRouteTableId`<sup>Optional</sup> <a name="AssociationDefaultRouteTableId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.associationDefaultRouteTableId"></a>
+
+```go
+AssociationDefaultRouteTableId *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#association_default_route_table_id Ec2TransitGateway#association_default_route_table_id}.
+
+---
+
+##### `AutoAcceptSharedAttachments`<sup>Optional</sup> <a name="AutoAcceptSharedAttachments" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.autoAcceptSharedAttachments"></a>
+
+```go
+AutoAcceptSharedAttachments *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#auto_accept_shared_attachments Ec2TransitGateway#auto_accept_shared_attachments}.
+
+---
+
+##### `DefaultRouteTableAssociation`<sup>Optional</sup> <a name="DefaultRouteTableAssociation" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.defaultRouteTableAssociation"></a>
+
+```go
+DefaultRouteTableAssociation *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#default_route_table_association Ec2TransitGateway#default_route_table_association}.
+
+---
+
+##### `DefaultRouteTablePropagation`<sup>Optional</sup> <a name="DefaultRouteTablePropagation" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.defaultRouteTablePropagation"></a>
+
+```go
+DefaultRouteTablePropagation *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#default_route_table_propagation Ec2TransitGateway#default_route_table_propagation}.
+
+---
+
+##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.description"></a>
+
+```go
+Description *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#description Ec2TransitGateway#description}.
+
+---
+
+##### `DnsSupport`<sup>Optional</sup> <a name="DnsSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.dnsSupport"></a>
+
+```go
+DnsSupport *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#dns_support Ec2TransitGateway#dns_support}.
+
+---
+
+##### `EncryptionSupport`<sup>Optional</sup> <a name="EncryptionSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.encryptionSupport"></a>
+
+```go
+EncryptionSupport *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#encryption_support Ec2TransitGateway#encryption_support}.
+
+---
+
+##### `MulticastSupport`<sup>Optional</sup> <a name="MulticastSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.multicastSupport"></a>
+
+```go
+MulticastSupport *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#multicast_support Ec2TransitGateway#multicast_support}.
+
+---
+
+##### `PropagationDefaultRouteTableId`<sup>Optional</sup> <a name="PropagationDefaultRouteTableId" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.propagationDefaultRouteTableId"></a>
+
+```go
+PropagationDefaultRouteTableId *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#propagation_default_route_table_id Ec2TransitGateway#propagation_default_route_table_id}.
+
+---
+
+##### `SecurityGroupReferencingSupport`<sup>Optional</sup> <a name="SecurityGroupReferencingSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.securityGroupReferencingSupport"></a>
+
+```go
+SecurityGroupReferencingSupport *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#security_group_referencing_support Ec2TransitGateway#security_group_referencing_support}.
+
+---
+
+##### `Tags`<sup>Optional</sup> <a name="Tags" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.tags"></a>
+
+```go
+Tags interface{}
+```
+
+- *Type:* interface{}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#tags Ec2TransitGateway#tags}.
+
+---
+
+##### `TransitGatewayCidrBlocks`<sup>Optional</sup> <a name="TransitGatewayCidrBlocks" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.transitGatewayCidrBlocks"></a>
+
+```go
+TransitGatewayCidrBlocks *[]*string
+```
+
+- *Type:* *[]*string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#transit_gateway_cidr_blocks Ec2TransitGateway#transit_gateway_cidr_blocks}.
+
+---
+
+##### `VpnEcmpSupport`<sup>Optional</sup> <a name="VpnEcmpSupport" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayConfig.property.vpnEcmpSupport"></a>
+
+```go
+VpnEcmpSupport *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#vpn_ecmp_support Ec2TransitGateway#vpn_ecmp_support}.
+
+---
+
+### Ec2TransitGatewayTags <a name="Ec2TransitGatewayTags" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTags.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+&ec2transitgateway.Ec2TransitGatewayTags {
+	Key: *string,
+	Value: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#key Ec2TransitGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#value Ec2TransitGateway#value}. |
+
+---
+
+##### `Key`<sup>Optional</sup> <a name="Key" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTags.property.key"></a>
+
+```go
+Key *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#key Ec2TransitGateway#key}.
+
+---
+
+##### `Value`<sup>Optional</sup> <a name="Value" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTags.property.value"></a>
+
+```go
+Value *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway#value Ec2TransitGateway#value}.
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### Ec2TransitGatewayTagsList <a name="Ec2TransitGatewayTagsList" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.NewEc2TransitGatewayTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) Ec2TransitGatewayTagsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.get"></a>
+
+```go
+func Get(index *f64) Ec2TransitGatewayTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### Ec2TransitGatewayTagsOutputReference <a name="Ec2TransitGatewayTagsOutputReference" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway"
+
+ec2transitgateway.NewEc2TransitGatewayTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) Ec2TransitGatewayTagsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resetKey">ResetKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resetValue">ResetValue</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetKey` <a name="ResetKey" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resetKey"></a>
+
+```go
+func ResetKey()
+```
+
+##### `ResetValue` <a name="ResetValue" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.resetValue"></a>
+
+```go
+func ResetValue()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.keyInput">KeyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KeyInput`<sup>Optional</sup> <a name="KeyInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.keyInput"></a>
+
+```go
+func KeyInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.valueInput"></a>
+
+```go
+func ValueInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.key"></a>
+
+```go
+func Key() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.value"></a>
+
+```go
+func Value() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.ec2TransitGateway.Ec2TransitGatewayTagsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+
