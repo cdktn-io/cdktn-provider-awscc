@@ -4,7 +4,7 @@
 
 ### StepfunctionsStateMachineVersion <a name="StepfunctionsStateMachineVersion" id="@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer"></a>
 
@@ -36,9 +36,9 @@ StepfunctionsStateMachineVersion.Builder.create(Construct scope, java.lang.Strin
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.stateMachineArn">stateMachineArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.stateMachineRevisionId">stateMachineRevisionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.stateMachineArn">stateMachineArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersion.Initializer.parameter.stateMachineRevisionId">stateMachineRevisionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}.
 
 ---
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the StepfunctionsStateMachineV
 
 The id of the existing StepfunctionsStateMachineVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -900,9 +900,9 @@ StepfunctionsStateMachineVersionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.stateMachineArn">stateMachineArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}. |
-| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.stateMachineRevisionId">stateMachineRevisionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.stateMachineArn">stateMachineArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}. |
+| <code><a href="#@cdktn/provider-awscc.stepfunctionsStateMachineVersion.StepfunctionsStateMachineVersionConfig.property.stateMachineRevisionId">stateMachineRevisionId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}. |
 
 ---
 
@@ -984,7 +984,7 @@ public java.lang.String getStateMachineArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_arn StepfunctionsStateMachineVersion#state_machine_arn}.
 
 ---
 
@@ -996,7 +996,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#description StepfunctionsStateMachineVersion#description}.
 
 ---
 
@@ -1008,7 +1008,7 @@ public java.lang.String getStateMachineRevisionId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version#state_machine_revision_id StepfunctionsStateMachineVersion#state_machine_revision_id}.
 
 ---
 

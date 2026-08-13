@@ -4,7 +4,7 @@
 
 ### LightsailDatabase <a name="LightsailDatabase" id="@cdktn/provider-awscc.lightsailDatabase.LightsailDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database awscc_lightsail_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database awscc_lightsail_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDatabase.LightsailDatabase.Initializer"></a>
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the LightsailDatabase to impor
 
 The id of the existing LightsailDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1253,7 +1253,7 @@ The name of the database to create when the Lightsail database resource is creat
 
 For MySQL, if this parameter isn't specified, no database is created in the database resource. For PostgreSQL, if this parameter isn't specified, a database named postgres is created in the database resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#master_database_name LightsailDatabase#master_database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#master_database_name LightsailDatabase#master_database_name}
 
 ---
 
@@ -1267,7 +1267,7 @@ public readonly masterUsername: string;
 
 The name for the master user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#master_username LightsailDatabase#master_username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#master_username LightsailDatabase#master_username}
 
 ---
 
@@ -1281,7 +1281,7 @@ public readonly relationalDatabaseBlueprintId: string;
 
 The blueprint ID for your new database. A blueprint describes the major engine version of a database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#relational_database_blueprint_id LightsailDatabase#relational_database_blueprint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#relational_database_blueprint_id LightsailDatabase#relational_database_blueprint_id}
 
 ---
 
@@ -1295,7 +1295,7 @@ public readonly relationalDatabaseBundleId: string;
 
 The bundle ID for your new database. A bundle describes the performance specifications for your database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#relational_database_bundle_id LightsailDatabase#relational_database_bundle_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#relational_database_bundle_id LightsailDatabase#relational_database_bundle_id}
 
 ---
 
@@ -1309,7 +1309,7 @@ public readonly relationalDatabaseName: string;
 
 The name to use for your new Lightsail database resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#relational_database_name LightsailDatabase#relational_database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#relational_database_name LightsailDatabase#relational_database_name}
 
 ---
 
@@ -1323,7 +1323,7 @@ public readonly availabilityZone: string;
 
 The Availability Zone in which to create your new database. Use the us-east-2a case-sensitive format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#availability_zone LightsailDatabase#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#availability_zone LightsailDatabase#availability_zone}
 
 ---
 
@@ -1339,7 +1339,7 @@ When true, enables automated backup retention for your database.
 
 Updates are applied during the next maintenance window because this can result in an outage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#backup_retention LightsailDatabase#backup_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#backup_retention LightsailDatabase#backup_retention}
 
 ---
 
@@ -1353,7 +1353,7 @@ public readonly caCertificateIdentifier: string;
 
 Indicates the certificate that needs to be associated with the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#ca_certificate_identifier LightsailDatabase#ca_certificate_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#ca_certificate_identifier LightsailDatabase#ca_certificate_identifier}
 
 ---
 
@@ -1369,7 +1369,7 @@ The password for the master user.
 
 The password can include any printable ASCII character except "/", """, or "@". It cannot contain spaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#master_user_password LightsailDatabase#master_user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#master_user_password LightsailDatabase#master_user_password}
 
 ---
 
@@ -1383,7 +1383,7 @@ public readonly preferredBackupWindow: string;
 
 The daily time range during which automated backups are created for your new database if automated backups are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#preferred_backup_window LightsailDatabase#preferred_backup_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#preferred_backup_window LightsailDatabase#preferred_backup_window}
 
 ---
 
@@ -1397,7 +1397,7 @@ public readonly preferredMaintenanceWindow: string;
 
 The weekly time range during which system maintenance can occur on your new database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#preferred_maintenance_window LightsailDatabase#preferred_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#preferred_maintenance_window LightsailDatabase#preferred_maintenance_window}
 
 ---
 
@@ -1413,7 +1413,7 @@ Specifies the accessibility options for your new database.
 
 A value of true specifies a database that is available to resources outside of your Lightsail account. A value of false specifies a database that is available only to your Lightsail resources in the same region as your database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#publicly_accessible LightsailDatabase#publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#publicly_accessible LightsailDatabase#publicly_accessible}
 
 ---
 
@@ -1427,7 +1427,7 @@ public readonly relationalDatabaseParameters: IResolvable | LightsailDatabaseRel
 
 Update one or more parameters of the relational database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#relational_database_parameters LightsailDatabase#relational_database_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#relational_database_parameters LightsailDatabase#relational_database_parameters}
 
 ---
 
@@ -1443,7 +1443,7 @@ When true, the master user password is changed to a new strong password generate
 
 Use the get relational database master user password operation to get the new password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#rotate_master_user_password LightsailDatabase#rotate_master_user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#rotate_master_user_password LightsailDatabase#rotate_master_user_password}
 
 ---
 
@@ -1457,7 +1457,7 @@ public readonly tags: IResolvable | LightsailDatabaseTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#tags LightsailDatabase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#tags LightsailDatabase#tags}
 
 ---
 
@@ -1496,7 +1496,7 @@ public readonly allowedValues: string;
 
 Specifies the valid range of values for the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#allowed_values LightsailDatabase#allowed_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#allowed_values LightsailDatabase#allowed_values}
 
 ---
 
@@ -1510,7 +1510,7 @@ public readonly applyMethod: string;
 
 Indicates when parameter updates are applied. Can be immediate or pending-reboot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#apply_method LightsailDatabase#apply_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#apply_method LightsailDatabase#apply_method}
 
 ---
 
@@ -1524,7 +1524,7 @@ public readonly applyType: string;
 
 Specifies the engine-specific parameter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#apply_type LightsailDatabase#apply_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#apply_type LightsailDatabase#apply_type}
 
 ---
 
@@ -1538,7 +1538,7 @@ public readonly dataType: string;
 
 Specifies the valid data type for the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#data_type LightsailDatabase#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#data_type LightsailDatabase#data_type}
 
 ---
 
@@ -1552,7 +1552,7 @@ public readonly description: string;
 
 Provides a description of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#description LightsailDatabase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#description LightsailDatabase#description}
 
 ---
 
@@ -1566,7 +1566,7 @@ public readonly isModifiable: boolean | IResolvable;
 
 A Boolean value indicating whether the parameter can be modified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#is_modifiable LightsailDatabase#is_modifiable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#is_modifiable LightsailDatabase#is_modifiable}
 
 ---
 
@@ -1580,7 +1580,7 @@ public readonly parameterName: string;
 
 Specifies the name of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#parameter_name LightsailDatabase#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#parameter_name LightsailDatabase#parameter_name}
 
 ---
 
@@ -1594,7 +1594,7 @@ public readonly parameterValue: string;
 
 Specifies the value of the parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#parameter_value LightsailDatabase#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#parameter_value LightsailDatabase#parameter_value}
 
 ---
 
@@ -1629,7 +1629,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#key LightsailDatabase#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#key LightsailDatabase#key}
 
 ---
 
@@ -1645,7 +1645,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database#value LightsailDatabase#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database#value LightsailDatabase#value}
 
 ---
 

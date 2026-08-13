@@ -4,7 +4,7 @@
 
 ### ConnectNotification <a name="ConnectNotification" id="@cdktn/provider-awscc.connectNotification.ConnectNotification"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification awscc_connect_notification}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification awscc_connect_notification}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectNotification.ConnectNotification.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the ConnectNotification to imp
 
 The id of the existing ConnectNotification that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1038,7 +1038,7 @@ public ConnectNotificationContent Content { get; set; }
 
 The content of the notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#content ConnectNotification#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#content ConnectNotification#content}
 
 ---
 
@@ -1052,7 +1052,7 @@ public string InstanceArn { get; set; }
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#instance_arn ConnectNotification#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#instance_arn ConnectNotification#instance_arn}
 
 ---
 
@@ -1066,7 +1066,7 @@ public string ExpiresAt { get; set; }
 
 The time a notification will expire.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#expires_at ConnectNotification#expires_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#expires_at ConnectNotification#expires_at}
 
 ---
 
@@ -1080,7 +1080,7 @@ public string Priority { get; set; }
 
 The priority of the notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#priority ConnectNotification#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#priority ConnectNotification#priority}
 
 ---
 
@@ -1094,7 +1094,7 @@ public string[] Recipients { get; set; }
 
 The recipients of the notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#recipients ConnectNotification#recipients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#recipients ConnectNotification#recipients}
 
 ---
 
@@ -1108,7 +1108,7 @@ public IResolvable|ConnectNotificationTags[] Tags { get; set; }
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#tags ConnectNotification#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#tags ConnectNotification#tags}
 
 ---
 
@@ -1162,7 +1162,7 @@ public string DeDe { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#de_de ConnectNotification#de_de}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#de_de ConnectNotification#de_de}
 
 ---
 
@@ -1176,7 +1176,7 @@ public string EnUs { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#en_us ConnectNotification#en_us}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#en_us ConnectNotification#en_us}
 
 ---
 
@@ -1190,7 +1190,7 @@ public string EsEs { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#es_es ConnectNotification#es_es}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#es_es ConnectNotification#es_es}
 
 ---
 
@@ -1204,7 +1204,7 @@ public string FrFr { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#fr_fr ConnectNotification#fr_fr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#fr_fr ConnectNotification#fr_fr}
 
 ---
 
@@ -1218,7 +1218,7 @@ public string IdId { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#id_id ConnectNotification#id_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#id_id ConnectNotification#id_id}
 
 ---
 
@@ -1232,7 +1232,7 @@ public string ItIt { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#it_it ConnectNotification#it_it}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#it_it ConnectNotification#it_it}
 
 ---
 
@@ -1246,7 +1246,7 @@ public string JaJp { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#ja_jp ConnectNotification#ja_jp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#ja_jp ConnectNotification#ja_jp}
 
 ---
 
@@ -1260,7 +1260,7 @@ public string KoKr { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#ko_kr ConnectNotification#ko_kr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#ko_kr ConnectNotification#ko_kr}
 
 ---
 
@@ -1274,7 +1274,7 @@ public string PtBr { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#pt_br ConnectNotification#pt_br}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#pt_br ConnectNotification#pt_br}
 
 ---
 
@@ -1288,7 +1288,7 @@ public string ZhCn { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#zh_cn ConnectNotification#zh_cn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#zh_cn ConnectNotification#zh_cn}
 
 ---
 
@@ -1302,7 +1302,7 @@ public string ZhTw { get; set; }
 
 Localized notification content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#zh_tw ConnectNotification#zh_tw}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#zh_tw ConnectNotification#zh_tw}
 
 ---
 
@@ -1340,7 +1340,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#key ConnectNotification#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#key ConnectNotification#key}
 
 ---
 
@@ -1356,7 +1356,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_notification#value ConnectNotification#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_notification#value ConnectNotification#value}
 
 ---
 

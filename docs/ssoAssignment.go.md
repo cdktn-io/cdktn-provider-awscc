@@ -4,7 +4,7 @@
 
 ### SsoAssignment <a name="SsoAssignment" id="@cdktn/provider-awscc.ssoAssignment.SsoAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment awscc_sso_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment awscc_sso_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoAssignment.SsoAssignment.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SsoAssignment to import.
 
 The id of the existing SsoAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -951,7 +951,7 @@ InstanceArn *string
 
 The sso instance that the permission set is owned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#instance_arn SsoAssignment#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#instance_arn SsoAssignment#instance_arn}
 
 ---
 
@@ -965,7 +965,7 @@ PermissionSetArn *string
 
 The permission set that the assignment will be assigned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#permission_set_arn SsoAssignment#permission_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#permission_set_arn SsoAssignment#permission_set_arn}
 
 ---
 
@@ -979,7 +979,7 @@ PrincipalId *string
 
 The assignee's identifier, user id/group id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#principal_id SsoAssignment#principal_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#principal_id SsoAssignment#principal_id}
 
 ---
 
@@ -993,7 +993,7 @@ PrincipalType *string
 
 The assignee's type, user/group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#principal_type SsoAssignment#principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#principal_type SsoAssignment#principal_type}
 
 ---
 
@@ -1007,7 +1007,7 @@ TargetId *string
 
 The account id to be provisioned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#target_id SsoAssignment#target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#target_id SsoAssignment#target_id}
 
 ---
 
@@ -1021,7 +1021,7 @@ TargetType *string
 
 The type of resource to be provisioned to, only aws account now.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sso_assignment#target_type SsoAssignment#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_assignment#target_type SsoAssignment#target_type}
 
 ---
 

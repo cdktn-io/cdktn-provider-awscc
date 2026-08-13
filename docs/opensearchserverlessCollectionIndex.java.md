@@ -4,7 +4,7 @@
 
 ### OpensearchserverlessCollectionIndex <a name="OpensearchserverlessCollectionIndex" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserverlessCollectionIndex.OpensearchserverlessCollectionIndex.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Mappings for the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
 
 ---
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the OpensearchserverlessCollec
 
 The id of the existing OpensearchserverlessCollectionIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -974,7 +974,7 @@ public java.lang.String getCollectionIndexId();
 
 The identifier of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
 
 ---
 
@@ -988,7 +988,7 @@ public java.lang.String getIndexName();
 
 The name of the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
 
 ---
 
@@ -1002,7 +1002,7 @@ public java.lang.String getIndexSchema();
 
 The Mappings for the collection index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
 
 ---
 

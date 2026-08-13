@@ -4,7 +4,7 @@
 
 ### TimestreamDatabase <a name="TimestreamDatabase" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database awscc_timestream_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database awscc_timestream_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabase.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the TimestreamDatabase to impo
 
 The id of the existing TimestreamDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -915,7 +915,7 @@ The name for the database.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#database_name TimestreamDatabase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#database_name TimestreamDatabase#database_name}
 
 ---
 
@@ -931,7 +931,7 @@ The KMS key for the database.
 
 If the KMS key is not specified, the database will be encrypted with a Timestream managed KMS key located in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#kms_key_id TimestreamDatabase#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#kms_key_id TimestreamDatabase#kms_key_id}
 
 ---
 
@@ -945,7 +945,7 @@ public readonly tags: IResolvable | TimestreamDatabaseTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#tags TimestreamDatabase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#tags TimestreamDatabase#tags}
 
 ---
 
@@ -963,8 +963,8 @@ const timestreamDatabaseTags: timestreamDatabase.TimestreamDatabaseTags = { ... 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#key TimestreamDatabase#key}. |
-| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#value TimestreamDatabase#value}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#key TimestreamDatabase#key}. |
+| <code><a href="#@cdktn/provider-awscc.timestreamDatabase.TimestreamDatabaseTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#value TimestreamDatabase#value}. |
 
 ---
 
@@ -976,7 +976,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#key TimestreamDatabase#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#key TimestreamDatabase#key}.
 
 ---
 
@@ -988,7 +988,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/timestream_database#value TimestreamDatabase#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_database#value TimestreamDatabase#value}.
 
 ---
 

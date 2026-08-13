@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockDataAutomationLibraries <a name="DataAwsccBedrockDataAutomationLibraries" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibraries.DataAwsccBedrockDataAutomationLibraries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrock_data_automation_libraries awscc_bedrock_data_automation_libraries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_data_automation_libraries awscc_bedrock_data_automation_libraries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockDataAutomationLibraries.DataAwsccBedrockDataAutomationLibraries.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockDataAutoma
 
 The id of the existing DataAwsccBedrockDataAutomationLibraries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrock_data_automation_libraries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_data_automation_libraries#import import section} in the documentation of this resource for the id to use
 
 ---
 

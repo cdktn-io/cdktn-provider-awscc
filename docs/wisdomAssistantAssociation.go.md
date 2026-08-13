@@ -4,7 +4,7 @@
 
 ### WisdomAssistantAssociation <a name="WisdomAssistantAssociation" id="@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociation.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the WisdomAssistantAssociation
 
 The id of the existing WisdomAssistantAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -866,8 +866,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistantassocia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation.property.externalBedrockKnowledgeBaseConfig">ExternalBedrockKnowledgeBaseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig">WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#external_bedrock_knowledge_base_config WisdomAssistantAssociation#external_bedrock_knowledge_base_config}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation.property.knowledgeBaseId">KnowledgeBaseId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#knowledge_base_id WisdomAssistantAssociation#knowledge_base_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation.property.externalBedrockKnowledgeBaseConfig">ExternalBedrockKnowledgeBaseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig">WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#external_bedrock_knowledge_base_config WisdomAssistantAssociation#external_bedrock_knowledge_base_config}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation.property.knowledgeBaseId">KnowledgeBaseId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#knowledge_base_id WisdomAssistantAssociation#knowledge_base_id}. |
 
 ---
 
@@ -879,7 +879,7 @@ ExternalBedrockKnowledgeBaseConfig WisdomAssistantAssociationAssociationExternal
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig">WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#external_bedrock_knowledge_base_config WisdomAssistantAssociation#external_bedrock_knowledge_base_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#external_bedrock_knowledge_base_config WisdomAssistantAssociation#external_bedrock_knowledge_base_config}.
 
 ---
 
@@ -891,7 +891,7 @@ KnowledgeBaseId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#knowledge_base_id WisdomAssistantAssociation#knowledge_base_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#knowledge_base_id WisdomAssistantAssociation#knowledge_base_id}.
 
 ---
 
@@ -912,8 +912,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistantassocia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig.property.accessRoleArn">AccessRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig.property.bedrockKnowledgeBaseArn">BedrockKnowledgeBaseArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig.property.accessRoleArn">AccessRoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig.property.bedrockKnowledgeBaseArn">BedrockKnowledgeBaseArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}. |
 
 ---
 
@@ -925,7 +925,7 @@ AccessRoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}.
 
 ---
 
@@ -937,7 +937,7 @@ BedrockKnowledgeBaseArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}.
 
 ---
 
@@ -974,10 +974,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistantassocia
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.assistantId">AssistantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#assistant_id WisdomAssistantAssociation#assistant_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.association">Association</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation">WisdomAssistantAssociationAssociation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#association WisdomAssistantAssociation#association}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.associationType">AssociationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#association_type WisdomAssistantAssociation#association_type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#tags WisdomAssistantAssociation#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.assistantId">AssistantId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#assistant_id WisdomAssistantAssociation#assistant_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.association">Association</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation">WisdomAssistantAssociationAssociation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#association WisdomAssistantAssociation#association}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.associationType">AssociationType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#association_type WisdomAssistantAssociation#association_type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#tags WisdomAssistantAssociation#tags}. |
 
 ---
 
@@ -1059,7 +1059,7 @@ AssistantId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#assistant_id WisdomAssistantAssociation#assistant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#assistant_id WisdomAssistantAssociation#assistant_id}.
 
 ---
 
@@ -1071,7 +1071,7 @@ Association WisdomAssistantAssociationAssociation
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationAssociation">WisdomAssistantAssociationAssociation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#association WisdomAssistantAssociation#association}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#association WisdomAssistantAssociation#association}.
 
 ---
 
@@ -1083,7 +1083,7 @@ AssociationType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#association_type WisdomAssistantAssociation#association_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#association_type WisdomAssistantAssociation#association_type}.
 
 ---
 
@@ -1095,7 +1095,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#tags WisdomAssistantAssociation#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#tags WisdomAssistantAssociation#tags}.
 
 ---
 
@@ -1116,8 +1116,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistantassocia
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistantAssociation.WisdomAssistantAssociationTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}. |
 
 ---
 
@@ -1129,7 +1129,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}.
 
 ---
 
@@ -1141,7 +1141,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}.
 
 ---
 

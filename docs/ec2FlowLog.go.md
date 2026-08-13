@@ -4,7 +4,7 @@
 
 ### Ec2FlowLog <a name="Ec2FlowLog" id="@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLog"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log awscc_ec2_flow_log}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log awscc_ec2_flow_log}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLog.Initializer"></a>
 
@@ -605,7 +605,7 @@ The construct id used in the generated config for the Ec2FlowLog to import.
 
 The id of the existing Ec2FlowLog that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1154,7 +1154,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2flowlog"
 | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.resourceType">ResourceType</a></code> | <code>*string</code> | The type of resource for which to create the flow log. |
 | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.deliverCrossAccountRole">DeliverCrossAccountRole</a></code> | <code>*string</code> | The ARN of the IAM role that allows Amazon EC2 to publish flow logs across accounts. |
 | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.deliverLogsPermissionArn">DeliverLogsPermissionArn</a></code> | <code>*string</code> | The ARN for the IAM role that permits Amazon EC2 to publish flow logs to a CloudWatch Logs log group in your account. |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.destinationOptions">DestinationOptions</a></code> | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions">Ec2FlowLogDestinationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#destination_options Ec2FlowLog#destination_options}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.destinationOptions">DestinationOptions</a></code> | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions">Ec2FlowLogDestinationOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#destination_options Ec2FlowLog#destination_options}. |
 | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.logDestination">LogDestination</a></code> | <code>*string</code> | Specifies the destination to which the flow log data is to be published. |
 | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.logDestinationType">LogDestinationType</a></code> | <code>*string</code> | Specifies the type of destination to which the flow log data is to be published. |
 | <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogConfig.property.logFormat">LogFormat</a></code> | <code>*string</code> | The fields to include in the flow log record, in the order in which they should appear. |
@@ -1246,7 +1246,7 @@ ResourceId *string
 
 The ID of the subnet, network interface, or VPC for which you want to create a flow log.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#resource_id Ec2FlowLog#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#resource_id Ec2FlowLog#resource_id}
 
 ---
 
@@ -1262,7 +1262,7 @@ The type of resource for which to create the flow log.
 
 For example, if you specified a VPC ID for the ResourceId property, specify VPC for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}
 
 ---
 
@@ -1276,7 +1276,7 @@ DeliverCrossAccountRole *string
 
 The ARN of the IAM role that allows Amazon EC2 to publish flow logs across accounts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#deliver_cross_account_role Ec2FlowLog#deliver_cross_account_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#deliver_cross_account_role Ec2FlowLog#deliver_cross_account_role}
 
 ---
 
@@ -1292,7 +1292,7 @@ The ARN for the IAM role that permits Amazon EC2 to publish flow logs to a Cloud
 
 If you specify LogDestinationType as s3 or kinesis-data-firehose, do not specify DeliverLogsPermissionArn or LogGroupName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#deliver_logs_permission_arn Ec2FlowLog#deliver_logs_permission_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#deliver_logs_permission_arn Ec2FlowLog#deliver_logs_permission_arn}
 
 ---
 
@@ -1304,7 +1304,7 @@ DestinationOptions Ec2FlowLogDestinationOptions
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions">Ec2FlowLogDestinationOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#destination_options Ec2FlowLog#destination_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#destination_options Ec2FlowLog#destination_options}.
 
 ---
 
@@ -1320,7 +1320,7 @@ Specifies the destination to which the flow log data is to be published.
 
 Flow log data can be published to a CloudWatch Logs log group, an Amazon S3 bucket, or a Kinesis Firehose stream. The value specified for this parameter depends on the value specified for LogDestinationType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#log_destination Ec2FlowLog#log_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#log_destination Ec2FlowLog#log_destination}
 
 ---
 
@@ -1336,7 +1336,7 @@ Specifies the type of destination to which the flow log data is to be published.
 
 Flow log data can be published to CloudWatch Logs or Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#log_destination_type Ec2FlowLog#log_destination_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#log_destination_type Ec2FlowLog#log_destination_type}
 
 ---
 
@@ -1350,7 +1350,7 @@ LogFormat *string
 
 The fields to include in the flow log record, in the order in which they should appear.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#log_format Ec2FlowLog#log_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#log_format Ec2FlowLog#log_format}
 
 ---
 
@@ -1366,7 +1366,7 @@ The name of a new or existing CloudWatch Logs log group where Amazon EC2 publish
 
 If you specify LogDestinationType as s3 or kinesis-data-firehose, do not specify DeliverLogsPermissionArn or LogGroupName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#log_group_name Ec2FlowLog#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#log_group_name Ec2FlowLog#log_group_name}
 
 ---
 
@@ -1382,7 +1382,7 @@ The maximum interval of time during which a flow of packets is captured and aggr
 
 You can specify 60 seconds (1 minute) or 600 seconds (10 minutes).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#max_aggregation_interval Ec2FlowLog#max_aggregation_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#max_aggregation_interval Ec2FlowLog#max_aggregation_interval}
 
 ---
 
@@ -1396,7 +1396,7 @@ TagFieldSpecifications interface{}
 
 The resource types and associated tags for EC2 resources associated with the EC2 Tags feature for log enrichment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#tag_field_specifications Ec2FlowLog#tag_field_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#tag_field_specifications Ec2FlowLog#tag_field_specifications}
 
 ---
 
@@ -1410,7 +1410,7 @@ Tags interface{}
 
 The tags to apply to the flow logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#tags Ec2FlowLog#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#tags Ec2FlowLog#tags}
 
 ---
 
@@ -1424,7 +1424,7 @@ TrafficType *string
 
 The type of traffic to log. You can log traffic that the resource accepts or rejects, or all traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#traffic_type Ec2FlowLog#traffic_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#traffic_type Ec2FlowLog#traffic_type}
 
 ---
 
@@ -1446,9 +1446,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2flowlog"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions.property.fileFormat">FileFormat</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#file_format Ec2FlowLog#file_format}. |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions.property.hiveCompatiblePartitions">HiveCompatiblePartitions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#hive_compatible_partitions Ec2FlowLog#hive_compatible_partitions}. |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions.property.perHourPartition">PerHourPartition</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#per_hour_partition Ec2FlowLog#per_hour_partition}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions.property.fileFormat">FileFormat</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#file_format Ec2FlowLog#file_format}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions.property.hiveCompatiblePartitions">HiveCompatiblePartitions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#hive_compatible_partitions Ec2FlowLog#hive_compatible_partitions}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogDestinationOptions.property.perHourPartition">PerHourPartition</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#per_hour_partition Ec2FlowLog#per_hour_partition}. |
 
 ---
 
@@ -1460,7 +1460,7 @@ FileFormat *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#file_format Ec2FlowLog#file_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#file_format Ec2FlowLog#file_format}.
 
 ---
 
@@ -1472,7 +1472,7 @@ HiveCompatiblePartitions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#hive_compatible_partitions Ec2FlowLog#hive_compatible_partitions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#hive_compatible_partitions Ec2FlowLog#hive_compatible_partitions}.
 
 ---
 
@@ -1484,7 +1484,7 @@ PerHourPartition interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#per_hour_partition Ec2FlowLog#per_hour_partition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#per_hour_partition Ec2FlowLog#per_hour_partition}.
 
 ---
 
@@ -1505,8 +1505,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2flowlog"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTagFieldSpecifications.property.resourceType">ResourceType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTagFieldSpecifications.property.tagKeys">TagKeys</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#tag_keys Ec2FlowLog#tag_keys}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTagFieldSpecifications.property.resourceType">ResourceType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTagFieldSpecifications.property.tagKeys">TagKeys</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#tag_keys Ec2FlowLog#tag_keys}. |
 
 ---
 
@@ -1518,7 +1518,7 @@ ResourceType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#resource_type Ec2FlowLog#resource_type}.
 
 ---
 
@@ -1530,7 +1530,7 @@ TagKeys *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#tag_keys Ec2FlowLog#tag_keys}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#tag_keys Ec2FlowLog#tag_keys}.
 
 ---
 
@@ -1551,8 +1551,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2flowlog"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#key Ec2FlowLog#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#value Ec2FlowLog#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#key Ec2FlowLog#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2FlowLog.Ec2FlowLogTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#value Ec2FlowLog#value}. |
 
 ---
 
@@ -1564,7 +1564,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#key Ec2FlowLog#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#key Ec2FlowLog#key}.
 
 ---
 
@@ -1576,7 +1576,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_flow_log#value Ec2FlowLog#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_flow_log#value Ec2FlowLog#value}.
 
 ---
 

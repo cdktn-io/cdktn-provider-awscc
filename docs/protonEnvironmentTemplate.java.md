@@ -4,7 +4,7 @@
 
 ### ProtonEnvironmentTemplate <a name="ProtonEnvironmentTemplate" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template awscc_proton_environment_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template awscc_proton_environment_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer"></a>
 
@@ -42,8 +42,8 @@ ProtonEnvironmentTemplate.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | <p>A description of the environment template.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | <p>The environment template name as displayed in the developer interface.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.encryptionKey">encryptionKey</a></code> | <code>java.lang.String</code> | <p>A customer provided encryption key that Proton uses to encrypt data.</p>. |
-| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}. |
-| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.provisioning">provisioning</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}. |
+| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}. |
+| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.provisioning">provisioning</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplate.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateTags">ProtonEnvironmentTemplateTags</a>></code> | <p>An optional list of metadata items that you can associate with the Proton environment template. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 <p>A description of the environment template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The environment template name as displayed in the developer interface.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>A customer provided encryption key that Proton uses to encrypt data.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
 
 ---
 
@@ -164,7 +164,7 @@ A tag is a key-value pair.</p>
 <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 <i>Proton User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
 
 ---
 
@@ -668,7 +668,7 @@ The construct id used in the generated config for the ProtonEnvironmentTemplate 
 
 The id of the existing ProtonEnvironmentTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1055,8 +1055,8 @@ ProtonEnvironmentTemplateConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.description">description</a></code> | <code>java.lang.String</code> | <p>A description of the environment template.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | <p>The environment template name as displayed in the developer interface.</p>. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.encryptionKey">encryptionKey</a></code> | <code>java.lang.String</code> | <p>A customer provided encryption key that Proton uses to encrypt data.</p>. |
-| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}. |
-| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.provisioning">provisioning</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}. |
+| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}. |
+| <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.provisioning">provisioning</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}. |
 | <code><a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.protonEnvironmentTemplate.ProtonEnvironmentTemplateTags">ProtonEnvironmentTemplateTags</a>></code> | <p>An optional list of metadata items that you can associate with the Proton environment template. |
 
 ---
@@ -1141,7 +1141,7 @@ public java.lang.String getDescription();
 
 <p>A description of the environment template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
 
 ---
 
@@ -1155,7 +1155,7 @@ public java.lang.String getDisplayName();
 
 <p>The environment template name as displayed in the developer interface.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
 
 ---
 
@@ -1169,7 +1169,7 @@ public java.lang.String getEncryptionKey();
 
 <p>A customer provided encryption key that Proton uses to encrypt data.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
 
 ---
 
@@ -1181,7 +1181,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
 
 ---
 
@@ -1193,7 +1193,7 @@ public java.lang.String getProvisioning();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
 
 ---
 
@@ -1211,7 +1211,7 @@ A tag is a key-value pair.</p>
 <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 <i>Proton User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
 
 ---
 
@@ -1247,7 +1247,7 @@ public java.lang.String getKey();
 
 <p>The key of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#key ProtonEnvironmentTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#key ProtonEnvironmentTemplate#key}
 
 ---
 
@@ -1261,7 +1261,7 @@ public java.lang.String getValue();
 
 <p>The value of the resource tag.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/proton_environment_template#value ProtonEnvironmentTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_environment_template#value ProtonEnvironmentTemplate#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ElementalinferenceDictionary <a name="ElementalinferenceDictionary" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary awscc_elementalinference_dictionary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer"></a>
 
@@ -37,10 +37,10 @@ ElementalinferenceDictionary.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.language">language</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.entries">entries</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.language">language</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.entries">entries</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionary.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}.
 
 ---
 
@@ -595,7 +595,7 @@ The construct id used in the generated config for the ElementalinferenceDictiona
 
 The id of the existing ElementalinferenceDictionary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -944,10 +944,10 @@ ElementalinferenceDictionaryConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.language">language</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.entries">entries</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}. |
-| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.language">language</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.entries">entries</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}. |
+| <code><a href="#@cdktn/provider-awscc.elementalinferenceDictionary.ElementalinferenceDictionaryConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}. |
 
 ---
 
@@ -1029,7 +1029,7 @@ public java.lang.String getLanguage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#language ElementalinferenceDictionary#language}.
 
 ---
 
@@ -1041,7 +1041,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#name ElementalinferenceDictionary#name}.
 
 ---
 
@@ -1053,7 +1053,7 @@ public java.lang.String getEntries();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#entries ElementalinferenceDictionary#entries}.
 
 ---
 
@@ -1065,7 +1065,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_dictionary#tags ElementalinferenceDictionary#tags}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### FrauddetectorEntityType <a name="FrauddetectorEntityType" id="@cdktn/provider-awscc.frauddetectorEntityType.FrauddetectorEntityType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type awscc_frauddetector_entity_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type awscc_frauddetector_entity_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorEntityType.FrauddetectorEntityType.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The entity type description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags associated with this entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
 
 ---
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the FrauddetectorEntityType to
 
 The id of the existing FrauddetectorEntityType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getName();
 
 The name of the entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ public java.lang.String getDescription();
 
 The entity type description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
 
 ---
 
@@ -1055,7 +1055,7 @@ public IResolvable|java.util.List<FrauddetectorEntityTypeTags> getTags();
 
 Tags associated with this entity type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
 
 ---
 
@@ -1076,8 +1076,8 @@ FrauddetectorEntityTypeTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEntityType.FrauddetectorEntityTypeTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorEntityType.FrauddetectorEntityTypeTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEntityType.FrauddetectorEntityTypeTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorEntityType.FrauddetectorEntityTypeTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}. |
 
 ---
 
@@ -1089,7 +1089,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}.
 
 ---
 
@@ -1101,7 +1101,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}.
 
 ---
 

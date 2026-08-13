@@ -4,7 +4,7 @@
 
 ### ForecastDatasetGroup <a name="ForecastDatasetGroup" id="@cdktn/provider-awscc.forecastDatasetGroup.ForecastDatasetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.forecastDatasetGroup.ForecastDatasetGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ForecastDatasetGroup to im
 
 The id of the existing ForecastDatasetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -929,7 +929,7 @@ public readonly datasetGroupName: string;
 
 A name for the dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#dataset_group_name ForecastDatasetGroup#dataset_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#dataset_group_name ForecastDatasetGroup#dataset_group_name}
 
 ---
 
@@ -945,7 +945,7 @@ The domain associated with the dataset group.
 
 When you add a dataset to a dataset group, this value and the value specified for the Domain parameter of the CreateDataset operation must match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#domain ForecastDatasetGroup#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#domain ForecastDatasetGroup#domain}
 
 ---
 
@@ -959,7 +959,7 @@ public readonly datasetArns: string[];
 
 An array of Amazon Resource Names (ARNs) of the datasets that you want to include in the dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#dataset_arns ForecastDatasetGroup#dataset_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#dataset_arns ForecastDatasetGroup#dataset_arns}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly tags: IResolvable | ForecastDatasetGroupTags[];
 
 The tags of Application Insights application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#tags ForecastDatasetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#tags ForecastDatasetGroup#tags}
 
 ---
 
@@ -1008,7 +1008,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#key ForecastDatasetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#key ForecastDatasetGroup#key}
 
 ---
 
@@ -1024,7 +1024,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset_group#value ForecastDatasetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset_group#value ForecastDatasetGroup#value}
 
 ---
 

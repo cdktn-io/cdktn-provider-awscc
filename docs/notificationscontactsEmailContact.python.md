@@ -4,7 +4,7 @@
 
 ### NotificationscontactsEmailContact <a name="NotificationscontactsEmailContact" id="@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer"></a>
 
@@ -38,8 +38,8 @@ notificationscontactsEmailContact.NotificationscontactsEmailContact(
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.emailAddress">email_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}. |
-| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}. |
+| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.emailAddress">email_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}. |
+| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}. |
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContact.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactTags">NotificationscontactsEmailContactTags</a>]</code> | A list of tags that are attached to the role. |
 
 ---
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags that are attached to the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}
 
 ---
 
@@ -645,7 +645,7 @@ The construct id used in the generated config for the NotificationscontactsEmail
 
 The id of the existing NotificationscontactsEmailContact that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -971,8 +971,8 @@ notificationscontactsEmailContact.NotificationscontactsEmailContactConfig(
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.emailAddress">email_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}. |
-| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}. |
+| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.emailAddress">email_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}. |
+| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}. |
 | <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactTags">NotificationscontactsEmailContactTags</a>]</code> | A list of tags that are attached to the role. |
 
 ---
@@ -1055,7 +1055,7 @@ email_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.
 
 ---
 
@@ -1067,7 +1067,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.
 
 ---
 
@@ -1081,7 +1081,7 @@ tags: IResolvable | typing.List[NotificationscontactsEmailContactTags]
 
 A list of tags that are attached to the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}
 
 ---
 
@@ -1113,8 +1113,8 @@ notificationscontactsEmailContact.NotificationscontactsEmailContactTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#key NotificationscontactsEmailContact#key}. |
-| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#value NotificationscontactsEmailContact#value}. |
+| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#key NotificationscontactsEmailContact#key}. |
+| <code><a href="#@cdktn/provider-awscc.notificationscontactsEmailContact.NotificationscontactsEmailContactTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#value NotificationscontactsEmailContact#value}. |
 
 ---
 
@@ -1126,7 +1126,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#key NotificationscontactsEmailContact#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#key NotificationscontactsEmailContact#key}.
 
 ---
 
@@ -1138,7 +1138,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#value NotificationscontactsEmailContact#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#value NotificationscontactsEmailContact#value}.
 
 ---
 

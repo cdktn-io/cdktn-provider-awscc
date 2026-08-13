@@ -4,7 +4,7 @@
 
 ### RdsGlobalCluster <a name="RdsGlobalCluster" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster awscc_rds_global_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster awscc_rds_global_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsGlobalCluster.RdsGlobalCluster.Initializer"></a>
 
@@ -558,7 +558,7 @@ The construct id used in the generated config for the RdsGlobalCluster to import
 
 The id of the existing RdsGlobalCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1081,7 +1081,7 @@ The deletion protection setting for the new global database.
 
 The global database can't be deleted when deletion protection is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#deletion_protection RdsGlobalCluster#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#deletion_protection RdsGlobalCluster#deletion_protection}
 
 ---
 
@@ -1098,7 +1098,7 @@ The name of the database engine to be used for this DB cluster.
 Valid Values: aurora (for MySQL 5.6-compatible Aurora), aurora-mysql (for MySQL 5.7-compatible Aurora).
 If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#engine RdsGlobalCluster#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#engine RdsGlobalCluster#engine}
 
 ---
 
@@ -1114,7 +1114,7 @@ The life cycle type of the global cluster.
 
 You can use this setting to enroll your global cluster into Amazon RDS Extended Support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#engine_lifecycle_support RdsGlobalCluster#engine_lifecycle_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#engine_lifecycle_support RdsGlobalCluster#engine_lifecycle_support}
 
 ---
 
@@ -1130,7 +1130,7 @@ The version number of the database engine to use.
 
 If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#engine_version RdsGlobalCluster#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#engine_version RdsGlobalCluster#engine_version}
 
 ---
 
@@ -1144,7 +1144,7 @@ public string GlobalClusterIdentifier { get; set; }
 
 The cluster identifier of the new global database cluster. This parameter is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#global_cluster_identifier RdsGlobalCluster#global_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#global_cluster_identifier RdsGlobalCluster#global_cluster_identifier}
 
 ---
 
@@ -1160,7 +1160,7 @@ The Amazon Resource Name (ARN) to use as the primary cluster of the global datab
 
 This parameter is optional. This parameter is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#source_db_cluster_identifier RdsGlobalCluster#source_db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#source_db_cluster_identifier RdsGlobalCluster#source_db_cluster_identifier}
 
 ---
 
@@ -1176,7 +1176,7 @@ The storage encryption setting for the new global database cluster.
 
 If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#storage_encrypted RdsGlobalCluster#storage_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#storage_encrypted RdsGlobalCluster#storage_encrypted}
 
 ---
 
@@ -1190,7 +1190,7 @@ public IResolvable|RdsGlobalClusterTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#tags RdsGlobalCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#tags RdsGlobalCluster#tags}
 
 ---
 
@@ -1241,7 +1241,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#key RdsGlobalCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#key RdsGlobalCluster#key}
 
 ---
 
@@ -1257,7 +1257,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_global_cluster#value RdsGlobalCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_global_cluster#value RdsGlobalCluster#value}
 
 ---
 

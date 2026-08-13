@@ -4,7 +4,7 @@
 
 ### AppsyncDataSource <a name="AppsyncDataSource" id="@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source awscc_appsync_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source awscc_appsync_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer"></a>
 
@@ -57,7 +57,7 @@ appsyncDataSource.AppsyncDataSource(
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.eventBridgeConfig">event_bridge_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceEventBridgeConfig">AppsyncDataSourceEventBridgeConfig</a></code> | ARN for the EventBridge bus. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.httpConfig">http_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceHttpConfig">AppsyncDataSourceHttpConfig</a></code> | Endpoints for an HTTP data source. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.lambdaConfig">lambda_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceLambdaConfig">AppsyncDataSourceLambdaConfig</a></code> | An ARN of a Lambda function in valid ARN format. |
-| <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.metricsConfig">metrics_config</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}. |
+| <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.metricsConfig">metrics_config</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.openSearchServiceConfig">open_search_service_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceOpenSearchServiceConfig">AppsyncDataSourceOpenSearchServiceConfig</a></code> | AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.relationalDatabaseConfig">relational_database_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceRelationalDatabaseConfig">AppsyncDataSourceRelationalDatabaseConfig</a></code> | Relational Database configuration of the relational database data source. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSource.Initializer.parameter.serviceRoleArn">service_role_arn</a></code> | <code>str</code> | The AWS Identity and Access Management service role ARN for the data source. |
@@ -130,7 +130,7 @@ Must be unique amongst siblings in the same scope
 
 Unique AWS AppSync GraphQL API identifier where this data source will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#api_id AppsyncDataSource#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#api_id AppsyncDataSource#api_id}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Friendly name for you to identify your AppSync data source after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#name AppsyncDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#name AppsyncDataSource#name}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#type AppsyncDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#type AppsyncDataSource#type}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#description AppsyncDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#description AppsyncDataSource#description}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS Region and TableName for an Amazon DynamoDB table in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#dynamo_db_config AppsyncDataSource#dynamo_db_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#dynamo_db_config AppsyncDataSource#dynamo_db_config}
 
 ---
 
@@ -182,7 +182,7 @@ AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account
 
 As of September 2021, Amazon Elasticsearch Service is Amazon OpenSearch Service. This property is deprecated. For new data sources, use OpenSearchServiceConfig to specify an OpenSearch Service data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#elasticsearch_config AppsyncDataSource#elasticsearch_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#elasticsearch_config AppsyncDataSource#elasticsearch_config}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ARN for the EventBridge bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#event_bridge_config AppsyncDataSource#event_bridge_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#event_bridge_config AppsyncDataSource#event_bridge_config}
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Endpoints for an HTTP data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#http_config AppsyncDataSource#http_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#http_config AppsyncDataSource#http_config}
 
 ---
 
@@ -214,7 +214,7 @@ An ARN of a Lambda function in valid ARN format.
 
 This can be the ARN of a Lambda function that exists in the current account or in another account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#lambda_config AppsyncDataSource#lambda_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#lambda_config AppsyncDataSource#lambda_config}
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}.
 
 ---
 
@@ -232,7 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#open_search_service_config AppsyncDataSource#open_search_service_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#open_search_service_config AppsyncDataSource#open_search_service_config}
 
 ---
 
@@ -242,7 +242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Relational Database configuration of the relational database data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#relational_database_config AppsyncDataSource#relational_database_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#relational_database_config AppsyncDataSource#relational_database_config}
 
 ---
 
@@ -254,7 +254,7 @@ The AWS Identity and Access Management service role ARN for the data source.
 
 The system assumes this role when accessing the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#service_role_arn AppsyncDataSource#service_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#service_role_arn AppsyncDataSource#service_role_arn}
 
 ---
 
@@ -672,7 +672,7 @@ def put_dynamo_db_config(
 
 The AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -682,7 +682,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The DeltaSyncConfig for a versioned datasource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#delta_sync_config AppsyncDataSource#delta_sync_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#delta_sync_config AppsyncDataSource#delta_sync_config}
 
 ---
 
@@ -692,7 +692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#table_name AppsyncDataSource#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#table_name AppsyncDataSource#table_name}
 
 ---
 
@@ -702,7 +702,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set to TRUE to use AWS Identity and Access Management with this data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#use_caller_credentials AppsyncDataSource#use_caller_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#use_caller_credentials AppsyncDataSource#use_caller_credentials}
 
 ---
 
@@ -712,7 +712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set to TRUE to use Conflict Detection and Resolution with this data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#versioned AppsyncDataSource#versioned}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#versioned AppsyncDataSource#versioned}
 
 ---
 
@@ -731,7 +731,7 @@ def put_elasticsearch_config(
 
 The AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -741,7 +741,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
 
 ---
 
@@ -759,7 +759,7 @@ def put_event_bridge_config(
 
 ARN for the EventBridge bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#event_bus_arn AppsyncDataSource#event_bus_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#event_bus_arn AppsyncDataSource#event_bus_arn}
 
 ---
 
@@ -778,7 +778,7 @@ def put_http_config(
 
 The authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#authorization_config AppsyncDataSource#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#authorization_config AppsyncDataSource#authorization_config}
 
 ---
 
@@ -788,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
 
 ---
 
@@ -806,7 +806,7 @@ def put_lambda_config(
 
 The ARN for the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
 
 ---
 
@@ -825,7 +825,7 @@ def put_open_search_service_config(
 
 The AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -835,7 +835,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
 
 ---
 
@@ -854,7 +854,7 @@ def put_relational_database_config(
 
 Information about the Amazon RDS resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#rds_http_endpoint_config AppsyncDataSource#rds_http_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#rds_http_endpoint_config AppsyncDataSource#rds_http_endpoint_config}
 
 ---
 
@@ -864,7 +864,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of relational data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#relational_database_source_type AppsyncDataSource#relational_database_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#relational_database_source_type AppsyncDataSource#relational_database_source_type}
 
 ---
 
@@ -1042,7 +1042,7 @@ The construct id used in the generated config for the AppsyncDataSource to impor
 
 The id of the existing AppsyncDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1596,7 +1596,7 @@ appsyncDataSource.AppsyncDataSourceConfig(
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.eventBridgeConfig">event_bridge_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceEventBridgeConfig">AppsyncDataSourceEventBridgeConfig</a></code> | ARN for the EventBridge bus. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.httpConfig">http_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceHttpConfig">AppsyncDataSourceHttpConfig</a></code> | Endpoints for an HTTP data source. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.lambdaConfig">lambda_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceLambdaConfig">AppsyncDataSourceLambdaConfig</a></code> | An ARN of a Lambda function in valid ARN format. |
-| <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.metricsConfig">metrics_config</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}. |
+| <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.metricsConfig">metrics_config</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.openSearchServiceConfig">open_search_service_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceOpenSearchServiceConfig">AppsyncDataSourceOpenSearchServiceConfig</a></code> | AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.relationalDatabaseConfig">relational_database_config</a></code> | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceRelationalDatabaseConfig">AppsyncDataSourceRelationalDatabaseConfig</a></code> | Relational Database configuration of the relational database data source. |
 | <code><a href="#@cdktn/provider-awscc.appsyncDataSource.AppsyncDataSourceConfig.property.serviceRoleArn">service_role_arn</a></code> | <code>str</code> | The AWS Identity and Access Management service role ARN for the data source. |
@@ -1683,7 +1683,7 @@ api_id: str
 
 Unique AWS AppSync GraphQL API identifier where this data source will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#api_id AppsyncDataSource#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#api_id AppsyncDataSource#api_id}
 
 ---
 
@@ -1697,7 +1697,7 @@ name: str
 
 Friendly name for you to identify your AppSync data source after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#name AppsyncDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#name AppsyncDataSource#name}
 
 ---
 
@@ -1711,7 +1711,7 @@ type: str
 
 The type of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#type AppsyncDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#type AppsyncDataSource#type}
 
 ---
 
@@ -1725,7 +1725,7 @@ description: str
 
 The description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#description AppsyncDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#description AppsyncDataSource#description}
 
 ---
 
@@ -1739,7 +1739,7 @@ dynamo_db_config: AppsyncDataSourceDynamoDbConfig
 
 AWS Region and TableName for an Amazon DynamoDB table in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#dynamo_db_config AppsyncDataSource#dynamo_db_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#dynamo_db_config AppsyncDataSource#dynamo_db_config}
 
 ---
 
@@ -1755,7 +1755,7 @@ AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account
 
 As of September 2021, Amazon Elasticsearch Service is Amazon OpenSearch Service. This property is deprecated. For new data sources, use OpenSearchServiceConfig to specify an OpenSearch Service data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#elasticsearch_config AppsyncDataSource#elasticsearch_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#elasticsearch_config AppsyncDataSource#elasticsearch_config}
 
 ---
 
@@ -1769,7 +1769,7 @@ event_bridge_config: AppsyncDataSourceEventBridgeConfig
 
 ARN for the EventBridge bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#event_bridge_config AppsyncDataSource#event_bridge_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#event_bridge_config AppsyncDataSource#event_bridge_config}
 
 ---
 
@@ -1783,7 +1783,7 @@ http_config: AppsyncDataSourceHttpConfig
 
 Endpoints for an HTTP data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#http_config AppsyncDataSource#http_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#http_config AppsyncDataSource#http_config}
 
 ---
 
@@ -1799,7 +1799,7 @@ An ARN of a Lambda function in valid ARN format.
 
 This can be the ARN of a Lambda function that exists in the current account or in another account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#lambda_config AppsyncDataSource#lambda_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#lambda_config AppsyncDataSource#lambda_config}
 
 ---
 
@@ -1811,7 +1811,7 @@ metrics_config: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#metrics_config AppsyncDataSource#metrics_config}.
 
 ---
 
@@ -1825,7 +1825,7 @@ open_search_service_config: AppsyncDataSourceOpenSearchServiceConfig
 
 AWS Region and Endpoints for an Amazon OpenSearch Service domain in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#open_search_service_config AppsyncDataSource#open_search_service_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#open_search_service_config AppsyncDataSource#open_search_service_config}
 
 ---
 
@@ -1839,7 +1839,7 @@ relational_database_config: AppsyncDataSourceRelationalDatabaseConfig
 
 Relational Database configuration of the relational database data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#relational_database_config AppsyncDataSource#relational_database_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#relational_database_config AppsyncDataSource#relational_database_config}
 
 ---
 
@@ -1855,7 +1855,7 @@ The AWS Identity and Access Management service role ARN for the data source.
 
 The system assumes this role when accessing the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#service_role_arn AppsyncDataSource#service_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#service_role_arn AppsyncDataSource#service_role_arn}
 
 ---
 
@@ -1897,7 +1897,7 @@ aws_region: str
 
 The AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -1911,7 +1911,7 @@ delta_sync_config: AppsyncDataSourceDynamoDbConfigDeltaSyncConfig
 
 The DeltaSyncConfig for a versioned datasource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#delta_sync_config AppsyncDataSource#delta_sync_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#delta_sync_config AppsyncDataSource#delta_sync_config}
 
 ---
 
@@ -1925,7 +1925,7 @@ table_name: str
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#table_name AppsyncDataSource#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#table_name AppsyncDataSource#table_name}
 
 ---
 
@@ -1939,7 +1939,7 @@ use_caller_credentials: bool | IResolvable
 
 Set to TRUE to use AWS Identity and Access Management with this data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#use_caller_credentials AppsyncDataSource#use_caller_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#use_caller_credentials AppsyncDataSource#use_caller_credentials}
 
 ---
 
@@ -1953,7 +1953,7 @@ versioned: bool | IResolvable
 
 Set to TRUE to use Conflict Detection and Resolution with this data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#versioned AppsyncDataSource#versioned}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#versioned AppsyncDataSource#versioned}
 
 ---
 
@@ -1991,7 +1991,7 @@ base_table_ttl: str
 
 The number of minutes that an Item is stored in the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#base_table_ttl AppsyncDataSource#base_table_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#base_table_ttl AppsyncDataSource#base_table_ttl}
 
 ---
 
@@ -2005,7 +2005,7 @@ delta_sync_table_name: str
 
 The Delta Sync table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#delta_sync_table_name AppsyncDataSource#delta_sync_table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#delta_sync_table_name AppsyncDataSource#delta_sync_table_name}
 
 ---
 
@@ -2019,7 +2019,7 @@ delta_sync_table_ttl: str
 
 The number of minutes that a Delta Sync log entry is stored in the Delta Sync table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#delta_sync_table_ttl AppsyncDataSource#delta_sync_table_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#delta_sync_table_ttl AppsyncDataSource#delta_sync_table_ttl}
 
 ---
 
@@ -2055,7 +2055,7 @@ aws_region: str
 
 The AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -2069,7 +2069,7 @@ endpoint: str
 
 The endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
 
 ---
 
@@ -2103,7 +2103,7 @@ event_bus_arn: str
 
 ARN for the EventBridge bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#event_bus_arn AppsyncDataSource#event_bus_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#event_bus_arn AppsyncDataSource#event_bus_arn}
 
 ---
 
@@ -2139,7 +2139,7 @@ authorization_config: AppsyncDataSourceHttpConfigAuthorizationConfig
 
 The authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#authorization_config AppsyncDataSource#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#authorization_config AppsyncDataSource#authorization_config}
 
 ---
 
@@ -2153,7 +2153,7 @@ endpoint: str
 
 The endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
 
 ---
 
@@ -2189,7 +2189,7 @@ authorization_type: str
 
 The authorization type that the HTTP endpoint requires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#authorization_type AppsyncDataSource#authorization_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#authorization_type AppsyncDataSource#authorization_type}
 
 ---
 
@@ -2203,7 +2203,7 @@ aws_iam_config: AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfig
 
 The AWS Identity and Access Management settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_iam_config AppsyncDataSource#aws_iam_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_iam_config AppsyncDataSource#aws_iam_config}
 
 ---
 
@@ -2239,7 +2239,7 @@ signing_region: str
 
 The signing Region for AWS Identity and Access Management authorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#signing_region AppsyncDataSource#signing_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#signing_region AppsyncDataSource#signing_region}
 
 ---
 
@@ -2253,7 +2253,7 @@ signing_service_name: str
 
 The signing service name for AWS Identity and Access Management authorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#signing_service_name AppsyncDataSource#signing_service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#signing_service_name AppsyncDataSource#signing_service_name}
 
 ---
 
@@ -2287,7 +2287,7 @@ lambda_function_arn: str
 
 The ARN for the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
 
 ---
 
@@ -2323,7 +2323,7 @@ aws_region: str
 
 The AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -2337,7 +2337,7 @@ endpoint: str
 
 The endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#endpoint AppsyncDataSource#endpoint}
 
 ---
 
@@ -2373,7 +2373,7 @@ rds_http_endpoint_config: AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpoi
 
 Information about the Amazon RDS resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#rds_http_endpoint_config AppsyncDataSource#rds_http_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#rds_http_endpoint_config AppsyncDataSource#rds_http_endpoint_config}
 
 ---
 
@@ -2387,7 +2387,7 @@ relational_database_source_type: str
 
 The type of relational data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#relational_database_source_type AppsyncDataSource#relational_database_source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#relational_database_source_type AppsyncDataSource#relational_database_source_type}
 
 ---
 
@@ -2429,7 +2429,7 @@ aws_region: str
 
 AWS Region for RDS HTTP endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -2443,7 +2443,7 @@ aws_secret_store_arn: str
 
 The ARN for database credentials stored in AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_secret_store_arn AppsyncDataSource#aws_secret_store_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_secret_store_arn AppsyncDataSource#aws_secret_store_arn}
 
 ---
 
@@ -2457,7 +2457,7 @@ database_name: str
 
 Logical database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#database_name AppsyncDataSource#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#database_name AppsyncDataSource#database_name}
 
 ---
 
@@ -2471,7 +2471,7 @@ db_cluster_identifier: str
 
 Amazon RDS cluster Amazon Resource Name (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#db_cluster_identifier AppsyncDataSource#db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#db_cluster_identifier AppsyncDataSource#db_cluster_identifier}
 
 ---
 
@@ -2485,7 +2485,7 @@ schema: str
 
 Logical schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#schema AppsyncDataSource#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#schema AppsyncDataSource#schema}
 
 ---
 
@@ -3102,7 +3102,7 @@ def put_delta_sync_config(
 
 The number of minutes that an Item is stored in the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#base_table_ttl AppsyncDataSource#base_table_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#base_table_ttl AppsyncDataSource#base_table_ttl}
 
 ---
 
@@ -3112,7 +3112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Delta Sync table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#delta_sync_table_name AppsyncDataSource#delta_sync_table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#delta_sync_table_name AppsyncDataSource#delta_sync_table_name}
 
 ---
 
@@ -3122,7 +3122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of minutes that a Delta Sync log entry is stored in the Delta Sync table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#delta_sync_table_ttl AppsyncDataSource#delta_sync_table_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#delta_sync_table_ttl AppsyncDataSource#delta_sync_table_ttl}
 
 ---
 
@@ -4525,7 +4525,7 @@ def put_aws_iam_config(
 
 The signing Region for AWS Identity and Access Management authorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#signing_region AppsyncDataSource#signing_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#signing_region AppsyncDataSource#signing_region}
 
 ---
 
@@ -4535,7 +4535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The signing service name for AWS Identity and Access Management authorization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#signing_service_name AppsyncDataSource#signing_service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#signing_service_name AppsyncDataSource#signing_service_name}
 
 ---
 
@@ -4887,7 +4887,7 @@ def put_authorization_config(
 
 The authorization type that the HTTP endpoint requires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#authorization_type AppsyncDataSource#authorization_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#authorization_type AppsyncDataSource#authorization_type}
 
 ---
 
@@ -4897,7 +4897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS Identity and Access Management settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_iam_config AppsyncDataSource#aws_iam_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_iam_config AppsyncDataSource#aws_iam_config}
 
 ---
 
@@ -5887,7 +5887,7 @@ def put_rds_http_endpoint_config(
 
 AWS Region for RDS HTTP endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_region AppsyncDataSource#aws_region}
 
 ---
 
@@ -5897,7 +5897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for database credentials stored in AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#aws_secret_store_arn AppsyncDataSource#aws_secret_store_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#aws_secret_store_arn AppsyncDataSource#aws_secret_store_arn}
 
 ---
 
@@ -5907,7 +5907,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Logical database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#database_name AppsyncDataSource#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#database_name AppsyncDataSource#database_name}
 
 ---
 
@@ -5917,7 +5917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Amazon RDS cluster Amazon Resource Name (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#db_cluster_identifier AppsyncDataSource#db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#db_cluster_identifier AppsyncDataSource#db_cluster_identifier}
 
 ---
 
@@ -5927,7 +5927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Logical schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_data_source#schema AppsyncDataSource#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_data_source#schema AppsyncDataSource#schema}
 
 ---
 

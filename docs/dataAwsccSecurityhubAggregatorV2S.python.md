@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubAggregatorV2S <a name="DataAwsccSecurityhubAggregatorV2S" id="@cdktn/provider-awscc.dataAwsccSecurityhubAggregatorV2S.DataAwsccSecurityhubAggregatorV2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securityhub_aggregator_v2s awscc_securityhub_aggregator_v2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_aggregator_v2s awscc_securityhub_aggregator_v2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubAggregatorV2S.DataAwsccSecurityhubAggregatorV2S.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubAggreg
 
 The id of the existing DataAwsccSecurityhubAggregatorV2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securityhub_aggregator_v2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_aggregator_v2s#import import section} in the documentation of this resource for the id to use
 
 ---
 

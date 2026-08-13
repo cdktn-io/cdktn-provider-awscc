@@ -4,7 +4,7 @@
 
 ### DataAwsccDmsMigrationProjects <a name="DataAwsccDmsMigrationProjects" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/dms_migration_projects awscc_dms_migration_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_migration_projects awscc_dms_migration_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsMigrationProjects.DataAwsccDmsMigrationProjects.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDmsMigrationProje
 
 The id of the existing DataAwsccDmsMigrationProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/dms_migration_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_migration_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 

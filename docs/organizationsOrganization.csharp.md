@@ -4,7 +4,7 @@
 
 ### OrganizationsOrganization <a name="OrganizationsOrganization" id="@cdktn/provider-awscc.organizationsOrganization.OrganizationsOrganization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organization awscc_organizations_organization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organization awscc_organizations_organization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsOrganization.OrganizationsOrganization.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the OrganizationsOrganization 
 
 The id of the existing OrganizationsOrganization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,7 +904,7 @@ public string FeatureSet { get; set; }
 
 Specifies the feature set supported by the new organization. Each feature set supports different levels of functionality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organization#feature_set OrganizationsOrganization#feature_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organization#feature_set OrganizationsOrganization#feature_set}
 
 ---
 

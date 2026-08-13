@@ -4,7 +4,7 @@
 
 ### DataAwsccOdbCloudVmClusters <a name="DataAwsccOdbCloudVmClusters" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudVmClusters.DataAwsccOdbCloudVmClusters.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudVmCluster
 
 The id of the existing DataAwsccOdbCloudVmClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_cloud_vm_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_cloud_vm_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

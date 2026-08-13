@@ -4,7 +4,7 @@
 
 ### FsxS3AccessPointAttachment <a name="FsxS3AccessPointAttachment" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the S3 access point attachment; also used for the name of the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of Amazon FSx volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OntapConfiguration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OpenZFSConfiguration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The S3 access point configuration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
 
 ---
 
@@ -661,7 +661,7 @@ The construct id used in the generated config for the FsxS3AccessPointAttachment
 
 The id of the existing FsxS3AccessPointAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1099,7 +1099,7 @@ public java.lang.String getName();
 
 The name of the S3 access point attachment; also used for the name of the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -1113,7 +1113,7 @@ public java.lang.String getType();
 
 The type of Amazon FSx volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -1127,7 +1127,7 @@ public FsxS3AccessPointAttachmentOntapConfiguration getOntapConfiguration();
 
 The OntapConfiguration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
 
 ---
 
@@ -1141,7 +1141,7 @@ public FsxS3AccessPointAttachmentOpenZfsConfiguration getOpenZfsConfiguration();
 
 The OpenZFSConfiguration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
 
 ---
 
@@ -1155,7 +1155,7 @@ public FsxS3AccessPointAttachmentS3AccessPoint getS3AccessPoint();
 
 The S3 access point configuration of the S3 access point attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
 
 ---
 
@@ -1191,7 +1191,7 @@ public FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentity getFileSys
 
 The file system identity used to authorize file access requests made using the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
 
 ---
 
@@ -1205,7 +1205,7 @@ public java.lang.String getVolumeId();
 
 The ID of the FSx for ONTAP volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
 
 ---
 
@@ -1243,7 +1243,7 @@ public java.lang.String getType();
 
 Specifies the FSx for ONTAP user identity type, accepts either UNIX or WINDOWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -1257,7 +1257,7 @@ public FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixUser ge
 
 Specifies the properties of the file system UNIX user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#unix_user FsxS3AccessPointAttachment#unix_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#unix_user FsxS3AccessPointAttachment#unix_user}
 
 ---
 
@@ -1271,7 +1271,7 @@ public FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindowsUser
 
 Specifies the properties of the file system Windows user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#windows_user FsxS3AccessPointAttachment#windows_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#windows_user FsxS3AccessPointAttachment#windows_user}
 
 ---
 
@@ -1305,7 +1305,7 @@ public java.lang.String getName();
 
 The name of the UNIX user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -1339,7 +1339,7 @@ public java.lang.String getName();
 
 The name of the Windows user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 
 ---
 
@@ -1375,7 +1375,7 @@ public FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentity getFileS
 
 The file system identity used to authorize file access requests made using the S3 access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#file_system_identity FsxS3AccessPointAttachment#file_system_identity}
 
 ---
 
@@ -1389,7 +1389,7 @@ public java.lang.String getVolumeId();
 
 The ID of the FSx for OpenZFS volume that the S3 access point is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#volume_id FsxS3AccessPointAttachment#volume_id}
 
 ---
 
@@ -1425,7 +1425,7 @@ public FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPosixUser
 
 Specifies the UID and GIDs of the file system POSIX user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#posix_user FsxS3AccessPointAttachment#posix_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#posix_user FsxS3AccessPointAttachment#posix_user}
 
 ---
 
@@ -1439,7 +1439,7 @@ public java.lang.String getType();
 
 Specifies the FSx for OpenZFS user identity type, accepts only POSIX.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 
 ---
 
@@ -1477,7 +1477,7 @@ public java.lang.Number getGid();
 
 The GID of the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
 
 ---
 
@@ -1491,7 +1491,7 @@ public IResolvable|java.util.List<FsxS3AccessPointAttachmentOpenZfsConfiguration
 
 The list of secondary GIDs for the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#secondary_gids FsxS3AccessPointAttachment#secondary_gids}
 
 ---
 
@@ -1505,7 +1505,7 @@ public java.lang.Number getUid();
 
 The UID of the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#uid FsxS3AccessPointAttachment#uid}
 
 ---
 
@@ -1539,7 +1539,7 @@ public java.lang.Number getGid();
 
 The GID of the file system user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#gid FsxS3AccessPointAttachment#gid}
 
 ---
 
@@ -1575,7 +1575,7 @@ public java.lang.String getPolicy();
 
 The S3 access point's policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#policy FsxS3AccessPointAttachment#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#policy FsxS3AccessPointAttachment#policy}
 
 ---
 
@@ -1589,7 +1589,7 @@ public FsxS3AccessPointAttachmentS3AccessPointVpcConfiguration getVpcConfigurati
 
 The S3 access point's virtual private cloud (VPC) configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#vpc_configuration FsxS3AccessPointAttachment#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#vpc_configuration FsxS3AccessPointAttachment#vpc_configuration}
 
 ---
 
@@ -1623,7 +1623,7 @@ public java.lang.String getVpcId();
 
 Specifies the virtual private cloud (VPC) for the S3 access point VPC configuration, if one exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fsx_s3_access_point_attachment#vpc_id FsxS3AccessPointAttachment#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#vpc_id FsxS3AccessPointAttachment#vpc_id}
 
 ---
 

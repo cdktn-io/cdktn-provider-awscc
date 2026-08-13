@@ -4,7 +4,7 @@
 
 ### OmicsRunGroup <a name="OmicsRunGroup" id="@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group awscc_omics_run_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group awscc_omics_run_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer"></a>
 
@@ -41,11 +41,11 @@ omicsRunGroup.OmicsRunGroup(
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxCpus">max_cpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxDuration">max_duration</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxGpus">max_gpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxRuns">max_runs</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#name OmicsRunGroup#name}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxCpus">max_cpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxDuration">max_duration</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxGpus">max_gpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.maxRuns">max_runs</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#name OmicsRunGroup#name}. |
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroup.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource tags. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#name OmicsRunGroup#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#name OmicsRunGroup#name}.
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of resource tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#tags OmicsRunGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#tags OmicsRunGroup#tags}
 
 ---
 
@@ -695,7 +695,7 @@ The construct id used in the generated config for the OmicsRunGroup to import.
 
 The id of the existing OmicsRunGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1101,11 +1101,11 @@ omicsRunGroup.OmicsRunGroupConfig(
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxCpus">max_cpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxDuration">max_duration</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxGpus">max_gpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxRuns">max_runs</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}. |
-| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#name OmicsRunGroup#name}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxCpus">max_cpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxDuration">max_duration</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxGpus">max_gpus</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.maxRuns">max_runs</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}. |
+| <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#name OmicsRunGroup#name}. |
 | <code><a href="#@cdktn/provider-awscc.omicsRunGroup.OmicsRunGroupConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource tags. |
 
 ---
@@ -1188,7 +1188,7 @@ max_cpus: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_cpus OmicsRunGroup#max_cpus}.
 
 ---
 
@@ -1200,7 +1200,7 @@ max_duration: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_duration OmicsRunGroup#max_duration}.
 
 ---
 
@@ -1212,7 +1212,7 @@ max_gpus: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_gpus OmicsRunGroup#max_gpus}.
 
 ---
 
@@ -1224,7 +1224,7 @@ max_runs: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#max_runs OmicsRunGroup#max_runs}.
 
 ---
 
@@ -1236,7 +1236,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#name OmicsRunGroup#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#name OmicsRunGroup#name}.
 
 ---
 
@@ -1250,7 +1250,7 @@ tags: typing.Mapping[str]
 
 A map of resource tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_run_group#tags OmicsRunGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_run_group#tags OmicsRunGroup#tags}
 
 ---
 

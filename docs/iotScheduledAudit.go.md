@@ -4,7 +4,7 @@
 
 ### IotScheduledAudit <a name="IotScheduledAudit" id="@cdktn/provider-awscc.iotScheduledAudit.IotScheduledAudit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit awscc_iot_scheduled_audit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit awscc_iot_scheduled_audit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotScheduledAudit.IotScheduledAudit.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the IotScheduledAudit to impor
 
 The id of the existing IotScheduledAudit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1003,7 +1003,7 @@ Frequency *string
 
 How often the scheduled audit takes place. Can be one of DAILY, WEEKLY, BIWEEKLY, or MONTHLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#frequency IotScheduledAudit#frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#frequency IotScheduledAudit#frequency}
 
 ---
 
@@ -1017,7 +1017,7 @@ TargetCheckNames *[]*string
 
 Which checks are performed during the scheduled audit. Checks must be enabled for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#target_check_names IotScheduledAudit#target_check_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#target_check_names IotScheduledAudit#target_check_names}
 
 ---
 
@@ -1033,7 +1033,7 @@ The day of the month on which the scheduled audit takes place.
 
 Can be 1 through 31 or LAST. This field is required if the frequency parameter is set to MONTHLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#day_of_month IotScheduledAudit#day_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#day_of_month IotScheduledAudit#day_of_month}
 
 ---
 
@@ -1049,7 +1049,7 @@ The day of the week on which the scheduled audit takes place.
 
 Can be one of SUN, MON, TUE,WED, THU, FRI, or SAT. This field is required if the frequency parameter is set to WEEKLY or BIWEEKLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#day_of_week IotScheduledAudit#day_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#day_of_week IotScheduledAudit#day_of_week}
 
 ---
 
@@ -1063,7 +1063,7 @@ ScheduledAuditName *string
 
 The name you want to give to the scheduled audit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#scheduled_audit_name IotScheduledAudit#scheduled_audit_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#scheduled_audit_name IotScheduledAudit#scheduled_audit_name}
 
 ---
 
@@ -1077,7 +1077,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#tags IotScheduledAudit#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#tags IotScheduledAudit#tags}
 
 ---
 
@@ -1113,7 +1113,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#key IotScheduledAudit#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#key IotScheduledAudit#key}
 
 ---
 
@@ -1127,7 +1127,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_scheduled_audit#value IotScheduledAudit#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_scheduled_audit#value IotScheduledAudit#value}
 
 ---
 

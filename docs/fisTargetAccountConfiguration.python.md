@@ -4,7 +4,7 @@
 
 ### FisTargetAccountConfiguration <a name="FisTargetAccountConfiguration" id="@cdktn/provider-awscc.fisTargetAccountConfiguration.FisTargetAccountConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration awscc_fis_target_account_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration awscc_fis_target_account_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fisTargetAccountConfiguration.FisTargetAccountConfiguration.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The AWS account ID of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the experiment template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of an IAM role for the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
 
 ---
 
@@ -646,7 +646,7 @@ The construct id used in the generated config for the FisTargetAccountConfigurat
 
 The id of the existing FisTargetAccountConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1060,7 +1060,7 @@ account_id: str
 
 The AWS account ID of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
 
 ---
 
@@ -1074,7 +1074,7 @@ experiment_template_id: str
 
 The ID of the experiment template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
 
 ---
 
@@ -1088,7 +1088,7 @@ role_arn: str
 
 The Amazon Resource Name (ARN) of an IAM role for the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
 
 ---
 
@@ -1102,7 +1102,7 @@ description: str
 
 The description of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
 
 ---
 

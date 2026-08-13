@@ -4,7 +4,7 @@
 
 ### GuarddutyPublishingDestination <a name="GuarddutyPublishingDestination" id="@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination awscc_guardduty_publishing_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination awscc_guardduty_publishing_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer"></a>
 
@@ -37,10 +37,10 @@ GuarddutyPublishingDestination.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.destinationProperties">destinationProperties</a></code> | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationDestinationProperties">GuarddutyPublishingDestinationDestinationProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.destinationProperties">destinationProperties</a></code> | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationDestinationProperties">GuarddutyPublishingDestinationDestinationProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}. |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.destinationType">destinationType</a></code> | <code>java.lang.String</code> | The type of resource for the publishing destination. Currently only Amazon S3 buckets are supported. |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.detectorId">detectorId</a></code> | <code>java.lang.String</code> | The ID of the GuardDuty detector associated with the publishing destination. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags">GuarddutyPublishingDestinationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestination.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags">GuarddutyPublishingDestinationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* <a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationDestinationProperties">GuarddutyPublishingDestinationDestinationProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of resource for the publishing destination. Currently only Amazon S3 buckets are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_type GuarddutyPublishingDestination#destination_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_type GuarddutyPublishingDestination#destination_type}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the GuardDuty detector associated with the publishing destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#detector_id GuarddutyPublishingDestination#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#detector_id GuarddutyPublishingDestination#detector_id}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags">GuarddutyPublishingDestinationTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}.
 
 ---
 
@@ -618,7 +618,7 @@ The construct id used in the generated config for the GuarddutyPublishingDestina
 
 The id of the existing GuarddutyPublishingDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,10 +978,10 @@ GuarddutyPublishingDestinationConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.destinationProperties">destinationProperties</a></code> | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationDestinationProperties">GuarddutyPublishingDestinationDestinationProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.destinationProperties">destinationProperties</a></code> | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationDestinationProperties">GuarddutyPublishingDestinationDestinationProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}. |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.destinationType">destinationType</a></code> | <code>java.lang.String</code> | The type of resource for the publishing destination. Currently only Amazon S3 buckets are supported. |
 | <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.detectorId">detectorId</a></code> | <code>java.lang.String</code> | The ID of the GuardDuty detector associated with the publishing destination. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags">GuarddutyPublishingDestinationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags">GuarddutyPublishingDestinationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}. |
 
 ---
 
@@ -1063,7 +1063,7 @@ public GuarddutyPublishingDestinationDestinationProperties getDestinationPropert
 
 - *Type:* <a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationDestinationProperties">GuarddutyPublishingDestinationDestinationProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_properties GuarddutyPublishingDestination#destination_properties}.
 
 ---
 
@@ -1077,7 +1077,7 @@ public java.lang.String getDestinationType();
 
 The type of resource for the publishing destination. Currently only Amazon S3 buckets are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_type GuarddutyPublishingDestination#destination_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_type GuarddutyPublishingDestination#destination_type}
 
 ---
 
@@ -1091,7 +1091,7 @@ public java.lang.String getDetectorId();
 
 The ID of the GuardDuty detector associated with the publishing destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#detector_id GuarddutyPublishingDestination#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#detector_id GuarddutyPublishingDestination#detector_id}
 
 ---
 
@@ -1103,7 +1103,7 @@ public IResolvable|java.util.List<GuarddutyPublishingDestinationTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags">GuarddutyPublishingDestinationTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#tags GuarddutyPublishingDestination#tags}.
 
 ---
 
@@ -1139,7 +1139,7 @@ public java.lang.String getDestinationArn();
 
 The ARN of the resource to publish to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#destination_arn GuarddutyPublishingDestination#destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#destination_arn GuarddutyPublishingDestination#destination_arn}
 
 ---
 
@@ -1153,7 +1153,7 @@ public java.lang.String getKmsKeyArn();
 
 The ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#kms_key_arn GuarddutyPublishingDestination#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#kms_key_arn GuarddutyPublishingDestination#kms_key_arn}
 
 ---
 
@@ -1174,8 +1174,8 @@ GuarddutyPublishingDestinationTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#key GuarddutyPublishingDestination#key}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#value GuarddutyPublishingDestination#value}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#key GuarddutyPublishingDestination#key}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyPublishingDestination.GuarddutyPublishingDestinationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#value GuarddutyPublishingDestination#value}. |
 
 ---
 
@@ -1187,7 +1187,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#key GuarddutyPublishingDestination#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#key GuarddutyPublishingDestination#key}.
 
 ---
 
@@ -1199,7 +1199,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_publishing_destination#value GuarddutyPublishingDestination#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_publishing_destination#value GuarddutyPublishingDestination#value}.
 
 ---
 

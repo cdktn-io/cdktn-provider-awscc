@@ -4,7 +4,7 @@
 
 ### EcrReplicationConfiguration <a name="EcrReplicationConfiguration" id="@cdktn/provider-awscc.ecrReplicationConfiguration.EcrReplicationConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration awscc_ecr_replication_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration awscc_ecr_replication_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrReplicationConfiguration.EcrReplicationConfiguration.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The replication configuration for a registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#replication_configuration EcrReplicationConfiguration#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#replication_configuration EcrReplicationConfiguration#replication_configuration}
 
 ---
 
@@ -504,7 +504,7 @@ def put_replication_configuration(
 
 An array of objects representing the replication destinations and repository filters for a replication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#rules EcrReplicationConfiguration#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#rules EcrReplicationConfiguration#rules}
 
 ---
 
@@ -622,7 +622,7 @@ The construct id used in the generated config for the EcrReplicationConfiguratio
 
 The id of the existing EcrReplicationConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -975,7 +975,7 @@ replication_configuration: EcrReplicationConfigurationReplicationConfiguration
 
 The replication configuration for a registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#replication_configuration EcrReplicationConfiguration#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#replication_configuration EcrReplicationConfiguration#replication_configuration}
 
 ---
 
@@ -1009,7 +1009,7 @@ rules: IResolvable | typing.List[EcrReplicationConfigurationReplicationConfigura
 
 An array of objects representing the replication destinations and repository filters for a replication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#rules EcrReplicationConfiguration#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#rules EcrReplicationConfiguration#rules}
 
 ---
 
@@ -1045,7 +1045,7 @@ destinations: IResolvable | typing.List[EcrReplicationConfigurationReplicationCo
 
 An array of objects representing the destination for a replication rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#destinations EcrReplicationConfiguration#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#destinations EcrReplicationConfiguration#destinations}
 
 ---
 
@@ -1061,7 +1061,7 @@ An array of objects representing the filters for a replication rule.
 
 Specifying a repository filter for a replication rule provides a method for controlling which repositories in a private registry are replicated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#repository_filters EcrReplicationConfiguration#repository_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#repository_filters EcrReplicationConfiguration#repository_filters}
 
 ---
 
@@ -1097,7 +1097,7 @@ region: str
 
 The Region to replicate to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}
 
 ---
 
@@ -1113,7 +1113,7 @@ The AWS account ID of the Amazon ECR private registry to replicate to.
 
 When configuring cross-Region replication within your own registry, specify your own account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}
 
 ---
 
@@ -1151,7 +1151,7 @@ The repository filter details.
 
 When the `PREFIX_MATCH` filter type is specified, this value is required and should be the repository name prefix to configure replication for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#filter EcrReplicationConfiguration#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#filter EcrReplicationConfiguration#filter}
 
 ---
 
@@ -1167,7 +1167,7 @@ The repository filter type.
 
 The only supported value is `PREFIX_MATCH`, which is a repository name prefix specified with the `filter` parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_replication_configuration#filter_type EcrReplicationConfiguration#filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_replication_configuration#filter_type EcrReplicationConfiguration#filter_type}
 
 ---
 

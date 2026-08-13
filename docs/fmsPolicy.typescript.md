@@ -4,7 +4,7 @@
 
 ### FmsPolicy <a name="FmsPolicy" id="@cdktn/provider-awscc.fmsPolicy.FmsPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy awscc_fms_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy awscc_fms_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsPolicy.FmsPolicy.Initializer"></a>
 
@@ -631,7 +631,7 @@ The construct id used in the generated config for the FmsPolicy to import.
 
 The id of the existing FmsPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1210,21 +1210,21 @@ const fmsPolicyConfig: fmsPolicy.FmsPolicyConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.excludeResourceTags">excludeResourceTags</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#exclude_resource_tags FmsPolicy#exclude_resource_tags}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#policy_name FmsPolicy#policy_name}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.remediationEnabled">remediationEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#remediation_enabled FmsPolicy#remediation_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.excludeResourceTags">excludeResourceTags</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#exclude_resource_tags FmsPolicy#exclude_resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.policyName">policyName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#policy_name FmsPolicy#policy_name}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.remediationEnabled">remediationEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#remediation_enabled FmsPolicy#remediation_enabled}. |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.securityServicePolicyData">securityServicePolicyData</a></code> | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyData">FmsPolicySecurityServicePolicyData</a></code> | Firewall security service policy data. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.deleteAllPolicyResources">deleteAllPolicyResources</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#delete_all_policy_resources FmsPolicy#delete_all_policy_resources}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.deleteAllPolicyResources">deleteAllPolicyResources</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#delete_all_policy_resources FmsPolicy#delete_all_policy_resources}. |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.excludeMap">excludeMap</a></code> | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyExcludeMap">FmsPolicyExcludeMap</a></code> | An FMS includeMap or excludeMap. |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.includeMap">includeMap</a></code> | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyIncludeMap">FmsPolicyIncludeMap</a></code> | An FMS includeMap or excludeMap. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.policyDescription">policyDescription</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#policy_description FmsPolicy#policy_description}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourcesCleanUp">resourcesCleanUp</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resources_clean_up FmsPolicy#resources_clean_up}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceSetIds">resourceSetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_set_ids FmsPolicy#resource_set_ids}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceTagLogicalOperator">resourceTagLogicalOperator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_tag_logical_operator FmsPolicy#resource_tag_logical_operator}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceTags">resourceTags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags">FmsPolicyResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_tags FmsPolicy#resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.policyDescription">policyDescription</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#policy_description FmsPolicy#policy_description}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourcesCleanUp">resourcesCleanUp</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resources_clean_up FmsPolicy#resources_clean_up}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceSetIds">resourceSetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_set_ids FmsPolicy#resource_set_ids}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceTagLogicalOperator">resourceTagLogicalOperator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_tag_logical_operator FmsPolicy#resource_tag_logical_operator}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceTags">resourceTags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags">FmsPolicyResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_tags FmsPolicy#resource_tags}. |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceType">resourceType</a></code> | <code>string</code> | An AWS resource type. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceTypeList">resourceTypeList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_type_list FmsPolicy#resource_type_list}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags">FmsPolicyTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#tags FmsPolicy#tags}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.resourceTypeList">resourceTypeList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_type_list FmsPolicy#resource_type_list}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags">FmsPolicyTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#tags FmsPolicy#tags}. |
 
 ---
 
@@ -1306,7 +1306,7 @@ public readonly excludeResourceTags: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#exclude_resource_tags FmsPolicy#exclude_resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#exclude_resource_tags FmsPolicy#exclude_resource_tags}.
 
 ---
 
@@ -1318,7 +1318,7 @@ public readonly policyName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#policy_name FmsPolicy#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#policy_name FmsPolicy#policy_name}.
 
 ---
 
@@ -1330,7 +1330,7 @@ public readonly remediationEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#remediation_enabled FmsPolicy#remediation_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#remediation_enabled FmsPolicy#remediation_enabled}.
 
 ---
 
@@ -1344,7 +1344,7 @@ public readonly securityServicePolicyData: FmsPolicySecurityServicePolicyData;
 
 Firewall security service policy data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#security_service_policy_data FmsPolicy#security_service_policy_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#security_service_policy_data FmsPolicy#security_service_policy_data}
 
 ---
 
@@ -1356,7 +1356,7 @@ public readonly deleteAllPolicyResources: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#delete_all_policy_resources FmsPolicy#delete_all_policy_resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#delete_all_policy_resources FmsPolicy#delete_all_policy_resources}.
 
 ---
 
@@ -1370,7 +1370,7 @@ public readonly excludeMap: FmsPolicyExcludeMap;
 
 An FMS includeMap or excludeMap.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#exclude_map FmsPolicy#exclude_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#exclude_map FmsPolicy#exclude_map}
 
 ---
 
@@ -1384,7 +1384,7 @@ public readonly includeMap: FmsPolicyIncludeMap;
 
 An FMS includeMap or excludeMap.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#include_map FmsPolicy#include_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#include_map FmsPolicy#include_map}
 
 ---
 
@@ -1396,7 +1396,7 @@ public readonly policyDescription: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#policy_description FmsPolicy#policy_description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#policy_description FmsPolicy#policy_description}.
 
 ---
 
@@ -1408,7 +1408,7 @@ public readonly resourcesCleanUp: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resources_clean_up FmsPolicy#resources_clean_up}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resources_clean_up FmsPolicy#resources_clean_up}.
 
 ---
 
@@ -1420,7 +1420,7 @@ public readonly resourceSetIds: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_set_ids FmsPolicy#resource_set_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_set_ids FmsPolicy#resource_set_ids}.
 
 ---
 
@@ -1432,7 +1432,7 @@ public readonly resourceTagLogicalOperator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_tag_logical_operator FmsPolicy#resource_tag_logical_operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_tag_logical_operator FmsPolicy#resource_tag_logical_operator}.
 
 ---
 
@@ -1444,7 +1444,7 @@ public readonly resourceTags: IResolvable | FmsPolicyResourceTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags">FmsPolicyResourceTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_tags FmsPolicy#resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_tags FmsPolicy#resource_tags}.
 
 ---
 
@@ -1458,7 +1458,7 @@ public readonly resourceType: string;
 
 An AWS resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_type FmsPolicy#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_type FmsPolicy#resource_type}
 
 ---
 
@@ -1470,7 +1470,7 @@ public readonly resourceTypeList: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#resource_type_list FmsPolicy#resource_type_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#resource_type_list FmsPolicy#resource_type_list}.
 
 ---
 
@@ -1482,7 +1482,7 @@ public readonly tags: IResolvable | FmsPolicyTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags">FmsPolicyTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#tags FmsPolicy#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#tags FmsPolicy#tags}.
 
 ---
 
@@ -1500,8 +1500,8 @@ const fmsPolicyExcludeMap: fmsPolicy.FmsPolicyExcludeMap = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyExcludeMap.property.account">account</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#account FmsPolicy#account}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyExcludeMap.property.orgunit">orgunit</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyExcludeMap.property.account">account</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#account FmsPolicy#account}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyExcludeMap.property.orgunit">orgunit</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}. |
 
 ---
 
@@ -1513,7 +1513,7 @@ public readonly account: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#account FmsPolicy#account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#account FmsPolicy#account}.
 
 ---
 
@@ -1525,7 +1525,7 @@ public readonly orgunit: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.
 
 ---
 
@@ -1543,8 +1543,8 @@ const fmsPolicyIncludeMap: fmsPolicy.FmsPolicyIncludeMap = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyIncludeMap.property.account">account</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#account FmsPolicy#account}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyIncludeMap.property.orgunit">orgunit</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyIncludeMap.property.account">account</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#account FmsPolicy#account}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyIncludeMap.property.orgunit">orgunit</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}. |
 
 ---
 
@@ -1556,7 +1556,7 @@ public readonly account: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#account FmsPolicy#account}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#account FmsPolicy#account}.
 
 ---
 
@@ -1568,7 +1568,7 @@ public readonly orgunit: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.
 
 ---
 
@@ -1586,8 +1586,8 @@ const fmsPolicyResourceTags: fmsPolicy.FmsPolicyResourceTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#key FmsPolicy#key}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#value FmsPolicy#value}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#key FmsPolicy#key}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyResourceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#value FmsPolicy#value}. |
 
 ---
 
@@ -1599,7 +1599,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#key FmsPolicy#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#key FmsPolicy#key}.
 
 ---
 
@@ -1611,7 +1611,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#value FmsPolicy#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#value FmsPolicy#value}.
 
 ---
 
@@ -1645,7 +1645,7 @@ public readonly type: string;
 
 Firewall policy type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#type FmsPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#type FmsPolicy#type}
 
 ---
 
@@ -1659,7 +1659,7 @@ public readonly managedServiceData: string;
 
 Firewall managed service data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#managed_service_data FmsPolicy#managed_service_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#managed_service_data FmsPolicy#managed_service_data}
 
 ---
 
@@ -1673,7 +1673,7 @@ public readonly policyOption: FmsPolicySecurityServicePolicyDataPolicyOption;
 
 Firewall policy option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#policy_option FmsPolicy#policy_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#policy_option FmsPolicy#policy_option}
 
 ---
 
@@ -1707,7 +1707,7 @@ public readonly networkAclCommonPolicy: FmsPolicySecurityServicePolicyDataPolicy
 
 Network ACL common policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#network_acl_common_policy FmsPolicy#network_acl_common_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#network_acl_common_policy FmsPolicy#network_acl_common_policy}
 
 ---
 
@@ -1721,7 +1721,7 @@ public readonly networkFirewallPolicy: FmsPolicySecurityServicePolicyDataPolicyO
 
 Network firewall policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#network_firewall_policy FmsPolicy#network_firewall_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#network_firewall_policy FmsPolicy#network_firewall_policy}
 
 ---
 
@@ -1735,7 +1735,7 @@ public readonly thirdPartyFirewallPolicy: FmsPolicySecurityServicePolicyDataPoli
 
 Third party firewall policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#third_party_firewall_policy FmsPolicy#third_party_firewall_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#third_party_firewall_policy FmsPolicy#third_party_firewall_policy}
 
 ---
 
@@ -1767,7 +1767,7 @@ public readonly networkAclEntrySet: FmsPolicySecurityServicePolicyDataPolicyOpti
 
 Network ACL entry set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#network_acl_entry_set FmsPolicy#network_acl_entry_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#network_acl_entry_set FmsPolicy#network_acl_entry_set}
 
 ---
 
@@ -1786,8 +1786,8 @@ const fmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetwor
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet.property.firstEntries">firstEntries</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetFirstEntries">FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetFirstEntries</a>[]</code> | NetworkAcl entry list. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet.property.forceRemediateForFirstEntries">forceRemediateForFirstEntries</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#force_remediate_for_first_entries FmsPolicy#force_remediate_for_first_entries}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet.property.forceRemediateForLastEntries">forceRemediateForLastEntries</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#force_remediate_for_last_entries FmsPolicy#force_remediate_for_last_entries}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet.property.forceRemediateForFirstEntries">forceRemediateForFirstEntries</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#force_remediate_for_first_entries FmsPolicy#force_remediate_for_first_entries}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet.property.forceRemediateForLastEntries">forceRemediateForLastEntries</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#force_remediate_for_last_entries FmsPolicy#force_remediate_for_last_entries}. |
 | <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySet.property.lastEntries">lastEntries</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntries">FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolicyNetworkAclEntrySetLastEntries</a>[]</code> | NetworkAcl entry list. |
 
 ---
@@ -1802,7 +1802,7 @@ public readonly firstEntries: IResolvable | FmsPolicySecurityServicePolicyDataPo
 
 NetworkAcl entry list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#first_entries FmsPolicy#first_entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#first_entries FmsPolicy#first_entries}
 
 ---
 
@@ -1814,7 +1814,7 @@ public readonly forceRemediateForFirstEntries: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#force_remediate_for_first_entries FmsPolicy#force_remediate_for_first_entries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#force_remediate_for_first_entries FmsPolicy#force_remediate_for_first_entries}.
 
 ---
 
@@ -1826,7 +1826,7 @@ public readonly forceRemediateForLastEntries: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#force_remediate_for_last_entries FmsPolicy#force_remediate_for_last_entries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#force_remediate_for_last_entries FmsPolicy#force_remediate_for_last_entries}.
 
 ---
 
@@ -1840,7 +1840,7 @@ public readonly lastEntries: IResolvable | FmsPolicySecurityServicePolicyDataPol
 
 NetworkAcl entry list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#last_entries FmsPolicy#last_entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#last_entries FmsPolicy#last_entries}
 
 ---
 
@@ -1878,7 +1878,7 @@ public readonly cidrBlock: string;
 
 CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
 
 ---
 
@@ -1892,7 +1892,7 @@ public readonly egress: boolean | IResolvable;
 
 Whether the entry is an egress entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#egress FmsPolicy#egress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#egress FmsPolicy#egress}
 
 ---
 
@@ -1906,7 +1906,7 @@ public readonly icmpTypeCode: FmsPolicySecurityServicePolicyDataPolicyOptionNetw
 
 ICMP type and code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
 
 ---
 
@@ -1920,7 +1920,7 @@ public readonly ipv6CidrBlock: string;
 
 IPv6 CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
 
 ---
 
@@ -1934,7 +1934,7 @@ public readonly portRange: FmsPolicySecurityServicePolicyDataPolicyOptionNetwork
 
 Port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
 
 ---
 
@@ -1948,7 +1948,7 @@ public readonly protocol: string;
 
 Protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
 
 ---
 
@@ -1962,7 +1962,7 @@ public readonly ruleAction: string;
 
 Rule Action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
 
 ---
 
@@ -1995,7 +1995,7 @@ public readonly code: number;
 
 Code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#code FmsPolicy#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#code FmsPolicy#code}
 
 ---
 
@@ -2009,7 +2009,7 @@ public readonly type: number;
 
 Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#type FmsPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#type FmsPolicy#type}
 
 ---
 
@@ -2042,7 +2042,7 @@ public readonly from: number;
 
 From Port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#from FmsPolicy#from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#from FmsPolicy#from}
 
 ---
 
@@ -2056,7 +2056,7 @@ public readonly to: number;
 
 To Port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#to FmsPolicy#to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#to FmsPolicy#to}
 
 ---
 
@@ -2094,7 +2094,7 @@ public readonly cidrBlock: string;
 
 CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#cidr_block FmsPolicy#cidr_block}
 
 ---
 
@@ -2108,7 +2108,7 @@ public readonly egress: boolean | IResolvable;
 
 Whether the entry is an egress entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#egress FmsPolicy#egress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#egress FmsPolicy#egress}
 
 ---
 
@@ -2122,7 +2122,7 @@ public readonly icmpTypeCode: FmsPolicySecurityServicePolicyDataPolicyOptionNetw
 
 ICMP type and code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#icmp_type_code FmsPolicy#icmp_type_code}
 
 ---
 
@@ -2136,7 +2136,7 @@ public readonly ipv6CidrBlock: string;
 
 IPv6 CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#ipv_6_cidr_block FmsPolicy#ipv_6_cidr_block}
 
 ---
 
@@ -2150,7 +2150,7 @@ public readonly portRange: FmsPolicySecurityServicePolicyDataPolicyOptionNetwork
 
 Port range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#port_range FmsPolicy#port_range}
 
 ---
 
@@ -2164,7 +2164,7 @@ public readonly protocol: string;
 
 Protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#protocol FmsPolicy#protocol}
 
 ---
 
@@ -2178,7 +2178,7 @@ public readonly ruleAction: string;
 
 Rule Action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#rule_action FmsPolicy#rule_action}
 
 ---
 
@@ -2211,7 +2211,7 @@ public readonly code: number;
 
 Code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#code FmsPolicy#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#code FmsPolicy#code}
 
 ---
 
@@ -2225,7 +2225,7 @@ public readonly type: number;
 
 Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#type FmsPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#type FmsPolicy#type}
 
 ---
 
@@ -2258,7 +2258,7 @@ public readonly from: number;
 
 From Port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#from FmsPolicy#from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#from FmsPolicy#from}
 
 ---
 
@@ -2272,7 +2272,7 @@ public readonly to: number;
 
 To Port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#to FmsPolicy#to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#to FmsPolicy#to}
 
 ---
 
@@ -2304,7 +2304,7 @@ public readonly firewallDeploymentModel: string;
 
 Firewall deployment mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
 
 ---
 
@@ -2336,7 +2336,7 @@ public readonly firewallDeploymentModel: string;
 
 Firewall deployment mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#firewall_deployment_model FmsPolicy#firewall_deployment_model}
 
 ---
 
@@ -2354,8 +2354,8 @@ const fmsPolicyTags: fmsPolicy.FmsPolicyTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#key FmsPolicy#key}. |
-| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#value FmsPolicy#value}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#key FmsPolicy#key}. |
+| <code><a href="#@cdktn/provider-awscc.fmsPolicy.FmsPolicyTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#value FmsPolicy#value}. |
 
 ---
 
@@ -2367,7 +2367,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#key FmsPolicy#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#key FmsPolicy#key}.
 
 ---
 
@@ -2379,7 +2379,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#value FmsPolicy#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_policy#value FmsPolicy#value}.
 
 ---
 

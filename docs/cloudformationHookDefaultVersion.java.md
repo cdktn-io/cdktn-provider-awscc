@@ -4,7 +4,7 @@
 
 ### CloudformationHookDefaultVersion <a name="CloudformationHookDefaultVersion" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationHookDefaultVersion.CloudformationHookDefaultVersion.Initializer"></a>
 
@@ -110,7 +110,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the type version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of an existing version of the hook to set as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
 
 ---
 
@@ -600,7 +600,7 @@ The construct id used in the generated config for the CloudformationHookDefaultV
 
 The id of the existing CloudformationHookDefaultVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1003,7 +1003,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
 
 ---
 
@@ -1017,7 +1017,7 @@ public java.lang.String getTypeVersionArn();
 
 The Amazon Resource Name (ARN) of the type version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
 
 ---
 
@@ -1031,7 +1031,7 @@ public java.lang.String getVersionId();
 
 The ID of an existing version of the hook to set as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
 
 ---
 

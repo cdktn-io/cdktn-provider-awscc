@@ -4,7 +4,7 @@
 
 ### EntityresolutionPolicyStatement <a name="EntityresolutionPolicyStatement" id="@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatement.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the EntityresolutionPolicyStat
 
 The id of the existing EntityresolutionPolicyStatement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -892,10 +892,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/entityresolutionpolicy
 | <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.arn">Arn</a></code> | <code>*string</code> | Arn of the resource to which the policy statement is being attached. |
 | <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.statementId">StatementId</a></code> | <code>*string</code> | The Statement Id of the policy statement that is being attached. |
-| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.action">Action</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#action EntityresolutionPolicyStatement#action}. |
-| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.condition">Condition</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#condition EntityresolutionPolicyStatement#condition}. |
-| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.effect">Effect</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#effect EntityresolutionPolicyStatement#effect}. |
-| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.principal">Principal</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#principal EntityresolutionPolicyStatement#principal}. |
+| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.action">Action</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#action EntityresolutionPolicyStatement#action}. |
+| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.condition">Condition</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#condition EntityresolutionPolicyStatement#condition}. |
+| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.effect">Effect</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#effect EntityresolutionPolicyStatement#effect}. |
+| <code><a href="#@cdktn/provider-awscc.entityresolutionPolicyStatement.EntityresolutionPolicyStatementConfig.property.principal">Principal</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#principal EntityresolutionPolicyStatement#principal}. |
 
 ---
 
@@ -979,7 +979,7 @@ Arn *string
 
 Arn of the resource to which the policy statement is being attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#arn EntityresolutionPolicyStatement#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#arn EntityresolutionPolicyStatement#arn}
 
 ---
 
@@ -993,7 +993,7 @@ StatementId *string
 
 The Statement Id of the policy statement that is being attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#statement_id EntityresolutionPolicyStatement#statement_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#statement_id EntityresolutionPolicyStatement#statement_id}
 
 ---
 
@@ -1005,7 +1005,7 @@ Action *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#action EntityresolutionPolicyStatement#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#action EntityresolutionPolicyStatement#action}.
 
 ---
 
@@ -1017,7 +1017,7 @@ Condition *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#condition EntityresolutionPolicyStatement#condition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#condition EntityresolutionPolicyStatement#condition}.
 
 ---
 
@@ -1029,7 +1029,7 @@ Effect *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#effect EntityresolutionPolicyStatement#effect}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#effect EntityresolutionPolicyStatement#effect}.
 
 ---
 
@@ -1041,7 +1041,7 @@ Principal *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/entityresolution_policy_statement#principal EntityresolutionPolicyStatement#principal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_policy_statement#principal EntityresolutionPolicyStatement#principal}.
 
 ---
 

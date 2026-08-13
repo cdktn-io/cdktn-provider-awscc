@@ -4,7 +4,7 @@
 
 ### DataAwsccEventsConnections <a name="DataAwsccEventsConnections" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/events_connections awscc_events_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/events_connections awscc_events_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsConnections.DataAwsccEventsConnections.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEventsConnections
 
 The id of the existing DataAwsccEventsConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/events_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/events_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

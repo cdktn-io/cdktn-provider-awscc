@@ -4,7 +4,7 @@
 
 ### AppstreamDirectoryConfig <a name="AppstreamDirectoryConfig" id="@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config awscc_appstream_directory_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config awscc_appstream_directory_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfig.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the AppstreamDirectoryConfig t
 
 The id of the existing AppstreamDirectoryConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -830,8 +830,8 @@ const appstreamDirectoryConfigCertificateBasedAuthProperties: appstreamDirectory
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties.property.certificateAuthorityArn">certificateAuthorityArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties.property.certificateAuthorityArn">certificateAuthorityArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}. |
 
 ---
 
@@ -843,7 +843,7 @@ public readonly certificateAuthorityArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}.
 
 ---
 
@@ -855,7 +855,7 @@ public readonly status: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}.
 
 ---
 
@@ -880,10 +880,10 @@ const appstreamDirectoryConfigConfig: appstreamDirectoryConfig.AppstreamDirector
 | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.directoryName">directoryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.organizationalUnitDistinguishedNames">organizationalUnitDistinguishedNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.serviceAccountCredentials">serviceAccountCredentials</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials">AppstreamDirectoryConfigServiceAccountCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.certificateBasedAuthProperties">certificateBasedAuthProperties</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties">AppstreamDirectoryConfigCertificateBasedAuthProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.directoryName">directoryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.organizationalUnitDistinguishedNames">organizationalUnitDistinguishedNames</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.serviceAccountCredentials">serviceAccountCredentials</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials">AppstreamDirectoryConfigServiceAccountCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigConfig.property.certificateBasedAuthProperties">certificateBasedAuthProperties</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties">AppstreamDirectoryConfigCertificateBasedAuthProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}. |
 
 ---
 
@@ -965,7 +965,7 @@ public readonly directoryName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}.
 
 ---
 
@@ -977,7 +977,7 @@ public readonly organizationalUnitDistinguishedNames: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}.
 
 ---
 
@@ -989,7 +989,7 @@ public readonly serviceAccountCredentials: AppstreamDirectoryConfigServiceAccoun
 
 - *Type:* <a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials">AppstreamDirectoryConfigServiceAccountCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}.
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly certificateBasedAuthProperties: AppstreamDirectoryConfigCertific
 
 - *Type:* <a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigCertificateBasedAuthProperties">AppstreamDirectoryConfigCertificateBasedAuthProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}.
 
 ---
 
@@ -1019,8 +1019,8 @@ const appstreamDirectoryConfigServiceAccountCredentials: appstreamDirectoryConfi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials.property.accountName">accountName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#account_name AppstreamDirectoryConfig#account_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials.property.accountPassword">accountPassword</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#account_password AppstreamDirectoryConfig#account_password}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials.property.accountName">accountName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#account_name AppstreamDirectoryConfig#account_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamDirectoryConfig.AppstreamDirectoryConfigServiceAccountCredentials.property.accountPassword">accountPassword</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#account_password AppstreamDirectoryConfig#account_password}. |
 
 ---
 
@@ -1032,7 +1032,7 @@ public readonly accountName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#account_name AppstreamDirectoryConfig#account_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#account_name AppstreamDirectoryConfig#account_name}.
 
 ---
 
@@ -1044,7 +1044,7 @@ public readonly accountPassword: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_directory_config#account_password AppstreamDirectoryConfig#account_password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_directory_config#account_password AppstreamDirectoryConfig#account_password}.
 
 ---
 

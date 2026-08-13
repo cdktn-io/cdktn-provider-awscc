@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmMaintenanceWindows <a name="DataAwsccSsmMaintenanceWindows" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindows.DataAwsccSsmMaintenanceWindows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmMaintenanceWindows.DataAwsccSsmMaintenanceWindows.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSsmMaintenanceWin
 
 The id of the existing DataAwsccSsmMaintenanceWindows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssm_maintenance_windows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssm_maintenance_windows#import import section} in the documentation of this resource for the id to use
 
 ---
 

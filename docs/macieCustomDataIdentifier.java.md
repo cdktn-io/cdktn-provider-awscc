@@ -4,7 +4,7 @@
 
 ### MacieCustomDataIdentifier <a name="MacieCustomDataIdentifier" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier awscc_macie_custom_data_identifier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier awscc_macie_custom_data_identifier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieCustomDataIdentifier.MacieCustomDataIdentifier.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Name of custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#name MacieCustomDataIdentifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#name MacieCustomDataIdentifier#name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Regular expression for custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#regex MacieCustomDataIdentifier#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#regex MacieCustomDataIdentifier#regex}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#description MacieCustomDataIdentifier#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#description MacieCustomDataIdentifier#description}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Words to be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#ignore_words MacieCustomDataIdentifier#ignore_words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#ignore_words MacieCustomDataIdentifier#ignore_words}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Keywords to be matched against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#keywords MacieCustomDataIdentifier#keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#keywords MacieCustomDataIdentifier#keywords}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum match distance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#maximum_match_distance MacieCustomDataIdentifier#maximum_match_distance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#maximum_match_distance MacieCustomDataIdentifier#maximum_match_distance}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#tags MacieCustomDataIdentifier#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#tags MacieCustomDataIdentifier#tags}
 
 ---
 
@@ -673,7 +673,7 @@ The construct id used in the generated config for the MacieCustomDataIdentifier 
 
 The id of the existing MacieCustomDataIdentifier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1181,7 +1181,7 @@ public java.lang.String getName();
 
 Name of custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#name MacieCustomDataIdentifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#name MacieCustomDataIdentifier#name}
 
 ---
 
@@ -1195,7 +1195,7 @@ public java.lang.String getRegex();
 
 Regular expression for custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#regex MacieCustomDataIdentifier#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#regex MacieCustomDataIdentifier#regex}
 
 ---
 
@@ -1209,7 +1209,7 @@ public java.lang.String getDescription();
 
 Description of custom data identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#description MacieCustomDataIdentifier#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#description MacieCustomDataIdentifier#description}
 
 ---
 
@@ -1223,7 +1223,7 @@ public java.util.List<java.lang.String> getIgnoreWords();
 
 Words to be ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#ignore_words MacieCustomDataIdentifier#ignore_words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#ignore_words MacieCustomDataIdentifier#ignore_words}
 
 ---
 
@@ -1237,7 +1237,7 @@ public java.util.List<java.lang.String> getKeywords();
 
 Keywords to be matched against.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#keywords MacieCustomDataIdentifier#keywords}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#keywords MacieCustomDataIdentifier#keywords}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.Number getMaximumMatchDistance();
 
 Maximum match distance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#maximum_match_distance MacieCustomDataIdentifier#maximum_match_distance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#maximum_match_distance MacieCustomDataIdentifier#maximum_match_distance}
 
 ---
 
@@ -1265,7 +1265,7 @@ public IResolvable|java.util.List<MacieCustomDataIdentifierTags> getTags();
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#tags MacieCustomDataIdentifier#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#tags MacieCustomDataIdentifier#tags}
 
 ---
 
@@ -1301,7 +1301,7 @@ public java.lang.String getKey();
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#key MacieCustomDataIdentifier#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#key MacieCustomDataIdentifier#key}
 
 ---
 
@@ -1315,7 +1315,7 @@ public java.lang.String getValue();
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_custom_data_identifier#value MacieCustomDataIdentifier#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_custom_data_identifier#value MacieCustomDataIdentifier#value}
 
 ---
 

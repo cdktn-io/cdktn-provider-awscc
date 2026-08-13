@@ -4,7 +4,7 @@
 
 ### ResourcegroupsTagSyncTask <a name="ResourcegroupsTagSyncTask" id="@cdktn/provider-awscc.resourcegroupsTagSyncTask.ResourcegroupsTagSyncTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourcegroupsTagSyncTask.ResourcegroupsTagSyncTask.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ResourcegroupsTagSyncTask 
 
 The id of the existing ResourcegroupsTagSyncTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourcegroups_tag_sync_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourcegroups_tag_sync_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -947,7 +947,7 @@ public string Group { get; set; }
 
 The Amazon resource name (ARN) or name of the application group for which you want to create a tag-sync task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourcegroups_tag_sync_task#group ResourcegroupsTagSyncTask#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourcegroups_tag_sync_task#group ResourcegroupsTagSyncTask#group}
 
 ---
 
@@ -961,7 +961,7 @@ public string RoleArn { get; set; }
 
 The Amazon resource name (ARN) of the role assumed by the service to tag and untag resources on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourcegroups_tag_sync_task#role_arn ResourcegroupsTagSyncTask#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourcegroups_tag_sync_task#role_arn ResourcegroupsTagSyncTask#role_arn}
 
 ---
 
@@ -977,7 +977,7 @@ The tag key.
 
 Resources tagged with this tag key-value pair will be added to the application. If a resource with this tag is later untagged, the tag-sync task removes the resource from the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourcegroups_tag_sync_task#tag_key ResourcegroupsTagSyncTask#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourcegroups_tag_sync_task#tag_key ResourcegroupsTagSyncTask#tag_key}
 
 ---
 
@@ -993,7 +993,7 @@ The tag value.
 
 Resources tagged with this tag key-value pair will be added to the application. If a resource with this tag is later untagged, the tag-sync task removes the resource from the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourcegroups_tag_sync_task#tag_value ResourcegroupsTagSyncTask#tag_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourcegroups_tag_sync_task#tag_value ResourcegroupsTagSyncTask#tag_value}
 
 ---
 

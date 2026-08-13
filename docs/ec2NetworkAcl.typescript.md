@@ -4,7 +4,7 @@
 
 ### Ec2NetworkAcl <a name="Ec2NetworkAcl" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkAcl.Ec2NetworkAcl.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2NetworkAcl to import.
 
 The id of the existing Ec2NetworkAcl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_acl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -876,7 +876,7 @@ public readonly vpcId: string;
 
 The ID of the VPC for the network ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_acl#vpc_id Ec2NetworkAcl#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl#vpc_id Ec2NetworkAcl#vpc_id}
 
 ---
 
@@ -890,7 +890,7 @@ public readonly tags: IResolvable | Ec2NetworkAclTags[];
 
 The tags for the network ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_acl#tags Ec2NetworkAcl#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl#tags Ec2NetworkAcl#tags}
 
 ---
 
@@ -923,7 +923,7 @@ public readonly key: string;
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_acl#key Ec2NetworkAcl#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl#key Ec2NetworkAcl#key}
 
 ---
 
@@ -937,7 +937,7 @@ public readonly value: string;
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_acl#value Ec2NetworkAcl#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl#value Ec2NetworkAcl#value}
 
 ---
 

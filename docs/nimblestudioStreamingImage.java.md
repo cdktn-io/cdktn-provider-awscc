@@ -4,7 +4,7 @@
 
 ### NimblestudioStreamingImage <a name="NimblestudioStreamingImage" id="@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer"></a>
 
@@ -40,13 +40,13 @@ NimblestudioStreamingImage.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.ec2ImageId">ec2ImageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.studioId">studioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.encryptionConfigurationKeyArn">encryptionConfigurationKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.encryptionConfigurationKeyType">encryptionConfigurationKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.ec2ImageId">ec2ImageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.studioId">studioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.encryptionConfigurationKeyArn">encryptionConfigurationKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.encryptionConfigurationKeyType">encryptionConfigurationKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImage.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}.
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}.
 
 ---
 
@@ -639,7 +639,7 @@ The construct id used in the generated config for the NimblestudioStreamingImage
 
 The id of the existing NimblestudioStreamingImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1090,13 +1090,13 @@ NimblestudioStreamingImageConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.ec2ImageId">ec2ImageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.studioId">studioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.encryptionConfigurationKeyArn">encryptionConfigurationKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.encryptionConfigurationKeyType">encryptionConfigurationKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}. |
-| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.ec2ImageId">ec2ImageId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.studioId">studioId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.encryptionConfigurationKeyArn">encryptionConfigurationKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.encryptionConfigurationKeyType">encryptionConfigurationKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.nimblestudioStreamingImage.NimblestudioStreamingImageConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}. |
 
 ---
 
@@ -1178,7 +1178,7 @@ public java.lang.String getEc2ImageId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#ec_2_image_id NimblestudioStreamingImage#ec_2_image_id}.
 
 ---
 
@@ -1190,7 +1190,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#name NimblestudioStreamingImage#name}.
 
 ---
 
@@ -1202,7 +1202,7 @@ public java.lang.String getStudioId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#studio_id NimblestudioStreamingImage#studio_id}.
 
 ---
 
@@ -1214,7 +1214,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#description NimblestudioStreamingImage#description}.
 
 ---
 
@@ -1226,7 +1226,7 @@ public java.lang.String getEncryptionConfigurationKeyArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_arn NimblestudioStreamingImage#encryption_configuration_key_arn}.
 
 ---
 
@@ -1238,7 +1238,7 @@ public java.lang.String getEncryptionConfigurationKeyType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#encryption_configuration_key_type NimblestudioStreamingImage#encryption_configuration_key_type}.
 
 ---
 
@@ -1250,7 +1250,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image#tags NimblestudioStreamingImage#tags}.
 
 ---
 

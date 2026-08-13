@@ -4,7 +4,7 @@
 
 ### CeCostCategory <a name="CeCostCategory" id="@cdktn/provider-awscc.ceCostCategory.CeCostCategory"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category awscc_ce_cost_category}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category awscc_ce_cost_category}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ceCostCategory.CeCostCategory.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the CeCostCategory to import.
 
 The id of the existing CeCostCategory that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -918,9 +918,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cecostcategory"
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#name CeCostCategory#name}. |
+| <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#name CeCostCategory#name}. |
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.rules">Rules</a></code> | <code>*string</code> | JSON array format of Expression in Billing and Cost Management API. |
-| <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.ruleVersion">RuleVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}. |
+| <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.ruleVersion">RuleVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}. |
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.defaultValue">DefaultValue</a></code> | <code>*string</code> | The default value for the cost category. |
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.splitChargeRules">SplitChargeRules</a></code> | <code>*string</code> | Json array format of CostCategorySplitChargeRule in Billing and Cost Management API. |
 | <code><a href="#@cdktn/provider-awscc.ceCostCategory.CeCostCategoryConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Tags to assign to the cost category. |
@@ -1005,7 +1005,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#name CeCostCategory#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#name CeCostCategory#name}.
 
 ---
 
@@ -1019,7 +1019,7 @@ Rules *string
 
 JSON array format of Expression in Billing and Cost Management API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#rules CeCostCategory#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#rules CeCostCategory#rules}
 
 ---
 
@@ -1031,7 +1031,7 @@ RuleVersion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}.
 
 ---
 
@@ -1045,7 +1045,7 @@ DefaultValue *string
 
 The default value for the cost category.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#default_value CeCostCategory#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#default_value CeCostCategory#default_value}
 
 ---
 
@@ -1059,7 +1059,7 @@ SplitChargeRules *string
 
 Json array format of CostCategorySplitChargeRule in Billing and Cost Management API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#split_charge_rules CeCostCategory#split_charge_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#split_charge_rules CeCostCategory#split_charge_rules}
 
 ---
 
@@ -1073,7 +1073,7 @@ Tags interface{}
 
 Tags to assign to the cost category.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
 
 ---
 
@@ -1109,7 +1109,7 @@ Key *string
 
 The key name for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#key CeCostCategory#key}
 
 ---
 
@@ -1123,7 +1123,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_cost_category#value CeCostCategory#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category#value CeCostCategory#value}
 
 ---
 

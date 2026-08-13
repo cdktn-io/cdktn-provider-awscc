@@ -4,7 +4,7 @@
 
 ### DataAwsccBatchJobDefinition <a name="DataAwsccBatchJobDefinition" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/batch_job_definition awscc_batch_job_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_job_definition awscc_batch_job_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinition.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBatchJobDefinitio
 
 The id of the existing DataAwsccBatchJobDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/batch_job_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_job_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -872,7 +872,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/batch_job_definition#id DataAwsccBatchJobDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_job_definition#id DataAwsccBatchJobDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17756,6 +17756,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.ipcMode">IpcMode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.networkConfiguration">NetworkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference">DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.networkMode">NetworkMode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.pidMode">PidMode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.platformVersion">PlatformVersion</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.runtimePlatform">RuntimePlatform</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputReference">DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputReference</a></code> | *No description.* |
@@ -17846,6 +17847,16 @@ func NetworkConfiguration() DataAwsccBatchJobDefinitionEcsPropertiesTaskProperti
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference">DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference</a>
+
+---
+
+##### `NetworkMode`<sup>Required</sup> <a name="NetworkMode" id="@cdktn/provider-awscc.dataAwsccBatchJobDefinition.DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference.property.networkMode"></a>
+
+```go
+func NetworkMode() *string
+```
+
+- *Type:* *string
 
 ---
 

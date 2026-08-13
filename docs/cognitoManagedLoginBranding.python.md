@@ -4,7 +4,7 @@
 
 ### CognitoManagedLoginBranding <a name="CognitoManagedLoginBranding" id="@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer"></a>
 
@@ -41,12 +41,12 @@ cognitoManagedLoginBranding.CognitoManagedLoginBranding(
 | <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.userPoolId">user_pool_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.assets">assets</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets">CognitoManagedLoginBrandingAssets</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.clientId">client_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.returnMergedResources">return_merged_resources</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.settings">settings</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.useCognitoProvidedValues">use_cognito_provided_values</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.userPoolId">user_pool_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.assets">assets</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets">CognitoManagedLoginBrandingAssets</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.clientId">client_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.returnMergedResources">return_merged_resources</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.settings">settings</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBranding.Initializer.parameter.useCognitoProvidedValues">use_cognito_provided_values</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets">CognitoManagedLoginBrandingAssets</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}.
 
 ---
 
@@ -701,7 +701,7 @@ The construct id used in the generated config for the CognitoManagedLoginBrandin
 
 The id of the existing CognitoManagedLoginBranding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1070,11 +1070,11 @@ cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.bytes">bytes</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#bytes CognitoManagedLoginBranding#bytes}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.category">category</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#category CognitoManagedLoginBranding#category}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.colorMode">color_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#color_mode CognitoManagedLoginBranding#color_mode}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.extension">extension</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#extension CognitoManagedLoginBranding#extension}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.resourceId">resource_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#resource_id CognitoManagedLoginBranding#resource_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.bytes">bytes</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#bytes CognitoManagedLoginBranding#bytes}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.category">category</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#category CognitoManagedLoginBranding#category}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.colorMode">color_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#color_mode CognitoManagedLoginBranding#color_mode}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.extension">extension</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#extension CognitoManagedLoginBranding#extension}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets.property.resourceId">resource_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#resource_id CognitoManagedLoginBranding#resource_id}. |
 
 ---
 
@@ -1086,7 +1086,7 @@ bytes: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#bytes CognitoManagedLoginBranding#bytes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#bytes CognitoManagedLoginBranding#bytes}.
 
 ---
 
@@ -1098,7 +1098,7 @@ category: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#category CognitoManagedLoginBranding#category}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#category CognitoManagedLoginBranding#category}.
 
 ---
 
@@ -1110,7 +1110,7 @@ color_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#color_mode CognitoManagedLoginBranding#color_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#color_mode CognitoManagedLoginBranding#color_mode}.
 
 ---
 
@@ -1122,7 +1122,7 @@ extension: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#extension CognitoManagedLoginBranding#extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#extension CognitoManagedLoginBranding#extension}.
 
 ---
 
@@ -1134,7 +1134,7 @@ resource_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#resource_id CognitoManagedLoginBranding#resource_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#resource_id CognitoManagedLoginBranding#resource_id}.
 
 ---
 
@@ -1173,12 +1173,12 @@ cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig(
 | <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.userPoolId">user_pool_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.assets">assets</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets">CognitoManagedLoginBrandingAssets</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.clientId">client_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.returnMergedResources">return_merged_resources</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.settings">settings</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.useCognitoProvidedValues">use_cognito_provided_values</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.userPoolId">user_pool_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.assets">assets</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets">CognitoManagedLoginBrandingAssets</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.clientId">client_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.returnMergedResources">return_merged_resources</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.settings">settings</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingConfig.property.useCognitoProvidedValues">use_cognito_provided_values</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}. |
 
 ---
 
@@ -1260,7 +1260,7 @@ user_pool_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#user_pool_id CognitoManagedLoginBranding#user_pool_id}.
 
 ---
 
@@ -1272,7 +1272,7 @@ assets: IResolvable | typing.List[CognitoManagedLoginBrandingAssets]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cognitoManagedLoginBranding.CognitoManagedLoginBrandingAssets">CognitoManagedLoginBrandingAssets</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#assets CognitoManagedLoginBranding#assets}.
 
 ---
 
@@ -1284,7 +1284,7 @@ client_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#client_id CognitoManagedLoginBranding#client_id}.
 
 ---
 
@@ -1296,7 +1296,7 @@ return_merged_resources: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#return_merged_resources CognitoManagedLoginBranding#return_merged_resources}.
 
 ---
 
@@ -1308,7 +1308,7 @@ settings: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#settings CognitoManagedLoginBranding#settings}.
 
 ---
 
@@ -1320,7 +1320,7 @@ use_cognito_provided_values: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_managed_login_branding#use_cognito_provided_values CognitoManagedLoginBranding#use_cognito_provided_values}.
 
 ---
 

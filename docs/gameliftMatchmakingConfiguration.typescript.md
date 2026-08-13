@@ -4,7 +4,7 @@
 
 ### GameliftMatchmakingConfiguration <a name="GameliftMatchmakingConfiguration" id="@cdktn/provider-awscc.gameliftMatchmakingConfiguration.GameliftMatchmakingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftMatchmakingConfiguration.GameliftMatchmakingConfiguration.Initializer"></a>
 
@@ -606,7 +606,7 @@ The construct id used in the generated config for the GameliftMatchmakingConfigu
 
 The id of the existing GameliftMatchmakingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1318,7 +1318,7 @@ public readonly acceptanceRequired: boolean | IResolvable;
 
 A flag that indicates whether a match that was created with this configuration must be accepted by the matched players.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#acceptance_required GameliftMatchmakingConfiguration#acceptance_required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#acceptance_required GameliftMatchmakingConfiguration#acceptance_required}
 
 ---
 
@@ -1332,7 +1332,7 @@ public readonly name: string;
 
 A unique identifier for the matchmaking configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#name GameliftMatchmakingConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#name GameliftMatchmakingConfiguration#name}
 
 ---
 
@@ -1346,7 +1346,7 @@ public readonly requestTimeoutSeconds: number;
 
 The maximum duration, in seconds, that a matchmaking ticket can remain in process before timing out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#request_timeout_seconds GameliftMatchmakingConfiguration#request_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#request_timeout_seconds GameliftMatchmakingConfiguration#request_timeout_seconds}
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly ruleSetName: string;
 
 A unique identifier for the matchmaking rule set to use with this configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#rule_set_name GameliftMatchmakingConfiguration#rule_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#rule_set_name GameliftMatchmakingConfiguration#rule_set_name}
 
 ---
 
@@ -1374,7 +1374,7 @@ public readonly acceptanceTimeoutSeconds: number;
 
 The length of time (in seconds) to wait for players to accept a proposed match, if acceptance is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#acceptance_timeout_seconds GameliftMatchmakingConfiguration#acceptance_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#acceptance_timeout_seconds GameliftMatchmakingConfiguration#acceptance_timeout_seconds}
 
 ---
 
@@ -1388,7 +1388,7 @@ public readonly additionalPlayerCount: number;
 
 The number of player slots in a match to keep open for future players.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#additional_player_count GameliftMatchmakingConfiguration#additional_player_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#additional_player_count GameliftMatchmakingConfiguration#additional_player_count}
 
 ---
 
@@ -1402,7 +1402,7 @@ public readonly backfillMode: string;
 
 The method used to backfill game sessions created with this matchmaking configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#backfill_mode GameliftMatchmakingConfiguration#backfill_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#backfill_mode GameliftMatchmakingConfiguration#backfill_mode}
 
 ---
 
@@ -1416,7 +1416,7 @@ public readonly creationTime: string;
 
 A time stamp indicating when this data object was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#creation_time GameliftMatchmakingConfiguration#creation_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#creation_time GameliftMatchmakingConfiguration#creation_time}
 
 ---
 
@@ -1430,7 +1430,7 @@ public readonly customEventData: string;
 
 Information to attach to all events related to the matchmaking configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#custom_event_data GameliftMatchmakingConfiguration#custom_event_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#custom_event_data GameliftMatchmakingConfiguration#custom_event_data}
 
 ---
 
@@ -1444,7 +1444,7 @@ public readonly description: string;
 
 A descriptive label that is associated with matchmaking configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#description GameliftMatchmakingConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#description GameliftMatchmakingConfiguration#description}
 
 ---
 
@@ -1458,7 +1458,7 @@ public readonly flexMatchMode: string;
 
 Indicates whether this matchmaking configuration is being used with Amazon GameLift hosting or as a standalone matchmaking solution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#flex_match_mode GameliftMatchmakingConfiguration#flex_match_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#flex_match_mode GameliftMatchmakingConfiguration#flex_match_mode}
 
 ---
 
@@ -1472,7 +1472,7 @@ public readonly gameProperties: IResolvable | GameliftMatchmakingConfigurationGa
 
 A set of custom properties for a game session, formatted as key:value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#game_properties GameliftMatchmakingConfiguration#game_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#game_properties GameliftMatchmakingConfiguration#game_properties}
 
 ---
 
@@ -1486,7 +1486,7 @@ public readonly gameSessionData: string;
 
 A set of custom game session properties, formatted as a single string value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#game_session_data GameliftMatchmakingConfiguration#game_session_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#game_session_data GameliftMatchmakingConfiguration#game_session_data}
 
 ---
 
@@ -1500,7 +1500,7 @@ public readonly gameSessionQueueArns: string[];
 
 The Amazon Resource Name (ARN) that is assigned to a Amazon GameLift game session queue resource and uniquely identifies it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#game_session_queue_arns GameliftMatchmakingConfiguration#game_session_queue_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#game_session_queue_arns GameliftMatchmakingConfiguration#game_session_queue_arns}
 
 ---
 
@@ -1514,7 +1514,7 @@ public readonly notificationTarget: string;
 
 An SNS topic ARN that is set up to receive matchmaking notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#notification_target GameliftMatchmakingConfiguration#notification_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#notification_target GameliftMatchmakingConfiguration#notification_target}
 
 ---
 
@@ -1528,7 +1528,7 @@ public readonly ruleSetArn: string;
 
 The Amazon Resource Name (ARN) associated with the GameLift matchmaking rule set resource that this configuration uses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#rule_set_arn GameliftMatchmakingConfiguration#rule_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#rule_set_arn GameliftMatchmakingConfiguration#rule_set_arn}
 
 ---
 
@@ -1542,7 +1542,7 @@ public readonly tags: IResolvable | GameliftMatchmakingConfigurationTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#tags GameliftMatchmakingConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#tags GameliftMatchmakingConfiguration#tags}
 
 ---
 
@@ -1575,7 +1575,7 @@ public readonly key: string;
 
 The game property identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
 
 ---
 
@@ -1589,7 +1589,7 @@ public readonly value: string;
 
 The game property value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
 
 ---
 
@@ -1624,7 +1624,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#key GameliftMatchmakingConfiguration#key}
 
 ---
 
@@ -1638,7 +1638,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_configuration#value GameliftMatchmakingConfiguration#value}
 
 ---
 

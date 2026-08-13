@@ -4,7 +4,7 @@
 
 ### DataAwsccEventsArchives <a name="DataAwsccEventsArchives" id="@cdktn/provider-awscc.dataAwsccEventsArchives.DataAwsccEventsArchives"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/events_archives awscc_events_archives}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/events_archives awscc_events_archives}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsArchives.DataAwsccEventsArchives.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEventsArchives to
 
 The id of the existing DataAwsccEventsArchives that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/events_archives#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/events_archives#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccDirectconnectTransitVirtualInterfaces <a name="DataAwsccDirectconnectTransitVirtualInterfaces" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectTransitVirtualInterfaces.DataAwsccDirectconnectTransitVirtualInterfaces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectTran
 
 The id of the existing DataAwsccDirectconnectTransitVirtualInterfaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_transit_virtual_interfaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_transit_virtual_interfaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### PanoramaPackage <a name="PanoramaPackage" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package awscc_panorama_package}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package awscc_panorama_package}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaPackage.PanoramaPackage.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 A name for the package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A storage location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags for the package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
 
 ---
 
@@ -663,7 +663,7 @@ The construct id used in the generated config for the PanoramaPackage to import.
 
 The id of the existing PanoramaPackage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1086,7 +1086,7 @@ package_name: str
 
 A name for the package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
 
 ---
 
@@ -1100,7 +1100,7 @@ storage_location: PanoramaPackageStorageLocation
 
 A storage location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
 
 ---
 
@@ -1114,7 +1114,7 @@ tags: IResolvable | typing.List[PanoramaPackageTags]
 
 Tags for the package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
 
 ---
 
@@ -1146,8 +1146,8 @@ panoramaPackage.PanoramaPackageTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#key PanoramaPackage#key}. |
-| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#value PanoramaPackage#value}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#key PanoramaPackage#key}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaPackage.PanoramaPackageTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#value PanoramaPackage#value}. |
 
 ---
 
@@ -1159,7 +1159,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#key PanoramaPackage#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#key PanoramaPackage#key}.
 
 ---
 
@@ -1171,7 +1171,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_package#value PanoramaPackage#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package#value PanoramaPackage#value}.
 
 ---
 

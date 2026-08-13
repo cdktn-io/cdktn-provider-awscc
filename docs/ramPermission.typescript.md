@@ -4,7 +4,7 @@
 
 ### RamPermission <a name="RamPermission" id="@cdktn/provider-awscc.ramPermission.RamPermission"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission awscc_ram_permission}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission awscc_ram_permission}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramPermission.RamPermission.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RamPermission to import.
 
 The id of the existing RamPermission that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -871,7 +871,7 @@ const ramPermissionConfig: ramPermission.RamPermissionConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.ramPermission.RamPermissionConfig.property.name">name</a></code> | <code>string</code> | The name of the permission. |
 | <code><a href="#@cdktn/provider-awscc.ramPermission.RamPermissionConfig.property.policyTemplate">policyTemplate</a></code> | <code>string</code> | Policy template for the permission. |
 | <code><a href="#@cdktn/provider-awscc.ramPermission.RamPermissionConfig.property.resourceType">resourceType</a></code> | <code>string</code> | The resource type this permission can be used with. |
-| <code><a href="#@cdktn/provider-awscc.ramPermission.RamPermissionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ramPermission.RamPermissionTags">RamPermissionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#tags RamPermission#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ramPermission.RamPermissionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ramPermission.RamPermissionTags">RamPermissionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#tags RamPermission#tags}. |
 
 ---
 
@@ -955,7 +955,7 @@ public readonly name: string;
 
 The name of the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#name RamPermission#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#name RamPermission#name}
 
 ---
 
@@ -969,7 +969,7 @@ public readonly policyTemplate: string;
 
 Policy template for the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#policy_template RamPermission#policy_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#policy_template RamPermission#policy_template}
 
 ---
 
@@ -983,7 +983,7 @@ public readonly resourceType: string;
 
 The resource type this permission can be used with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#resource_type RamPermission#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#resource_type RamPermission#resource_type}
 
 ---
 
@@ -995,7 +995,7 @@ public readonly tags: IResolvable | RamPermissionTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ramPermission.RamPermissionTags">RamPermissionTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#tags RamPermission#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#tags RamPermission#tags}.
 
 ---
 
@@ -1030,7 +1030,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#key RamPermission#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#key RamPermission#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ram_permission#value RamPermission#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ram_permission#value RamPermission#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### AcmpcaPermission <a name="AcmpcaPermission" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission awscc_acmpca_permission}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission awscc_acmpca_permission}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.acmpcaPermission.AcmpcaPermission.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The actions that the specified AWS service principal can use. Actions IssueCertificate, GetCertificate and ListPermissions must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the Private Certificate Authority that grants the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS service or identity that receives the permission. At this time, the only valid principal is acm.amazonaws.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the calling account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
 
 ---
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the AcmpcaPermission to import
 
 The id of the existing AcmpcaPermission that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,7 +1010,7 @@ public java.util.List<java.lang.String> getActions();
 
 The actions that the specified AWS service principal can use. Actions IssueCertificate, GetCertificate and ListPermissions must be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
 
 ---
 
@@ -1024,7 +1024,7 @@ public java.lang.String getCertificateAuthorityArn();
 
 The Amazon Resource Name (ARN) of the Private Certificate Authority that grants the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
 
 ---
 
@@ -1038,7 +1038,7 @@ public java.lang.String getPrincipal();
 
 The AWS service or identity that receives the permission. At this time, the only valid principal is acm.amazonaws.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
 
 ---
 
@@ -1052,7 +1052,7 @@ public java.lang.String getSourceAccount();
 
 The ID of the calling account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
 
 ---
 

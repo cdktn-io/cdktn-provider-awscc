@@ -4,7 +4,7 @@
 
 ### MediaconnectFlow <a name="MediaconnectFlow" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlow.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
 
 ---
 
@@ -142,7 +142,7 @@ The Availability Zone that you want to create the flow in.
 
 These options are limited to the Availability Zones within the current AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maintenance settings you want to use for the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
 
 ---
 
@@ -164,7 +164,7 @@ The media streams associated with the flow.
 
 You can associate any of these media streams with sources and outputs on the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source failover config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source monitoring config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The VPC interfaces that you added to this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
 
 ---
 
@@ -604,7 +604,7 @@ def put_maintenance(
 
 A day of a week when the maintenance will happen. Use Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
 
 ---
 
@@ -616,7 +616,7 @@ UTC time when the maintenance will happen.
 
 Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
 
 ---
 
@@ -666,7 +666,7 @@ def put_source(
 
 The type of decryption that is used on the content ingested from this source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
 
 ---
 
@@ -678,7 +678,7 @@ A description for the source.
 
 This value is not used or seen outside of the current AWS Elemental MediaConnect account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
 
 ---
 
@@ -690,7 +690,7 @@ The ARN of the entitlement that allows you to subscribe to content that comes fr
 
 The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
 
 ---
 
@@ -700,7 +700,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source configuration for cloud flows receiving a stream from a bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
 
 ---
 
@@ -710,7 +710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The port that the flow will be listening on for incoming content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
 
 ---
 
@@ -720,7 +720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
 
 ---
 
@@ -730,7 +730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
 
 ---
 
@@ -740,7 +740,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The size of the buffer (in milliseconds) to use to sync incoming source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
 
 ---
 
@@ -750,7 +750,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The media stream that is associated with the source, and the parameters for that association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
 
 ---
 
@@ -760,7 +760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The minimum latency in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
 
 ---
 
@@ -770,7 +770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -780,7 +780,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The protocol that is used by the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
 
 ---
 
@@ -790,7 +790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
 
 ---
 
@@ -800,7 +800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
 
 ---
 
@@ -810,7 +810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Source IP or domain name for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
 
 ---
 
@@ -820,7 +820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Source port for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
 
 ---
 
@@ -830,7 +830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
 
 ---
 
@@ -840,7 +840,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the VPC Interface this Source is configured with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -852,7 +852,7 @@ The range of IP addresses that should be allowed to contribute content to your s
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
 
 ---
 
@@ -875,7 +875,7 @@ The type of failover you choose for this flow.
 
 MERGE combines the source streams into a single stream, allowing graceful recovery from any single-source loss. FAILOVER allows switching between different streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
 
 ---
 
@@ -885,7 +885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Search window time to look for dash-7 packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
 
 ---
 
@@ -897,7 +897,7 @@ The priority you want to assign to a source.
 
 You can have a primary stream and a backup stream or two equally prioritized streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
 
 ---
 
@@ -905,7 +905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
 
 ---
 
@@ -926,7 +926,7 @@ def put_source_monitoring_config(
 
 Contains the settings for audio stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
 
 ---
 
@@ -936,7 +936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether content quality analysis is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
 
 ---
 
@@ -946,7 +946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The state of thumbnail monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
 
 ---
 
@@ -956,7 +956,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains the settings for video stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
 
 ---
 
@@ -1124,7 +1124,7 @@ The construct id used in the generated config for the MediaconnectFlow to import
 
 The id of the existing MediaconnectFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1667,7 +1667,7 @@ name: str
 
 The name of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -1681,7 +1681,7 @@ source: MediaconnectFlowSource
 
 The source of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source MediaconnectFlow#source}
 
 ---
 
@@ -1697,7 +1697,7 @@ The Availability Zone that you want to create the flow in.
 
 These options are limited to the Availability Zones within the current AWS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#availability_zone MediaconnectFlow#availability_zone}
 
 ---
 
@@ -1711,7 +1711,7 @@ maintenance: MediaconnectFlowMaintenance
 
 The maintenance settings you want to use for the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#maintenance MediaconnectFlow#maintenance}
 
 ---
 
@@ -1727,7 +1727,7 @@ The media streams associated with the flow.
 
 You can associate any of these media streams with sources and outputs on the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_streams MediaconnectFlow#media_streams}
 
 ---
 
@@ -1741,7 +1741,7 @@ source_failover_config: MediaconnectFlowSourceFailoverConfig
 
 The source failover config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_failover_config MediaconnectFlow#source_failover_config}
 
 ---
 
@@ -1755,7 +1755,7 @@ source_monitoring_config: MediaconnectFlowSourceMonitoringConfig
 
 The source monitoring config of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_monitoring_config MediaconnectFlow#source_monitoring_config}
 
 ---
 
@@ -1769,7 +1769,7 @@ vpc_interfaces: IResolvable | typing.List[MediaconnectFlowVpcInterfaces]
 
 The VPC interfaces that you added to this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interfaces MediaconnectFlow#vpc_interfaces}
 
 ---
 
@@ -1805,7 +1805,7 @@ maintenance_day: str
 
 A day of a week when the maintenance will happen. Use Monday/Tuesday/Wednesday/Thursday/Friday/Saturday/Sunday.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#maintenance_day MediaconnectFlow#maintenance_day}
 
 ---
 
@@ -1821,7 +1821,7 @@ UTC time when the maintenance will happen.
 
 Use 24-hour HH:MM format. Minutes must be 00. Example: 13:00. The default value is 02:00.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#maintenance_start_hour MediaconnectFlow#maintenance_start_hour}
 
 ---
 
@@ -1869,7 +1869,7 @@ attributes: MediaconnectFlowMediaStreamsAttributes
 
 Attributes that are related to the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#attributes MediaconnectFlow#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#attributes MediaconnectFlow#attributes}
 
 ---
 
@@ -1883,7 +1883,7 @@ clock_rate: typing.Union[int, float]
 
 The sample rate for the stream. This value in measured in kHz.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#clock_rate MediaconnectFlow#clock_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#clock_rate MediaconnectFlow#clock_rate}
 
 ---
 
@@ -1897,7 +1897,7 @@ description: str
 
 A description that can help you quickly identify what your media stream is used for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
 
 ---
 
@@ -1913,7 +1913,7 @@ The format type number (sometimes referred to as RTP payload type) of the media 
 
 MediaConnect assigns this value to the media stream. For ST 2110 JPEG XS outputs, you need to provide this value to the receiver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#fmt MediaconnectFlow#fmt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#fmt MediaconnectFlow#fmt}
 
 ---
 
@@ -1927,7 +1927,7 @@ media_stream_id: typing.Union[int, float]
 
 A unique identifier for the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_stream_id MediaconnectFlow#media_stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_stream_id MediaconnectFlow#media_stream_id}
 
 ---
 
@@ -1941,7 +1941,7 @@ media_stream_name: str
 
 A name that helps you distinguish one media stream from another.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
 
 ---
 
@@ -1955,7 +1955,7 @@ media_stream_type: str
 
 The type of media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_stream_type MediaconnectFlow#media_stream_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_stream_type MediaconnectFlow#media_stream_type}
 
 ---
 
@@ -1969,7 +1969,7 @@ video_format: str
 
 The resolution of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#video_format MediaconnectFlow#video_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#video_format MediaconnectFlow#video_format}
 
 ---
 
@@ -2005,7 +2005,7 @@ fmtp: MediaconnectFlowMediaStreamsAttributesFmtp
 
 A set of parameters that define the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
 
 ---
 
@@ -2019,7 +2019,7 @@ lang: str
 
 The audio language, in a format that is recognized by the receiver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
 
 ---
 
@@ -2065,7 +2065,7 @@ channel_order: str
 
 The format of the audio channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
 
 ---
 
@@ -2079,7 +2079,7 @@ colorimetry: str
 
 The format used for the representation of color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
 
 ---
 
@@ -2093,7 +2093,7 @@ exact_framerate: str
 
 The frame rate for the video stream, in frames/second. For example: 60000/1001.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
 
 ---
 
@@ -2107,7 +2107,7 @@ par: str
 
 The pixel aspect ratio (PAR) of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
 
 ---
 
@@ -2121,7 +2121,7 @@ range: str
 
 The encoding range of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
 
 ---
 
@@ -2135,7 +2135,7 @@ scan_mode: str
 
 The type of compression that was used to smooth the video's appearance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
 
 ---
 
@@ -2149,7 +2149,7 @@ tcs: str
 
 The transfer characteristic system (TCS) that is used in the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
 
 ---
 
@@ -2219,7 +2219,7 @@ decryption: MediaconnectFlowSourceDecryption
 
 The type of decryption that is used on the content ingested from this source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#decryption MediaconnectFlow#decryption}
 
 ---
 
@@ -2235,7 +2235,7 @@ A description for the source.
 
 This value is not used or seen outside of the current AWS Elemental MediaConnect account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#description MediaconnectFlow#description}
 
 ---
 
@@ -2251,7 +2251,7 @@ The ARN of the entitlement that allows you to subscribe to content that comes fr
 
 The entitlement is set by the content originator and the ARN is generated as part of the originator's flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#entitlement_arn MediaconnectFlow#entitlement_arn}
 
 ---
 
@@ -2265,7 +2265,7 @@ gateway_bridge_source: MediaconnectFlowSourceGatewayBridgeSource
 
 The source configuration for cloud flows receiving a stream from a bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#gateway_bridge_source MediaconnectFlow#gateway_bridge_source}
 
 ---
 
@@ -2279,7 +2279,7 @@ ingest_port: typing.Union[int, float]
 
 The port that the flow will be listening on for incoming content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#ingest_port MediaconnectFlow#ingest_port}
 
 ---
 
@@ -2293,7 +2293,7 @@ max_bitrate: typing.Union[int, float]
 
 The smoothing max bitrate for RIST, RTP, and RTP-FEC streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#max_bitrate MediaconnectFlow#max_bitrate}
 
 ---
 
@@ -2307,7 +2307,7 @@ max_latency: typing.Union[int, float]
 
 The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#max_latency MediaconnectFlow#max_latency}
 
 ---
 
@@ -2321,7 +2321,7 @@ max_sync_buffer: typing.Union[int, float]
 
 The size of the buffer (in milliseconds) to use to sync incoming source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#max_sync_buffer MediaconnectFlow#max_sync_buffer}
 
 ---
 
@@ -2335,7 +2335,7 @@ media_stream_source_configurations: IResolvable | typing.List[MediaconnectFlowSo
 
 The media stream that is associated with the source, and the parameters for that association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_stream_source_configurations MediaconnectFlow#media_stream_source_configurations}
 
 ---
 
@@ -2349,7 +2349,7 @@ min_latency: typing.Union[int, float]
 
 The minimum latency in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#min_latency MediaconnectFlow#min_latency}
 
 ---
 
@@ -2363,7 +2363,7 @@ name: str
 
 The name of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -2377,7 +2377,7 @@ protocol: str
 
 The protocol that is used by the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#protocol MediaconnectFlow#protocol}
 
 ---
 
@@ -2391,7 +2391,7 @@ sender_control_port: typing.Union[int, float]
 
 The port that the flow uses to send outbound requests to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#sender_control_port MediaconnectFlow#sender_control_port}
 
 ---
 
@@ -2405,7 +2405,7 @@ sender_ip_address: str
 
 The IP address that the flow communicates with to initiate connection with the sender for fujitsu-qos protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#sender_ip_address MediaconnectFlow#sender_ip_address}
 
 ---
 
@@ -2419,7 +2419,7 @@ source_listener_address: str
 
 Source IP or domain name for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_listener_address MediaconnectFlow#source_listener_address}
 
 ---
 
@@ -2433,7 +2433,7 @@ source_listener_port: typing.Union[int, float]
 
 Source port for SRT-caller protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_listener_port MediaconnectFlow#source_listener_port}
 
 ---
 
@@ -2447,7 +2447,7 @@ stream_id: str
 
 The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#stream_id MediaconnectFlow#stream_id}
 
 ---
 
@@ -2461,7 +2461,7 @@ vpc_interface_name: str
 
 The name of the VPC Interface this Source is configured with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -2477,7 +2477,7 @@ The range of IP addresses that should be allowed to contribute content to your s
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#whitelist_cidr MediaconnectFlow#whitelist_cidr}
 
 ---
 
@@ -2527,7 +2527,7 @@ algorithm: str
 
 The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
 
 ---
 
@@ -2543,7 +2543,7 @@ A 128-bit, 16-byte hex value represented by a 32-character string, to be used wi
 
 This parameter is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
 
 ---
 
@@ -2559,7 +2559,7 @@ The value of one of the devices that you configured with your digital rights man
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
 
 ---
 
@@ -2575,7 +2575,7 @@ The type of key that is used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
 
 ---
 
@@ -2591,7 +2591,7 @@ The AWS Region that the API Gateway proxy endpoint was created in.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
 
 ---
 
@@ -2607,7 +2607,7 @@ An identifier for the content.
 
 The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
 
 ---
 
@@ -2621,7 +2621,7 @@ role_arn: str
 
 The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
 
 ---
 
@@ -2637,7 +2637,7 @@ The ARN of the secret that you created in AWS Secrets Manager to store the encry
 
 This parameter is required for static key encryption and is not valid for SPEKE encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
 
 ---
 
@@ -2653,7 +2653,7 @@ The URL from the API Gateway proxy that you set up to talk to your key server.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
 
 ---
 
@@ -2679,7 +2679,7 @@ mediaconnectFlow.MediaconnectFlowSourceFailoverConfig(
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.failoverMode">failover_mode</a></code> | <code>str</code> | The type of failover you choose for this flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.recoveryWindow">recovery_window</a></code> | <code>typing.Union[int, float]</code> | Search window time to look for dash-7 packets. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.sourcePriority">source_priority</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfigSourcePriority">MediaconnectFlowSourceFailoverConfigSourcePriority</a></code> | The priority you want to assign to a source. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlow.MediaconnectFlowSourceFailoverConfig.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}. |
 
 ---
 
@@ -2695,7 +2695,7 @@ The type of failover you choose for this flow.
 
 MERGE combines the source streams into a single stream, allowing graceful recovery from any single-source loss. FAILOVER allows switching between different streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#failover_mode MediaconnectFlow#failover_mode}
 
 ---
 
@@ -2709,7 +2709,7 @@ recovery_window: typing.Union[int, float]
 
 Search window time to look for dash-7 packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#recovery_window MediaconnectFlow#recovery_window}
 
 ---
 
@@ -2725,7 +2725,7 @@ The priority you want to assign to a source.
 
 You can have a primary stream and a backup stream or two equally prioritized streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#source_priority MediaconnectFlow#source_priority}
 
 ---
 
@@ -2737,7 +2737,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}.
 
 ---
 
@@ -2771,7 +2771,7 @@ primary_source: str
 
 The name of the source you choose as the primary source for this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
 
 ---
 
@@ -2807,7 +2807,7 @@ bridge_arn: str
 
 The ARN of the bridge feeding this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
 
 ---
 
@@ -2821,7 +2821,7 @@ vpc_interface_attachment: MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceA
 
 The name of the VPC interface attachment to use for this bridge source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
 
 ---
 
@@ -2855,7 +2855,7 @@ vpc_interface_name: str
 
 The name of the VPC interface to use for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -2895,7 +2895,7 @@ The format that was used to encode the data.
 
 For ancillary data streams, set the encoding name to smpte291. For audio streams, set the encoding name to pcm. For video, 2110 streams, set the encoding name to raw. For video, JPEG XS streams, set the encoding name to jxsv.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#encoding_name MediaconnectFlow#encoding_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#encoding_name MediaconnectFlow#encoding_name}
 
 ---
 
@@ -2909,7 +2909,7 @@ input_configurations: IResolvable | typing.List[MediaconnectFlowSourceMediaStrea
 
 The media streams that you want to associate with the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#input_configurations MediaconnectFlow#input_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#input_configurations MediaconnectFlow#input_configurations}
 
 ---
 
@@ -2923,7 +2923,7 @@ media_stream_name: str
 
 A name that helps you distinguish one media stream from another.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#media_stream_name MediaconnectFlow#media_stream_name}
 
 ---
 
@@ -2959,7 +2959,7 @@ input_port: typing.Union[int, float]
 
 The port that the flow listens on for an incoming media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#input_port MediaconnectFlow#input_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#input_port MediaconnectFlow#input_port}
 
 ---
 
@@ -2973,7 +2973,7 @@ interface: MediaconnectFlowSourceMediaStreamSourceConfigurationsInputConfigurati
 
 The VPC interface where the media stream comes in from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#interface MediaconnectFlow#interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#interface MediaconnectFlow#interface}
 
 ---
 
@@ -3007,7 +3007,7 @@ name: str
 
 The name of the VPC interface that you want to use for the media stream associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -3047,7 +3047,7 @@ audio_monitoring_settings: IResolvable | typing.List[MediaconnectFlowSourceMonit
 
 Contains the settings for audio stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#audio_monitoring_settings MediaconnectFlow#audio_monitoring_settings}
 
 ---
 
@@ -3061,7 +3061,7 @@ content_quality_analysis_state: str
 
 Indicates whether content quality analysis is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#content_quality_analysis_state MediaconnectFlow#content_quality_analysis_state}
 
 ---
 
@@ -3075,7 +3075,7 @@ thumbnail_state: str
 
 The state of thumbnail monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#thumbnail_state MediaconnectFlow#thumbnail_state}
 
 ---
 
@@ -3089,7 +3089,7 @@ video_monitoring_settings: IResolvable | typing.List[MediaconnectFlowSourceMonit
 
 Contains the settings for video stream metrics monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#video_monitoring_settings MediaconnectFlow#video_monitoring_settings}
 
 ---
 
@@ -3123,7 +3123,7 @@ silent_audio: MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettingsSilen
 
 Configures settings for the SilentAudio metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
 
 ---
 
@@ -3159,7 +3159,7 @@ state: str
 
 Indicates whether the SilentAudio metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -3173,7 +3173,7 @@ threshold_seconds: typing.Union[int, float]
 
 Specifies the number of consecutive seconds of silence that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -3209,7 +3209,7 @@ black_frames: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsBlack
 
 Configures settings for the BlackFrames metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#black_frames MediaconnectFlow#black_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#black_frames MediaconnectFlow#black_frames}
 
 ---
 
@@ -3223,7 +3223,7 @@ frozen_frames: MediaconnectFlowSourceMonitoringConfigVideoMonitoringSettingsFroz
 
 Configures settings for the FrozenFrames metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#frozen_frames MediaconnectFlow#frozen_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#frozen_frames MediaconnectFlow#frozen_frames}
 
 ---
 
@@ -3259,7 +3259,7 @@ state: str
 
 Indicates whether the BlackFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -3273,7 +3273,7 @@ threshold_seconds: typing.Union[int, float]
 
 Specifies the number of consecutive seconds of black frames that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -3309,7 +3309,7 @@ state: str
 
 Indicates whether the FrozenFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -3323,7 +3323,7 @@ threshold_seconds: typing.Union[int, float]
 
 Specifies the number of consecutive seconds of a static image that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -3367,7 +3367,7 @@ name: str
 
 Immutable and has to be a unique against other VpcInterfaces in this Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -3381,7 +3381,7 @@ network_interface_ids: typing.List[str]
 
 IDs of the network interfaces created in customer's account by MediaConnect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#network_interface_ids MediaconnectFlow#network_interface_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#network_interface_ids MediaconnectFlow#network_interface_ids}
 
 ---
 
@@ -3397,7 +3397,7 @@ The type of network adapter that you want MediaConnect to use on this interface.
 
 If you don't set this value, it defaults to ENA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#network_interface_type MediaconnectFlow#network_interface_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#network_interface_type MediaconnectFlow#network_interface_type}
 
 ---
 
@@ -3411,7 +3411,7 @@ role_arn: str
 
 Role Arn MediaConnect can assume to create ENIs in customer's account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
 
 ---
 
@@ -3425,7 +3425,7 @@ security_group_ids: typing.List[str]
 
 Security Group IDs to be used on ENI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#security_group_ids MediaconnectFlow#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#security_group_ids MediaconnectFlow#security_group_ids}
 
 ---
 
@@ -3439,7 +3439,7 @@ subnet_id: str
 
 Subnet must be in the AZ of the Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#subnet_id MediaconnectFlow#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#subnet_id MediaconnectFlow#subnet_id}
 
 ---
 
@@ -4505,7 +4505,7 @@ def put_fmtp(
 
 The format of the audio channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#channel_order MediaconnectFlow#channel_order}
 
 ---
 
@@ -4515,7 +4515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The format used for the representation of color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#colorimetry MediaconnectFlow#colorimetry}
 
 ---
 
@@ -4525,7 +4525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The frame rate for the video stream, in frames/second. For example: 60000/1001.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#exact_framerate MediaconnectFlow#exact_framerate}
 
 ---
 
@@ -4535,7 +4535,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The pixel aspect ratio (PAR) of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#par MediaconnectFlow#par}
 
 ---
 
@@ -4545,7 +4545,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The encoding range of the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#range MediaconnectFlow#range}
 
 ---
 
@@ -4555,7 +4555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of compression that was used to smooth the video's appearance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#scan_mode MediaconnectFlow#scan_mode}
 
 ---
 
@@ -4565,7 +4565,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The transfer characteristic system (TCS) that is used in the video.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#tcs MediaconnectFlow#tcs}
 
 ---
 
@@ -5113,7 +5113,7 @@ def put_attributes(
 
 A set of parameters that define the media stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#fmtp MediaconnectFlow#fmtp}
 
 ---
 
@@ -5123,7 +5123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The audio language, in a format that is recognized by the receiver.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#lang MediaconnectFlow#lang}
 
 ---
 
@@ -6179,7 +6179,7 @@ def put_source_priority(
 
 The name of the source you choose as the primary source for this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#primary_source MediaconnectFlow#primary_source}
 
 ---
 
@@ -6889,7 +6889,7 @@ def put_vpc_interface_attachment(
 
 The name of the VPC interface to use for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interface_name MediaconnectFlow#vpc_interface_name}
 
 ---
 
@@ -8036,7 +8036,7 @@ def put_interface(
 
 The name of the VPC interface that you want to use for the media stream associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#name MediaconnectFlow#name}
 
 ---
 
@@ -9143,7 +9143,7 @@ def put_silent_audio(
 
 Indicates whether the SilentAudio metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -9153,7 +9153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the number of consecutive seconds of silence that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -11084,7 +11084,7 @@ def put_black_frames(
 
 Indicates whether the BlackFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -11094,7 +11094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the number of consecutive seconds of black frames that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -11113,7 +11113,7 @@ def put_frozen_frames(
 
 Indicates whether the FrozenFrames metric is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#state MediaconnectFlow#state}
 
 ---
 
@@ -11123,7 +11123,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the number of consecutive seconds of a static image that triggers an event or alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#threshold_seconds MediaconnectFlow#threshold_seconds}
 
 ---
 
@@ -11501,7 +11501,7 @@ def put_decryption(
 
 The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#algorithm MediaconnectFlow#algorithm}
 
 ---
 
@@ -11513,7 +11513,7 @@ A 128-bit, 16-byte hex value represented by a 32-character string, to be used wi
 
 This parameter is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#constant_initialization_vector MediaconnectFlow#constant_initialization_vector}
 
 ---
 
@@ -11525,7 +11525,7 @@ The value of one of the devices that you configured with your digital rights man
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#device_id MediaconnectFlow#device_id}
 
 ---
 
@@ -11537,7 +11537,7 @@ The type of key that is used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#key_type MediaconnectFlow#key_type}
 
 ---
 
@@ -11549,7 +11549,7 @@ The AWS Region that the API Gateway proxy endpoint was created in.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#region MediaconnectFlow#region}
 
 ---
 
@@ -11561,7 +11561,7 @@ An identifier for the content.
 
 The service sends this value to the key server to identify the current endpoint. The resource ID is also known as the content ID. This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#resource_id MediaconnectFlow#resource_id}
 
 ---
 
@@ -11571,7 +11571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#role_arn MediaconnectFlow#role_arn}
 
 ---
 
@@ -11583,7 +11583,7 @@ The ARN of the secret that you created in AWS Secrets Manager to store the encry
 
 This parameter is required for static key encryption and is not valid for SPEKE encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#secret_arn MediaconnectFlow#secret_arn}
 
 ---
 
@@ -11595,7 +11595,7 @@ The URL from the API Gateway proxy that you set up to talk to your key server.
 
 This parameter is required for SPEKE encryption and is not valid for static key encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#url MediaconnectFlow#url}
 
 ---
 
@@ -11614,7 +11614,7 @@ def put_gateway_bridge_source(
 
 The ARN of the bridge feeding this flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#bridge_arn MediaconnectFlow#bridge_arn}
 
 ---
 
@@ -11624,7 +11624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the VPC interface attachment to use for this bridge source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow#vpc_interface_attachment MediaconnectFlow#vpc_interface_attachment}
 
 ---
 

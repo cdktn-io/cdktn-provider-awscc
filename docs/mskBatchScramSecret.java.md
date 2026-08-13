@@ -4,7 +4,7 @@
 
 ### MskBatchScramSecret <a name="MskBatchScramSecret" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer"></a>
 
@@ -35,8 +35,8 @@ MskBatchScramSecret.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.clusterArn">clusterArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.secretArnList">secretArnList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.clusterArn">clusterArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecret.Initializer.parameter.secretArnList">secretArnList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
 
 ---
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
 
 ---
 
@@ -568,7 +568,7 @@ The construct id used in the generated config for the MskBatchScramSecret to imp
 
 The id of the existing MskBatchScramSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -849,8 +849,8 @@ MskBatchScramSecretConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.clusterArn">clusterArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
-| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.secretArnList">secretArnList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.clusterArn">clusterArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}. |
+| <code><a href="#@cdktn/provider-awscc.mskBatchScramSecret.MskBatchScramSecretConfig.property.secretArnList">secretArnList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}. |
 
 ---
 
@@ -932,7 +932,7 @@ public java.lang.String getClusterArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#cluster_arn MskBatchScramSecret#cluster_arn}.
 
 ---
 
@@ -944,7 +944,7 @@ public java.util.List<java.lang.String> getSecretArnList();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_batch_scram_secret#secret_arn_list MskBatchScramSecret#secret_arn_list}.
 
 ---
 

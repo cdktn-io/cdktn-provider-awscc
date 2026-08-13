@@ -4,7 +4,7 @@
 
 ### ApsScraper <a name="ApsScraper" id="@cdktn/provider-awscc.apsScraper.ApsScraper"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper awscc_aps_scraper}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper awscc_aps_scraper}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsScraper.ApsScraper.Initializer"></a>
 
@@ -595,7 +595,7 @@ The construct id used in the generated config for the ApsScraper to import.
 
 The id of the existing ApsScraper that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1114,7 +1114,7 @@ Destination ApsScraperDestination
 
 Scraper metrics destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#destination ApsScraper#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#destination ApsScraper#destination}
 
 ---
 
@@ -1128,7 +1128,7 @@ ScrapeConfiguration ApsScraperScrapeConfiguration
 
 Scraper configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#scrape_configuration ApsScraper#scrape_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#scrape_configuration ApsScraper#scrape_configuration}
 
 ---
 
@@ -1142,7 +1142,7 @@ Source ApsScraperSource
 
 Scraper metrics source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#source ApsScraper#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#source ApsScraper#source}
 
 ---
 
@@ -1156,7 +1156,7 @@ Alias *string
 
 Scraper alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#alias ApsScraper#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#alias ApsScraper#alias}
 
 ---
 
@@ -1170,7 +1170,7 @@ RoleConfiguration ApsScraperRoleConfiguration
 
 Role configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#role_configuration ApsScraper#role_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#role_configuration ApsScraper#role_configuration}
 
 ---
 
@@ -1184,7 +1184,7 @@ ScraperLoggingConfiguration ApsScraperScraperLoggingConfiguration
 
 Configuration for scraper logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#scraper_logging_configuration ApsScraper#scraper_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#scraper_logging_configuration ApsScraper#scraper_logging_configuration}
 
 ---
 
@@ -1198,7 +1198,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#tags ApsScraper#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#tags ApsScraper#tags}
 
 ---
 
@@ -1234,7 +1234,7 @@ AmpConfiguration ApsScraperDestinationAmpConfiguration
 
 Configuration for Amazon Managed Prometheus metrics destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#amp_configuration ApsScraper#amp_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#amp_configuration ApsScraper#amp_configuration}
 
 ---
 
@@ -1248,7 +1248,7 @@ CloudwatchConfiguration ApsScraperDestinationCloudwatchConfiguration
 
 Configuration for CloudWatch metrics destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#cloudwatch_configuration ApsScraper#cloudwatch_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#cloudwatch_configuration ApsScraper#cloudwatch_configuration}
 
 ---
 
@@ -1282,7 +1282,7 @@ WorkspaceArn *string
 
 ARN of an Amazon Managed Prometheus workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#workspace_arn ApsScraper#workspace_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#workspace_arn ApsScraper#workspace_arn}
 
 ---
 
@@ -1316,7 +1316,7 @@ DatasetArn *string
 
 ARN of a CloudWatch dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#dataset_arn ApsScraper#dataset_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#dataset_arn ApsScraper#dataset_arn}
 
 ---
 
@@ -1352,7 +1352,7 @@ SourceRoleArn *string
 
 IAM Role in source account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#source_role_arn ApsScraper#source_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#source_role_arn ApsScraper#source_role_arn}
 
 ---
 
@@ -1366,7 +1366,7 @@ TargetRoleArn *string
 
 IAM Role in the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#target_role_arn ApsScraper#target_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#target_role_arn ApsScraper#target_role_arn}
 
 ---
 
@@ -1400,7 +1400,7 @@ ConfigurationBlob *string
 
 Prometheus compatible scrape configuration in base64 encoded blob format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#configuration_blob ApsScraper#configuration_blob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#configuration_blob ApsScraper#configuration_blob}
 
 ---
 
@@ -1422,7 +1422,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.property.loggingDestination">LoggingDestination</a></code> | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationLoggingDestination">ApsScraperScraperLoggingConfigurationLoggingDestination</a></code> | Destination for scraper logging. |
-| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.property.scraperComponents">ScraperComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}. |
+| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfiguration.property.scraperComponents">ScraperComponents</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}. |
 
 ---
 
@@ -1436,7 +1436,7 @@ LoggingDestination ApsScraperScraperLoggingConfigurationLoggingDestination
 
 Destination for scraper logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#logging_destination ApsScraper#logging_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#logging_destination ApsScraper#logging_destination}
 
 ---
 
@@ -1448,7 +1448,7 @@ ScraperComponents interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#scraper_components ApsScraper#scraper_components}.
 
 ---
 
@@ -1482,7 +1482,7 @@ CloudwatchLogs ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatch
 
 Represents a cloudwatch logs destination for scraper logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#cloudwatch_logs ApsScraper#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#cloudwatch_logs ApsScraper#cloudwatch_logs}
 
 ---
 
@@ -1516,7 +1516,7 @@ LogGroupArn *string
 
 ARN of the CloudWatch log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#log_group_arn ApsScraper#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#log_group_arn ApsScraper#log_group_arn}
 
 ---
 
@@ -1537,7 +1537,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.property.config">Config</a></code> | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig">ApsScraperScraperLoggingConfigurationScraperComponentsConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#config ApsScraper#config}. |
+| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.property.config">Config</a></code> | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig">ApsScraperScraperLoggingConfigurationScraperComponentsConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#config ApsScraper#config}. |
 | <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponents.property.type">Type</a></code> | <code>*string</code> | Type of scraper component. |
 
 ---
@@ -1550,7 +1550,7 @@ Config ApsScraperScraperLoggingConfigurationScraperComponentsConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig">ApsScraperScraperLoggingConfigurationScraperComponentsConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#config ApsScraper#config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#config ApsScraper#config}.
 
 ---
 
@@ -1564,7 +1564,7 @@ Type *string
 
 Type of scraper component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#type ApsScraper#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#type ApsScraper#type}
 
 ---
 
@@ -1584,7 +1584,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsscraper"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig.property.options">Options</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#options ApsScraper#options}. |
+| <code><a href="#@cdktn/provider-awscc.apsScraper.ApsScraperScraperLoggingConfigurationScraperComponentsConfig.property.options">Options</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#options ApsScraper#options}. |
 
 ---
 
@@ -1596,7 +1596,7 @@ Options *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#options ApsScraper#options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#options ApsScraper#options}.
 
 ---
 
@@ -1632,7 +1632,7 @@ EksConfiguration ApsScraperSourceEksConfiguration
 
 Configuration for EKS metrics source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#eks_configuration ApsScraper#eks_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#eks_configuration ApsScraper#eks_configuration}
 
 ---
 
@@ -1646,7 +1646,7 @@ VpcConfiguration ApsScraperSourceVpcConfiguration
 
 Configuration for VPC metrics source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#vpc_configuration ApsScraper#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#vpc_configuration ApsScraper#vpc_configuration}
 
 ---
 
@@ -1684,7 +1684,7 @@ ClusterArn *string
 
 ARN of an EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#cluster_arn ApsScraper#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#cluster_arn ApsScraper#cluster_arn}
 
 ---
 
@@ -1698,7 +1698,7 @@ SecurityGroupIds *[]*string
 
 List of security group IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
 
 ---
 
@@ -1712,7 +1712,7 @@ SubnetIds *[]*string
 
 List of subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
 
 ---
 
@@ -1748,7 +1748,7 @@ SecurityGroupIds *[]*string
 
 List of security group IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
 
 ---
 
@@ -1762,7 +1762,7 @@ SubnetIds *[]*string
 
 List of subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
 
 ---
 
@@ -1800,7 +1800,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#key ApsScraper#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#key ApsScraper#key}
 
 ---
 
@@ -1816,7 +1816,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_scraper#value ApsScraper#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#value ApsScraper#value}
 
 ---
 

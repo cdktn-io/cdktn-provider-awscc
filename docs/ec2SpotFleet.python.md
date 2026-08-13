@@ -4,7 +4,7 @@
 
 ### Ec2SpotFleet <a name="Ec2SpotFleet" id="@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer"></a>
 
@@ -37,7 +37,7 @@ ec2SpotFleet.Ec2SpotFleet(
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer.parameter.spotFleetRequestConfigData">spot_fleet_request_config_data</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData">Ec2SpotFleetSpotFleetRequestConfigData</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer.parameter.spotFleetRequestConfigData">spot_fleet_request_config_data</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData">Ec2SpotFleetSpotFleetRequestConfigData</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}. |
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleet.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetTags">Ec2SpotFleetTags</a>]</code> | The tags to specify in SpotFleetRequestConfigData. |
 
 ---
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData">Ec2SpotFleetSpotFleetRequestConfigData</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags to specify in SpotFleetRequestConfigData.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
 
 ---
 
@@ -536,7 +536,7 @@ def put_spot_fleet_request_config_data(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}.
 
 ---
 
@@ -544,7 +544,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}.
 
 ---
 
@@ -552,7 +552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}.
 
 ---
 
@@ -560,7 +560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}.
 
 ---
 
@@ -568,7 +568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}.
 
 ---
 
@@ -576,7 +576,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}.
 
 ---
 
@@ -584,7 +584,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}.
 
 ---
 
@@ -592,7 +592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}.
 
 ---
 
@@ -600,7 +600,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}.
 
 ---
 
@@ -608,7 +608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}.
 
 ---
 
@@ -616,7 +616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}.
 
 ---
 
@@ -624,7 +624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}.
 
 ---
 
@@ -632,7 +632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}.
 
 ---
 
@@ -640,7 +640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}.
 
 ---
 
@@ -648,7 +648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}.
 
 ---
 
@@ -656,7 +656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}.
 
 ---
 
@@ -664,7 +664,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
 
 ---
 
@@ -672,7 +672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}.
 
 ---
 
@@ -680,7 +680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}.
 
 ---
 
@@ -688,7 +688,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}.
 
 ---
 
@@ -696,7 +696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}.
 
 ---
 
@@ -704,7 +704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}.
 
 ---
 
@@ -712,7 +712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}.
 
 ---
 
@@ -850,7 +850,7 @@ The construct id used in the generated config for the Ec2SpotFleet to import.
 
 The id of the existing Ec2SpotFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1142,7 +1142,7 @@ ec2SpotFleet.Ec2SpotFleetConfig(
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetConfig.property.spotFleetRequestConfigData">spot_fleet_request_config_data</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData">Ec2SpotFleetSpotFleetRequestConfigData</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetConfig.property.spotFleetRequestConfigData">spot_fleet_request_config_data</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData">Ec2SpotFleetSpotFleetRequestConfigData</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}. |
 | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetTags">Ec2SpotFleetTags</a>]</code> | The tags to specify in SpotFleetRequestConfigData. |
 
 ---
@@ -1225,7 +1225,7 @@ spot_fleet_request_config_data: Ec2SpotFleetSpotFleetRequestConfigData
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData">Ec2SpotFleetSpotFleetRequestConfigData</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}.
 
 ---
 
@@ -1239,7 +1239,7 @@ tags: IResolvable | typing.List[Ec2SpotFleetTags]
 
 The tags to specify in SpotFleetRequestConfigData.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
 
 ---
 
@@ -1281,29 +1281,29 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.iamFleetRole">iam_fleet_role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.targetCapacity">target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.context">context</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.excessCapacityTerminationPolicy">excess_capacity_termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.instanceInterruptionBehavior">instance_interruption_behavior</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.instancePoolsToUseCount">instance_pools_to_use_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.launchSpecifications">launch_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.launchTemplateConfigs">launch_template_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.loadBalancersConfig">load_balancers_config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.onDemandAllocationStrategy">on_demand_allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.onDemandMaxTotalPrice">on_demand_max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.onDemandTargetCapacity">on_demand_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.replaceUnhealthyInstances">replace_unhealthy_instances</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.spotMaintenanceStrategies">spot_maintenance_strategies</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.spotMaxTotalPrice">spot_max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.spotPrice">spot_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.targetCapacityUnitType">target_capacity_unit_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.terminateInstancesWithExpiration">terminate_instances_with_expiration</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.validFrom">valid_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.validUntil">valid_until</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.iamFleetRole">iam_fleet_role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.targetCapacity">target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.allocationStrategy">allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.context">context</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.excessCapacityTerminationPolicy">excess_capacity_termination_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.instanceInterruptionBehavior">instance_interruption_behavior</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.instancePoolsToUseCount">instance_pools_to_use_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.launchSpecifications">launch_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.launchTemplateConfigs">launch_template_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.loadBalancersConfig">load_balancers_config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.onDemandAllocationStrategy">on_demand_allocation_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.onDemandMaxTotalPrice">on_demand_max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.onDemandTargetCapacity">on_demand_target_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.replaceUnhealthyInstances">replace_unhealthy_instances</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.spotMaintenanceStrategies">spot_maintenance_strategies</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.spotMaxTotalPrice">spot_max_total_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.spotPrice">spot_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.targetCapacityUnitType">target_capacity_unit_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.terminateInstancesWithExpiration">terminate_instances_with_expiration</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.validFrom">valid_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigData.property.validUntil">valid_until</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}. |
 
 ---
 
@@ -1315,7 +1315,7 @@ iam_fleet_role: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iam_fleet_role Ec2SpotFleet#iam_fleet_role}.
 
 ---
 
@@ -1327,7 +1327,7 @@ target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_capacity Ec2SpotFleet#target_capacity}.
 
 ---
 
@@ -1339,7 +1339,7 @@ allocation_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allocation_strategy Ec2SpotFleet#allocation_strategy}.
 
 ---
 
@@ -1351,7 +1351,7 @@ context: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#context Ec2SpotFleet#context}.
 
 ---
 
@@ -1363,7 +1363,7 @@ excess_capacity_termination_policy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excess_capacity_termination_policy Ec2SpotFleet#excess_capacity_termination_policy}.
 
 ---
 
@@ -1375,7 +1375,7 @@ instance_interruption_behavior: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_interruption_behavior Ec2SpotFleet#instance_interruption_behavior}.
 
 ---
 
@@ -1387,7 +1387,7 @@ instance_pools_to_use_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_pools_to_use_count Ec2SpotFleet#instance_pools_to_use_count}.
 
 ---
 
@@ -1399,7 +1399,7 @@ launch_specifications: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestCon
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_specifications Ec2SpotFleet#launch_specifications}.
 
 ---
 
@@ -1411,7 +1411,7 @@ launch_template_configs: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestC
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_configs Ec2SpotFleet#launch_template_configs}.
 
 ---
 
@@ -1423,7 +1423,7 @@ load_balancers_config: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#load_balancers_config Ec2SpotFleet#load_balancers_config}.
 
 ---
 
@@ -1435,7 +1435,7 @@ on_demand_allocation_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_allocation_strategy Ec2SpotFleet#on_demand_allocation_strategy}.
 
 ---
 
@@ -1447,7 +1447,7 @@ on_demand_max_total_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_total_price Ec2SpotFleet#on_demand_max_total_price}.
 
 ---
 
@@ -1459,7 +1459,7 @@ on_demand_target_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_target_capacity Ec2SpotFleet#on_demand_target_capacity}.
 
 ---
 
@@ -1471,7 +1471,7 @@ replace_unhealthy_instances: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#replace_unhealthy_instances Ec2SpotFleet#replace_unhealthy_instances}.
 
 ---
 
@@ -1483,7 +1483,7 @@ spot_maintenance_strategies: Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenan
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_maintenance_strategies Ec2SpotFleet#spot_maintenance_strategies}.
 
 ---
 
@@ -1495,7 +1495,7 @@ spot_max_total_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_total_price Ec2SpotFleet#spot_max_total_price}.
 
 ---
 
@@ -1507,7 +1507,7 @@ spot_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
 
 ---
 
@@ -1519,7 +1519,7 @@ tag_specifications: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfig
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}.
 
 ---
 
@@ -1531,7 +1531,7 @@ target_capacity_unit_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_capacity_unit_type Ec2SpotFleet#target_capacity_unit_type}.
 
 ---
 
@@ -1543,7 +1543,7 @@ terminate_instances_with_expiration: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#terminate_instances_with_expiration Ec2SpotFleet#terminate_instances_with_expiration}.
 
 ---
 
@@ -1555,7 +1555,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#type Ec2SpotFleet#type}.
 
 ---
 
@@ -1567,7 +1567,7 @@ valid_from: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#valid_from Ec2SpotFleet#valid_from}.
 
 ---
 
@@ -1579,7 +1579,7 @@ valid_until: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#valid_until Ec2SpotFleet#valid_until}.
 
 ---
 
@@ -1616,24 +1616,24 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.blockDeviceMappings">block_device_mappings</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#block_device_mappings Ec2SpotFleet#block_device_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.ebsOptimized">ebs_optimized</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ebs_optimized Ec2SpotFleet#ebs_optimized}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.iamInstanceProfile">iam_instance_profile</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iam_instance_profile Ec2SpotFleet#iam_instance_profile}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.imageId">image_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#image_id Ec2SpotFleet#image_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.instanceRequirements">instance_requirements</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.kernelId">kernel_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#kernel_id Ec2SpotFleet#kernel_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key_name Ec2SpotFleet#key_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.monitoring">monitoring</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#monitoring Ec2SpotFleet#monitoring}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.networkInterfaces">network_interfaces</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interfaces Ec2SpotFleet#network_interfaces}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.placement">placement</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#placement Ec2SpotFleet#placement}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.ramdiskId">ramdisk_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ramdisk_id Ec2SpotFleet#ramdisk_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.securityGroups">security_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#security_groups Ec2SpotFleet#security_groups}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.spotPrice">spot_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.userData">user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#user_data Ec2SpotFleet#user_data}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.blockDeviceMappings">block_device_mappings</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#block_device_mappings Ec2SpotFleet#block_device_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.ebsOptimized">ebs_optimized</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ebs_optimized Ec2SpotFleet#ebs_optimized}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.iamInstanceProfile">iam_instance_profile</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iam_instance_profile Ec2SpotFleet#iam_instance_profile}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.imageId">image_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#image_id Ec2SpotFleet#image_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.instanceRequirements">instance_requirements</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.kernelId">kernel_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#kernel_id Ec2SpotFleet#kernel_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.keyName">key_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key_name Ec2SpotFleet#key_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.monitoring">monitoring</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#monitoring Ec2SpotFleet#monitoring}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.networkInterfaces">network_interfaces</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interfaces Ec2SpotFleet#network_interfaces}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.placement">placement</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#placement Ec2SpotFleet#placement}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.ramdiskId">ramdisk_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ramdisk_id Ec2SpotFleet#ramdisk_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.securityGroups">security_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#security_groups Ec2SpotFleet#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.spotPrice">spot_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.tagSpecifications">tag_specifications</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.userData">user_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#user_data Ec2SpotFleet#user_data}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}. |
 
 ---
 
@@ -1645,7 +1645,7 @@ block_device_mappings: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestCon
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#block_device_mappings Ec2SpotFleet#block_device_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#block_device_mappings Ec2SpotFleet#block_device_mappings}.
 
 ---
 
@@ -1657,7 +1657,7 @@ ebs_optimized: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ebs_optimized Ec2SpotFleet#ebs_optimized}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ebs_optimized Ec2SpotFleet#ebs_optimized}.
 
 ---
 
@@ -1669,7 +1669,7 @@ iam_instance_profile: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifications
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iam_instance_profile Ec2SpotFleet#iam_instance_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iam_instance_profile Ec2SpotFleet#iam_instance_profile}.
 
 ---
 
@@ -1681,7 +1681,7 @@ image_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#image_id Ec2SpotFleet#image_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#image_id Ec2SpotFleet#image_id}.
 
 ---
 
@@ -1693,7 +1693,7 @@ instance_requirements: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecification
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}.
 
 ---
 
@@ -1705,7 +1705,7 @@ instance_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}.
 
 ---
 
@@ -1717,7 +1717,7 @@ kernel_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#kernel_id Ec2SpotFleet#kernel_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#kernel_id Ec2SpotFleet#kernel_id}.
 
 ---
 
@@ -1729,7 +1729,7 @@ key_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key_name Ec2SpotFleet#key_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key_name Ec2SpotFleet#key_name}.
 
 ---
 
@@ -1741,7 +1741,7 @@ monitoring: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#monitoring Ec2SpotFleet#monitoring}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#monitoring Ec2SpotFleet#monitoring}.
 
 ---
 
@@ -1753,7 +1753,7 @@ network_interfaces: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfig
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interfaces Ec2SpotFleet#network_interfaces}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interfaces Ec2SpotFleet#network_interfaces}.
 
 ---
 
@@ -1765,7 +1765,7 @@ placement: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#placement Ec2SpotFleet#placement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#placement Ec2SpotFleet#placement}.
 
 ---
 
@@ -1777,7 +1777,7 @@ ramdisk_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ramdisk_id Ec2SpotFleet#ramdisk_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ramdisk_id Ec2SpotFleet#ramdisk_id}.
 
 ---
 
@@ -1789,7 +1789,7 @@ security_groups: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDat
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#security_groups Ec2SpotFleet#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#security_groups Ec2SpotFleet#security_groups}.
 
 ---
 
@@ -1801,7 +1801,7 @@ spot_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
 
 ---
 
@@ -1813,7 +1813,7 @@ subnet_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}.
 
 ---
 
@@ -1825,7 +1825,7 @@ tag_specifications: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfig
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tag_specifications Ec2SpotFleet#tag_specifications}.
 
 ---
 
@@ -1837,7 +1837,7 @@ user_data: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#user_data Ec2SpotFleet#user_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#user_data Ec2SpotFleet#user_data}.
 
 ---
 
@@ -1849,7 +1849,7 @@ weighted_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}.
 
 ---
 
@@ -1872,10 +1872,10 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#device_name Ec2SpotFleet#device_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.ebs">ebs</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ebs Ec2SpotFleet#ebs}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.noDevice">no_device</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#no_device Ec2SpotFleet#no_device}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.virtualName">virtual_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#virtual_name Ec2SpotFleet#virtual_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.deviceName">device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#device_name Ec2SpotFleet#device_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.ebs">ebs</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ebs Ec2SpotFleet#ebs}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.noDevice">no_device</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#no_device Ec2SpotFleet#no_device}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappings.property.virtualName">virtual_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#virtual_name Ec2SpotFleet#virtual_name}. |
 
 ---
 
@@ -1887,7 +1887,7 @@ device_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#device_name Ec2SpotFleet#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#device_name Ec2SpotFleet#device_name}.
 
 ---
 
@@ -1899,7 +1899,7 @@ ebs: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappin
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ebs Ec2SpotFleet#ebs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ebs Ec2SpotFleet#ebs}.
 
 ---
 
@@ -1911,7 +1911,7 @@ no_device: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#no_device Ec2SpotFleet#no_device}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#no_device Ec2SpotFleet#no_device}.
 
 ---
 
@@ -1923,7 +1923,7 @@ virtual_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#virtual_name Ec2SpotFleet#virtual_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#virtual_name Ec2SpotFleet#virtual_name}.
 
 ---
 
@@ -1948,12 +1948,12 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.encrypted">encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.snapshotId">snapshot_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.volumeType">volume_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.encrypted">encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.snapshotId">snapshot_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.volumeSize">volume_size</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDeviceMappingsEbs.property.volumeType">volume_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}. |
 
 ---
 
@@ -1965,7 +1965,7 @@ delete_on_termination: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}.
 
 ---
 
@@ -1977,7 +1977,7 @@ encrypted: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}.
 
 ---
 
@@ -1989,7 +1989,7 @@ iops: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}.
 
 ---
 
@@ -2001,7 +2001,7 @@ snapshot_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}.
 
 ---
 
@@ -2013,7 +2013,7 @@ volume_size: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}.
 
 ---
 
@@ -2025,7 +2025,7 @@ volume_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}.
 
 ---
 
@@ -2045,7 +2045,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstan
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}. |
 
 ---
 
@@ -2057,7 +2057,7 @@ arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
 
 ---
 
@@ -2102,32 +2102,32 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorCount">accelerator_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorManufacturers">accelerator_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorNames">accelerator_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorTotalMemoryMiB">accelerator_total_memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorTypes">accelerator_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.allowedInstanceTypes">allowed_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.bareMetal">bare_metal</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.baselineEbsBandwidthMbps">baseline_ebs_bandwidth_mbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.baselinePerformanceFactors">baseline_performance_factors</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.burstablePerformance">burstable_performance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.cpuManufacturers">cpu_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.instanceGenerations">instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.localStorage">local_storage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.localStorageTypes">local_storage_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.maxSpotPriceAsPercentageOfOptimalOnDemandPrice">max_spot_price_as_percentage_of_optimal_on_demand_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.memoryGiBPerVCpu">memory_gi_b_per_v_cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.memoryMiB">memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.networkBandwidthGbps">network_bandwidth_gbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.networkInterfaceCount">network_interface_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.onDemandMaxPricePercentageOverLowestPrice">on_demand_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.requireEncryptionInTransit">require_encryption_in_transit</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.requireHibernateSupport">require_hibernate_support</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.spotMaxPricePercentageOverLowestPrice">spot_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.totalLocalStorageGb">total_local_storage_gb</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.vCpuCount">v_cpu_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorCount">accelerator_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorManufacturers">accelerator_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorNames">accelerator_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorTotalMemoryMiB">accelerator_total_memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.acceleratorTypes">accelerator_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.allowedInstanceTypes">allowed_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.bareMetal">bare_metal</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.baselineEbsBandwidthMbps">baseline_ebs_bandwidth_mbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.baselinePerformanceFactors">baseline_performance_factors</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.burstablePerformance">burstable_performance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.cpuManufacturers">cpu_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.instanceGenerations">instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.localStorage">local_storage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.localStorageTypes">local_storage_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.maxSpotPriceAsPercentageOfOptimalOnDemandPrice">max_spot_price_as_percentage_of_optimal_on_demand_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.memoryGiBPerVCpu">memory_gi_b_per_v_cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.memoryMiB">memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.networkBandwidthGbps">network_bandwidth_gbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.networkInterfaceCount">network_interface_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.onDemandMaxPricePercentageOverLowestPrice">on_demand_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.requireEncryptionInTransit">require_encryption_in_transit</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.requireHibernateSupport">require_hibernate_support</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.spotMaxPricePercentageOverLowestPrice">spot_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.totalLocalStorageGb">total_local_storage_gb</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirements.property.vCpuCount">v_cpu_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}. |
 
 ---
 
@@ -2139,7 +2139,7 @@ accelerator_count: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIns
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
 
 ---
 
@@ -2151,7 +2151,7 @@ accelerator_manufacturers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
 
 ---
 
@@ -2163,7 +2163,7 @@ accelerator_names: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
 
 ---
 
@@ -2175,7 +2175,7 @@ accelerator_total_memory_mi_b: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpeci
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
 
 ---
 
@@ -2187,7 +2187,7 @@ accelerator_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
 
 ---
 
@@ -2199,7 +2199,7 @@ allowed_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
 
 ---
 
@@ -2211,7 +2211,7 @@ bare_metal: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
 
 ---
 
@@ -2223,7 +2223,7 @@ baseline_ebs_bandwidth_mbps: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecifi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
 
 ---
 
@@ -2235,7 +2235,7 @@ baseline_performance_factors: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecif
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
 
 ---
 
@@ -2247,7 +2247,7 @@ burstable_performance: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
 
 ---
 
@@ -2259,7 +2259,7 @@ cpu_manufacturers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
 
 ---
 
@@ -2271,7 +2271,7 @@ excluded_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
 
 ---
 
@@ -2283,7 +2283,7 @@ instance_generations: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
 
 ---
 
@@ -2295,7 +2295,7 @@ local_storage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
 
 ---
 
@@ -2307,7 +2307,7 @@ local_storage_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
 
 ---
 
@@ -2319,7 +2319,7 @@ max_spot_price_as_percentage_of_optimal_on_demand_price: typing.Union[int, float
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
 
 ---
 
@@ -2331,7 +2331,7 @@ memory_gi_b_per_v_cpu: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecification
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
 
 ---
 
@@ -2343,7 +2343,7 @@ memory_mi_b: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
 
 ---
 
@@ -2355,7 +2355,7 @@ network_bandwidth_gbps: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificatio
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
 
 ---
 
@@ -2367,7 +2367,7 @@ network_interface_count: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificati
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
 
 ---
 
@@ -2379,7 +2379,7 @@ on_demand_max_price_percentage_over_lowest_price: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -2391,7 +2391,7 @@ require_encryption_in_transit: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
 
 ---
 
@@ -2403,7 +2403,7 @@ require_hibernate_support: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
 
 ---
 
@@ -2415,7 +2415,7 @@ spot_max_price_percentage_over_lowest_price: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -2427,7 +2427,7 @@ total_local_storage_gb: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificatio
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
 
 ---
 
@@ -2439,7 +2439,7 @@ v_cpu_count: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
 
 ---
 
@@ -2460,8 +2460,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2473,7 +2473,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2485,7 +2485,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2506,8 +2506,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2519,7 +2519,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2531,7 +2531,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2552,8 +2552,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2565,7 +2565,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2577,7 +2577,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2597,7 +2597,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors.property.cpu">cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors.property.cpu">cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}. |
 
 ---
 
@@ -2609,7 +2609,7 @@ cpu: Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequireme
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
 
 ---
 
@@ -2629,7 +2629,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu.property.references">references</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu.property.references">references</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}. |
 
 ---
 
@@ -2641,7 +2641,7 @@ references: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDataLaun
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
 
 ---
 
@@ -2661,7 +2661,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences.property.instanceFamily">instance_family</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences.property.instanceFamily">instance_family</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}. |
 
 ---
 
@@ -2673,7 +2673,7 @@ instance_family: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}.
 
 ---
 
@@ -2694,8 +2694,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2707,7 +2707,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2719,7 +2719,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2740,8 +2740,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2753,7 +2753,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2765,7 +2765,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2786,8 +2786,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2799,7 +2799,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2811,7 +2811,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2832,8 +2832,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2845,7 +2845,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2857,7 +2857,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2878,8 +2878,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2891,7 +2891,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2903,7 +2903,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2924,8 +2924,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -2937,7 +2937,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -2949,7 +2949,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -2969,7 +2969,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitorin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitoring.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}. |
 
 ---
 
@@ -2981,7 +2981,7 @@ enabled: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}.
 
 ---
 
@@ -3011,17 +3011,17 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.associatePublicIpAddress">associate_public_ip_address</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#associate_public_ip_address Ec2SpotFleet#associate_public_ip_address}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#description Ec2SpotFleet#description}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.deviceIndex">device_index</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#device_index Ec2SpotFleet#device_index}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.groups">groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#groups Ec2SpotFleet#groups}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.ipv6AddressCount">ipv6_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ipv_6_address_count Ec2SpotFleet#ipv_6_address_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.ipv6Addresses">ipv6_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ipv_6_addresses Ec2SpotFleet#ipv_6_addresses}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_id Ec2SpotFleet#network_interface_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.privateIpAddresses">private_ip_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#private_ip_addresses Ec2SpotFleet#private_ip_addresses}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#secondary_private_ip_address_count Ec2SpotFleet#secondary_private_ip_address_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.associatePublicIpAddress">associate_public_ip_address</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#associate_public_ip_address Ec2SpotFleet#associate_public_ip_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.deleteOnTermination">delete_on_termination</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#description Ec2SpotFleet#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.deviceIndex">device_index</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#device_index Ec2SpotFleet#device_index}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.groups">groups</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#groups Ec2SpotFleet#groups}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.ipv6AddressCount">ipv6_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ipv_6_address_count Ec2SpotFleet#ipv_6_address_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.ipv6Addresses">ipv6_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ipv_6_addresses Ec2SpotFleet#ipv_6_addresses}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.networkInterfaceId">network_interface_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_id Ec2SpotFleet#network_interface_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.privateIpAddresses">private_ip_addresses</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#private_ip_addresses Ec2SpotFleet#private_ip_addresses}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.secondaryPrivateIpAddressCount">secondary_private_ip_address_count</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#secondary_private_ip_address_count Ec2SpotFleet#secondary_private_ip_address_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfaces.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}. |
 
 ---
 
@@ -3033,7 +3033,7 @@ associate_public_ip_address: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#associate_public_ip_address Ec2SpotFleet#associate_public_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#associate_public_ip_address Ec2SpotFleet#associate_public_ip_address}.
 
 ---
 
@@ -3045,7 +3045,7 @@ delete_on_termination: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}.
 
 ---
 
@@ -3057,7 +3057,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#description Ec2SpotFleet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#description Ec2SpotFleet#description}.
 
 ---
 
@@ -3069,7 +3069,7 @@ device_index: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#device_index Ec2SpotFleet#device_index}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#device_index Ec2SpotFleet#device_index}.
 
 ---
 
@@ -3081,7 +3081,7 @@ groups: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#groups Ec2SpotFleet#groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#groups Ec2SpotFleet#groups}.
 
 ---
 
@@ -3093,7 +3093,7 @@ ipv6_address_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ipv_6_address_count Ec2SpotFleet#ipv_6_address_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ipv_6_address_count Ec2SpotFleet#ipv_6_address_count}.
 
 ---
 
@@ -3105,7 +3105,7 @@ ipv6_addresses: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigData
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ipv_6_addresses Ec2SpotFleet#ipv_6_addresses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ipv_6_addresses Ec2SpotFleet#ipv_6_addresses}.
 
 ---
 
@@ -3117,7 +3117,7 @@ network_interface_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_id Ec2SpotFleet#network_interface_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_id Ec2SpotFleet#network_interface_id}.
 
 ---
 
@@ -3129,7 +3129,7 @@ private_ip_addresses: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConf
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#private_ip_addresses Ec2SpotFleet#private_ip_addresses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#private_ip_addresses Ec2SpotFleet#private_ip_addresses}.
 
 ---
 
@@ -3141,7 +3141,7 @@ secondary_private_ip_address_count: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#secondary_private_ip_address_count Ec2SpotFleet#secondary_private_ip_address_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#secondary_private_ip_address_count Ec2SpotFleet#secondary_private_ip_address_count}.
 
 ---
 
@@ -3153,7 +3153,7 @@ subnet_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}.
 
 ---
 
@@ -3173,7 +3173,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses.property.ipv6Address">ipv6_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ipv_6_address Ec2SpotFleet#ipv_6_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesIpv6Addresses.property.ipv6Address">ipv6_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ipv_6_address Ec2SpotFleet#ipv_6_address}. |
 
 ---
 
@@ -3185,7 +3185,7 @@ ipv6_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#ipv_6_address Ec2SpotFleet#ipv_6_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#ipv_6_address Ec2SpotFleet#ipv_6_address}.
 
 ---
 
@@ -3206,8 +3206,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses.property.primary">primary</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#primary Ec2SpotFleet#primary}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#private_ip_address Ec2SpotFleet#private_ip_address}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses.property.primary">primary</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#primary Ec2SpotFleet#primary}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkInterfacesPrivateIpAddresses.property.privateIpAddress">private_ip_address</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#private_ip_address Ec2SpotFleet#private_ip_address}. |
 
 ---
 
@@ -3219,7 +3219,7 @@ primary: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#primary Ec2SpotFleet#primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#primary Ec2SpotFleet#primary}.
 
 ---
 
@@ -3231,7 +3231,7 @@ private_ip_address: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#private_ip_address Ec2SpotFleet#private_ip_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#private_ip_address Ec2SpotFleet#private_ip_address}.
 
 ---
 
@@ -3254,10 +3254,10 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.availabilityZoneId">availability_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.groupName">group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.tenancy">tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.availabilityZoneId">availability_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.groupName">group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement.property.tenancy">tenancy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}. |
 
 ---
 
@@ -3269,7 +3269,7 @@ availability_zone: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}.
 
 ---
 
@@ -3281,7 +3281,7 @@ availability_zone_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}.
 
 ---
 
@@ -3293,7 +3293,7 @@ group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}.
 
 ---
 
@@ -3305,7 +3305,7 @@ tenancy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}.
 
 ---
 
@@ -3325,7 +3325,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityG
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups.property.groupId">group_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#group_id Ec2SpotFleet#group_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityGroups.property.groupId">group_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#group_id Ec2SpotFleet#group_id}. |
 
 ---
 
@@ -3337,7 +3337,7 @@ group_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#group_id Ec2SpotFleet#group_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#group_id Ec2SpotFleet#group_id}.
 
 ---
 
@@ -3358,8 +3358,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications.property.resourceType">resource_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications.property.resourceType">resource_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecifications.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}. |
 
 ---
 
@@ -3371,7 +3371,7 @@ resource_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}.
 
 ---
 
@@ -3383,7 +3383,7 @@ tags: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpec
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}.
 
 ---
 
@@ -3404,8 +3404,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecificationsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}. |
 
 ---
 
@@ -3417,7 +3417,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}.
 
 ---
 
@@ -3429,7 +3429,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}.
 
 ---
 
@@ -3450,8 +3450,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs.property.launchTemplateSpecification">launch_template_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_specification Ec2SpotFleet#launch_template_specification}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs.property.overrides">overrides</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#overrides Ec2SpotFleet#overrides}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs.property.launchTemplateSpecification">launch_template_specification</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_specification Ec2SpotFleet#launch_template_specification}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigs.property.overrides">overrides</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#overrides Ec2SpotFleet#overrides}. |
 
 ---
 
@@ -3463,7 +3463,7 @@ launch_template_specification: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTempl
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_specification Ec2SpotFleet#launch_template_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_specification Ec2SpotFleet#launch_template_specification}.
 
 ---
 
@@ -3475,7 +3475,7 @@ overrides: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDataLaunc
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#overrides Ec2SpotFleet#overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#overrides Ec2SpotFleet#overrides}.
 
 ---
 
@@ -3497,9 +3497,9 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateId">launch_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateName">launch_template_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateId">launch_template_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.property.launchTemplateName">launch_template_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTemplateSpecification.property.version">version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}. |
 
 ---
 
@@ -3511,7 +3511,7 @@ launch_template_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}.
 
 ---
 
@@ -3523,7 +3523,7 @@ launch_template_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}.
 
 ---
 
@@ -3535,7 +3535,7 @@ version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}.
 
 ---
 
@@ -3562,14 +3562,14 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.availabilityZoneId">availability_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.instanceRequirements">instance_requirements</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#priority Ec2SpotFleet#priority}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.spotPrice">spot_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.availabilityZone">availability_zone</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.availabilityZoneId">availability_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.instanceRequirements">instance_requirements</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.instanceType">instance_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#priority Ec2SpotFleet#priority}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.spotPrice">spot_price</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.subnetId">subnet_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverrides.property.weightedCapacity">weighted_capacity</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}. |
 
 ---
 
@@ -3581,7 +3581,7 @@ availability_zone: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}.
 
 ---
 
@@ -3593,7 +3593,7 @@ availability_zone_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}.
 
 ---
 
@@ -3605,7 +3605,7 @@ instance_requirements: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_requirements Ec2SpotFleet#instance_requirements}.
 
 ---
 
@@ -3617,7 +3617,7 @@ instance_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_type Ec2SpotFleet#instance_type}.
 
 ---
 
@@ -3629,7 +3629,7 @@ priority: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#priority Ec2SpotFleet#priority}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#priority Ec2SpotFleet#priority}.
 
 ---
 
@@ -3641,7 +3641,7 @@ spot_price: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_price Ec2SpotFleet#spot_price}.
 
 ---
 
@@ -3653,7 +3653,7 @@ subnet_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#subnet_id Ec2SpotFleet#subnet_id}.
 
 ---
 
@@ -3665,7 +3665,7 @@ weighted_capacity: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#weighted_capacity Ec2SpotFleet#weighted_capacity}.
 
 ---
 
@@ -3710,32 +3710,32 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorCount">accelerator_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorManufacturers">accelerator_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorNames">accelerator_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTotalMemoryMiB">accelerator_total_memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTypes">accelerator_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.allowedInstanceTypes">allowed_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.bareMetal">bare_metal</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.baselineEbsBandwidthMbps">baseline_ebs_bandwidth_mbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.baselinePerformanceFactors">baseline_performance_factors</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.burstablePerformance">burstable_performance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.cpuManufacturers">cpu_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.instanceGenerations">instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorage">local_storage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorageTypes">local_storage_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.maxSpotPriceAsPercentageOfOptimalOnDemandPrice">max_spot_price_as_percentage_of_optimal_on_demand_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryGiBPerVCpu">memory_gi_b_per_v_cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryMiB">memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.networkBandwidthGbps">network_bandwidth_gbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.networkInterfaceCount">network_interface_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.onDemandMaxPricePercentageOverLowestPrice">on_demand_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.requireEncryptionInTransit">require_encryption_in_transit</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.requireHibernateSupport">require_hibernate_support</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.spotMaxPricePercentageOverLowestPrice">spot_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.totalLocalStorageGb">total_local_storage_gb</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.vCpuCount">v_cpu_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorCount">accelerator_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorManufacturers">accelerator_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorNames">accelerator_names</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTotalMemoryMiB">accelerator_total_memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.acceleratorTypes">accelerator_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.allowedInstanceTypes">allowed_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.bareMetal">bare_metal</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.baselineEbsBandwidthMbps">baseline_ebs_bandwidth_mbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.baselinePerformanceFactors">baseline_performance_factors</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.burstablePerformance">burstable_performance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.cpuManufacturers">cpu_manufacturers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.excludedInstanceTypes">excluded_instance_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.instanceGenerations">instance_generations</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorage">local_storage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.localStorageTypes">local_storage_types</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.maxSpotPriceAsPercentageOfOptimalOnDemandPrice">max_spot_price_as_percentage_of_optimal_on_demand_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryGiBPerVCpu">memory_gi_b_per_v_cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.memoryMiB">memory_mi_b</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.networkBandwidthGbps">network_bandwidth_gbps</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.networkInterfaceCount">network_interface_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.onDemandMaxPricePercentageOverLowestPrice">on_demand_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.requireEncryptionInTransit">require_encryption_in_transit</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.requireHibernateSupport">require_hibernate_support</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.spotMaxPricePercentageOverLowestPrice">spot_max_price_percentage_over_lowest_price</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.totalLocalStorageGb">total_local_storage_gb</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirements.property.vCpuCount">v_cpu_count</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}. |
 
 ---
 
@@ -3747,7 +3747,7 @@ accelerator_count: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOv
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
 
 ---
 
@@ -3759,7 +3759,7 @@ accelerator_manufacturers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
 
 ---
 
@@ -3771,7 +3771,7 @@ accelerator_names: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
 
 ---
 
@@ -3783,7 +3783,7 @@ accelerator_total_memory_mi_b: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTempl
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
 
 ---
 
@@ -3795,7 +3795,7 @@ accelerator_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
 
 ---
 
@@ -3807,7 +3807,7 @@ allowed_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
 
 ---
 
@@ -3819,7 +3819,7 @@ bare_metal: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
 
 ---
 
@@ -3831,7 +3831,7 @@ baseline_ebs_bandwidth_mbps: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplat
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
 
 ---
 
@@ -3843,7 +3843,7 @@ baseline_performance_factors: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTempla
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
 
 ---
 
@@ -3855,7 +3855,7 @@ burstable_performance: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
 
 ---
 
@@ -3867,7 +3867,7 @@ cpu_manufacturers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
 
 ---
 
@@ -3879,7 +3879,7 @@ excluded_instance_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
 
 ---
 
@@ -3891,7 +3891,7 @@ instance_generations: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
 
 ---
 
@@ -3903,7 +3903,7 @@ local_storage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
 
 ---
 
@@ -3915,7 +3915,7 @@ local_storage_types: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
 
 ---
 
@@ -3927,7 +3927,7 @@ max_spot_price_as_percentage_of_optimal_on_demand_price: typing.Union[int, float
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
 
 ---
 
@@ -3939,7 +3939,7 @@ memory_gi_b_per_v_cpu: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
 
 ---
 
@@ -3951,7 +3951,7 @@ memory_mi_b: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
 
 ---
 
@@ -3963,7 +3963,7 @@ network_bandwidth_gbps: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConf
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
 
 ---
 
@@ -3975,7 +3975,7 @@ network_interface_count: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
 
 ---
 
@@ -3987,7 +3987,7 @@ on_demand_max_price_percentage_over_lowest_price: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -3999,7 +3999,7 @@ require_encryption_in_transit: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
 
 ---
 
@@ -4011,7 +4011,7 @@ require_hibernate_support: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
 
 ---
 
@@ -4023,7 +4023,7 @@ spot_max_price_percentage_over_lowest_price: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -4035,7 +4035,7 @@ total_local_storage_gb: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConf
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
 
 ---
 
@@ -4047,7 +4047,7 @@ v_cpu_count: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
 
 ---
 
@@ -4068,8 +4068,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4081,7 +4081,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4093,7 +4093,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4114,8 +4114,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4127,7 +4127,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4139,7 +4139,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4160,8 +4160,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4173,7 +4173,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4185,7 +4185,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4205,7 +4205,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors.property.cpu">cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors.property.cpu">cpu</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}. |
 
 ---
 
@@ -4217,7 +4217,7 @@ cpu: Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanc
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
 
 ---
 
@@ -4237,7 +4237,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu.property.references">references</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu.property.references">references</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}. |
 
 ---
 
@@ -4249,7 +4249,7 @@ references: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDataLaun
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
 
 ---
 
@@ -4269,7 +4269,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences.property.instanceFamily">instance_family</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences.property.instanceFamily">instance_family</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}. |
 
 ---
 
@@ -4281,7 +4281,7 @@ instance_family: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_family Ec2SpotFleet#instance_family}.
 
 ---
 
@@ -4302,8 +4302,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4315,7 +4315,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4327,7 +4327,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4348,8 +4348,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4361,7 +4361,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4373,7 +4373,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4394,8 +4394,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4407,7 +4407,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4419,7 +4419,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4440,8 +4440,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4453,7 +4453,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4465,7 +4465,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4486,8 +4486,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4499,7 +4499,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4511,7 +4511,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4532,8 +4532,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.max">max</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount.property.min">min</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}. |
 
 ---
 
@@ -4545,7 +4545,7 @@ max: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -4557,7 +4557,7 @@ min: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -4578,8 +4578,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig.property.classicLoadBalancersConfig">classic_load_balancers_config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig.property.targetGroupsConfig">target_groups_config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig.property.classicLoadBalancersConfig">classic_load_balancers_config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfig.property.targetGroupsConfig">target_groups_config</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}. |
 
 ---
 
@@ -4591,7 +4591,7 @@ classic_load_balancers_config: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalance
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}.
 
 ---
 
@@ -4603,7 +4603,7 @@ target_groups_config: Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigT
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}.
 
 ---
 
@@ -4623,7 +4623,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig.property.classicLoadBalancers">classic_load_balancers</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig.property.classicLoadBalancers">classic_load_balancers</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}. |
 
 ---
 
@@ -4635,7 +4635,7 @@ classic_load_balancers: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestCo
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}.
 
 ---
 
@@ -4655,7 +4655,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#name Ec2SpotFleet#name}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#name Ec2SpotFleet#name}. |
 
 ---
 
@@ -4667,7 +4667,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#name Ec2SpotFleet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#name Ec2SpotFleet#name}.
 
 ---
 
@@ -4687,7 +4687,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGrou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig.property.targetGroups">target_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig.property.targetGroups">target_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}. |
 
 ---
 
@@ -4699,7 +4699,7 @@ target_groups: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDataL
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}.
 
 ---
 
@@ -4719,7 +4719,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGrou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups.property.arn">arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}. |
 
 ---
 
@@ -4731,7 +4731,7 @@ arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
 
 ---
 
@@ -4751,7 +4751,7 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies.property.capacityRebalance">capacity_rebalance</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies.property.capacityRebalance">capacity_rebalance</a></code> | <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}. |
 
 ---
 
@@ -4763,7 +4763,7 @@ capacity_rebalance: Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrateg
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}.
 
 ---
 
@@ -4784,8 +4784,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance.property.replacementStrategy">replacement_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance.property.terminationDelay">termination_delay</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance.property.replacementStrategy">replacement_strategy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance.property.terminationDelay">termination_delay</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}. |
 
 ---
 
@@ -4797,7 +4797,7 @@ replacement_strategy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}.
 
 ---
 
@@ -4809,7 +4809,7 @@ termination_delay: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}.
 
 ---
 
@@ -4830,8 +4830,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications.property.resourceType">resource_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications.property.resourceType">resource_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifications.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}. |
 
 ---
 
@@ -4843,7 +4843,7 @@ resource_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#resource_type Ec2SpotFleet#resource_type}.
 
 ---
 
@@ -4855,7 +4855,7 @@ tags: IResolvable | typing.List[Ec2SpotFleetSpotFleetRequestConfigDataTagSpecifi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags">Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}.
 
 ---
 
@@ -4876,8 +4876,8 @@ ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}. |
 
 ---
 
@@ -4889,7 +4889,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}.
 
 ---
 
@@ -4901,7 +4901,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}.
 
 ---
 
@@ -4922,8 +4922,8 @@ ec2SpotFleet.Ec2SpotFleetTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}. |
 
 ---
 
@@ -4935,7 +4935,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#key Ec2SpotFleet#key}.
 
 ---
 
@@ -4947,7 +4947,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#value Ec2SpotFleet#value}.
 
 ---
 
@@ -5841,7 +5841,7 @@ def put_ebs(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#delete_on_termination Ec2SpotFleet#delete_on_termination}.
 
 ---
 
@@ -5849,7 +5849,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#encrypted Ec2SpotFleet#encrypted}.
 
 ---
 
@@ -5857,7 +5857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#iops Ec2SpotFleet#iops}.
 
 ---
 
@@ -5865,7 +5865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#snapshot_id Ec2SpotFleet#snapshot_id}.
 
 ---
 
@@ -5873,7 +5873,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#volume_size Ec2SpotFleet#volume_size}.
 
 ---
 
@@ -5881,7 +5881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#volume_type Ec2SpotFleet#volume_type}.
 
 ---
 
@@ -8395,7 +8395,7 @@ def put_cpu(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
 
 ---
 
@@ -10078,7 +10078,7 @@ def put_accelerator_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10086,7 +10086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10103,7 +10103,7 @@ def put_accelerator_total_memory_mi_b(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10111,7 +10111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10128,7 +10128,7 @@ def put_baseline_ebs_bandwidth_mbps(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10136,7 +10136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10152,7 +10152,7 @@ def put_baseline_performance_factors(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactorsCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
 
 ---
 
@@ -10169,7 +10169,7 @@ def put_memory_gi_b_per_v_cpu(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10177,7 +10177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10194,7 +10194,7 @@ def put_memory_mi_b(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10202,7 +10202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10219,7 +10219,7 @@ def put_network_bandwidth_gbps(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10227,7 +10227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10244,7 +10244,7 @@ def put_network_interface_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10252,7 +10252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10269,7 +10269,7 @@ def put_total_local_storage_gb(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10277,7 +10277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -10294,7 +10294,7 @@ def put_v_cpu_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -10302,7 +10302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -14345,7 +14345,7 @@ def put_iam_instance_profile(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
 
 ---
 
@@ -14386,7 +14386,7 @@ def put_instance_requirements(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
 
 ---
 
@@ -14394,7 +14394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
 
 ---
 
@@ -14402,7 +14402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
 
 ---
 
@@ -14410,7 +14410,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsAcceleratorTotalMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
 
 ---
 
@@ -14418,7 +14418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
 
 ---
 
@@ -14426,7 +14426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
 
 ---
 
@@ -14434,7 +14434,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
 
 ---
 
@@ -14442,7 +14442,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselineEbsBandwidthMbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
 
 ---
 
@@ -14450,7 +14450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsBaselinePerformanceFactors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
 
 ---
 
@@ -14458,7 +14458,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
 
 ---
 
@@ -14466,7 +14466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
 
 ---
 
@@ -14474,7 +14474,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
 
 ---
 
@@ -14482,7 +14482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
 
 ---
 
@@ -14490,7 +14490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
 
 ---
 
@@ -14498,7 +14498,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
 
 ---
 
@@ -14506,7 +14506,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
 
 ---
 
@@ -14514,7 +14514,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryGiBPerVCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
 
 ---
 
@@ -14522,7 +14522,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
 
 ---
 
@@ -14530,7 +14530,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkBandwidthGbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
 
 ---
 
@@ -14538,7 +14538,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsNetworkInterfaceCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
 
 ---
 
@@ -14546,7 +14546,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -14554,7 +14554,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
 
 ---
 
@@ -14562,7 +14562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
 
 ---
 
@@ -14570,7 +14570,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -14578,7 +14578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsTotalLocalStorageGb</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
 
 ---
 
@@ -14586,7 +14586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceRequirementsVCpuCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
 
 ---
 
@@ -14602,7 +14602,7 @@ def put_monitoring(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#enabled Ec2SpotFleet#enabled}.
 
 ---
 
@@ -14635,7 +14635,7 @@ def put_placement(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone Ec2SpotFleet#availability_zone}.
 
 ---
 
@@ -14643,7 +14643,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#availability_zone_id Ec2SpotFleet#availability_zone_id}.
 
 ---
 
@@ -14651,7 +14651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#group_name Ec2SpotFleet#group_name}.
 
 ---
 
@@ -14659,7 +14659,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tenancy Ec2SpotFleet#tenancy}.
 
 ---
 
@@ -17980,7 +17980,7 @@ def put_launch_template_specification(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_id Ec2SpotFleet#launch_template_id}.
 
 ---
 
@@ -17988,7 +17988,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#launch_template_name Ec2SpotFleet#launch_template_name}.
 
 ---
 
@@ -17996,7 +17996,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#version Ec2SpotFleet#version}.
 
 ---
 
@@ -20165,7 +20165,7 @@ def put_cpu(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#references Ec2SpotFleet#references}.
 
 ---
 
@@ -21848,7 +21848,7 @@ def put_accelerator_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -21856,7 +21856,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -21873,7 +21873,7 @@ def put_accelerator_total_memory_mi_b(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -21881,7 +21881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -21898,7 +21898,7 @@ def put_baseline_ebs_bandwidth_mbps(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -21906,7 +21906,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -21922,7 +21922,7 @@ def put_baseline_performance_factors(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu Ec2SpotFleet#cpu}.
 
 ---
 
@@ -21939,7 +21939,7 @@ def put_memory_gi_b_per_v_cpu(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -21947,7 +21947,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -21964,7 +21964,7 @@ def put_memory_mi_b(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -21972,7 +21972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -21989,7 +21989,7 @@ def put_network_bandwidth_gbps(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -21997,7 +21997,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -22014,7 +22014,7 @@ def put_network_interface_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -22022,7 +22022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -22039,7 +22039,7 @@ def put_total_local_storage_gb(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -22047,7 +22047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -22064,7 +22064,7 @@ def put_v_cpu_count(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 
 ---
 
@@ -22072,7 +22072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 
 ---
 
@@ -23978,7 +23978,7 @@ def put_instance_requirements(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_count Ec2SpotFleet#accelerator_count}.
 
 ---
 
@@ -23986,7 +23986,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_manufacturers Ec2SpotFleet#accelerator_manufacturers}.
 
 ---
 
@@ -23994,7 +23994,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_names Ec2SpotFleet#accelerator_names}.
 
 ---
 
@@ -24002,7 +24002,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsAcceleratorTotalMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_total_memory_mi_b Ec2SpotFleet#accelerator_total_memory_mi_b}.
 
 ---
 
@@ -24010,7 +24010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#accelerator_types Ec2SpotFleet#accelerator_types}.
 
 ---
 
@@ -24018,7 +24018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#allowed_instance_types Ec2SpotFleet#allowed_instance_types}.
 
 ---
 
@@ -24026,7 +24026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#bare_metal Ec2SpotFleet#bare_metal}.
 
 ---
 
@@ -24034,7 +24034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselineEbsBandwidthMbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_ebs_bandwidth_mbps Ec2SpotFleet#baseline_ebs_bandwidth_mbps}.
 
 ---
 
@@ -24042,7 +24042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#baseline_performance_factors Ec2SpotFleet#baseline_performance_factors}.
 
 ---
 
@@ -24050,7 +24050,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#burstable_performance Ec2SpotFleet#burstable_performance}.
 
 ---
 
@@ -24058,7 +24058,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#cpu_manufacturers Ec2SpotFleet#cpu_manufacturers}.
 
 ---
 
@@ -24066,7 +24066,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#excluded_instance_types Ec2SpotFleet#excluded_instance_types}.
 
 ---
 
@@ -24074,7 +24074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#instance_generations Ec2SpotFleet#instance_generations}.
 
 ---
 
@@ -24082,7 +24082,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage Ec2SpotFleet#local_storage}.
 
 ---
 
@@ -24090,7 +24090,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#local_storage_types Ec2SpotFleet#local_storage_types}.
 
 ---
 
@@ -24098,7 +24098,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2SpotFleet#max_spot_price_as_percentage_of_optimal_on_demand_price}.
 
 ---
 
@@ -24106,7 +24106,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryGiBPerVCpu</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_gi_b_per_v_cpu Ec2SpotFleet#memory_gi_b_per_v_cpu}.
 
 ---
 
@@ -24114,7 +24114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#memory_mi_b Ec2SpotFleet#memory_mi_b}.
 
 ---
 
@@ -24122,7 +24122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkBandwidthGbps</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_bandwidth_gbps Ec2SpotFleet#network_bandwidth_gbps}.
 
 ---
 
@@ -24130,7 +24130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsNetworkInterfaceCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#network_interface_count Ec2SpotFleet#network_interface_count}.
 
 ---
 
@@ -24138,7 +24138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#on_demand_max_price_percentage_over_lowest_price Ec2SpotFleet#on_demand_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -24146,7 +24146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_encryption_in_transit Ec2SpotFleet#require_encryption_in_transit}.
 
 ---
 
@@ -24154,7 +24154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#require_hibernate_support Ec2SpotFleet#require_hibernate_support}.
 
 ---
 
@@ -24162,7 +24162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_max_price_percentage_over_lowest_price Ec2SpotFleet#spot_max_price_percentage_over_lowest_price}.
 
 ---
 
@@ -24170,7 +24170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsTotalLocalStorageGb</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#total_local_storage_gb Ec2SpotFleet#total_local_storage_gb}.
 
 ---
 
@@ -24178,7 +24178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount">Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCount</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#v_cpu_count Ec2SpotFleet#v_cpu_count}.
 
 ---
 
@@ -25507,7 +25507,7 @@ def put_classic_load_balancers_config(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfigClassicLoadBalancers</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#classic_load_balancers Ec2SpotFleet#classic_load_balancers}.
 
 ---
 
@@ -25523,7 +25523,7 @@ def put_target_groups_config(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfigTargetGroups</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_groups Ec2SpotFleet#target_groups}.
 
 ---
 
@@ -26735,7 +26735,7 @@ def put_load_balancers_config(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoadBalancersConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#classic_load_balancers_config Ec2SpotFleet#classic_load_balancers_config}.
 
 ---
 
@@ -26743,7 +26743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig">Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGroupsConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#target_groups_config Ec2SpotFleet#target_groups_config}.
 
 ---
 
@@ -26759,7 +26759,7 @@ def put_spot_maintenance_strategies(
 
 - *Type:* <a href="#@cdktn/provider-awscc.ec2SpotFleet.Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance">Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}.
 
 ---
 
@@ -28030,7 +28030,7 @@ def put_capacity_rebalance(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#replacement_strategy Ec2SpotFleet#replacement_strategy}.
 
 ---
 
@@ -28038,7 +28038,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#termination_delay Ec2SpotFleet#termination_delay}.
 
 ---
 

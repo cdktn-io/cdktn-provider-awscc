@@ -4,7 +4,7 @@
 
 ### LogsLogStream <a name="LogsLogStream" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_log_stream awscc_logs_log_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_log_stream awscc_logs_log_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsLogStream.LogsLogStream.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the log group where the log stream is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the log stream. The name must be unique wihtin the log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
 
 ---
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the LogsLogStream to import.
 
 The id of the existing LogsLogStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_log_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_log_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -938,7 +938,7 @@ public java.lang.String getLogGroupName();
 
 The name of the log group where the log stream is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
 
 ---
 
@@ -952,7 +952,7 @@ public java.lang.String getLogStreamName();
 
 The name of the log stream. The name must be unique wihtin the log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccGameliftMatchmakingConfigurations <a name="DataAwsccGameliftMatchmakingConfigurations" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingConfigurations.DataAwsccGameliftMatchmakingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_matchmaking_configurations awscc_gamelift_matchmaking_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_matchmaking_configurations awscc_gamelift_matchmaking_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftMatchmakingConfigurations.DataAwsccGameliftMatchmakingConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccGameliftMatchmaki
 
 The id of the existing DataAwsccGameliftMatchmakingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_matchmaking_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_matchmaking_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

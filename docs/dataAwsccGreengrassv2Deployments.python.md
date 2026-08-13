@@ -4,7 +4,7 @@
 
 ### DataAwsccGreengrassv2Deployments <a name="DataAwsccGreengrassv2Deployments" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGreengrassv2Deployments.DataAwsccGreengrassv2Deployments.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccGreengrassv2Deplo
 
 The id of the existing DataAwsccGreengrassv2Deployments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_deployments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_deployments#import import section} in the documentation of this resource for the id to use
 
 ---
 

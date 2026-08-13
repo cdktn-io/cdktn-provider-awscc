@@ -4,7 +4,7 @@
 
 ### IotCustomMetric <a name="IotCustomMetric" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCustomMetric.IotCustomMetric.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IotCustomMetric to import.
 
 The id of the existing IotCustomMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -936,7 +936,7 @@ public readonly metricType: string;
 
 The type of the custom metric. Types include string-list, ip-address-list, number-list, and number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#metric_type IotCustomMetric#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#metric_type IotCustomMetric#metric_type}
 
 ---
 
@@ -952,7 +952,7 @@ Field represents a friendly name in the console for the custom metric;
 
 it doesn't have to be unique. Don't use this name as the metric identifier in the device metric report. Can be updated once defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#display_name IotCustomMetric#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#display_name IotCustomMetric#display_name}
 
 ---
 
@@ -968,7 +968,7 @@ The name of the custom metric.
 
 This will be used in the metric report submitted from the device/thing. Shouldn't begin with aws: . Cannot be updated once defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#metric_name IotCustomMetric#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#metric_name IotCustomMetric#metric_name}
 
 ---
 
@@ -982,7 +982,7 @@ public readonly tags: IResolvable | IotCustomMetricTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#tags IotCustomMetric#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#tags IotCustomMetric#tags}
 
 ---
 
@@ -1015,7 +1015,7 @@ public readonly key: string;
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#key IotCustomMetric#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#key IotCustomMetric#key}
 
 ---
 
@@ -1029,7 +1029,7 @@ public readonly value: string;
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_custom_metric#value IotCustomMetric#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_custom_metric#value IotCustomMetric#value}
 
 ---
 

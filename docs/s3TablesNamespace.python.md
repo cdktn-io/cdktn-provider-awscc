@@ -4,7 +4,7 @@
 
 ### S3TablesNamespace <a name="S3TablesNamespace" id="@cdktn/provider-awscc.s3TablesNamespace.S3TablesNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_namespace awscc_s3tables_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_namespace awscc_s3tables_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesNamespace.S3TablesNamespace.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 A name for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_namespace#namespace S3TablesNamespace#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_namespace#namespace S3TablesNamespace#namespace}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the specified table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_namespace#table_bucket_arn S3TablesNamespace#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_namespace#table_bucket_arn S3TablesNamespace#table_bucket_arn}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the S3TablesNamespace to impor
 
 The id of the existing S3TablesNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ namespace: str
 
 A name for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_namespace#namespace S3TablesNamespace#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_namespace#namespace S3TablesNamespace#namespace}
 
 ---
 
@@ -995,7 +995,7 @@ table_bucket_arn: str
 
 The Amazon Resource Name (ARN) of the specified table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_namespace#table_bucket_arn S3TablesNamespace#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_namespace#table_bucket_arn S3TablesNamespace#table_bucket_arn}
 
 ---
 

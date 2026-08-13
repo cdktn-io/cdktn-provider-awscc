@@ -4,7 +4,7 @@
 
 ### DataAwsccWisdomKnowledgeBases <a name="DataAwsccWisdomKnowledgeBases" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_knowledge_bases awscc_wisdom_knowledge_bases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_knowledge_bases awscc_wisdom_knowledge_bases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomKnowledgeBases.DataAwsccWisdomKnowledgeBases.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWisdomKnowledgeBa
 
 The id of the existing DataAwsccWisdomKnowledgeBases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_knowledge_bases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_knowledge_bases#import import section} in the documentation of this resource for the id to use
 
 ---
 

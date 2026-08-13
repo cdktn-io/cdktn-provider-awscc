@@ -4,7 +4,7 @@
 
 ### DataAwsccEvsEnvironments <a name="DataAwsccEvsEnvironments" id="@cdktn/provider-awscc.dataAwsccEvsEnvironments.DataAwsccEvsEnvironments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/evs_environments awscc_evs_environments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/evs_environments awscc_evs_environments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEvsEnvironments.DataAwsccEvsEnvironments.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEvsEnvironments t
 
 The id of the existing DataAwsccEvsEnvironments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/evs_environments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/evs_environments#import import section} in the documentation of this resource for the id to use
 
 ---
 

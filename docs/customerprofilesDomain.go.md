@@ -4,7 +4,7 @@
 
 ### CustomerprofilesDomain <a name="CustomerprofilesDomain" id="@cdktn/provider-awscc.customerprofilesDomain.CustomerprofilesDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain awscc_customerprofiles_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain awscc_customerprofiles_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesDomain.CustomerprofilesDomain.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the CustomerprofilesDomain to 
 
 The id of the existing CustomerprofilesDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -990,7 +990,7 @@ DomainName *string
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#domain_name CustomerprofilesDomain#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#domain_name CustomerprofilesDomain#domain_name}
 
 ---
 
@@ -1004,7 +1004,7 @@ DeadLetterQueueUrl *string
 
 The URL of the SQS dead letter queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#dead_letter_queue_url CustomerprofilesDomain#dead_letter_queue_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#dead_letter_queue_url CustomerprofilesDomain#dead_letter_queue_url}
 
 ---
 
@@ -1018,7 +1018,7 @@ DefaultEncryptionKey *string
 
 The default encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#default_encryption_key CustomerprofilesDomain#default_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#default_encryption_key CustomerprofilesDomain#default_encryption_key}
 
 ---
 
@@ -1032,7 +1032,7 @@ DefaultExpirationDays *f64
 
 The default number of days until the data within the domain expires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#default_expiration_days CustomerprofilesDomain#default_expiration_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#default_expiration_days CustomerprofilesDomain#default_expiration_days}
 
 ---
 
@@ -1046,7 +1046,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#tags CustomerprofilesDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#tags CustomerprofilesDomain#tags}
 
 ---
 
@@ -1067,8 +1067,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesdomain
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesDomain.CustomerprofilesDomainTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#key CustomerprofilesDomain#key}. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesDomain.CustomerprofilesDomainTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#value CustomerprofilesDomain#value}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesDomain.CustomerprofilesDomainTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#key CustomerprofilesDomain#key}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesDomain.CustomerprofilesDomainTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#value CustomerprofilesDomain#value}. |
 
 ---
 
@@ -1080,7 +1080,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#key CustomerprofilesDomain#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#key CustomerprofilesDomain#key}.
 
 ---
 
@@ -1092,7 +1092,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_domain#value CustomerprofilesDomain#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_domain#value CustomerprofilesDomain#value}.
 
 ---
 

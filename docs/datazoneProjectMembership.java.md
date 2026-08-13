@@ -4,7 +4,7 @@
 
 ### DatazoneProjectMembership <a name="DatazoneProjectMembership" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer"></a>
 
@@ -37,10 +37,10 @@ DatazoneProjectMembership.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.designation">designation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.domainIdentifier">domainIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.member">member</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.projectIdentifier">projectIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.designation">designation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.domainIdentifier">domainIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.member">member</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembership.Initializer.parameter.projectIdentifier">projectIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}.
 
 ---
 
@@ -594,7 +594,7 @@ The construct id used in the generated config for the DatazoneProjectMembership 
 
 The id of the existing DatazoneProjectMembership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -943,10 +943,10 @@ DatazoneProjectMembershipConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.designation">designation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.domainIdentifier">domainIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.member">member</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.projectIdentifier">projectIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.designation">designation</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.domainIdentifier">domainIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.member">member</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipConfig.property.projectIdentifier">projectIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}. |
 
 ---
 
@@ -1028,7 +1028,7 @@ public java.lang.String getDesignation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}.
 
 ---
 
@@ -1040,7 +1040,7 @@ public java.lang.String getDomainIdentifier();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}.
 
 ---
 
@@ -1052,7 +1052,7 @@ public DatazoneProjectMembershipMember getMember();
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember">DatazoneProjectMembershipMember</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}.
 
 ---
 
@@ -1064,7 +1064,7 @@ public java.lang.String getProjectIdentifier();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}.
 
 ---
 
@@ -1085,8 +1085,8 @@ DatazoneProjectMembershipMember.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.groupIdentifier">groupIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.userIdentifier">userIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.groupIdentifier">groupIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneProjectMembership.DatazoneProjectMembershipMember.property.userIdentifier">userIdentifier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}. |
 
 ---
 
@@ -1098,7 +1098,7 @@ public java.lang.String getGroupIdentifier();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}.
 
 ---
 
@@ -1110,7 +1110,7 @@ public java.lang.String getUserIdentifier();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}.
 
 ---
 

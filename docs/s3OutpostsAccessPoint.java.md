@@ -4,7 +4,7 @@
 
 ### S3OutpostsAccessPoint <a name="S3OutpostsAccessPoint" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsAccessPoint.S3OutpostsAccessPoint.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the bucket you want to associate this AccessPoint with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A name for the AccessPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Virtual Private Cloud (VPC) from which requests can be made to the AccessPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The access point policy associated with this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
 
 ---
 
@@ -609,7 +609,7 @@ The construct id used in the generated config for the S3OutpostsAccessPoint to i
 
 The id of the existing S3OutpostsAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1034,7 +1034,7 @@ public java.lang.String getBucket();
 
 The Amazon Resource Name (ARN) of the bucket you want to associate this AccessPoint with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
 
 ---
 
@@ -1048,7 +1048,7 @@ public java.lang.String getName();
 
 A name for the AccessPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
 
 ---
 
@@ -1062,7 +1062,7 @@ public S3OutpostsAccessPointVpcConfiguration getVpcConfiguration();
 
 Virtual Private Cloud (VPC) from which requests can be made to the AccessPoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
 
 ---
 
@@ -1076,7 +1076,7 @@ public java.lang.String getPolicy();
 
 The access point policy associated with this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
 
 ---
 
@@ -1110,7 +1110,7 @@ public java.lang.String getVpcId();
 
 Virtual Private Cloud (VPC) Id from which AccessPoint will allow requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_access_point#vpc_id S3OutpostsAccessPoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_access_point#vpc_id S3OutpostsAccessPoint#vpc_id}
 
 ---
 

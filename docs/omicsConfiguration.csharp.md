@@ -4,7 +4,7 @@
 
 ### OmicsConfiguration <a name="OmicsConfiguration" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration awscc_omics_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration awscc_omics_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfiguration.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the OmicsConfiguration to impo
 
 The id of the existing OmicsConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -974,7 +974,7 @@ public string Name { get; set; }
 
 User-friendly name for the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
 
 ---
 
@@ -988,7 +988,7 @@ public OmicsConfigurationRunConfigurations RunConfigurations { get; set; }
 
 Required run-specific configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
 
 ---
 
@@ -1002,7 +1002,7 @@ public string Description { get; set; }
 
 Optional description for the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
 
 ---
 
@@ -1016,7 +1016,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 Tags for the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
 
 ---
 
@@ -1036,7 +1036,7 @@ new OmicsConfigurationRunConfigurations {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurations.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig">OmicsConfigurationRunConfigurationsVpcConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurations.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig">OmicsConfigurationRunConfigurationsVpcConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}. |
 
 ---
 
@@ -1048,7 +1048,7 @@ public OmicsConfigurationRunConfigurationsVpcConfig VpcConfig { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig">OmicsConfigurationRunConfigurationsVpcConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}.
 
 ---
 
@@ -1069,8 +1069,8 @@ new OmicsConfigurationRunConfigurationsVpcConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}. |
 
 ---
 
@@ -1082,7 +1082,7 @@ public string[] SecurityGroupIds { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}.
 
 ---
 
@@ -1094,7 +1094,7 @@ public string[] SubnetIds { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}.
 
 ---
 

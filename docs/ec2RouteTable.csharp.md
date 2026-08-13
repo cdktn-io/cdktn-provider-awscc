@@ -4,7 +4,7 @@
 
 ### Ec2RouteTable <a name="Ec2RouteTable" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_table awscc_ec2_route_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_table awscc_ec2_route_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteTable.Ec2RouteTable.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2RouteTable to import.
 
 The id of the existing Ec2RouteTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ public string VpcId { get; set; }
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_table#vpc_id Ec2RouteTable#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_table#vpc_id Ec2RouteTable#vpc_id}
 
 ---
 
@@ -900,7 +900,7 @@ public IResolvable|Ec2RouteTableTags[] Tags { get; set; }
 
 Any tags assigned to the route table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_table#tags Ec2RouteTable#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_table#tags Ec2RouteTable#tags}
 
 ---
 
@@ -936,7 +936,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_table#key Ec2RouteTable#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_table#key Ec2RouteTable#key}
 
 ---
 
@@ -950,7 +950,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_table#value Ec2RouteTable#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_table#value Ec2RouteTable#value}
 
 ---
 

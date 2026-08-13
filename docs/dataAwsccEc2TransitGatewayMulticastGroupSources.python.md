@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TransitGatewayMulticastGroupSources <a name="DataAwsccEc2TransitGatewayMulticastGroupSources" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupSources.DataAwsccEc2TransitGatewayMulticastGroupSources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayMulticastGroupSources.DataAwsccEc2TransitGatewayMulticastGroupSources.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayMulticastGroupSources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources#import import section} in the documentation of this resource for the id to use
 
 ---
 

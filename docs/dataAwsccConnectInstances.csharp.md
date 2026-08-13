@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectInstances <a name="DataAwsccConnectInstances" id="@cdktn/provider-awscc.dataAwsccConnectInstances.DataAwsccConnectInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_instances awscc_connect_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_instances awscc_connect_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectInstances.DataAwsccConnectInstances.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccConnectInstances 
 
 The id of the existing DataAwsccConnectInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 

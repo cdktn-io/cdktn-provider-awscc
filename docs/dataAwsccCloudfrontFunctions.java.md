@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontFunctions <a name="DataAwsccCloudfrontFunctions" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunctions.DataAwsccCloudfrontFunctions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_functions awscc_cloudfront_functions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_functions awscc_cloudfront_functions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontFunctions.DataAwsccCloudfrontFunctions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontFunctio
 
 The id of the existing DataAwsccCloudfrontFunctions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_functions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_functions#import import section} in the documentation of this resource for the id to use
 
 ---
 

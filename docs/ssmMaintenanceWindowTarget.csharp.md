@@ -4,7 +4,7 @@
 
 ### SsmMaintenanceWindowTarget <a name="SsmMaintenanceWindowTarget" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmMaintenanceWindowTarget.SsmMaintenanceWindowTarget.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SsmMaintenanceWindowTarget
 
 The id of the existing SsmMaintenanceWindowTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -996,7 +996,7 @@ public string ResourceType { get; set; }
 
 The type of target that is being registered with the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#resource_type SsmMaintenanceWindowTarget#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#resource_type SsmMaintenanceWindowTarget#resource_type}
 
 ---
 
@@ -1010,7 +1010,7 @@ public IResolvable|SsmMaintenanceWindowTargetTargets[] Targets { get; set; }
 
 The targets to register with the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#targets SsmMaintenanceWindowTarget#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#targets SsmMaintenanceWindowTarget#targets}
 
 ---
 
@@ -1024,7 +1024,7 @@ public string WindowId { get; set; }
 
 The ID of the maintenance window to register the target with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#window_id SsmMaintenanceWindowTarget#window_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#window_id SsmMaintenanceWindowTarget#window_id}
 
 ---
 
@@ -1038,7 +1038,7 @@ public string Description { get; set; }
 
 A description for the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#description SsmMaintenanceWindowTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#description SsmMaintenanceWindowTarget#description}
 
 ---
 
@@ -1052,7 +1052,7 @@ public string Name { get; set; }
 
 The name for the maintenance window target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#name SsmMaintenanceWindowTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#name SsmMaintenanceWindowTarget#name}
 
 ---
 
@@ -1066,7 +1066,7 @@ public string OwnerInformation { get; set; }
 
 A user-provided value that will be included in any Amazon CloudWatch Events events that are raised while running tasks for these targets in this maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#owner_information SsmMaintenanceWindowTarget#owner_information}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#owner_information SsmMaintenanceWindowTarget#owner_information}
 
 ---
 
@@ -1102,7 +1102,7 @@ public string Key { get; set; }
 
 User-defined criteria for sending commands that target managed nodes that meet the criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#key SsmMaintenanceWindowTarget#key}
 
 ---
 
@@ -1116,7 +1116,7 @@ public string[] Values { get; set; }
 
 User-defined criteria that maps to Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_maintenance_window_target#values SsmMaintenanceWindowTarget#values}
 
 ---
 

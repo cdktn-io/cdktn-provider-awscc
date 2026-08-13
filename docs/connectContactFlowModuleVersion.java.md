@@ -4,7 +4,7 @@
 
 ### ConnectContactFlowModuleVersion <a name="ConnectContactFlowModuleVersion" id="@cdktn/provider-awscc.connectContactFlowModuleVersion.ConnectContactFlowModuleVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlowModuleVersion.ConnectContactFlowModuleVersion.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the contact flow module (ARN) this version is tied to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_version#contact_flow_module_id ConnectContactFlowModuleVersion#contact_flow_module_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_version#contact_flow_module_id ConnectContactFlowModuleVersion#contact_flow_module_id}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_version#description ConnectContactFlowModuleVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_version#description ConnectContactFlowModuleVersion#description}
 
 ---
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the ConnectContactFlowModuleVe
 
 The id of the existing ConnectContactFlowModuleVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -971,7 +971,7 @@ public java.lang.String getContactFlowModuleId();
 
 The identifier of the contact flow module (ARN) this version is tied to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_version#contact_flow_module_id ConnectContactFlowModuleVersion#contact_flow_module_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_version#contact_flow_module_id ConnectContactFlowModuleVersion#contact_flow_module_id}
 
 ---
 
@@ -985,7 +985,7 @@ public java.lang.String getDescription();
 
 The description of the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_version#description ConnectContactFlowModuleVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_version#description ConnectContactFlowModuleVersion#description}
 
 ---
 

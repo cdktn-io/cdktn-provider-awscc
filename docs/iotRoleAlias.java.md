@@ -4,7 +4,7 @@
 
 ### IotRoleAlias <a name="IotRoleAlias" id="@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias awscc_iot_role_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias awscc_iot_role_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer"></a>
 
@@ -37,10 +37,10 @@ IotRoleAlias.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.credentialDurationSeconds">credentialDurationSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.roleAlias">roleAlias</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}. |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasTags">IotRoleAliasTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.credentialDurationSeconds">credentialDurationSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.roleAlias">roleAlias</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAlias.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasTags">IotRoleAliasTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasTags">IotRoleAliasTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}.
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the IotRoleAlias to import.
 
 The id of the existing IotRoleAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -953,10 +953,10 @@ IotRoleAliasConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.credentialDurationSeconds">credentialDurationSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.roleAlias">roleAlias</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}. |
-| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasTags">IotRoleAliasTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.credentialDurationSeconds">credentialDurationSeconds</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.roleAlias">roleAlias</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}. |
+| <code><a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasTags">IotRoleAliasTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}. |
 
 ---
 
@@ -1038,7 +1038,7 @@ public java.lang.String getRoleArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_arn IotRoleAlias#role_arn}.
 
 ---
 
@@ -1050,7 +1050,7 @@ public java.lang.Number getCredentialDurationSeconds();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#credential_duration_seconds IotRoleAlias#credential_duration_seconds}.
 
 ---
 
@@ -1062,7 +1062,7 @@ public java.lang.String getRoleAlias();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#role_alias IotRoleAlias#role_alias}.
 
 ---
 
@@ -1074,7 +1074,7 @@ public IResolvable|java.util.List<IotRoleAliasTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.iotRoleAlias.IotRoleAliasTags">IotRoleAliasTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#tags IotRoleAlias#tags}.
 
 ---
 
@@ -1112,7 +1112,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#key IotRoleAlias#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#key IotRoleAlias#key}
 
 ---
 
@@ -1128,7 +1128,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_role_alias#value IotRoleAlias#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_role_alias#value IotRoleAlias#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MedialiveEventBridgeRuleTemplateGroup <a name="MedialiveEventBridgeRuleTemplateGroup" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplateGroup.MedialiveEventBridgeRuleTemplateGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveEventBridgeRuleTemplateGroup.MedialiveEventBridgeRuleTemplateGroup.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 A resource's name. Names must be unique within the scope of a resource type in a specific region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#name MedialiveEventBridgeRuleTemplateGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#name MedialiveEventBridgeRuleTemplateGroup#name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A resource's optional description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#description MedialiveEventBridgeRuleTemplateGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#description MedialiveEventBridgeRuleTemplateGroup#description}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents the tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#tags MedialiveEventBridgeRuleTemplateGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#tags MedialiveEventBridgeRuleTemplateGroup#tags}
 
 ---
 
@@ -591,7 +591,7 @@ The construct id used in the generated config for the MedialiveEventBridgeRuleTe
 
 The id of the existing MedialiveEventBridgeRuleTemplateGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1036,7 +1036,7 @@ public java.lang.String getName();
 
 A resource's name. Names must be unique within the scope of a resource type in a specific region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#name MedialiveEventBridgeRuleTemplateGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#name MedialiveEventBridgeRuleTemplateGroup#name}
 
 ---
 
@@ -1050,7 +1050,7 @@ public java.lang.String getDescription();
 
 A resource's optional description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#description MedialiveEventBridgeRuleTemplateGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#description MedialiveEventBridgeRuleTemplateGroup#description}
 
 ---
 
@@ -1064,7 +1064,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 Represents the tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/medialive_event_bridge_rule_template_group#tags MedialiveEventBridgeRuleTemplateGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_event_bridge_rule_template_group#tags MedialiveEventBridgeRuleTemplateGroup#tags}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubStandards <a name="DataAwsccSecurityhubStandards" id="@cdktn/provider-awscc.dataAwsccSecurityhubStandards.DataAwsccSecurityhubStandards"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securityhub_standards awscc_securityhub_standards}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_standards awscc_securityhub_standards}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubStandards.DataAwsccSecurityhubStandards.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubStanda
 
 The id of the existing DataAwsccSecurityhubStandards that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securityhub_standards#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_standards#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Apigatewayv2Deployment <a name="Apigatewayv2Deployment" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description for the deployment resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of an existing stage to associate with the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
 
 ---
 
@@ -641,7 +641,7 @@ The construct id used in the generated config for the Apigatewayv2Deployment to 
 
 The id of the existing Apigatewayv2Deployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1042,7 +1042,7 @@ api_id: str
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
 
 ---
 
@@ -1056,7 +1056,7 @@ description: str
 
 The description for the deployment resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
 
 ---
 
@@ -1070,7 +1070,7 @@ stage_name: str
 
 The name of an existing stage to associate with the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
 
 ---
 

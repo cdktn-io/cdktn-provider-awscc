@@ -4,7 +4,7 @@
 
 ### EksAddon <a name="EksAddon" id="@cdktn/provider-awscc.eksAddon.EksAddon"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon awscc_eks_addon}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon awscc_eks_addon}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksAddon.EksAddon.Initializer"></a>
 
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 Name of Addon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#addon_name EksAddon#addon_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#addon_name EksAddon#addon_name}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#cluster_name EksAddon#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#cluster_name EksAddon#cluster_name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Version of Addon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#addon_version EksAddon#addon_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#addon_version EksAddon#addon_version}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration values to use with the add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#configuration_values EksAddon#configuration_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#configuration_values EksAddon#configuration_values}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The custom namespace configuration to use with the add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#namespace_config EksAddon#namespace_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#namespace_config EksAddon#namespace_config}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of pod identities to apply to this add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#pod_identity_associations EksAddon#pod_identity_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#pod_identity_associations EksAddon#pod_identity_associations}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 PreserveOnDelete parameter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#preserve_on_delete EksAddon#preserve_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#preserve_on_delete EksAddon#preserve_on_delete}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resolve parameter value conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#resolve_conflicts EksAddon#resolve_conflicts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#resolve_conflicts EksAddon#resolve_conflicts}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IAM role to bind to the add-on's service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#service_account_role_arn EksAddon#service_account_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#service_account_role_arn EksAddon#service_account_role_arn}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#tags EksAddon#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#tags EksAddon#tags}
 
 ---
 
@@ -622,7 +622,7 @@ def put_namespace_config(
 
 The custom namespace for creating the add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#namespace EksAddon#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#namespace EksAddon#namespace}
 
 ---
 
@@ -816,7 +816,7 @@ The construct id used in the generated config for the EksAddon to import.
 
 The id of the existing EksAddon that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1385,7 +1385,7 @@ addon_name: str
 
 Name of Addon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#addon_name EksAddon#addon_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#addon_name EksAddon#addon_name}
 
 ---
 
@@ -1399,7 +1399,7 @@ cluster_name: str
 
 Name of Cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#cluster_name EksAddon#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#cluster_name EksAddon#cluster_name}
 
 ---
 
@@ -1413,7 +1413,7 @@ addon_version: str
 
 Version of Addon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#addon_version EksAddon#addon_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#addon_version EksAddon#addon_version}
 
 ---
 
@@ -1427,7 +1427,7 @@ configuration_values: str
 
 The configuration values to use with the add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#configuration_values EksAddon#configuration_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#configuration_values EksAddon#configuration_values}
 
 ---
 
@@ -1441,7 +1441,7 @@ namespace_config: EksAddonNamespaceConfig
 
 The custom namespace configuration to use with the add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#namespace_config EksAddon#namespace_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#namespace_config EksAddon#namespace_config}
 
 ---
 
@@ -1455,7 +1455,7 @@ pod_identity_associations: IResolvable | typing.List[EksAddonPodIdentityAssociat
 
 An array of pod identities to apply to this add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#pod_identity_associations EksAddon#pod_identity_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#pod_identity_associations EksAddon#pod_identity_associations}
 
 ---
 
@@ -1469,7 +1469,7 @@ preserve_on_delete: bool | IResolvable
 
 PreserveOnDelete parameter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#preserve_on_delete EksAddon#preserve_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#preserve_on_delete EksAddon#preserve_on_delete}
 
 ---
 
@@ -1483,7 +1483,7 @@ resolve_conflicts: str
 
 Resolve parameter value conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#resolve_conflicts EksAddon#resolve_conflicts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#resolve_conflicts EksAddon#resolve_conflicts}
 
 ---
 
@@ -1497,7 +1497,7 @@ service_account_role_arn: str
 
 IAM role to bind to the add-on's service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#service_account_role_arn EksAddon#service_account_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#service_account_role_arn EksAddon#service_account_role_arn}
 
 ---
 
@@ -1511,7 +1511,7 @@ tags: IResolvable | typing.List[EksAddonTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#tags EksAddon#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#tags EksAddon#tags}
 
 ---
 
@@ -1545,7 +1545,7 @@ namespace: str
 
 The custom namespace for creating the add-on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#namespace EksAddon#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#namespace EksAddon#namespace}
 
 ---
 
@@ -1581,7 +1581,7 @@ role_arn: str
 
 The IAM role ARN that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#role_arn EksAddon#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#role_arn EksAddon#role_arn}
 
 ---
 
@@ -1595,7 +1595,7 @@ service_account: str
 
 The Kubernetes service account that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#service_account EksAddon#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#service_account EksAddon#service_account}
 
 ---
 
@@ -1633,7 +1633,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#key EksAddon#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#key EksAddon#key}
 
 ---
 
@@ -1649,7 +1649,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eks_addon#value EksAddon#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_addon#value EksAddon#value}
 
 ---
 

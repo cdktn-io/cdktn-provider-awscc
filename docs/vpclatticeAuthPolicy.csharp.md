@@ -4,7 +4,7 @@
 
 ### VpclatticeAuthPolicy <a name="VpclatticeAuthPolicy" id="@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_auth_policy awscc_vpclattice_auth_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_auth_policy awscc_vpclattice_auth_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the VpclatticeAuthPolicy to im
 
 The id of the existing VpclatticeAuthPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_auth_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_auth_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -781,8 +781,8 @@ new VpclatticeAuthPolicyConfig {
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.policy">Policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.resourceIdentifier">ResourceIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.policy">Policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeAuthPolicy.VpclatticeAuthPolicyConfig.property.resourceIdentifier">ResourceIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}. |
 
 ---
 
@@ -864,7 +864,7 @@ public string Policy { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_auth_policy#policy VpclatticeAuthPolicy#policy}.
 
 ---
 
@@ -876,7 +876,7 @@ public string ResourceIdentifier { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_auth_policy#resource_identifier VpclatticeAuthPolicy#resource_identifier}.
 
 ---
 

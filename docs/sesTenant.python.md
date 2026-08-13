@@ -4,7 +4,7 @@
 
 ### SesTenant <a name="SesTenant" id="@cdktn/provider-awscc.sesTenant.SesTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant awscc_ses_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant awscc_ses_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenant.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of resources to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags (keys and values) associated with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#tags SesTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#tags SesTenant#tags}
 
 ---
 
@@ -671,7 +671,7 @@ The construct id used in the generated config for the SesTenant to import.
 
 The id of the existing SesTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1072,7 +1072,7 @@ tenant_name: str
 
 The name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
 
 ---
 
@@ -1086,7 +1086,7 @@ resource_associations: IResolvable | typing.List[SesTenantResourceAssociations]
 
 The list of resources to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
 
 ---
 
@@ -1100,7 +1100,7 @@ tags: IResolvable | typing.List[SesTenantTags]
 
 The tags (keys and values) associated with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#tags SesTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#tags SesTenant#tags}
 
 ---
 
@@ -1134,7 +1134,7 @@ resource_arn: str
 
 The ARN of the resource to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
 
 ---
 
@@ -1170,7 +1170,7 @@ key: str
 
 The key of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#key SesTenant#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#key SesTenant#key}
 
 ---
 
@@ -1184,7 +1184,7 @@ value: str
 
 The value of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_tenant#value SesTenant#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_tenant#value SesTenant#value}
 
 ---
 

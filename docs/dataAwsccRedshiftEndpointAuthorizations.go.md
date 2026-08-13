@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftEndpointAuthorizations <a name="DataAwsccRedshiftEndpointAuthorizations" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftEndpointAuthorizations.DataAwsccRedshiftEndpointAuthorizations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftEndpointA
 
 The id of the existing DataAwsccRedshiftEndpointAuthorizations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_endpoint_authorizations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_endpoint_authorizations#import import section} in the documentation of this resource for the id to use
 
 ---
 

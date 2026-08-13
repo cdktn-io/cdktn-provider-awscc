@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmcontactsContactChannels <a name="DataAwsccSsmcontactsContactChannels" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContactChannels.DataAwsccSsmcontactsContactChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssmcontacts_contact_channels awscc_ssmcontacts_contact_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmcontacts_contact_channels awscc_ssmcontacts_contact_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContactChannels.DataAwsccSsmcontactsContactChannels.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSsmcontactsContac
 
 The id of the existing DataAwsccSsmcontactsContactChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssmcontacts_contact_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmcontacts_contact_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 

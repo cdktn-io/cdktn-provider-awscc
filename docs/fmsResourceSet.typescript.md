@@ -4,7 +4,7 @@
 
 ### FmsResourceSet <a name="FmsResourceSet" id="@cdktn/provider-awscc.fmsResourceSet.FmsResourceSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set awscc_fms_resource_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set awscc_fms_resource_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fmsResourceSet.FmsResourceSet.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the FmsResourceSet to import.
 
 The id of the existing FmsResourceSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -871,11 +871,11 @@ const fmsResourceSetConfig: fmsResourceSet.FmsResourceSetConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#name FmsResourceSet#name}. |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.resourceTypeList">resourceTypeList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}. |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#description FmsResourceSet#description}. |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.resources">resources</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#resources FmsResourceSet#resources}. |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags">FmsResourceSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#tags FmsResourceSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#name FmsResourceSet#name}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.resourceTypeList">resourceTypeList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#description FmsResourceSet#description}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.resources">resources</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#resources FmsResourceSet#resources}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags">FmsResourceSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#tags FmsResourceSet#tags}. |
 
 ---
 
@@ -957,7 +957,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#name FmsResourceSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#name FmsResourceSet#name}.
 
 ---
 
@@ -969,7 +969,7 @@ public readonly resourceTypeList: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#resource_type_list FmsResourceSet#resource_type_list}.
 
 ---
 
@@ -981,7 +981,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#description FmsResourceSet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#description FmsResourceSet#description}.
 
 ---
 
@@ -993,7 +993,7 @@ public readonly resources: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#resources FmsResourceSet#resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#resources FmsResourceSet#resources}.
 
 ---
 
@@ -1005,7 +1005,7 @@ public readonly tags: IResolvable | FmsResourceSetTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags">FmsResourceSetTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#tags FmsResourceSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#tags FmsResourceSet#tags}.
 
 ---
 
@@ -1023,8 +1023,8 @@ const fmsResourceSetTags: fmsResourceSet.FmsResourceSetTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#key FmsResourceSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#value FmsResourceSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#key FmsResourceSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.fmsResourceSet.FmsResourceSetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#value FmsResourceSet#value}. |
 
 ---
 
@@ -1036,7 +1036,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#key FmsResourceSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#key FmsResourceSet#key}.
 
 ---
 
@@ -1048,7 +1048,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_resource_set#value FmsResourceSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fms_resource_set#value FmsResourceSet#value}.
 
 ---
 

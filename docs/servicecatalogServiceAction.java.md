@@ -4,7 +4,7 @@
 
 ### ServicecatalogServiceAction <a name="ServicecatalogServiceAction" id="@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action awscc_servicecatalog_service_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action awscc_servicecatalog_service_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer"></a>
 
@@ -38,11 +38,11 @@ ServicecatalogServiceAction.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.definition">definition</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition">ServicecatalogServiceActionDefinition</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.definitionType">definitionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.definition">definition</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition">ServicecatalogServiceActionDefinition</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.definitionType">definitionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceAction.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition">ServicecatalogServiceActionDefinition</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}.
 
 ---
 
@@ -618,7 +618,7 @@ The construct id used in the generated config for the ServicecatalogServiceActio
 
 The id of the existing ServicecatalogServiceAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,11 +979,11 @@ ServicecatalogServiceActionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.definition">definition</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition">ServicecatalogServiceActionDefinition</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.definitionType">definitionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.definition">definition</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition">ServicecatalogServiceActionDefinition</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.definitionType">definitionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.acceptLanguage">acceptLanguage</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}. |
 
 ---
 
@@ -1065,7 +1065,7 @@ public IResolvable|java.util.List<ServicecatalogServiceActionDefinition> getDefi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition">ServicecatalogServiceActionDefinition</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition ServicecatalogServiceAction#definition}.
 
 ---
 
@@ -1077,7 +1077,7 @@ public java.lang.String getDefinitionType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#definition_type ServicecatalogServiceAction#definition_type}.
 
 ---
 
@@ -1089,7 +1089,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#name ServicecatalogServiceAction#name}.
 
 ---
 
@@ -1101,7 +1101,7 @@ public java.lang.String getAcceptLanguage();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#accept_language ServicecatalogServiceAction#accept_language}.
 
 ---
 
@@ -1113,7 +1113,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#description ServicecatalogServiceAction#description}.
 
 ---
 
@@ -1134,8 +1134,8 @@ ServicecatalogServiceActionDefinition.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#key ServicecatalogServiceAction#key}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#value ServicecatalogServiceAction#value}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#key ServicecatalogServiceAction#key}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogServiceAction.ServicecatalogServiceActionDefinition.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#value ServicecatalogServiceAction#value}. |
 
 ---
 
@@ -1147,7 +1147,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#key ServicecatalogServiceAction#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#key ServicecatalogServiceAction#key}.
 
 ---
 
@@ -1159,7 +1159,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_service_action#value ServicecatalogServiceAction#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action#value ServicecatalogServiceAction#value}.
 
 ---
 

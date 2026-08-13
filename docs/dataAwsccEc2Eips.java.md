@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2Eips <a name="DataAwsccEc2Eips" id="@cdktn/provider-awscc.dataAwsccEc2Eips.DataAwsccEc2Eips"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_eips awscc_ec2_eips}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_eips awscc_ec2_eips}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Eips.DataAwsccEc2Eips.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2Eips to import
 
 The id of the existing DataAwsccEc2Eips that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_eips#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_eips#import import section} in the documentation of this resource for the id to use
 
 ---
 

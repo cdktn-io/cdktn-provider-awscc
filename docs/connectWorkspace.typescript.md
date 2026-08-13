@@ -4,7 +4,7 @@
 
 ### ConnectWorkspace <a name="ConnectWorkspace" id="@cdktn/provider-awscc.connectWorkspace.ConnectWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace awscc_connect_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace awscc_connect_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectWorkspace.ConnectWorkspace.Initializer"></a>
 
@@ -597,7 +597,7 @@ The construct id used in the generated config for the ConnectWorkspace to import
 
 The id of the existing ConnectWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#instance_arn ConnectWorkspace#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#instance_arn ConnectWorkspace#instance_arn}
 
 ---
 
@@ -1173,7 +1173,7 @@ public readonly name: string;
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#name ConnectWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#name ConnectWorkspace#name}
 
 ---
 
@@ -1187,7 +1187,7 @@ public readonly associations: string[];
 
 The resource ARNs associated with the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#associations ConnectWorkspace#associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#associations ConnectWorkspace#associations}
 
 ---
 
@@ -1201,7 +1201,7 @@ public readonly description: string;
 
 The description of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#description ConnectWorkspace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#description ConnectWorkspace#description}
 
 ---
 
@@ -1215,7 +1215,7 @@ public readonly media: IResolvable | ConnectWorkspaceMedia[];
 
 The media items for the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#media ConnectWorkspace#media}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#media ConnectWorkspace#media}
 
 ---
 
@@ -1229,7 +1229,7 @@ public readonly pages: IResolvable | ConnectWorkspacePages[];
 
 The pages associated with the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#pages ConnectWorkspace#pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#pages ConnectWorkspace#pages}
 
 ---
 
@@ -1243,7 +1243,7 @@ public readonly tags: IResolvable | ConnectWorkspaceTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#tags ConnectWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#tags ConnectWorkspace#tags}
 
 ---
 
@@ -1257,7 +1257,7 @@ public readonly theme: ConnectWorkspaceTheme;
 
 The theme configuration for the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#theme ConnectWorkspace#theme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#theme ConnectWorkspace#theme}
 
 ---
 
@@ -1271,7 +1271,7 @@ public readonly title: string;
 
 The title of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#title ConnectWorkspace#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#title ConnectWorkspace#title}
 
 ---
 
@@ -1285,7 +1285,7 @@ public readonly visibility: string;
 
 The visibility of the workspace. Will always be set to ASSIGNED oninitial creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#visibility ConnectWorkspace#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#visibility ConnectWorkspace#visibility}
 
 ---
 
@@ -1303,7 +1303,7 @@ const connectWorkspaceMedia: connectWorkspace.ConnectWorkspaceMedia = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceMedia.property.source">source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#source ConnectWorkspace#source}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceMedia.property.source">source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#source ConnectWorkspace#source}. |
 | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceMedia.property.type">type</a></code> | <code>string</code> | The type of media. |
 
 ---
@@ -1316,7 +1316,7 @@ public readonly source: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#source ConnectWorkspace#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#source ConnectWorkspace#source}.
 
 ---
 
@@ -1330,7 +1330,7 @@ public readonly type: string;
 
 The type of media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#type ConnectWorkspace#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#type ConnectWorkspace#type}
 
 ---
 
@@ -1365,7 +1365,7 @@ public readonly inputData: string;
 
 The input data for the page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#input_data ConnectWorkspace#input_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#input_data ConnectWorkspace#input_data}
 
 ---
 
@@ -1379,7 +1379,7 @@ public readonly page: string;
 
 The page identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#page ConnectWorkspace#page}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#page ConnectWorkspace#page}
 
 ---
 
@@ -1393,7 +1393,7 @@ public readonly resourceArn: string;
 
 The Amazon Resource Name (ARN) of the resource associated with the page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#resource_arn ConnectWorkspace#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#resource_arn ConnectWorkspace#resource_arn}
 
 ---
 
@@ -1407,7 +1407,7 @@ public readonly slug: string;
 
 The slug for the page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#slug ConnectWorkspace#slug}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#slug ConnectWorkspace#slug}
 
 ---
 
@@ -1442,7 +1442,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#key ConnectWorkspace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#key ConnectWorkspace#key}
 
 ---
 
@@ -1458,7 +1458,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#value ConnectWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#value ConnectWorkspace#value}
 
 ---
 
@@ -1476,8 +1476,8 @@ const connectWorkspaceTheme: connectWorkspace.ConnectWorkspaceTheme = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceTheme.property.dark">dark</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark">ConnectWorkspaceThemeDark</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#dark ConnectWorkspace#dark}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceTheme.property.light">light</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight">ConnectWorkspaceThemeLight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#light ConnectWorkspace#light}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceTheme.property.dark">dark</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark">ConnectWorkspaceThemeDark</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#dark ConnectWorkspace#dark}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceTheme.property.light">light</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight">ConnectWorkspaceThemeLight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#light ConnectWorkspace#light}. |
 
 ---
 
@@ -1489,7 +1489,7 @@ public readonly dark: ConnectWorkspaceThemeDark;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark">ConnectWorkspaceThemeDark</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#dark ConnectWorkspace#dark}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#dark ConnectWorkspace#dark}.
 
 ---
 
@@ -1501,7 +1501,7 @@ public readonly light: ConnectWorkspaceThemeLight;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight">ConnectWorkspaceThemeLight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#light ConnectWorkspace#light}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#light ConnectWorkspace#light}.
 
 ---
 
@@ -1519,8 +1519,8 @@ const connectWorkspaceThemeDark: connectWorkspace.ConnectWorkspaceThemeDark = { 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark.property.palette">palette</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette">ConnectWorkspaceThemeDarkPalette</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark.property.typography">typography</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypography">ConnectWorkspaceThemeDarkTypography</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark.property.palette">palette</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette">ConnectWorkspaceThemeDarkPalette</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDark.property.typography">typography</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypography">ConnectWorkspaceThemeDarkTypography</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}. |
 
 ---
 
@@ -1532,7 +1532,7 @@ public readonly palette: ConnectWorkspaceThemeDarkPalette;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette">ConnectWorkspaceThemeDarkPalette</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}.
 
 ---
 
@@ -1544,7 +1544,7 @@ public readonly typography: ConnectWorkspaceThemeDarkTypography;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypography">ConnectWorkspaceThemeDarkTypography</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}.
 
 ---
 
@@ -1562,10 +1562,10 @@ const connectWorkspaceThemeDarkPalette: connectWorkspace.ConnectWorkspaceThemeDa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.canvas">canvas</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas">ConnectWorkspaceThemeDarkPaletteCanvas</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.header">header</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader">ConnectWorkspaceThemeDarkPaletteHeader</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#header ConnectWorkspace#header}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.navigation">navigation</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation">ConnectWorkspaceThemeDarkPaletteNavigation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.primary">primary</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary">ConnectWorkspaceThemeDarkPalettePrimary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.canvas">canvas</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas">ConnectWorkspaceThemeDarkPaletteCanvas</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.header">header</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader">ConnectWorkspaceThemeDarkPaletteHeader</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#header ConnectWorkspace#header}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.navigation">navigation</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation">ConnectWorkspaceThemeDarkPaletteNavigation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalette.property.primary">primary</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary">ConnectWorkspaceThemeDarkPalettePrimary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}. |
 
 ---
 
@@ -1577,7 +1577,7 @@ public readonly canvas: ConnectWorkspaceThemeDarkPaletteCanvas;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas">ConnectWorkspaceThemeDarkPaletteCanvas</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}.
 
 ---
 
@@ -1589,7 +1589,7 @@ public readonly header: ConnectWorkspaceThemeDarkPaletteHeader;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader">ConnectWorkspaceThemeDarkPaletteHeader</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#header ConnectWorkspace#header}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#header ConnectWorkspace#header}.
 
 ---
 
@@ -1601,7 +1601,7 @@ public readonly navigation: ConnectWorkspaceThemeDarkPaletteNavigation;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation">ConnectWorkspaceThemeDarkPaletteNavigation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}.
 
 ---
 
@@ -1613,7 +1613,7 @@ public readonly primary: ConnectWorkspaceThemeDarkPalettePrimary;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary">ConnectWorkspaceThemeDarkPalettePrimary</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}.
 
 ---
 
@@ -1631,9 +1631,9 @@ const connectWorkspaceThemeDarkPaletteCanvas: connectWorkspace.ConnectWorkspaceT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas.property.activeBackground">activeBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas.property.containerBackground">containerBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas.property.pageBackground">pageBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas.property.activeBackground">activeBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas.property.containerBackground">containerBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteCanvas.property.pageBackground">pageBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}. |
 
 ---
 
@@ -1645,7 +1645,7 @@ public readonly activeBackground: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}.
 
 ---
 
@@ -1657,7 +1657,7 @@ public readonly containerBackground: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}.
 
 ---
 
@@ -1669,7 +1669,7 @@ public readonly pageBackground: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}.
 
 ---
 
@@ -1687,10 +1687,10 @@ const connectWorkspaceThemeDarkPaletteHeader: connectWorkspace.ConnectWorkspaceT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteHeader.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
 
 ---
 
@@ -1702,7 +1702,7 @@ public readonly background: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
 
 ---
 
@@ -1714,7 +1714,7 @@ public readonly invertActionsColors: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
 
 ---
 
@@ -1726,7 +1726,7 @@ public readonly text: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
 
 ---
 
@@ -1738,7 +1738,7 @@ public readonly textHover: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
 
 ---
 
@@ -1756,13 +1756,13 @@ const connectWorkspaceThemeDarkPaletteNavigation: connectWorkspace.ConnectWorksp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textActive">textActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textBackgroundActive">textBackgroundActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textBackgroundHover">textBackgroundHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textActive">textActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textBackgroundActive">textBackgroundActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textBackgroundHover">textBackgroundHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPaletteNavigation.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
 
 ---
 
@@ -1774,7 +1774,7 @@ public readonly background: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
 
 ---
 
@@ -1786,7 +1786,7 @@ public readonly invertActionsColors: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
 
 ---
 
@@ -1798,7 +1798,7 @@ public readonly text: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
 
 ---
 
@@ -1810,7 +1810,7 @@ public readonly textActive: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}.
 
 ---
 
@@ -1822,7 +1822,7 @@ public readonly textBackgroundActive: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}.
 
 ---
 
@@ -1834,7 +1834,7 @@ public readonly textBackgroundHover: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}.
 
 ---
 
@@ -1846,7 +1846,7 @@ public readonly textHover: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
 
 ---
 
@@ -1864,9 +1864,9 @@ const connectWorkspaceThemeDarkPalettePrimary: connectWorkspace.ConnectWorkspace
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary.property.active">active</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active ConnectWorkspace#active}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary.property.contrastText">contrastText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary.property.active">active</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active ConnectWorkspace#active}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary.property.contrastText">contrastText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkPalettePrimary.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
 
 ---
 
@@ -1878,7 +1878,7 @@ public readonly active: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active ConnectWorkspace#active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active ConnectWorkspace#active}.
 
 ---
 
@@ -1890,7 +1890,7 @@ public readonly contrastText: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}.
 
 ---
 
@@ -1902,7 +1902,7 @@ public readonly default: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
 
 ---
 
@@ -1920,7 +1920,7 @@ const connectWorkspaceThemeDarkTypography: connectWorkspace.ConnectWorkspaceThem
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypography.property.fontFamily">fontFamily</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypographyFontFamily">ConnectWorkspaceThemeDarkTypographyFontFamily</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypography.property.fontFamily">fontFamily</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypographyFontFamily">ConnectWorkspaceThemeDarkTypographyFontFamily</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}. |
 
 ---
 
@@ -1932,7 +1932,7 @@ public readonly fontFamily: ConnectWorkspaceThemeDarkTypographyFontFamily;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypographyFontFamily">ConnectWorkspaceThemeDarkTypographyFontFamily</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}.
 
 ---
 
@@ -1950,7 +1950,7 @@ const connectWorkspaceThemeDarkTypographyFontFamily: connectWorkspace.ConnectWor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypographyFontFamily.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeDarkTypographyFontFamily.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
 
 ---
 
@@ -1962,7 +1962,7 @@ public readonly default: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
 
 ---
 
@@ -1980,8 +1980,8 @@ const connectWorkspaceThemeLight: connectWorkspace.ConnectWorkspaceThemeLight = 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight.property.palette">palette</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette">ConnectWorkspaceThemeLightPalette</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight.property.typography">typography</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypography">ConnectWorkspaceThemeLightTypography</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight.property.palette">palette</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette">ConnectWorkspaceThemeLightPalette</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLight.property.typography">typography</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypography">ConnectWorkspaceThemeLightTypography</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}. |
 
 ---
 
@@ -1993,7 +1993,7 @@ public readonly palette: ConnectWorkspaceThemeLightPalette;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette">ConnectWorkspaceThemeLightPalette</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}.
 
 ---
 
@@ -2005,7 +2005,7 @@ public readonly typography: ConnectWorkspaceThemeLightTypography;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypography">ConnectWorkspaceThemeLightTypography</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}.
 
 ---
 
@@ -2023,10 +2023,10 @@ const connectWorkspaceThemeLightPalette: connectWorkspace.ConnectWorkspaceThemeL
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.canvas">canvas</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas">ConnectWorkspaceThemeLightPaletteCanvas</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.header">header</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader">ConnectWorkspaceThemeLightPaletteHeader</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#header ConnectWorkspace#header}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.navigation">navigation</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation">ConnectWorkspaceThemeLightPaletteNavigation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.primary">primary</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary">ConnectWorkspaceThemeLightPalettePrimary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.canvas">canvas</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas">ConnectWorkspaceThemeLightPaletteCanvas</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.header">header</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader">ConnectWorkspaceThemeLightPaletteHeader</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#header ConnectWorkspace#header}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.navigation">navigation</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation">ConnectWorkspaceThemeLightPaletteNavigation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalette.property.primary">primary</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary">ConnectWorkspaceThemeLightPalettePrimary</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}. |
 
 ---
 
@@ -2038,7 +2038,7 @@ public readonly canvas: ConnectWorkspaceThemeLightPaletteCanvas;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas">ConnectWorkspaceThemeLightPaletteCanvas</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#canvas ConnectWorkspace#canvas}.
 
 ---
 
@@ -2050,7 +2050,7 @@ public readonly header: ConnectWorkspaceThemeLightPaletteHeader;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader">ConnectWorkspaceThemeLightPaletteHeader</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#header ConnectWorkspace#header}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#header ConnectWorkspace#header}.
 
 ---
 
@@ -2062,7 +2062,7 @@ public readonly navigation: ConnectWorkspaceThemeLightPaletteNavigation;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation">ConnectWorkspaceThemeLightPaletteNavigation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#navigation ConnectWorkspace#navigation}.
 
 ---
 
@@ -2074,7 +2074,7 @@ public readonly primary: ConnectWorkspaceThemeLightPalettePrimary;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary">ConnectWorkspaceThemeLightPalettePrimary</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#primary ConnectWorkspace#primary}.
 
 ---
 
@@ -2092,9 +2092,9 @@ const connectWorkspaceThemeLightPaletteCanvas: connectWorkspace.ConnectWorkspace
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas.property.activeBackground">activeBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas.property.containerBackground">containerBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas.property.pageBackground">pageBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas.property.activeBackground">activeBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas.property.containerBackground">containerBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteCanvas.property.pageBackground">pageBackground</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}. |
 
 ---
 
@@ -2106,7 +2106,7 @@ public readonly activeBackground: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active_background ConnectWorkspace#active_background}.
 
 ---
 
@@ -2118,7 +2118,7 @@ public readonly containerBackground: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#container_background ConnectWorkspace#container_background}.
 
 ---
 
@@ -2130,7 +2130,7 @@ public readonly pageBackground: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#page_background ConnectWorkspace#page_background}.
 
 ---
 
@@ -2148,10 +2148,10 @@ const connectWorkspaceThemeLightPaletteHeader: connectWorkspace.ConnectWorkspace
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteHeader.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
 
 ---
 
@@ -2163,7 +2163,7 @@ public readonly background: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
 
 ---
 
@@ -2175,7 +2175,7 @@ public readonly invertActionsColors: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
 
 ---
 
@@ -2187,7 +2187,7 @@ public readonly text: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
 
 ---
 
@@ -2199,7 +2199,7 @@ public readonly textHover: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
 
 ---
 
@@ -2217,13 +2217,13 @@ const connectWorkspaceThemeLightPaletteNavigation: connectWorkspace.ConnectWorks
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textActive">textActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textBackgroundActive">textBackgroundActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textBackgroundHover">textBackgroundHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.background">background</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.invertActionsColors">invertActionsColors</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.text">text</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textActive">textActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textBackgroundActive">textBackgroundActive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textBackgroundHover">textBackgroundHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPaletteNavigation.property.textHover">textHover</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}. |
 
 ---
 
@@ -2235,7 +2235,7 @@ public readonly background: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
 
 ---
 
@@ -2247,7 +2247,7 @@ public readonly invertActionsColors: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
 
 ---
 
@@ -2259,7 +2259,7 @@ public readonly text: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
 
 ---
 
@@ -2271,7 +2271,7 @@ public readonly textActive: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_active ConnectWorkspace#text_active}.
 
 ---
 
@@ -2283,7 +2283,7 @@ public readonly textBackgroundActive: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_active ConnectWorkspace#text_background_active}.
 
 ---
 
@@ -2295,7 +2295,7 @@ public readonly textBackgroundHover: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_background_hover ConnectWorkspace#text_background_hover}.
 
 ---
 
@@ -2307,7 +2307,7 @@ public readonly textHover: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
 
 ---
 
@@ -2325,9 +2325,9 @@ const connectWorkspaceThemeLightPalettePrimary: connectWorkspace.ConnectWorkspac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary.property.active">active</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active ConnectWorkspace#active}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary.property.contrastText">contrastText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}. |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary.property.active">active</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active ConnectWorkspace#active}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary.property.contrastText">contrastText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightPalettePrimary.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
 
 ---
 
@@ -2339,7 +2339,7 @@ public readonly active: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#active ConnectWorkspace#active}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#active ConnectWorkspace#active}.
 
 ---
 
@@ -2351,7 +2351,7 @@ public readonly contrastText: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}.
 
 ---
 
@@ -2363,7 +2363,7 @@ public readonly default: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
 
 ---
 
@@ -2381,7 +2381,7 @@ const connectWorkspaceThemeLightTypography: connectWorkspace.ConnectWorkspaceThe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypography.property.fontFamily">fontFamily</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypographyFontFamily">ConnectWorkspaceThemeLightTypographyFontFamily</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypography.property.fontFamily">fontFamily</a></code> | <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypographyFontFamily">ConnectWorkspaceThemeLightTypographyFontFamily</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}. |
 
 ---
 
@@ -2393,7 +2393,7 @@ public readonly fontFamily: ConnectWorkspaceThemeLightTypographyFontFamily;
 
 - *Type:* <a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypographyFontFamily">ConnectWorkspaceThemeLightTypographyFontFamily</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}.
 
 ---
 
@@ -2411,7 +2411,7 @@ const connectWorkspaceThemeLightTypographyFontFamily: connectWorkspace.ConnectWo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypographyFontFamily.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
+| <code><a href="#@cdktn/provider-awscc.connectWorkspace.ConnectWorkspaceThemeLightTypographyFontFamily.property.default">default</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}. |
 
 ---
 
@@ -2423,7 +2423,7 @@ public readonly default: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Route53ResolverResolverRule <a name="Route53ResolverResolverRule" id="@cdktn/provider-awscc.route53ResolverResolverRule.Route53ResolverResolverRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverRule.Route53ResolverResolverRule.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the Route53ResolverResolverRul
 
 The id of the existing Route53ResolverResolverRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1067,7 +1067,7 @@ When you want to forward DNS queries for specified domain name to resolvers on y
 
 When you have a forwarding rule to forward DNS queries for a domain to your network and you want Resolver to process queries for a subdomain of that domain, specify SYSTEM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#rule_type Route53ResolverResolverRule#rule_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#rule_type Route53ResolverResolverRule#rule_type}
 
 ---
 
@@ -1081,7 +1081,7 @@ public string DelegationRecord { get; set; }
 
 The name server domain for queries to be delegated to if a query matches the delegation record.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#delegation_record Route53ResolverResolverRule#delegation_record}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#delegation_record Route53ResolverResolverRule#delegation_record}
 
 ---
 
@@ -1095,7 +1095,7 @@ public string DomainName { get; set; }
 
 DNS queries for this domain name are forwarded to the IP addresses that are specified in TargetIps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#domain_name Route53ResolverResolverRule#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#domain_name Route53ResolverResolverRule#domain_name}
 
 ---
 
@@ -1109,7 +1109,7 @@ public string Name { get; set; }
 
 The name for the Resolver rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#name Route53ResolverResolverRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#name Route53ResolverResolverRule#name}
 
 ---
 
@@ -1123,7 +1123,7 @@ public string ResolverEndpointId { get; set; }
 
 The ID of the endpoint that the rule is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#resolver_endpoint_id Route53ResolverResolverRule#resolver_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#resolver_endpoint_id Route53ResolverResolverRule#resolver_endpoint_id}
 
 ---
 
@@ -1137,7 +1137,7 @@ public IResolvable|Route53ResolverResolverRuleTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#tags Route53ResolverResolverRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#tags Route53ResolverResolverRule#tags}
 
 ---
 
@@ -1153,7 +1153,7 @@ An array that contains the IP addresses and ports that an outbound endpoint forw
 
 Typically, these are the IP addresses of DNS resolvers on your network. Specify IPv4 addresses. IPv6 is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#target_ips Route53ResolverResolverRule#target_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#target_ips Route53ResolverResolverRule#target_ips}
 
 ---
 
@@ -1191,7 +1191,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#key Route53ResolverResolverRule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#key Route53ResolverResolverRule#key}
 
 ---
 
@@ -1207,7 +1207,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#value Route53ResolverResolverRule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#value Route53ResolverResolverRule#value}
 
 ---
 
@@ -1249,7 +1249,7 @@ public string Ip { get; set; }
 
 One IP address that you want to forward DNS queries to. You can specify only IPv4 addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#ip Route53ResolverResolverRule#ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#ip Route53ResolverResolverRule#ip}
 
 ---
 
@@ -1263,7 +1263,7 @@ public string Ipv6 { get; set; }
 
 One IPv6 address that you want to forward DNS queries to. You can specify only IPv6 addresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#ipv_6 Route53ResolverResolverRule#ipv_6}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#ipv_6 Route53ResolverResolverRule#ipv_6}
 
 ---
 
@@ -1277,7 +1277,7 @@ public string Port { get; set; }
 
 The port at Ip that you want to forward DNS queries to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#port Route53ResolverResolverRule#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#port Route53ResolverResolverRule#port}
 
 ---
 
@@ -1291,7 +1291,7 @@ public string Protocol { get; set; }
 
 The protocol that you want to use to forward DNS queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#protocol Route53ResolverResolverRule#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#protocol Route53ResolverResolverRule#protocol}
 
 ---
 
@@ -1305,7 +1305,7 @@ public string ServerNameIndication { get; set; }
 
 The SNI of the target name servers for DoH/DoH-FIPS outbound endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_rule#server_name_indication Route53ResolverResolverRule#server_name_indication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_rule#server_name_indication Route53ResolverResolverRule#server_name_indication}
 
 ---
 

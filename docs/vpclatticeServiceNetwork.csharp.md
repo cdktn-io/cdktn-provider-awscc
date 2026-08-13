@@ -4,7 +4,7 @@
 
 ### VpclatticeServiceNetwork <a name="VpclatticeServiceNetwork" id="@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network awscc_vpclattice_service_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network awscc_vpclattice_service_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetwork.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the VpclatticeServiceNetwork t
 
 The id of the existing VpclatticeServiceNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -914,10 +914,10 @@ new VpclatticeServiceNetworkConfig {
 | <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.authType">AuthType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#auth_type VpclatticeServiceNetwork#auth_type}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#name VpclatticeServiceNetwork#name}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.sharingConfig">SharingConfig</a></code> | <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkSharingConfig">VpclatticeServiceNetworkSharingConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#sharing_config VpclatticeServiceNetwork#sharing_config}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags">VpclatticeServiceNetworkTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#tags VpclatticeServiceNetwork#tags}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.authType">AuthType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#auth_type VpclatticeServiceNetwork#auth_type}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#name VpclatticeServiceNetwork#name}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.sharingConfig">SharingConfig</a></code> | <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkSharingConfig">VpclatticeServiceNetworkSharingConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#sharing_config VpclatticeServiceNetwork#sharing_config}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags">VpclatticeServiceNetworkTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#tags VpclatticeServiceNetwork#tags}. |
 
 ---
 
@@ -999,7 +999,7 @@ public string AuthType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#auth_type VpclatticeServiceNetwork#auth_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#auth_type VpclatticeServiceNetwork#auth_type}.
 
 ---
 
@@ -1011,7 +1011,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#name VpclatticeServiceNetwork#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#name VpclatticeServiceNetwork#name}.
 
 ---
 
@@ -1023,7 +1023,7 @@ public VpclatticeServiceNetworkSharingConfig SharingConfig { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkSharingConfig">VpclatticeServiceNetworkSharingConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#sharing_config VpclatticeServiceNetwork#sharing_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#sharing_config VpclatticeServiceNetwork#sharing_config}.
 
 ---
 
@@ -1035,7 +1035,7 @@ public IResolvable|VpclatticeServiceNetworkTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags">VpclatticeServiceNetworkTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#tags VpclatticeServiceNetwork#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#tags VpclatticeServiceNetwork#tags}.
 
 ---
 
@@ -1055,7 +1055,7 @@ new VpclatticeServiceNetworkSharingConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkSharingConfig.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#enabled VpclatticeServiceNetwork#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkSharingConfig.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#enabled VpclatticeServiceNetwork#enabled}. |
 
 ---
 
@@ -1067,7 +1067,7 @@ public bool|IResolvable Enabled { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#enabled VpclatticeServiceNetwork#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#enabled VpclatticeServiceNetwork#enabled}.
 
 ---
 
@@ -1088,8 +1088,8 @@ new VpclatticeServiceNetworkTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#key VpclatticeServiceNetwork#key}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#value VpclatticeServiceNetwork#value}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#key VpclatticeServiceNetwork#key}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeServiceNetwork.VpclatticeServiceNetworkTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#value VpclatticeServiceNetwork#value}. |
 
 ---
 
@@ -1101,7 +1101,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#key VpclatticeServiceNetwork#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#key VpclatticeServiceNetwork#key}.
 
 ---
 
@@ -1113,7 +1113,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network#value VpclatticeServiceNetwork#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#value VpclatticeServiceNetwork#value}.
 
 ---
 

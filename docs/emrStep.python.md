@@ -4,7 +4,7 @@
 
 ### EmrStep <a name="EmrStep" id="@cdktn/provider-awscc.emrStep.EmrStep"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step awscc_emr_step}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step awscc_emr_step}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStep.EmrStep.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 This specifies what action to take when the cluster step fails. Possible values are CANCEL_AND_WAIT and CONTINUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
 
 ---
 
@@ -128,7 +128,7 @@ The HadoopJarStepConfig property type specifies a job flow step consisting of a 
 
 The main function submits a job for the cluster to execute as a step on the master node, and then waits for the job to finish or fail before executing subsequent steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A string that uniquely identifies the cluster (job flow).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the cluster step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#name EmrStep#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#name EmrStep#name}
 
 ---
 
@@ -160,7 +160,7 @@ The KMS key ARN to encrypt the logs published to the given Amazon S3 destination
 
 When omitted, EMR falls back to cluster-level logging behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon S3 destination URI for log publishing. When omitted, EMR falls back to cluster-level logging behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
 
 ---
 
@@ -571,7 +571,7 @@ def put_hadoop_jar_step(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#jar EmrStep#jar}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#jar EmrStep#jar}.
 
 ---
 
@@ -579,7 +579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#args EmrStep#args}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#args EmrStep#args}.
 
 ---
 
@@ -587,7 +587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#main_class EmrStep#main_class}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#main_class EmrStep#main_class}.
 
 ---
 
@@ -595,7 +595,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties">EmrStepHadoopJarStepStepProperties</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
 
 ---
 
@@ -725,7 +725,7 @@ The construct id used in the generated config for the EmrStep to import.
 
 The id of the existing EmrStep that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1198,7 +1198,7 @@ action_on_failure: str
 
 This specifies what action to take when the cluster step fails. Possible values are CANCEL_AND_WAIT and CONTINUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#action_on_failure EmrStep#action_on_failure}
 
 ---
 
@@ -1214,7 +1214,7 @@ The HadoopJarStepConfig property type specifies a job flow step consisting of a 
 
 The main function submits a job for the cluster to execute as a step on the master node, and then waits for the job to finish or fail before executing subsequent steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#hadoop_jar_step EmrStep#hadoop_jar_step}
 
 ---
 
@@ -1228,7 +1228,7 @@ job_flow_id: str
 
 A string that uniquely identifies the cluster (job flow).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#job_flow_id EmrStep#job_flow_id}
 
 ---
 
@@ -1242,7 +1242,7 @@ name: str
 
 The name of the cluster step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#name EmrStep#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#name EmrStep#name}
 
 ---
 
@@ -1258,7 +1258,7 @@ The KMS key ARN to encrypt the logs published to the given Amazon S3 destination
 
 When omitted, EMR falls back to cluster-level logging behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#encryption_key_arn EmrStep#encryption_key_arn}
 
 ---
 
@@ -1272,7 +1272,7 @@ log_uri: str
 
 The Amazon S3 destination URI for log publishing. When omitted, EMR falls back to cluster-level logging behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#log_uri EmrStep#log_uri}
 
 ---
 
@@ -1295,10 +1295,10 @@ emrStep.EmrStepHadoopJarStep(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.jar">jar</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#jar EmrStep#jar}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.args">args</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#args EmrStep#args}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.mainClass">main_class</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#main_class EmrStep#main_class}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.stepProperties">step_properties</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties">EmrStepHadoopJarStepStepProperties</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#step_properties EmrStep#step_properties}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.jar">jar</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#jar EmrStep#jar}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.args">args</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#args EmrStep#args}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.mainClass">main_class</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#main_class EmrStep#main_class}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStep.property.stepProperties">step_properties</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties">EmrStepHadoopJarStepStepProperties</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#step_properties EmrStep#step_properties}. |
 
 ---
 
@@ -1310,7 +1310,7 @@ jar: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#jar EmrStep#jar}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#jar EmrStep#jar}.
 
 ---
 
@@ -1322,7 +1322,7 @@ args: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#args EmrStep#args}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#args EmrStep#args}.
 
 ---
 
@@ -1334,7 +1334,7 @@ main_class: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#main_class EmrStep#main_class}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#main_class EmrStep#main_class}.
 
 ---
 
@@ -1346,7 +1346,7 @@ step_properties: IResolvable | typing.List[EmrStepHadoopJarStepStepProperties]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties">EmrStepHadoopJarStepStepProperties</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
 
 ---
 
@@ -1367,8 +1367,8 @@ emrStep.EmrStepHadoopJarStepStepProperties(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#key EmrStep#key}. |
-| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#value EmrStep#value}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#key EmrStep#key}. |
+| <code><a href="#@cdktn/provider-awscc.emrStep.EmrStepHadoopJarStepStepProperties.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#value EmrStep#value}. |
 
 ---
 
@@ -1380,7 +1380,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#key EmrStep#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#key EmrStep#key}.
 
 ---
 
@@ -1392,7 +1392,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#value EmrStep#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#value EmrStep#value}.
 
 ---
 

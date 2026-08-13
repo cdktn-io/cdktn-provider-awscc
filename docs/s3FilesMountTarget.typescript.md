@@ -4,7 +4,7 @@
 
 ### S3FilesMountTarget <a name="S3FilesMountTarget" id="@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target awscc_s3files_mount_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target awscc_s3files_mount_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTarget.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the S3FilesMountTarget to impo
 
 The id of the existing S3FilesMountTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -953,12 +953,12 @@ const s3FilesMountTargetConfig: s3FilesMountTarget.S3FilesMountTargetConfig = { 
 | <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.fileSystemId">fileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#file_system_id S3FilesMountTarget#file_system_id}. |
-| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.subnetId">subnetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#subnet_id S3FilesMountTarget#subnet_id}. |
-| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.ipAddressType">ipAddressType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#ip_address_type S3FilesMountTarget#ip_address_type}. |
-| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.ipv4Address">ipv4Address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#ipv_4_address S3FilesMountTarget#ipv_4_address}. |
-| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.ipv6Address">ipv6Address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#ipv_6_address S3FilesMountTarget#ipv_6_address}. |
-| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.securityGroups">securityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#security_groups S3FilesMountTarget#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.fileSystemId">fileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#file_system_id S3FilesMountTarget#file_system_id}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.subnetId">subnetId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#subnet_id S3FilesMountTarget#subnet_id}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.ipAddressType">ipAddressType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#ip_address_type S3FilesMountTarget#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.ipv4Address">ipv4Address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#ipv_4_address S3FilesMountTarget#ipv_4_address}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.ipv6Address">ipv6Address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#ipv_6_address S3FilesMountTarget#ipv_6_address}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesMountTarget.S3FilesMountTargetConfig.property.securityGroups">securityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#security_groups S3FilesMountTarget#security_groups}. |
 
 ---
 
@@ -1040,7 +1040,7 @@ public readonly fileSystemId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#file_system_id S3FilesMountTarget#file_system_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#file_system_id S3FilesMountTarget#file_system_id}.
 
 ---
 
@@ -1052,7 +1052,7 @@ public readonly subnetId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#subnet_id S3FilesMountTarget#subnet_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#subnet_id S3FilesMountTarget#subnet_id}.
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly ipAddressType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#ip_address_type S3FilesMountTarget#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#ip_address_type S3FilesMountTarget#ip_address_type}.
 
 ---
 
@@ -1076,7 +1076,7 @@ public readonly ipv4Address: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#ipv_4_address S3FilesMountTarget#ipv_4_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#ipv_4_address S3FilesMountTarget#ipv_4_address}.
 
 ---
 
@@ -1088,7 +1088,7 @@ public readonly ipv6Address: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#ipv_6_address S3FilesMountTarget#ipv_6_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#ipv_6_address S3FilesMountTarget#ipv_6_address}.
 
 ---
 
@@ -1100,7 +1100,7 @@ public readonly securityGroups: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_mount_target#security_groups S3FilesMountTarget#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_mount_target#security_groups S3FilesMountTarget#security_groups}.
 
 ---
 

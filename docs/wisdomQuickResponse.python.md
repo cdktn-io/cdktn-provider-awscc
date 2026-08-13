@@ -4,7 +4,7 @@
 
 ### WisdomQuickResponse <a name="WisdomQuickResponse" id="@cdktn/provider-awscc.wisdomQuickResponse.WisdomQuickResponse"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response awscc_wisdom_quick_response}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response awscc_wisdom_quick_response}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomQuickResponse.WisdomQuickResponse.Initializer"></a>
 
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 The container of quick response content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#knowledge_base_arn WisdomQuickResponse#knowledge_base_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#knowledge_base_arn WisdomQuickResponse#knowledge_base_arn}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the quick response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#name WisdomQuickResponse#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#name WisdomQuickResponse#name}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Connect contact channels this quick response applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#channels WisdomQuickResponse#channels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#channels WisdomQuickResponse#channels}
 
 ---
 
@@ -169,7 +169,7 @@ The media type of the quick response content.
 * Use application/x.quickresponse;format=plain for quick response written in plain text.
 * Use application/x.quickresponse;format=markdown for quick response written in richtext.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#content_type WisdomQuickResponse#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#content_type WisdomQuickResponse#content_type}
 
 ---
 
@@ -179,7 +179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the quick response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#description WisdomQuickResponse#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#description WisdomQuickResponse#description}
 
 ---
 
@@ -189,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration information of the user groups that the quick response is accessible to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#grouping_configuration WisdomQuickResponse#grouping_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#grouping_configuration WisdomQuickResponse#grouping_configuration}
 
 ---
 
@@ -199,7 +199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the quick response is active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#is_active WisdomQuickResponse#is_active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#is_active WisdomQuickResponse#is_active}
 
 ---
 
@@ -211,7 +211,7 @@ The language code value for the language in which the quick response is written.
 
 The supported language codes include de_DE, en_US, es_ES, fr_FR, id_ID, it_IT, ja_JP, ko_KR, pt_BR, zh_CN, zh_TW
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#language WisdomQuickResponse#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#language WisdomQuickResponse#language}
 
 ---
 
@@ -221,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The shortcut key of the quick response. The value should be unique across the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#shortcut_key WisdomQuickResponse#shortcut_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#shortcut_key WisdomQuickResponse#shortcut_key}
 
 ---
 
@@ -231,7 +231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#tags WisdomQuickResponse#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#tags WisdomQuickResponse#tags}
 
 ---
 
@@ -639,7 +639,7 @@ def put_content(
 
 The content of the quick response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
 
 ---
 
@@ -658,7 +658,7 @@ def put_grouping_configuration(
 
 The criteria used for grouping Amazon Q in Connect users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#criteria WisdomQuickResponse#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#criteria WisdomQuickResponse#criteria}
 
 ---
 
@@ -668,7 +668,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of values that define different groups of Amazon Q in Connect users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#values WisdomQuickResponse#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#values WisdomQuickResponse#values}
 
 ---
 
@@ -848,7 +848,7 @@ The construct id used in the generated config for the WisdomQuickResponse to imp
 
 The id of the existing WisdomQuickResponse that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1474,7 +1474,7 @@ content: WisdomQuickResponseContent
 
 The container of quick response content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
 
 ---
 
@@ -1488,7 +1488,7 @@ knowledge_base_arn: str
 
 The Amazon Resource Name (ARN) of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#knowledge_base_arn WisdomQuickResponse#knowledge_base_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#knowledge_base_arn WisdomQuickResponse#knowledge_base_arn}
 
 ---
 
@@ -1502,7 +1502,7 @@ name: str
 
 The name of the quick response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#name WisdomQuickResponse#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#name WisdomQuickResponse#name}
 
 ---
 
@@ -1516,7 +1516,7 @@ channels: typing.List[str]
 
 The Amazon Connect contact channels this quick response applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#channels WisdomQuickResponse#channels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#channels WisdomQuickResponse#channels}
 
 ---
 
@@ -1533,7 +1533,7 @@ The media type of the quick response content.
 * Use application/x.quickresponse;format=plain for quick response written in plain text.
 * Use application/x.quickresponse;format=markdown for quick response written in richtext.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#content_type WisdomQuickResponse#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#content_type WisdomQuickResponse#content_type}
 
 ---
 
@@ -1547,7 +1547,7 @@ description: str
 
 The description of the quick response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#description WisdomQuickResponse#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#description WisdomQuickResponse#description}
 
 ---
 
@@ -1561,7 +1561,7 @@ grouping_configuration: WisdomQuickResponseGroupingConfiguration
 
 The configuration information of the user groups that the quick response is accessible to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#grouping_configuration WisdomQuickResponse#grouping_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#grouping_configuration WisdomQuickResponse#grouping_configuration}
 
 ---
 
@@ -1575,7 +1575,7 @@ is_active: bool | IResolvable
 
 Whether the quick response is active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#is_active WisdomQuickResponse#is_active}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#is_active WisdomQuickResponse#is_active}
 
 ---
 
@@ -1591,7 +1591,7 @@ The language code value for the language in which the quick response is written.
 
 The supported language codes include de_DE, en_US, es_ES, fr_FR, id_ID, it_IT, ja_JP, ko_KR, pt_BR, zh_CN, zh_TW
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#language WisdomQuickResponse#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#language WisdomQuickResponse#language}
 
 ---
 
@@ -1605,7 +1605,7 @@ shortcut_key: str
 
 The shortcut key of the quick response. The value should be unique across the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#shortcut_key WisdomQuickResponse#shortcut_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#shortcut_key WisdomQuickResponse#shortcut_key}
 
 ---
 
@@ -1619,7 +1619,7 @@ tags: IResolvable | typing.List[WisdomQuickResponseTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#tags WisdomQuickResponse#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#tags WisdomQuickResponse#tags}
 
 ---
 
@@ -1653,7 +1653,7 @@ content: str
 
 The content of the quick response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
 
 ---
 
@@ -1722,7 +1722,7 @@ criteria: str
 
 The criteria used for grouping Amazon Q in Connect users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#criteria WisdomQuickResponse#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#criteria WisdomQuickResponse#criteria}
 
 ---
 
@@ -1736,7 +1736,7 @@ values: typing.List[str]
 
 The list of values that define different groups of Amazon Q in Connect users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#values WisdomQuickResponse#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#values WisdomQuickResponse#values}
 
 ---
 
@@ -1774,7 +1774,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#key WisdomQuickResponse#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#key WisdomQuickResponse#key}
 
 ---
 
@@ -1790,7 +1790,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_quick_response#value WisdomQuickResponse#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_quick_response#value WisdomQuickResponse#value}
 
 ---
 

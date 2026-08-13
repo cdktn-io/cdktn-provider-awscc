@@ -4,7 +4,7 @@
 
 ### TransferAgreement <a name="TransferAgreement" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement awscc_transfer_agreement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement awscc_transfer_agreement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferAgreement.TransferAgreement.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the TransferAgreement to impor
 
 The id of the existing TransferAgreement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1149,7 +1149,7 @@ public readonly accessRole: string;
 
 Specifies the access role for the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#access_role TransferAgreement#access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#access_role TransferAgreement#access_role}
 
 ---
 
@@ -1163,7 +1163,7 @@ public readonly localProfileId: string;
 
 A unique identifier for the local profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#local_profile_id TransferAgreement#local_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#local_profile_id TransferAgreement#local_profile_id}
 
 ---
 
@@ -1177,7 +1177,7 @@ public readonly partnerProfileId: string;
 
 A unique identifier for the partner profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#partner_profile_id TransferAgreement#partner_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#partner_profile_id TransferAgreement#partner_profile_id}
 
 ---
 
@@ -1191,7 +1191,7 @@ public readonly serverId: string;
 
 A unique identifier for the server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#server_id TransferAgreement#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#server_id TransferAgreement#server_id}
 
 ---
 
@@ -1205,7 +1205,7 @@ public readonly baseDirectory: string;
 
 Specifies the base directory for the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#base_directory TransferAgreement#base_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#base_directory TransferAgreement#base_directory}
 
 ---
 
@@ -1219,7 +1219,7 @@ public readonly customDirectories: TransferAgreementCustomDirectories;
 
 Specifies a separate directory for each type of file to store for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#custom_directories TransferAgreement#custom_directories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#custom_directories TransferAgreement#custom_directories}
 
 ---
 
@@ -1233,7 +1233,7 @@ public readonly description: string;
 
 A textual description for the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#description TransferAgreement#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#description TransferAgreement#description}
 
 ---
 
@@ -1247,7 +1247,7 @@ public readonly enforceMessageSigning: string;
 
 Specifies whether to enforce an AS2 message is signed for this agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#enforce_message_signing TransferAgreement#enforce_message_signing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#enforce_message_signing TransferAgreement#enforce_message_signing}
 
 ---
 
@@ -1261,7 +1261,7 @@ public readonly preserveFilename: string;
 
 Specifies whether to preserve the filename received for this agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#preserve_filename TransferAgreement#preserve_filename}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#preserve_filename TransferAgreement#preserve_filename}
 
 ---
 
@@ -1275,7 +1275,7 @@ public readonly status: string;
 
 Specifies the status of the agreement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#status TransferAgreement#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#status TransferAgreement#status}
 
 ---
 
@@ -1291,7 +1291,7 @@ Key-value pairs that can be used to group and search for agreements.
 
 Tags are metadata attached to agreements for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#tags TransferAgreement#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#tags TransferAgreement#tags}
 
 ---
 
@@ -1327,7 +1327,7 @@ public readonly failedFilesDirectory: string;
 
 Specifies a location to store the failed files for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#failed_files_directory TransferAgreement#failed_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#failed_files_directory TransferAgreement#failed_files_directory}
 
 ---
 
@@ -1341,7 +1341,7 @@ public readonly mdnFilesDirectory: string;
 
 Specifies a location to store the MDN file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#mdn_files_directory TransferAgreement#mdn_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#mdn_files_directory TransferAgreement#mdn_files_directory}
 
 ---
 
@@ -1355,7 +1355,7 @@ public readonly payloadFilesDirectory: string;
 
 Specifies a location to store the payload file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#payload_files_directory TransferAgreement#payload_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#payload_files_directory TransferAgreement#payload_files_directory}
 
 ---
 
@@ -1369,7 +1369,7 @@ public readonly statusFilesDirectory: string;
 
 Specifies a location to store the status file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#status_files_directory TransferAgreement#status_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#status_files_directory TransferAgreement#status_files_directory}
 
 ---
 
@@ -1383,7 +1383,7 @@ public readonly temporaryFilesDirectory: string;
 
 Specifies a location to store the temporary processing file for an AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#temporary_files_directory TransferAgreement#temporary_files_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#temporary_files_directory TransferAgreement#temporary_files_directory}
 
 ---
 
@@ -1416,7 +1416,7 @@ public readonly key: string;
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#key TransferAgreement#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#key TransferAgreement#key}
 
 ---
 
@@ -1430,7 +1430,7 @@ public readonly value: string;
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_agreement#value TransferAgreement#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_agreement#value TransferAgreement#value}
 
 ---
 

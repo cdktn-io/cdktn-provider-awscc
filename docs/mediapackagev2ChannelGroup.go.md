@@ -4,7 +4,7 @@
 
 ### Mediapackagev2ChannelGroup <a name="Mediapackagev2ChannelGroup" id="@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group awscc_mediapackagev2_channel_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group awscc_mediapackagev2_channel_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Mediapackagev2ChannelGroup
 
 The id of the existing Mediapackagev2ChannelGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -864,9 +864,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagev2channelg
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.channelGroupName">ChannelGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.channelGroupName">ChannelGroupName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.description">Description</a></code> | <code>*string</code> | <p>Enter any descriptive text that helps you to identify the channel group.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}. |
 
 ---
 
@@ -948,7 +948,7 @@ ChannelGroupName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}.
 
 ---
 
@@ -962,7 +962,7 @@ Description *string
 
 <p>Enter any descriptive text that helps you to identify the channel group.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#description Mediapackagev2ChannelGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#description Mediapackagev2ChannelGroup#description}
 
 ---
 
@@ -974,7 +974,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}.
 
 ---
 
@@ -995,8 +995,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagev2channelg
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}. |
 
 ---
 
@@ -1008,7 +1008,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}.
 
 ---
 
@@ -1020,7 +1020,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}.
 
 ---
 

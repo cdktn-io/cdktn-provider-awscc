@@ -4,7 +4,7 @@
 
 ### LambdaVersion <a name="LambdaVersion" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version awscc_lambda_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version awscc_lambda_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaVersion.LambdaVersion.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#function_name LambdaVersion#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#function_name LambdaVersion#function_name}
 
 ---
 
@@ -128,7 +128,7 @@ Only publish a version if the hash value matches the value that's specified.
 
 Use this option to avoid publishing a version if the function code has changed since you last updated it. Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#code_sha_256 LambdaVersion#code_sha_256}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#code_sha_256 LambdaVersion#code_sha_256}
 
 ---
 
@@ -140,7 +140,7 @@ A description for the version to override the description in the function config
 
 Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#description LambdaVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#description LambdaVersion#description}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The scaling configuration to apply to the function, including minimum and maximum execution environment limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#function_scaling_config LambdaVersion#function_scaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#function_scaling_config LambdaVersion#function_scaling_config}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies a provisioned concurrency configuration for a function's version. Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#provisioned_concurrency_config LambdaVersion#provisioned_concurrency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#provisioned_concurrency_config LambdaVersion#provisioned_concurrency_config}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the runtime management configuration of a function. Displays runtimeVersionArn only for Manual.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#runtime_policy LambdaVersion#runtime_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#runtime_policy LambdaVersion#runtime_policy}
 
 ---
 
@@ -576,7 +576,7 @@ def put_function_scaling_config(
 
 The maximum number of execution environments that can be provisioned for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#max_execution_environments LambdaVersion#max_execution_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#max_execution_environments LambdaVersion#max_execution_environments}
 
 ---
 
@@ -586,7 +586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The minimum number of execution environments to maintain for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#min_execution_environments LambdaVersion#min_execution_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#min_execution_environments LambdaVersion#min_execution_environments}
 
 ---
 
@@ -604,7 +604,7 @@ def put_provisioned_concurrency_config(
 
 The amount of provisioned concurrency to allocate for the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#provisioned_concurrent_executions LambdaVersion#provisioned_concurrent_executions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#provisioned_concurrent_executions LambdaVersion#provisioned_concurrent_executions}
 
 ---
 
@@ -625,7 +625,7 @@ The ARN of the runtime the function is configured to use.
 
 If the runtime update mode is manual, the ARN is returned, otherwise null is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#runtime_version_arn LambdaVersion#runtime_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#runtime_version_arn LambdaVersion#runtime_version_arn}
 
 ---
 
@@ -635,7 +635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The runtime update mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#update_runtime_on LambdaVersion#update_runtime_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#update_runtime_on LambdaVersion#update_runtime_on}
 
 ---
 
@@ -783,7 +783,7 @@ The construct id used in the generated config for the LambdaVersion to import.
 
 The id of the existing LambdaVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1267,7 +1267,7 @@ function_name: str
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#function_name LambdaVersion#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#function_name LambdaVersion#function_name}
 
 ---
 
@@ -1283,7 +1283,7 @@ Only publish a version if the hash value matches the value that's specified.
 
 Use this option to avoid publishing a version if the function code has changed since you last updated it. Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#code_sha_256 LambdaVersion#code_sha_256}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#code_sha_256 LambdaVersion#code_sha_256}
 
 ---
 
@@ -1299,7 +1299,7 @@ A description for the version to override the description in the function config
 
 Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#description LambdaVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#description LambdaVersion#description}
 
 ---
 
@@ -1313,7 +1313,7 @@ function_scaling_config: LambdaVersionFunctionScalingConfig
 
 The scaling configuration to apply to the function, including minimum and maximum execution environment limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#function_scaling_config LambdaVersion#function_scaling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#function_scaling_config LambdaVersion#function_scaling_config}
 
 ---
 
@@ -1327,7 +1327,7 @@ provisioned_concurrency_config: LambdaVersionProvisionedConcurrencyConfig
 
 Specifies a provisioned concurrency configuration for a function's version. Updates are not supported for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#provisioned_concurrency_config LambdaVersion#provisioned_concurrency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#provisioned_concurrency_config LambdaVersion#provisioned_concurrency_config}
 
 ---
 
@@ -1341,7 +1341,7 @@ runtime_policy: LambdaVersionRuntimePolicy
 
 Specifies the runtime management configuration of a function. Displays runtimeVersionArn only for Manual.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#runtime_policy LambdaVersion#runtime_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#runtime_policy LambdaVersion#runtime_policy}
 
 ---
 
@@ -1377,7 +1377,7 @@ max_execution_environments: typing.Union[int, float]
 
 The maximum number of execution environments that can be provisioned for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#max_execution_environments LambdaVersion#max_execution_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#max_execution_environments LambdaVersion#max_execution_environments}
 
 ---
 
@@ -1391,7 +1391,7 @@ min_execution_environments: typing.Union[int, float]
 
 The minimum number of execution environments to maintain for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#min_execution_environments LambdaVersion#min_execution_environments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#min_execution_environments LambdaVersion#min_execution_environments}
 
 ---
 
@@ -1425,7 +1425,7 @@ provisioned_concurrent_executions: typing.Union[int, float]
 
 The amount of provisioned concurrency to allocate for the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#provisioned_concurrent_executions LambdaVersion#provisioned_concurrent_executions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#provisioned_concurrent_executions LambdaVersion#provisioned_concurrent_executions}
 
 ---
 
@@ -1463,7 +1463,7 @@ The ARN of the runtime the function is configured to use.
 
 If the runtime update mode is manual, the ARN is returned, otherwise null is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#runtime_version_arn LambdaVersion#runtime_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#runtime_version_arn LambdaVersion#runtime_version_arn}
 
 ---
 
@@ -1477,7 +1477,7 @@ update_runtime_on: str
 
 The runtime update mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_version#update_runtime_on LambdaVersion#update_runtime_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_version#update_runtime_on LambdaVersion#update_runtime_on}
 
 ---
 

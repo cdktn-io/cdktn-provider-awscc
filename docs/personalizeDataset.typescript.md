@@ -4,7 +4,7 @@
 
 ### PersonalizeDataset <a name="PersonalizeDataset" id="@cdktn/provider-awscc.personalizeDataset.PersonalizeDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset awscc_personalize_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset awscc_personalize_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeDataset.PersonalizeDataset.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the PersonalizeDataset to impo
 
 The id of the existing PersonalizeDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ public readonly datasetGroupArn: string;
 
 The Amazon Resource Name (ARN) of the dataset group to add the dataset to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#dataset_group_arn PersonalizeDataset#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#dataset_group_arn PersonalizeDataset#dataset_group_arn}
 
 ---
 
@@ -959,7 +959,7 @@ public readonly datasetType: string;
 
 The type of dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#dataset_type PersonalizeDataset#dataset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#dataset_type PersonalizeDataset#dataset_type}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly name: string;
 
 The name for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#name PersonalizeDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#name PersonalizeDataset#name}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly schemaArn: string;
 
 The ARN of the schema to associate with the dataset. The schema defines the dataset fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#schema_arn PersonalizeDataset#schema_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#schema_arn PersonalizeDataset#schema_arn}
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly datasetImportJob: PersonalizeDatasetDatasetImportJob;
 
 Initial DatasetImportJob for the created dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#dataset_import_job PersonalizeDataset#dataset_import_job}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#dataset_import_job PersonalizeDataset#dataset_import_job}
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly datasetArn: string;
 
 The ARN of the dataset that receives the imported data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#dataset_arn PersonalizeDataset#dataset_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#dataset_arn PersonalizeDataset#dataset_arn}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly datasetImportJobArn: string;
 
 The ARN of the dataset import job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#dataset_import_job_arn PersonalizeDataset#dataset_import_job_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#dataset_import_job_arn PersonalizeDataset#dataset_import_job_arn}
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly dataSource: PersonalizeDatasetDatasetImportJobDataSource;
 
 The Amazon S3 bucket that contains the training data to import.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#data_source PersonalizeDataset#data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#data_source PersonalizeDataset#data_source}
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly jobName: string;
 
 The name for the dataset import job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#job_name PersonalizeDataset#job_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#job_name PersonalizeDataset#job_name}
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly roleArn: string;
 
 The ARN of the IAM role that has permissions to read from the Amazon S3 data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#role_arn PersonalizeDataset#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#role_arn PersonalizeDataset#role_arn}
 
 ---
 
@@ -1125,7 +1125,7 @@ public readonly dataLocation: string;
 
 The path to the Amazon S3 bucket where the data that you want to upload to your dataset is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset#data_location PersonalizeDataset#data_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset#data_location PersonalizeDataset#data_location}
 
 ---
 

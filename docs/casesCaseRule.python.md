@@ -4,7 +4,7 @@
 
 ### CasesCaseRule <a name="CasesCaseRule" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule awscc_cases_case_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule awscc_cases_case_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesCaseRule.CasesCaseRule.Initializer"></a>
 
@@ -116,7 +116,7 @@ A descriptive name for the case rule.
 
 Must be unique within the domain and should clearly indicate the rule's purpose (e.g., 'Priority Field Required for Urgent Cases').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
 
 ---
 
@@ -128,7 +128,7 @@ Defines the rule behavior and conditions.
 
 Specifies the rule type and the conditions under which it applies. In the Amazon Connect admin website, this corresponds to case field conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
 
 ---
 
@@ -140,7 +140,7 @@ A description explaining the purpose and behavior of this case rule.
 
 Helps administrators understand when and why this rule applies to case fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags that you attach to this case rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
 
 ---
 
@@ -563,7 +563,7 @@ def put_rule(
 
 Hidden rule type, used to indicate whether a field is hidden.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#hidden CasesCaseRule#hidden}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#hidden CasesCaseRule#hidden}
 
 ---
 
@@ -573,7 +573,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A required rule type, used to indicate whether a field is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#required CasesCaseRule#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#required CasesCaseRule#required}
 
 ---
 
@@ -723,7 +723,7 @@ The construct id used in the generated config for the CasesCaseRule to import.
 
 The id of the existing CasesCaseRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1207,7 +1207,7 @@ A descriptive name for the case rule.
 
 Must be unique within the domain and should clearly indicate the rule's purpose (e.g., 'Priority Field Required for Urgent Cases').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
 
 ---
 
@@ -1223,7 +1223,7 @@ Defines the rule behavior and conditions.
 
 Specifies the rule type and the conditions under which it applies. In the Amazon Connect admin website, this corresponds to case field conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
 
 ---
 
@@ -1239,7 +1239,7 @@ A description explaining the purpose and behavior of this case rule.
 
 Helps administrators understand when and why this rule applies to case fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
 
 ---
 
@@ -1253,7 +1253,7 @@ domain_id: str
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
 
 ---
 
@@ -1267,7 +1267,7 @@ tags: IResolvable | typing.List[CasesCaseRuleTags]
 
 The tags that you attach to this case rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
 
 ---
 
@@ -1303,7 +1303,7 @@ hidden: CasesCaseRuleRuleHidden
 
 Hidden rule type, used to indicate whether a field is hidden.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#hidden CasesCaseRule#hidden}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#hidden CasesCaseRule#hidden}
 
 ---
 
@@ -1317,7 +1317,7 @@ required: CasesCaseRuleRuleRequired
 
 A required rule type, used to indicate whether a field is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#required CasesCaseRule#required}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#required CasesCaseRule#required}
 
 ---
 
@@ -1355,7 +1355,7 @@ List of conditions for the hidden rule;
 
 the first condition to evaluate to true dictates the value of the rule
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
 
 ---
 
@@ -1369,7 +1369,7 @@ default_value: bool | IResolvable
 
 The value of the rule (i.e. whether the field is hidden) should none of the conditions evaluate to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
 
 ---
 
@@ -1405,7 +1405,7 @@ equal_to: CasesCaseRuleRuleHiddenConditionsEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
 
 ---
 
@@ -1419,7 +1419,7 @@ not_equal_to: CasesCaseRuleRuleHiddenConditionsNotEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
 
 ---
 
@@ -1457,7 +1457,7 @@ operand_one: CasesCaseRuleRuleHiddenConditionsEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1471,7 +1471,7 @@ operand_two: CasesCaseRuleRuleHiddenConditionsEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1485,7 +1485,7 @@ result: bool | IResolvable
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1519,7 +1519,7 @@ field_id: str
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -1559,7 +1559,7 @@ boolean_value: bool | IResolvable
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -1573,7 +1573,7 @@ double_value: typing.Union[int, float]
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -1587,7 +1587,7 @@ empty_value: str
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -1601,7 +1601,7 @@ string_value: str
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -1639,7 +1639,7 @@ operand_one: CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1653,7 +1653,7 @@ operand_two: CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1667,7 +1667,7 @@ result: bool | IResolvable
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1701,7 +1701,7 @@ field_id: str
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -1741,7 +1741,7 @@ boolean_value: bool | IResolvable
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -1755,7 +1755,7 @@ double_value: typing.Union[int, float]
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -1769,7 +1769,7 @@ empty_value: str
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -1783,7 +1783,7 @@ string_value: str
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -1821,7 +1821,7 @@ An ordered list of boolean conditions that determine when the field should be re
 
 Conditions are evaluated in order, and the first condition that evaluates to true determines whether the field is required, overriding the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
 
 ---
 
@@ -1837,7 +1837,7 @@ The default required state for the field when none of the specified conditions a
 
 If true, the field is required by default; if false, the field is optional by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
 
 ---
 
@@ -1873,7 +1873,7 @@ equal_to: CasesCaseRuleRuleRequiredConditionsEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#equal_to CasesCaseRule#equal_to}
 
 ---
 
@@ -1887,7 +1887,7 @@ not_equal_to: CasesCaseRuleRuleRequiredConditionsNotEqualTo
 
 Boolean operands for a condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#not_equal_to CasesCaseRule#not_equal_to}
 
 ---
 
@@ -1925,7 +1925,7 @@ operand_one: CasesCaseRuleRuleRequiredConditionsEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -1939,7 +1939,7 @@ operand_two: CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -1953,7 +1953,7 @@ result: bool | IResolvable
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -1987,7 +1987,7 @@ field_id: str
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -2027,7 +2027,7 @@ boolean_value: bool | IResolvable
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -2041,7 +2041,7 @@ double_value: typing.Union[int, float]
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -2055,7 +2055,7 @@ empty_value: str
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -2069,7 +2069,7 @@ string_value: str
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -2107,7 +2107,7 @@ operand_one: CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOne
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -2121,7 +2121,7 @@ operand_two: CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwo
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -2135,7 +2135,7 @@ result: bool | IResolvable
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -2169,7 +2169,7 @@ field_id: str
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -2209,7 +2209,7 @@ boolean_value: bool | IResolvable
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -2223,7 +2223,7 @@ double_value: typing.Union[int, float]
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -2237,7 +2237,7 @@ empty_value: str
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -2251,7 +2251,7 @@ string_value: str
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -2289,7 +2289,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#key CasesCaseRule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#key CasesCaseRule#key}
 
 ---
 
@@ -2305,7 +2305,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#value CasesCaseRule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#value CasesCaseRule#value}
 
 ---
 
@@ -3251,7 +3251,7 @@ def put_operand_one(
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -3272,7 +3272,7 @@ def put_operand_two(
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -3282,7 +3282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -3292,7 +3292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -3302,7 +3302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -4546,7 +4546,7 @@ def put_operand_one(
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -4567,7 +4567,7 @@ def put_operand_two(
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -4577,7 +4577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -4587,7 +4587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -4597,7 +4597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -4999,7 +4999,7 @@ def put_equal_to(
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -5009,7 +5009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -5019,7 +5019,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -5039,7 +5039,7 @@ def put_not_equal_to(
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -5049,7 +5049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -5059,7 +5059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -5761,7 +5761,7 @@ List of conditions for the hidden rule;
 
 the first condition to evaluate to true dictates the value of the rule
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
 
 ---
 
@@ -5771,7 +5771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value of the rule (i.e. whether the field is hidden) should none of the conditions evaluate to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
 
 ---
 
@@ -5792,7 +5792,7 @@ An ordered list of boolean conditions that determine when the field should be re
 
 Conditions are evaluated in order, and the first condition that evaluates to true determines whether the field is required, overriding the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#conditions CasesCaseRule#conditions}
 
 ---
 
@@ -5804,7 +5804,7 @@ The default required state for the field when none of the specified conditions a
 
 If true, the field is required by default; if false, the field is optional by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#default_value CasesCaseRule#default_value}
 
 ---
 
@@ -6850,7 +6850,7 @@ def put_operand_one(
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -6871,7 +6871,7 @@ def put_operand_two(
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -6881,7 +6881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -6891,7 +6891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -6901,7 +6901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -8145,7 +8145,7 @@ def put_operand_one(
 
 The field ID this operand should take the value of.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 
 ---
 
@@ -8166,7 +8166,7 @@ def put_operand_two(
 
 A boolean value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#boolean_value CasesCaseRule#boolean_value}
 
 ---
 
@@ -8176,7 +8176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A numeric value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#double_value CasesCaseRule#double_value}
 
 ---
 
@@ -8186,7 +8186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An empty operand value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#empty_value CasesCaseRule#empty_value}
 
 ---
 
@@ -8196,7 +8196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A string value to compare against the field value in the condition evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#string_value CasesCaseRule#string_value}
 
 ---
 
@@ -8598,7 +8598,7 @@ def put_equal_to(
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -8608,7 +8608,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -8618,7 +8618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 
@@ -8638,7 +8638,7 @@ def put_not_equal_to(
 
 The left hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 
 ---
 
@@ -8648,7 +8648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The right hand operand in the condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 
 ---
 
@@ -8658,7 +8658,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value of the outer rule if the condition evaluates to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseAccessPolicies <a name="DataAwsccIotsitewiseAccessPolicies" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicies.DataAwsccIotsitewiseAccessPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAccessPolicies.DataAwsccIotsitewiseAccessPolicies.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseAccess
 
 The id of the existing DataAwsccIotsitewiseAccessPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_access_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_access_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

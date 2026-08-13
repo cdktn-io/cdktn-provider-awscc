@@ -4,7 +4,7 @@
 
 ### ChatbotCustomAction <a name="ChatbotCustomAction" id="@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomAction.Initializer"></a>
 
@@ -549,7 +549,7 @@ The construct id used in the generated config for the ChatbotCustomAction to imp
 
 The id of the existing ChatbotCustomAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,10 +890,10 @@ const chatbotCustomActionAttachments: chatbotCustomAction.ChatbotCustomActionAtt
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.buttonText">buttonText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#button_text ChatbotCustomAction#button_text}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.criteria">criteria</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria">ChatbotCustomActionAttachmentsCriteria</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#criteria ChatbotCustomAction#criteria}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.notificationType">notificationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#notification_type ChatbotCustomAction#notification_type}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.variables">variables</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#variables ChatbotCustomAction#variables}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.buttonText">buttonText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#button_text ChatbotCustomAction#button_text}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.criteria">criteria</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria">ChatbotCustomActionAttachmentsCriteria</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#criteria ChatbotCustomAction#criteria}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.notificationType">notificationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#notification_type ChatbotCustomAction#notification_type}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments.property.variables">variables</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#variables ChatbotCustomAction#variables}. |
 
 ---
 
@@ -905,7 +905,7 @@ public readonly buttonText: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#button_text ChatbotCustomAction#button_text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#button_text ChatbotCustomAction#button_text}.
 
 ---
 
@@ -917,7 +917,7 @@ public readonly criteria: IResolvable | ChatbotCustomActionAttachmentsCriteria[]
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria">ChatbotCustomActionAttachmentsCriteria</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#criteria ChatbotCustomAction#criteria}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#criteria ChatbotCustomAction#criteria}.
 
 ---
 
@@ -929,7 +929,7 @@ public readonly notificationType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#notification_type ChatbotCustomAction#notification_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#notification_type ChatbotCustomAction#notification_type}.
 
 ---
 
@@ -941,7 +941,7 @@ public readonly variables: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#variables ChatbotCustomAction#variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#variables ChatbotCustomAction#variables}.
 
 ---
 
@@ -959,9 +959,9 @@ const chatbotCustomActionAttachmentsCriteria: chatbotCustomAction.ChatbotCustomA
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#operator ChatbotCustomAction#operator}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria.property.variableName">variableName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#variable_name ChatbotCustomAction#variable_name}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#operator ChatbotCustomAction#operator}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachmentsCriteria.property.variableName">variableName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#variable_name ChatbotCustomAction#variable_name}. |
 
 ---
 
@@ -973,7 +973,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#operator ChatbotCustomAction#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#operator ChatbotCustomAction#operator}.
 
 ---
 
@@ -985,7 +985,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}.
 
 ---
 
@@ -997,7 +997,7 @@ public readonly variableName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#variable_name ChatbotCustomAction#variable_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#variable_name ChatbotCustomAction#variable_name}.
 
 ---
 
@@ -1022,11 +1022,11 @@ const chatbotCustomActionConfig: chatbotCustomAction.ChatbotCustomActionConfig =
 | <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.actionName">actionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#action_name ChatbotCustomAction#action_name}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.definition">definition</a></code> | <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionDefinition">ChatbotCustomActionDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#definition ChatbotCustomAction#definition}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.aliasName">aliasName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#alias_name ChatbotCustomAction#alias_name}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.attachments">attachments</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments">ChatbotCustomActionAttachments</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#attachments ChatbotCustomAction#attachments}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags">ChatbotCustomActionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#tags ChatbotCustomAction#tags}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.actionName">actionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#action_name ChatbotCustomAction#action_name}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.definition">definition</a></code> | <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionDefinition">ChatbotCustomActionDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#definition ChatbotCustomAction#definition}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.aliasName">aliasName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#alias_name ChatbotCustomAction#alias_name}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.attachments">attachments</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments">ChatbotCustomActionAttachments</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#attachments ChatbotCustomAction#attachments}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags">ChatbotCustomActionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#tags ChatbotCustomAction#tags}. |
 
 ---
 
@@ -1108,7 +1108,7 @@ public readonly actionName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#action_name ChatbotCustomAction#action_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#action_name ChatbotCustomAction#action_name}.
 
 ---
 
@@ -1120,7 +1120,7 @@ public readonly definition: ChatbotCustomActionDefinition;
 
 - *Type:* <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionDefinition">ChatbotCustomActionDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#definition ChatbotCustomAction#definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#definition ChatbotCustomAction#definition}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly aliasName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#alias_name ChatbotCustomAction#alias_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#alias_name ChatbotCustomAction#alias_name}.
 
 ---
 
@@ -1144,7 +1144,7 @@ public readonly attachments: IResolvable | ChatbotCustomActionAttachments[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionAttachments">ChatbotCustomActionAttachments</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#attachments ChatbotCustomAction#attachments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#attachments ChatbotCustomAction#attachments}.
 
 ---
 
@@ -1156,7 +1156,7 @@ public readonly tags: IResolvable | ChatbotCustomActionTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags">ChatbotCustomActionTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#tags ChatbotCustomAction#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#tags ChatbotCustomAction#tags}.
 
 ---
 
@@ -1174,7 +1174,7 @@ const chatbotCustomActionDefinition: chatbotCustomAction.ChatbotCustomActionDefi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionDefinition.property.commandText">commandText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#command_text ChatbotCustomAction#command_text}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionDefinition.property.commandText">commandText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#command_text ChatbotCustomAction#command_text}. |
 
 ---
 
@@ -1186,7 +1186,7 @@ public readonly commandText: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#command_text ChatbotCustomAction#command_text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#command_text ChatbotCustomAction#command_text}.
 
 ---
 
@@ -1204,8 +1204,8 @@ const chatbotCustomActionTags: chatbotCustomAction.ChatbotCustomActionTags = { .
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#key ChatbotCustomAction#key}. |
-| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#key ChatbotCustomAction#key}. |
+| <code><a href="#@cdktn/provider-awscc.chatbotCustomAction.ChatbotCustomActionTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}. |
 
 ---
 
@@ -1217,7 +1217,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#key ChatbotCustomAction#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#key ChatbotCustomAction#key}.
 
 ---
 
@@ -1229,7 +1229,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chatbot_custom_action#value ChatbotCustomAction#value}.
 
 ---
 

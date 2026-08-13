@@ -4,7 +4,7 @@
 
 ### SecurityhubFindingAggregator <a name="SecurityhubFindingAggregator" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubFindingAggregator.SecurityhubFindingAggregator.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the SecurityhubFindingAggregat
 
 The id of the existing SecurityhubFindingAggregator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_finding_aggregator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_finding_aggregator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -881,7 +881,7 @@ Also determines whether to automatically aggregate findings from new Regions as 
   +  ``ALL_REGIONS_EXCEPT_SPECIFIED`` - Indicates to aggregate findings from all of the Regions where Security Hub is enabled, except for the Regions listed in the ``Regions`` parameter. When you choose this option, Security Hub also automatically aggregates findings from new Regions as Security Hub supports them and you opt into them. 
   +  ``SPECIFIED_REGIONS`` - Indicates to aggregate findings only from the Regions listed in the ``Regions`` parameter. Security Hub does not automatically aggregate findings from new Regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_finding_aggregator#region_linking_mode SecurityhubFindingAggregator#region_linking_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_finding_aggregator#region_linking_mode SecurityhubFindingAggregator#region_linking_mode}
 
 ---
 
@@ -897,7 +897,7 @@ If ``RegionLinkingMode`` is ``ALL_REGIONS_EXCEPT_SPECIFIED``, then this is a spa
 
 If ``RegionLinkingMode`` is ``SPECIFIED_REGIONS``, then this is a space-separated list of Regions that do aggregate findings to the aggregation Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_finding_aggregator#regions SecurityhubFindingAggregator#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_finding_aggregator#regions SecurityhubFindingAggregator#regions}
 
 ---
 

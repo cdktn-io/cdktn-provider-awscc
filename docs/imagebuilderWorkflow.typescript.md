@@ -4,7 +4,7 @@
 
 ### ImagebuilderWorkflow <a name="ImagebuilderWorkflow" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow awscc_imagebuilder_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow awscc_imagebuilder_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderWorkflow.ImagebuilderWorkflow.Initializer"></a>
 
@@ -531,7 +531,7 @@ The construct id used in the generated config for the ImagebuilderWorkflow to im
 
 The id of the existing ImagebuilderWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1070,7 +1070,7 @@ public readonly name: string;
 
 The name of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#name ImagebuilderWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#name ImagebuilderWorkflow#name}
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly type: string;
 
 The type of the workflow denotes whether the workflow is used to build, test, or distribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#type ImagebuilderWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#type ImagebuilderWorkflow#type}
 
 ---
 
@@ -1098,7 +1098,7 @@ public readonly version: string;
 
 The version of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#version ImagebuilderWorkflow#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#version ImagebuilderWorkflow#version}
 
 ---
 
@@ -1112,7 +1112,7 @@ public readonly changeDescription: string;
 
 The change description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#change_description ImagebuilderWorkflow#change_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#change_description ImagebuilderWorkflow#change_description}
 
 ---
 
@@ -1126,7 +1126,7 @@ public readonly data: string;
 
 The data of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#data ImagebuilderWorkflow#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#data ImagebuilderWorkflow#data}
 
 ---
 
@@ -1140,7 +1140,7 @@ public readonly description: string;
 
 The description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#description ImagebuilderWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#description ImagebuilderWorkflow#description}
 
 ---
 
@@ -1154,7 +1154,7 @@ public readonly kmsKeyId: string;
 
 The KMS key identifier used to encrypt the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#kms_key_id ImagebuilderWorkflow#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#kms_key_id ImagebuilderWorkflow#kms_key_id}
 
 ---
 
@@ -1168,7 +1168,7 @@ public readonly tags: {[ key: string ]: string};
 
 The tags associated with the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#tags ImagebuilderWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#tags ImagebuilderWorkflow#tags}
 
 ---
 
@@ -1182,7 +1182,7 @@ public readonly uri: string;
 
 The uri of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_workflow#uri ImagebuilderWorkflow#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_workflow#uri ImagebuilderWorkflow#uri}
 
 ---
 

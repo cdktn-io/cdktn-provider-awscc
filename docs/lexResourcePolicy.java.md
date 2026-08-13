@@ -4,7 +4,7 @@
 
 ### LexResourcePolicy <a name="LexResourcePolicy" id="@cdktn/provider-awscc.lexResourcePolicy.LexResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lex_resource_policy awscc_lex_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy awscc_lex_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexResourcePolicy.LexResourcePolicy.Initializer"></a>
 
@@ -108,7 +108,7 @@ A resource policy to add to the resource.
 
 The policy is a JSON structure following the IAM syntax that contains one or more statements that define the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lex_resource_policy#policy LexResourcePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy#policy LexResourcePolicy#policy}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bot or bot alias that the resource policy is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lex_resource_policy#resource_arn LexResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy#resource_arn LexResourcePolicy#resource_arn}
 
 ---
 
@@ -567,7 +567,7 @@ The construct id used in the generated config for the LexResourcePolicy to impor
 
 The id of the existing LexResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lex_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -957,7 +957,7 @@ A resource policy to add to the resource.
 
 The policy is a JSON structure following the IAM syntax that contains one or more statements that define the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lex_resource_policy#policy LexResourcePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy#policy LexResourcePolicy#policy}
 
 ---
 
@@ -971,7 +971,7 @@ public java.lang.String getResourceArn();
 
 The Amazon Resource Name (ARN) of the bot or bot alias that the resource policy is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lex_resource_policy#resource_arn LexResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy#resource_arn LexResourcePolicy#resource_arn}
 
 ---
 

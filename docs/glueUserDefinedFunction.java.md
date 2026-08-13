@@ -4,7 +4,7 @@
 
 ### GlueUserDefinedFunction <a name="GlueUserDefinedFunction" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the catalog database in which the function is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Java class that contains the function code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The owner of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The owner type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource URIs for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
 
 ---
 
@@ -673,7 +673,7 @@ The construct id used in the generated config for the GlueUserDefinedFunction to
 
 The id of the existing GlueUserDefinedFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1170,7 +1170,7 @@ public java.lang.String getDatabaseName();
 
 The name of the catalog database in which the function is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
 
 ---
 
@@ -1184,7 +1184,7 @@ public java.lang.String getFunctionName();
 
 The name of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
 
 ---
 
@@ -1198,7 +1198,7 @@ public java.lang.String getClassName();
 
 The Java class that contains the function code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
 
 ---
 
@@ -1212,7 +1212,7 @@ public java.lang.String getFunctionType();
 
 The type of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
 
 ---
 
@@ -1226,7 +1226,7 @@ public java.lang.String getOwnerName();
 
 The owner of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
 
 ---
 
@@ -1240,7 +1240,7 @@ public java.lang.String getOwnerType();
 
 The owner type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
 
 ---
 
@@ -1254,7 +1254,7 @@ public IResolvable|java.util.List<GlueUserDefinedFunctionResourceUris> getResour
 
 The resource URIs for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
 
 ---
 
@@ -1290,7 +1290,7 @@ public java.lang.String getResourceType();
 
 The type of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
 
 ---
 
@@ -1304,7 +1304,7 @@ public java.lang.String getUri();
 
 The URI for accessing the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
 
 ---
 

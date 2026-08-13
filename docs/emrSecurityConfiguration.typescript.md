@@ -4,7 +4,7 @@
 
 ### EmrSecurityConfiguration <a name="EmrSecurityConfiguration" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration awscc_emr_security_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration awscc_emr_security_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrSecurityConfiguration.EmrSecurityConfiguration.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the EmrSecurityConfiguration t
 
 The id of the existing EmrSecurityConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -852,7 +852,7 @@ public readonly securityConfiguration: string;
 
 The security configuration details in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
 
 ---
 
@@ -866,7 +866,7 @@ public readonly name: string;
 
 The name of the security configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
 
 ---
 

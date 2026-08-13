@@ -4,7 +4,7 @@
 
 ### ConnectTaskTemplate <a name="ConnectTaskTemplate" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template awscc_connect_task_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template awscc_connect_task_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer"></a>
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the ConnectTaskTemplate to imp
 
 The id of the existing ConnectTaskTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1095,7 +1095,7 @@ const connectTaskTemplateConfig: connectTaskTemplate.ConnectTaskTemplateConfig =
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.clientToken">clientToken</a></code> | <code>string</code> | the client token string in uuid format. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.constraints">constraints</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraints">ConnectTaskTemplateConstraints</a></code> | The constraints for the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.contactFlowArn">contactFlowArn</a></code> | <code>string</code> | The identifier of the contact flow. |
-| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.defaults">defaults</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.defaults">defaults</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.description">description</a></code> | <code>string</code> | The description of the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.fields">fields</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFields">ConnectTaskTemplateFields</a>[]</code> | The list of task template's fields. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.name">name</a></code> | <code>string</code> | The name of the task template. |
@@ -1185,7 +1185,7 @@ public readonly instanceArn: string;
 
 The identifier (arn) of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
 
 ---
 
@@ -1199,7 +1199,7 @@ public readonly clientToken: string;
 
 the client token string in uuid format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
 
 ---
 
@@ -1213,7 +1213,7 @@ public readonly constraints: ConnectTaskTemplateConstraints;
 
 The constraints for the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
 
 ---
 
@@ -1227,7 +1227,7 @@ public readonly contactFlowArn: string;
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
 
 ---
 
@@ -1239,7 +1239,7 @@ public readonly defaults: IResolvable | ConnectTaskTemplateDefaults[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
 
 ---
 
@@ -1253,7 +1253,7 @@ public readonly description: string;
 
 The description of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -1267,7 +1267,7 @@ public readonly fields: IResolvable | ConnectTaskTemplateFields[];
 
 The list of task template's fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
 
 ---
 
@@ -1281,7 +1281,7 @@ public readonly name: string;
 
 The name of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1295,7 +1295,7 @@ public readonly selfAssignContactFlowArn: string;
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
 
 ---
 
@@ -1309,7 +1309,7 @@ public readonly status: string;
 
 The status of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
 
 ---
 
@@ -1323,7 +1323,7 @@ public readonly tags: IResolvable | ConnectTaskTemplateTags[];
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
 
 ---
 
@@ -1357,7 +1357,7 @@ public readonly invisibleFields: IResolvable | ConnectTaskTemplateConstraintsInv
 
 The list of the task template's invisible fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
 
 ---
 
@@ -1371,7 +1371,7 @@ public readonly readOnlyFields: IResolvable | ConnectTaskTemplateConstraintsRead
 
 The list of the task template's read only fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
 
 ---
 
@@ -1385,7 +1385,7 @@ public readonly requiredFields: IResolvable | ConnectTaskTemplateConstraintsRequ
 
 The list of the task template's required fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
 
 ---
 
@@ -1417,7 +1417,7 @@ public readonly id: ConnectTaskTemplateConstraintsInvisibleFieldsId;
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1452,7 +1452,7 @@ public readonly name: string;
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1484,7 +1484,7 @@ public readonly id: ConnectTaskTemplateConstraintsReadOnlyFieldsId;
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1519,7 +1519,7 @@ public readonly name: string;
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1551,7 +1551,7 @@ public readonly id: ConnectTaskTemplateConstraintsRequiredFieldsId;
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1586,7 +1586,7 @@ public readonly name: string;
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1619,7 +1619,7 @@ public readonly defaultValue: string;
 
 the default value for the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
 
 ---
 
@@ -1633,7 +1633,7 @@ public readonly id: ConnectTaskTemplateDefaultsId;
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1668,7 +1668,7 @@ public readonly name: string;
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1703,7 +1703,7 @@ public readonly description: string;
 
 The description of the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -1717,7 +1717,7 @@ public readonly id: ConnectTaskTemplateFieldsId;
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1734,7 +1734,7 @@ public readonly singleSelectOptions: string[];
 
 list of field options to be used with single select.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
 
 ---
 
@@ -1748,7 +1748,7 @@ public readonly type: string;
 
 The type of the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
 
 ---
 
@@ -1780,7 +1780,7 @@ public readonly name: string;
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1815,7 +1815,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
 
 ---
 
@@ -1831,7 +1831,7 @@ The value for the tag.
 
 . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
 
 ---
 

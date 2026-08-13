@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2SecurityGroups <a name="DataAwsccEc2SecurityGroups" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroups.DataAwsccEc2SecurityGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_security_groups awscc_ec2_security_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_groups awscc_ec2_security_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroups.DataAwsccEc2SecurityGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SecurityGroups
 
 The id of the existing DataAwsccEc2SecurityGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_security_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

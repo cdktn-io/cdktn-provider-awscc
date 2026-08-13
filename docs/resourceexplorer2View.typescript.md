@@ -4,7 +4,7 @@
 
 ### Resourceexplorer2View <a name="Resourceexplorer2View" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2View.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the Resourceexplorer2View to i
 
 The id of the existing Resourceexplorer2View that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -891,11 +891,11 @@ const resourceexplorer2ViewConfig: resourceexplorer2View.Resourceexplorer2ViewCo
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.viewName">viewName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.filters">filters</a></code> | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters">Resourceexplorer2ViewFilters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.includedProperties">includedProperties</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties">Resourceexplorer2ViewIncludedProperties</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.scope">scope</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.viewName">viewName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.filters">filters</a></code> | <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters">Resourceexplorer2ViewFilters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.includedProperties">includedProperties</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties">Resourceexplorer2ViewIncludedProperties</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.scope">scope</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}. |
 
 ---
 
@@ -977,7 +977,7 @@ public readonly viewName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}.
 
 ---
 
@@ -989,7 +989,7 @@ public readonly filters: Resourceexplorer2ViewFilters;
 
 - *Type:* <a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters">Resourceexplorer2ViewFilters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}.
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly includedProperties: IResolvable | Resourceexplorer2ViewIncludedP
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties">Resourceexplorer2ViewIncludedProperties</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}.
 
 ---
 
@@ -1013,7 +1013,7 @@ public readonly scope: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly tags: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.
 
 ---
 
@@ -1043,7 +1043,7 @@ const resourceexplorer2ViewFilters: resourceexplorer2View.Resourceexplorer2ViewF
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters.property.filterString">filterString</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewFilters.property.filterString">filterString</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly filterString: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}.
 
 ---
 
@@ -1073,7 +1073,7 @@ const resourceexplorer2ViewIncludedProperties: resourceexplorer2View.Resourceexp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2View.Resourceexplorer2ViewIncludedProperties.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}. |
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}.
 
 ---
 

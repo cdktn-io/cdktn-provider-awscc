@@ -4,7 +4,7 @@
 
 ### Ec2EgressOnlyInternetGateway <a name="Ec2EgressOnlyInternetGateway" id="@cdktn/provider-awscc.ec2EgressOnlyInternetGateway.Ec2EgressOnlyInternetGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2EgressOnlyInternetGateway.Ec2EgressOnlyInternetGateway.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2EgressOnlyInternetGatew
 
 The id of the existing Ec2EgressOnlyInternetGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ VpcId *string
 
 The ID of the VPC for which to create the egress-only internet gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#vpc_id Ec2EgressOnlyInternetGateway#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#vpc_id Ec2EgressOnlyInternetGateway#vpc_id}
 
 ---
 
@@ -900,7 +900,7 @@ Tags interface{}
 
 Any tags assigned to the egress only internet gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#tags Ec2EgressOnlyInternetGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#tags Ec2EgressOnlyInternetGateway#tags}
 
 ---
 
@@ -921,8 +921,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2egressonlyinternetg
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2EgressOnlyInternetGateway.Ec2EgressOnlyInternetGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#key Ec2EgressOnlyInternetGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2EgressOnlyInternetGateway.Ec2EgressOnlyInternetGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#value Ec2EgressOnlyInternetGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2EgressOnlyInternetGateway.Ec2EgressOnlyInternetGatewayTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#key Ec2EgressOnlyInternetGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2EgressOnlyInternetGateway.Ec2EgressOnlyInternetGatewayTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#value Ec2EgressOnlyInternetGateway#value}. |
 
 ---
 
@@ -934,7 +934,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#key Ec2EgressOnlyInternetGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#key Ec2EgressOnlyInternetGateway#key}.
 
 ---
 
@@ -946,7 +946,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_egress_only_internet_gateway#value Ec2EgressOnlyInternetGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_egress_only_internet_gateway#value Ec2EgressOnlyInternetGateway#value}.
 
 ---
 

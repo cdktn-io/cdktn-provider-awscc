@@ -4,7 +4,7 @@
 
 ### SesEmailIdentity <a name="SesEmailIdentity" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity awscc_ses_email_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity awscc_ses_email_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentity.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The email address or domain to verify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#email_identity SesEmailIdentity#email_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#email_identity SesEmailIdentity#email_identity}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Used to associate a configuration set with an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#configuration_set_attributes SesEmailIdentity#configuration_set_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#configuration_set_attributes SesEmailIdentity#configuration_set_attributes}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Used to enable or disable DKIM authentication for an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#dkim_attributes SesEmailIdentity#dkim_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#dkim_attributes SesEmailIdentity#dkim_attributes}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If your request includes this object, Amazon SES configures the identity to use Bring Your Own DKIM (BYODKIM) for DKIM authentication purposes, or, configures the key length to be used for Easy DKIM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#dkim_signing_attributes SesEmailIdentity#dkim_signing_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#dkim_signing_attributes SesEmailIdentity#dkim_signing_attributes}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Used to enable or disable feedback forwarding for an identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#feedback_attributes SesEmailIdentity#feedback_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#feedback_attributes SesEmailIdentity#feedback_attributes}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Used to enable or disable the custom Mail-From domain configuration for an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#mail_from_attributes SesEmailIdentity#mail_from_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#mail_from_attributes SesEmailIdentity#mail_from_attributes}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags (keys and values) associated with the email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#tags SesEmailIdentity#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#tags SesEmailIdentity#tags}
 
 ---
 
@@ -745,7 +745,7 @@ The construct id used in the generated config for the SesEmailIdentity to import
 
 The id of the existing SesEmailIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1297,7 +1297,7 @@ public java.lang.String getEmailIdentity();
 
 The email address or domain to verify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#email_identity SesEmailIdentity#email_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#email_identity SesEmailIdentity#email_identity}
 
 ---
 
@@ -1311,7 +1311,7 @@ public SesEmailIdentityConfigurationSetAttributes getConfigurationSetAttributes(
 
 Used to associate a configuration set with an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#configuration_set_attributes SesEmailIdentity#configuration_set_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#configuration_set_attributes SesEmailIdentity#configuration_set_attributes}
 
 ---
 
@@ -1325,7 +1325,7 @@ public SesEmailIdentityDkimAttributes getDkimAttributes();
 
 Used to enable or disable DKIM authentication for an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#dkim_attributes SesEmailIdentity#dkim_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#dkim_attributes SesEmailIdentity#dkim_attributes}
 
 ---
 
@@ -1339,7 +1339,7 @@ public SesEmailIdentityDkimSigningAttributes getDkimSigningAttributes();
 
 If your request includes this object, Amazon SES configures the identity to use Bring Your Own DKIM (BYODKIM) for DKIM authentication purposes, or, configures the key length to be used for Easy DKIM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#dkim_signing_attributes SesEmailIdentity#dkim_signing_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#dkim_signing_attributes SesEmailIdentity#dkim_signing_attributes}
 
 ---
 
@@ -1353,7 +1353,7 @@ public SesEmailIdentityFeedbackAttributes getFeedbackAttributes();
 
 Used to enable or disable feedback forwarding for an identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#feedback_attributes SesEmailIdentity#feedback_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#feedback_attributes SesEmailIdentity#feedback_attributes}
 
 ---
 
@@ -1367,7 +1367,7 @@ public SesEmailIdentityMailFromAttributes getMailFromAttributes();
 
 Used to enable or disable the custom Mail-From domain configuration for an email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#mail_from_attributes SesEmailIdentity#mail_from_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#mail_from_attributes SesEmailIdentity#mail_from_attributes}
 
 ---
 
@@ -1381,7 +1381,7 @@ public IResolvable|java.util.List<SesEmailIdentityTags> getTags();
 
 The tags (keys and values) associated with the email identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#tags SesEmailIdentity#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#tags SesEmailIdentity#tags}
 
 ---
 
@@ -1417,7 +1417,7 @@ The configuration set to use by default when sending from this identity.
 
 Note that any configuration set defined in the email sending request takes precedence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#configuration_set_name SesEmailIdentity#configuration_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#configuration_set_name SesEmailIdentity#configuration_set_name}
 
 ---
 
@@ -1453,7 +1453,7 @@ Sets the DKIM signing configuration for the identity.
 
 When you set this value true, then the messages that are sent from the identity are signed using DKIM. If you set this value to false, your messages are sent without DKIM signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#signing_enabled SesEmailIdentity#signing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#signing_enabled SesEmailIdentity#signing_enabled}
 
 ---
 
@@ -1493,7 +1493,7 @@ public java.lang.String getDomainSigningPrivateKey();
 
 The private key must use 1024 or 2048-bit RSA encryption, and must be encoded using base64 encoding.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#domain_signing_private_key SesEmailIdentity#domain_signing_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#domain_signing_private_key SesEmailIdentity#domain_signing_private_key}
 
 ---
 
@@ -1507,7 +1507,7 @@ public java.lang.String getDomainSigningSelector();
 
 [Bring Your Own DKIM] A string that's used to identify a public key in the DNS configuration for a domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#domain_signing_selector SesEmailIdentity#domain_signing_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#domain_signing_selector SesEmailIdentity#domain_signing_selector}
 
 ---
 
@@ -1523,7 +1523,7 @@ public java.lang.String getNextSigningKeyLength();
 
 This can be changed at most once per day.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#next_signing_key_length SesEmailIdentity#next_signing_key_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#next_signing_key_length SesEmailIdentity#next_signing_key_length}
 
 ---
 
@@ -1557,7 +1557,7 @@ public java.lang.Boolean|IResolvable getEmailForwardingEnabled();
 
 If the value is true, you receive email notifications when bounce or complaint events occur.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#email_forwarding_enabled SesEmailIdentity#email_forwarding_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#email_forwarding_enabled SesEmailIdentity#email_forwarding_enabled}
 
 ---
 
@@ -1595,7 +1595,7 @@ The action to take if the required MX record isn't found when you send an email.
 
 When you set this value to UseDefaultValue , the mail is sent using amazonses.com as the MAIL FROM domain. When you set this value to RejectMessage , the Amazon SES API v2 returns a MailFromDomainNotVerified error, and doesn't attempt to deliver the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#behavior_on_mx_failure SesEmailIdentity#behavior_on_mx_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#behavior_on_mx_failure SesEmailIdentity#behavior_on_mx_failure}
 
 ---
 
@@ -1609,7 +1609,7 @@ public java.lang.String getMailFromDomain();
 
 The custom MAIL FROM domain that you want the verified identity to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#mail_from_domain SesEmailIdentity#mail_from_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#mail_from_domain SesEmailIdentity#mail_from_domain}
 
 ---
 
@@ -1630,8 +1630,8 @@ SesEmailIdentityTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesEmailIdentity.SesEmailIdentityTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}. |
 
 ---
 
@@ -1643,7 +1643,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#key SesEmailIdentity#key}.
 
 ---
 
@@ -1655,7 +1655,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_email_identity#value SesEmailIdentity#value}.
 
 ---
 

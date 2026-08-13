@@ -4,7 +4,7 @@
 
 ### QuicksightDashboard <a name="QuicksightDashboard" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer"></a>
 
@@ -43,8 +43,8 @@ QuicksightDashboard.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.dashboardId">dashboardId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.dashboardId">dashboardId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.sourceEntity">sourceEntity</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntity">QuicksightDashboardSourceEntity</a></code> | <p>Dashboard source entity.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.dashboardPublishOptions">dashboardPublishOptions</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptions">QuicksightDashboardDashboardPublishOptions</a></code> | <p>Dashboard publish options.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboard.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | <p>The display name of the dashboard.</p>. |
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Dashboard source entity.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Dashboard publish options.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The display name of the dashboard.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>A list of QuickSight parameters and the list's override values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
 
 ---
 
@@ -186,7 +186,7 @@ principal ARN. </p>
     <p>To specify no permissions, omit the permissions list.</p>
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the             dashboard.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
 
 ---
 
@@ -211,7 +211,7 @@ you add a value for this field, it overrides the value that is used in the sourc
 entity. The theme ARN must exist in the same AWS account where you create the
 dashboard.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
 
 ---
 
@@ -221,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>A description for the first version of the dashboard being created.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
 
 ---
 
@@ -784,7 +784,7 @@ The construct id used in the generated config for the QuicksightDashboard to imp
 
 The id of the existing QuicksightDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1304,8 +1304,8 @@ QuicksightDashboardConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.dashboardId">dashboardId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.awsAccountId">awsAccountId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.dashboardId">dashboardId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.sourceEntity">sourceEntity</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardSourceEntity">QuicksightDashboardSourceEntity</a></code> | <p>Dashboard source entity.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.dashboardPublishOptions">dashboardPublishOptions</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptions">QuicksightDashboardDashboardPublishOptions</a></code> | <p>Dashboard publish options.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardConfig.property.name">name</a></code> | <code>java.lang.String</code> | <p>The display name of the dashboard.</p>. |
@@ -1395,7 +1395,7 @@ public java.lang.String getAwsAccountId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
 
 ---
 
@@ -1407,7 +1407,7 @@ public java.lang.String getDashboardId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
 
 ---
 
@@ -1421,7 +1421,7 @@ public QuicksightDashboardSourceEntity getSourceEntity();
 
 <p>Dashboard source entity.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
 
 ---
 
@@ -1435,7 +1435,7 @@ public QuicksightDashboardDashboardPublishOptions getDashboardPublishOptions();
 
 <p>Dashboard publish options.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
 
 ---
 
@@ -1449,7 +1449,7 @@ public java.lang.String getName();
 
 <p>The display name of the dashboard.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1463,7 +1463,7 @@ public QuicksightDashboardParameters getParameters();
 
 <p>A list of QuickSight parameters and the list's override values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
 
 ---
 
@@ -1485,7 +1485,7 @@ principal ARN. </p>
     <p>To specify no permissions, omit the permissions list.</p>
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
 
 ---
 
@@ -1499,7 +1499,7 @@ public IResolvable|java.util.List<QuicksightDashboardTags> getTags();
 
 <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the             dashboard.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
 
 ---
 
@@ -1518,7 +1518,7 @@ you add a value for this field, it overrides the value that is used in the sourc
 entity. The theme ARN must exist in the same AWS account where you create the
 dashboard.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
 
 ---
 
@@ -1532,7 +1532,7 @@ public java.lang.String getVersionDescription();
 
 <p>A description for the first version of the dashboard being created.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
 
 ---
 
@@ -1570,7 +1570,7 @@ public QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption getAdHocFi
 
 <p>Ad hoc (one-time) filtering option.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#ad_hoc_filtering_option QuicksightDashboard#ad_hoc_filtering_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#ad_hoc_filtering_option QuicksightDashboard#ad_hoc_filtering_option}
 
 ---
 
@@ -1584,7 +1584,7 @@ public QuicksightDashboardDashboardPublishOptionsExportToCsvOption getExportToCs
 
 <p>Export to .csv option.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#export_to_csv_option QuicksightDashboard#export_to_csv_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#export_to_csv_option QuicksightDashboard#export_to_csv_option}
 
 ---
 
@@ -1598,7 +1598,7 @@ public QuicksightDashboardDashboardPublishOptionsSheetControlsOption getSheetCon
 
 <p>Sheet controls option.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#sheet_controls_option QuicksightDashboard#sheet_controls_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#sheet_controls_option QuicksightDashboard#sheet_controls_option}
 
 ---
 
@@ -1618,7 +1618,7 @@ QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption.property.availabilityStatus">availabilityStatus</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsAdHocFilteringOption.property.availabilityStatus">availabilityStatus</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
 
 ---
 
@@ -1630,7 +1630,7 @@ public java.lang.String getAvailabilityStatus();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
 
 ---
 
@@ -1650,7 +1650,7 @@ QuicksightDashboardDashboardPublishOptionsExportToCsvOption.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption.property.availabilityStatus">availabilityStatus</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsExportToCsvOption.property.availabilityStatus">availabilityStatus</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}. |
 
 ---
 
@@ -1662,7 +1662,7 @@ public java.lang.String getAvailabilityStatus();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#availability_status QuicksightDashboard#availability_status}.
 
 ---
 
@@ -1682,7 +1682,7 @@ QuicksightDashboardDashboardPublishOptionsSheetControlsOption.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption.property.visibilityState">visibilityState</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightDashboard.QuicksightDashboardDashboardPublishOptionsSheetControlsOption.property.visibilityState">visibilityState</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}. |
 
 ---
 
@@ -1694,7 +1694,7 @@ public java.lang.String getVisibilityState();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#visibility_state QuicksightDashboard#visibility_state}.
 
 ---
 
@@ -1734,7 +1734,7 @@ public IResolvable|java.util.List<QuicksightDashboardParametersDateTimeParameter
 
 <p>Date-time parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#date_time_parameters QuicksightDashboard#date_time_parameters}
 
 ---
 
@@ -1748,7 +1748,7 @@ public IResolvable|java.util.List<QuicksightDashboardParametersDecimalParameters
 
 <p>Decimal parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#decimal_parameters QuicksightDashboard#decimal_parameters}
 
 ---
 
@@ -1762,7 +1762,7 @@ public IResolvable|java.util.List<QuicksightDashboardParametersIntegerParameters
 
 <p>Integer parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#integer_parameters QuicksightDashboard#integer_parameters}
 
 ---
 
@@ -1776,7 +1776,7 @@ public IResolvable|java.util.List<QuicksightDashboardParametersStringParameters>
 
 <p>String parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#string_parameters QuicksightDashboard#string_parameters}
 
 ---
 
@@ -1812,7 +1812,7 @@ public java.lang.String getName();
 
 <p>A display name for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1826,7 +1826,7 @@ public java.util.List<java.lang.String> getValues();
 
 <p>The values for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1862,7 +1862,7 @@ public java.lang.String getName();
 
 <p>A display name for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1876,7 +1876,7 @@ public java.util.List<java.lang.Number> getValues();
 
 <p>The values for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1912,7 +1912,7 @@ public java.lang.String getName();
 
 <p>The name of the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1926,7 +1926,7 @@ public java.util.List<java.lang.Number> getValues();
 
 <p>The values for the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -1962,7 +1962,7 @@ public java.lang.String getName();
 
 <p>A display name for a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 
 ---
 
@@ -1976,7 +1976,7 @@ public java.util.List<java.lang.String> getValues();
 
 <p>The values of a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 
 ---
 
@@ -2012,7 +2012,7 @@ public java.util.List<java.lang.String> getActions();
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#actions QuicksightDashboard#actions}
 
 ---
 
@@ -2042,7 +2042,7 @@ ARN. Use this option only to share resources (templates) across AWS accounts.
 </li>
 </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#principal QuicksightDashboard#principal}
 
 ---
 
@@ -2076,7 +2076,7 @@ public QuicksightDashboardSourceEntitySourceTemplate getSourceTemplate();
 
 <p>Dashboard source template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#source_template QuicksightDashboard#source_template}
 
 ---
 
@@ -2112,7 +2112,7 @@ public java.lang.String getArn();
 
 <p>The Amazon Resource Name (ARN) of the resource.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#arn QuicksightDashboard#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#arn QuicksightDashboard#arn}
 
 ---
 
@@ -2126,7 +2126,7 @@ public IResolvable|java.util.List<QuicksightDashboardSourceEntitySourceTemplateD
 
 <p>Dataset references.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#data_set_references QuicksightDashboard#data_set_references}
 
 ---
 
@@ -2162,7 +2162,7 @@ public java.lang.String getDataSetArn();
 
 <p>Dataset Amazon Resource Name (ARN).</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#data_set_arn QuicksightDashboard#data_set_arn}
 
 ---
 
@@ -2176,7 +2176,7 @@ public java.lang.String getDataSetPlaceholder();
 
 <p>Dataset placeholder.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#data_set_placeholder QuicksightDashboard#data_set_placeholder}
 
 ---
 
@@ -2212,7 +2212,7 @@ public java.lang.String getKey();
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#key QuicksightDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#key QuicksightDashboard#key}
 
 ---
 
@@ -2226,7 +2226,7 @@ public java.lang.String getValue();
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_dashboard#value QuicksightDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#value QuicksightDashboard#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MediaconnectBridgeOutput <a name="MediaconnectBridgeOutput" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectBridgeOutput.MediaconnectBridgeOutput.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Number (ARN) of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The network output name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The output of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
 
 ---
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the MediaconnectBridgeOutput t
 
 The id of the existing MediaconnectBridgeOutput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -980,7 +980,7 @@ public java.lang.String getBridgeArn();
 
 The Amazon Resource Number (ARN) of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
 
 ---
 
@@ -994,7 +994,7 @@ public java.lang.String getName();
 
 The network output name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
 
 ---
 
@@ -1008,7 +1008,7 @@ public MediaconnectBridgeOutputNetworkOutput getNetworkOutput();
 
 The output of the bridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
 
 ---
 
@@ -1050,7 +1050,7 @@ public java.lang.String getIpAddress();
 
 The network output IP Address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#ip_address MediaconnectBridgeOutput#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#ip_address MediaconnectBridgeOutput#ip_address}
 
 ---
 
@@ -1064,7 +1064,7 @@ public java.lang.String getNetworkName();
 
 The network output's gateway network name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#network_name MediaconnectBridgeOutput#network_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#network_name MediaconnectBridgeOutput#network_name}
 
 ---
 
@@ -1078,7 +1078,7 @@ public java.lang.Number getPort();
 
 The network output port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#port MediaconnectBridgeOutput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#port MediaconnectBridgeOutput#port}
 
 ---
 
@@ -1092,7 +1092,7 @@ public java.lang.String getProtocol();
 
 The network output protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#protocol MediaconnectBridgeOutput#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#protocol MediaconnectBridgeOutput#protocol}
 
 ---
 
@@ -1106,7 +1106,7 @@ public java.lang.Number getTtl();
 
 The network output TTL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_bridge_output#ttl MediaconnectBridgeOutput#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_bridge_output#ttl MediaconnectBridgeOutput#ttl}
 
 ---
 

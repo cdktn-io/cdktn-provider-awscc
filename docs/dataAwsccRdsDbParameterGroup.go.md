@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbParameterGroup <a name="DataAwsccRdsDbParameterGroup" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_parameter_group awscc_rds_db_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_parameter_group awscc_rds_db_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbParameterGro
 
 The id of the existing DataAwsccRdsDbParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -415,6 +415,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.dbParameterGroupArn">DbParameterGroupArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.dbParameterGroupName">DbParameterGroupName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.family">Family</a></code> | <code>*string</code> | *No description.* |
@@ -544,6 +545,16 @@ func Provider() TerraformProvider
 ```
 
 - *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
+
+---
+
+##### `DbParameterGroupArn`<sup>Required</sup> <a name="DbParameterGroupArn" id="@cdktn/provider-awscc.dataAwsccRdsDbParameterGroup.DataAwsccRdsDbParameterGroup.property.dbParameterGroupArn"></a>
+
+```go
+func DbParameterGroupArn() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -751,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_parameter_group#id DataAwsccRdsDbParameterGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_parameter_group#id DataAwsccRdsDbParameterGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IpamPrefixListResolverTargets <a name="DataAwsccEc2IpamPrefixListResolverTargets" id="@cdktn/provider-awscc.dataAwsccEc2IpamPrefixListResolverTargets.DataAwsccEc2IpamPrefixListResolverTargets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_ipam_prefix_list_resolver_targets awscc_ec2_ipam_prefix_list_resolver_targets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_ipam_prefix_list_resolver_targets awscc_ec2_ipam_prefix_list_resolver_targets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamPrefixListResolverTargets.DataAwsccEc2IpamPrefixListResolverTargets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamPrefixList
 
 The id of the existing DataAwsccEc2IpamPrefixListResolverTargets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_ipam_prefix_list_resolver_targets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_ipam_prefix_list_resolver_targets#import import section} in the documentation of this resource for the id to use
 
 ---
 

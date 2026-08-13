@@ -4,7 +4,7 @@
 
 ### M2Application <a name="M2Application" id="@cdktn/provider-awscc.m2Application.M2Application"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application awscc_m2_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application awscc_m2_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.m2Application.M2Application.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the M2Application to import.
 
 The id of the existing M2Application that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -955,13 +955,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2application"
 | <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.engineType">EngineType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#engine_type M2Application#engine_type}. |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#name M2Application#name}. |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.definition">Definition</a></code> | <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition">M2ApplicationDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#definition M2Application#definition}. |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#description M2Application#description}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.engineType">EngineType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#engine_type M2Application#engine_type}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#name M2Application#name}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.definition">Definition</a></code> | <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition">M2ApplicationDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#definition M2Application#definition}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#description M2Application#description}. |
 | <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | The ID or the Amazon Resource Name (ARN) of the customer managed KMS Key used for encrypting application-related resources. |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#role_arn M2Application#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#tags M2Application#tags}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.roleArn">RoleArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#role_arn M2Application#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#tags M2Application#tags}. |
 
 ---
 
@@ -1043,7 +1043,7 @@ EngineType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#engine_type M2Application#engine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#engine_type M2Application#engine_type}.
 
 ---
 
@@ -1055,7 +1055,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#name M2Application#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#name M2Application#name}.
 
 ---
 
@@ -1067,7 +1067,7 @@ Definition M2ApplicationDefinition
 
 - *Type:* <a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition">M2ApplicationDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#definition M2Application#definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#definition M2Application#definition}.
 
 ---
 
@@ -1079,7 +1079,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#description M2Application#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#description M2Application#description}.
 
 ---
 
@@ -1093,7 +1093,7 @@ KmsKeyId *string
 
 The ID or the Amazon Resource Name (ARN) of the customer managed KMS Key used for encrypting application-related resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#kms_key_id M2Application#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#kms_key_id M2Application#kms_key_id}
 
 ---
 
@@ -1105,7 +1105,7 @@ RoleArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#role_arn M2Application#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#role_arn M2Application#role_arn}.
 
 ---
 
@@ -1117,7 +1117,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#tags M2Application#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#tags M2Application#tags}.
 
 ---
 
@@ -1138,8 +1138,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2application"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#content M2Application#content}. |
-| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition.property.s3Location">S3Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#s3_location M2Application#s3_location}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#content M2Application#content}. |
+| <code><a href="#@cdktn/provider-awscc.m2Application.M2ApplicationDefinition.property.s3Location">S3Location</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#s3_location M2Application#s3_location}. |
 
 ---
 
@@ -1151,7 +1151,7 @@ Content *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#content M2Application#content}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#content M2Application#content}.
 
 ---
 
@@ -1163,7 +1163,7 @@ S3Location *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_application#s3_location M2Application#s3_location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_application#s3_location M2Application#s3_location}.
 
 ---
 

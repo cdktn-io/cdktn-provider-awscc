@@ -4,7 +4,7 @@
 
 ### OmicsVariantStore <a name="OmicsVariantStore" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store awscc_omics_variant_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store awscc_omics_variant_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStore.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the OmicsVariantStore to impor
 
 The id of the existing OmicsVariantStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -963,11 +963,11 @@ new OmicsVariantStoreConfig {
 | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.reference">Reference</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference">OmicsVariantStoreReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig">OmicsVariantStoreSseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.reference">Reference</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference">OmicsVariantStoreReference</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig">OmicsVariantStoreSseConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}. |
 
 ---
 
@@ -1049,7 +1049,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#name OmicsVariantStore#name}.
 
 ---
 
@@ -1061,7 +1061,7 @@ public OmicsVariantStoreReference Reference { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference">OmicsVariantStoreReference</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#reference OmicsVariantStore#reference}.
 
 ---
 
@@ -1073,7 +1073,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#description OmicsVariantStore#description}.
 
 ---
 
@@ -1085,7 +1085,7 @@ public OmicsVariantStoreSseConfig SseConfig { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig">OmicsVariantStoreSseConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#sse_config OmicsVariantStore#sse_config}.
 
 ---
 
@@ -1097,7 +1097,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#tags OmicsVariantStore#tags}.
 
 ---
 
@@ -1117,7 +1117,7 @@ new OmicsVariantStoreReference {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference.property.referenceArn">ReferenceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreReference.property.referenceArn">ReferenceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}. |
 
 ---
 
@@ -1129,7 +1129,7 @@ public string ReferenceArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#reference_arn OmicsVariantStore#reference_arn}.
 
 ---
 
@@ -1150,8 +1150,8 @@ new OmicsVariantStoreSseConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.omicsVariantStore.OmicsVariantStoreSseConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}. |
 
 ---
 
@@ -1163,7 +1163,7 @@ public string KeyArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#key_arn OmicsVariantStore#key_arn}.
 
 ---
 
@@ -1175,7 +1175,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_variant_store#type OmicsVariantStore#type}.
 
 ---
 

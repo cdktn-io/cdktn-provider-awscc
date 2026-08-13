@@ -4,7 +4,7 @@
 
 ### DataAwsccCodeartifactRepositories <a name="DataAwsccCodeartifactRepositories" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodeartifactRepositories.DataAwsccCodeartifactRepositories.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodeartifactRepos
 
 The id of the existing DataAwsccCodeartifactRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codeartifact_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 

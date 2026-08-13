@@ -4,7 +4,7 @@
 
 ### S3TablesTablePolicy <a name="S3TablesTablePolicy" id="@cdktn/provider-awscc.s3TablesTablePolicy.S3TablesTablePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_table_policy awscc_s3tables_table_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_table_policy awscc_s3tables_table_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTablePolicy.S3TablesTablePolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3TablesTablePolicy to imp
 
 The id of the existing S3TablesTablePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_table_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_table_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -890,7 +890,7 @@ A policy document containing permissions to add to the specified table.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_table_policy#resource_policy S3TablesTablePolicy#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_table_policy#resource_policy S3TablesTablePolicy#resource_policy}
 
 ---
 
@@ -904,7 +904,7 @@ public string TableArn { get; set; }
 
 The Amazon Resource Name (ARN) of the specified table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3tables_table_policy#table_arn S3TablesTablePolicy#table_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3tables_table_policy#table_arn S3TablesTablePolicy#table_arn}
 
 ---
 

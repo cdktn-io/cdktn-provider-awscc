@@ -4,7 +4,7 @@
 
 ### DataAwsccRobomakerRobotApplications <a name="DataAwsccRobomakerRobotApplications" id="@cdktn/provider-awscc.dataAwsccRobomakerRobotApplications.DataAwsccRobomakerRobotApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRobomakerRobotApplications.DataAwsccRobomakerRobotApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRobomakerRobotApp
 
 The id of the existing DataAwsccRobomakerRobotApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/robomaker_robot_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_robot_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

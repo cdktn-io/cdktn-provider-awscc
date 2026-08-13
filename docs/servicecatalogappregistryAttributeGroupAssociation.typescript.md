@@ -4,7 +4,7 @@
 
 ### ServicecatalogappregistryAttributeGroupAssociation <a name="ServicecatalogappregistryAttributeGroupAssociation" id="@cdktn/provider-awscc.servicecatalogappregistryAttributeGroupAssociation.ServicecatalogappregistryAttributeGroupAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogappregistryAttributeGroupAssociation.ServicecatalogappregistryAttributeGroupAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ServicecatalogappregistryA
 
 The id of the existing ServicecatalogappregistryAttributeGroupAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_attribute_group_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -867,7 +867,7 @@ public readonly application: string;
 
 The name or the Id of the Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_attribute_group_association#application ServicecatalogappregistryAttributeGroupAssociation#application}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group_association#application ServicecatalogappregistryAttributeGroupAssociation#application}
 
 ---
 
@@ -881,7 +881,7 @@ public readonly attributeGroup: string;
 
 The name or the Id of the AttributeGroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_attribute_group_association#attribute_group ServicecatalogappregistryAttributeGroupAssociation#attribute_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group_association#attribute_group ServicecatalogappregistryAttributeGroupAssociation#attribute_group}
 
 ---
 

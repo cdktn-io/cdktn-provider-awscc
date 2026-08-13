@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrPublicRepositories <a name="DataAwsccEcrPublicRepositories" id="@cdktn/provider-awscc.dataAwsccEcrPublicRepositories.DataAwsccEcrPublicRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ecr_public_repositories awscc_ecr_public_repositories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ecr_public_repositories awscc_ecr_public_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrPublicRepositories.DataAwsccEcrPublicRepositories.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEcrPublicReposito
 
 The id of the existing DataAwsccEcrPublicRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ecr_public_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ecr_public_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 

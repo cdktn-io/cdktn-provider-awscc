@@ -4,7 +4,7 @@
 
 ### IvsStreamKey <a name="IvsStreamKey" id="@cdktn/provider-awscc.ivsStreamKey.IvsStreamKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_stream_key awscc_ivs_stream_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_stream_key awscc_ivs_stream_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStreamKey.IvsStreamKey.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the IvsStreamKey to import.
 
 The id of the existing IvsStreamKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_stream_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_stream_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -897,7 +897,7 @@ ChannelArn *string
 
 Channel ARN for the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_stream_key#channel_arn IvsStreamKey#channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_stream_key#channel_arn IvsStreamKey#channel_arn}
 
 ---
 
@@ -911,7 +911,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_stream_key#tags IvsStreamKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_stream_key#tags IvsStreamKey#tags}
 
 ---
 
@@ -949,7 +949,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_stream_key#key IvsStreamKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_stream_key#key IvsStreamKey#key}
 
 ---
 
@@ -965,7 +965,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_stream_key#value IvsStreamKey#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_stream_key#value IvsStreamKey#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccIvsIngestConfigurations <a name="DataAwsccIvsIngestConfigurations" id="@cdktn/provider-awscc.dataAwsccIvsIngestConfigurations.DataAwsccIvsIngestConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ivs_ingest_configurations awscc_ivs_ingest_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_ingest_configurations awscc_ivs_ingest_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsIngestConfigurations.DataAwsccIvsIngestConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIvsIngestConfigur
 
 The id of the existing DataAwsccIvsIngestConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ivs_ingest_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_ingest_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

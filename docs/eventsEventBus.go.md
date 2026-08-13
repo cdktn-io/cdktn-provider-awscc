@@ -4,7 +4,7 @@
 
 ### EventsEventBus <a name="EventsEventBus" id="@cdktn/provider-awscc.eventsEventBus.EventsEventBus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus awscc_events_event_bus}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus awscc_events_event_bus}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEventBus.EventsEventBus.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the EventsEventBus to import.
 
 The id of the existing EventsEventBus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1098,7 +1098,7 @@ Name *string
 
 The name of the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#name EventsEventBus#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#name EventsEventBus#name}
 
 ---
 
@@ -1112,7 +1112,7 @@ DeadLetterConfig EventsEventBusDeadLetterConfig
 
 Dead Letter Queue for the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#dead_letter_config EventsEventBus#dead_letter_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#dead_letter_config EventsEventBus#dead_letter_config}
 
 ---
 
@@ -1126,7 +1126,7 @@ Description *string
 
 The description of the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#description EventsEventBus#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#description EventsEventBus#description}
 
 ---
 
@@ -1140,7 +1140,7 @@ EventSourceName *string
 
 If you are creating a partner event bus, this specifies the partner event source that the new event bus will be matched with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#event_source_name EventsEventBus#event_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#event_source_name EventsEventBus#event_source_name}
 
 ---
 
@@ -1154,7 +1154,7 @@ KmsKeyIdentifier *string
 
 Kms Key Identifier used to encrypt events at rest in the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#kms_key_identifier EventsEventBus#kms_key_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#kms_key_identifier EventsEventBus#kms_key_identifier}
 
 ---
 
@@ -1168,7 +1168,7 @@ LogConfig EventsEventBusLogConfig
 
 The logging configuration settings for vended logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#log_config EventsEventBus#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#log_config EventsEventBus#log_config}
 
 ---
 
@@ -1182,7 +1182,7 @@ Policy *string
 
 A JSON string that describes the permission policy statement for the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#policy EventsEventBus#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#policy EventsEventBus#policy}
 
 ---
 
@@ -1196,7 +1196,7 @@ Tags interface{}
 
 Any tags assigned to the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#tags EventsEventBus#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#tags EventsEventBus#tags}
 
 ---
 
@@ -1216,7 +1216,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventseventbus"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEventBus.EventsEventBusDeadLetterConfig.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#arn EventsEventBus#arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEventBus.EventsEventBusDeadLetterConfig.property.arn">Arn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#arn EventsEventBus#arn}. |
 
 ---
 
@@ -1228,7 +1228,7 @@ Arn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#arn EventsEventBus#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#arn EventsEventBus#arn}.
 
 ---
 
@@ -1264,7 +1264,7 @@ IncludeDetail *string
 
 Configures whether or not to include event detail, input transformer details, target properties, and target input in the applicable log messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#include_detail EventsEventBus#include_detail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#include_detail EventsEventBus#include_detail}
 
 ---
 
@@ -1278,7 +1278,7 @@ Level *string
 
 Configures the log level of the EventBus and determines which log messages are sent to Ingestion Hub for delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#level EventsEventBus#level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#level EventsEventBus#level}
 
 ---
 
@@ -1299,8 +1299,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventseventbus"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventsEventBus.EventsEventBusTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#key EventsEventBus#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventsEventBus.EventsEventBusTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#value EventsEventBus#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEventBus.EventsEventBusTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#key EventsEventBus#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventsEventBus.EventsEventBusTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#value EventsEventBus#value}. |
 
 ---
 
@@ -1312,7 +1312,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#key EventsEventBus#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#key EventsEventBus#key}.
 
 ---
 
@@ -1324,7 +1324,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus#value EventsEventBus#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus#value EventsEventBus#value}.
 
 ---
 

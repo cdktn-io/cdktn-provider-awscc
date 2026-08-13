@@ -4,7 +4,7 @@
 
 ### IamUserPolicy <a name="IamUserPolicy" id="@cdktn/provider-awscc.iamUserPolicy.IamUserPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy awscc_iam_user_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy awscc_iam_user_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamUserPolicy.IamUserPolicy.Initializer"></a>
 
@@ -110,7 +110,7 @@ The name of the policy document.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#policy_name IamUserPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#policy_name IamUserPolicy#policy_name}
 
 ---
 
@@ -122,7 +122,7 @@ The name of the user to associate the policy with.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#user_name IamUserPolicy#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#user_name IamUserPolicy#user_name}
 
 ---
 
@@ -139,7 +139,7 @@ The [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)
 * The printable characters in the Basic Latin and Latin-1 Supplement character set (through `\u00FF`)
 * The special characters tab (`\u0009`), line feed (`\u000A`), and carriage return (`\u000D`)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#policy_document IamUserPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#policy_document IamUserPolicy#policy_document}
 
 ---
 
@@ -595,7 +595,7 @@ The construct id used in the generated config for the IamUserPolicy to import.
 
 The id of the existing IamUserPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -987,7 +987,7 @@ The name of the policy document.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#policy_name IamUserPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#policy_name IamUserPolicy#policy_name}
 
 ---
 
@@ -1003,7 +1003,7 @@ The name of the user to associate the policy with.
 
 This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#user_name IamUserPolicy#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#user_name IamUserPolicy#user_name}
 
 ---
 
@@ -1024,7 +1024,7 @@ The [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)
 * The printable characters in the Basic Latin and Latin-1 Supplement character set (through `\u00FF`)
 * The special characters tab (`\u0009`), line feed (`\u000A`), and carriage return (`\u000D`)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_user_policy#policy_document IamUserPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_user_policy#policy_document IamUserPolicy#policy_document}
 
 ---
 

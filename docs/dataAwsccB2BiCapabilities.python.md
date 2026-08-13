@@ -4,7 +4,7 @@
 
 ### DataAwsccB2BiCapabilities <a name="DataAwsccB2BiCapabilities" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiCapabilities.DataAwsccB2BiCapabilities.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccB2BiCapabilities 
 
 The id of the existing DataAwsccB2BiCapabilities that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/b2bi_capabilities#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/b2bi_capabilities#import import section} in the documentation of this resource for the id to use
 
 ---
 

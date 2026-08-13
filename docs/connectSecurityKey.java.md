@@ -4,7 +4,7 @@
 
 ### ConnectSecurityKey <a name="ConnectSecurityKey" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_security_key awscc_connect_security_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_security_key awscc_connect_security_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectSecurityKey.ConnectSecurityKey.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_security_key#instance_id ConnectSecurityKey#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_security_key#instance_id ConnectSecurityKey#instance_id}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A valid security key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_security_key#key ConnectSecurityKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_security_key#key ConnectSecurityKey#key}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the ConnectSecurityKey to impo
 
 The id of the existing ConnectSecurityKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_security_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_security_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -942,7 +942,7 @@ public java.lang.String getInstanceId();
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_security_key#instance_id ConnectSecurityKey#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_security_key#instance_id ConnectSecurityKey#instance_id}
 
 ---
 
@@ -956,7 +956,7 @@ public java.lang.String getKey();
 
 A valid security key in PEM format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_security_key#key ConnectSecurityKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_security_key#key ConnectSecurityKey#key}
 
 ---
 

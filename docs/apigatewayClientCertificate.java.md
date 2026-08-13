@@ -4,7 +4,7 @@
 
 ### ApigatewayClientCertificate <a name="ApigatewayClientCertificate" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer"></a>
 
@@ -35,8 +35,8 @@ ApigatewayClientCertificate.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags">ApigatewayClientCertificateTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificate.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags">ApigatewayClientCertificateTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
 
 ---
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags">ApigatewayClientCertificateTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
 
 ---
 
@@ -588,7 +588,7 @@ The construct id used in the generated config for the ApigatewayClientCertificat
 
 The id of the existing ApigatewayClientCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,8 +880,8 @@ ApigatewayClientCertificateConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags">ApigatewayClientCertificateTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags">ApigatewayClientCertificateTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}. |
 
 ---
 
@@ -963,7 +963,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}.
 
 ---
 
@@ -975,7 +975,7 @@ public IResolvable|java.util.List<ApigatewayClientCertificateTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.apigatewayClientCertificate.ApigatewayClientCertificateTags">ApigatewayClientCertificateTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}.
 
 ---
 
@@ -1013,7 +1013,7 @@ A string you can use to assign a value.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getValue();
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
 
 ---
 

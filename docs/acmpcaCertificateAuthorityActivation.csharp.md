@@ -4,7 +4,7 @@
 
 ### AcmpcaCertificateAuthorityActivation <a name="AcmpcaCertificateAuthorityActivation" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.acmpcaCertificateAuthorityActivation.AcmpcaCertificateAuthorityActivation.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the AcmpcaCertificateAuthority
 
 The id of the existing AcmpcaCertificateAuthorityActivation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_certificate_authority_activation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate_authority_activation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ public string Certificate { get; set; }
 
 Certificate Authority certificate that will be installed in the Certificate Authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_certificate_authority_activation#certificate AcmpcaCertificateAuthorityActivation#certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate_authority_activation#certificate AcmpcaCertificateAuthorityActivation#certificate}
 
 ---
 
@@ -942,7 +942,7 @@ public string CertificateAuthorityArn { get; set; }
 
 Arn of the Certificate Authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_certificate_authority_activation#certificate_authority_arn AcmpcaCertificateAuthorityActivation#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate_authority_activation#certificate_authority_arn AcmpcaCertificateAuthorityActivation#certificate_authority_arn}
 
 ---
 
@@ -956,7 +956,7 @@ public string CertificateChain { get; set; }
 
 Certificate chain for the Certificate Authority certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_certificate_authority_activation#certificate_chain AcmpcaCertificateAuthorityActivation#certificate_chain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate_authority_activation#certificate_chain AcmpcaCertificateAuthorityActivation#certificate_chain}
 
 ---
 
@@ -970,7 +970,7 @@ public string Status { get; set; }
 
 The status of the Certificate Authority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/acmpca_certificate_authority_activation#status AcmpcaCertificateAuthorityActivation#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate_authority_activation#status AcmpcaCertificateAuthorityActivation#status}
 
 ---
 

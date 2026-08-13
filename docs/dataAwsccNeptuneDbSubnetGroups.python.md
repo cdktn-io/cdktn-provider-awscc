@@ -4,7 +4,7 @@
 
 ### DataAwsccNeptuneDbSubnetGroups <a name="DataAwsccNeptuneDbSubnetGroups" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_subnet_groups awscc_neptune_db_subnet_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_subnet_groups awscc_neptune_db_subnet_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptuneDbSubnetGroups.DataAwsccNeptuneDbSubnetGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccNeptuneDbSubnetGr
 
 The id of the existing DataAwsccNeptuneDbSubnetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_subnet_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_subnet_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

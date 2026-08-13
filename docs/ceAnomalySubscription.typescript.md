@@ -4,7 +4,7 @@
 
 ### CeAnomalySubscription <a name="CeAnomalySubscription" id="@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription awscc_ce_anomaly_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription awscc_ce_anomaly_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscription.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CeAnomalySubscription to i
 
 The id of the existing CeAnomalySubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1029,7 +1029,7 @@ public readonly frequency: string;
 
 The frequency at which anomaly reports are sent over email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
 
 ---
 
@@ -1043,7 +1043,7 @@ public readonly monitorArnList: string[];
 
 A list of cost anomaly monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#monitor_arn_list CeAnomalySubscription#monitor_arn_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#monitor_arn_list CeAnomalySubscription#monitor_arn_list}
 
 ---
 
@@ -1057,7 +1057,7 @@ public readonly subscribers: IResolvable | CeAnomalySubscriptionSubscribers[];
 
 A list of subscriber.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#subscribers CeAnomalySubscription#subscribers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#subscribers CeAnomalySubscription#subscribers}
 
 ---
 
@@ -1071,7 +1071,7 @@ public readonly subscriptionName: string;
 
 The name of the subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#subscription_name CeAnomalySubscription#subscription_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#subscription_name CeAnomalySubscription#subscription_name}
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly resourceTags: IResolvable | CeAnomalySubscriptionResourceTags[];
 
 Tags to assign to subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#resource_tags CeAnomalySubscription#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#resource_tags CeAnomalySubscription#resource_tags}
 
 ---
 
@@ -1099,7 +1099,7 @@ public readonly threshold: number;
 
 The dollar value that triggers a notification if the threshold is exceeded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
 
 ---
 
@@ -1113,7 +1113,7 @@ public readonly thresholdExpression: string;
 
 An Expression object in JSON String format used to specify the anomalies that you want to generate alerts for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#threshold_expression CeAnomalySubscription#threshold_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#threshold_expression CeAnomalySubscription#threshold_expression}
 
 ---
 
@@ -1146,7 +1146,7 @@ public readonly key: string;
 
 The key name for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#key CeAnomalySubscription#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#key CeAnomalySubscription#key}
 
 ---
 
@@ -1160,7 +1160,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#value CeAnomalySubscription#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#value CeAnomalySubscription#value}
 
 ---
 
@@ -1178,9 +1178,9 @@ const ceAnomalySubscriptionSubscribers: ceAnomalySubscription.CeAnomalySubscript
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscriptionSubscribers.property.address">address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}. |
-| <code><a href="#@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscriptionSubscribers.property.type">type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}. |
-| <code><a href="#@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscriptionSubscribers.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#status CeAnomalySubscription#status}. |
+| <code><a href="#@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscriptionSubscribers.property.address">address</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}. |
+| <code><a href="#@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscriptionSubscribers.property.type">type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}. |
+| <code><a href="#@cdktn/provider-awscc.ceAnomalySubscription.CeAnomalySubscriptionSubscribers.property.status">status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#status CeAnomalySubscription#status}. |
 
 ---
 
@@ -1192,7 +1192,7 @@ public readonly address: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}.
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly type: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}.
 
 ---
 
@@ -1216,7 +1216,7 @@ public readonly status: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_subscription#status CeAnomalySubscription#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_subscription#status CeAnomalySubscription#status}.
 
 ---
 

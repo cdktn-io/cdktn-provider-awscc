@@ -4,7 +4,7 @@
 
 ### DirectconnectConnection <a name="DirectconnectConnection" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection awscc_directconnect_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection awscc_directconnect_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectConnection.DirectconnectConnection.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The bandwidth of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID or ARN of the LAG to associate the connection with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the service provider associated with the requested connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether you want the connection to support MAC Security (MACsec).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags associated with the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
 
 ---
 
@@ -718,7 +718,7 @@ The construct id used in the generated config for the DirectconnectConnection to
 
 The id of the existing DirectconnectConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1237,7 +1237,7 @@ bandwidth: str
 
 The bandwidth of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
 
 ---
 
@@ -1251,7 +1251,7 @@ connection_name: str
 
 The name of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
 
 ---
 
@@ -1265,7 +1265,7 @@ location: str
 
 The location of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
 
 ---
 
@@ -1279,7 +1279,7 @@ lag_id: str
 
 The ID or ARN of the LAG to associate the connection with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
 
 ---
 
@@ -1293,7 +1293,7 @@ provider_name: str
 
 The name of the service provider associated with the requested connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
 
 ---
 
@@ -1307,7 +1307,7 @@ request_mac_sec: bool | IResolvable
 
 Indicates whether you want the connection to support MAC Security (MACsec).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
 
 ---
 
@@ -1321,7 +1321,7 @@ tags: IResolvable | typing.List[DirectconnectConnectionTags]
 
 The tags associated with the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
 
 ---
 
@@ -1359,7 +1359,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#key DirectconnectConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#key DirectconnectConnection#key}
 
 ---
 
@@ -1375,7 +1375,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_connection#value DirectconnectConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_connection#value DirectconnectConnection#value}
 
 ---
 

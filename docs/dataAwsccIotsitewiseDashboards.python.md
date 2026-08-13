@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseDashboards <a name="DataAwsccIotsitewiseDashboards" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDashboards.DataAwsccIotsitewiseDashboards.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseDashbo
 
 The id of the existing DataAwsccIotsitewiseDashboards that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_dashboards#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_dashboards#import import section} in the documentation of this resource for the id to use
 
 ---
 

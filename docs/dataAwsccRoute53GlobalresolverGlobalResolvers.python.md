@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53GlobalresolverGlobalResolvers <a name="DataAwsccRoute53GlobalresolverGlobalResolvers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverGlobalResolvers.DataAwsccRoute53GlobalresolverGlobalResolvers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverGlobalResolvers.DataAwsccRoute53GlobalresolverGlobalResolvers.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRoute53Globalreso
 
 The id of the existing DataAwsccRoute53GlobalresolverGlobalResolvers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53globalresolver_global_resolvers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53globalresolver_global_resolvers#import import section} in the documentation of this resource for the id to use
 
 ---
 

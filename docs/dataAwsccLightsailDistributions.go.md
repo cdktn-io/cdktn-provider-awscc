@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailDistributions <a name="DataAwsccLightsailDistributions" id="@cdktn/provider-awscc.dataAwsccLightsailDistributions.DataAwsccLightsailDistributions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_distributions awscc_lightsail_distributions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_distributions awscc_lightsail_distributions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDistributions.DataAwsccLightsailDistributions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailDistribu
 
 The id of the existing DataAwsccLightsailDistributions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_distributions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_distributions#import import section} in the documentation of this resource for the id to use
 
 ---
 

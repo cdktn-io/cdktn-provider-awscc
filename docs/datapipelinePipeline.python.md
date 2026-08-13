@@ -4,7 +4,7 @@
 
 ### DatapipelinePipeline <a name="DatapipelinePipeline" id="@cdktn/provider-awscc.datapipelinePipeline.DatapipelinePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline awscc_datapipeline_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline awscc_datapipeline_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datapipelinePipeline.DatapipelinePipeline.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#name DatapipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#name DatapipelinePipeline#name}
 
 ---
 
@@ -130,7 +130,7 @@ Indicates whether to validate and start the pipeline or stop an active pipeline.
 
 By default, the value is set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#activate DatapipelinePipeline#activate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#activate DatapipelinePipeline#activate}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#description DatapipelinePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#description DatapipelinePipeline#description}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The parameter objects used with the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#parameter_objects DatapipelinePipeline#parameter_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#parameter_objects DatapipelinePipeline#parameter_objects}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The parameter values used with the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#parameter_values DatapipelinePipeline#parameter_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#parameter_values DatapipelinePipeline#parameter_values}
 
 ---
 
@@ -172,7 +172,7 @@ The objects that define the pipeline.
 
 These objects overwrite the existing pipeline definition. Not all objects, fields, and values can be updated. For information about restrictions, see Editing Your Pipeline in the AWS Data Pipeline Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#pipeline_objects DatapipelinePipeline#pipeline_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#pipeline_objects DatapipelinePipeline#pipeline_objects}
 
 ---
 
@@ -184,7 +184,7 @@ A list of arbitrary tags (key-value pairs) to associate with the pipeline, which
 
 For more information, see Controlling Access to Pipelines and Resources in the AWS Data Pipeline Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#pipeline_tags DatapipelinePipeline#pipeline_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#pipeline_tags DatapipelinePipeline#pipeline_tags}
 
 ---
 
@@ -783,7 +783,7 @@ The construct id used in the generated config for the DatapipelinePipeline to im
 
 The id of the existing DatapipelinePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1280,7 +1280,7 @@ name: str
 
 The name of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#name DatapipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#name DatapipelinePipeline#name}
 
 ---
 
@@ -1296,7 +1296,7 @@ Indicates whether to validate and start the pipeline or stop an active pipeline.
 
 By default, the value is set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#activate DatapipelinePipeline#activate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#activate DatapipelinePipeline#activate}
 
 ---
 
@@ -1310,7 +1310,7 @@ description: str
 
 A description of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#description DatapipelinePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#description DatapipelinePipeline#description}
 
 ---
 
@@ -1324,7 +1324,7 @@ parameter_objects: IResolvable | typing.List[DatapipelinePipelineParameterObject
 
 The parameter objects used with the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#parameter_objects DatapipelinePipeline#parameter_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#parameter_objects DatapipelinePipeline#parameter_objects}
 
 ---
 
@@ -1338,7 +1338,7 @@ parameter_values: IResolvable | typing.List[DatapipelinePipelineParameterValues]
 
 The parameter values used with the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#parameter_values DatapipelinePipeline#parameter_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#parameter_values DatapipelinePipeline#parameter_values}
 
 ---
 
@@ -1354,7 +1354,7 @@ The objects that define the pipeline.
 
 These objects overwrite the existing pipeline definition. Not all objects, fields, and values can be updated. For information about restrictions, see Editing Your Pipeline in the AWS Data Pipeline Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#pipeline_objects DatapipelinePipeline#pipeline_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#pipeline_objects DatapipelinePipeline#pipeline_objects}
 
 ---
 
@@ -1370,7 +1370,7 @@ A list of arbitrary tags (key-value pairs) to associate with the pipeline, which
 
 For more information, see Controlling Access to Pipelines and Resources in the AWS Data Pipeline Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#pipeline_tags DatapipelinePipeline#pipeline_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#pipeline_tags DatapipelinePipeline#pipeline_tags}
 
 ---
 
@@ -1406,7 +1406,7 @@ attributes: IResolvable | typing.List[DatapipelinePipelineParameterObjectsAttrib
 
 The attributes of the parameter object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#attributes DatapipelinePipeline#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#attributes DatapipelinePipeline#attributes}
 
 ---
 
@@ -1420,7 +1420,7 @@ id: str
 
 The ID of the parameter object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#id DatapipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#id DatapipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1459,7 +1459,7 @@ key: str
 
 The field identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#key DatapipelinePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#key DatapipelinePipeline#key}
 
 ---
 
@@ -1473,7 +1473,7 @@ string_value: str
 
 The field value, expressed as a String.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#string_value DatapipelinePipeline#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#string_value DatapipelinePipeline#string_value}
 
 ---
 
@@ -1509,7 +1509,7 @@ id: str
 
 The ID of the parameter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#id DatapipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#id DatapipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1526,7 +1526,7 @@ string_value: str
 
 The field value, expressed as a String.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#string_value DatapipelinePipeline#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#string_value DatapipelinePipeline#string_value}
 
 ---
 
@@ -1564,7 +1564,7 @@ fields: IResolvable | typing.List[DatapipelinePipelinePipelineObjectsFields]
 
 Key-value pairs that define the properties of the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#fields DatapipelinePipeline#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#fields DatapipelinePipeline#fields}
 
 ---
 
@@ -1578,7 +1578,7 @@ id: str
 
 The ID of the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#id DatapipelinePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#id DatapipelinePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1595,7 +1595,7 @@ name: str
 
 The name of the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#name DatapipelinePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#name DatapipelinePipeline#name}
 
 ---
 
@@ -1635,7 +1635,7 @@ Specifies the name of a field for a particular object.
 
 To view valid values for a particular field, see Pipeline Object Reference in the AWS Data Pipeline Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#key DatapipelinePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#key DatapipelinePipeline#key}
 
 ---
 
@@ -1649,7 +1649,7 @@ ref_value: str
 
 A field value that you specify as an identifier of another object in the same pipeline definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#ref_value DatapipelinePipeline#ref_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#ref_value DatapipelinePipeline#ref_value}
 
 ---
 
@@ -1665,7 +1665,7 @@ A field value that you specify as a string.
 
 To view valid values for a particular field, see Pipeline Object Reference in the AWS Data Pipeline Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#string_value DatapipelinePipeline#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#string_value DatapipelinePipeline#string_value}
 
 ---
 
@@ -1701,7 +1701,7 @@ key: str
 
 The key name of a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#key DatapipelinePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#key DatapipelinePipeline#key}
 
 ---
 
@@ -1715,7 +1715,7 @@ value: str
 
 The value to associate with the key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datapipeline_pipeline#value DatapipelinePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datapipeline_pipeline#value DatapipelinePipeline#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogappregistryApplications <a name="DataAwsccServicecatalogappregistryApplications" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryApplications.DataAwsccServicecatalogappregistryApplications.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogapp
 
 The id of the existing DataAwsccServicecatalogappregistryApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

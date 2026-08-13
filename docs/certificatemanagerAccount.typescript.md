@@ -4,7 +4,7 @@
 
 ### CertificatemanagerAccount <a name="CertificatemanagerAccount" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccount.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the CertificatemanagerAccount 
 
 The id of the existing CertificatemanagerAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -762,7 +762,7 @@ const certificatemanagerAccountConfig: certificatemanagerAccount.Certificatemana
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.expiryEventsConfiguration">expiryEventsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountConfig.property.expiryEventsConfiguration">expiryEventsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}. |
 
 ---
 
@@ -844,7 +844,7 @@ public readonly expiryEventsConfiguration: CertificatemanagerAccountExpiryEvents
 
 - *Type:* <a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration">CertificatemanagerAccountExpiryEventsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
 
 ---
 
@@ -862,7 +862,7 @@ const certificatemanagerAccountExpiryEventsConfiguration: certificatemanagerAcco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.property.daysBeforeExpiry">daysBeforeExpiry</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerAccount.CertificatemanagerAccountExpiryEventsConfiguration.property.daysBeforeExpiry">daysBeforeExpiry</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}. |
 
 ---
 
@@ -874,7 +874,7 @@ public readonly daysBeforeExpiry: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account#days_before_expiry CertificatemanagerAccount#days_before_expiry}.
 
 ---
 

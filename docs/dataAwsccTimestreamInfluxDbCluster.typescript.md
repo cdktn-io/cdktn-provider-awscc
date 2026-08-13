@@ -4,7 +4,7 @@
 
 ### DataAwsccTimestreamInfluxDbCluster <a name="DataAwsccTimestreamInfluxDbCluster" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccTimestreamInfluxD
 
 The id of the existing DataAwsccTimestreamInfluxDbCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -428,8 +428,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.influxAuthParametersSecretArn">influxAuthParametersSecretArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.influxDbClusterId">influxDbClusterId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.logDeliveryConfiguration">logDeliveryConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationOutputReference">DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.maintenanceSchedule">maintenanceSchedule</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference">DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.networkType">networkType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.nextMaintenanceTime">nextMaintenanceTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.organization">organization</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.password">password</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.port">port</a></code> | <code>number</code> | *No description.* |
@@ -697,6 +699,16 @@ public readonly logDeliveryConfiguration: DataAwsccTimestreamInfluxDbClusterLogD
 
 ---
 
+##### `maintenanceSchedule`<sup>Required</sup> <a name="maintenanceSchedule" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.maintenanceSchedule"></a>
+
+```typescript
+public readonly maintenanceSchedule: DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference">DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference</a>
+
+---
+
 ##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.name"></a>
 
 ```typescript
@@ -711,6 +723,16 @@ public readonly name: string;
 
 ```typescript
 public readonly networkType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `nextMaintenanceTime`<sup>Required</sup> <a name="nextMaintenanceTime" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbCluster.property.nextMaintenanceTime"></a>
+
+```typescript
+public readonly nextMaintenanceTime: string;
 ```
 
 - *Type:* string
@@ -962,7 +984,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster#id DataAwsccTimestreamInfluxDbCluster#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster#id DataAwsccTimestreamInfluxDbCluster#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -988,6 +1010,17 @@ const dataAwsccTimestreamInfluxDbClusterLogDeliveryConfiguration: dataAwsccTimes
 import { dataAwsccTimestreamInfluxDbCluster } from '@cdktn/provider-awscc'
 
 const dataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationS3Configuration: dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationS3Configuration = { ... }
+```
+
+
+### DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule <a name="DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule.Initializer"></a>
+
+```typescript
+import { dataAwsccTimestreamInfluxDbCluster } from '@cdktn/provider-awscc'
+
+const dataAwsccTimestreamInfluxDbClusterMaintenanceSchedule: dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule = { ... }
 ```
 
 
@@ -1531,6 +1564,277 @@ public readonly internalValue: DataAwsccTimestreamInfluxDbClusterLogDeliveryConf
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationS3Configuration">DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationS3Configuration</a>
+
+---
+
+
+### DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference <a name="DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccTimestreamInfluxDbCluster } from '@cdktn/provider-awscc'
+
+new dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.preferredMaintenanceWindow">preferredMaintenanceWindow</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.timezone">timezone</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule">DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `preferredMaintenanceWindow`<sup>Required</sup> <a name="preferredMaintenanceWindow" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.preferredMaintenanceWindow"></a>
+
+```typescript
+public readonly preferredMaintenanceWindow: string;
+```
+
+- *Type:* string
+
+---
+
+##### `timezone`<sup>Required</sup> <a name="timezone" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.timezone"></a>
+
+```typescript
+public readonly timezone: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbCluster.DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule">DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule</a>
 
 ---
 

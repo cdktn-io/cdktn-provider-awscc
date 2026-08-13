@@ -4,7 +4,7 @@
 
 ### IotwirelessMulticastGroup <a name="IotwirelessMulticastGroup" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroup.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Multicast group LoRaWAN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Wireless device to associate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Multicast group description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Wireless device to disassociate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of Multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of key-value pairs that contain metadata for the Multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
 
 ---
 
@@ -571,7 +571,7 @@ def put_lo_ra_wan(
 
 Multicast group LoRaWAN DL Class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
 
 ---
 
@@ -581,7 +581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Multicast group LoRaWAN RF region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
 
 ---
 
@@ -743,7 +743,7 @@ The construct id used in the generated config for the IotwirelessMulticastGroup 
 
 The id of the existing IotwirelessMulticastGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1238,7 +1238,7 @@ lo_ra_wan: IotwirelessMulticastGroupLoRaWan
 
 Multicast group LoRaWAN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#lo_ra_wan IotwirelessMulticastGroup#lo_ra_wan}
 
 ---
 
@@ -1252,7 +1252,7 @@ associate_wireless_device: str
 
 Wireless device to associate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#associate_wireless_device IotwirelessMulticastGroup#associate_wireless_device}
 
 ---
 
@@ -1266,7 +1266,7 @@ description: str
 
 Multicast group description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#description IotwirelessMulticastGroup#description}
 
 ---
 
@@ -1280,7 +1280,7 @@ disassociate_wireless_device: str
 
 Wireless device to disassociate. Only for update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#disassociate_wireless_device IotwirelessMulticastGroup#disassociate_wireless_device}
 
 ---
 
@@ -1294,7 +1294,7 @@ name: str
 
 Name of Multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#name IotwirelessMulticastGroup#name}
 
 ---
 
@@ -1308,7 +1308,7 @@ tags: IResolvable | typing.List[IotwirelessMulticastGroupTags]
 
 A list of key-value pairs that contain metadata for the Multicast group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#tags IotwirelessMulticastGroup#tags}
 
 ---
 
@@ -1344,7 +1344,7 @@ dl_class: str
 
 Multicast group LoRaWAN DL Class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#dl_class IotwirelessMulticastGroup#dl_class}
 
 ---
 
@@ -1358,7 +1358,7 @@ rf_region: str
 
 Multicast group LoRaWAN RF region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#rf_region IotwirelessMulticastGroup#rf_region}
 
 ---
 
@@ -1379,8 +1379,8 @@ iotwirelessMulticastGroup.IotwirelessMulticastGroupTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotwirelessMulticastGroup.IotwirelessMulticastGroupTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}. |
 
 ---
 
@@ -1392,7 +1392,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#key IotwirelessMulticastGroup#key}.
 
 ---
 
@@ -1404,7 +1404,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_multicast_group#value IotwirelessMulticastGroup#value}.
 
 ---
 

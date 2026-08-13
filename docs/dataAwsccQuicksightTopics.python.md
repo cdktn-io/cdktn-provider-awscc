@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightTopics <a name="DataAwsccQuicksightTopics" id="@cdktn/provider-awscc.dataAwsccQuicksightTopics.DataAwsccQuicksightTopics"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/quicksight_topics awscc_quicksight_topics}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_topics awscc_quicksight_topics}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTopics.DataAwsccQuicksightTopics.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccQuicksightTopics 
 
 The id of the existing DataAwsccQuicksightTopics that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/quicksight_topics#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_topics#import import section} in the documentation of this resource for the id to use
 
 ---
 

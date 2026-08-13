@@ -4,7 +4,7 @@
 
 ### ElasticacheParameterGroup <a name="ElasticacheParameterGroup" id="@cdktn/provider-awscc.elasticacheParameterGroup.ElasticacheParameterGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheParameterGroup.ElasticacheParameterGroup.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the cache parameter group family that this cache parameter group is compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#cache_parameter_group_family ElasticacheParameterGroup#cache_parameter_group_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#cache_parameter_group_family ElasticacheParameterGroup#cache_parameter_group_family}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description for this cache parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#description ElasticacheParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#description ElasticacheParameterGroup#description}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A comma-delimited list of parameter name/value pairs. For more information see ModifyCacheParameterGroup in the Amazon ElastiCache API Reference Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#properties ElasticacheParameterGroup#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#properties ElasticacheParameterGroup#properties}
 
 ---
 
@@ -144,7 +144,7 @@ Tags are composed of a Key/Value pair.
 
 You can use tags to categorize and track each parameter group. The tag value null is permitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#tags ElasticacheParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#tags ElasticacheParameterGroup#tags}
 
 ---
 
@@ -670,7 +670,7 @@ The construct id used in the generated config for the ElasticacheParameterGroup 
 
 The id of the existing ElasticacheParameterGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1095,7 +1095,7 @@ cache_parameter_group_family: str
 
 The name of the cache parameter group family that this cache parameter group is compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#cache_parameter_group_family ElasticacheParameterGroup#cache_parameter_group_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#cache_parameter_group_family ElasticacheParameterGroup#cache_parameter_group_family}
 
 ---
 
@@ -1109,7 +1109,7 @@ description: str
 
 The description for this cache parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#description ElasticacheParameterGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#description ElasticacheParameterGroup#description}
 
 ---
 
@@ -1123,7 +1123,7 @@ properties: typing.Mapping[str]
 
 A comma-delimited list of parameter name/value pairs. For more information see ModifyCacheParameterGroup in the Amazon ElastiCache API Reference Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#properties ElasticacheParameterGroup#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#properties ElasticacheParameterGroup#properties}
 
 ---
 
@@ -1139,7 +1139,7 @@ Tags are composed of a Key/Value pair.
 
 You can use tags to categorize and track each parameter group. The tag value null is permitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#tags ElasticacheParameterGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#tags ElasticacheParameterGroup#tags}
 
 ---
 
@@ -1160,8 +1160,8 @@ elasticacheParameterGroup.ElasticacheParameterGroupTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.elasticacheParameterGroup.ElasticacheParameterGroupTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#key ElasticacheParameterGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheParameterGroup.ElasticacheParameterGroupTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#value ElasticacheParameterGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheParameterGroup.ElasticacheParameterGroupTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#key ElasticacheParameterGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheParameterGroup.ElasticacheParameterGroupTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#value ElasticacheParameterGroup#value}. |
 
 ---
 
@@ -1173,7 +1173,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#key ElasticacheParameterGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#key ElasticacheParameterGroup#key}.
 
 ---
 
@@ -1185,7 +1185,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_parameter_group#value ElasticacheParameterGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_parameter_group#value ElasticacheParameterGroup#value}.
 
 ---
 

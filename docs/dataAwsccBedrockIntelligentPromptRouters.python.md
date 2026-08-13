@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockIntelligentPromptRouters <a name="DataAwsccBedrockIntelligentPromptRouters" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouters.DataAwsccBedrockIntelligentPromptRouters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockIntelligentPromptRouters.DataAwsccBedrockIntelligentPromptRouters.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockIntelligen
 
 The id of the existing DataAwsccBedrockIntelligentPromptRouters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrock_intelligent_prompt_routers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_intelligent_prompt_routers#import import section} in the documentation of this resource for the id to use
 
 ---
 

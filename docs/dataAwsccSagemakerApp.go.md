@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerApp <a name="DataAwsccSagemakerApp" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_app awscc_sagemaker_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app awscc_sagemaker_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerApp.DataAwsccSagemakerApp.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerApp to i
 
 The id of the existing DataAwsccSagemakerApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_app#id DataAwsccSagemakerApp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app#id DataAwsccSagemakerApp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

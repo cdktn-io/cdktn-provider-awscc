@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspacesWorkspacesPools <a name="DataAwsccWorkspacesWorkspacesPools" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPools.DataAwsccWorkspacesWorkspacesPools"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspaces_workspaces_pools awscc_workspaces_workspaces_pools}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspaces_workspaces_pools awscc_workspaces_workspaces_pools}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesWorkspacesPools.DataAwsccWorkspacesWorkspacesPools.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesWorkspa
 
 The id of the existing DataAwsccWorkspacesWorkspacesPools that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspaces_workspaces_pools#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspaces_workspaces_pools#import import section} in the documentation of this resource for the id to use
 
 ---
 

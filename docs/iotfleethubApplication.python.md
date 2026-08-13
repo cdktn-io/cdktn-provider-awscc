@@ -4,7 +4,7 @@
 
 ### IotfleethubApplication <a name="IotfleethubApplication" id="@cdktn/provider-awscc.iotfleethubApplication.IotfleethubApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application awscc_iotfleethub_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application awscc_iotfleethub_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotfleethubApplication.IotfleethubApplication.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Application Name, should be between 1 and 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#application_name IotfleethubApplication#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#application_name IotfleethubApplication#application_name}
 
 ---
 
@@ -124,7 +124,7 @@ The ARN of the role that the web application assumes when it interacts with AWS 
 
 For more info on configuring this attribute, see https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_CreateApplication.html#API_iotfleethub_CreateApplication_RequestSyntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#role_arn IotfleethubApplication#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#role_arn IotfleethubApplication#role_arn}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Application Description, should be between 1 and 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#application_description IotfleethubApplication#application_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#application_description IotfleethubApplication#application_description}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of key-value pairs that contain metadata for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#tags IotfleethubApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#tags IotfleethubApplication#tags}
 
 ---
 
@@ -670,7 +670,7 @@ The construct id used in the generated config for the IotfleethubApplication to 
 
 The id of the existing IotfleethubApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1172,7 +1172,7 @@ application_name: str
 
 Application Name, should be between 1 and 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#application_name IotfleethubApplication#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#application_name IotfleethubApplication#application_name}
 
 ---
 
@@ -1188,7 +1188,7 @@ The ARN of the role that the web application assumes when it interacts with AWS 
 
 For more info on configuring this attribute, see https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_CreateApplication.html#API_iotfleethub_CreateApplication_RequestSyntax
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#role_arn IotfleethubApplication#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#role_arn IotfleethubApplication#role_arn}
 
 ---
 
@@ -1202,7 +1202,7 @@ application_description: str
 
 Application Description, should be between 1 and 2048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#application_description IotfleethubApplication#application_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#application_description IotfleethubApplication#application_description}
 
 ---
 
@@ -1216,7 +1216,7 @@ tags: IResolvable | typing.List[IotfleethubApplicationTags]
 
 A list of key-value pairs that contain metadata for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#tags IotfleethubApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#tags IotfleethubApplication#tags}
 
 ---
 
@@ -1254,7 +1254,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#key IotfleethubApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#key IotfleethubApplication#key}
 
 ---
 
@@ -1270,7 +1270,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#value IotfleethubApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#value IotfleethubApplication#value}
 
 ---
 

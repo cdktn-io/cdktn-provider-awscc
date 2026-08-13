@@ -4,7 +4,7 @@
 
 ### ConnectContactFlowModule <a name="ConnectContactFlowModule" id="@cdktn/provider-awscc.connectContactFlowModule.ConnectContactFlowModule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module awscc_connect_contact_flow_module}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module awscc_connect_contact_flow_module}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlowModule.ConnectContactFlowModule.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The content of the contact flow module in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the Amazon Connect instance (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the contact flow module.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the contact flow module.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Defines the external invocation configuration of the flow module resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The schema of the settings for contact flow module in JSON Schema V4 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The state of the contact flow module.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
 
 ---
 
@@ -698,7 +698,7 @@ The construct id used in the generated config for the ConnectContactFlowModule t
 
 The id of the existing ConnectContactFlowModule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1230,7 +1230,7 @@ public java.lang.String getContent();
 
 The content of the contact flow module in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
 
 ---
 
@@ -1244,7 +1244,7 @@ public java.lang.String getInstanceArn();
 
 The identifier of the Amazon Connect instance (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
 
 ---
 
@@ -1258,7 +1258,7 @@ public java.lang.String getName();
 
 The name of the contact flow module.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
 
 ---
 
@@ -1272,7 +1272,7 @@ public java.lang.String getDescription();
 
 The description of the contact flow module.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ public ConnectContactFlowModuleExternalInvocationConfiguration getExternalInvoca
 
 Defines the external invocation configuration of the flow module resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
 
 ---
 
@@ -1300,7 +1300,7 @@ public java.lang.String getSettings();
 
 The schema of the settings for contact flow module in JSON Schema V4 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
 
 ---
 
@@ -1314,7 +1314,7 @@ public java.lang.String getState();
 
 The state of the contact flow module.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
 
 ---
 
@@ -1328,7 +1328,7 @@ public IResolvable|java.util.List<ConnectContactFlowModuleTags> getTags();
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
 
 ---
 
@@ -1362,7 +1362,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Specifies whether the flow module resource is enabled for external invocation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#enabled ConnectContactFlowModule#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#enabled ConnectContactFlowModule#enabled}
 
 ---
 
@@ -1400,7 +1400,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#key ConnectContactFlowModule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#key ConnectContactFlowModule#key}
 
 ---
 
@@ -1416,7 +1416,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module#value ConnectContactFlowModule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module#value ConnectContactFlowModule#value}
 
 ---
 

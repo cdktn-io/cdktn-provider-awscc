@@ -4,7 +4,7 @@
 
 ### TransferCertificate <a name="TransferCertificate" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate awscc_transfer_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate awscc_transfer_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferCertificate.TransferCertificate.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the TransferCertificate to imp
 
 The id of the existing TransferCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1131,7 +1131,7 @@ public string Certificate { get; set; }
 
 Specifies the certificate body to be imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#certificate TransferCertificate#certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#certificate TransferCertificate#certificate}
 
 ---
 
@@ -1145,7 +1145,7 @@ public string Usage { get; set; }
 
 Specifies the usage type for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#usage TransferCertificate#usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#usage TransferCertificate#usage}
 
 ---
 
@@ -1159,7 +1159,7 @@ public string ActiveDate { get; set; }
 
 Specifies the active date for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#active_date TransferCertificate#active_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#active_date TransferCertificate#active_date}
 
 ---
 
@@ -1173,7 +1173,7 @@ public string CertificateChain { get; set; }
 
 Specifies the certificate chain to be imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#certificate_chain TransferCertificate#certificate_chain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#certificate_chain TransferCertificate#certificate_chain}
 
 ---
 
@@ -1187,7 +1187,7 @@ public string Description { get; set; }
 
 A textual description for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#description TransferCertificate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#description TransferCertificate#description}
 
 ---
 
@@ -1201,7 +1201,7 @@ public string InactiveDate { get; set; }
 
 Specifies the inactive date for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#inactive_date TransferCertificate#inactive_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#inactive_date TransferCertificate#inactive_date}
 
 ---
 
@@ -1215,7 +1215,7 @@ public string PrivateKey { get; set; }
 
 Specifies the private key for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#private_key TransferCertificate#private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#private_key TransferCertificate#private_key}
 
 ---
 
@@ -1231,7 +1231,7 @@ Key-value pairs that can be used to group and search for certificates.
 
 Tags are metadata attached to certificates for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#tags TransferCertificate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#tags TransferCertificate#tags}
 
 ---
 
@@ -1269,7 +1269,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#key TransferCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#key TransferCertificate#key}
 
 ---
 
@@ -1285,7 +1285,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_certificate#value TransferCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_certificate#value TransferCertificate#value}
 
 ---
 

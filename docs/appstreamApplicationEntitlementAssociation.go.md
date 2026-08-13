@@ -4,7 +4,7 @@
 
 ### AppstreamApplicationEntitlementAssociation <a name="AppstreamApplicationEntitlementAssociation" id="@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the AppstreamApplicationEntitl
 
 The id of the existing AppstreamApplicationEntitlementAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -793,9 +793,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamapplicationen
 | <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.applicationIdentifier">ApplicationIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#application_identifier AppstreamApplicationEntitlementAssociation#application_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.entitlementName">EntitlementName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#entitlement_name AppstreamApplicationEntitlementAssociation#entitlement_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.stackName">StackName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#stack_name AppstreamApplicationEntitlementAssociation#stack_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.applicationIdentifier">ApplicationIdentifier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#application_identifier AppstreamApplicationEntitlementAssociation#application_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.entitlementName">EntitlementName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#entitlement_name AppstreamApplicationEntitlementAssociation#entitlement_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamApplicationEntitlementAssociation.AppstreamApplicationEntitlementAssociationConfig.property.stackName">StackName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#stack_name AppstreamApplicationEntitlementAssociation#stack_name}. |
 
 ---
 
@@ -877,7 +877,7 @@ ApplicationIdentifier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#application_identifier AppstreamApplicationEntitlementAssociation#application_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#application_identifier AppstreamApplicationEntitlementAssociation#application_identifier}.
 
 ---
 
@@ -889,7 +889,7 @@ EntitlementName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#entitlement_name AppstreamApplicationEntitlementAssociation#entitlement_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#entitlement_name AppstreamApplicationEntitlementAssociation#entitlement_name}.
 
 ---
 
@@ -901,7 +901,7 @@ StackName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_application_entitlement_association#stack_name AppstreamApplicationEntitlementAssociation#stack_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_application_entitlement_association#stack_name AppstreamApplicationEntitlementAssociation#stack_name}.
 
 ---
 

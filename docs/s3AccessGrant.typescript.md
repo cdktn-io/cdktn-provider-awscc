@@ -4,7 +4,7 @@
 
 ### S3AccessGrant <a name="S3AccessGrant" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant awscc_s3_access_grant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant awscc_s3_access_grant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrant.S3AccessGrant.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the S3AccessGrant to import.
 
 The id of the existing S3AccessGrant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -977,7 +977,7 @@ public readonly s3SubPrefix: string;
 
 The S3 sub prefix of a registered location in your S3 Access Grants instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#s3_sub_prefix S3AccessGrant#s3_sub_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#s3_sub_prefix S3AccessGrant#s3_sub_prefix}
 
 ---
 
@@ -1008,7 +1008,7 @@ const s3AccessGrantConfig: s3AccessGrant.S3AccessGrantConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.accessGrantsLocationConfiguration">accessGrantsLocationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantAccessGrantsLocationConfiguration">S3AccessGrantAccessGrantsLocationConfiguration</a></code> | The configuration options of the grant location, which is the S3 path to the data to which you are granting access. |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.applicationArn">applicationArn</a></code> | <code>string</code> | The ARN of the application grantees will use to access the location. |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.s3PrefixType">s3PrefixType</a></code> | <code>string</code> | The type of S3SubPrefix. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags">S3AccessGrantTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags">S3AccessGrantTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}. |
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly accessGrantsLocationId: string;
 
 The custom S3 location to be accessed by the grantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#access_grants_location_id S3AccessGrant#access_grants_location_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#access_grants_location_id S3AccessGrant#access_grants_location_id}
 
 ---
 
@@ -1106,7 +1106,7 @@ public readonly grantee: S3AccessGrantGrantee;
 
 The principal who will be granted permission to access S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#grantee S3AccessGrant#grantee}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#grantee S3AccessGrant#grantee}
 
 ---
 
@@ -1120,7 +1120,7 @@ public readonly permission: string;
 
 The level of access to be afforded to the grantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#permission S3AccessGrant#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#permission S3AccessGrant#permission}
 
 ---
 
@@ -1134,7 +1134,7 @@ public readonly accessGrantsLocationConfiguration: S3AccessGrantAccessGrantsLoca
 
 The configuration options of the grant location, which is the S3 path to the data to which you are granting access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#access_grants_location_configuration S3AccessGrant#access_grants_location_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#access_grants_location_configuration S3AccessGrant#access_grants_location_configuration}
 
 ---
 
@@ -1148,7 +1148,7 @@ public readonly applicationArn: string;
 
 The ARN of the application grantees will use to access the location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#application_arn S3AccessGrant#application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#application_arn S3AccessGrant#application_arn}
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly s3PrefixType: string;
 
 The type of S3SubPrefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#s3_prefix_type S3AccessGrant#s3_prefix_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#s3_prefix_type S3AccessGrant#s3_prefix_type}
 
 ---
 
@@ -1174,7 +1174,7 @@ public readonly tags: IResolvable | S3AccessGrantTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags">S3AccessGrantTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#tags S3AccessGrant#tags}.
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly granteeIdentifier: string;
 
 The unique identifier of the Grantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#grantee_identifier S3AccessGrant#grantee_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#grantee_identifier S3AccessGrant#grantee_identifier}
 
 ---
 
@@ -1221,7 +1221,7 @@ public readonly granteeType: string;
 
 Configures the transfer acceleration state for an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#grantee_type S3AccessGrant#grantee_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#grantee_type S3AccessGrant#grantee_type}
 
 ---
 
@@ -1239,8 +1239,8 @@ const s3AccessGrantTags: s3AccessGrant.S3AccessGrantTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#key S3AccessGrant#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#value S3AccessGrant#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#key S3AccessGrant#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrant.S3AccessGrantTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#value S3AccessGrant#value}. |
 
 ---
 
@@ -1252,7 +1252,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#key S3AccessGrant#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#key S3AccessGrant#key}.
 
 ---
 
@@ -1264,7 +1264,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3_access_grant#value S3AccessGrant#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_access_grant#value S3AccessGrant#value}.
 
 ---
 

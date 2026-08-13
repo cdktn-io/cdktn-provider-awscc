@@ -4,7 +4,7 @@
 
 ### Resiliencehubv2System <a name="Resiliencehubv2System" id="@cdktn/provider-awscc.resiliencehubv2System.Resiliencehubv2System"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2System.Resiliencehubv2System.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#name Resiliencehubv2System#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#name Resiliencehubv2System#name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#description Resiliencehubv2System#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#description Resiliencehubv2System#description}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The KMS key ID for encrypting system data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#kms_key_id Resiliencehubv2System#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#kms_key_id Resiliencehubv2System#kms_key_id}
 
 ---
 
@@ -144,7 +144,7 @@ Whether the system is enabled to be shared with other members of the Organizatio
 
 Only applicable if the system owner is a management account or delegated admin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#sharing_enabled Resiliencehubv2System#sharing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#sharing_enabled Resiliencehubv2System#sharing_enabled}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags assigned to the system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#tags Resiliencehubv2System#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#tags Resiliencehubv2System#tags}
 
 ---
 
@@ -644,7 +644,7 @@ The construct id used in the generated config for the Resiliencehubv2System to i
 
 The id of the existing Resiliencehubv2System that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1126,7 +1126,7 @@ public java.lang.String getName();
 
 The name of the system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#name Resiliencehubv2System#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#name Resiliencehubv2System#name}
 
 ---
 
@@ -1140,7 +1140,7 @@ public java.lang.String getDescription();
 
 The description of the system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#description Resiliencehubv2System#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#description Resiliencehubv2System#description}
 
 ---
 
@@ -1154,7 +1154,7 @@ public java.lang.String getKmsKeyId();
 
 The KMS key ID for encrypting system data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#kms_key_id Resiliencehubv2System#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#kms_key_id Resiliencehubv2System#kms_key_id}
 
 ---
 
@@ -1170,7 +1170,7 @@ Whether the system is enabled to be shared with other members of the Organizatio
 
 Only applicable if the system owner is a management account or delegated admin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#sharing_enabled Resiliencehubv2System#sharing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#sharing_enabled Resiliencehubv2System#sharing_enabled}
 
 ---
 
@@ -1184,7 +1184,7 @@ public IResolvable|java.util.List<Resiliencehubv2SystemTags> getTags();
 
 Tags assigned to the system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#tags Resiliencehubv2System#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#tags Resiliencehubv2System#tags}
 
 ---
 
@@ -1220,7 +1220,7 @@ public java.lang.String getKey();
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#key Resiliencehubv2System#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#key Resiliencehubv2System#key}
 
 ---
 
@@ -1234,7 +1234,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#value Resiliencehubv2System#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#value Resiliencehubv2System#value}
 
 ---
 

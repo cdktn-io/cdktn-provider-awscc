@@ -4,7 +4,7 @@
 
 ### Route53RecoverycontrolControlPanel <a name="Route53RecoverycontrolControlPanel" id="@cdktn/provider-awscc.route53RecoverycontrolControlPanel.Route53RecoverycontrolControlPanel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoverycontrolControlPanel.Route53RecoverycontrolControlPanel.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Route53RecoverycontrolCont
 
 The id of the existing Route53RecoverycontrolControlPanel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ public readonly name: string;
 
 The name of the control panel. You can use any non-white space character in the name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#name Route53RecoverycontrolControlPanel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#name Route53RecoverycontrolControlPanel#name}
 
 ---
 
@@ -953,7 +953,7 @@ public readonly clusterArn: string;
 
 Cluster to associate with the Control Panel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#cluster_arn Route53RecoverycontrolControlPanel#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#cluster_arn Route53RecoverycontrolControlPanel#cluster_arn}
 
 ---
 
@@ -967,7 +967,7 @@ public readonly tags: IResolvable | Route53RecoverycontrolControlPanelTags[];
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#tags Route53RecoverycontrolControlPanel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#tags Route53RecoverycontrolControlPanel#tags}
 
 ---
 
@@ -985,8 +985,8 @@ const route53RecoverycontrolControlPanelTags: route53RecoverycontrolControlPanel
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53RecoverycontrolControlPanel.Route53RecoverycontrolControlPanelTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53RecoverycontrolControlPanel.Route53RecoverycontrolControlPanelTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoverycontrolControlPanel.Route53RecoverycontrolControlPanelTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoverycontrolControlPanel.Route53RecoverycontrolControlPanelTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}. |
 
 ---
 
@@ -998,7 +998,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}.
 
 ---
 
@@ -1010,7 +1010,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}.
 
 ---
 

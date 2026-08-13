@@ -4,7 +4,7 @@
 
 ### SagemakerProcessingJob <a name="SagemakerProcessingJob" id="@cdktn/provider-awscc.sagemakerProcessingJob.SagemakerProcessingJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job awscc_sagemaker_processing_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job awscc_sagemaker_processing_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerProcessingJob.SagemakerProcessingJob.Initializer"></a>
 
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 Configures the processing job to run a specified Docker container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#app_specification SagemakerProcessingJob#app_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#app_specification SagemakerProcessingJob#app_specification}
 
 ---
 
@@ -138,7 +138,7 @@ Identifies the resources, ML compute instances, and ML storage volumes to deploy
 
 In distributed training, you specify more than one instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_resources SagemakerProcessingJob#processing_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_resources SagemakerProcessingJob#processing_resources}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform tasks on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#role_arn SagemakerProcessingJob#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#role_arn SagemakerProcessingJob#role_arn}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Sets the environment variables in the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#environment SagemakerProcessingJob#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#environment SagemakerProcessingJob#environment}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Associates a SageMaker job as a trial component with an experiment and trial.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#experiment_config SagemakerProcessingJob#experiment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#experiment_config SagemakerProcessingJob#experiment_config}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Networking options for a job, such as network traffic encryption between containers, whether to allow inbound and outbound network calls to and from containers, and the VPC subnets and security groups to use for VPC-enabled jobs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#network_config SagemakerProcessingJob#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#network_config SagemakerProcessingJob#network_config}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of inputs configuring the data to download into the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_inputs SagemakerProcessingJob#processing_inputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_inputs SagemakerProcessingJob#processing_inputs}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the processing job. The name must be unique within an AWS Region in the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_job_name SagemakerProcessingJob#processing_job_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_job_name SagemakerProcessingJob#processing_job_name}
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for uploading output from the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_output_config SagemakerProcessingJob#processing_output_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_output_config SagemakerProcessingJob#processing_output_config}
 
 ---
 
@@ -220,7 +220,7 @@ Configures conditions under which the processing job should be stopped, such as 
 
 After the condition is met, the processing job is stopped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#stopping_condition SagemakerProcessingJob#stopping_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#stopping_condition SagemakerProcessingJob#stopping_condition}
 
 ---
 
@@ -232,7 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For more information, see Using Cost Allocation Tags(https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html#allocation-whatURL) in the AWS Billing and Cost Management User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#tags SagemakerProcessingJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#tags SagemakerProcessingJob#tags}
 
 ---
 
@@ -647,7 +647,7 @@ def put_app_specification(
 
 The container image to be run by the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#image_uri SagemakerProcessingJob#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#image_uri SagemakerProcessingJob#image_uri}
 
 ---
 
@@ -657,7 +657,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The arguments for a container used to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#container_arguments SagemakerProcessingJob#container_arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#container_arguments SagemakerProcessingJob#container_arguments}
 
 ---
 
@@ -667,7 +667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The entrypoint for a container used to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#container_entrypoint SagemakerProcessingJob#container_entrypoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#container_entrypoint SagemakerProcessingJob#container_entrypoint}
 
 ---
 
@@ -688,7 +688,7 @@ def put_experiment_config(
 
 The name of an existing experiment to associate with the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#experiment_name SagemakerProcessingJob#experiment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#experiment_name SagemakerProcessingJob#experiment_name}
 
 ---
 
@@ -698,7 +698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the experiment run to associate with the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#run_name SagemakerProcessingJob#run_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#run_name SagemakerProcessingJob#run_name}
 
 ---
 
@@ -710,7 +710,7 @@ The display name for the trial component.
 
 If this key isn't specified, the display name is the trial component name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#trial_component_display_name SagemakerProcessingJob#trial_component_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#trial_component_display_name SagemakerProcessingJob#trial_component_display_name}
 
 ---
 
@@ -722,7 +722,7 @@ The name of an existing trial to associate the trial component with.
 
 If not specified, a new trial is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#trial_name SagemakerProcessingJob#trial_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#trial_name SagemakerProcessingJob#trial_name}
 
 ---
 
@@ -744,7 +744,7 @@ Whether to encrypt all communications between distributed processing jobs.
 
 Choose True to encrypt communications. Encryption provides greater security for distributed processing jobs, but the processing might take longer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#enable_inter_container_traffic_encryption SagemakerProcessingJob#enable_inter_container_traffic_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#enable_inter_container_traffic_encryption SagemakerProcessingJob#enable_inter_container_traffic_encryption}
 
 ---
 
@@ -754,7 +754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to allow inbound and outbound network calls to and from the containers used for the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#enable_network_isolation SagemakerProcessingJob#enable_network_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#enable_network_isolation SagemakerProcessingJob#enable_network_isolation}
 
 ---
 
@@ -766,7 +766,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC. For more information, see https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#vpc_config SagemakerProcessingJob#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#vpc_config SagemakerProcessingJob#vpc_config}
 
 ---
 
@@ -801,7 +801,7 @@ The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encry
 
 KmsKeyId can be an ID of a KMS key, ARN of a KMS key, or alias of a KMS key. The KmsKeyId is applied to all outputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
 
 ---
 
@@ -811,7 +811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of outputs configuring the data to upload from the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#outputs SagemakerProcessingJob#outputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#outputs SagemakerProcessingJob#outputs}
 
 ---
 
@@ -829,7 +829,7 @@ def put_processing_resources(
 
 Configuration for the cluster used to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#cluster_config SagemakerProcessingJob#cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#cluster_config SagemakerProcessingJob#cluster_config}
 
 ---
 
@@ -847,7 +847,7 @@ def put_stopping_condition(
 
 Specifies the maximum runtime in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#max_runtime_in_seconds SagemakerProcessingJob#max_runtime_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#max_runtime_in_seconds SagemakerProcessingJob#max_runtime_in_seconds}
 
 ---
 
@@ -1027,7 +1027,7 @@ The construct id used in the generated config for the SagemakerProcessingJob to 
 
 The id of the existing SagemakerProcessingJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1630,7 +1630,7 @@ image_uri: str
 
 The container image to be run by the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#image_uri SagemakerProcessingJob#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#image_uri SagemakerProcessingJob#image_uri}
 
 ---
 
@@ -1644,7 +1644,7 @@ container_arguments: typing.List[str]
 
 The arguments for a container used to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#container_arguments SagemakerProcessingJob#container_arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#container_arguments SagemakerProcessingJob#container_arguments}
 
 ---
 
@@ -1658,7 +1658,7 @@ container_entrypoint: typing.List[str]
 
 The entrypoint for a container used to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#container_entrypoint SagemakerProcessingJob#container_entrypoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#container_entrypoint SagemakerProcessingJob#container_entrypoint}
 
 ---
 
@@ -1796,7 +1796,7 @@ app_specification: SagemakerProcessingJobAppSpecification
 
 Configures the processing job to run a specified Docker container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#app_specification SagemakerProcessingJob#app_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#app_specification SagemakerProcessingJob#app_specification}
 
 ---
 
@@ -1812,7 +1812,7 @@ Identifies the resources, ML compute instances, and ML storage volumes to deploy
 
 In distributed training, you specify more than one instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_resources SagemakerProcessingJob#processing_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_resources SagemakerProcessingJob#processing_resources}
 
 ---
 
@@ -1826,7 +1826,7 @@ role_arn: str
 
 The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform tasks on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#role_arn SagemakerProcessingJob#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#role_arn SagemakerProcessingJob#role_arn}
 
 ---
 
@@ -1840,7 +1840,7 @@ environment: typing.Mapping[str]
 
 Sets the environment variables in the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#environment SagemakerProcessingJob#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#environment SagemakerProcessingJob#environment}
 
 ---
 
@@ -1854,7 +1854,7 @@ experiment_config: SagemakerProcessingJobExperimentConfig
 
 Associates a SageMaker job as a trial component with an experiment and trial.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#experiment_config SagemakerProcessingJob#experiment_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#experiment_config SagemakerProcessingJob#experiment_config}
 
 ---
 
@@ -1868,7 +1868,7 @@ network_config: SagemakerProcessingJobNetworkConfig
 
 Networking options for a job, such as network traffic encryption between containers, whether to allow inbound and outbound network calls to and from containers, and the VPC subnets and security groups to use for VPC-enabled jobs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#network_config SagemakerProcessingJob#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#network_config SagemakerProcessingJob#network_config}
 
 ---
 
@@ -1882,7 +1882,7 @@ processing_inputs: IResolvable | typing.List[SagemakerProcessingJobProcessingInp
 
 An array of inputs configuring the data to download into the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_inputs SagemakerProcessingJob#processing_inputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_inputs SagemakerProcessingJob#processing_inputs}
 
 ---
 
@@ -1896,7 +1896,7 @@ processing_job_name: str
 
 The name of the processing job. The name must be unique within an AWS Region in the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_job_name SagemakerProcessingJob#processing_job_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_job_name SagemakerProcessingJob#processing_job_name}
 
 ---
 
@@ -1910,7 +1910,7 @@ processing_output_config: SagemakerProcessingJobProcessingOutputConfig
 
 Configuration for uploading output from the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#processing_output_config SagemakerProcessingJob#processing_output_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#processing_output_config SagemakerProcessingJob#processing_output_config}
 
 ---
 
@@ -1926,7 +1926,7 @@ Configures conditions under which the processing job should be stopped, such as 
 
 After the condition is met, the processing job is stopped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#stopping_condition SagemakerProcessingJob#stopping_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#stopping_condition SagemakerProcessingJob#stopping_condition}
 
 ---
 
@@ -1942,7 +1942,7 @@ tags: IResolvable | typing.List[SagemakerProcessingJobTags]
 
 For more information, see Using Cost Allocation Tags(https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html#allocation-whatURL) in the AWS Billing and Cost Management User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#tags SagemakerProcessingJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#tags SagemakerProcessingJob#tags}
 
 ---
 
@@ -1982,7 +1982,7 @@ experiment_name: str
 
 The name of an existing experiment to associate with the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#experiment_name SagemakerProcessingJob#experiment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#experiment_name SagemakerProcessingJob#experiment_name}
 
 ---
 
@@ -1996,7 +1996,7 @@ run_name: str
 
 The name of the experiment run to associate with the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#run_name SagemakerProcessingJob#run_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#run_name SagemakerProcessingJob#run_name}
 
 ---
 
@@ -2012,7 +2012,7 @@ The display name for the trial component.
 
 If this key isn't specified, the display name is the trial component name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#trial_component_display_name SagemakerProcessingJob#trial_component_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#trial_component_display_name SagemakerProcessingJob#trial_component_display_name}
 
 ---
 
@@ -2028,7 +2028,7 @@ The name of an existing trial to associate the trial component with.
 
 If not specified, a new trial is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#trial_name SagemakerProcessingJob#trial_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#trial_name SagemakerProcessingJob#trial_name}
 
 ---
 
@@ -2068,7 +2068,7 @@ Whether to encrypt all communications between distributed processing jobs.
 
 Choose True to encrypt communications. Encryption provides greater security for distributed processing jobs, but the processing might take longer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#enable_inter_container_traffic_encryption SagemakerProcessingJob#enable_inter_container_traffic_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#enable_inter_container_traffic_encryption SagemakerProcessingJob#enable_inter_container_traffic_encryption}
 
 ---
 
@@ -2082,7 +2082,7 @@ enable_network_isolation: bool | IResolvable
 
 Whether to allow inbound and outbound network calls to and from the containers used for the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#enable_network_isolation SagemakerProcessingJob#enable_network_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#enable_network_isolation SagemakerProcessingJob#enable_network_isolation}
 
 ---
 
@@ -2098,7 +2098,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC. For more information, see https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#vpc_config SagemakerProcessingJob#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#vpc_config SagemakerProcessingJob#vpc_config}
 
 ---
 
@@ -2136,7 +2136,7 @@ The VPC security group IDs, in the form 'sg-xxxxxxxx'.
 
 Specify the security groups for the VPC that is specified in the 'Subnets' field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#security_group_ids SagemakerProcessingJob#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#security_group_ids SagemakerProcessingJob#security_group_ids}
 
 ---
 
@@ -2152,7 +2152,7 @@ The ID of the subnets in the VPC to which you want to connect your training job 
 
 For information about the availability of specific instance types, see https://docs.aws.amazon.com/sagemaker/latest/dg/regions-quotas.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#subnets SagemakerProcessingJob#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#subnets SagemakerProcessingJob#subnets}
 
 ---
 
@@ -2194,7 +2194,7 @@ When True, input operations such as data download are managed natively by the pr
 
 When False (default), input operations are managed by Amazon SageMaker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#app_managed SagemakerProcessingJob#app_managed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#app_managed SagemakerProcessingJob#app_managed}
 
 ---
 
@@ -2208,7 +2208,7 @@ dataset_definition: SagemakerProcessingJobProcessingInputsDatasetDefinition
 
 Configuration for Dataset Definition inputs. The Dataset Definition input must specify exactly one of either `AthenaDatasetDefinition` or `RedshiftDatasetDefinition` types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#dataset_definition SagemakerProcessingJob#dataset_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#dataset_definition SagemakerProcessingJob#dataset_definition}
 
 ---
 
@@ -2222,7 +2222,7 @@ input_name: str
 
 The name for the processing job input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#input_name SagemakerProcessingJob#input_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#input_name SagemakerProcessingJob#input_name}
 
 ---
 
@@ -2236,7 +2236,7 @@ s3_input: SagemakerProcessingJobProcessingInputsS3Input
 
 Configuration for downloading input data from Amazon S3 into the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_input SagemakerProcessingJob#s3_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_input SagemakerProcessingJob#s3_input}
 
 ---
 
@@ -2278,7 +2278,7 @@ athena_dataset_definition: SagemakerProcessingJobProcessingInputsDatasetDefiniti
 
 Configuration for Athena Dataset Definition input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#athena_dataset_definition SagemakerProcessingJob#athena_dataset_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#athena_dataset_definition SagemakerProcessingJob#athena_dataset_definition}
 
 ---
 
@@ -2292,7 +2292,7 @@ data_distribution_type: str
 
 Whether the generated dataset is FullyReplicated or ShardedByS3Key (default).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#data_distribution_type SagemakerProcessingJob#data_distribution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#data_distribution_type SagemakerProcessingJob#data_distribution_type}
 
 ---
 
@@ -2308,7 +2308,7 @@ Whether to use File or Pipe input mode.
 
 In File (default) mode, Amazon SageMaker copies the data from the input source onto the local Amazon Elastic Block Store (Amazon EBS) volumes before starting your training algorithm. This is the most commonly used input mode. In Pipe mode, Amazon SageMaker streams input data from the source directly to your algorithm without using the EBS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#input_mode SagemakerProcessingJob#input_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#input_mode SagemakerProcessingJob#input_mode}
 
 ---
 
@@ -2324,7 +2324,7 @@ The local path where you want Amazon SageMaker to download the Dataset Definitio
 
 LocalPath is an absolute path to the input data. This is a required parameter when AppManaged is False (default).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
 
 ---
 
@@ -2338,7 +2338,7 @@ redshift_dataset_definition: SagemakerProcessingJobProcessingInputsDatasetDefini
 
 Configuration for Redshift Dataset Definition input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#redshift_dataset_definition SagemakerProcessingJob#redshift_dataset_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#redshift_dataset_definition SagemakerProcessingJob#redshift_dataset_definition}
 
 ---
 
@@ -2386,7 +2386,7 @@ catalog: str
 
 The name of the data catalog used in Athena query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#catalog SagemakerProcessingJob#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#catalog SagemakerProcessingJob#catalog}
 
 ---
 
@@ -2400,7 +2400,7 @@ database: str
 
 The name of the database used in the Athena query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
 
 ---
 
@@ -2414,7 +2414,7 @@ kms_key_id: str
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data generated from an Athena query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
 
 ---
 
@@ -2428,7 +2428,7 @@ output_compression: str
 
 The compression used for Athena query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
 
 ---
 
@@ -2442,7 +2442,7 @@ output_format: str
 
 The data storage format for Athena query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
 
 ---
 
@@ -2456,7 +2456,7 @@ output_s3_uri: str
 
 The location in Amazon S3 where Athena query results are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
 
 ---
 
@@ -2470,7 +2470,7 @@ query_string: str
 
 The SQL query statements, to be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
 
 ---
 
@@ -2484,7 +2484,7 @@ work_group: str
 
 The name of the workgroup in which the Athena query is being started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#work_group SagemakerProcessingJob#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#work_group SagemakerProcessingJob#work_group}
 
 ---
 
@@ -2534,7 +2534,7 @@ cluster_id: str
 
 The Redshift cluster Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#cluster_id SagemakerProcessingJob#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#cluster_id SagemakerProcessingJob#cluster_id}
 
 ---
 
@@ -2548,7 +2548,7 @@ cluster_role_arn: str
 
 The IAM role attached to your Redshift cluster that Amazon SageMaker uses to generate datasets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#cluster_role_arn SagemakerProcessingJob#cluster_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#cluster_role_arn SagemakerProcessingJob#cluster_role_arn}
 
 ---
 
@@ -2562,7 +2562,7 @@ database: str
 
 The name of the Redshift database used in Redshift query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
 
 ---
 
@@ -2576,7 +2576,7 @@ db_user: str
 
 The database user name used in Redshift query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#db_user SagemakerProcessingJob#db_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#db_user SagemakerProcessingJob#db_user}
 
 ---
 
@@ -2590,7 +2590,7 @@ kms_key_id: str
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data from a Redshift execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
 
 ---
 
@@ -2604,7 +2604,7 @@ output_compression: str
 
 The compression used for Redshift query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
 
 ---
 
@@ -2618,7 +2618,7 @@ output_format: str
 
 The data storage format for Redshift query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
 
 ---
 
@@ -2632,7 +2632,7 @@ output_s3_uri: str
 
 The location in Amazon S3 where the Redshift query results are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
 
 ---
 
@@ -2646,7 +2646,7 @@ query_string: str
 
 The SQL query statements to be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
 
 ---
 
@@ -2692,7 +2692,7 @@ The local path in your container where you want Amazon SageMaker to write input 
 
 `LocalPath` is an absolute path to the input data and must begin with `/opt/ml/processing/`. LocalPath is a required parameter when `AppManaged` is `False` (default).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
 
 ---
 
@@ -2708,7 +2708,7 @@ Whether to GZIP-decompress the data in Amazon S3 as it is streamed into the proc
 
 `Gzip` can only be used when `Pipe` mode is specified as the `S3InputMode`. In `Pipe` mode, Amazon SageMaker streams input data from the source directly to your container without using the EBS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_compression_type SagemakerProcessingJob#s3_compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_compression_type SagemakerProcessingJob#s3_compression_type}
 
 ---
 
@@ -2722,7 +2722,7 @@ s3_data_distribution_type: str
 
 Whether to distribute the data from Amazon S3 to all processing instances with `FullyReplicated`, or whether the data from Amazon S3 is shared by Amazon S3 key, downloading one shard of data to each processing instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_data_distribution_type SagemakerProcessingJob#s3_data_distribution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_data_distribution_type SagemakerProcessingJob#s3_data_distribution_type}
 
 ---
 
@@ -2738,7 +2738,7 @@ Whether you use an S3Prefix or a ManifestFile for the data type.
 
 If you choose S3Prefix, S3Uri identifies a key name prefix. Amazon SageMaker uses all objects with the specified key name prefix for the processing job. If you choose ManifestFile, S3Uri identifies an object that is a manifest file containing a list of object keys that you want Amazon SageMaker to use for the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_data_type SagemakerProcessingJob#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_data_type SagemakerProcessingJob#s3_data_type}
 
 ---
 
@@ -2754,7 +2754,7 @@ Whether to use File or Pipe input mode.
 
 In File mode, Amazon SageMaker copies the data from the input source onto the local ML storage volume before starting your processing container. This is the most commonly used input mode. In Pipe mode, Amazon SageMaker streams input data from the source directly to your processing container into named pipes without using the ML storage volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_input_mode SagemakerProcessingJob#s3_input_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_input_mode SagemakerProcessingJob#s3_input_mode}
 
 ---
 
@@ -2768,7 +2768,7 @@ s3_uri: str
 
 The URI of the Amazon S3 prefix Amazon SageMaker downloads data required to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
 
 ---
 
@@ -2806,7 +2806,7 @@ The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encry
 
 KmsKeyId can be an ID of a KMS key, ARN of a KMS key, or alias of a KMS key. The KmsKeyId is applied to all outputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
 
 ---
 
@@ -2820,7 +2820,7 @@ outputs: IResolvable | typing.List[SagemakerProcessingJobProcessingOutputConfigO
 
 An array of outputs configuring the data to upload from the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#outputs SagemakerProcessingJob#outputs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#outputs SagemakerProcessingJob#outputs}
 
 ---
 
@@ -2862,7 +2862,7 @@ When True, output operations such as data upload are managed natively by the pro
 
 When False (default), output operations are managed by Amazon SageMaker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#app_managed SagemakerProcessingJob#app_managed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#app_managed SagemakerProcessingJob#app_managed}
 
 ---
 
@@ -2876,7 +2876,7 @@ feature_store_output: SagemakerProcessingJobProcessingOutputConfigOutputsFeature
 
 Configuration for processing job outputs in Amazon SageMaker Feature Store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#feature_store_output SagemakerProcessingJob#feature_store_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#feature_store_output SagemakerProcessingJob#feature_store_output}
 
 ---
 
@@ -2890,7 +2890,7 @@ output_name: str
 
 The name for the processing job output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_name SagemakerProcessingJob#output_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_name SagemakerProcessingJob#output_name}
 
 ---
 
@@ -2904,7 +2904,7 @@ s3_output: SagemakerProcessingJobProcessingOutputConfigOutputsS3Output
 
 Configuration for uploading output data to Amazon S3 from the processing container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_output SagemakerProcessingJob#s3_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_output SagemakerProcessingJob#s3_output}
 
 ---
 
@@ -2940,7 +2940,7 @@ The name of the Amazon SageMaker FeatureGroup to use as the destination for proc
 
 Note that your processing script is responsible for putting records into your Feature Store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#feature_group_name SagemakerProcessingJob#feature_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#feature_group_name SagemakerProcessingJob#feature_group_name}
 
 ---
 
@@ -2980,7 +2980,7 @@ The local path of a directory where you want Amazon SageMaker to upload its cont
 
 LocalPath is an absolute path to a directory containing output files. This directory will be created by the platform and exist when your container's entrypoint is invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
 
 ---
 
@@ -2994,7 +2994,7 @@ s3_upload_mode: str
 
 Whether to upload the results of the processing job continuously or after the job completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_upload_mode SagemakerProcessingJob#s3_upload_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_upload_mode SagemakerProcessingJob#s3_upload_mode}
 
 ---
 
@@ -3008,7 +3008,7 @@ s3_uri: str
 
 A URI that identifies the Amazon S3 bucket where you want Amazon SageMaker to save the results of a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
 
 ---
 
@@ -3042,7 +3042,7 @@ cluster_config: SagemakerProcessingJobProcessingResourcesClusterConfig
 
 Configuration for the cluster used to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#cluster_config SagemakerProcessingJob#cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#cluster_config SagemakerProcessingJob#cluster_config}
 
 ---
 
@@ -3084,7 +3084,7 @@ The number of ML compute instances to use in the processing job.
 
 For distributed processing jobs, specify a value greater than 1. The default value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#instance_count SagemakerProcessingJob#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#instance_count SagemakerProcessingJob#instance_count}
 
 ---
 
@@ -3098,7 +3098,7 @@ instance_type: str
 
 The ML compute instance type for the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#instance_type SagemakerProcessingJob#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#instance_type SagemakerProcessingJob#instance_type}
 
 ---
 
@@ -3114,7 +3114,7 @@ The size of the ML storage volume in gigabytes that you want to provision.
 
 You must specify sufficient ML storage for your scenario.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#volume_size_in_gb SagemakerProcessingJob#volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#volume_size_in_gb SagemakerProcessingJob#volume_size_in_gb}
 
 ---
 
@@ -3128,7 +3128,7 @@ volume_kms_key_id: str
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance(s) that run the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#volume_kms_key_id SagemakerProcessingJob#volume_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#volume_kms_key_id SagemakerProcessingJob#volume_kms_key_id}
 
 ---
 
@@ -3162,7 +3162,7 @@ max_runtime_in_seconds: typing.Union[int, float]
 
 Specifies the maximum runtime in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#max_runtime_in_seconds SagemakerProcessingJob#max_runtime_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#max_runtime_in_seconds SagemakerProcessingJob#max_runtime_in_seconds}
 
 ---
 
@@ -3198,7 +3198,7 @@ key: str
 
 The tag key. Tag keys must be unique per resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#key SagemakerProcessingJob#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#key SagemakerProcessingJob#key}
 
 ---
 
@@ -3212,7 +3212,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#value SagemakerProcessingJob#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#value SagemakerProcessingJob#value}
 
 ---
 
@@ -4211,7 +4211,7 @@ The VPC security group IDs, in the form 'sg-xxxxxxxx'.
 
 Specify the security groups for the VPC that is specified in the 'Subnets' field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#security_group_ids SagemakerProcessingJob#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#security_group_ids SagemakerProcessingJob#security_group_ids}
 
 ---
 
@@ -4223,7 +4223,7 @@ The ID of the subnets in the VPC to which you want to connect your training job 
 
 For information about the availability of specific instance types, see https://docs.aws.amazon.com/sagemaker/latest/dg/regions-quotas.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#subnets SagemakerProcessingJob#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#subnets SagemakerProcessingJob#subnets}
 
 ---
 
@@ -5451,7 +5451,7 @@ def put_athena_dataset_definition(
 
 The name of the data catalog used in Athena query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#catalog SagemakerProcessingJob#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#catalog SagemakerProcessingJob#catalog}
 
 ---
 
@@ -5461,7 +5461,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the database used in the Athena query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
 
 ---
 
@@ -5471,7 +5471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data generated from an Athena query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
 
 ---
 
@@ -5481,7 +5481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The compression used for Athena query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
 
 ---
 
@@ -5491,7 +5491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The data storage format for Athena query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
 
 ---
 
@@ -5501,7 +5501,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location in Amazon S3 where Athena query results are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
 
 ---
 
@@ -5511,7 +5511,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The SQL query statements, to be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
 
 ---
 
@@ -5521,7 +5521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the workgroup in which the Athena query is being started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#work_group SagemakerProcessingJob#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#work_group SagemakerProcessingJob#work_group}
 
 ---
 
@@ -5547,7 +5547,7 @@ def put_redshift_dataset_definition(
 
 The Redshift cluster Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#cluster_id SagemakerProcessingJob#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#cluster_id SagemakerProcessingJob#cluster_id}
 
 ---
 
@@ -5557,7 +5557,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IAM role attached to your Redshift cluster that Amazon SageMaker uses to generate datasets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#cluster_role_arn SagemakerProcessingJob#cluster_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#cluster_role_arn SagemakerProcessingJob#cluster_role_arn}
 
 ---
 
@@ -5567,7 +5567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the Redshift database used in Redshift query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#database SagemakerProcessingJob#database}
 
 ---
 
@@ -5577,7 +5577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The database user name used in Redshift query execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#db_user SagemakerProcessingJob#db_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#db_user SagemakerProcessingJob#db_user}
 
 ---
 
@@ -5587,7 +5587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data from a Redshift execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#kms_key_id SagemakerProcessingJob#kms_key_id}
 
 ---
 
@@ -5597,7 +5597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The compression used for Redshift query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_compression SagemakerProcessingJob#output_compression}
 
 ---
 
@@ -5607,7 +5607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The data storage format for Redshift query results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_format SagemakerProcessingJob#output_format}
 
 ---
 
@@ -5617,7 +5617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location in Amazon S3 where the Redshift query results are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#output_s3_uri SagemakerProcessingJob#output_s3_uri}
 
 ---
 
@@ -5627,7 +5627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The SQL query statements to be executed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#query_string SagemakerProcessingJob#query_string}
 
 ---
 
@@ -6794,7 +6794,7 @@ def put_dataset_definition(
 
 Configuration for Athena Dataset Definition input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#athena_dataset_definition SagemakerProcessingJob#athena_dataset_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#athena_dataset_definition SagemakerProcessingJob#athena_dataset_definition}
 
 ---
 
@@ -6804,7 +6804,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the generated dataset is FullyReplicated or ShardedByS3Key (default).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#data_distribution_type SagemakerProcessingJob#data_distribution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#data_distribution_type SagemakerProcessingJob#data_distribution_type}
 
 ---
 
@@ -6816,7 +6816,7 @@ Whether to use File or Pipe input mode.
 
 In File (default) mode, Amazon SageMaker copies the data from the input source onto the local Amazon Elastic Block Store (Amazon EBS) volumes before starting your training algorithm. This is the most commonly used input mode. In Pipe mode, Amazon SageMaker streams input data from the source directly to your algorithm without using the EBS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#input_mode SagemakerProcessingJob#input_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#input_mode SagemakerProcessingJob#input_mode}
 
 ---
 
@@ -6828,7 +6828,7 @@ The local path where you want Amazon SageMaker to download the Dataset Definitio
 
 LocalPath is an absolute path to the input data. This is a required parameter when AppManaged is False (default).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
 
 ---
 
@@ -6838,7 +6838,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for Redshift Dataset Definition input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#redshift_dataset_definition SagemakerProcessingJob#redshift_dataset_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#redshift_dataset_definition SagemakerProcessingJob#redshift_dataset_definition}
 
 ---
 
@@ -6863,7 +6863,7 @@ The local path in your container where you want Amazon SageMaker to write input 
 
 `LocalPath` is an absolute path to the input data and must begin with `/opt/ml/processing/`. LocalPath is a required parameter when `AppManaged` is `False` (default).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
 
 ---
 
@@ -6875,7 +6875,7 @@ Whether to GZIP-decompress the data in Amazon S3 as it is streamed into the proc
 
 `Gzip` can only be used when `Pipe` mode is specified as the `S3InputMode`. In `Pipe` mode, Amazon SageMaker streams input data from the source directly to your container without using the EBS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_compression_type SagemakerProcessingJob#s3_compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_compression_type SagemakerProcessingJob#s3_compression_type}
 
 ---
 
@@ -6885,7 +6885,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to distribute the data from Amazon S3 to all processing instances with `FullyReplicated`, or whether the data from Amazon S3 is shared by Amazon S3 key, downloading one shard of data to each processing instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_data_distribution_type SagemakerProcessingJob#s3_data_distribution_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_data_distribution_type SagemakerProcessingJob#s3_data_distribution_type}
 
 ---
 
@@ -6897,7 +6897,7 @@ Whether you use an S3Prefix or a ManifestFile for the data type.
 
 If you choose S3Prefix, S3Uri identifies a key name prefix. Amazon SageMaker uses all objects with the specified key name prefix for the processing job. If you choose ManifestFile, S3Uri identifies an object that is a manifest file containing a list of object keys that you want Amazon SageMaker to use for the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_data_type SagemakerProcessingJob#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_data_type SagemakerProcessingJob#s3_data_type}
 
 ---
 
@@ -6909,7 +6909,7 @@ Whether to use File or Pipe input mode.
 
 In File mode, Amazon SageMaker copies the data from the input source onto the local ML storage volume before starting your processing container. This is the most commonly used input mode. In Pipe mode, Amazon SageMaker streams input data from the source directly to your processing container into named pipes without using the ML storage volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_input_mode SagemakerProcessingJob#s3_input_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_input_mode SagemakerProcessingJob#s3_input_mode}
 
 ---
 
@@ -6919,7 +6919,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URI of the Amazon S3 prefix Amazon SageMaker downloads data required to run a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
 
 ---
 
@@ -8619,7 +8619,7 @@ The name of the Amazon SageMaker FeatureGroup to use as the destination for proc
 
 Note that your processing script is responsible for putting records into your Feature Store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#feature_group_name SagemakerProcessingJob#feature_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#feature_group_name SagemakerProcessingJob#feature_group_name}
 
 ---
 
@@ -8641,7 +8641,7 @@ The local path of a directory where you want Amazon SageMaker to upload its cont
 
 LocalPath is an absolute path to a directory containing output files. This directory will be created by the platform and exist when your container's entrypoint is invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#local_path SagemakerProcessingJob#local_path}
 
 ---
 
@@ -8651,7 +8651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to upload the results of the processing job continuously or after the job completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_upload_mode SagemakerProcessingJob#s3_upload_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_upload_mode SagemakerProcessingJob#s3_upload_mode}
 
 ---
 
@@ -8661,7 +8661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A URI that identifies the Amazon S3 bucket where you want Amazon SageMaker to save the results of a processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#s3_uri SagemakerProcessingJob#s3_uri}
 
 ---
 
@@ -9801,7 +9801,7 @@ The number of ML compute instances to use in the processing job.
 
 For distributed processing jobs, specify a value greater than 1. The default value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#instance_count SagemakerProcessingJob#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#instance_count SagemakerProcessingJob#instance_count}
 
 ---
 
@@ -9811,7 +9811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ML compute instance type for the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#instance_type SagemakerProcessingJob#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#instance_type SagemakerProcessingJob#instance_type}
 
 ---
 
@@ -9823,7 +9823,7 @@ The size of the ML storage volume in gigabytes that you want to provision.
 
 You must specify sufficient ML storage for your scenario.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#volume_size_in_gb SagemakerProcessingJob#volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#volume_size_in_gb SagemakerProcessingJob#volume_size_in_gb}
 
 ---
 
@@ -9833,7 +9833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance(s) that run the processing job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_processing_job#volume_kms_key_id SagemakerProcessingJob#volume_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#volume_kms_key_id SagemakerProcessingJob#volume_kms_key_id}
 
 ---
 

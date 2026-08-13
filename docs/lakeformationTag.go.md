@@ -4,7 +4,7 @@
 
 ### LakeformationTag <a name="LakeformationTag" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lakeformation_tag awscc_lakeformation_tag}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lakeformation_tag awscc_lakeformation_tag}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationTag.LakeformationTag.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the LakeformationTag to import
 
 The id of the existing LakeformationTag that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lakeformation_tag#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lakeformation_tag#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ TagKey *string
 
 The key-name for the LF-tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lakeformation_tag#tag_key LakeformationTag#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lakeformation_tag#tag_key LakeformationTag#tag_key}
 
 ---
 
@@ -900,7 +900,7 @@ TagValues *[]*string
 
 A list of possible values an attribute can take.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lakeformation_tag#tag_values LakeformationTag#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lakeformation_tag#tag_values LakeformationTag#tag_values}
 
 ---
 
@@ -916,7 +916,7 @@ The identifier for the Data Catalog.
 
 By default, the account ID. The Data Catalog is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your Lake Formation environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lakeformation_tag#catalog_id LakeformationTag#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lakeformation_tag#catalog_id LakeformationTag#catalog_id}
 
 ---
 

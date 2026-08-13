@@ -4,7 +4,7 @@
 
 ### DataAwsccNeptunegraphPrivateGraphEndpoints <a name="DataAwsccNeptunegraphPrivateGraphEndpoints" id="@cdktn/provider-awscc.dataAwsccNeptunegraphPrivateGraphEndpoints.DataAwsccNeptunegraphPrivateGraphEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptunegraphPrivateGraphEndpoints.DataAwsccNeptunegraphPrivateGraphEndpoints.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNeptunegraphPriva
 
 The id of the existing DataAwsccNeptunegraphPrivateGraphEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptunegraph_private_graph_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptunegraph_private_graph_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

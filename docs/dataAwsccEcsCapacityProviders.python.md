@@ -4,7 +4,7 @@
 
 ### DataAwsccEcsCapacityProviders <a name="DataAwsccEcsCapacityProviders" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsCapacityProviders.DataAwsccEcsCapacityProviders.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEcsCapacityProvid
 
 The id of the existing DataAwsccEcsCapacityProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ecs_capacity_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ecs_capacity_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 

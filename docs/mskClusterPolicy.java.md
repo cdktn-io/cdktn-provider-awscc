@@ -4,7 +4,7 @@
 
 ### MskClusterPolicy <a name="MskClusterPolicy" id="@cdktn/provider-awscc.mskClusterPolicy.MskClusterPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskClusterPolicy.MskClusterPolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The arn of the cluster for the resource policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A policy document containing permissions to add to the specified cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the MskClusterPolicy to import
 
 The id of the existing MskClusterPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_cluster_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_cluster_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -942,7 +942,7 @@ public java.lang.String getClusterArn();
 
 The arn of the cluster for the resource policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
 
 ---
 
@@ -956,7 +956,7 @@ public java.lang.String getPolicy();
 
 A policy document containing permissions to add to the specified cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
 
 ---
 

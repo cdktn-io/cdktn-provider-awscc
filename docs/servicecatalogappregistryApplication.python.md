@@ -4,7 +4,7 @@
 
 ### ServicecatalogappregistryApplication <a name="ServicecatalogappregistryApplication" id="@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer"></a>
 
@@ -40,7 +40,7 @@ servicecatalogappregistryApplication.ServicecatalogappregistryApplication(
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the application. |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the application. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplication.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}.
 
 ---
 
@@ -639,7 +639,7 @@ The construct id used in the generated config for the ServicecatalogappregistryA
 
 The id of the existing ServicecatalogappregistryApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1000,7 +1000,7 @@ servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig(
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.name">name</a></code> | <code>str</code> | The name of the application. |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.description">description</a></code> | <code>str</code> | The description of the application. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogappregistryApplication.ServicecatalogappregistryApplicationConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}. |
 
 ---
 
@@ -1084,7 +1084,7 @@ name: str
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
 
 ---
 
@@ -1098,7 +1098,7 @@ description: str
 
 The description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
 
 ---
 
@@ -1110,7 +1110,7 @@ tags: typing.Mapping[str]
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_application#tags ServicecatalogappregistryApplication#tags}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### WisdomAssistant <a name="WisdomAssistant" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant awscc_wisdom_assistant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant awscc_wisdom_assistant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAssistant.WisdomAssistant.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the WisdomAssistant to import.
 
 The id of the existing WisdomAssistant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,11 +908,11 @@ new WisdomAssistantConfig {
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.serverSideEncryptionConfiguration">ServerSideEncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration">WisdomAssistantServerSideEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags">WisdomAssistantTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.serverSideEncryptionConfiguration">ServerSideEncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration">WisdomAssistantServerSideEncryptionConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags">WisdomAssistantTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}. |
 
 ---
 
@@ -994,7 +994,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#name WisdomAssistant#name}.
 
 ---
 
@@ -1006,7 +1006,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#type WisdomAssistant#type}.
 
 ---
 
@@ -1018,7 +1018,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#description WisdomAssistant#description}.
 
 ---
 
@@ -1030,7 +1030,7 @@ public WisdomAssistantServerSideEncryptionConfiguration ServerSideEncryptionConf
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration">WisdomAssistantServerSideEncryptionConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#server_side_encryption_configuration WisdomAssistant#server_side_encryption_configuration}.
 
 ---
 
@@ -1042,7 +1042,7 @@ public IResolvable|WisdomAssistantTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags">WisdomAssistantTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#tags WisdomAssistant#tags}.
 
 ---
 
@@ -1062,7 +1062,7 @@ new WisdomAssistantServerSideEncryptionConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration.property.kmsKeyId">KmsKeyId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantServerSideEncryptionConfiguration.property.kmsKeyId">KmsKeyId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string KmsKeyId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#kms_key_id WisdomAssistant#kms_key_id}.
 
 ---
 
@@ -1095,8 +1095,8 @@ new WisdomAssistantTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAssistant.WisdomAssistantTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}. |
 
 ---
 
@@ -1108,7 +1108,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#key WisdomAssistant#key}.
 
 ---
 
@@ -1120,7 +1120,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant#value WisdomAssistant#value}.
 
 ---
 

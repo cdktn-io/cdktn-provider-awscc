@@ -4,7 +4,7 @@
 
 ### LambdaEventInvokeConfig <a name="LambdaEventInvokeConfig" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaEventInvokeConfig.LambdaEventInvokeConfig.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the LambdaEventInvokeConfig to
 
 The id of the existing LambdaEventInvokeConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -948,7 +948,7 @@ public readonly functionName: string;
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
 
 ---
 
@@ -962,7 +962,7 @@ public readonly qualifier: string;
 
 The identifier of a version or alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
 
 ---
 
@@ -976,7 +976,7 @@ public readonly destinationConfig: LambdaEventInvokeConfigDestinationConfig;
 
 A destination for events after they have been sent to a function for processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
 
 ---
 
@@ -990,7 +990,7 @@ public readonly maximumEventAgeInSeconds: number;
 
 The maximum age of a request that Lambda sends to a function for processing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly maximumRetryAttempts: number;
 
 The maximum number of times to retry when the function returns an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly onFailure: LambdaEventInvokeConfigDestinationConfigOnFailure;
 
 The destination configuration for failed invocations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly onSuccess: LambdaEventInvokeConfigDestinationConfigOnSuccess;
 
 The destination configuration for successful invocations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
 
 ---
 
@@ -1083,7 +1083,7 @@ public readonly destination: string;
 
 The Amazon Resource Name (ARN) of the destination resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
 
 ---
 
@@ -1115,7 +1115,7 @@ public readonly destination: string;
 
 The Amazon Resource Name (ARN) of the destination resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
 
 ---
 

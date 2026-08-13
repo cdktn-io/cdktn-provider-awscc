@@ -4,7 +4,7 @@
 
 ### DataAwsccApprunnerAutoScalingConfigurations <a name="DataAwsccApprunnerAutoScalingConfigurations" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerAutoScalingConfigurations.DataAwsccApprunnerAutoScalingConfigurations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerAutoScal
 
 The id of the existing DataAwsccApprunnerAutoScalingConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_auto_scaling_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_auto_scaling_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

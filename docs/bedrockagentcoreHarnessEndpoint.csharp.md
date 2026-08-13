@@ -4,7 +4,7 @@
 
 ### BedrockagentcoreHarnessEndpoint <a name="BedrockagentcoreHarnessEndpoint" id="@cdktn/provider-awscc.bedrockagentcoreHarnessEndpoint.BedrockagentcoreHarnessEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint awscc_bedrockagentcore_harness_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint awscc_bedrockagentcore_harness_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreHarnessEndpoint.BedrockagentcoreHarnessEndpoint.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockagentcoreHarnessEnd
 
 The id of the existing BedrockagentcoreHarnessEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ public string EndpointName { get; set; }
 
 The name of the endpoint. Must start with a letter and contain only alphanumeric characters and underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#endpoint_name BedrockagentcoreHarnessEndpoint#endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#endpoint_name BedrockagentcoreHarnessEndpoint#endpoint_name}
 
 ---
 
@@ -1041,7 +1041,7 @@ public string HarnessId { get; set; }
 
 The ID of the harness that the endpoint belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#harness_id BedrockagentcoreHarnessEndpoint#harness_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#harness_id BedrockagentcoreHarnessEndpoint#harness_id}
 
 ---
 
@@ -1055,7 +1055,7 @@ public string Description { get; set; }
 
 The description of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#description BedrockagentcoreHarnessEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#description BedrockagentcoreHarnessEndpoint#description}
 
 ---
 
@@ -1069,7 +1069,7 @@ public IResolvable|BedrockagentcoreHarnessEndpointTags[] Tags { get; set; }
 
 Tags to apply to the harness endpoint resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#tags BedrockagentcoreHarnessEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#tags BedrockagentcoreHarnessEndpoint#tags}
 
 ---
 
@@ -1083,7 +1083,7 @@ public string TargetVersion { get; set; }
 
 The harness version that the endpoint points to and serves invocations from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#target_version BedrockagentcoreHarnessEndpoint#target_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#target_version BedrockagentcoreHarnessEndpoint#target_version}
 
 ---
 
@@ -1104,8 +1104,8 @@ new BedrockagentcoreHarnessEndpointTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreHarnessEndpoint.BedrockagentcoreHarnessEndpointTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#key BedrockagentcoreHarnessEndpoint#key}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreHarnessEndpoint.BedrockagentcoreHarnessEndpointTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#value BedrockagentcoreHarnessEndpoint#value}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreHarnessEndpoint.BedrockagentcoreHarnessEndpointTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#key BedrockagentcoreHarnessEndpoint#key}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockagentcoreHarnessEndpoint.BedrockagentcoreHarnessEndpointTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#value BedrockagentcoreHarnessEndpoint#value}. |
 
 ---
 
@@ -1117,7 +1117,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#key BedrockagentcoreHarnessEndpoint#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#key BedrockagentcoreHarnessEndpoint#key}.
 
 ---
 
@@ -1129,7 +1129,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness_endpoint#value BedrockagentcoreHarnessEndpoint#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness_endpoint#value BedrockagentcoreHarnessEndpoint#value}.
 
 ---
 

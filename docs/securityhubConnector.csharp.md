@@ -4,7 +4,7 @@
 
 ### SecurityhubConnector <a name="SecurityhubConnector" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SecurityhubConnector to im
 
 The id of the existing SecurityhubConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ new SecurityhubConnectorConfig {
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.name">Name</a></code> | <code>string</code> | The name of the connector. |
-| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.providerName">ProviderName</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.providerName">ProviderName</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.description">Description</a></code> | <code>string</code> | The description of the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A key-value pair to associate with a resource. |
 
@@ -1040,7 +1040,7 @@ public string Name { get; set; }
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
 
 ---
 
@@ -1052,7 +1052,7 @@ public SecurityhubConnectorProviderName ProviderName { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}.
 
 ---
 
@@ -1066,7 +1066,7 @@ public string Description { get; set; }
 
 The description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
 
 ---
 
@@ -1080,7 +1080,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
 
 ---
 
@@ -1127,7 +1127,7 @@ public SecurityhubConnectorProviderNameAzure Azure { get; set; }
 
 The configuration for connecting to an Azure environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
 
 ---
 
@@ -1165,7 +1165,7 @@ public string AwsConfigConnectorArn { get; set; }
 
 The ARN of the multi-cloud configuration connector used to establish the connection to Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
 
 ---
 
@@ -1179,7 +1179,7 @@ public string[] AzureRegions { get; set; }
 
 The list of Azure regions to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
 
 ---
 
@@ -1193,7 +1193,7 @@ public SecurityhubConnectorProviderNameAzureScopeConfiguration ScopeConfiguratio
 
 The scope configuration that defines which Azure resources are monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
 
 ---
 
@@ -1229,7 +1229,7 @@ public string ScopeType { get; set; }
 
 The type of scope. Valid values are ``tenant`` and ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
 
 ---
 
@@ -1243,7 +1243,7 @@ public string[] ScopeValues { get; set; }
 
 The list of scope values, such as subscription IDs, when the scope type is ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
 
 ---
 

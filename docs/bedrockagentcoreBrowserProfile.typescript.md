@@ -4,7 +4,7 @@
 
 ### BedrockagentcoreBrowserProfile <a name="BedrockagentcoreBrowserProfile" id="@cdktn/provider-awscc.bedrockagentcoreBrowserProfile.BedrockagentcoreBrowserProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreBrowserProfile.BedrockagentcoreBrowserProfile.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the BedrockagentcoreBrowserPro
 
 The id of the existing BedrockagentcoreBrowserProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_browser_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ public readonly name: string;
 
 The name of the browser profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_browser_profile#name BedrockagentcoreBrowserProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#name BedrockagentcoreBrowserProfile#name}
 
 ---
 
@@ -984,7 +984,7 @@ public readonly description: string;
 
 The description of the browser profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_browser_profile#description BedrockagentcoreBrowserProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#description BedrockagentcoreBrowserProfile#description}
 
 ---
 
@@ -998,7 +998,7 @@ public readonly tags: {[ key: string ]: string};
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_browser_profile#tags BedrockagentcoreBrowserProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#tags BedrockagentcoreBrowserProfile#tags}
 
 ---
 

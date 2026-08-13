@@ -4,7 +4,7 @@
 
 ### GlobalacceleratorListener <a name="GlobalacceleratorListener" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListener.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GlobalacceleratorListener 
 
 The id of the existing GlobalacceleratorListener that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ new GlobalacceleratorListenerConfig {
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.acceleratorArn">AcceleratorArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the accelerator. |
-| <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.portRanges">PortRanges</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerPortRanges">GlobalacceleratorListenerPortRanges</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}. |
+| <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.portRanges">PortRanges</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerPortRanges">GlobalacceleratorListenerPortRanges</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.clientAffinity">ClientAffinity</a></code> | <code>string</code> | Client affinity lets you direct all requests from a user to the same endpoint. |
 | <code><a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerConfig.property.protocol">Protocol</a></code> | <code>string</code> | The protocol for the listener. |
 
@@ -941,7 +941,7 @@ public string AcceleratorArn { get; set; }
 
 The Amazon Resource Name (ARN) of the accelerator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
 
 ---
 
@@ -953,7 +953,7 @@ public IResolvable|GlobalacceleratorListenerPortRanges[] PortRanges { get; set; 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.globalacceleratorListener.GlobalacceleratorListenerPortRanges">GlobalacceleratorListenerPortRanges</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}.
 
 ---
 
@@ -967,7 +967,7 @@ public string ClientAffinity { get; set; }
 
 Client affinity lets you direct all requests from a user to the same endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
 
 ---
 
@@ -981,7 +981,7 @@ public string Protocol { get; set; }
 
 The protocol for the listener.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
 
 ---
 
@@ -1017,7 +1017,7 @@ public double FromPort { get; set; }
 
 A network port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}
 
 ---
 
@@ -1031,7 +1031,7 @@ public double ToPort { get; set; }
 
 A network port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}
 
 ---
 

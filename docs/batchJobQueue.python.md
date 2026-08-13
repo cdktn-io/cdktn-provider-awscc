@@ -4,7 +4,7 @@
 
 ### BatchJobQueue <a name="BatchJobQueue" id="@cdktn/provider-awscc.batchJobQueue.BatchJobQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue awscc_batch_job_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue awscc_batch_job_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer"></a>
 
@@ -44,14 +44,14 @@ batchJobQueue.BatchJobQueue(
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.computeEnvironmentOrder">compute_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder">BatchJobQueueComputeEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.jobQueueName">job_queue_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.jobQueueType">job_queue_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.jobStateTimeLimitActions">job_state_time_limit_actions</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions">BatchJobQueueJobStateTimeLimitActions</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.schedulingPolicyArn">scheduling_policy_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.serviceEnvironmentOrder">service_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder">BatchJobQueueServiceEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#state BatchJobQueue#state}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.computeEnvironmentOrder">compute_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder">BatchJobQueueComputeEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.jobQueueName">job_queue_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.jobQueueType">job_queue_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.jobStateTimeLimitActions">job_state_time_limit_actions</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions">BatchJobQueueJobStateTimeLimitActions</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.schedulingPolicyArn">scheduling_policy_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.serviceEnvironmentOrder">service_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder">BatchJobQueueServiceEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#state BatchJobQueue#state}. |
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueue.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A key-value pair to associate with a resource. |
 
 ---
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder">BatchJobQueueComputeEnvironmentOrder</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}.
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}.
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}.
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions">BatchJobQueueJobStateTimeLimitActions</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}.
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}.
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder">BatchJobQueueServiceEnvironmentOrder</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}.
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}
 
 ---
 
@@ -784,7 +784,7 @@ The construct id used in the generated config for the BatchJobQueue to import.
 
 The id of the existing BatchJobQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1216,8 +1216,8 @@ batchJobQueue.BatchJobQueueComputeEnvironmentOrder(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder.property.computeEnvironment">compute_environment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder.property.order">order</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#order BatchJobQueue#order}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder.property.computeEnvironment">compute_environment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder.property.order">order</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#order BatchJobQueue#order}. |
 
 ---
 
@@ -1229,7 +1229,7 @@ compute_environment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#compute_environment BatchJobQueue#compute_environment}.
 
 ---
 
@@ -1241,7 +1241,7 @@ order: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
 
 ---
 
@@ -1283,14 +1283,14 @@ batchJobQueue.BatchJobQueueConfig(
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.computeEnvironmentOrder">compute_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder">BatchJobQueueComputeEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.jobQueueName">job_queue_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.jobQueueType">job_queue_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.jobStateTimeLimitActions">job_state_time_limit_actions</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions">BatchJobQueueJobStateTimeLimitActions</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.schedulingPolicyArn">scheduling_policy_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.serviceEnvironmentOrder">service_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder">BatchJobQueueServiceEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#state BatchJobQueue#state}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.priority">priority</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.computeEnvironmentOrder">compute_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder">BatchJobQueueComputeEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.jobQueueName">job_queue_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.jobQueueType">job_queue_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.jobStateTimeLimitActions">job_state_time_limit_actions</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions">BatchJobQueueJobStateTimeLimitActions</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.schedulingPolicyArn">scheduling_policy_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.serviceEnvironmentOrder">service_environment_order</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder">BatchJobQueueServiceEnvironmentOrder</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#state BatchJobQueue#state}. |
 | <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A key-value pair to associate with a resource. |
 
 ---
@@ -1373,7 +1373,7 @@ priority: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}.
 
 ---
 
@@ -1385,7 +1385,7 @@ compute_environment_order: IResolvable | typing.List[BatchJobQueueComputeEnviron
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueComputeEnvironmentOrder">BatchJobQueueComputeEnvironmentOrder</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}.
 
 ---
 
@@ -1397,7 +1397,7 @@ job_queue_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_name BatchJobQueue#job_queue_name}.
 
 ---
 
@@ -1409,7 +1409,7 @@ job_queue_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_queue_type BatchJobQueue#job_queue_type}.
 
 ---
 
@@ -1421,7 +1421,7 @@ job_state_time_limit_actions: IResolvable | typing.List[BatchJobQueueJobStateTim
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions">BatchJobQueueJobStateTimeLimitActions</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#job_state_time_limit_actions BatchJobQueue#job_state_time_limit_actions}.
 
 ---
 
@@ -1433,7 +1433,7 @@ scheduling_policy_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}.
 
 ---
 
@@ -1445,7 +1445,7 @@ service_environment_order: IResolvable | typing.List[BatchJobQueueServiceEnviron
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder">BatchJobQueueServiceEnvironmentOrder</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment_order BatchJobQueue#service_environment_order}.
 
 ---
 
@@ -1457,7 +1457,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.
 
 ---
 
@@ -1471,7 +1471,7 @@ tags: typing.Mapping[str]
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}
 
 ---
 
@@ -1494,10 +1494,10 @@ batchJobQueue.BatchJobQueueJobStateTimeLimitActions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.action">action</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#action BatchJobQueue#action}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.maxTimeSeconds">max_time_seconds</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.reason">reason</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#state BatchJobQueue#state}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.action">action</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#action BatchJobQueue#action}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.maxTimeSeconds">max_time_seconds</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.reason">reason</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueJobStateTimeLimitActions.property.state">state</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#state BatchJobQueue#state}. |
 
 ---
 
@@ -1509,7 +1509,7 @@ action: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#action BatchJobQueue#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#action BatchJobQueue#action}.
 
 ---
 
@@ -1521,7 +1521,7 @@ max_time_seconds: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#max_time_seconds BatchJobQueue#max_time_seconds}.
 
 ---
 
@@ -1533,7 +1533,7 @@ reason: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#reason BatchJobQueue#reason}.
 
 ---
 
@@ -1545,7 +1545,7 @@ state: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.
 
 ---
 
@@ -1566,8 +1566,8 @@ batchJobQueue.BatchJobQueueServiceEnvironmentOrder(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder.property.order">order</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#order BatchJobQueue#order}. |
-| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder.property.serviceEnvironment">service_environment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#service_environment BatchJobQueue#service_environment}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder.property.order">order</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#order BatchJobQueue#order}. |
+| <code><a href="#@cdktn/provider-awscc.batchJobQueue.BatchJobQueueServiceEnvironmentOrder.property.serviceEnvironment">service_environment</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment BatchJobQueue#service_environment}. |
 
 ---
 
@@ -1579,7 +1579,7 @@ order: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
 
 ---
 
@@ -1591,7 +1591,7 @@ service_environment: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_queue#service_environment BatchJobQueue#service_environment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment BatchJobQueue#service_environment}.
 
 ---
 

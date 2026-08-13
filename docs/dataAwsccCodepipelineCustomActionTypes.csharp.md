@@ -4,7 +4,7 @@
 
 ### DataAwsccCodepipelineCustomActionTypes <a name="DataAwsccCodepipelineCustomActionTypes" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodepipelineCustomActionTypes.DataAwsccCodepipelineCustomActionTypes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodepipelineCusto
 
 The id of the existing DataAwsccCodepipelineCustomActionTypes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codepipeline_custom_action_types#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codepipeline_custom_action_types#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontDistributions <a name="DataAwsccCloudfrontDistributions" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributions.DataAwsccCloudfrontDistributions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_distributions awscc_cloudfront_distributions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_distributions awscc_cloudfront_distributions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontDistributions.DataAwsccCloudfrontDistributions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontDistrib
 
 The id of the existing DataAwsccCloudfrontDistributions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_distributions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_distributions#import import section} in the documentation of this resource for the id to use
 
 ---
 

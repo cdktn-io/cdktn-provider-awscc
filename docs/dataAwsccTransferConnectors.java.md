@@ -4,7 +4,7 @@
 
 ### DataAwsccTransferConnectors <a name="DataAwsccTransferConnectors" id="@cdktn/provider-awscc.dataAwsccTransferConnectors.DataAwsccTransferConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/transfer_connectors awscc_transfer_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/transfer_connectors awscc_transfer_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferConnectors.DataAwsccTransferConnectors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccTransferConnector
 
 The id of the existing DataAwsccTransferConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/transfer_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/transfer_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Ec2KeyPair <a name="Ec2KeyPair" id="@cdktn/provider-awscc.ec2KeyPair.Ec2KeyPair"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair awscc_ec2_key_pair}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair awscc_ec2_key_pair}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2KeyPair.Ec2KeyPair.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 A unique name for the key pair.  Constraints: Up to 255 ASCII characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key_name Ec2KeyPair#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key_name Ec2KeyPair#key_name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The format of the key pair.  Default: ``pem``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key_format Ec2KeyPair#key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key_format Ec2KeyPair#key_format}
 
 ---
 
@@ -136,7 +136,7 @@ Note that ED25519 keys are not supported for Windows instances.
 If the `PublicKeyMaterial` property is specified, the `KeyType` property is ignored, and the key type is inferred from the `PublicKeyMaterial` value.
 Default: `rsa`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key_type Ec2KeyPair#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key_type Ec2KeyPair#key_type}
 
 ---
 
@@ -148,7 +148,7 @@ The public key material.
 
 The `PublicKeyMaterial` property is used to import a key pair. If this property is not specified, then a new key pair will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#public_key_material Ec2KeyPair#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#public_key_material Ec2KeyPair#public_key_material}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags to apply to the key pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#tags Ec2KeyPair#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#tags Ec2KeyPair#tags}
 
 ---
 
@@ -648,7 +648,7 @@ The construct id used in the generated config for the Ec2KeyPair to import.
 
 The id of the existing Ec2KeyPair that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1108,7 +1108,7 @@ public java.lang.String getKeyName();
 
 A unique name for the key pair.  Constraints: Up to 255 ASCII characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key_name Ec2KeyPair#key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key_name Ec2KeyPair#key_name}
 
 ---
 
@@ -1122,7 +1122,7 @@ public java.lang.String getKeyFormat();
 
 The format of the key pair.  Default: ``pem``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key_format Ec2KeyPair#key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key_format Ec2KeyPair#key_format}
 
 ---
 
@@ -1140,7 +1140,7 @@ Note that ED25519 keys are not supported for Windows instances.
 If the `PublicKeyMaterial` property is specified, the `KeyType` property is ignored, and the key type is inferred from the `PublicKeyMaterial` value.
 Default: `rsa`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key_type Ec2KeyPair#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key_type Ec2KeyPair#key_type}
 
 ---
 
@@ -1156,7 +1156,7 @@ The public key material.
 
 The `PublicKeyMaterial` property is used to import a key pair. If this property is not specified, then a new key pair will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#public_key_material Ec2KeyPair#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#public_key_material Ec2KeyPair#public_key_material}
 
 ---
 
@@ -1170,7 +1170,7 @@ public IResolvable|java.util.List<Ec2KeyPairTags> getTags();
 
 The tags to apply to the key pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#tags Ec2KeyPair#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#tags Ec2KeyPair#tags}
 
 ---
 
@@ -1206,7 +1206,7 @@ public java.lang.String getKey();
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#key Ec2KeyPair#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#key Ec2KeyPair#key}
 
 ---
 
@@ -1220,7 +1220,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_key_pair#value Ec2KeyPair#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair#value Ec2KeyPair#value}
 
 ---
 

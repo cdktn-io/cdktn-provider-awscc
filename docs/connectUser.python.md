@@ -4,7 +4,7 @@
 
 ### ConnectUser <a name="ConnectUser" id="@cdktn/provider-awscc.connectUser.ConnectUser"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user awscc_connect_user}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user awscc_connect_user}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUser.ConnectUser.Initializer"></a>
 
@@ -136,7 +136,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#instance_arn ConnectUser#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#instance_arn ConnectUser#instance_arn}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the routing profile for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#routing_profile_arn ConnectUser#routing_profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#routing_profile_arn ConnectUser#routing_profile_arn}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more security profile arns for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#security_profile_arns ConnectUser#security_profile_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#security_profile_arns ConnectUser#security_profile_arns}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The user name for the account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#username ConnectUser#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#username ConnectUser#username}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 After Contact Work configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_configs ConnectUser#after_contact_work_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_configs ConnectUser#after_contact_work_configs}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Auto-accept configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#auto_accept_configs ConnectUser#auto_accept_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#auto_accept_configs ConnectUser#auto_accept_configs}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the user account in the directory used for identity management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the hierarchy group for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#hierarchy_group_arn ConnectUser#hierarchy_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#hierarchy_group_arn ConnectUser#hierarchy_group_arn}
 
 ---
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The information about the identity of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
 
 ---
 
@@ -228,7 +228,7 @@ The password for the user account.
 
 A password is required if you are using Amazon Connect for identity management. Otherwise, it is an error to include a password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#password ConnectUser#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#password ConnectUser#password}
 
 ---
 
@@ -238,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Persistent Connection configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#persistent_connection_configs ConnectUser#persistent_connection_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#persistent_connection_configs ConnectUser#persistent_connection_configs}
 
 ---
 
@@ -248,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The phone settings for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
 
 ---
 
@@ -258,7 +258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Phone Number configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_number_configs ConnectUser#phone_number_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_number_configs ConnectUser#phone_number_configs}
 
 ---
 
@@ -268,7 +268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#tags ConnectUser#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#tags ConnectUser#tags}
 
 ---
 
@@ -278,7 +278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more predefined attributes assigned to a user, with a level that indicates how skilled they are.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#user_proficiencies ConnectUser#user_proficiencies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#user_proficiencies ConnectUser#user_proficiencies}
 
 ---
 
@@ -288,7 +288,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Voice Enhancement configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#voice_enhancement_configs ConnectUser#voice_enhancement_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#voice_enhancement_configs ConnectUser#voice_enhancement_configs}
 
 ---
 
@@ -738,7 +738,7 @@ def put_identity_info(
 
 The email address. If you are using SAML for identity management and include this parameter, an error is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#email ConnectUser#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#email ConnectUser#email}
 
 ---
 
@@ -748,7 +748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The first name. This is required if you are using Amazon Connect or SAML for identity management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#first_name ConnectUser#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#first_name ConnectUser#first_name}
 
 ---
 
@@ -758,7 +758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The last name. This is required if you are using Amazon Connect or SAML for identity management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#last_name ConnectUser#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#last_name ConnectUser#last_name}
 
 ---
 
@@ -768,7 +768,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The mobile phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#mobile ConnectUser#mobile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#mobile ConnectUser#mobile}
 
 ---
 
@@ -780,7 +780,7 @@ The secondary email address.
 
 If you provide a secondary email, the user receives email notifications -- other than password reset notifications -- to this email address instead of to their primary email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
 
 ---
 
@@ -816,7 +816,7 @@ def put_phone_config(
 
 The After Call Work (ACW) timeout setting, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
 
 ---
 
@@ -826,7 +826,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Auto accept setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
 
 ---
 
@@ -836,7 +836,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The phone number for the user's desk phone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
 
 ---
 
@@ -846,7 +846,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Persistent Connection setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
 
 ---
 
@@ -856,7 +856,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The phone type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
 
 ---
 
@@ -1102,7 +1102,7 @@ The construct id used in the generated config for the ConnectUser to import.
 
 The id of the existing ConnectUser that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1705,7 +1705,7 @@ after_contact_work_config: ConnectUserAfterContactWorkConfigsAfterContactWorkCon
 
 After Contact Work configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_config ConnectUser#after_contact_work_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_config ConnectUser#after_contact_work_config}
 
 ---
 
@@ -1719,7 +1719,7 @@ agent_first_callback_after_contact_work_config: ConnectUserAfterContactWorkConfi
 
 After Contact Work configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#agent_first_callback_after_contact_work_config ConnectUser#agent_first_callback_after_contact_work_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#agent_first_callback_after_contact_work_config ConnectUser#agent_first_callback_after_contact_work_config}
 
 ---
 
@@ -1733,7 +1733,7 @@ channel: str
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#channel ConnectUser#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#channel ConnectUser#channel}
 
 ---
 
@@ -1769,7 +1769,7 @@ after_contact_work_mode: str
 
 The after contact work (ACW) mode for the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
 
 ---
 
@@ -1783,7 +1783,7 @@ after_contact_work_time_limit: typing.Union[int, float]
 
 The After Call Work (ACW) timeout setting, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
 
 ---
 
@@ -1819,7 +1819,7 @@ after_contact_work_mode: str
 
 The after contact work (ACW) mode for the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
 
 ---
 
@@ -1833,7 +1833,7 @@ after_contact_work_time_limit: typing.Union[int, float]
 
 The After Call Work (ACW) timeout setting, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
 
 ---
 
@@ -1871,7 +1871,7 @@ agent_first_callback_auto_accept: bool | IResolvable
 
 The agent first callback auto accept setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#agent_first_callback_auto_accept ConnectUser#agent_first_callback_auto_accept}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#agent_first_callback_auto_accept ConnectUser#agent_first_callback_auto_accept}
 
 ---
 
@@ -1885,7 +1885,7 @@ auto_accept: bool | IResolvable
 
 The Auto accept setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
 
 ---
 
@@ -1899,7 +1899,7 @@ channel: str
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#channel ConnectUser#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#channel ConnectUser#channel}
 
 ---
 
@@ -2047,7 +2047,7 @@ instance_arn: str
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#instance_arn ConnectUser#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#instance_arn ConnectUser#instance_arn}
 
 ---
 
@@ -2061,7 +2061,7 @@ routing_profile_arn: str
 
 The identifier of the routing profile for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#routing_profile_arn ConnectUser#routing_profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#routing_profile_arn ConnectUser#routing_profile_arn}
 
 ---
 
@@ -2075,7 +2075,7 @@ security_profile_arns: typing.List[str]
 
 One or more security profile arns for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#security_profile_arns ConnectUser#security_profile_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#security_profile_arns ConnectUser#security_profile_arns}
 
 ---
 
@@ -2089,7 +2089,7 @@ username: str
 
 The user name for the account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#username ConnectUser#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#username ConnectUser#username}
 
 ---
 
@@ -2103,7 +2103,7 @@ after_contact_work_configs: IResolvable | typing.List[ConnectUserAfterContactWor
 
 After Contact Work configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_configs ConnectUser#after_contact_work_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_configs ConnectUser#after_contact_work_configs}
 
 ---
 
@@ -2117,7 +2117,7 @@ auto_accept_configs: IResolvable | typing.List[ConnectUserAutoAcceptConfigs]
 
 Auto-accept configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#auto_accept_configs ConnectUser#auto_accept_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#auto_accept_configs ConnectUser#auto_accept_configs}
 
 ---
 
@@ -2131,7 +2131,7 @@ directory_user_id: str
 
 The identifier of the user account in the directory used for identity management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#directory_user_id ConnectUser#directory_user_id}
 
 ---
 
@@ -2145,7 +2145,7 @@ hierarchy_group_arn: str
 
 The identifier of the hierarchy group for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#hierarchy_group_arn ConnectUser#hierarchy_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#hierarchy_group_arn ConnectUser#hierarchy_group_arn}
 
 ---
 
@@ -2159,7 +2159,7 @@ identity_info: ConnectUserIdentityInfo
 
 The information about the identity of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#identity_info ConnectUser#identity_info}
 
 ---
 
@@ -2175,7 +2175,7 @@ The password for the user account.
 
 A password is required if you are using Amazon Connect for identity management. Otherwise, it is an error to include a password.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#password ConnectUser#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#password ConnectUser#password}
 
 ---
 
@@ -2189,7 +2189,7 @@ persistent_connection_configs: IResolvable | typing.List[ConnectUserPersistentCo
 
 Persistent Connection configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#persistent_connection_configs ConnectUser#persistent_connection_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#persistent_connection_configs ConnectUser#persistent_connection_configs}
 
 ---
 
@@ -2203,7 +2203,7 @@ phone_config: ConnectUserPhoneConfig
 
 The phone settings for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_config ConnectUser#phone_config}
 
 ---
 
@@ -2217,7 +2217,7 @@ phone_number_configs: IResolvable | typing.List[ConnectUserPhoneNumberConfigs]
 
 Phone Number configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_number_configs ConnectUser#phone_number_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_number_configs ConnectUser#phone_number_configs}
 
 ---
 
@@ -2231,7 +2231,7 @@ tags: IResolvable | typing.List[ConnectUserTags]
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#tags ConnectUser#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#tags ConnectUser#tags}
 
 ---
 
@@ -2245,7 +2245,7 @@ user_proficiencies: IResolvable | typing.List[ConnectUserUserProficiencies]
 
 One or more predefined attributes assigned to a user, with a level that indicates how skilled they are.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#user_proficiencies ConnectUser#user_proficiencies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#user_proficiencies ConnectUser#user_proficiencies}
 
 ---
 
@@ -2259,7 +2259,7 @@ voice_enhancement_configs: IResolvable | typing.List[ConnectUserVoiceEnhancement
 
 Voice Enhancement configurations of a user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#voice_enhancement_configs ConnectUser#voice_enhancement_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#voice_enhancement_configs ConnectUser#voice_enhancement_configs}
 
 ---
 
@@ -2301,7 +2301,7 @@ email: str
 
 The email address. If you are using SAML for identity management and include this parameter, an error is returned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#email ConnectUser#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#email ConnectUser#email}
 
 ---
 
@@ -2315,7 +2315,7 @@ first_name: str
 
 The first name. This is required if you are using Amazon Connect or SAML for identity management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#first_name ConnectUser#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#first_name ConnectUser#first_name}
 
 ---
 
@@ -2329,7 +2329,7 @@ last_name: str
 
 The last name. This is required if you are using Amazon Connect or SAML for identity management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#last_name ConnectUser#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#last_name ConnectUser#last_name}
 
 ---
 
@@ -2343,7 +2343,7 @@ mobile: str
 
 The mobile phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#mobile ConnectUser#mobile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#mobile ConnectUser#mobile}
 
 ---
 
@@ -2359,7 +2359,7 @@ The secondary email address.
 
 If you provide a secondary email, the user receives email notifications -- other than password reset notifications -- to this email address instead of to their primary email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#secondary_email ConnectUser#secondary_email}
 
 ---
 
@@ -2395,7 +2395,7 @@ channel: str
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#channel ConnectUser#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#channel ConnectUser#channel}
 
 ---
 
@@ -2409,7 +2409,7 @@ persistent_connection: bool | IResolvable
 
 The Persistent Connection setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
 
 ---
 
@@ -2451,7 +2451,7 @@ after_contact_work_time_limit: typing.Union[int, float]
 
 The After Call Work (ACW) timeout setting, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
 
 ---
 
@@ -2465,7 +2465,7 @@ auto_accept: bool | IResolvable
 
 The Auto accept setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}
 
 ---
 
@@ -2479,7 +2479,7 @@ desk_phone_number: str
 
 The phone number for the user's desk phone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}
 
 ---
 
@@ -2493,7 +2493,7 @@ persistent_connection: bool | IResolvable
 
 The Persistent Connection setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#persistent_connection ConnectUser#persistent_connection}
 
 ---
 
@@ -2507,7 +2507,7 @@ phone_type: str
 
 The phone type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
 
 ---
 
@@ -2545,7 +2545,7 @@ channel: str
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#channel ConnectUser#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#channel ConnectUser#channel}
 
 ---
 
@@ -2559,7 +2559,7 @@ phone_number: str
 
 The phone number for the user's desk phone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_number ConnectUser#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_number ConnectUser#phone_number}
 
 ---
 
@@ -2573,7 +2573,7 @@ phone_type: str
 
 The phone type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}
 
 ---
 
@@ -2611,7 +2611,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#key ConnectUser#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#key ConnectUser#key}
 
 ---
 
@@ -2627,7 +2627,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#value ConnectUser#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#value ConnectUser#value}
 
 ---
 
@@ -2665,7 +2665,7 @@ attribute_name: str
 
 The name of user's proficiency. You must use name of predefined attribute present in the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#attribute_name ConnectUser#attribute_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#attribute_name ConnectUser#attribute_name}
 
 ---
 
@@ -2679,7 +2679,7 @@ attribute_value: str
 
 The value of user's proficiency. You must use value of predefined attribute present in the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#attribute_value ConnectUser#attribute_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#attribute_value ConnectUser#attribute_value}
 
 ---
 
@@ -2693,7 +2693,7 @@ level: typing.Union[int, float]
 
 The level of the proficiency. The valid values are 0 to 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#level ConnectUser#level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#level ConnectUser#level}
 
 ---
 
@@ -2729,7 +2729,7 @@ channel: str
 
 The channels that agents can handle in the Contact Control Panel (CCP).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#channel ConnectUser#channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#channel ConnectUser#channel}
 
 ---
 
@@ -2743,7 +2743,7 @@ voice_enhancement_mode: str
 
 The Voice Enhancement Mode setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#voice_enhancement_mode ConnectUser#voice_enhancement_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#voice_enhancement_mode ConnectUser#voice_enhancement_mode}
 
 ---
 
@@ -3851,7 +3851,7 @@ def put_after_contact_work_config(
 
 The after contact work (ACW) mode for the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
 
 ---
 
@@ -3861,7 +3861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The After Call Work (ACW) timeout setting, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
 
 ---
 
@@ -3880,7 +3880,7 @@ def put_agent_first_callback_after_contact_work_config(
 
 The after contact work (ACW) mode for the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_mode ConnectUser#after_contact_work_mode}
 
 ---
 
@@ -3890,7 +3890,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The After Call Work (ACW) timeout setting, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}
 
 ---
 

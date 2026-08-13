@@ -4,7 +4,7 @@
 
 ### DataAwsccIotDomainConfigurations <a name="DataAwsccIotDomainConfigurations" id="@cdktn/provider-awscc.dataAwsccIotDomainConfigurations.DataAwsccIotDomainConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_domain_configurations awscc_iot_domain_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_domain_configurations awscc_iot_domain_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotDomainConfigurations.DataAwsccIotDomainConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotDomainConfigur
 
 The id of the existing DataAwsccIotDomainConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_domain_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_domain_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

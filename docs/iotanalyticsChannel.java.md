@@ -4,7 +4,7 @@
 
 ### IotanalyticsChannel <a name="IotanalyticsChannel" id="@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel awscc_iotanalytics_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel awscc_iotanalytics_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer"></a>
 
@@ -37,10 +37,10 @@ IotanalyticsChannel.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.channelName">channelName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.channelStorage">channelStorage</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage">IotanalyticsChannelChannelStorage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.retentionPeriod">retentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod">IotanalyticsChannelRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags">IotanalyticsChannelTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.channelName">channelName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.channelStorage">channelStorage</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage">IotanalyticsChannelChannelStorage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.retentionPeriod">retentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod">IotanalyticsChannelRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannel.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags">IotanalyticsChannelTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage">IotanalyticsChannelChannelStorage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod">IotanalyticsChannelRetentionPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags">IotanalyticsChannelTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}.
 
 ---
 
@@ -648,7 +648,7 @@ The construct id used in the generated config for the IotanalyticsChannel to imp
 
 The id of the existing IotanalyticsChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,8 +970,8 @@ IotanalyticsChannelChannelStorage.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage.property.customerManagedS3">customerManagedS3</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3">IotanalyticsChannelChannelStorageCustomerManagedS3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#customer_managed_s3 IotanalyticsChannel#customer_managed_s3}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage.property.serviceManagedS3">serviceManagedS3</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#service_managed_s3 IotanalyticsChannel#service_managed_s3}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage.property.customerManagedS3">customerManagedS3</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3">IotanalyticsChannelChannelStorageCustomerManagedS3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#customer_managed_s3 IotanalyticsChannel#customer_managed_s3}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage.property.serviceManagedS3">serviceManagedS3</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#service_managed_s3 IotanalyticsChannel#service_managed_s3}. |
 
 ---
 
@@ -983,7 +983,7 @@ public IotanalyticsChannelChannelStorageCustomerManagedS3 getCustomerManagedS3()
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3">IotanalyticsChannelChannelStorageCustomerManagedS3</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#customer_managed_s3 IotanalyticsChannel#customer_managed_s3}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#customer_managed_s3 IotanalyticsChannel#customer_managed_s3}.
 
 ---
 
@@ -995,7 +995,7 @@ public java.lang.String getServiceManagedS3();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#service_managed_s3 IotanalyticsChannel#service_managed_s3}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#service_managed_s3 IotanalyticsChannel#service_managed_s3}.
 
 ---
 
@@ -1017,9 +1017,9 @@ IotanalyticsChannelChannelStorageCustomerManagedS3.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#bucket IotanalyticsChannel#bucket}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3.property.keyPrefix">keyPrefix</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#key_prefix IotanalyticsChannel#key_prefix}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3.property.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#role_arn IotanalyticsChannel#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#bucket IotanalyticsChannel#bucket}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3.property.keyPrefix">keyPrefix</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#key_prefix IotanalyticsChannel#key_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorageCustomerManagedS3.property.roleArn">roleArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#role_arn IotanalyticsChannel#role_arn}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ public java.lang.String getBucket();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#bucket IotanalyticsChannel#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#bucket IotanalyticsChannel#bucket}.
 
 ---
 
@@ -1043,7 +1043,7 @@ public java.lang.String getKeyPrefix();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#key_prefix IotanalyticsChannel#key_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#key_prefix IotanalyticsChannel#key_prefix}.
 
 ---
 
@@ -1055,7 +1055,7 @@ public java.lang.String getRoleArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#role_arn IotanalyticsChannel#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#role_arn IotanalyticsChannel#role_arn}.
 
 ---
 
@@ -1092,10 +1092,10 @@ IotanalyticsChannelConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.channelName">channelName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.channelStorage">channelStorage</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage">IotanalyticsChannelChannelStorage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.retentionPeriod">retentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod">IotanalyticsChannelRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags">IotanalyticsChannelTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.channelName">channelName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.channelStorage">channelStorage</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage">IotanalyticsChannelChannelStorage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.retentionPeriod">retentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod">IotanalyticsChannelRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags">IotanalyticsChannelTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}. |
 
 ---
 
@@ -1177,7 +1177,7 @@ public java.lang.String getChannelName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}.
 
 ---
 
@@ -1189,7 +1189,7 @@ public IotanalyticsChannelChannelStorage getChannelStorage();
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelChannelStorage">IotanalyticsChannelChannelStorage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}.
 
 ---
 
@@ -1201,7 +1201,7 @@ public IotanalyticsChannelRetentionPeriod getRetentionPeriod();
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod">IotanalyticsChannelRetentionPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}.
 
 ---
 
@@ -1213,7 +1213,7 @@ public IResolvable|java.util.List<IotanalyticsChannelTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags">IotanalyticsChannelTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}.
 
 ---
 
@@ -1234,8 +1234,8 @@ IotanalyticsChannelRetentionPeriod.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod.property.numberOfDays">numberOfDays</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#number_of_days IotanalyticsChannel#number_of_days}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod.property.unlimited">unlimited</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#unlimited IotanalyticsChannel#unlimited}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod.property.numberOfDays">numberOfDays</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#number_of_days IotanalyticsChannel#number_of_days}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelRetentionPeriod.property.unlimited">unlimited</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#unlimited IotanalyticsChannel#unlimited}. |
 
 ---
 
@@ -1247,7 +1247,7 @@ public java.lang.Number getNumberOfDays();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#number_of_days IotanalyticsChannel#number_of_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#number_of_days IotanalyticsChannel#number_of_days}.
 
 ---
 
@@ -1259,7 +1259,7 @@ public java.lang.Boolean|IResolvable getUnlimited();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#unlimited IotanalyticsChannel#unlimited}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#unlimited IotanalyticsChannel#unlimited}.
 
 ---
 
@@ -1280,8 +1280,8 @@ IotanalyticsChannelTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#key IotanalyticsChannel#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#value IotanalyticsChannel#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#key IotanalyticsChannel#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotanalyticsChannel.IotanalyticsChannelTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#value IotanalyticsChannel#value}. |
 
 ---
 
@@ -1293,7 +1293,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#key IotanalyticsChannel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#key IotanalyticsChannel#key}.
 
 ---
 
@@ -1305,7 +1305,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#value IotanalyticsChannel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#value IotanalyticsChannel#value}.
 
 ---
 

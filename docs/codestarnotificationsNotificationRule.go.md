@@ -4,7 +4,7 @@
 
 ### CodestarnotificationsNotificationRule <a name="CodestarnotificationsNotificationRule" id="@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule awscc_codestarnotifications_notification_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule awscc_codestarnotifications_notification_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRule.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the CodestarnotificationsNotif
 
 The id of the existing CodestarnotificationsNotificationRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,16 +1013,16 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarnotificationsn
 | <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.detailType">DetailType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#detail_type CodestarnotificationsNotificationRule#detail_type}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.eventTypeIds">EventTypeIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#event_type_ids CodestarnotificationsNotificationRule#event_type_ids}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#name CodestarnotificationsNotificationRule#name}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.resource">Resource</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#resource CodestarnotificationsNotificationRule#resource}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.targets">Targets</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#targets CodestarnotificationsNotificationRule#targets}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.createdBy">CreatedBy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#created_by CodestarnotificationsNotificationRule#created_by}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.eventTypeId">EventTypeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#event_type_id CodestarnotificationsNotificationRule#event_type_id}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.status">Status</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#status CodestarnotificationsNotificationRule#status}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#tags CodestarnotificationsNotificationRule#tags}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.targetAddress">TargetAddress</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.detailType">DetailType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#detail_type CodestarnotificationsNotificationRule#detail_type}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.eventTypeIds">EventTypeIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#event_type_ids CodestarnotificationsNotificationRule#event_type_ids}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#name CodestarnotificationsNotificationRule#name}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.resource">Resource</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#resource CodestarnotificationsNotificationRule#resource}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.targets">Targets</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#targets CodestarnotificationsNotificationRule#targets}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.createdBy">CreatedBy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#created_by CodestarnotificationsNotificationRule#created_by}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.eventTypeId">EventTypeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#event_type_id CodestarnotificationsNotificationRule#event_type_id}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.status">Status</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#status CodestarnotificationsNotificationRule#status}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#tags CodestarnotificationsNotificationRule#tags}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleConfig.property.targetAddress">TargetAddress</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}. |
 
 ---
 
@@ -1104,7 +1104,7 @@ DetailType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#detail_type CodestarnotificationsNotificationRule#detail_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#detail_type CodestarnotificationsNotificationRule#detail_type}.
 
 ---
 
@@ -1116,7 +1116,7 @@ EventTypeIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#event_type_ids CodestarnotificationsNotificationRule#event_type_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#event_type_ids CodestarnotificationsNotificationRule#event_type_ids}.
 
 ---
 
@@ -1128,7 +1128,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#name CodestarnotificationsNotificationRule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#name CodestarnotificationsNotificationRule#name}.
 
 ---
 
@@ -1140,7 +1140,7 @@ Resource *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#resource CodestarnotificationsNotificationRule#resource}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#resource CodestarnotificationsNotificationRule#resource}.
 
 ---
 
@@ -1152,7 +1152,7 @@ Targets interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#targets CodestarnotificationsNotificationRule#targets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#targets CodestarnotificationsNotificationRule#targets}.
 
 ---
 
@@ -1164,7 +1164,7 @@ CreatedBy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#created_by CodestarnotificationsNotificationRule#created_by}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#created_by CodestarnotificationsNotificationRule#created_by}.
 
 ---
 
@@ -1176,7 +1176,7 @@ EventTypeId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#event_type_id CodestarnotificationsNotificationRule#event_type_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#event_type_id CodestarnotificationsNotificationRule#event_type_id}.
 
 ---
 
@@ -1188,7 +1188,7 @@ Status *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#status CodestarnotificationsNotificationRule#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#status CodestarnotificationsNotificationRule#status}.
 
 ---
 
@@ -1200,7 +1200,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#tags CodestarnotificationsNotificationRule#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#tags CodestarnotificationsNotificationRule#tags}.
 
 ---
 
@@ -1212,7 +1212,7 @@ TargetAddress *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}.
 
 ---
 
@@ -1233,8 +1233,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarnotificationsn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargets.property.targetAddress">TargetAddress</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}. |
-| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargets.property.targetType">TargetType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#target_type CodestarnotificationsNotificationRule#target_type}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargets.property.targetAddress">TargetAddress</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}. |
+| <code><a href="#@cdktn/provider-awscc.codestarnotificationsNotificationRule.CodestarnotificationsNotificationRuleTargets.property.targetType">TargetType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#target_type CodestarnotificationsNotificationRule#target_type}. |
 
 ---
 
@@ -1246,7 +1246,7 @@ TargetAddress *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#target_address CodestarnotificationsNotificationRule#target_address}.
 
 ---
 
@@ -1258,7 +1258,7 @@ TargetType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codestarnotifications_notification_rule#target_type CodestarnotificationsNotificationRule#target_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codestarnotifications_notification_rule#target_type CodestarnotificationsNotificationRule#target_type}.
 
 ---
 

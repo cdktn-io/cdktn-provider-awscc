@@ -4,7 +4,7 @@
 
 ### BedrockKnowledgeBase <a name="BedrockKnowledgeBase" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockKnowledgeBase.BedrockKnowledgeBase.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BedrockKnowledgeBase to im
 
 The id of the existing BedrockKnowledgeBase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1064,7 +1064,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfiguration KnowledgeBaseConfiguration
 
 Contains details about the embeddings model used for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#knowledge_base_configuration BedrockKnowledgeBase#knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#knowledge_base_configuration BedrockKnowledgeBase#knowledge_base_configuration}
 
 ---
 
@@ -1078,7 +1078,7 @@ public string Name { get; set; }
 
 The name of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ The ARN of the IAM role with permissions to invoke API operations on the knowled
 
 The ARN must begin with AmazonBedrockExecutionRoleForKnowledgeBase_
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#role_arn BedrockKnowledgeBase#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#role_arn BedrockKnowledgeBase#role_arn}
 
 ---
 
@@ -1108,7 +1108,7 @@ public string Description { get; set; }
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
 
 ---
 
@@ -1122,7 +1122,7 @@ public BedrockKnowledgeBaseStorageConfiguration StorageConfiguration { get; set;
 
 The vector store service in which the knowledge base is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#storage_configuration BedrockKnowledgeBase#storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#storage_configuration BedrockKnowledgeBase#storage_configuration}
 
 ---
 
@@ -1136,7 +1136,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#tags BedrockKnowledgeBase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#tags BedrockKnowledgeBase#tags}
 
 ---
 
@@ -1178,7 +1178,7 @@ public string Type { get; set; }
 
 The type of a knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1192,7 +1192,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfigur
 
 Configurations for a Kendra knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#kendra_knowledge_base_configuration BedrockKnowledgeBase#kendra_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#kendra_knowledge_base_configuration BedrockKnowledgeBase#kendra_knowledge_base_configuration}
 
 ---
 
@@ -1206,7 +1206,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigu
 
 Contains details about the model used to create vector embeddings for a managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#managed_knowledge_base_configuration BedrockKnowledgeBase#managed_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#managed_knowledge_base_configuration BedrockKnowledgeBase#managed_knowledge_base_configuration}
 
 ---
 
@@ -1220,7 +1220,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for a SQL knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#sql_knowledge_base_configuration BedrockKnowledgeBase#sql_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#sql_knowledge_base_configuration BedrockKnowledgeBase#sql_knowledge_base_configuration}
 
 ---
 
@@ -1234,7 +1234,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 Contains details about the model used to create vector embeddings for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_knowledge_base_configuration BedrockKnowledgeBase#vector_knowledge_base_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_knowledge_base_configuration BedrockKnowledgeBase#vector_knowledge_base_configuration}
 
 ---
 
@@ -1268,7 +1268,7 @@ public string KendraIndexArn { get; set; }
 
 Arn of a Kendra index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
 
 ---
 
@@ -1308,7 +1308,7 @@ public string EmbeddingModelArn { get; set; }
 
 The ARN of the model used to create vector embeddings for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
 
 ---
 
@@ -1322,7 +1322,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigu
 
 The embeddings model configuration details for the vector model used in Knowledge Base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
 
 ---
 
@@ -1336,7 +1336,7 @@ public string EmbeddingModelType { get; set; }
 
 The type of embedding model to use for the managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_model_type BedrockKnowledgeBase#embedding_model_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_model_type BedrockKnowledgeBase#embedding_model_type}
 
 ---
 
@@ -1350,7 +1350,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigu
 
 Contains details about the server-side encryption for the managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#server_side_encryption_configuration BedrockKnowledgeBase#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#server_side_encryption_configuration BedrockKnowledgeBase#server_side_encryption_configuration}
 
 ---
 
@@ -1384,7 +1384,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigu
 
 The vector configuration details for the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
 
 ---
 
@@ -1424,7 +1424,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledg
 
 List of audio configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
 
 ---
 
@@ -1438,7 +1438,7 @@ public double Dimensions { get; set; }
 
 The dimensions details for the vector configuration used on the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
 
 ---
 
@@ -1452,7 +1452,7 @@ public string EmbeddingDataType { get; set; }
 
 The data type for the vectors when using a model to convert text into vector embeddings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
 
 ---
 
@@ -1466,7 +1466,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledg
 
 List of video configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
 
 ---
 
@@ -1500,7 +1500,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigu
 
 Configure the audio segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -1534,7 +1534,7 @@ public double FixedLengthDuration { get; set; }
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -1568,7 +1568,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigu
 
 Configure the video segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -1602,7 +1602,7 @@ public double FixedLengthDuration { get; set; }
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -1636,7 +1636,7 @@ public string KmsKeyArn { get; set; }
 
 The ARN of the AWS KMS key used to encrypt the managed knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#kms_key_arn BedrockKnowledgeBase#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#kms_key_arn BedrockKnowledgeBase#kms_key_arn}
 
 ---
 
@@ -1672,7 +1672,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for a Redshift knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
 
 ---
 
@@ -1686,7 +1686,7 @@ public string Type { get; set; }
 
 SQL query engine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1724,7 +1724,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for Redshift query engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#query_engine_configuration BedrockKnowledgeBase#query_engine_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#query_engine_configuration BedrockKnowledgeBase#query_engine_configuration}
 
 ---
 
@@ -1738,7 +1738,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for generating Redshift engine queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#query_generation_configuration BedrockKnowledgeBase#query_generation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#query_generation_configuration BedrockKnowledgeBase#query_generation_configuration}
 
 ---
 
@@ -1752,7 +1752,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBas
 
 List of configurations for available Redshift query engine storage types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#storage_configurations BedrockKnowledgeBase#storage_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#storage_configurations BedrockKnowledgeBase#storage_configurations}
 
 ---
 
@@ -1790,7 +1790,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for provisioned Redshift query engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#provisioned_configuration BedrockKnowledgeBase#provisioned_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#provisioned_configuration BedrockKnowledgeBase#provisioned_configuration}
 
 ---
 
@@ -1804,7 +1804,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for serverless Redshift query engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#serverless_configuration BedrockKnowledgeBase#serverless_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#serverless_configuration BedrockKnowledgeBase#serverless_configuration}
 
 ---
 
@@ -1818,7 +1818,7 @@ public string Type { get; set; }
 
 Redshift query engine type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1854,7 +1854,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for Redshift query engine provisioned auth setup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
 
 ---
 
@@ -1868,7 +1868,7 @@ public string ClusterIdentifier { get; set; }
 
 Redshift cluster identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#cluster_identifier BedrockKnowledgeBase#cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#cluster_identifier BedrockKnowledgeBase#cluster_identifier}
 
 ---
 
@@ -1906,7 +1906,7 @@ public string DatabaseUser { get; set; }
 
 Redshift database user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#database_user BedrockKnowledgeBase#database_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#database_user BedrockKnowledgeBase#database_user}
 
 ---
 
@@ -1920,7 +1920,7 @@ public string Type { get; set; }
 
 Provisioned Redshift auth type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -1934,7 +1934,7 @@ public string UsernamePasswordSecretArn { get; set; }
 
 Arn of a SecretsManager Secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
 
 ---
 
@@ -1970,7 +1970,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for Redshift query engine serverless auth setup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#auth_configuration BedrockKnowledgeBase#auth_configuration}
 
 ---
 
@@ -1984,7 +1984,7 @@ public string WorkgroupArn { get; set; }
 
 Workgroup arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#workgroup_arn BedrockKnowledgeBase#workgroup_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#workgroup_arn BedrockKnowledgeBase#workgroup_arn}
 
 ---
 
@@ -2020,7 +2020,7 @@ public string Type { get; set; }
 
 Serverless Redshift auth type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -2034,7 +2034,7 @@ public string UsernamePasswordSecretArn { get; set; }
 
 Arn of a SecretsManager Secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#username_password_secret_arn BedrockKnowledgeBase#username_password_secret_arn}
 
 ---
 
@@ -2070,7 +2070,7 @@ public double ExecutionTimeoutSeconds { get; set; }
 
 Max query execution timeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#execution_timeout_seconds BedrockKnowledgeBase#execution_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#execution_timeout_seconds BedrockKnowledgeBase#execution_timeout_seconds}
 
 ---
 
@@ -2084,7 +2084,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Context used to improve query generation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#generation_context BedrockKnowledgeBase#generation_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#generation_context BedrockKnowledgeBase#generation_context}
 
 ---
 
@@ -2120,7 +2120,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBas
 
 List of example queries and results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#curated_queries BedrockKnowledgeBase#curated_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#curated_queries BedrockKnowledgeBase#curated_queries}
 
 ---
 
@@ -2134,7 +2134,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBas
 
 List of tables used for Redshift query generation context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#tables BedrockKnowledgeBase#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#tables BedrockKnowledgeBase#tables}
 
 ---
 
@@ -2170,7 +2170,7 @@ public string NaturalLanguage { get; set; }
 
 Question for the curated query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
 
 ---
 
@@ -2184,7 +2184,7 @@ public string Sql { get; set; }
 
 Answer for the curated query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
 
 ---
 
@@ -2224,7 +2224,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBas
 
 List of Redshift query generation columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#columns BedrockKnowledgeBase#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#columns BedrockKnowledgeBase#columns}
 
 ---
 
@@ -2238,7 +2238,7 @@ public string Description { get; set; }
 
 Description for the attached entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
 
 ---
 
@@ -2252,7 +2252,7 @@ public string Inclusion { get; set; }
 
 Include or Exclude status for an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
 
 ---
 
@@ -2266,7 +2266,7 @@ public string Name { get; set; }
 
 Query generation table name. Must follow three-part notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
 
 ---
 
@@ -2304,7 +2304,7 @@ public string Description { get; set; }
 
 Description for the attached entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#description BedrockKnowledgeBase#description}
 
 ---
 
@@ -2318,7 +2318,7 @@ public string Inclusion { get; set; }
 
 Include or Exclude status for an entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#inclusion BedrockKnowledgeBase#inclusion}
 
 ---
 
@@ -2332,7 +2332,7 @@ public string Name { get; set; }
 
 Query generation column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#name BedrockKnowledgeBase#name}
 
 ---
 
@@ -2370,7 +2370,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for Redshift query engine AWS Data Catalog backed storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#aws_data_catalog_configuration BedrockKnowledgeBase#aws_data_catalog_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#aws_data_catalog_configuration BedrockKnowledgeBase#aws_data_catalog_configuration}
 
 ---
 
@@ -2384,7 +2384,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurati
 
 Configurations for Redshift query engine Redshift backed storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#redshift_configuration BedrockKnowledgeBase#redshift_configuration}
 
 ---
 
@@ -2398,7 +2398,7 @@ public string Type { get; set; }
 
 Redshift query engine storage type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -2432,7 +2432,7 @@ public string[] TableNames { get; set; }
 
 List of table names in AWS Data Catalog. Must follow two part notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#table_names BedrockKnowledgeBase#table_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#table_names BedrockKnowledgeBase#table_names}
 
 ---
 
@@ -2466,7 +2466,7 @@ public string DatabaseName { get; set; }
 
 Redshift database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
 
 ---
 
@@ -2504,7 +2504,7 @@ public string EmbeddingModelArn { get; set; }
 
 The ARN of the model used to create vector embeddings for the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_model_arn BedrockKnowledgeBase#embedding_model_arn}
 
 ---
 
@@ -2518,7 +2518,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 The embeddings model configuration details for the vector model used in Knowledge Base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_model_configuration BedrockKnowledgeBase#embedding_model_configuration}
 
 ---
 
@@ -2532,7 +2532,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 Configurations for supplemental data storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_configuration BedrockKnowledgeBase#supplemental_data_storage_configuration}
 
 ---
 
@@ -2566,7 +2566,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 The vector configuration details for the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#bedrock_embedding_model_configuration BedrockKnowledgeBase#bedrock_embedding_model_configuration}
 
 ---
 
@@ -2606,7 +2606,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledge
 
 List of audio configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#audio BedrockKnowledgeBase#audio}
 
 ---
 
@@ -2620,7 +2620,7 @@ public double Dimensions { get; set; }
 
 The dimensions details for the vector configuration used on the Bedrock embeddings model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#dimensions BedrockKnowledgeBase#dimensions}
 
 ---
 
@@ -2634,7 +2634,7 @@ public string EmbeddingDataType { get; set; }
 
 The data type for the vectors when using a model to convert text into vector embeddings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#embedding_data_type BedrockKnowledgeBase#embedding_data_type}
 
 ---
 
@@ -2648,7 +2648,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledge
 
 List of video configurations for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#video BedrockKnowledgeBase#video}
 
 ---
 
@@ -2682,7 +2682,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 Configure the audio segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -2716,7 +2716,7 @@ public double FixedLengthDuration { get; set; }
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -2750,7 +2750,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 Configure the video segmentation configuration for multi modal ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#segmentation_configuration BedrockKnowledgeBase#segmentation_configuration}
 
 ---
 
@@ -2784,7 +2784,7 @@ public double FixedLengthDuration { get; set; }
 
 Duration in seconds to segment the multi modal media.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#fixed_length_duration BedrockKnowledgeBase#fixed_length_duration}
 
 ---
 
@@ -2818,7 +2818,7 @@ public IResolvable|BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledge
 
 List of supplemental data storage locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_locations BedrockKnowledgeBase#supplemental_data_storage_locations}
 
 ---
 
@@ -2854,7 +2854,7 @@ public BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigur
 
 An Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#s3_location BedrockKnowledgeBase#s3_location}
 
 ---
 
@@ -2868,7 +2868,7 @@ public string SupplementalDataStorageLocationType { get; set; }
 
 Supplemental data storage location type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#supplemental_data_storage_location_type BedrockKnowledgeBase#supplemental_data_storage_location_type}
 
 ---
 
@@ -2902,7 +2902,7 @@ public string Uri { get; set; }
 
 The location's URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#uri BedrockKnowledgeBase#uri}
 
 ---
 
@@ -2950,7 +2950,7 @@ public BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfiguration MongoDb
 
 Contains the storage configuration of the knowledge base in MongoDb Atlas Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#mongo_db_atlas_configuration BedrockKnowledgeBase#mongo_db_atlas_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#mongo_db_atlas_configuration BedrockKnowledgeBase#mongo_db_atlas_configuration}
 
 ---
 
@@ -2964,7 +2964,7 @@ public BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfiguration Nep
 
 Contains the configurations to use Neptune Analytics as Vector Store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#neptune_analytics_configuration BedrockKnowledgeBase#neptune_analytics_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#neptune_analytics_configuration BedrockKnowledgeBase#neptune_analytics_configuration}
 
 ---
 
@@ -2978,7 +2978,7 @@ public BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigura
 
 Contains the storage configuration of the knowledge base in Amazon OpenSearch Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#opensearch_managed_cluster_configuration BedrockKnowledgeBase#opensearch_managed_cluster_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#opensearch_managed_cluster_configuration BedrockKnowledgeBase#opensearch_managed_cluster_configuration}
 
 ---
 
@@ -2992,7 +2992,7 @@ public BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration
 
 Contains the storage configuration of the knowledge base in Amazon OpenSearch Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#opensearch_serverless_configuration BedrockKnowledgeBase#opensearch_serverless_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#opensearch_serverless_configuration BedrockKnowledgeBase#opensearch_serverless_configuration}
 
 ---
 
@@ -3006,7 +3006,7 @@ public BedrockKnowledgeBaseStorageConfigurationPineconeConfiguration PineconeCon
 
 Contains the storage configuration of the knowledge base in Pinecone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#pinecone_configuration BedrockKnowledgeBase#pinecone_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#pinecone_configuration BedrockKnowledgeBase#pinecone_configuration}
 
 ---
 
@@ -3022,7 +3022,7 @@ Contains details about the storage configuration of the knowledge base in Amazon
 
 For more information, see Create a vector index in Amazon RDS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#rds_configuration BedrockKnowledgeBase#rds_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#rds_configuration BedrockKnowledgeBase#rds_configuration}
 
 ---
 
@@ -3036,7 +3036,7 @@ public BedrockKnowledgeBaseStorageConfigurationS3VectorsConfiguration S3VectorsC
 
 Contains the storage configuration of the knowledge base for S3 vectors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#s3_vectors_configuration BedrockKnowledgeBase#s3_vectors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#s3_vectors_configuration BedrockKnowledgeBase#s3_vectors_configuration}
 
 ---
 
@@ -3050,7 +3050,7 @@ public string Type { get; set; }
 
 The storage type of a knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#type BedrockKnowledgeBase#type}
 
 ---
 
@@ -3098,7 +3098,7 @@ public string CollectionName { get; set; }
 
 Name of the collection within MongoDB Atlas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#collection_name BedrockKnowledgeBase#collection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#collection_name BedrockKnowledgeBase#collection_name}
 
 ---
 
@@ -3112,7 +3112,7 @@ public string CredentialsSecretArn { get; set; }
 
 The ARN of the secret that you created in AWS Secrets Manager that is linked to your Amazon Mongo database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
 
 ---
 
@@ -3126,7 +3126,7 @@ public string DatabaseName { get; set; }
 
 Name of the database within MongoDB Atlas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
 
 ---
 
@@ -3140,7 +3140,7 @@ public string Endpoint { get; set; }
 
 MongoDB Atlas endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#endpoint BedrockKnowledgeBase#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#endpoint BedrockKnowledgeBase#endpoint}
 
 ---
 
@@ -3154,7 +3154,7 @@ public string EndpointServiceName { get; set; }
 
 MongoDB Atlas endpoint service name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#endpoint_service_name BedrockKnowledgeBase#endpoint_service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#endpoint_service_name BedrockKnowledgeBase#endpoint_service_name}
 
 ---
 
@@ -3168,7 +3168,7 @@ public BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMap
 
 Contains the names of the fields to which to map information about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3182,7 +3182,7 @@ public string TextIndexName { get; set; }
 
 Name of a MongoDB Atlas text index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_index_name BedrockKnowledgeBase#text_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_index_name BedrockKnowledgeBase#text_index_name}
 
 ---
 
@@ -3196,7 +3196,7 @@ public string VectorIndexName { get; set; }
 
 Name of a MongoDB Atlas index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
 
 ---
 
@@ -3234,7 +3234,7 @@ public string MetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3250,7 +3250,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3264,7 +3264,7 @@ public string VectorField { get; set; }
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -3300,7 +3300,7 @@ public BedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFiel
 
 A mapping of Bedrock Knowledge Base fields to Neptune Analytics fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3314,7 +3314,7 @@ public string GraphArn { get; set; }
 
 ARN for Neptune Analytics graph database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#graph_arn BedrockKnowledgeBase#graph_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#graph_arn BedrockKnowledgeBase#graph_arn}
 
 ---
 
@@ -3350,7 +3350,7 @@ public string MetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3366,7 +3366,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3406,7 +3406,7 @@ public string DomainArn { get; set; }
 
 The Amazon Resource Name (ARN) of the OpenSearch domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#domain_arn BedrockKnowledgeBase#domain_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#domain_arn BedrockKnowledgeBase#domain_arn}
 
 ---
 
@@ -3420,7 +3420,7 @@ public string DomainEndpoint { get; set; }
 
 The endpoint URL the OpenSearch domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#domain_endpoint BedrockKnowledgeBase#domain_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#domain_endpoint BedrockKnowledgeBase#domain_endpoint}
 
 ---
 
@@ -3434,7 +3434,7 @@ public BedrockKnowledgeBaseStorageConfigurationOpensearchManagedClusterConfigura
 
 A mapping of Bedrock Knowledge Base fields to OpenSearch Managed Cluster field names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3448,7 +3448,7 @@ public string VectorIndexName { get; set; }
 
 The name of the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
 
 ---
 
@@ -3486,7 +3486,7 @@ public string MetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3502,7 +3502,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3516,7 +3516,7 @@ public string VectorField { get; set; }
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -3554,7 +3554,7 @@ public string CollectionArn { get; set; }
 
 The ARN of the OpenSearch Service vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#collection_arn BedrockKnowledgeBase#collection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#collection_arn BedrockKnowledgeBase#collection_arn}
 
 ---
 
@@ -3568,7 +3568,7 @@ public BedrockKnowledgeBaseStorageConfigurationOpensearchServerlessConfiguration
 
 A mapping of Bedrock Knowledge Base fields to OpenSearch Serverless field names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3582,7 +3582,7 @@ public string VectorIndexName { get; set; }
 
 The name of the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_index_name BedrockKnowledgeBase#vector_index_name}
 
 ---
 
@@ -3620,7 +3620,7 @@ public string MetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3636,7 +3636,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3650,7 +3650,7 @@ public string VectorField { get; set; }
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -3690,7 +3690,7 @@ public string ConnectionString { get; set; }
 
 The endpoint URL for your index management page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#connection_string BedrockKnowledgeBase#connection_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#connection_string BedrockKnowledgeBase#connection_string}
 
 ---
 
@@ -3704,7 +3704,7 @@ public string CredentialsSecretArn { get; set; }
 
 The ARN of the secret that you created in AWS Secrets Manager that is linked to your Pinecone API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
 
 ---
 
@@ -3718,7 +3718,7 @@ public BedrockKnowledgeBaseStorageConfigurationPineconeConfigurationFieldMapping
 
 Contains the names of the fields to which to map information about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3732,7 +3732,7 @@ public string Namespace { get; set; }
 
 The namespace to be used to write new data to your database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#namespace BedrockKnowledgeBase#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#namespace BedrockKnowledgeBase#namespace}
 
 ---
 
@@ -3768,7 +3768,7 @@ public string MetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3784,7 +3784,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3826,7 +3826,7 @@ public string CredentialsSecretArn { get; set; }
 
 The ARN of the secret that you created in AWS Secrets Manager that is linked to your Amazon RDS database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#credentials_secret_arn BedrockKnowledgeBase#credentials_secret_arn}
 
 ---
 
@@ -3840,7 +3840,7 @@ public string DatabaseName { get; set; }
 
 The name of your Amazon RDS database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#database_name BedrockKnowledgeBase#database_name}
 
 ---
 
@@ -3854,7 +3854,7 @@ public BedrockKnowledgeBaseStorageConfigurationRdsConfigurationFieldMapping Fiel
 
 Contains the names of the fields to which to map information about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#field_mapping BedrockKnowledgeBase#field_mapping}
 
 ---
 
@@ -3868,7 +3868,7 @@ public string ResourceArn { get; set; }
 
 The ARN of the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#resource_arn BedrockKnowledgeBase#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#resource_arn BedrockKnowledgeBase#resource_arn}
 
 ---
 
@@ -3882,7 +3882,7 @@ public string TableName { get; set; }
 
 The name of the table in the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#table_name BedrockKnowledgeBase#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#table_name BedrockKnowledgeBase#table_name}
 
 ---
 
@@ -3924,7 +3924,7 @@ public string CustomMetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores custom metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#custom_metadata_field BedrockKnowledgeBase#custom_metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#custom_metadata_field BedrockKnowledgeBase#custom_metadata_field}
 
 ---
 
@@ -3938,7 +3938,7 @@ public string MetadataField { get; set; }
 
 The name of the field in which Amazon Bedrock stores metadata about the vector store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 
 ---
 
@@ -3952,7 +3952,7 @@ public string PrimaryKeyField { get; set; }
 
 The name of the field in which Amazon Bedrock stores the ID for each entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#primary_key_field BedrockKnowledgeBase#primary_key_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#primary_key_field BedrockKnowledgeBase#primary_key_field}
 
 ---
 
@@ -3968,7 +3968,7 @@ The name of the field in which Amazon Bedrock stores the raw text from your data
 
 The text is split according to the chunking strategy you choose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 
 ---
 
@@ -3982,7 +3982,7 @@ public string VectorField { get; set; }
 
 The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 
 ---
 
@@ -4022,7 +4022,7 @@ The Amazon Resource Name (ARN) of the vector index used for the knowledge base.
 
 This ARN identifies the specific vector index resource within Amazon Bedrock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#index_arn BedrockKnowledgeBase#index_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#index_arn BedrockKnowledgeBase#index_arn}
 
 ---
 
@@ -4038,7 +4038,7 @@ The name of the vector index used for the knowledge base.
 
 This name identifies the vector index within the Amazon Bedrock service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#index_name BedrockKnowledgeBase#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#index_name BedrockKnowledgeBase#index_name}
 
 ---
 
@@ -4054,7 +4054,7 @@ The Amazon Resource Name (ARN) of the S3 bucket where vector embeddings are stor
 
 This bucket contains the vector data used by the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_knowledge_base#vector_bucket_arn BedrockKnowledgeBase#vector_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#vector_bucket_arn BedrockKnowledgeBase#vector_bucket_arn}
 
 ---
 

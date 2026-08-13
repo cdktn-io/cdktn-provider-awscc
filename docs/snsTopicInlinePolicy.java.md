@@ -4,7 +4,7 @@
 
 ### SnsTopicInlinePolicy <a name="SnsTopicInlinePolicy" id="@cdktn/provider-awscc.snsTopicInlinePolicy.SnsTopicInlinePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.snsTopicInlinePolicy.SnsTopicInlinePolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 A policy document that contains permissions to add to the specified SNS topics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the topic to which you want to add the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the SnsTopicInlinePolicy to im
 
 The id of the existing SnsTopicInlinePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ public java.lang.String getPolicyDocument();
 
 A policy document that contains permissions to add to the specified SNS topics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
 
 ---
 
@@ -945,7 +945,7 @@ public java.lang.String getTopicArn();
 
 The Amazon Resource Name (ARN) of the topic to which you want to add the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
 
 ---
 
