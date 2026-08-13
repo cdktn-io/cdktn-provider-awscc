@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/eks_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEksClusterConfig extends cdktn.TerraformMetaArguments 
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/eks_cluster#id DataAwsccEksCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_cluster#id DataAwsccEksCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -332,6 +332,484 @@ export class DataAwsccEksClusterEncryptionConfigList extends cdktn.ComplexList {
   */
   public get(index: number): DataAwsccEksClusterEncryptionConfigOutputReference {
     return new DataAwsccEksClusterEncryptionConfigOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccEksClusterKubeApiServerConfigServiceNodePortRange {
+}
+
+export function dataAwsccEksClusterKubeApiServerConfigServiceNodePortRangeToTerraform(struct?: DataAwsccEksClusterKubeApiServerConfigServiceNodePortRange): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeApiServerConfigServiceNodePortRangeToHclTerraform(struct?: DataAwsccEksClusterKubeApiServerConfigServiceNodePortRange): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeApiServerConfigServiceNodePortRangeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeApiServerConfigServiceNodePortRange | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeApiServerConfigServiceNodePortRange | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // max_port - computed: true, optional: false, required: false
+  public get maxPort() {
+    return this.getNumberAttribute('max_port');
+  }
+
+  // min_port - computed: true, optional: false, required: false
+  public get minPort() {
+    return this.getNumberAttribute('min_port');
+  }
+}
+export interface DataAwsccEksClusterKubeApiServerConfig {
+}
+
+export function dataAwsccEksClusterKubeApiServerConfigToTerraform(struct?: DataAwsccEksClusterKubeApiServerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeApiServerConfigToHclTerraform(struct?: DataAwsccEksClusterKubeApiServerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeApiServerConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeApiServerConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeApiServerConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // event_ttl - computed: true, optional: false, required: false
+  public get eventTtl() {
+    return this.getStringAttribute('event_ttl');
+  }
+
+  // service_node_port_range - computed: true, optional: false, required: false
+  private _serviceNodePortRange = new DataAwsccEksClusterKubeApiServerConfigServiceNodePortRangeOutputReference(this, "service_node_port_range");
+  public get serviceNodePortRange() {
+    return this._serviceNodePortRange;
+  }
+}
+export interface DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig {
+}
+
+export function dataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigToTerraform(struct?: DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigToHclTerraform(struct?: DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // horizontal_pod_autoscaler_sync_period - computed: true, optional: false, required: false
+  public get horizontalPodAutoscalerSyncPeriod() {
+    return this.getStringAttribute('horizontal_pod_autoscaler_sync_period');
+  }
+}
+export interface DataAwsccEksClusterKubeControllerManagerConfig {
+}
+
+export function dataAwsccEksClusterKubeControllerManagerConfigToTerraform(struct?: DataAwsccEksClusterKubeControllerManagerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeControllerManagerConfigToHclTerraform(struct?: DataAwsccEksClusterKubeControllerManagerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeControllerManagerConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeControllerManagerConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeControllerManagerConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // horizontal_pod_autoscaler_controller_config - computed: true, optional: false, required: false
+  private _horizontalPodAutoscalerControllerConfig = new DataAwsccEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigOutputReference(this, "horizontal_pod_autoscaler_controller_config");
+  public get horizontalPodAutoscalerControllerConfig() {
+    return this._horizontalPodAutoscalerControllerConfig;
+  }
+}
+export interface DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResources {
+}
+
+export function dataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesToTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResources): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesToHclTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResources): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResources | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResources | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // weight - computed: true, optional: false, required: false
+  public get weight() {
+    return this.getNumberAttribute('weight');
+  }
+}
+
+export class DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesOutputReference {
+    return new DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategy {
+}
+
+export function dataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyToTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyToHclTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategy): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategy | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategy | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // resources - computed: true, optional: false, required: false
+  private _resources = new DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResourcesList(this, "resources", false);
+  public get resources() {
+    return this._resources;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+export interface DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFit {
+}
+
+export function dataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitToTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFit): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitToHclTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFit): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFit | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFit | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // scoring_strategy - computed: true, optional: false, required: false
+  private _scoringStrategy = new DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyOutputReference(this, "scoring_strategy");
+  public get scoringStrategy() {
+    return this._scoringStrategy;
+  }
+}
+export interface DataAwsccEksClusterKubeSchedulerConfig {
+}
+
+export function dataAwsccEksClusterKubeSchedulerConfigToTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksClusterKubeSchedulerConfigToHclTerraform(struct?: DataAwsccEksClusterKubeSchedulerConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksClusterKubeSchedulerConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksClusterKubeSchedulerConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksClusterKubeSchedulerConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // node_resources_fit - computed: true, optional: false, required: false
+  private _nodeResourcesFit = new DataAwsccEksClusterKubeSchedulerConfigNodeResourcesFitOutputReference(this, "node_resources_fit");
+  public get nodeResourcesFit() {
+    return this._nodeResourcesFit;
   }
 }
 export interface DataAwsccEksClusterKubernetesNetworkConfigElasticLoadBalancing {
@@ -1475,7 +1953,7 @@ export class DataAwsccEksClusterZonalShiftConfigOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/eks_cluster awscc_eks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_cluster awscc_eks_cluster}
 */
 export class DataAwsccEksCluster extends cdktn.TerraformDataSource {
 
@@ -1491,7 +1969,7 @@ export class DataAwsccEksCluster extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccEksCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEksCluster to import
-  * @param importFromId The id of the existing DataAwsccEksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/eks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1503,7 +1981,7 @@ export class DataAwsccEksCluster extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/eks_cluster awscc_eks_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_cluster awscc_eks_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1514,7 +1992,7 @@ export class DataAwsccEksCluster extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_eks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1612,6 +2090,24 @@ export class DataAwsccEksCluster extends cdktn.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // kube_api_server_config - computed: true, optional: false, required: false
+  private _kubeApiServerConfig = new DataAwsccEksClusterKubeApiServerConfigOutputReference(this, "kube_api_server_config");
+  public get kubeApiServerConfig() {
+    return this._kubeApiServerConfig;
+  }
+
+  // kube_controller_manager_config - computed: true, optional: false, required: false
+  private _kubeControllerManagerConfig = new DataAwsccEksClusterKubeControllerManagerConfigOutputReference(this, "kube_controller_manager_config");
+  public get kubeControllerManagerConfig() {
+    return this._kubeControllerManagerConfig;
+  }
+
+  // kube_scheduler_config - computed: true, optional: false, required: false
+  private _kubeSchedulerConfig = new DataAwsccEksClusterKubeSchedulerConfigOutputReference(this, "kube_scheduler_config");
+  public get kubeSchedulerConfig() {
+    return this._kubeSchedulerConfig;
   }
 
   // kubernetes_network_config - computed: true, optional: false, required: false

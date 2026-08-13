@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,35 @@ export interface MediaconvertPresetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The new category for the preset, if you are changing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset#category MediaconvertPreset#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset#category MediaconvertPreset#category}
   */
   readonly category?: string;
   /**
   * The new description for the preset, if you are changing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset#description MediaconvertPreset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset#description MediaconvertPreset#description}
   */
   readonly description?: string;
   /**
   * The name of the preset that you are modifying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset#name MediaconvertPreset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset#name MediaconvertPreset#name}
   */
   readonly name?: string;
   /**
   * Specify, in JSON format, the transcoding job settings for this output preset. This specification must conform to the AWS Elemental MediaConvert job validation. For information about forming this specification, see the Remarks section later in this topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset#settings_json MediaconvertPreset#settings_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset#settings_json MediaconvertPreset#settings_json}
   */
   readonly settingsJson: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}
   */
   readonly tags?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset}
 */
 export class MediaconvertPreset extends cdktn.TerraformResource {
 
@@ -59,7 +59,7 @@ export class MediaconvertPreset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconvertPreset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconvertPreset to import
-  * @param importFromId The id of the existing MediaconvertPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconvertPreset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconvertPreset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -71,7 +71,7 @@ export class MediaconvertPreset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,7 +82,7 @@ export class MediaconvertPreset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconvert_preset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

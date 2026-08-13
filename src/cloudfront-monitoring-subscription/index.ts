@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface CloudfrontMonitoringSubscriptionConfig extends cdktn.TerraformM
   /**
   * The ID of the distribution that you are enabling metrics for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription#distribution_id CloudfrontMonitoringSubscription#distribution_id}
   */
   readonly distributionId: string;
   /**
   * A subscription configuration for additional CloudWatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription#monitoring_subscription CloudfrontMonitoringSubscription#monitoring_subscription}
   */
   readonly monitoringSubscription: CloudfrontMonitoringSubscriptionMonitoringSubscription;
 }
@@ -29,7 +29,7 @@ export interface CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeM
   /**
   * A flag that indicates whether additional CloudWatch metrics are enabled for a given CloudFront distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_status CloudfrontMonitoringSubscription#realtime_metrics_subscription_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_status CloudfrontMonitoringSubscription#realtime_metrics_subscription_status}
   */
   readonly realtimeMetricsSubscriptionStatus?: string;
 }
@@ -125,7 +125,7 @@ export interface CloudfrontMonitoringSubscriptionMonitoringSubscription {
   /**
   * A subscription configuration for additional CloudWatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_config CloudfrontMonitoringSubscription#realtime_metrics_subscription_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription#realtime_metrics_subscription_config CloudfrontMonitoringSubscription#realtime_metrics_subscription_config}
   */
   readonly realtimeMetricsSubscriptionConfig?: CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetricsSubscriptionConfig;
 }
@@ -219,7 +219,7 @@ export class CloudfrontMonitoringSubscriptionMonitoringSubscriptionOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}
 */
 export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
 
@@ -235,7 +235,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontMonitoringSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontMonitoringSubscription to import
-  * @param importFromId The id of the existing CloudfrontMonitoringSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontMonitoringSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontMonitoringSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -247,7 +247,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,7 +258,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_monitoring_subscription',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

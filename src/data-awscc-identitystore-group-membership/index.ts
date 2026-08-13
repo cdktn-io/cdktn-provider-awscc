@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/identitystore_group_membership
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/identitystore_group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccIdentitystoreGroupMembershipConfig extends cdktn.Terra
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/identitystore_group_membership#id DataAwsccIdentitystoreGroupMembership#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/identitystore_group_membership#id DataAwsccIdentitystoreGroupMembership#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ export class DataAwsccIdentitystoreGroupMembershipMemberIdOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/identitystore_group_membership awscc_identitystore_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/identitystore_group_membership awscc_identitystore_group_membership}
 */
 export class DataAwsccIdentitystoreGroupMembership extends cdktn.TerraformDataSource {
 
@@ -94,7 +94,7 @@ export class DataAwsccIdentitystoreGroupMembership extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccIdentitystoreGroupMembership resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIdentitystoreGroupMembership to import
-  * @param importFromId The id of the existing DataAwsccIdentitystoreGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIdentitystoreGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/identitystore_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIdentitystoreGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -106,7 +106,7 @@ export class DataAwsccIdentitystoreGroupMembership extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/identitystore_group_membership awscc_identitystore_group_membership} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/identitystore_group_membership awscc_identitystore_group_membership} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -117,7 +117,7 @@ export class DataAwsccIdentitystoreGroupMembership extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_identitystore_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

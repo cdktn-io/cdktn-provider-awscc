@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/msk_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMskClusterConfig extends cdktn.TerraformMetaArguments 
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/msk_cluster#id DataAwsccMskCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster#id DataAwsccMskCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1318,6 +1318,255 @@ export class DataAwsccMskClusterEncryptionInfoOutputReference extends cdktn.Comp
     return this._encryptionInTransit;
   }
 }
+export interface DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs {
+}
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsToTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsToHclTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // log_group - computed: true, optional: false, required: false
+  public get logGroup() {
+    return this.getStringAttribute('log_group');
+  }
+}
+export interface DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose {
+}
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseToTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseToHclTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehose | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // delivery_stream - computed: true, optional: false, required: false
+  public get deliveryStream() {
+    return this.getStringAttribute('delivery_stream');
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+}
+export interface DataAwsccMskClusterLoggingInfoAuthorizerLogsS3 {
+}
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsS3ToTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogsS3): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsS3ToHclTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogsS3): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskClusterLoggingInfoAuthorizerLogsS3OutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskClusterLoggingInfoAuthorizerLogsS3 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskClusterLoggingInfoAuthorizerLogsS3 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // bucket - computed: true, optional: false, required: false
+  public get bucket() {
+    return this.getStringAttribute('bucket');
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // prefix - computed: true, optional: false, required: false
+  public get prefix() {
+    return this.getStringAttribute('prefix');
+  }
+}
+export interface DataAwsccMskClusterLoggingInfoAuthorizerLogs {
+}
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsToTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogs): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMskClusterLoggingInfoAuthorizerLogsToHclTerraform(struct?: DataAwsccMskClusterLoggingInfoAuthorizerLogs): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMskClusterLoggingInfoAuthorizerLogs | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMskClusterLoggingInfoAuthorizerLogs | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cloudwatch_logs - computed: true, optional: false, required: false
+  private _cloudwatchLogs = new DataAwsccMskClusterLoggingInfoAuthorizerLogsCloudwatchLogsOutputReference(this, "cloudwatch_logs");
+  public get cloudwatchLogs() {
+    return this._cloudwatchLogs;
+  }
+
+  // firehose - computed: true, optional: false, required: false
+  private _firehose = new DataAwsccMskClusterLoggingInfoAuthorizerLogsFirehoseOutputReference(this, "firehose");
+  public get firehose() {
+    return this._firehose;
+  }
+
+  // s3 - computed: true, optional: false, required: false
+  private _s3 = new DataAwsccMskClusterLoggingInfoAuthorizerLogsS3OutputReference(this, "s3");
+  public get s3() {
+    return this._s3;
+  }
+}
 export interface DataAwsccMskClusterLoggingInfoBrokerLogsCloudwatchLogs {
 }
 
@@ -1614,6 +1863,12 @@ export class DataAwsccMskClusterLoggingInfoOutputReference extends cdktn.Complex
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // authorizer_logs - computed: true, optional: false, required: false
+  private _authorizerLogs = new DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference(this, "authorizer_logs");
+  public get authorizerLogs() {
+    return this._authorizerLogs;
   }
 
   // broker_logs - computed: true, optional: false, required: false
@@ -1956,7 +2211,7 @@ export class DataAwsccMskClusterZookeeperAccessOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/msk_cluster awscc_msk_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster awscc_msk_cluster}
 */
 export class DataAwsccMskCluster extends cdktn.TerraformDataSource {
 
@@ -1972,7 +2227,7 @@ export class DataAwsccMskCluster extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMskCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMskCluster to import
-  * @param importFromId The id of the existing DataAwsccMskCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/msk_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMskCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMskCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1984,7 +2239,7 @@ export class DataAwsccMskCluster extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/msk_cluster awscc_msk_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster awscc_msk_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1995,7 +2250,7 @@ export class DataAwsccMskCluster extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_msk_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

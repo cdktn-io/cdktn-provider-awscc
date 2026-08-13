@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,41 +13,41 @@ import * as cdktn from 'cdktn';
 
 export interface BackupgatewayHypervisorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}
   */
   readonly logGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}
   */
   readonly tags?: BackupgatewayHypervisorTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}
   */
   readonly username?: string;
 }
 export interface BackupgatewayHypervisorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#key BackupgatewayHypervisor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#key BackupgatewayHypervisor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#value BackupgatewayHypervisor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#value BackupgatewayHypervisor#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class BackupgatewayHypervisorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor}
 */
 export class BackupgatewayHypervisor extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class BackupgatewayHypervisor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupgatewayHypervisor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupgatewayHypervisor to import
-  * @param importFromId The id of the existing BackupgatewayHypervisor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupgatewayHypervisor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupgatewayHypervisor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class BackupgatewayHypervisor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class BackupgatewayHypervisor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_backupgateway_hypervisor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

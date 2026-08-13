@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,47 +15,47 @@ export interface EventschemasSchemaConfig extends cdktn.TerraformMetaArguments {
   /**
   * The source of the schema definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#content EventschemasSchema#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#content EventschemasSchema#content}
   */
   readonly content: string;
   /**
   * A description of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#description EventschemasSchema#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#description EventschemasSchema#description}
   */
   readonly description?: string;
   /**
   * The name of the schema registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#registry_name EventschemasSchema#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#registry_name EventschemasSchema#registry_name}
   */
   readonly registryName: string;
   /**
   * The name of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#schema_name EventschemasSchema#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#schema_name EventschemasSchema#schema_name}
   */
   readonly schemaName?: string;
   /**
   * Tags associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#tags EventschemasSchema#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#tags EventschemasSchema#tags}
   */
   readonly tags?: EventschemasSchemaTags[] | cdktn.IResolvable;
   /**
   * The type of schema. Valid types include OpenApi3 and JSONSchemaDraft4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#type EventschemasSchema#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#type EventschemasSchema#type}
   */
   readonly type: string;
 }
 export interface EventschemasSchemaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}
   */
   readonly value?: string;
 }
@@ -200,7 +200,7 @@ export class EventschemasSchemaTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}
 */
 export class EventschemasSchema extends cdktn.TerraformResource {
 
@@ -216,7 +216,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventschemasSchema resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventschemasSchema to import
-  * @param importFromId The id of the existing EventschemasSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventschemasSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventschemasSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -228,7 +228,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema awscc_eventschemas_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema awscc_eventschemas_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +239,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eventschemas_schema',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

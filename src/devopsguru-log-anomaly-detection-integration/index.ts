@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/devopsguru_log_anomaly_detection_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_log_anomaly_detection_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DevopsguruLogAnomalyDetectionIntegrationConfig extends cdktn.Te
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}
 */
 export class DevopsguruLogAnomalyDetectionIntegration extends cdktn.TerraformResource {
 
@@ -31,7 +31,7 @@ export class DevopsguruLogAnomalyDetectionIntegration extends cdktn.TerraformRes
   * Generates CDKTN code for importing a DevopsguruLogAnomalyDetectionIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsguruLogAnomalyDetectionIntegration to import
-  * @param importFromId The id of the existing DevopsguruLogAnomalyDetectionIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/devopsguru_log_anomaly_detection_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsguruLogAnomalyDetectionIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_log_anomaly_detection_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsguruLogAnomalyDetectionIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DevopsguruLogAnomalyDetectionIntegration extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DevopsguruLogAnomalyDetectionIntegration extends cdktn.TerraformRes
       terraformResourceType: 'awscc_devopsguru_log_anomaly_detection_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

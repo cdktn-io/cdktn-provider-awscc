@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface GlueRegistryConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the registry. If description is not provided, there will not be any default value for this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry#description GlueRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry#description GlueRegistry#description}
   */
   readonly description?: string;
   /**
   * Name of the registry to be created of max length of 255, and may only contain letters, numbers, hyphen, underscore, dollar sign, or hash mark.  No whitespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry#name GlueRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry#name GlueRegistry#name}
   */
   readonly name: string;
   /**
   * List of tags to tag the Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry#tags GlueRegistry#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry#tags GlueRegistry#tags}
   */
   readonly tags?: GlueRegistryTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface GlueRegistryTags {
   /**
   * A key to identify the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry#key GlueRegistry#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry#key GlueRegistry#key}
   */
   readonly key?: string;
   /**
   * Corresponding tag value for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry#value GlueRegistry#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry#value GlueRegistry#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class GlueRegistryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry awscc_glue_registry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry awscc_glue_registry}
 */
 export class GlueRegistry extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class GlueRegistry extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueRegistry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueRegistry to import
-  * @param importFromId The id of the existing GlueRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class GlueRegistry extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_registry awscc_glue_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_registry awscc_glue_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class GlueRegistry extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_registry',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

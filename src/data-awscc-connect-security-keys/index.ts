@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_security_keys
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_security_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccConnectSecurityKeysConfig extends cdktn.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}
 */
 export class DataAwsccConnectSecurityKeys extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccConnectSecurityKeys extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccConnectSecurityKeys resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccConnectSecurityKeys to import
-  * @param importFromId The id of the existing DataAwsccConnectSecurityKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_security_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccConnectSecurityKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_security_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccConnectSecurityKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccConnectSecurityKeys extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_security_keys awscc_connect_security_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_security_keys awscc_connect_security_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccConnectSecurityKeys extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_connect_security_keys',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

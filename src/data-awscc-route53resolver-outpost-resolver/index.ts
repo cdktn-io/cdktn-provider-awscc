@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_outpost_resolver
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_outpost_resolver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccRoute53ResolverOutpostResolverConfig extends cdktn.Ter
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_outpost_resolver#id DataAwsccRoute53ResolverOutpostResolver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_outpost_resolver#id DataAwsccRoute53ResolverOutpostResolver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ export class DataAwsccRoute53ResolverOutpostResolverTagsList extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}
 */
 export class DataAwsccRoute53ResolverOutpostResolver extends cdktn.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataAwsccRoute53ResolverOutpostResolver extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccRoute53ResolverOutpostResolver resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccRoute53ResolverOutpostResolver to import
-  * @param importFromId The id of the existing DataAwsccRoute53ResolverOutpostResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccRoute53ResolverOutpostResolver that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccRoute53ResolverOutpostResolver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataAwsccRoute53ResolverOutpostResolver extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,7 +143,7 @@ export class DataAwsccRoute53ResolverOutpostResolver extends cdktn.TerraformData
       terraformResourceType: 'awscc_route53resolver_outpost_resolver',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

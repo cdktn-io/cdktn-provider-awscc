@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_directory_buckets
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_directory_buckets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccS3ExpressDirectoryBucketsConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_directory_buckets awscc_s3express_directory_buckets}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_directory_buckets awscc_s3express_directory_buckets}
 */
 export class DataAwsccS3ExpressDirectoryBuckets extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccS3ExpressDirectoryBuckets extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccS3ExpressDirectoryBuckets resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3ExpressDirectoryBuckets to import
-  * @param importFromId The id of the existing DataAwsccS3ExpressDirectoryBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_directory_buckets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3ExpressDirectoryBuckets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_directory_buckets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3ExpressDirectoryBuckets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccS3ExpressDirectoryBuckets extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_directory_buckets awscc_s3express_directory_buckets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_directory_buckets awscc_s3express_directory_buckets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccS3ExpressDirectoryBuckets extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_s3express_directory_buckets',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
