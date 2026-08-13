@@ -4,7 +4,7 @@
 
 ### SqsQueueInlinePolicy <a name="SqsQueueInlinePolicy" id="@cdktn/provider-awscc.sqsQueueInlinePolicy.SqsQueueInlinePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sqsQueueInlinePolicy.SqsQueueInlinePolicy.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 A policy document that contains permissions to add to the specified SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sqs_queue_inline_policy#policy_document SqsQueueInlinePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sqs_queue_inline_policy#policy_document SqsQueueInlinePolicy#policy_document}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URL of the SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sqs_queue_inline_policy#queue SqsQueueInlinePolicy#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sqs_queue_inline_policy#queue SqsQueueInlinePolicy#queue}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the SqsQueueInlinePolicy to im
 
 The id of the existing SqsQueueInlinePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sqs_queue_inline_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sqs_queue_inline_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ policy_document: str
 
 A policy document that contains permissions to add to the specified SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sqs_queue_inline_policy#policy_document SqsQueueInlinePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sqs_queue_inline_policy#policy_document SqsQueueInlinePolicy#policy_document}
 
 ---
 
@@ -995,7 +995,7 @@ queue: str
 
 The URL of the SQS queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sqs_queue_inline_policy#queue SqsQueueInlinePolicy#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sqs_queue_inline_policy#queue SqsQueueInlinePolicy#queue}
 
 ---
 

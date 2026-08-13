@@ -4,7 +4,7 @@
 
 ### SsmDocument <a name="SsmDocument" id="@cdktn/provider-awscc.ssmDocument.SsmDocument"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document awscc_ssm_document}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document awscc_ssm_document}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmDocument.SsmDocument.Initializer"></a>
 
@@ -591,7 +591,7 @@ The construct id used in the generated config for the SsmDocument to import.
 
 The id of the existing SsmDocument that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1051,7 +1051,7 @@ public string Key { get; set; }
 
 The key of a key-value pair that identifies the location of an attachment to a document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#key SsmDocument#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#key SsmDocument#key}
 
 ---
 
@@ -1065,7 +1065,7 @@ public string Name { get; set; }
 
 The name of the document attachment file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#name SsmDocument#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#name SsmDocument#name}
 
 ---
 
@@ -1081,7 +1081,7 @@ The value of a key-value pair that identifies the location of an attachment to a
 
 The format for Value depends on the type of key you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#values SsmDocument#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#values SsmDocument#values}
 
 ---
 
@@ -1217,7 +1217,7 @@ public string Content { get; set; }
 
 The content for the Systems Manager document in JSON, YAML or String format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#content SsmDocument#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#content SsmDocument#content}
 
 ---
 
@@ -1231,7 +1231,7 @@ public IResolvable|SsmDocumentAttachments[] Attachments { get; set; }
 
 A list of key and value pairs that describe attachments to a version of a document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#attachments SsmDocument#attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#attachments SsmDocument#attachments}
 
 ---
 
@@ -1247,7 +1247,7 @@ Specify the document format for the request.
 
 The document format can be either JSON or YAML. JSON is the default format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#document_format SsmDocument#document_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#document_format SsmDocument#document_format}
 
 ---
 
@@ -1261,7 +1261,7 @@ public string DocumentType { get; set; }
 
 The type of document to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#document_type SsmDocument#document_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#document_type SsmDocument#document_type}
 
 ---
 
@@ -1275,7 +1275,7 @@ public string Name { get; set; }
 
 A name for the Systems Manager document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#name SsmDocument#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#name SsmDocument#name}
 
 ---
 
@@ -1289,7 +1289,7 @@ public IResolvable|SsmDocumentRequires[] Requires { get; set; }
 
 A list of SSM documents required by a document. For example, an ApplicationConfiguration document requires an ApplicationConfigurationSchema document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#requires SsmDocument#requires}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#requires SsmDocument#requires}
 
 ---
 
@@ -1305,7 +1305,7 @@ Optional metadata that you assign to a resource.
 
 Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#tags SsmDocument#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#tags SsmDocument#tags}
 
 ---
 
@@ -1319,7 +1319,7 @@ public string TargetType { get; set; }
 
 Specify a target type to define the kinds of resources the document can run on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#target_type SsmDocument#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#target_type SsmDocument#target_type}
 
 ---
 
@@ -1335,7 +1335,7 @@ Update method - when set to 'Replace', the update will replace the existing docu
 
 when set to 'NewVersion', the update will create a new version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#update_method SsmDocument#update_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#update_method SsmDocument#update_method}
 
 ---
 
@@ -1351,7 +1351,7 @@ An optional field specifying the version of the artifact you are creating with t
 
 This value is unique across all versions of a document, and cannot be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#version_name SsmDocument#version_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#version_name SsmDocument#version_name}
 
 ---
 
@@ -1387,7 +1387,7 @@ public string Name { get; set; }
 
 The name of the required SSM document. The name can be an Amazon Resource Name (ARN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#name SsmDocument#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#name SsmDocument#name}
 
 ---
 
@@ -1401,7 +1401,7 @@ public string Version { get; set; }
 
 The document version required by the current document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#version SsmDocument#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#version SsmDocument#version}
 
 ---
 
@@ -1437,7 +1437,7 @@ public string Key { get; set; }
 
 The name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#key SsmDocument#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#key SsmDocument#key}
 
 ---
 
@@ -1451,7 +1451,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_document#value SsmDocument#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_document#value SsmDocument#value}
 
 ---
 

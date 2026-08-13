@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,67 +13,67 @@ import * as cdktn from 'cdktn';
 
 export interface BatchComputeEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#compute_environment_name BatchComputeEnvironment#compute_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#compute_environment_name BatchComputeEnvironment#compute_environment_name}
   */
   readonly computeEnvironmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#compute_resources BatchComputeEnvironment#compute_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#compute_resources BatchComputeEnvironment#compute_resources}
   */
   readonly computeResources?: BatchComputeEnvironmentComputeResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#context BatchComputeEnvironment#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#context BatchComputeEnvironment#context}
   */
   readonly context?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#eks_configuration BatchComputeEnvironment#eks_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#eks_configuration BatchComputeEnvironment#eks_configuration}
   */
   readonly eksConfiguration?: BatchComputeEnvironmentEksConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#replace_compute_environment BatchComputeEnvironment#replace_compute_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#replace_compute_environment BatchComputeEnvironment#replace_compute_environment}
   */
   readonly replaceComputeEnvironment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#service_role BatchComputeEnvironment#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#service_role BatchComputeEnvironment#service_role}
   */
   readonly serviceRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#state BatchComputeEnvironment#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#state BatchComputeEnvironment#state}
   */
   readonly state?: string;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#unmanagedv_cpus BatchComputeEnvironment#unmanagedv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#unmanagedv_cpus BatchComputeEnvironment#unmanagedv_cpus}
   */
   readonly unmanagedvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#update_policy BatchComputeEnvironment#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#update_policy BatchComputeEnvironment#update_policy}
   */
   readonly updatePolicy?: BatchComputeEnvironmentUpdatePolicy;
 }
 export interface BatchComputeEnvironmentComputeResourcesEc2Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#batch_image_status BatchComputeEnvironment#batch_image_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#batch_image_status BatchComputeEnvironment#batch_image_status}
   */
   readonly batchImageStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#image_id_override BatchComputeEnvironment#image_id_override}
   */
   readonly imageIdOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#image_kubernetes_version BatchComputeEnvironment#image_kubernetes_version}
   */
   readonly imageKubernetesVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#image_type BatchComputeEnvironment#image_type}
   */
   readonly imageType?: string;
 }
@@ -276,23 +276,23 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationList extends
 }
 export interface BatchComputeEnvironmentComputeResourcesLaunchTemplateOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#target_instance_types BatchComputeEnvironment#target_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#target_instance_types BatchComputeEnvironment#target_instance_types}
   */
   readonly targetInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
   */
   readonly userdataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
   */
   readonly version?: string;
 }
@@ -524,23 +524,23 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOverridesList 
 }
 export interface BatchComputeEnvironmentComputeResourcesLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#launch_template_id BatchComputeEnvironment#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#launch_template_name BatchComputeEnvironment#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#overrides BatchComputeEnvironment#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#overrides BatchComputeEnvironment#overrides}
   */
   readonly overrides?: BatchComputeEnvironmentComputeResourcesLaunchTemplateOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#userdata_type BatchComputeEnvironment#userdata_type}
   */
   readonly userdataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#version BatchComputeEnvironment#version}
   */
   readonly version?: string;
 }
@@ -748,9 +748,1223 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
     return this._version;
   }
 }
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#scale_in_after BatchComputeEnvironment#scale_in_after}
+  */
+  readonly scaleInAfter?: number;
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scale_in_after: cdktn.numberToTerraform(struct!.scaleInAfter),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scale_in_after: {
+      value: cdktn.numberToHclTerraform(struct!.scaleInAfter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scaleInAfter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scaleInAfter = this._scaleInAfter;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scaleInAfter = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scaleInAfter = value.scaleInAfter;
+    }
+  }
+
+  // scale_in_after - computed: true, optional: true, required: false
+  private _scaleInAfter?: number; 
+  public get scaleInAfter() {
+    return this.getNumberAttribute('scale_in_after');
+  }
+  public set scaleInAfter(value: number) {
+    this._scaleInAfter = value;
+  }
+  public resetScaleInAfter() {
+    this._scaleInAfter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scaleInAfterInput() {
+    return this._scaleInAfter;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#reservation_group_arn BatchComputeEnvironment#reservation_group_arn}
+  */
+  readonly reservationGroupArn?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#reservation_preference BatchComputeEnvironment#reservation_preference}
+  */
+  readonly reservationPreference?: string;
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    reservation_group_arn: cdktn.stringToTerraform(struct!.reservationGroupArn),
+    reservation_preference: cdktn.stringToTerraform(struct!.reservationPreference),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    reservation_group_arn: {
+      value: cdktn.stringToHclTerraform(struct!.reservationGroupArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    reservation_preference: {
+      value: cdktn.stringToHclTerraform(struct!.reservationPreference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._reservationGroupArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reservationGroupArn = this._reservationGroupArn;
+    }
+    if (this._reservationPreference !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.reservationPreference = this._reservationPreference;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._reservationGroupArn = undefined;
+      this._reservationPreference = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._reservationGroupArn = value.reservationGroupArn;
+      this._reservationPreference = value.reservationPreference;
+    }
+  }
+
+  // reservation_group_arn - computed: true, optional: true, required: false
+  private _reservationGroupArn?: string; 
+  public get reservationGroupArn() {
+    return this.getStringAttribute('reservation_group_arn');
+  }
+  public set reservationGroupArn(value: string) {
+    this._reservationGroupArn = value;
+  }
+  public resetReservationGroupArn() {
+    this._reservationGroupArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservationGroupArnInput() {
+    return this._reservationGroupArn;
+  }
+
+  // reservation_preference - computed: true, optional: true, required: false
+  private _reservationPreference?: string; 
+  public get reservationPreference() {
+    return this.getStringAttribute('reservation_preference');
+  }
+  public set reservationPreference(value: string) {
+    this._reservationPreference = value;
+  }
+  public resetReservationPreference() {
+    this._reservationPreference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reservationPreferenceInput() {
+    return this._reservationPreference;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#allowed_instance_types BatchComputeEnvironment#allowed_instance_types}
+  */
+  readonly allowedInstanceTypes?: string[];
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    allowed_instance_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedInstanceTypes),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    allowed_instance_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedInstanceTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowedInstanceTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowedInstanceTypes = this._allowedInstanceTypes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allowedInstanceTypes = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allowedInstanceTypes = value.allowedInstanceTypes;
+    }
+  }
+
+  // allowed_instance_types - computed: true, optional: true, required: false
+  private _allowedInstanceTypes?: string[]; 
+  public get allowedInstanceTypes() {
+    return this.getListAttribute('allowed_instance_types');
+  }
+  public set allowedInstanceTypes(value: string[]) {
+    this._allowedInstanceTypes = value;
+  }
+  public resetAllowedInstanceTypes() {
+    this._allowedInstanceTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedInstanceTypesInput() {
+    return this._allowedInstanceTypes;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#use_local_storage BatchComputeEnvironment#use_local_storage}
+  */
+  readonly useLocalStorage?: boolean | cdktn.IResolvable;
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    use_local_storage: cdktn.booleanToTerraform(struct!.useLocalStorage),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    use_local_storage: {
+      value: cdktn.booleanToHclTerraform(struct!.useLocalStorage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._useLocalStorage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.useLocalStorage = this._useLocalStorage;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._useLocalStorage = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._useLocalStorage = value.useLocalStorage;
+    }
+  }
+
+  // use_local_storage - computed: true, optional: true, required: false
+  private _useLocalStorage?: boolean | cdktn.IResolvable; 
+  public get useLocalStorage() {
+    return this.getBooleanAttribute('use_local_storage');
+  }
+  public set useLocalStorage(value: boolean | cdktn.IResolvable) {
+    this._useLocalStorage = value;
+  }
+  public resetUseLocalStorage() {
+    this._useLocalStorage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useLocalStorageInput() {
+    return this._useLocalStorage;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#security_groups BatchComputeEnvironment#security_groups}
+  */
+  readonly securityGroups?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}
+  */
+  readonly subnets?: string[];
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    security_groups: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.securityGroups),
+    subnets: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.subnets),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    security_groups: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.securityGroups),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    subnets: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.subnets),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._securityGroups !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.securityGroups = this._securityGroups;
+    }
+    if (this._subnets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnets = this._subnets;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._securityGroups = undefined;
+      this._subnets = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._securityGroups = value.securityGroups;
+      this._subnets = value.subnets;
+    }
+  }
+
+  // security_groups - computed: true, optional: true, required: false
+  private _securityGroups?: string[]; 
+  public get securityGroups() {
+    return this.getListAttribute('security_groups');
+  }
+  public set securityGroups(value: string[]) {
+    this._securityGroups = value;
+  }
+  public resetSecurityGroups() {
+    this._securityGroups = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityGroupsInput() {
+    return this._securityGroups;
+  }
+
+  // subnets - computed: true, optional: true, required: false
+  private _subnets?: string[]; 
+  public get subnets() {
+    return this.getListAttribute('subnets');
+  }
+  public set subnets(value: string[]) {
+    this._subnets = value;
+  }
+  public resetSubnets() {
+    this._subnets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetsInput() {
+    return this._subnets;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#storage_size_gi_b BatchComputeEnvironment#storage_size_gi_b}
+  */
+  readonly storageSizeGiB?: number;
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    storage_size_gi_b: cdktn.numberToTerraform(struct!.storageSizeGiB),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    storage_size_gi_b: {
+      value: cdktn.numberToHclTerraform(struct!.storageSizeGiB),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._storageSizeGiB !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageSizeGiB = this._storageSizeGiB;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._storageSizeGiB = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._storageSizeGiB = value.storageSizeGiB;
+    }
+  }
+
+  // storage_size_gi_b - computed: true, optional: true, required: false
+  private _storageSizeGiB?: number; 
+  public get storageSizeGiB() {
+    return this.getNumberAttribute('storage_size_gi_b');
+  }
+  public set storageSizeGiB(value: number) {
+    this._storageSizeGiB = value;
+  }
+  public resetStorageSizeGiB() {
+    this._storageSizeGiB = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageSizeGiBInput() {
+    return this._storageSizeGiB;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#capacity_option_type BatchComputeEnvironment#capacity_option_type}
+  */
+  readonly capacityOptionType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#capacity_reservations BatchComputeEnvironment#capacity_reservations}
+  */
+  readonly capacityReservations?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#ec_2_instance_profile_arn BatchComputeEnvironment#ec_2_instance_profile_arn}
+  */
+  readonly ec2InstanceProfileArn?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#fips_enabled BatchComputeEnvironment#fips_enabled}
+  */
+  readonly fipsEnabled?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#instance_metadata_tags_propagation BatchComputeEnvironment#instance_metadata_tags_propagation}
+  */
+  readonly instanceMetadataTagsPropagation?: boolean | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#instance_requirements BatchComputeEnvironment#instance_requirements}
+  */
+  readonly instanceRequirements?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#local_storage_configuration BatchComputeEnvironment#local_storage_configuration}
+  */
+  readonly localStorageConfiguration?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#monitoring BatchComputeEnvironment#monitoring}
+  */
+  readonly monitoring?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#network_configuration BatchComputeEnvironment#network_configuration}
+  */
+  readonly networkConfiguration?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#storage_configuration BatchComputeEnvironment#storage_configuration}
+  */
+  readonly storageConfiguration?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration;
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    capacity_option_type: cdktn.stringToTerraform(struct!.capacityOptionType),
+    capacity_reservations: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsToTerraform(struct!.capacityReservations),
+    ec_2_instance_profile_arn: cdktn.stringToTerraform(struct!.ec2InstanceProfileArn),
+    fips_enabled: cdktn.booleanToTerraform(struct!.fipsEnabled),
+    instance_metadata_tags_propagation: cdktn.booleanToTerraform(struct!.instanceMetadataTagsPropagation),
+    instance_requirements: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsToTerraform(struct!.instanceRequirements),
+    local_storage_configuration: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationToTerraform(struct!.localStorageConfiguration),
+    monitoring: cdktn.stringToTerraform(struct!.monitoring),
+    network_configuration: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationToTerraform(struct!.networkConfiguration),
+    storage_configuration: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationToTerraform(struct!.storageConfiguration),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    capacity_option_type: {
+      value: cdktn.stringToHclTerraform(struct!.capacityOptionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    capacity_reservations: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsToHclTerraform(struct!.capacityReservations),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations",
+    },
+    ec_2_instance_profile_arn: {
+      value: cdktn.stringToHclTerraform(struct!.ec2InstanceProfileArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fips_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.fipsEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    instance_metadata_tags_propagation: {
+      value: cdktn.booleanToHclTerraform(struct!.instanceMetadataTagsPropagation),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    instance_requirements: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsToHclTerraform(struct!.instanceRequirements),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements",
+    },
+    local_storage_configuration: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationToHclTerraform(struct!.localStorageConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration",
+    },
+    monitoring: {
+      value: cdktn.stringToHclTerraform(struct!.monitoring),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    network_configuration: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationToHclTerraform(struct!.networkConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration",
+    },
+    storage_configuration: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationToHclTerraform(struct!.storageConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._capacityOptionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityOptionType = this._capacityOptionType;
+    }
+    if (this._capacityReservations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityReservations = this._capacityReservations?.internalValue;
+    }
+    if (this._ec2InstanceProfileArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ec2InstanceProfileArn = this._ec2InstanceProfileArn;
+    }
+    if (this._fipsEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fipsEnabled = this._fipsEnabled;
+    }
+    if (this._instanceMetadataTagsPropagation !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceMetadataTagsPropagation = this._instanceMetadataTagsPropagation;
+    }
+    if (this._instanceRequirements?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceRequirements = this._instanceRequirements?.internalValue;
+    }
+    if (this._localStorageConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.localStorageConfiguration = this._localStorageConfiguration?.internalValue;
+    }
+    if (this._monitoring !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.monitoring = this._monitoring;
+    }
+    if (this._networkConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.networkConfiguration = this._networkConfiguration?.internalValue;
+    }
+    if (this._storageConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageConfiguration = this._storageConfiguration?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._capacityOptionType = undefined;
+      this._capacityReservations.internalValue = undefined;
+      this._ec2InstanceProfileArn = undefined;
+      this._fipsEnabled = undefined;
+      this._instanceMetadataTagsPropagation = undefined;
+      this._instanceRequirements.internalValue = undefined;
+      this._localStorageConfiguration.internalValue = undefined;
+      this._monitoring = undefined;
+      this._networkConfiguration.internalValue = undefined;
+      this._storageConfiguration.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._capacityOptionType = value.capacityOptionType;
+      this._capacityReservations.internalValue = value.capacityReservations;
+      this._ec2InstanceProfileArn = value.ec2InstanceProfileArn;
+      this._fipsEnabled = value.fipsEnabled;
+      this._instanceMetadataTagsPropagation = value.instanceMetadataTagsPropagation;
+      this._instanceRequirements.internalValue = value.instanceRequirements;
+      this._localStorageConfiguration.internalValue = value.localStorageConfiguration;
+      this._monitoring = value.monitoring;
+      this._networkConfiguration.internalValue = value.networkConfiguration;
+      this._storageConfiguration.internalValue = value.storageConfiguration;
+    }
+  }
+
+  // capacity_option_type - computed: true, optional: true, required: false
+  private _capacityOptionType?: string; 
+  public get capacityOptionType() {
+    return this.getStringAttribute('capacity_option_type');
+  }
+  public set capacityOptionType(value: string) {
+    this._capacityOptionType = value;
+  }
+  public resetCapacityOptionType() {
+    this._capacityOptionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityOptionTypeInput() {
+    return this._capacityOptionType;
+  }
+
+  // capacity_reservations - computed: true, optional: true, required: false
+  private _capacityReservations = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference(this, "capacity_reservations");
+  public get capacityReservations() {
+    return this._capacityReservations;
+  }
+  public putCapacityReservations(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateCapacityReservations) {
+    this._capacityReservations.internalValue = value;
+  }
+  public resetCapacityReservations() {
+    this._capacityReservations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityReservationsInput() {
+    return this._capacityReservations.internalValue;
+  }
+
+  // ec_2_instance_profile_arn - computed: true, optional: true, required: false
+  private _ec2InstanceProfileArn?: string; 
+  public get ec2InstanceProfileArn() {
+    return this.getStringAttribute('ec_2_instance_profile_arn');
+  }
+  public set ec2InstanceProfileArn(value: string) {
+    this._ec2InstanceProfileArn = value;
+  }
+  public resetEc2InstanceProfileArn() {
+    this._ec2InstanceProfileArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ec2InstanceProfileArnInput() {
+    return this._ec2InstanceProfileArn;
+  }
+
+  // fips_enabled - computed: true, optional: true, required: false
+  private _fipsEnabled?: boolean | cdktn.IResolvable; 
+  public get fipsEnabled() {
+    return this.getBooleanAttribute('fips_enabled');
+  }
+  public set fipsEnabled(value: boolean | cdktn.IResolvable) {
+    this._fipsEnabled = value;
+  }
+  public resetFipsEnabled() {
+    this._fipsEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fipsEnabledInput() {
+    return this._fipsEnabled;
+  }
+
+  // instance_metadata_tags_propagation - computed: true, optional: true, required: false
+  private _instanceMetadataTagsPropagation?: boolean | cdktn.IResolvable; 
+  public get instanceMetadataTagsPropagation() {
+    return this.getBooleanAttribute('instance_metadata_tags_propagation');
+  }
+  public set instanceMetadataTagsPropagation(value: boolean | cdktn.IResolvable) {
+    this._instanceMetadataTagsPropagation = value;
+  }
+  public resetInstanceMetadataTagsPropagation() {
+    this._instanceMetadataTagsPropagation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceMetadataTagsPropagationInput() {
+    return this._instanceMetadataTagsPropagation;
+  }
+
+  // instance_requirements - computed: true, optional: true, required: false
+  private _instanceRequirements = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirementsOutputReference(this, "instance_requirements");
+  public get instanceRequirements() {
+    return this._instanceRequirements;
+  }
+  public putInstanceRequirements(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements) {
+    this._instanceRequirements.internalValue = value;
+  }
+  public resetInstanceRequirements() {
+    this._instanceRequirements.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceRequirementsInput() {
+    return this._instanceRequirements.internalValue;
+  }
+
+  // local_storage_configuration - computed: true, optional: true, required: false
+  private _localStorageConfiguration = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference(this, "local_storage_configuration");
+  public get localStorageConfiguration() {
+    return this._localStorageConfiguration;
+  }
+  public putLocalStorageConfiguration(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration) {
+    this._localStorageConfiguration.internalValue = value;
+  }
+  public resetLocalStorageConfiguration() {
+    this._localStorageConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get localStorageConfigurationInput() {
+    return this._localStorageConfiguration.internalValue;
+  }
+
+  // monitoring - computed: true, optional: true, required: false
+  private _monitoring?: string; 
+  public get monitoring() {
+    return this.getStringAttribute('monitoring');
+  }
+  public set monitoring(value: string) {
+    this._monitoring = value;
+  }
+  public resetMonitoring() {
+    this._monitoring = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get monitoringInput() {
+    return this._monitoring;
+  }
+
+  // network_configuration - computed: true, optional: true, required: false
+  private _networkConfiguration = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfigurationOutputReference(this, "network_configuration");
+  public get networkConfiguration() {
+    return this._networkConfiguration;
+  }
+  public putNetworkConfiguration(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration) {
+    this._networkConfiguration.internalValue = value;
+  }
+  public resetNetworkConfiguration() {
+    this._networkConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get networkConfigurationInput() {
+    return this._networkConfiguration.internalValue;
+  }
+
+  // storage_configuration - computed: true, optional: true, required: false
+  private _storageConfiguration = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfigurationOutputReference(this, "storage_configuration");
+  public get storageConfiguration() {
+    return this._storageConfiguration;
+  }
+  public putStorageConfiguration(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration) {
+    this._storageConfiguration.internalValue = value;
+  }
+  public resetStorageConfiguration() {
+    this._storageConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageConfigurationInput() {
+    return this._storageConfiguration.internalValue;
+  }
+}
+export interface BatchComputeEnvironmentComputeResourcesManagedInstancesProvider {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#infrastructure_optimization BatchComputeEnvironment#infrastructure_optimization}
+  */
+  readonly infrastructureOptimization?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#infrastructure_role_arn BatchComputeEnvironment#infrastructure_role_arn}
+  */
+  readonly infrastructureRoleArn?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#instance_launch_template BatchComputeEnvironment#instance_launch_template}
+  */
+  readonly instanceLaunchTemplate?: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#propagate_tags BatchComputeEnvironment#propagate_tags}
+  */
+  readonly propagateTags?: string;
+}
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderToTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProvider | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    infrastructure_optimization: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationToTerraform(struct!.infrastructureOptimization),
+    infrastructure_role_arn: cdktn.stringToTerraform(struct!.infrastructureRoleArn),
+    instance_launch_template: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateToTerraform(struct!.instanceLaunchTemplate),
+    propagate_tags: cdktn.stringToTerraform(struct!.propagateTags),
+  }
+}
+
+
+export function batchComputeEnvironmentComputeResourcesManagedInstancesProviderToHclTerraform(struct?: BatchComputeEnvironmentComputeResourcesManagedInstancesProvider | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    infrastructure_optimization: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationToHclTerraform(struct!.infrastructureOptimization),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization",
+    },
+    infrastructure_role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.infrastructureRoleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    instance_launch_template: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateToHclTerraform(struct!.instanceLaunchTemplate),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate",
+    },
+    propagate_tags: {
+      value: cdktn.stringToHclTerraform(struct!.propagateTags),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BatchComputeEnvironmentComputeResourcesManagedInstancesProvider | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._infrastructureOptimization?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.infrastructureOptimization = this._infrastructureOptimization?.internalValue;
+    }
+    if (this._infrastructureRoleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.infrastructureRoleArn = this._infrastructureRoleArn;
+    }
+    if (this._instanceLaunchTemplate?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceLaunchTemplate = this._instanceLaunchTemplate?.internalValue;
+    }
+    if (this._propagateTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.propagateTags = this._propagateTags;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProvider | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._infrastructureOptimization.internalValue = undefined;
+      this._infrastructureRoleArn = undefined;
+      this._instanceLaunchTemplate.internalValue = undefined;
+      this._propagateTags = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._infrastructureOptimization.internalValue = value.infrastructureOptimization;
+      this._infrastructureRoleArn = value.infrastructureRoleArn;
+      this._instanceLaunchTemplate.internalValue = value.instanceLaunchTemplate;
+      this._propagateTags = value.propagateTags;
+    }
+  }
+
+  // infrastructure_optimization - computed: true, optional: true, required: false
+  private _infrastructureOptimization = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimizationOutputReference(this, "infrastructure_optimization");
+  public get infrastructureOptimization() {
+    return this._infrastructureOptimization;
+  }
+  public putInfrastructureOptimization(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInfrastructureOptimization) {
+    this._infrastructureOptimization.internalValue = value;
+  }
+  public resetInfrastructureOptimization() {
+    this._infrastructureOptimization.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get infrastructureOptimizationInput() {
+    return this._infrastructureOptimization.internalValue;
+  }
+
+  // infrastructure_role_arn - computed: true, optional: true, required: false
+  private _infrastructureRoleArn?: string; 
+  public get infrastructureRoleArn() {
+    return this.getStringAttribute('infrastructure_role_arn');
+  }
+  public set infrastructureRoleArn(value: string) {
+    this._infrastructureRoleArn = value;
+  }
+  public resetInfrastructureRoleArn() {
+    this._infrastructureRoleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get infrastructureRoleArnInput() {
+    return this._infrastructureRoleArn;
+  }
+
+  // instance_launch_template - computed: true, optional: true, required: false
+  private _instanceLaunchTemplate = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplateOutputReference(this, "instance_launch_template");
+  public get instanceLaunchTemplate() {
+    return this._instanceLaunchTemplate;
+  }
+  public putInstanceLaunchTemplate(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProviderInstanceLaunchTemplate) {
+    this._instanceLaunchTemplate.internalValue = value;
+  }
+  public resetInstanceLaunchTemplate() {
+    this._instanceLaunchTemplate.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceLaunchTemplateInput() {
+    return this._instanceLaunchTemplate.internalValue;
+  }
+
+  // propagate_tags - computed: true, optional: true, required: false
+  private _propagateTags?: string; 
+  public get propagateTags() {
+    return this.getStringAttribute('propagate_tags');
+  }
+  public set propagateTags(value: string) {
+    this._propagateTags = value;
+  }
+  public resetPropagateTags() {
+    this._propagateTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get propagateTagsInput() {
+    return this._propagateTags;
+  }
+}
 export interface BatchComputeEnvironmentComputeResourcesScalingPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#min_scale_down_delay_minutes BatchComputeEnvironment#min_scale_down_delay_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#min_scale_down_delay_minutes BatchComputeEnvironment#min_scale_down_delay_minutes}
   */
   readonly minScaleDownDelayMinutes?: number;
 }
@@ -844,81 +2058,91 @@ export class BatchComputeEnvironmentComputeResourcesScalingPolicyOutputReference
 }
 export interface BatchComputeEnvironmentComputeResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#allocation_strategy BatchComputeEnvironment#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#allocation_strategy BatchComputeEnvironment#allocation_strategy}
   */
   readonly allocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#bid_percentage BatchComputeEnvironment#bid_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#bid_percentage BatchComputeEnvironment#bid_percentage}
   */
   readonly bidPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#desiredv_cpus BatchComputeEnvironment#desiredv_cpus}
+  * Capacity-level tags for compute environments.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#capacity_tags BatchComputeEnvironment#capacity_tags}
+  */
+  readonly capacityTags?: { [key: string]: string };
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#desiredv_cpus BatchComputeEnvironment#desiredv_cpus}
   */
   readonly desiredvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#ec_2_configuration BatchComputeEnvironment#ec_2_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#ec_2_configuration BatchComputeEnvironment#ec_2_configuration}
   */
   readonly ec2Configuration?: BatchComputeEnvironmentComputeResourcesEc2Configuration[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#ec_2_key_pair BatchComputeEnvironment#ec_2_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#ec_2_key_pair BatchComputeEnvironment#ec_2_key_pair}
   */
   readonly ec2KeyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#image_id BatchComputeEnvironment#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#image_id BatchComputeEnvironment#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#instance_role BatchComputeEnvironment#instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#instance_role BatchComputeEnvironment#instance_role}
   */
   readonly instanceRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#instance_types BatchComputeEnvironment#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#instance_types BatchComputeEnvironment#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#launch_template BatchComputeEnvironment#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#launch_template BatchComputeEnvironment#launch_template}
   */
   readonly launchTemplate?: BatchComputeEnvironmentComputeResourcesLaunchTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#maxv_cpus BatchComputeEnvironment#maxv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#managed_instances_provider BatchComputeEnvironment#managed_instances_provider}
+  */
+  readonly managedInstancesProvider?: BatchComputeEnvironmentComputeResourcesManagedInstancesProvider;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#maxv_cpus BatchComputeEnvironment#maxv_cpus}
   */
   readonly maxvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#minv_cpus BatchComputeEnvironment#minv_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#minv_cpus BatchComputeEnvironment#minv_cpus}
   */
   readonly minvCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#placement_group BatchComputeEnvironment#placement_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#placement_group BatchComputeEnvironment#placement_group}
   */
   readonly placementGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#scaling_policy BatchComputeEnvironment#scaling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#scaling_policy BatchComputeEnvironment#scaling_policy}
   */
   readonly scalingPolicy?: BatchComputeEnvironmentComputeResourcesScalingPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#security_group_ids BatchComputeEnvironment#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#security_group_ids BatchComputeEnvironment#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#spot_iam_fleet_role BatchComputeEnvironment#spot_iam_fleet_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#spot_iam_fleet_role BatchComputeEnvironment#spot_iam_fleet_role}
   */
   readonly spotIamFleetRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#subnets BatchComputeEnvironment#subnets}
   */
   readonly subnets?: string[];
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#tags BatchComputeEnvironment#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#type BatchComputeEnvironment#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#update_to_latest_image_version BatchComputeEnvironment#update_to_latest_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#update_to_latest_image_version BatchComputeEnvironment#update_to_latest_image_version}
   */
   readonly updateToLatestImageVersion?: boolean | cdktn.IResolvable;
 }
@@ -931,6 +2155,7 @@ export function batchComputeEnvironmentComputeResourcesToTerraform(struct?: Batc
   return {
     allocation_strategy: cdktn.stringToTerraform(struct!.allocationStrategy),
     bid_percentage: cdktn.numberToTerraform(struct!.bidPercentage),
+    capacity_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.capacityTags),
     desiredv_cpus: cdktn.numberToTerraform(struct!.desiredvCpus),
     ec_2_configuration: cdktn.listMapper(batchComputeEnvironmentComputeResourcesEc2ConfigurationToTerraform, false)(struct!.ec2Configuration),
     ec_2_key_pair: cdktn.stringToTerraform(struct!.ec2KeyPair),
@@ -938,6 +2163,7 @@ export function batchComputeEnvironmentComputeResourcesToTerraform(struct?: Batc
     instance_role: cdktn.stringToTerraform(struct!.instanceRole),
     instance_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.instanceTypes),
     launch_template: batchComputeEnvironmentComputeResourcesLaunchTemplateToTerraform(struct!.launchTemplate),
+    managed_instances_provider: batchComputeEnvironmentComputeResourcesManagedInstancesProviderToTerraform(struct!.managedInstancesProvider),
     maxv_cpus: cdktn.numberToTerraform(struct!.maxvCpus),
     minv_cpus: cdktn.numberToTerraform(struct!.minvCpus),
     placement_group: cdktn.stringToTerraform(struct!.placementGroup),
@@ -969,6 +2195,12 @@ export function batchComputeEnvironmentComputeResourcesToHclTerraform(struct?: B
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    capacity_tags: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.capacityTags),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
     },
     desiredv_cpus: {
       value: cdktn.numberToHclTerraform(struct!.desiredvCpus),
@@ -1011,6 +2243,12 @@ export function batchComputeEnvironmentComputeResourcesToHclTerraform(struct?: B
       isBlock: true,
       type: "struct",
       storageClassType: "BatchComputeEnvironmentComputeResourcesLaunchTemplate",
+    },
+    managed_instances_provider: {
+      value: batchComputeEnvironmentComputeResourcesManagedInstancesProviderToHclTerraform(struct!.managedInstancesProvider),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BatchComputeEnvironmentComputeResourcesManagedInstancesProvider",
     },
     maxv_cpus: {
       value: cdktn.numberToHclTerraform(struct!.maxvCpus),
@@ -1104,6 +2342,10 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.bidPercentage = this._bidPercentage;
     }
+    if (this._capacityTags !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.capacityTags = this._capacityTags;
+    }
     if (this._desiredvCpus !== undefined) {
       hasAnyValues = true;
       internalValueResult.desiredvCpus = this._desiredvCpus;
@@ -1131,6 +2373,10 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
     if (this._launchTemplate?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.launchTemplate = this._launchTemplate?.internalValue;
+    }
+    if (this._managedInstancesProvider?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.managedInstancesProvider = this._managedInstancesProvider?.internalValue;
     }
     if (this._maxvCpus !== undefined) {
       hasAnyValues = true;
@@ -1181,6 +2427,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
       this.resolvableValue = undefined;
       this._allocationStrategy = undefined;
       this._bidPercentage = undefined;
+      this._capacityTags = undefined;
       this._desiredvCpus = undefined;
       this._ec2Configuration.internalValue = undefined;
       this._ec2KeyPair = undefined;
@@ -1188,6 +2435,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
       this._instanceRole = undefined;
       this._instanceTypes = undefined;
       this._launchTemplate.internalValue = undefined;
+      this._managedInstancesProvider.internalValue = undefined;
       this._maxvCpus = undefined;
       this._minvCpus = undefined;
       this._placementGroup = undefined;
@@ -1208,6 +2456,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
       this.resolvableValue = undefined;
       this._allocationStrategy = value.allocationStrategy;
       this._bidPercentage = value.bidPercentage;
+      this._capacityTags = value.capacityTags;
       this._desiredvCpus = value.desiredvCpus;
       this._ec2Configuration.internalValue = value.ec2Configuration;
       this._ec2KeyPair = value.ec2KeyPair;
@@ -1215,6 +2464,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
       this._instanceRole = value.instanceRole;
       this._instanceTypes = value.instanceTypes;
       this._launchTemplate.internalValue = value.launchTemplate;
+      this._managedInstancesProvider.internalValue = value.managedInstancesProvider;
       this._maxvCpus = value.maxvCpus;
       this._minvCpus = value.minvCpus;
       this._placementGroup = value.placementGroup;
@@ -1258,6 +2508,22 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get bidPercentageInput() {
     return this._bidPercentage;
+  }
+
+  // capacity_tags - computed: true, optional: true, required: false
+  private _capacityTags?: { [key: string]: string }; 
+  public get capacityTags() {
+    return this.getStringMapAttribute('capacity_tags');
+  }
+  public set capacityTags(value: { [key: string]: string }) {
+    this._capacityTags = value;
+  }
+  public resetCapacityTags() {
+    this._capacityTags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get capacityTagsInput() {
+    return this._capacityTags;
   }
 
   // desiredv_cpus - computed: true, optional: true, required: false
@@ -1370,6 +2636,22 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get launchTemplateInput() {
     return this._launchTemplate.internalValue;
+  }
+
+  // managed_instances_provider - computed: true, optional: true, required: false
+  private _managedInstancesProvider = new BatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference(this, "managed_instances_provider");
+  public get managedInstancesProvider() {
+    return this._managedInstancesProvider;
+  }
+  public putManagedInstancesProvider(value: BatchComputeEnvironmentComputeResourcesManagedInstancesProvider) {
+    this._managedInstancesProvider.internalValue = value;
+  }
+  public resetManagedInstancesProvider() {
+    this._managedInstancesProvider.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get managedInstancesProviderInput() {
+    return this._managedInstancesProvider.internalValue;
   }
 
   // maxv_cpus - computed: true, optional: true, required: false
@@ -1534,11 +2816,11 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
 }
 export interface BatchComputeEnvironmentEksConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#eks_cluster_arn BatchComputeEnvironment#eks_cluster_arn}
   */
   readonly eksClusterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#kubernetes_namespace BatchComputeEnvironment#kubernetes_namespace}
   */
   readonly kubernetesNamespace?: string;
 }
@@ -1661,11 +2943,11 @@ export class BatchComputeEnvironmentEksConfigurationOutputReference extends cdkt
 }
 export interface BatchComputeEnvironmentUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#job_execution_timeout_minutes BatchComputeEnvironment#job_execution_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#job_execution_timeout_minutes BatchComputeEnvironment#job_execution_timeout_minutes}
   */
   readonly jobExecutionTimeoutMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#terminate_jobs_on_update BatchComputeEnvironment#terminate_jobs_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#terminate_jobs_on_update BatchComputeEnvironment#terminate_jobs_on_update}
   */
   readonly terminateJobsOnUpdate?: boolean | cdktn.IResolvable;
 }
@@ -1788,7 +3070,7 @@ export class BatchComputeEnvironmentUpdatePolicyOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment awscc_batch_compute_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment awscc_batch_compute_environment}
 */
 export class BatchComputeEnvironment extends cdktn.TerraformResource {
 
@@ -1804,7 +3086,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BatchComputeEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BatchComputeEnvironment to import
-  * @param importFromId The id of the existing BatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BatchComputeEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1816,7 +3098,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1827,7 +3109,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_batch_compute_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

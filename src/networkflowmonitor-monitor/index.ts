@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface NetworkflowmonitorMonitorConfig extends cdktn.TerraformMetaArgu
   /**
   * The local resources to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#local_resources NetworkflowmonitorMonitor#local_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#local_resources NetworkflowmonitorMonitor#local_resources}
   */
   readonly localResources: NetworkflowmonitorMonitorLocalResources[] | cdktn.IResolvable;
   /**
   * The name of the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#monitor_name NetworkflowmonitorMonitor#monitor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#monitor_name NetworkflowmonitorMonitor#monitor_name}
   */
   readonly monitorName: string;
   /**
   * The remote resources to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#remote_resources NetworkflowmonitorMonitor#remote_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#remote_resources NetworkflowmonitorMonitor#remote_resources}
   */
   readonly remoteResources?: NetworkflowmonitorMonitorRemoteResources[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the scope for the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#scope_arn NetworkflowmonitorMonitor#scope_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#scope_arn NetworkflowmonitorMonitor#scope_arn}
   */
   readonly scopeArn?: string;
   /**
   * The tags for the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#tags NetworkflowmonitorMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#tags NetworkflowmonitorMonitor#tags}
   */
   readonly tags?: NetworkflowmonitorMonitorTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface NetworkflowmonitorMonitorLocalResources {
   /**
   * The identifier of the local resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}
   */
   readonly identifier: string;
   /**
   * The type of the local resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}
   */
   readonly type: string;
 }
@@ -194,13 +194,13 @@ export interface NetworkflowmonitorMonitorRemoteResources {
   /**
   * The identifier of the remote resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}
   */
   readonly identifier?: string;
   /**
   * The type of the remote resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}
   */
   readonly type?: string;
 }
@@ -345,11 +345,11 @@ export class NetworkflowmonitorMonitorRemoteResourcesList extends cdktn.ComplexL
 }
 export interface NetworkflowmonitorMonitorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#key NetworkflowmonitorMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#key NetworkflowmonitorMonitor#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#value NetworkflowmonitorMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#value NetworkflowmonitorMonitor#value}
   */
   readonly value?: string;
 }
@@ -494,7 +494,7 @@ export class NetworkflowmonitorMonitorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor}
 */
 export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
 
@@ -510,7 +510,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkflowmonitorMonitor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkflowmonitorMonitor to import
-  * @param importFromId The id of the existing NetworkflowmonitorMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkflowmonitorMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkflowmonitorMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -522,7 +522,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,7 +533,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkflowmonitor_monitor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

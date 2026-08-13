@@ -4,7 +4,7 @@
 
 ### DataAwsccInterconnectConnections <a name="DataAwsccInterconnectConnections" id="@cdktn/provider-awscc.dataAwsccInterconnectConnections.DataAwsccInterconnectConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/interconnect_connections awscc_interconnect_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/interconnect_connections awscc_interconnect_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInterconnectConnections.DataAwsccInterconnectConnections.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInterconnectConne
 
 The id of the existing DataAwsccInterconnectConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/interconnect_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/interconnect_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

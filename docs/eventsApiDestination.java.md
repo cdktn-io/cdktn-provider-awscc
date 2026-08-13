@@ -4,7 +4,7 @@
 
 ### EventsApiDestination <a name="EventsApiDestination" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination awscc_events_api_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination awscc_events_api_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer"></a>
 
@@ -40,10 +40,10 @@ EventsApiDestination.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.connectionArn">connectionArn</a></code> | <code>java.lang.String</code> | The arn of the connection. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.httpMethod">httpMethod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.httpMethod">httpMethod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}. |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.invocationEndpoint">invocationEndpoint</a></code> | <code>java.lang.String</code> | Url endpoint to invoke. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#description EventsApiDestination#description}. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.invocationRateLimitPerSecond">invocationRateLimitPerSecond</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#description EventsApiDestination#description}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.invocationRateLimitPerSecond">invocationRateLimitPerSecond</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}. |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestination.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the apiDestination. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The arn of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Url endpoint to invoke.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#description EventsApiDestination#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#description EventsApiDestination#description}.
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}.
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the apiDestination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#name EventsApiDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#name EventsApiDestination#name}
 
 ---
 
@@ -628,7 +628,7 @@ The construct id used in the generated config for the EventsApiDestination to im
 
 The id of the existing EventsApiDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1024,10 +1024,10 @@ EventsApiDestinationConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.connectionArn">connectionArn</a></code> | <code>java.lang.String</code> | The arn of the connection. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.httpMethod">httpMethod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.httpMethod">httpMethod</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}. |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.invocationEndpoint">invocationEndpoint</a></code> | <code>java.lang.String</code> | Url endpoint to invoke. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#description EventsApiDestination#description}. |
-| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.invocationRateLimitPerSecond">invocationRateLimitPerSecond</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#description EventsApiDestination#description}. |
+| <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.invocationRateLimitPerSecond">invocationRateLimitPerSecond</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}. |
 | <code><a href="#@cdktn/provider-awscc.eventsApiDestination.EventsApiDestinationConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the apiDestination. |
 
 ---
@@ -1112,7 +1112,7 @@ public java.lang.String getConnectionArn();
 
 The arn of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
 
 ---
 
@@ -1124,7 +1124,7 @@ public java.lang.String getHttpMethod();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}.
 
 ---
 
@@ -1138,7 +1138,7 @@ public java.lang.String getInvocationEndpoint();
 
 Url endpoint to invoke.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
 
 ---
 
@@ -1150,7 +1150,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#description EventsApiDestination#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#description EventsApiDestination#description}.
 
 ---
 
@@ -1162,7 +1162,7 @@ public java.lang.Number getInvocationRateLimitPerSecond();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}.
 
 ---
 
@@ -1176,7 +1176,7 @@ public java.lang.String getName();
 
 Name of the apiDestination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_api_destination#name EventsApiDestination#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination#name EventsApiDestination#name}
 
 ---
 

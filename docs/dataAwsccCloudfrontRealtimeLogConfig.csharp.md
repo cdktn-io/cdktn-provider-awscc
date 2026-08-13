@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontRealtimeLogConfig <a name="DataAwsccCloudfrontRealtimeLogConfig" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_realtime_log_config awscc_cloudfront_realtime_log_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontRealtimeLogConfig.DataAwsccCloudfrontRealtimeLogConfig.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontRealtim
 
 The id of the existing DataAwsccCloudfrontRealtimeLogConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_realtime_log_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_realtime_log_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -751,7 +751,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_realtime_log_config#id DataAwsccCloudfrontRealtimeLogConfig#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_realtime_log_config#id DataAwsccCloudfrontRealtimeLogConfig#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

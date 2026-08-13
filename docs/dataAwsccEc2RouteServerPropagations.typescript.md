@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2RouteServerPropagations <a name="DataAwsccEc2RouteServerPropagations" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagations.DataAwsccEc2RouteServerPropagations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_route_server_propagations awscc_ec2_route_server_propagations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_propagations awscc_ec2_route_server_propagations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPropagations.DataAwsccEc2RouteServerPropagations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerPro
 
 The id of the existing DataAwsccEc2RouteServerPropagations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_route_server_propagations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_propagations#import import section} in the documentation of this resource for the id to use
 
 ---
 

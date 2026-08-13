@@ -4,7 +4,7 @@
 
 ### DataAwsccMedialiveEventBridgeRuleTemplates <a name="DataAwsccMedialiveEventBridgeRuleTemplates" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplates.DataAwsccMedialiveEventBridgeRuleTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/medialive_event_bridge_rule_templates awscc_medialive_event_bridge_rule_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_event_bridge_rule_templates awscc_medialive_event_bridge_rule_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveEventBridgeRuleTemplates.DataAwsccMedialiveEventBridgeRuleTemplates.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMedialiveEventBri
 
 The id of the existing DataAwsccMedialiveEventBridgeRuleTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/medialive_event_bridge_rule_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_event_bridge_rule_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_restore_testing_plans
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_restore_testing_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBackupRestoreTestingPlansConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans}
 */
 export class DataAwsccBackupRestoreTestingPlans extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccBackupRestoreTestingPlans extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccBackupRestoreTestingPlans resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBackupRestoreTestingPlans to import
-  * @param importFromId The id of the existing DataAwsccBackupRestoreTestingPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_restore_testing_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBackupRestoreTestingPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_restore_testing_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBackupRestoreTestingPlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccBackupRestoreTestingPlans extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccBackupRestoreTestingPlans extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_backup_restore_testing_plans',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

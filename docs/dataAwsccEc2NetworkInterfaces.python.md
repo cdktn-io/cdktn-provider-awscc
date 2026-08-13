@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2NetworkInterfaces <a name="DataAwsccEc2NetworkInterfaces" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInterfaces.DataAwsccEc2NetworkInterfaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_network_interfaces awscc_ec2_network_interfaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_network_interfaces awscc_ec2_network_interfaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInterfaces.DataAwsccEc2NetworkInterfaces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkInterfa
 
 The id of the existing DataAwsccEc2NetworkInterfaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_network_interfaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_network_interfaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

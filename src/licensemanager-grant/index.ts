@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,39 +13,39 @@ import * as cdktn from 'cdktn';
 
 export interface LicensemanagerGrantConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#allowed_operations LicensemanagerGrant#allowed_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#allowed_operations LicensemanagerGrant#allowed_operations}
   */
   readonly allowedOperations?: string[];
   /**
   * Name for the created Grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#grant_name LicensemanagerGrant#grant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#grant_name LicensemanagerGrant#grant_name}
   */
   readonly grantName?: string;
   /**
   * Home region for the created grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#home_region LicensemanagerGrant#home_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#home_region LicensemanagerGrant#home_region}
   */
   readonly homeRegion?: string;
   /**
   * License Arn for the grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#license_arn LicensemanagerGrant#license_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#license_arn LicensemanagerGrant#license_arn}
   */
   readonly licenseArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#principals LicensemanagerGrant#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#principals LicensemanagerGrant#principals}
   */
   readonly principals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#status LicensemanagerGrant#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#status LicensemanagerGrant#status}
   */
   readonly status?: string;
   /**
   * A list of tags to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#tags LicensemanagerGrant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#tags LicensemanagerGrant#tags}
   */
   readonly tags?: LicensemanagerGrantTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface LicensemanagerGrantTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#key LicensemanagerGrant#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#key LicensemanagerGrant#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#value LicensemanagerGrant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#value LicensemanagerGrant#value}
   */
   readonly value?: string;
 }
@@ -204,7 +204,7 @@ export class LicensemanagerGrantTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant awscc_licensemanager_grant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant awscc_licensemanager_grant}
 */
 export class LicensemanagerGrant extends cdktn.TerraformResource {
 
@@ -220,7 +220,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LicensemanagerGrant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensemanagerGrant to import
-  * @param importFromId The id of the existing LicensemanagerGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensemanagerGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensemanagerGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -232,7 +232,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/licensemanager_grant awscc_licensemanager_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/licensemanager_grant awscc_licensemanager_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,7 +243,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_licensemanager_grant',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

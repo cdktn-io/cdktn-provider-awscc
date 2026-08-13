@@ -4,7 +4,7 @@
 
 ### ImagebuilderContainerRecipe <a name="ImagebuilderContainerRecipe" id="@cdktn/provider-awscc.imagebuilderContainerRecipe.ImagebuilderContainerRecipe"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe awscc_imagebuilder_container_recipe}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe awscc_imagebuilder_container_recipe}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderContainerRecipe.ImagebuilderContainerRecipe.Initializer"></a>
 
@@ -633,7 +633,7 @@ The construct id used in the generated config for the ImagebuilderContainerRecip
 
 The id of the existing ImagebuilderContainerRecipe that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1223,7 +1223,7 @@ ComponentArn *string
 
 The Amazon Resource Name (ARN) of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#component_arn ImagebuilderContainerRecipe#component_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#component_arn ImagebuilderContainerRecipe#component_arn}
 
 ---
 
@@ -1237,7 +1237,7 @@ Parameters interface{}
 
 A group of parameter settings that are used to configure the component for a specific recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#parameters ImagebuilderContainerRecipe#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#parameters ImagebuilderContainerRecipe#parameters}
 
 ---
 
@@ -1273,7 +1273,7 @@ Name *string
 
 The name of the component parameter to set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}
 
 ---
 
@@ -1287,7 +1287,7 @@ Value *[]*string
 
 Sets the value for the named component parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#value ImagebuilderContainerRecipe#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#value ImagebuilderContainerRecipe#value}
 
 ---
 
@@ -1433,7 +1433,7 @@ Components interface{}
 
 Components for build and test that are included in the container recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#components ImagebuilderContainerRecipe#components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#components ImagebuilderContainerRecipe#components}
 
 ---
 
@@ -1447,7 +1447,7 @@ ContainerType *string
 
 Specifies the type of container, such as Docker.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#container_type ImagebuilderContainerRecipe#container_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#container_type ImagebuilderContainerRecipe#container_type}
 
 ---
 
@@ -1461,7 +1461,7 @@ Description *string
 
 The description of the container recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#description ImagebuilderContainerRecipe#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#description ImagebuilderContainerRecipe#description}
 
 ---
 
@@ -1477,7 +1477,7 @@ Dockerfiles are text documents that are used to build Docker containers, and ens
 
 The template data consists of contextual variables where Image Builder places build information or scripts, based on your container image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#dockerfile_template_data ImagebuilderContainerRecipe#dockerfile_template_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#dockerfile_template_data ImagebuilderContainerRecipe#dockerfile_template_data}
 
 ---
 
@@ -1491,7 +1491,7 @@ DockerfileTemplateUri *string
 
 The S3 URI for the Dockerfile that will be used to build your container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#dockerfile_template_uri ImagebuilderContainerRecipe#dockerfile_template_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#dockerfile_template_uri ImagebuilderContainerRecipe#dockerfile_template_uri}
 
 ---
 
@@ -1505,7 +1505,7 @@ ImageOsVersionOverride *string
 
 Specifies the operating system version for the source image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#image_os_version_override ImagebuilderContainerRecipe#image_os_version_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#image_os_version_override ImagebuilderContainerRecipe#image_os_version_override}
 
 ---
 
@@ -1519,7 +1519,7 @@ InstanceConfiguration ImagebuilderContainerRecipeInstanceConfiguration
 
 A group of options that can be used to configure an instance for building and testing container images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#instance_configuration ImagebuilderContainerRecipe#instance_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#instance_configuration ImagebuilderContainerRecipe#instance_configuration}
 
 ---
 
@@ -1533,7 +1533,7 @@ KmsKeyId *string
 
 Identifies which KMS key is used to encrypt the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#kms_key_id ImagebuilderContainerRecipe#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#kms_key_id ImagebuilderContainerRecipe#kms_key_id}
 
 ---
 
@@ -1547,7 +1547,7 @@ Name *string
 
 The name of the container recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#name ImagebuilderContainerRecipe#name}
 
 ---
 
@@ -1561,7 +1561,7 @@ ParentImage *string
 
 The source image for the container recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#parent_image ImagebuilderContainerRecipe#parent_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#parent_image ImagebuilderContainerRecipe#parent_image}
 
 ---
 
@@ -1575,7 +1575,7 @@ PlatformOverride *string
 
 Specifies the operating system platform when you use a custom source image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#platform_override ImagebuilderContainerRecipe#platform_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#platform_override ImagebuilderContainerRecipe#platform_override}
 
 ---
 
@@ -1589,7 +1589,7 @@ Tags *map[string]*string
 
 Tags that are attached to the container recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#tags ImagebuilderContainerRecipe#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#tags ImagebuilderContainerRecipe#tags}
 
 ---
 
@@ -1603,7 +1603,7 @@ TargetRepository ImagebuilderContainerRecipeTargetRepository
 
 The destination repository for the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#target_repository ImagebuilderContainerRecipe#target_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#target_repository ImagebuilderContainerRecipe#target_repository}
 
 ---
 
@@ -1617,7 +1617,7 @@ Version *string
 
 The semantic version of the container recipe (<major>.<minor>.<patch>).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#version ImagebuilderContainerRecipe#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#version ImagebuilderContainerRecipe#version}
 
 ---
 
@@ -1631,7 +1631,7 @@ WorkingDirectory *string
 
 The working directory to be used during build and test workflows.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#working_directory ImagebuilderContainerRecipe#working_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#working_directory ImagebuilderContainerRecipe#working_directory}
 
 ---
 
@@ -1667,7 +1667,7 @@ BlockDeviceMappings interface{}
 
 Defines the block devices to attach for building an instance from this Image Builder AMI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#block_device_mappings ImagebuilderContainerRecipe#block_device_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#block_device_mappings ImagebuilderContainerRecipe#block_device_mappings}
 
 ---
 
@@ -1683,7 +1683,7 @@ The AMI ID to use as the base image for a container build and test instance.
 
 If not specified, Image Builder will use the appropriate ECS-optimized AMI as a base image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#image ImagebuilderContainerRecipe#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#image ImagebuilderContainerRecipe#image}
 
 ---
 
@@ -1723,7 +1723,7 @@ DeviceName *string
 
 The device to which these mappings apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#device_name ImagebuilderContainerRecipe#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#device_name ImagebuilderContainerRecipe#device_name}
 
 ---
 
@@ -1737,7 +1737,7 @@ Ebs ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappingsEbs
 
 Use to manage Amazon EBS-specific configuration for this mapping.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#ebs ImagebuilderContainerRecipe#ebs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#ebs ImagebuilderContainerRecipe#ebs}
 
 ---
 
@@ -1751,7 +1751,7 @@ NoDevice *string
 
 Use to remove a mapping from the parent image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#no_device ImagebuilderContainerRecipe#no_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#no_device ImagebuilderContainerRecipe#no_device}
 
 ---
 
@@ -1765,7 +1765,7 @@ VirtualName *string
 
 Use to manage instance ephemeral devices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#virtual_name ImagebuilderContainerRecipe#virtual_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#virtual_name ImagebuilderContainerRecipe#virtual_name}
 
 ---
 
@@ -1813,7 +1813,7 @@ DeleteOnTermination interface{}
 
 Use to configure delete on termination of the associated device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#delete_on_termination ImagebuilderContainerRecipe#delete_on_termination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#delete_on_termination ImagebuilderContainerRecipe#delete_on_termination}
 
 ---
 
@@ -1827,7 +1827,7 @@ Encrypted interface{}
 
 Use to configure device encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#encrypted ImagebuilderContainerRecipe#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#encrypted ImagebuilderContainerRecipe#encrypted}
 
 ---
 
@@ -1841,7 +1841,7 @@ Iops *f64
 
 Use to configure device IOPS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#iops ImagebuilderContainerRecipe#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#iops ImagebuilderContainerRecipe#iops}
 
 ---
 
@@ -1855,7 +1855,7 @@ KmsKeyId *string
 
 Use to configure the KMS key to use when encrypting the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#kms_key_id ImagebuilderContainerRecipe#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#kms_key_id ImagebuilderContainerRecipe#kms_key_id}
 
 ---
 
@@ -1869,7 +1869,7 @@ SnapshotId *string
 
 The snapshot that defines the device contents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#snapshot_id ImagebuilderContainerRecipe#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#snapshot_id ImagebuilderContainerRecipe#snapshot_id}
 
 ---
 
@@ -1883,7 +1883,7 @@ Throughput *f64
 
 For GP3 volumes only - The throughput in MiB/s that the volume supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#throughput ImagebuilderContainerRecipe#throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#throughput ImagebuilderContainerRecipe#throughput}
 
 ---
 
@@ -1897,7 +1897,7 @@ VolumeSize *f64
 
 Use to override the device's volume size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#volume_size ImagebuilderContainerRecipe#volume_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#volume_size ImagebuilderContainerRecipe#volume_size}
 
 ---
 
@@ -1911,7 +1911,7 @@ VolumeType *string
 
 Use to override the device's volume type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#volume_type ImagebuilderContainerRecipe#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#volume_type ImagebuilderContainerRecipe#volume_type}
 
 ---
 
@@ -1962,7 +1962,7 @@ The name of the container repository where the output container image is stored.
 
 This name is prefixed by the repository location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#repository_name ImagebuilderContainerRecipe#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#repository_name ImagebuilderContainerRecipe#repository_name}
 
 ---
 
@@ -1976,7 +1976,7 @@ Service *string
 
 Specifies the service in which this image was registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/imagebuilder_container_recipe#service ImagebuilderContainerRecipe#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_container_recipe#service ImagebuilderContainerRecipe#service}
 
 ---
 

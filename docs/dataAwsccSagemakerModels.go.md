@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerModels <a name="DataAwsccSagemakerModels" id="@cdktn/provider-awscc.dataAwsccSagemakerModels.DataAwsccSagemakerModels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_models awscc_sagemaker_models}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_models awscc_sagemaker_models}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerModels.DataAwsccSagemakerModels.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerModels t
 
 The id of the existing DataAwsccSagemakerModels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_models#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_models#import import section} in the documentation of this resource for the id to use
 
 ---
 

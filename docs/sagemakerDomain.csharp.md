@@ -4,7 +4,7 @@
 
 ### SagemakerDomain <a name="SagemakerDomain" id="@cdktn/provider-awscc.sagemakerDomain.SagemakerDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain awscc_sagemaker_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain awscc_sagemaker_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDomain.SagemakerDomain.Initializer"></a>
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the SagemakerDomain to import.
 
 The id of the existing SagemakerDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1318,7 +1318,7 @@ public string AuthMode { get; set; }
 
 The mode of authentication that members use to access the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#auth_mode SagemakerDomain#auth_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#auth_mode SagemakerDomain#auth_mode}
 
 ---
 
@@ -1332,7 +1332,7 @@ public SagemakerDomainDefaultUserSettings DefaultUserSettings { get; set; }
 
 The default user settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_user_settings SagemakerDomain#default_user_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_user_settings SagemakerDomain#default_user_settings}
 
 ---
 
@@ -1346,7 +1346,7 @@ public string DomainName { get; set; }
 
 A name for the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#domain_name SagemakerDomain#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#domain_name SagemakerDomain#domain_name}
 
 ---
 
@@ -1360,7 +1360,7 @@ public string AppNetworkAccessType { get; set; }
 
 Specifies the VPC used for non-EFS traffic. The default value is PublicInternetOnly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_network_access_type SagemakerDomain#app_network_access_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_network_access_type SagemakerDomain#app_network_access_type}
 
 ---
 
@@ -1376,7 +1376,7 @@ The entity that creates and manages the required security groups for inter-app c
 
 Required when CreateDomain.AppNetworkAccessType is VPCOnly and DomainSettings.RStudioServerProDomainSettings.DomainExecutionRoleArn is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_security_group_management SagemakerDomain#app_security_group_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_security_group_management SagemakerDomain#app_security_group_management}
 
 ---
 
@@ -1390,7 +1390,7 @@ public SagemakerDomainDefaultSpaceSettings DefaultSpaceSettings { get; set; }
 
 The default space settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_space_settings SagemakerDomain#default_space_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_space_settings SagemakerDomain#default_space_settings}
 
 ---
 
@@ -1404,7 +1404,7 @@ public SagemakerDomainDomainSettings DomainSettings { get; set; }
 
 A collection of Domain settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#domain_settings SagemakerDomain#domain_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#domain_settings SagemakerDomain#domain_settings}
 
 ---
 
@@ -1420,7 +1420,7 @@ Indicates whether a home EFS file system is created for the domain.
 
 Set to Disabled to skip EFS creation and reduce domain creation time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#home_efs_file_system_creation SagemakerDomain#home_efs_file_system_creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#home_efs_file_system_creation SagemakerDomain#home_efs_file_system_creation}
 
 ---
 
@@ -1434,7 +1434,7 @@ public string KmsKeyId { get; set; }
 
 SageMaker uses AWS KMS to encrypt the EFS volume attached to the domain with an AWS managed customer master key (CMK) by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#kms_key_id SagemakerDomain#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#kms_key_id SagemakerDomain#kms_key_id}
 
 ---
 
@@ -1448,7 +1448,7 @@ public string[] SubnetIds { get; set; }
 
 The VPC subnets that Studio uses for communication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#subnet_ids SagemakerDomain#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#subnet_ids SagemakerDomain#subnet_ids}
 
 ---
 
@@ -1462,7 +1462,7 @@ public string TagPropagation { get; set; }
 
 Indicates whether the tags added to Domain, User Profile and Space entity is propagated to all SageMaker resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#tag_propagation SagemakerDomain#tag_propagation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#tag_propagation SagemakerDomain#tag_propagation}
 
 ---
 
@@ -1476,7 +1476,7 @@ public IResolvable|SagemakerDomainTags[] Tags { get; set; }
 
 A list of tags to apply to the user profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#tags SagemakerDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#tags SagemakerDomain#tags}
 
 ---
 
@@ -1490,7 +1490,7 @@ public string VpcId { get; set; }
 
 The ID of the Amazon Virtual Private Cloud (VPC) that Studio uses for communication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#vpc_id SagemakerDomain#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#vpc_id SagemakerDomain#vpc_id}
 
 ---
 
@@ -1517,7 +1517,7 @@ new SagemakerDomainDefaultSpaceSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettings.property.customFileSystemConfigs">CustomFileSystemConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettings.property.customFileSystemConfigs">CustomFileSystemConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettings.property.customPosixUserConfig">CustomPosixUserConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig">SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig</a></code> | The Jupyter lab's custom posix user configurations. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettings.property.executionRole">ExecutionRole</a></code> | <code>string</code> | The execution role for the space. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettings.property.jupyterLabAppSettings">JupyterLabAppSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings</a></code> | The Jupyter lab's app settings. |
@@ -1536,7 +1536,7 @@ public IResolvable|SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs[] 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}.
 
 ---
 
@@ -1550,7 +1550,7 @@ public SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig CustomPosixUserC
 
 The Jupyter lab's custom posix user configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_posix_user_config SagemakerDomain#custom_posix_user_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_posix_user_config SagemakerDomain#custom_posix_user_config}
 
 ---
 
@@ -1564,7 +1564,7 @@ public string ExecutionRole { get; set; }
 
 The execution role for the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#execution_role SagemakerDomain#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#execution_role SagemakerDomain#execution_role}
 
 ---
 
@@ -1578,7 +1578,7 @@ public SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings JupyterLabAppSet
 
 The Jupyter lab's app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#jupyter_lab_app_settings SagemakerDomain#jupyter_lab_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#jupyter_lab_app_settings SagemakerDomain#jupyter_lab_app_settings}
 
 ---
 
@@ -1592,7 +1592,7 @@ public SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettings JupyterServer
 
 The Jupyter server's app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#jupyter_server_app_settings SagemakerDomain#jupyter_server_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#jupyter_server_app_settings SagemakerDomain#jupyter_server_app_settings}
 
 ---
 
@@ -1606,7 +1606,7 @@ public SagemakerDomainDefaultSpaceSettingsKernelGatewayAppSettings KernelGateway
 
 The kernel gateway app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#kernel_gateway_app_settings SagemakerDomain#kernel_gateway_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#kernel_gateway_app_settings SagemakerDomain#kernel_gateway_app_settings}
 
 ---
 
@@ -1620,7 +1620,7 @@ public string[] SecurityGroups { get; set; }
 
 The security groups for the Amazon Virtual Private Cloud (VPC) that Studio uses for communication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#security_groups SagemakerDomain#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#security_groups SagemakerDomain#security_groups}
 
 ---
 
@@ -1634,7 +1634,7 @@ public SagemakerDomainDefaultSpaceSettingsSpaceStorageSettings SpaceStorageSetti
 
 The Jupyter lab's space storage settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#space_storage_settings SagemakerDomain#space_storage_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#space_storage_settings SagemakerDomain#space_storage_settings}
 
 ---
 
@@ -1656,9 +1656,9 @@ new SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs.property.efsFileSystemConfig">EfsFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs.property.fsxLustreFileSystemConfig">FsxLustreFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs.property.s3FileSystemConfig">S3FileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs.property.efsFileSystemConfig">EfsFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs.property.fsxLustreFileSystemConfig">FsxLustreFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigs.property.s3FileSystemConfig">S3FileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}. |
 
 ---
 
@@ -1670,7 +1670,7 @@ public SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}.
 
 ---
 
@@ -1682,7 +1682,7 @@ public SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSy
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}.
 
 ---
 
@@ -1694,7 +1694,7 @@ public SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig">SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}.
 
 ---
 
@@ -1715,8 +1715,8 @@ new SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
 
 ---
 
@@ -1728,7 +1728,7 @@ public string FileSystemId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
 
 ---
 
@@ -1740,7 +1740,7 @@ public string FileSystemPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
 
 ---
 
@@ -1761,8 +1761,8 @@ new SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSyste
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
 
 ---
 
@@ -1774,7 +1774,7 @@ public string FileSystemId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
 
 ---
 
@@ -1786,7 +1786,7 @@ public string FileSystemPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
 
 ---
 
@@ -1807,8 +1807,8 @@ new SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig.property.mountPath">MountPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig.property.s3Uri">S3Uri</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig.property.mountPath">MountPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomFileSystemConfigsS3FileSystemConfig.property.s3Uri">S3Uri</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}. |
 
 ---
 
@@ -1820,7 +1820,7 @@ public string MountPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}.
 
 ---
 
@@ -1832,7 +1832,7 @@ public string S3Uri { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}.
 
 ---
 
@@ -1853,8 +1853,8 @@ new SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig.property.gid">Gid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig.property.uid">Uid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig.property.gid">Gid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsCustomPosixUserConfig.property.uid">Uid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}. |
 
 ---
 
@@ -1866,7 +1866,7 @@ public double Gid { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}.
 
 ---
 
@@ -1878,7 +1878,7 @@ public double Uid { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}.
 
 ---
 
@@ -1903,7 +1903,7 @@ new SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings.property.appLifecycleManagement">AppLifecycleManagement</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings.property.appLifecycleManagement">AppLifecycleManagement</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings.property.builtInLifecycleConfigArn">BuiltInLifecycleConfigArn</a></code> | <code>string</code> | The lifecycle configuration that runs before the default lifecycle configuration. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings.property.codeRepositories">CodeRepositories</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsCodeRepositories">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsCodeRepositories</a>[]</code> | A list of CodeRepositories available for use with JupyterLab apps. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettings.property.customImages">CustomImages</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsCustomImages">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsCustomImages</a>[]</code> | A list of custom images for use for JupyterLab apps. |
@@ -1920,7 +1920,7 @@ public SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManag
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}.
 
 ---
 
@@ -1934,7 +1934,7 @@ public string BuiltInLifecycleConfigArn { get; set; }
 
 The lifecycle configuration that runs before the default lifecycle configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#built_in_lifecycle_config_arn SagemakerDomain#built_in_lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#built_in_lifecycle_config_arn SagemakerDomain#built_in_lifecycle_config_arn}
 
 ---
 
@@ -1948,7 +1948,7 @@ public IResolvable|SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsCodeR
 
 A list of CodeRepositories available for use with JupyterLab apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#code_repositories SagemakerDomain#code_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#code_repositories SagemakerDomain#code_repositories}
 
 ---
 
@@ -1962,7 +1962,7 @@ public IResolvable|SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsCusto
 
 A list of custom images for use for JupyterLab apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
 
 ---
 
@@ -1976,7 +1976,7 @@ public SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSp
 
 The default instance type and the Amazon Resource Name (ARN) of the default SageMaker image used by the JupyterLab app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
 
 ---
 
@@ -1990,7 +1990,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with JupyterLab apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -2010,7 +2010,7 @@ new SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManageme
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement.property.idleSettings">IdleSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement.property.idleSettings">IdleSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}. |
 
 ---
 
@@ -2022,7 +2022,7 @@ public SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManag
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}.
 
 ---
 
@@ -2062,7 +2062,7 @@ public double IdleTimeoutInMinutes { get; set; }
 
 The idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_timeout_in_minutes SagemakerDomain#idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_timeout_in_minutes SagemakerDomain#idle_timeout_in_minutes}
 
 ---
 
@@ -2076,7 +2076,7 @@ public string LifecycleManagement { get; set; }
 
 A flag to enable/disable AppLifecycleManagement settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_management SagemakerDomain#lifecycle_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_management SagemakerDomain#lifecycle_management}
 
 ---
 
@@ -2090,7 +2090,7 @@ public double MaxIdleTimeoutInMinutes { get; set; }
 
 The maximum idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#max_idle_timeout_in_minutes SagemakerDomain#max_idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#max_idle_timeout_in_minutes SagemakerDomain#max_idle_timeout_in_minutes}
 
 ---
 
@@ -2104,7 +2104,7 @@ public double MinIdleTimeoutInMinutes { get; set; }
 
 The minimum idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#min_idle_timeout_in_minutes SagemakerDomain#min_idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#min_idle_timeout_in_minutes SagemakerDomain#min_idle_timeout_in_minutes}
 
 ---
 
@@ -2138,7 +2138,7 @@ public string RepositoryUrl { get; set; }
 
 A CodeRepository (valid URL) to be used within Jupyter's Git extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#repository_url SagemakerDomain#repository_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#repository_url SagemakerDomain#repository_url}
 
 ---
 
@@ -2176,7 +2176,7 @@ public string AppImageConfigName { get; set; }
 
 The Name of the AppImageConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
 
 ---
 
@@ -2190,7 +2190,7 @@ public string ImageName { get; set; }
 
 The name of the CustomImage. Must be unique to your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
 
 ---
 
@@ -2204,7 +2204,7 @@ public double ImageVersionNumber { get; set; }
 
 The version number of the CustomImage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
 
 ---
 
@@ -2246,7 +2246,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -2260,7 +2260,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -2274,7 +2274,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -2288,7 +2288,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -2302,7 +2302,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -2323,7 +2323,7 @@ new SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec">SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec">SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettings.property.lifecycleConfigArns">LifecycleConfigArns</a></code> | <code>string[]</code> | A list of LifecycleConfigArns available for use with JupyterServer apps. |
 
 ---
@@ -2336,7 +2336,7 @@ public SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourc
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec">SagemakerDomainDefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpec</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
 
 ---
 
@@ -2350,7 +2350,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with JupyterServer apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -2392,7 +2392,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -2406,7 +2406,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -2420,7 +2420,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -2434,7 +2434,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -2448,7 +2448,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -2486,7 +2486,7 @@ public IResolvable|SagemakerDomainDefaultSpaceSettingsKernelGatewayAppSettingsCu
 
 A list of custom SageMaker images that are configured to run as a KernelGateway app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
 
 ---
 
@@ -2500,7 +2500,7 @@ public SagemakerDomainDefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourc
 
 The default instance type and the Amazon Resource Name (ARN) of the default SageMaker image used by the KernelGateway app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
 
 ---
 
@@ -2514,7 +2514,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with KernelGateway apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -2552,7 +2552,7 @@ public string AppImageConfigName { get; set; }
 
 The Name of the AppImageConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
 
 ---
 
@@ -2566,7 +2566,7 @@ public string ImageName { get; set; }
 
 The name of the CustomImage. Must be unique to your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
 
 ---
 
@@ -2580,7 +2580,7 @@ public double ImageVersionNumber { get; set; }
 
 The version number of the CustomImage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
 
 ---
 
@@ -2622,7 +2622,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -2636,7 +2636,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -2650,7 +2650,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -2664,7 +2664,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -2678,7 +2678,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -2714,7 +2714,7 @@ Properties related to the Amazon Elastic Block Store volume.
 
 Must be provided if storage type is Amazon EBS and must not be provided if storage type is not Amazon EBS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_ebs_storage_settings SagemakerDomain#default_ebs_storage_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_ebs_storage_settings SagemakerDomain#default_ebs_storage_settings}
 
 ---
 
@@ -2750,7 +2750,7 @@ public double DefaultEbsVolumeSizeInGb { get; set; }
 
 Default size of the Amazon EBS volume in Gb.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_ebs_volume_size_in_gb SagemakerDomain#default_ebs_volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_ebs_volume_size_in_gb SagemakerDomain#default_ebs_volume_size_in_gb}
 
 ---
 
@@ -2764,7 +2764,7 @@ public double MaximumEbsVolumeSizeInGb { get; set; }
 
 Maximum size of the Amazon EBS volume in Gb. Must be greater than or equal to the DefaultEbsVolumeSizeInGb.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#maximum_ebs_volume_size_in_gb SagemakerDomain#maximum_ebs_volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#maximum_ebs_volume_size_in_gb SagemakerDomain#maximum_ebs_volume_size_in_gb}
 
 ---
 
@@ -2802,8 +2802,8 @@ new SagemakerDomainDefaultUserSettings {
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.executionRole">ExecutionRole</a></code> | <code>string</code> | The execution role for the user. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.autoMountHomeEfs">AutoMountHomeEfs</a></code> | <code>string</code> | Indicates whether auto-mounting of an EFS volume is supported for the user profile. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.codeEditorAppSettings">CodeEditorAppSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettings">SagemakerDomainDefaultUserSettingsCodeEditorAppSettings</a></code> | The CodeEditor app settings. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.customFileSystemConfigs">CustomFileSystemConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.customPosixUserConfig">CustomPosixUserConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig">SagemakerDomainDefaultUserSettingsCustomPosixUserConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_posix_user_config SagemakerDomain#custom_posix_user_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.customFileSystemConfigs">CustomFileSystemConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.customPosixUserConfig">CustomPosixUserConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig">SagemakerDomainDefaultUserSettingsCustomPosixUserConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_posix_user_config SagemakerDomain#custom_posix_user_config}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.defaultLandingUri">DefaultLandingUri</a></code> | <code>string</code> | Defines which Amazon SageMaker application users are directed to by default. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.jupyterLabAppSettings">JupyterLabAppSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettings">SagemakerDomainDefaultUserSettingsJupyterLabAppSettings</a></code> | The JupyterLab app settings. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettings.property.jupyterServerAppSettings">JupyterServerAppSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettings">SagemakerDomainDefaultUserSettingsJupyterServerAppSettings</a></code> | The Jupyter server's app settings. |
@@ -2828,7 +2828,7 @@ public string ExecutionRole { get; set; }
 
 The execution role for the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#execution_role SagemakerDomain#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#execution_role SagemakerDomain#execution_role}
 
 ---
 
@@ -2842,7 +2842,7 @@ public string AutoMountHomeEfs { get; set; }
 
 Indicates whether auto-mounting of an EFS volume is supported for the user profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#auto_mount_home_efs SagemakerDomain#auto_mount_home_efs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#auto_mount_home_efs SagemakerDomain#auto_mount_home_efs}
 
 ---
 
@@ -2856,7 +2856,7 @@ public SagemakerDomainDefaultUserSettingsCodeEditorAppSettings CodeEditorAppSett
 
 The CodeEditor app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#code_editor_app_settings SagemakerDomain#code_editor_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#code_editor_app_settings SagemakerDomain#code_editor_app_settings}
 
 ---
 
@@ -2868,7 +2868,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs[] C
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_file_system_configs SagemakerDomain#custom_file_system_configs}.
 
 ---
 
@@ -2880,7 +2880,7 @@ public SagemakerDomainDefaultUserSettingsCustomPosixUserConfig CustomPosixUserCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig">SagemakerDomainDefaultUserSettingsCustomPosixUserConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_posix_user_config SagemakerDomain#custom_posix_user_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_posix_user_config SagemakerDomain#custom_posix_user_config}.
 
 ---
 
@@ -2894,7 +2894,7 @@ public string DefaultLandingUri { get; set; }
 
 Defines which Amazon SageMaker application users are directed to by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_landing_uri SagemakerDomain#default_landing_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_landing_uri SagemakerDomain#default_landing_uri}
 
 ---
 
@@ -2908,7 +2908,7 @@ public SagemakerDomainDefaultUserSettingsJupyterLabAppSettings JupyterLabAppSett
 
 The JupyterLab app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#jupyter_lab_app_settings SagemakerDomain#jupyter_lab_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#jupyter_lab_app_settings SagemakerDomain#jupyter_lab_app_settings}
 
 ---
 
@@ -2922,7 +2922,7 @@ public SagemakerDomainDefaultUserSettingsJupyterServerAppSettings JupyterServerA
 
 The Jupyter server's app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#jupyter_server_app_settings SagemakerDomain#jupyter_server_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#jupyter_server_app_settings SagemakerDomain#jupyter_server_app_settings}
 
 ---
 
@@ -2936,7 +2936,7 @@ public SagemakerDomainDefaultUserSettingsKernelGatewayAppSettings KernelGatewayA
 
 The kernel gateway app settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#kernel_gateway_app_settings SagemakerDomain#kernel_gateway_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#kernel_gateway_app_settings SagemakerDomain#kernel_gateway_app_settings}
 
 ---
 
@@ -2950,7 +2950,7 @@ public SagemakerDomainDefaultUserSettingsRSessionAppSettings RSessionAppSettings
 
 A collection of settings that apply to an RSessionGateway app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#r_session_app_settings SagemakerDomain#r_session_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#r_session_app_settings SagemakerDomain#r_session_app_settings}
 
 ---
 
@@ -2964,7 +2964,7 @@ public SagemakerDomainDefaultUserSettingsRStudioServerProAppSettings RStudioServ
 
 A collection of settings that configure user interaction with the RStudioServerPro app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#r_studio_server_pro_app_settings SagemakerDomain#r_studio_server_pro_app_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#r_studio_server_pro_app_settings SagemakerDomain#r_studio_server_pro_app_settings}
 
 ---
 
@@ -2978,7 +2978,7 @@ public string[] SecurityGroups { get; set; }
 
 The security groups for the Amazon Virtual Private Cloud (VPC) that Studio uses for communication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#security_groups SagemakerDomain#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#security_groups SagemakerDomain#security_groups}
 
 ---
 
@@ -2992,7 +2992,7 @@ public SagemakerDomainDefaultUserSettingsSharingSettings SharingSettings { get; 
 
 The sharing settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sharing_settings SagemakerDomain#sharing_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sharing_settings SagemakerDomain#sharing_settings}
 
 ---
 
@@ -3006,7 +3006,7 @@ public SagemakerDomainDefaultUserSettingsSpaceStorageSettings SpaceStorageSettin
 
 Default storage settings for a space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#space_storage_settings SagemakerDomain#space_storage_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#space_storage_settings SagemakerDomain#space_storage_settings}
 
 ---
 
@@ -3020,7 +3020,7 @@ public string StudioWebPortal { get; set; }
 
 Indicates whether the Studio experience is available to users. If not, users cannot access Studio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#studio_web_portal SagemakerDomain#studio_web_portal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#studio_web_portal SagemakerDomain#studio_web_portal}
 
 ---
 
@@ -3036,7 +3036,7 @@ Studio settings.
 
 If these settings are applied on a user level, they take priority over the settings applied on a domain level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#studio_web_portal_settings SagemakerDomain#studio_web_portal_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#studio_web_portal_settings SagemakerDomain#studio_web_portal_settings}
 
 ---
 
@@ -3060,7 +3060,7 @@ new SagemakerDomainDefaultUserSettingsCodeEditorAppSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettings.property.appLifecycleManagement">AppLifecycleManagement</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettings.property.appLifecycleManagement">AppLifecycleManagement</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettings.property.builtInLifecycleConfigArn">BuiltInLifecycleConfigArn</a></code> | <code>string</code> | The lifecycle configuration that runs before the default lifecycle configuration. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettings.property.customImages">CustomImages</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsCustomImages">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsCustomImages</a>[]</code> | A list of custom images for use for CodeEditor apps. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpec</a></code> | The default instance type and the Amazon Resource Name (ARN) of the default SageMaker image used by the CodeEditor app. |
@@ -3076,7 +3076,7 @@ public SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManage
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}.
 
 ---
 
@@ -3090,7 +3090,7 @@ public string BuiltInLifecycleConfigArn { get; set; }
 
 The lifecycle configuration that runs before the default lifecycle configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#built_in_lifecycle_config_arn SagemakerDomain#built_in_lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#built_in_lifecycle_config_arn SagemakerDomain#built_in_lifecycle_config_arn}
 
 ---
 
@@ -3104,7 +3104,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsCustom
 
 A list of custom images for use for CodeEditor apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
 
 ---
 
@@ -3118,7 +3118,7 @@ public SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpe
 
 The default instance type and the Amazon Resource Name (ARN) of the default SageMaker image used by the CodeEditor app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
 
 ---
 
@@ -3132,7 +3132,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with CodeEditor apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -3152,7 +3152,7 @@ new SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagemen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement.property.idleSettings">IdleSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagement.property.idleSettings">IdleSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}. |
 
 ---
 
@@ -3164,7 +3164,7 @@ public SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManage
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}.
 
 ---
 
@@ -3204,7 +3204,7 @@ public double IdleTimeoutInMinutes { get; set; }
 
 The idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_timeout_in_minutes SagemakerDomain#idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_timeout_in_minutes SagemakerDomain#idle_timeout_in_minutes}
 
 ---
 
@@ -3218,7 +3218,7 @@ public string LifecycleManagement { get; set; }
 
 A flag to enable/disable AppLifecycleManagement settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_management SagemakerDomain#lifecycle_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_management SagemakerDomain#lifecycle_management}
 
 ---
 
@@ -3232,7 +3232,7 @@ public double MaxIdleTimeoutInMinutes { get; set; }
 
 The maximum idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#max_idle_timeout_in_minutes SagemakerDomain#max_idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#max_idle_timeout_in_minutes SagemakerDomain#max_idle_timeout_in_minutes}
 
 ---
 
@@ -3246,7 +3246,7 @@ public double MinIdleTimeoutInMinutes { get; set; }
 
 The minimum idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#min_idle_timeout_in_minutes SagemakerDomain#min_idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#min_idle_timeout_in_minutes SagemakerDomain#min_idle_timeout_in_minutes}
 
 ---
 
@@ -3284,7 +3284,7 @@ public string AppImageConfigName { get; set; }
 
 The Name of the AppImageConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
 
 ---
 
@@ -3298,7 +3298,7 @@ public string ImageName { get; set; }
 
 The name of the CustomImage. Must be unique to your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
 
 ---
 
@@ -3312,7 +3312,7 @@ public double ImageVersionNumber { get; set; }
 
 The version number of the CustomImage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
 
 ---
 
@@ -3354,7 +3354,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -3368,7 +3368,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -3382,7 +3382,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -3396,7 +3396,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -3410,7 +3410,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -3432,9 +3432,9 @@ new SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs.property.efsFileSystemConfig">EfsFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs.property.fsxLustreFileSystemConfig">FsxLustreFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs.property.s3FileSystemConfig">S3FileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs.property.efsFileSystemConfig">EfsFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs.property.fsxLustreFileSystemConfig">FsxLustreFileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigs.property.s3FileSystemConfig">S3FileSystemConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}. |
 
 ---
 
@@ -3446,7 +3446,7 @@ public SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#efs_file_system_config SagemakerDomain#efs_file_system_config}.
 
 ---
 
@@ -3458,7 +3458,7 @@ public SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSys
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#fsx_lustre_file_system_config SagemakerDomain#fsx_lustre_file_system_config}.
 
 ---
 
@@ -3470,7 +3470,7 @@ public SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConf
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig">SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_file_system_config SagemakerDomain#s3_file_system_config}.
 
 ---
 
@@ -3491,8 +3491,8 @@ new SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsEfsFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
 
 ---
 
@@ -3504,7 +3504,7 @@ public string FileSystemId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
 
 ---
 
@@ -3516,7 +3516,7 @@ public string FileSystemPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
 
 ---
 
@@ -3537,8 +3537,8 @@ new SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystem
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemId">FileSystemId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsFsxLustreFileSystemConfig.property.fileSystemPath">FileSystemPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}. |
 
 ---
 
@@ -3550,7 +3550,7 @@ public string FileSystemId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_id SagemakerDomain#file_system_id}.
 
 ---
 
@@ -3562,7 +3562,7 @@ public string FileSystemPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#file_system_path SagemakerDomain#file_system_path}.
 
 ---
 
@@ -3583,8 +3583,8 @@ new SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig.property.mountPath">MountPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig.property.s3Uri">S3Uri</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig.property.mountPath">MountPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomFileSystemConfigsS3FileSystemConfig.property.s3Uri">S3Uri</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}. |
 
 ---
 
@@ -3596,7 +3596,7 @@ public string MountPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#mount_path SagemakerDomain#mount_path}.
 
 ---
 
@@ -3608,7 +3608,7 @@ public string S3Uri { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_uri SagemakerDomain#s3_uri}.
 
 ---
 
@@ -3629,8 +3629,8 @@ new SagemakerDomainDefaultUserSettingsCustomPosixUserConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig.property.gid">Gid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig.property.uid">Uid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig.property.gid">Gid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsCustomPosixUserConfig.property.uid">Uid</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}. |
 
 ---
 
@@ -3642,7 +3642,7 @@ public double Gid { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#gid SagemakerDomain#gid}.
 
 ---
 
@@ -3654,7 +3654,7 @@ public double Uid { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#uid SagemakerDomain#uid}.
 
 ---
 
@@ -3679,7 +3679,7 @@ new SagemakerDomainDefaultUserSettingsJupyterLabAppSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettings.property.appLifecycleManagement">AppLifecycleManagement</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettings.property.appLifecycleManagement">AppLifecycleManagement</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettings.property.builtInLifecycleConfigArn">BuiltInLifecycleConfigArn</a></code> | <code>string</code> | The lifecycle configuration that runs before the default lifecycle configuration. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettings.property.codeRepositories">CodeRepositories</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCodeRepositories">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCodeRepositories</a>[]</code> | A list of CodeRepositories available for use with JupyterLab apps. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettings.property.customImages">CustomImages</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImages">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustomImages</a>[]</code> | A list of custom images for use for JupyterLab apps. |
@@ -3696,7 +3696,7 @@ public SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManage
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_lifecycle_management SagemakerDomain#app_lifecycle_management}.
 
 ---
 
@@ -3710,7 +3710,7 @@ public string BuiltInLifecycleConfigArn { get; set; }
 
 The lifecycle configuration that runs before the default lifecycle configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#built_in_lifecycle_config_arn SagemakerDomain#built_in_lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#built_in_lifecycle_config_arn SagemakerDomain#built_in_lifecycle_config_arn}
 
 ---
 
@@ -3724,7 +3724,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCodeRe
 
 A list of CodeRepositories available for use with JupyterLab apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#code_repositories SagemakerDomain#code_repositories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#code_repositories SagemakerDomain#code_repositories}
 
 ---
 
@@ -3738,7 +3738,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCustom
 
 A list of custom images for use for JupyterLab apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
 
 ---
 
@@ -3752,7 +3752,7 @@ public SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpe
 
 The default instance type and the Amazon Resource Name (ARN) of the default SageMaker image used by the JupyterLab app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
 
 ---
 
@@ -3766,7 +3766,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with JupyterLab apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -3786,7 +3786,7 @@ new SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagemen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement.property.idleSettings">IdleSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagement.property.idleSettings">IdleSettings</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}. |
 
 ---
 
@@ -3798,7 +3798,7 @@ public SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManage
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings">SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_settings SagemakerDomain#idle_settings}.
 
 ---
 
@@ -3838,7 +3838,7 @@ public double IdleTimeoutInMinutes { get; set; }
 
 The idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#idle_timeout_in_minutes SagemakerDomain#idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#idle_timeout_in_minutes SagemakerDomain#idle_timeout_in_minutes}
 
 ---
 
@@ -3852,7 +3852,7 @@ public string LifecycleManagement { get; set; }
 
 A flag to enable/disable AppLifecycleManagement settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_management SagemakerDomain#lifecycle_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_management SagemakerDomain#lifecycle_management}
 
 ---
 
@@ -3866,7 +3866,7 @@ public double MaxIdleTimeoutInMinutes { get; set; }
 
 The maximum idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#max_idle_timeout_in_minutes SagemakerDomain#max_idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#max_idle_timeout_in_minutes SagemakerDomain#max_idle_timeout_in_minutes}
 
 ---
 
@@ -3880,7 +3880,7 @@ public double MinIdleTimeoutInMinutes { get; set; }
 
 The minimum idle timeout value set in minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#min_idle_timeout_in_minutes SagemakerDomain#min_idle_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#min_idle_timeout_in_minutes SagemakerDomain#min_idle_timeout_in_minutes}
 
 ---
 
@@ -3914,7 +3914,7 @@ public string RepositoryUrl { get; set; }
 
 A CodeRepository (valid URL) to be used within Jupyter's Git extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#repository_url SagemakerDomain#repository_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#repository_url SagemakerDomain#repository_url}
 
 ---
 
@@ -3952,7 +3952,7 @@ public string AppImageConfigName { get; set; }
 
 The Name of the AppImageConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
 
 ---
 
@@ -3966,7 +3966,7 @@ public string ImageName { get; set; }
 
 The name of the CustomImage. Must be unique to your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
 
 ---
 
@@ -3980,7 +3980,7 @@ public double ImageVersionNumber { get; set; }
 
 The version number of the CustomImage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
 
 ---
 
@@ -4022,7 +4022,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -4036,7 +4036,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -4050,7 +4050,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -4064,7 +4064,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -4078,7 +4078,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -4099,7 +4099,7 @@ new SagemakerDomainDefaultUserSettingsJupyterServerAppSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettings.property.lifecycleConfigArns">LifecycleConfigArns</a></code> | <code>string[]</code> | A list of LifecycleConfigArns available for use with JupyterServer apps. |
 
 ---
@@ -4112,7 +4112,7 @@ public SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResource
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
 
 ---
 
@@ -4126,7 +4126,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with JupyterServer apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -4168,7 +4168,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -4182,7 +4182,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -4196,7 +4196,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -4210,7 +4210,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -4224,7 +4224,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -4262,7 +4262,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsKernelGatewayAppSettingsCus
 
 A list of custom SageMaker images that are configured to run as a KernelGateway app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
 
 ---
 
@@ -4276,7 +4276,7 @@ public SagemakerDomainDefaultUserSettingsKernelGatewayAppSettingsDefaultResource
 
 The default instance type and the Amazon Resource Name (ARN) of the default SageMaker image used by the KernelGateway app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
 
 ---
 
@@ -4290,7 +4290,7 @@ public string[] LifecycleConfigArns { get; set; }
 
 A list of LifecycleConfigArns available for use with KernelGateway apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}
 
 ---
 
@@ -4328,7 +4328,7 @@ public string AppImageConfigName { get; set; }
 
 The Name of the AppImageConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
 
 ---
 
@@ -4342,7 +4342,7 @@ public string ImageName { get; set; }
 
 The name of the CustomImage. Must be unique to your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
 
 ---
 
@@ -4356,7 +4356,7 @@ public double ImageVersionNumber { get; set; }
 
 The version number of the CustomImage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
 
 ---
 
@@ -4398,7 +4398,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -4412,7 +4412,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -4426,7 +4426,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -4440,7 +4440,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -4454,7 +4454,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -4476,7 +4476,7 @@ new SagemakerDomainDefaultUserSettingsRSessionAppSettings {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettings.property.customImages">CustomImages</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImages">SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImages</a>[]</code> | A list of custom SageMaker images that are configured to run as a KernelGateway app. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
 
 ---
 
@@ -4490,7 +4490,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomIm
 
 A list of custom SageMaker images that are configured to run as a KernelGateway app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#custom_images SagemakerDomain#custom_images}
 
 ---
 
@@ -4502,7 +4502,7 @@ public SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec 
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec">SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
 
 ---
 
@@ -4540,7 +4540,7 @@ public string AppImageConfigName { get; set; }
 
 The Name of the AppImageConfig.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#app_image_config_name SagemakerDomain#app_image_config_name}
 
 ---
 
@@ -4554,7 +4554,7 @@ public string ImageName { get; set; }
 
 The name of the CustomImage. Must be unique to your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_name SagemakerDomain#image_name}
 
 ---
 
@@ -4568,7 +4568,7 @@ public double ImageVersionNumber { get; set; }
 
 The version number of the CustomImage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#image_version_number SagemakerDomain#image_version_number}
 
 ---
 
@@ -4610,7 +4610,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -4624,7 +4624,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -4638,7 +4638,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -4652,7 +4652,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -4666,7 +4666,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -4702,7 +4702,7 @@ public string AccessStatus { get; set; }
 
 Indicates whether the current user has access to the RStudioServerPro app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#access_status SagemakerDomain#access_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#access_status SagemakerDomain#access_status}
 
 ---
 
@@ -4718,7 +4718,7 @@ The level of permissions that the user has within the RStudioServerPro app.
 
 This value defaults to User. The Admin value allows the user access to the RStudio Administrative Dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#user_group SagemakerDomain#user_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#user_group SagemakerDomain#user_group}
 
 ---
 
@@ -4756,7 +4756,7 @@ public string NotebookOutputOption { get; set; }
 
 Whether to include the notebook cell output when sharing the notebook. The default is Disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#notebook_output_option SagemakerDomain#notebook_output_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#notebook_output_option SagemakerDomain#notebook_output_option}
 
 ---
 
@@ -4770,7 +4770,7 @@ public string S3KmsKeyId { get; set; }
 
 When NotebookOutputOption is Allowed, the AWS Key Management Service (KMS) encryption key ID used to encrypt the notebook cell output in the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_kms_key_id SagemakerDomain#s3_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_kms_key_id SagemakerDomain#s3_kms_key_id}
 
 ---
 
@@ -4784,7 +4784,7 @@ public string S3OutputPath { get; set; }
 
 When NotebookOutputOption is Allowed, the Amazon S3 bucket used to store the shared notebook snapshots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#s3_output_path SagemakerDomain#s3_output_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#s3_output_path SagemakerDomain#s3_output_path}
 
 ---
 
@@ -4820,7 +4820,7 @@ Properties related to the Amazon Elastic Block Store volume.
 
 Must be provided if storage type is Amazon EBS and must not be provided if storage type is not Amazon EBS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_ebs_storage_settings SagemakerDomain#default_ebs_storage_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_ebs_storage_settings SagemakerDomain#default_ebs_storage_settings}
 
 ---
 
@@ -4856,7 +4856,7 @@ public double DefaultEbsVolumeSizeInGb { get; set; }
 
 Default size of the Amazon EBS volume in Gb.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_ebs_volume_size_in_gb SagemakerDomain#default_ebs_volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_ebs_volume_size_in_gb SagemakerDomain#default_ebs_volume_size_in_gb}
 
 ---
 
@@ -4870,7 +4870,7 @@ public double MaximumEbsVolumeSizeInGb { get; set; }
 
 Maximum size of the Amazon EBS volume in Gb. Must be greater than or equal to the DefaultEbsVolumeSizeInGb.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#maximum_ebs_volume_size_in_gb SagemakerDomain#maximum_ebs_volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#maximum_ebs_volume_size_in_gb SagemakerDomain#maximum_ebs_volume_size_in_gb}
 
 ---
 
@@ -4910,7 +4910,7 @@ public string[] HiddenAppTypes { get; set; }
 
 Applications supported in Studio that are hidden from the Studio left navigation pane.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#hidden_app_types SagemakerDomain#hidden_app_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#hidden_app_types SagemakerDomain#hidden_app_types}
 
 ---
 
@@ -4924,7 +4924,7 @@ public string[] HiddenInstanceTypes { get; set; }
 
 The instance types you are hiding from the Studio user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#hidden_instance_types SagemakerDomain#hidden_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#hidden_instance_types SagemakerDomain#hidden_instance_types}
 
 ---
 
@@ -4938,7 +4938,7 @@ public string[] HiddenMlTools { get; set; }
 
 The machine learning tools that are hidden from the Studio left navigation pane.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#hidden_ml_tools SagemakerDomain#hidden_ml_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#hidden_ml_tools SagemakerDomain#hidden_ml_tools}
 
 ---
 
@@ -4952,7 +4952,7 @@ public IResolvable|SagemakerDomainDefaultUserSettingsStudioWebPortalSettingsHidd
 
 The version aliases you are hiding from the Studio user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#hidden_sage_maker_image_version_aliases SagemakerDomain#hidden_sage_maker_image_version_aliases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#hidden_sage_maker_image_version_aliases SagemakerDomain#hidden_sage_maker_image_version_aliases}
 
 ---
 
@@ -4974,7 +4974,7 @@ new SagemakerDomainDefaultUserSettingsStudioWebPortalSettingsHiddenSageMakerImag
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsStudioWebPortalSettingsHiddenSageMakerImageVersionAliases.property.sageMakerImageName">SageMakerImageName</a></code> | <code>string</code> | The SageMaker image name that you are hiding from the Studio user interface. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsStudioWebPortalSettingsHiddenSageMakerImageVersionAliases.property.versionAliases">VersionAliases</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#version_aliases SagemakerDomain#version_aliases}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDefaultUserSettingsStudioWebPortalSettingsHiddenSageMakerImageVersionAliases.property.versionAliases">VersionAliases</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#version_aliases SagemakerDomain#version_aliases}. |
 
 ---
 
@@ -4988,7 +4988,7 @@ public string SageMakerImageName { get; set; }
 
 The SageMaker image name that you are hiding from the Studio user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_name SagemakerDomain#sage_maker_image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_name SagemakerDomain#sage_maker_image_name}
 
 ---
 
@@ -5000,7 +5000,7 @@ public string[] VersionAliases { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#version_aliases SagemakerDomain#version_aliases}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#version_aliases SagemakerDomain#version_aliases}.
 
 ---
 
@@ -5044,7 +5044,7 @@ public SagemakerDomainDomainSettingsDockerSettings DockerSettings { get; set; }
 
 A collection of settings that are required to start docker-proxy server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#docker_settings SagemakerDomain#docker_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#docker_settings SagemakerDomain#docker_settings}
 
 ---
 
@@ -5058,7 +5058,7 @@ public string ExecutionRoleIdentityConfig { get; set; }
 
 The configuration for attaching a SageMaker user profile name to the execution role as a sts:SourceIdentity key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#execution_role_identity_config SagemakerDomain#execution_role_identity_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#execution_role_identity_config SagemakerDomain#execution_role_identity_config}
 
 ---
 
@@ -5072,7 +5072,7 @@ public string IpAddressType { get; set; }
 
 A setting to indicate if IPv6 routing should be enabled along with IPv4 or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#ip_address_type SagemakerDomain#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#ip_address_type SagemakerDomain#ip_address_type}
 
 ---
 
@@ -5086,7 +5086,7 @@ public SagemakerDomainDomainSettingsRStudioServerProDomainSettings RStudioServer
 
 A collection of settings that update the current configuration for the RStudioServerPro Domain-level app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#r_studio_server_pro_domain_settings SagemakerDomain#r_studio_server_pro_domain_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#r_studio_server_pro_domain_settings SagemakerDomain#r_studio_server_pro_domain_settings}
 
 ---
 
@@ -5100,7 +5100,7 @@ public string[] SecurityGroupIds { get; set; }
 
 The security groups for the Amazon Virtual Private Cloud that the Domain uses for communication between Domain-level apps and user apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#security_group_ids SagemakerDomain#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#security_group_ids SagemakerDomain#security_group_ids}
 
 ---
 
@@ -5114,7 +5114,7 @@ public SagemakerDomainDomainSettingsUnifiedStudioSettings UnifiedStudioSettings 
 
 A collection of settings that apply to an Amazon SageMaker AI domain when you use it in Amazon SageMaker Unified Studio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#unified_studio_settings SagemakerDomain#unified_studio_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#unified_studio_settings SagemakerDomain#unified_studio_settings}
 
 ---
 
@@ -5150,7 +5150,7 @@ public string EnableDockerAccess { get; set; }
 
 The flag to enable/disable docker-proxy server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#enable_docker_access SagemakerDomain#enable_docker_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#enable_docker_access SagemakerDomain#enable_docker_access}
 
 ---
 
@@ -5164,7 +5164,7 @@ public string[] VpcOnlyTrustedAccounts { get; set; }
 
 A list of account id's that would be used to pull images from in VpcOnly mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#vpc_only_trusted_accounts SagemakerDomain#vpc_only_trusted_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#vpc_only_trusted_accounts SagemakerDomain#vpc_only_trusted_accounts}
 
 ---
 
@@ -5187,7 +5187,7 @@ new SagemakerDomainDomainSettingsRStudioServerProDomainSettings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec">SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettings.property.defaultResourceSpec">DefaultResourceSpec</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec">SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettings.property.domainExecutionRoleArn">DomainExecutionRoleArn</a></code> | <code>string</code> | The ARN of the execution role for the RStudioServerPro Domain-level app. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettings.property.rStudioConnectUrl">RStudioConnectUrl</a></code> | <code>string</code> | A URL pointing to an RStudio Connect server. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettings.property.rStudioPackageManagerUrl">RStudioPackageManagerUrl</a></code> | <code>string</code> | A URL pointing to an RStudio Package Manager server. |
@@ -5202,7 +5202,7 @@ public SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourc
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec">SagemakerDomainDomainSettingsRStudioServerProDomainSettingsDefaultResourceSpec</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}.
 
 ---
 
@@ -5216,7 +5216,7 @@ public string DomainExecutionRoleArn { get; set; }
 
 The ARN of the execution role for the RStudioServerPro Domain-level app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#domain_execution_role_arn SagemakerDomain#domain_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#domain_execution_role_arn SagemakerDomain#domain_execution_role_arn}
 
 ---
 
@@ -5230,7 +5230,7 @@ public string RStudioConnectUrl { get; set; }
 
 A URL pointing to an RStudio Connect server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#r_studio_connect_url SagemakerDomain#r_studio_connect_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#r_studio_connect_url SagemakerDomain#r_studio_connect_url}
 
 ---
 
@@ -5244,7 +5244,7 @@ public string RStudioPackageManagerUrl { get; set; }
 
 A URL pointing to an RStudio Package Manager server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#r_studio_package_manager_url SagemakerDomain#r_studio_package_manager_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#r_studio_package_manager_url SagemakerDomain#r_studio_package_manager_url}
 
 ---
 
@@ -5286,7 +5286,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#instance_type SagemakerDomain#instance_type}
 
 ---
 
@@ -5300,7 +5300,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#lifecycle_config_arn SagemakerDomain#lifecycle_config_arn}
 
 ---
 
@@ -5314,7 +5314,7 @@ public string SageMakerImageArn { get; set; }
 
 The Amazon Resource Name (ARN) of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_arn SagemakerDomain#sage_maker_image_arn}
 
 ---
 
@@ -5328,7 +5328,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The Amazon Resource Name (ARN) of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#sage_maker_image_version_arn SagemakerDomain#sage_maker_image_version_arn}
 
 ---
 
@@ -5342,7 +5342,7 @@ public string TrainingPlanArn { get; set; }
 
 The Amazon Resource Name (ARN) of the training plan to use for the ResourceSpec.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#training_plan_arn SagemakerDomain#training_plan_arn}
 
 ---
 
@@ -5390,7 +5390,7 @@ The ID of the AWS account that has the Amazon SageMaker Unified Studio domain.
 
 The default value, if you don't specify an ID, is the ID of the account that has the Amazon SageMaker AI domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#domain_account_id SagemakerDomain#domain_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#domain_account_id SagemakerDomain#domain_account_id}
 
 ---
 
@@ -5404,7 +5404,7 @@ public string DomainId { get; set; }
 
 The ID of the Amazon SageMaker Unified Studio domain associated with this domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#domain_id SagemakerDomain#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#domain_id SagemakerDomain#domain_id}
 
 ---
 
@@ -5420,7 +5420,7 @@ The AWS Region where the domain is located in Amazon SageMaker Unified Studio.
 
 The default value, if you don't specify a Region, is the Region where the Amazon SageMaker AI domain is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#domain_region SagemakerDomain#domain_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#domain_region SagemakerDomain#domain_region}
 
 ---
 
@@ -5434,7 +5434,7 @@ public string EnvironmentId { get; set; }
 
 The ID of the environment that Amazon SageMaker Unified Studio associates with the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#environment_id SagemakerDomain#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#environment_id SagemakerDomain#environment_id}
 
 ---
 
@@ -5448,7 +5448,7 @@ public string ProjectId { get; set; }
 
 The ID of the Amazon SageMaker Unified Studio project that corresponds to the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#project_id SagemakerDomain#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#project_id SagemakerDomain#project_id}
 
 ---
 
@@ -5462,7 +5462,7 @@ public string ProjectS3Path { get; set; }
 
 The location where Amazon S3 stores temporary execution data and other artifacts for the project that corresponds to the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#project_s3_path SagemakerDomain#project_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#project_s3_path SagemakerDomain#project_s3_path}
 
 ---
 
@@ -5481,7 +5481,7 @@ You can access the domain in Amazon SageMaker Studio. If you migrate the domain 
 DISABLED
 You can't access the domain in Amazon SageMaker Studio. If you migrate the domain to Amazon SageMaker Unified Studio, you can access it only in that studio interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#studio_web_portal_access SagemakerDomain#studio_web_portal_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#studio_web_portal_access SagemakerDomain#studio_web_portal_access}
 
 ---
 
@@ -5502,8 +5502,8 @@ new SagemakerDomainTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#key SagemakerDomain#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#value SagemakerDomain#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#key SagemakerDomain#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerDomain.SagemakerDomainTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#value SagemakerDomain#value}. |
 
 ---
 
@@ -5515,7 +5515,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#key SagemakerDomain#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#key SagemakerDomain#key}.
 
 ---
 
@@ -5527,7 +5527,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_domain#value SagemakerDomain#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_domain#value SagemakerDomain#value}.
 
 ---
 

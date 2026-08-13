@@ -4,7 +4,7 @@
 
 ### Ec2NetworkInsightsAnalysis <a name="Ec2NetworkInsightsAnalysis" id="@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Ec2NetworkInsightsAnalysis
 
 The id of the existing Ec2NetworkInsightsAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -943,9 +943,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsanal
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.networkInsightsPathId">NetworkInsightsPathId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.filterInArns">FilterInArns</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.networkInsightsPathId">NetworkInsightsPathId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.filterInArns">FilterInArns</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}. |
 
 ---
 
@@ -1027,7 +1027,7 @@ NetworkInsightsPathId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}.
 
 ---
 
@@ -1039,7 +1039,7 @@ FilterInArns *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}.
 
 ---
 
@@ -1051,7 +1051,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}.
 
 ---
 
@@ -1969,8 +1969,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsanal
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}. |
 
 ---
 
@@ -1982,7 +1982,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}.
 
 ---
 
@@ -1994,7 +1994,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreHarnesses <a name="DataAwsccBedrockagentcoreHarnesses" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreHarnesses.DataAwsccBedrockagentcoreHarnesses.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreH
 
 The id of the existing DataAwsccBedrockagentcoreHarnesses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_harnesses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_harnesses#import import section} in the documentation of this resource for the id to use
 
 ---
 

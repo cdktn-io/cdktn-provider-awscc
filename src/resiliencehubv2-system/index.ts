@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface Resiliencehubv2SystemConfig extends cdktn.TerraformMetaArgument
   /**
   * The description of the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#description Resiliencehubv2System#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#description Resiliencehubv2System#description}
   */
   readonly description?: string;
   /**
   * The KMS key ID for encrypting system data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#kms_key_id Resiliencehubv2System#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#kms_key_id Resiliencehubv2System#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#name Resiliencehubv2System#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#name Resiliencehubv2System#name}
   */
   readonly name: string;
   /**
   * Whether the system is enabled to be shared with other members of the Organization. Only applicable if the system owner is a management account or delegated admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#sharing_enabled Resiliencehubv2System#sharing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#sharing_enabled Resiliencehubv2System#sharing_enabled}
   */
   readonly sharingEnabled?: boolean | cdktn.IResolvable;
   /**
   * Tags assigned to the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#tags Resiliencehubv2System#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#tags Resiliencehubv2System#tags}
   */
   readonly tags?: Resiliencehubv2SystemTags[] | cdktn.IResolvable;
 }
@@ -47,13 +47,13 @@ export interface Resiliencehubv2SystemTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#key Resiliencehubv2System#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#key Resiliencehubv2System#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#value Resiliencehubv2System#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#value Resiliencehubv2System#value}
   */
   readonly value?: string;
 }
@@ -198,7 +198,7 @@ export class Resiliencehubv2SystemTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system}
 */
 export class Resiliencehubv2System extends cdktn.TerraformResource {
 
@@ -214,7 +214,7 @@ export class Resiliencehubv2System extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resiliencehubv2System resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resiliencehubv2System to import
-  * @param importFromId The id of the existing Resiliencehubv2System that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resiliencehubv2System that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resiliencehubv2System to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -226,7 +226,7 @@ export class Resiliencehubv2System extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,7 +237,7 @@ export class Resiliencehubv2System extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resiliencehubv2_system',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

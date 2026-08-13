@@ -4,7 +4,7 @@
 
 ### DataAwsccDevopsagentAgentSpaces <a name="DataAwsccDevopsagentAgentSpaces" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/devopsagent_agent_spaces awscc_devopsagent_agent_spaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsagent_agent_spaces awscc_devopsagent_agent_spaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpaces.DataAwsccDevopsagentAgentSpaces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDevopsagentAgentS
 
 The id of the existing DataAwsccDevopsagentAgentSpaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/devopsagent_agent_spaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsagent_agent_spaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

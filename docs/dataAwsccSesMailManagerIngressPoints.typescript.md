@@ -4,7 +4,7 @@
 
 ### DataAwsccSesMailManagerIngressPoints <a name="DataAwsccSesMailManagerIngressPoints" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoints.DataAwsccSesMailManagerIngressPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_ingress_points awscc_ses_mail_manager_ingress_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_ingress_points awscc_ses_mail_manager_ingress_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerIngressPoints.DataAwsccSesMailManagerIngressPoints.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerIng
 
 The id of the existing DataAwsccSesMailManagerIngressPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_ingress_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_ingress_points#import import section} in the documentation of this resource for the id to use
 
 ---
 

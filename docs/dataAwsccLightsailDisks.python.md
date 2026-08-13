@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailDisks <a name="DataAwsccLightsailDisks" id="@cdktn/provider-awscc.dataAwsccLightsailDisks.DataAwsccLightsailDisks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_disks awscc_lightsail_disks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_disks awscc_lightsail_disks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDisks.DataAwsccLightsailDisks.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLightsailDisks to
 
 The id of the existing DataAwsccLightsailDisks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_disks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_disks#import import section} in the documentation of this resource for the id to use
 
 ---
 

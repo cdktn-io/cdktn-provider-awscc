@@ -4,7 +4,7 @@
 
 ### DataAwsccIotSoftwarePackageVersions <a name="DataAwsccIotSoftwarePackageVersions" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersions.DataAwsccIotSoftwarePackageVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotSoftwarePackageVersions.DataAwsccIotSoftwarePackageVersions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotSoftwarePackag
 
 The id of the existing DataAwsccIotSoftwarePackageVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_software_package_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_software_package_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 

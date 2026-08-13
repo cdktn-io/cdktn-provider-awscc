@@ -4,7 +4,7 @@
 
 ### DataAwsccLogsQueryDefinitions <a name="DataAwsccLogsQueryDefinitions" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsQueryDefinitions.DataAwsccLogsQueryDefinitions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsQueryDefiniti
 
 The id of the existing DataAwsccLogsQueryDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_query_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_query_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

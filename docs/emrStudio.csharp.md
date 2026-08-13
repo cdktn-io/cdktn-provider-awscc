@@ -4,7 +4,7 @@
 
 ### EmrStudio <a name="EmrStudio" id="@cdktn/provider-awscc.emrStudio.EmrStudio"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio awscc_emr_studio}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio awscc_emr_studio}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrStudio.EmrStudio.Initializer"></a>
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the EmrStudio to import.
 
 The id of the existing EmrStudio that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1326,7 +1326,7 @@ Specifies whether the Studio authenticates users using single sign-on (SSO) or I
 
 Amazon EMR Studio currently only supports SSO authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#auth_mode EmrStudio#auth_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#auth_mode EmrStudio#auth_mode}
 
 ---
 
@@ -1342,7 +1342,7 @@ The default Amazon S3 location to back up EMR Studio Workspaces and notebook fil
 
 A Studio user can select an alternative Amazon S3 location when creating a Workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#default_s3_location EmrStudio#default_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#default_s3_location EmrStudio#default_s3_location}
 
 ---
 
@@ -1358,7 +1358,7 @@ The ID of the Amazon EMR Studio Engine security group.
 
 The Engine security group allows inbound network traffic from the Workspace security group, and it must be in the same VPC specified by VpcId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#engine_security_group_id EmrStudio#engine_security_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#engine_security_group_id EmrStudio#engine_security_group_id}
 
 ---
 
@@ -1372,7 +1372,7 @@ public string Name { get; set; }
 
 A descriptive name for the Amazon EMR Studio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#name EmrStudio#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#name EmrStudio#name}
 
 ---
 
@@ -1388,7 +1388,7 @@ The IAM role that will be assumed by the Amazon EMR Studio.
 
 The service role provides a way for Amazon EMR Studio to interoperate with other AWS services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#service_role EmrStudio#service_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#service_role EmrStudio#service_role}
 
 ---
 
@@ -1404,7 +1404,7 @@ A list of up to 5 subnet IDs to associate with the Studio.
 
 The subnets must belong to the VPC specified by VpcId. Studio users can create a Workspace in any of the specified subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#subnet_ids EmrStudio#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#subnet_ids EmrStudio#subnet_ids}
 
 ---
 
@@ -1418,7 +1418,7 @@ public string VpcId { get; set; }
 
 The ID of the Amazon Virtual Private Cloud (Amazon VPC) to associate with the Studio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#vpc_id EmrStudio#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#vpc_id EmrStudio#vpc_id}
 
 ---
 
@@ -1434,7 +1434,7 @@ The ID of the Amazon EMR Studio Workspace security group.
 
 The Workspace security group allows outbound network traffic to resources in the Engine security group, and it must be in the same VPC specified by VpcId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#workspace_security_group_id EmrStudio#workspace_security_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#workspace_security_group_id EmrStudio#workspace_security_group_id}
 
 ---
 
@@ -1448,7 +1448,7 @@ public string Description { get; set; }
 
 A detailed description of the Studio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#description EmrStudio#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#description EmrStudio#description}
 
 ---
 
@@ -1462,7 +1462,7 @@ public string EncryptionKeyArn { get; set; }
 
 The AWS KMS key identifier (ARN) used to encrypt AWS EMR Studio workspace and notebook files when backed up to AWS S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#encryption_key_arn EmrStudio#encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#encryption_key_arn EmrStudio#encryption_key_arn}
 
 ---
 
@@ -1476,7 +1476,7 @@ public string IdcInstanceArn { get; set; }
 
 The ARN of the IAM Identity Center instance to create the Studio application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#idc_instance_arn EmrStudio#idc_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#idc_instance_arn EmrStudio#idc_instance_arn}
 
 ---
 
@@ -1492,7 +1492,7 @@ Specifies whether IAM Identity Center user assignment is REQUIRED or OPTIONAL.
 
 If the value is set to REQUIRED, users must be explicitly assigned to the Studio application to access the Studio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#idc_user_assignment EmrStudio#idc_user_assignment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#idc_user_assignment EmrStudio#idc_user_assignment}
 
 ---
 
@@ -1508,7 +1508,7 @@ Your identity provider's authentication endpoint.
 
 Amazon EMR Studio redirects federated users to this endpoint for authentication when logging in to a Studio with the Studio URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#idp_auth_url EmrStudio#idp_auth_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#idp_auth_url EmrStudio#idp_auth_url}
 
 ---
 
@@ -1522,7 +1522,7 @@ public string IdpRelayStateParameterName { get; set; }
 
 The name of relay state parameter for external Identity Provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#idp_relay_state_parameter_name EmrStudio#idp_relay_state_parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#idp_relay_state_parameter_name EmrStudio#idp_relay_state_parameter_name}
 
 ---
 
@@ -1538,7 +1538,7 @@ A list of tags to associate with the Studio.
 
 Tags are user-defined key-value pairs that consist of a required key string with a maximum of 128 characters, and an optional value string with a maximum of 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#tags EmrStudio#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#tags EmrStudio#tags}
 
 ---
 
@@ -1552,7 +1552,7 @@ public bool|IResolvable TrustedIdentityPropagationEnabled { get; set; }
 
 A Boolean indicating whether to enable Trusted identity propagation for the Studio. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#trusted_identity_propagation_enabled EmrStudio#trusted_identity_propagation_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#trusted_identity_propagation_enabled EmrStudio#trusted_identity_propagation_enabled}
 
 ---
 
@@ -1568,7 +1568,7 @@ The IAM user role that will be assumed by users and groups logged in to a Studio
 
 The permissions attached to this IAM role can be scoped down for each user or group using session policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#user_role EmrStudio#user_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#user_role EmrStudio#user_role}
 
 ---
 
@@ -1606,7 +1606,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#key EmrStudio#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#key EmrStudio#key}
 
 ---
 
@@ -1622,7 +1622,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_studio#value EmrStudio#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_studio#value EmrStudio#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2SecurityGroupVpcAssociations <a name="DataAwsccEc2SecurityGroupVpcAssociations" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupVpcAssociations.DataAwsccEc2SecurityGroupVpcAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_security_group_vpc_associations awscc_ec2_security_group_vpc_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_group_vpc_associations awscc_ec2_security_group_vpc_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecurityGroupVpcAssociations.DataAwsccEc2SecurityGroupVpcAssociations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2SecurityGroupV
 
 The id of the existing DataAwsccEc2SecurityGroupVpcAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_security_group_vpc_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_group_vpc_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

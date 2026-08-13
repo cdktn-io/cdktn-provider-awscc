@@ -4,7 +4,7 @@
 
 ### DataAwsccIotfleetwiseVehicles <a name="DataAwsccIotfleetwiseVehicles" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseVehicles.DataAwsccIotfleetwiseVehicles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotfleetwise_vehicles awscc_iotfleetwise_vehicles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotfleetwise_vehicles awscc_iotfleetwise_vehicles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseVehicles.DataAwsccIotfleetwiseVehicles.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseVehic
 
 The id of the existing DataAwsccIotfleetwiseVehicles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotfleetwise_vehicles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotfleetwise_vehicles#import import section} in the documentation of this resource for the id to use
 
 ---
 

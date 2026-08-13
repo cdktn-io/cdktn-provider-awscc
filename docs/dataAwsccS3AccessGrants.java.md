@@ -4,7 +4,7 @@
 
 ### DataAwsccS3AccessGrants <a name="DataAwsccS3AccessGrants" id="@cdktn/provider-awscc.dataAwsccS3AccessGrants.DataAwsccS3AccessGrants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_access_grants awscc_s3_access_grants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_access_grants awscc_s3_access_grants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessGrants.DataAwsccS3AccessGrants.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccS3AccessGrants to
 
 The id of the existing DataAwsccS3AccessGrants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_access_grants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_access_grants#import import section} in the documentation of this resource for the id to use
 
 ---
 

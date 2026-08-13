@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2LocalGatewayRoutes <a name="DataAwsccEc2LocalGatewayRoutes" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRoutes.DataAwsccEc2LocalGatewayRoutes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_local_gateway_routes awscc_ec2_local_gateway_routes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_routes awscc_ec2_local_gateway_routes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2LocalGatewayRoutes.DataAwsccEc2LocalGatewayRoutes.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2LocalGatewayRo
 
 The id of the existing DataAwsccEc2LocalGatewayRoutes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_local_gateway_routes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_routes#import import section} in the documentation of this resource for the id to use
 
 ---
 

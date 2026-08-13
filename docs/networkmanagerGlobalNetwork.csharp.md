@@ -4,7 +4,7 @@
 
 ### NetworkmanagerGlobalNetwork <a name="NetworkmanagerGlobalNetwork" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network awscc_networkmanager_global_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerGlobalNetwork.NetworkmanagerGlobalNetwork.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the NetworkmanagerGlobalNetwor
 
 The id of the existing NetworkmanagerGlobalNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,7 +966,7 @@ public string CreatedAt { get; set; }
 
 The date and time that the global network was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
 
 ---
 
@@ -980,7 +980,7 @@ public string Description { get; set; }
 
 The description of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
 
 ---
 
@@ -994,7 +994,7 @@ public string State { get; set; }
 
 The state of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
 
 ---
 
@@ -1008,7 +1008,7 @@ public IResolvable|NetworkmanagerGlobalNetworkTags[] Tags { get; set; }
 
 The tags for the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
 
 ---
 
@@ -1046,7 +1046,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#key NetworkmanagerGlobalNetwork#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#key NetworkmanagerGlobalNetwork#key}
 
 ---
 
@@ -1062,7 +1062,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_global_network#value NetworkmanagerGlobalNetwork#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_global_network#value NetworkmanagerGlobalNetwork#value}
 
 ---
 

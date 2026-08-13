@@ -4,7 +4,7 @@
 
 ### DataAwsccIamSamlProvider <a name="DataAwsccIamSamlProvider" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamSamlProvider.DataAwsccIamSamlProvider.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_saml_provider#id DataAwsccIamSamlProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_saml_provider#id DataAwsccIamSamlProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccIamSamlProvider t
 
 The id of the existing DataAwsccIamSamlProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_saml_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_saml_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -900,7 +900,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_saml_provider#id DataAwsccIamSamlProvider#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_saml_provider#id DataAwsccIamSamlProvider#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

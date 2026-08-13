@@ -4,7 +4,7 @@
 
 ### SesTemplate <a name="SesTemplate" id="@cdktn/provider-awscc.sesTemplate.SesTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template awscc_ses_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template awscc_ses_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTemplate.SesTemplate.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SesTemplate to import.
 
 The id of the existing SesTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -896,7 +896,7 @@ public readonly tags: IResolvable | SesTemplateTags[];
 
 The tags (keys and values) associated with the email template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#tags SesTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#tags SesTemplate#tags}
 
 ---
 
@@ -910,7 +910,7 @@ public readonly template: SesTemplateTemplate;
 
 The content of the email, composed of a subject line, an HTML part, and a text-only part.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#template SesTemplate#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#template SesTemplate#template}
 
 ---
 
@@ -928,8 +928,8 @@ const sesTemplateTags: sesTemplate.SesTemplateTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#key SesTemplate#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#value SesTemplate#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#key SesTemplate#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#value SesTemplate#value}. |
 
 ---
 
@@ -941,7 +941,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#key SesTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#key SesTemplate#key}.
 
 ---
 
@@ -953,7 +953,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#value SesTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#value SesTemplate#value}.
 
 ---
 
@@ -988,7 +988,7 @@ public readonly htmlPart: string;
 
 The HTML body of the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#html_part SesTemplate#html_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#html_part SesTemplate#html_part}
 
 ---
 
@@ -1002,7 +1002,7 @@ public readonly subjectPart: string;
 
 The subject line of the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
 
 ---
 
@@ -1016,7 +1016,7 @@ public readonly templateName: string;
 
 The name of the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#template_name SesTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#template_name SesTemplate#template_name}
 
 ---
 
@@ -1030,7 +1030,7 @@ public readonly textPart: string;
 
 The email body that is visible to recipients whose email clients do not display HTML content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_template#text_part SesTemplate#text_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#text_part SesTemplate#text_part}
 
 ---
 

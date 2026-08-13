@@ -4,7 +4,7 @@
 
 ### IvsIngestConfiguration <a name="IvsIngestConfiguration" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsIngestConfiguration.IvsIngestConfiguration.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 Ingest Protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#ingest_protocol IvsIngestConfiguration#ingest_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#ingest_protocol IvsIngestConfiguration#ingest_protocol}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether ingest configuration allows insecure ingest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#insecure_ingest IvsIngestConfiguration#insecure_ingest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#insecure_ingest IvsIngestConfiguration#insecure_ingest}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IngestConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#name IvsIngestConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#name IvsIngestConfiguration#name}
 
 ---
 
@@ -146,7 +146,7 @@ Stage ARN.
 
 A value other than an empty string indicates that stage is linked to IngestConfiguration. Default: "" (recording is disabled).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#stage_arn IvsIngestConfiguration#stage_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#stage_arn IvsIngestConfiguration#stage_arn}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#tags IvsIngestConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#tags IvsIngestConfiguration#tags}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User defined indentifier for participant associated with IngestConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#user_id IvsIngestConfiguration#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#user_id IvsIngestConfiguration#user_id}
 
 ---
 
@@ -670,7 +670,7 @@ The construct id used in the generated config for the IvsIngestConfiguration to 
 
 The id of the existing IvsIngestConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1176,7 +1176,7 @@ public java.lang.String getIngestProtocol();
 
 Ingest Protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#ingest_protocol IvsIngestConfiguration#ingest_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#ingest_protocol IvsIngestConfiguration#ingest_protocol}
 
 ---
 
@@ -1190,7 +1190,7 @@ public java.lang.Boolean|IResolvable getInsecureIngest();
 
 Whether ingest configuration allows insecure ingest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#insecure_ingest IvsIngestConfiguration#insecure_ingest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#insecure_ingest IvsIngestConfiguration#insecure_ingest}
 
 ---
 
@@ -1204,7 +1204,7 @@ public java.lang.String getName();
 
 IngestConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#name IvsIngestConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#name IvsIngestConfiguration#name}
 
 ---
 
@@ -1220,7 +1220,7 @@ Stage ARN.
 
 A value other than an empty string indicates that stage is linked to IngestConfiguration. Default: "" (recording is disabled).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#stage_arn IvsIngestConfiguration#stage_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#stage_arn IvsIngestConfiguration#stage_arn}
 
 ---
 
@@ -1234,7 +1234,7 @@ public IResolvable|java.util.List<IvsIngestConfigurationTags> getTags();
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#tags IvsIngestConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#tags IvsIngestConfiguration#tags}
 
 ---
 
@@ -1248,7 +1248,7 @@ public java.lang.String getUserId();
 
 User defined indentifier for participant associated with IngestConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#user_id IvsIngestConfiguration#user_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#user_id IvsIngestConfiguration#user_id}
 
 ---
 
@@ -1286,7 +1286,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#key IvsIngestConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#key IvsIngestConfiguration#key}
 
 ---
 
@@ -1302,7 +1302,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_ingest_configuration#value IvsIngestConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_ingest_configuration#value IvsIngestConfiguration#value}
 
 ---
 

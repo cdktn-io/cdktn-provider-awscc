@@ -4,7 +4,7 @@
 
 ### DataAwsccResourcegroupsTagSyncTasks <a name="DataAwsccResourcegroupsTagSyncTasks" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourcegroupsTagSyncTasks.DataAwsccResourcegroupsTagSyncTasks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccResourcegroupsTag
 
 The id of the existing DataAwsccResourcegroupsTagSyncTasks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resourcegroups_tag_sync_tasks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resourcegroups_tag_sync_tasks#import import section} in the documentation of this resource for the id to use
 
 ---
 

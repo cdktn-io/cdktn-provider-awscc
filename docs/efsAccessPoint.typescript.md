@@ -4,7 +4,7 @@
 
 ### EfsAccessPoint <a name="EfsAccessPoint" id="@cdktn/provider-awscc.efsAccessPoint.EfsAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point awscc_efs_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point awscc_efs_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.efsAccessPoint.EfsAccessPoint.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the EfsAccessPoint to import.
 
 The id of the existing EfsAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,7 +923,7 @@ public readonly key: string;
 
 The tag key (String). The key can't start with ``aws:``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#key EfsAccessPoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#key EfsAccessPoint#key}
 
 ---
 
@@ -937,7 +937,7 @@ public readonly value: string;
 
 The value of the tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#value EfsAccessPoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#value EfsAccessPoint#value}
 
 ---
 
@@ -1052,7 +1052,7 @@ The ID of the EFS file system that the access point applies to.
 
 Accepts only the ID format for input when specifying a file system, for example ``fs-0123456789abcedf2``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#file_system_id EfsAccessPoint#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#file_system_id EfsAccessPoint#file_system_id}
 
 ---
 
@@ -1066,7 +1066,7 @@ public readonly accessPointTags: IResolvable | EfsAccessPointAccessPointTags[];
 
 An array of key-value pairs to apply to this resource.  For more information, see [Tag](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-resource-tags.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#access_point_tags EfsAccessPoint#access_point_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#access_point_tags EfsAccessPoint#access_point_tags}
 
 ---
 
@@ -1080,7 +1080,7 @@ public readonly clientToken: string;
 
 The opaque string specified in the request to ensure idempotent creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#client_token EfsAccessPoint#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#client_token EfsAccessPoint#client_token}
 
 ---
 
@@ -1094,7 +1094,7 @@ public readonly posixUser: EfsAccessPointPosixUser;
 
 The full POSIX identity, including the user ID, group ID, and secondary group IDs on the access point that is used for all file operations by NFS clients using the access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#posix_user EfsAccessPoint#posix_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#posix_user EfsAccessPoint#posix_user}
 
 ---
 
@@ -1108,7 +1108,7 @@ public readonly rootDirectory: EfsAccessPointRootDirectory;
 
 The directory on the EFS file system that the access point exposes as the root directory to NFS clients using the access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#root_directory EfsAccessPoint#root_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#root_directory EfsAccessPoint#root_directory}
 
 ---
 
@@ -1142,7 +1142,7 @@ public readonly gid: string;
 
 The POSIX group ID used for all file system operations using this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#gid EfsAccessPoint#gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#gid EfsAccessPoint#gid}
 
 ---
 
@@ -1156,7 +1156,7 @@ public readonly secondaryGids: string[];
 
 Secondary POSIX group IDs used for all file system operations using this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#secondary_gids EfsAccessPoint#secondary_gids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#secondary_gids EfsAccessPoint#secondary_gids}
 
 ---
 
@@ -1170,7 +1170,7 @@ public readonly uid: string;
 
 The POSIX user ID used for all file system operations using this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#uid EfsAccessPoint#uid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#uid EfsAccessPoint#uid}
 
 ---
 
@@ -1206,7 +1206,7 @@ public readonly creationInfo: EfsAccessPointRootDirectoryCreationInfo;
 If the ``RootDirectory`` > ``Path`` specified does not exist, EFS creates the root directory using the ``CreationInfo`` settings when a client connects to an access point. When specifying the ``CreationInfo``, you must provide values for all properties. 
   If you do not provide ``CreationInfo`` and the specified ``RootDirectory`` > ``Path`` does not exist, attempts to mount the file system using the access point will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
 
 ---
 
@@ -1222,7 +1222,7 @@ Specifies the path on the EFS file system to expose as the root directory to NFS
 
 A path can have up to four subdirectories. If the specified path does not exist, you are required to provide the ``CreationInfo``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#path EfsAccessPoint#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#path EfsAccessPoint#path}
 
 ---
 
@@ -1256,7 +1256,7 @@ public readonly ownerGid: string;
 
 Specifies the POSIX group ID to apply to the ``RootDirectory``. Accepts values from 0 to 2^32 (4294967295).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#owner_gid EfsAccessPoint#owner_gid}
 
 ---
 
@@ -1270,7 +1270,7 @@ public readonly ownerUid: string;
 
 Specifies the POSIX user ID to apply to the ``RootDirectory``. Accepts values from 0 to 2^32 (4294967295).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#owner_uid EfsAccessPoint#owner_uid}
 
 ---
 
@@ -1284,7 +1284,7 @@ public readonly permissions: string;
 
 Specifies the POSIX permissions to apply to the ``RootDirectory``, in the format of an octal number representing the file's mode bits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_access_point#permissions EfsAccessPoint#permissions}
 
 ---
 

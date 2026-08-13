@@ -4,7 +4,7 @@
 
 ### EcrPublicRepository <a name="EcrPublicRepository" id="@cdktn/provider-awscc.ecrPublicRepository.EcrPublicRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository awscc_ecr_public_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository awscc_ecr_public_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrPublicRepository.EcrPublicRepository.Initializer"></a>
 
@@ -114,7 +114,7 @@ The details about the repository that are publicly visible in the Amazon ECR Pub
 
 For more information, see [Amazon ECR Public repository catalog data](https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-catalog-data.html) in the *Amazon ECR Public User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_catalog_data EcrPublicRepository#repository_catalog_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_catalog_data EcrPublicRepository#repository_catalog_data}
 
 ---
 
@@ -127,7 +127,7 @@ The name to use for the public repository.
 The repository name may be specified on its own (such as `nginx-web-app`) or it can be prepended with a namespace to group the repository into a category (such as `project-a/nginx-web-app`). If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the repository name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_name EcrPublicRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_name EcrPublicRepository#repository_name}
 
 ---
 
@@ -139,7 +139,7 @@ The JSON repository policy text to apply to the public repository.
 
 For more information, see [Amazon ECR Public repository policies](https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-policies.html) in the *Amazon ECR Public User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_policy_text EcrPublicRepository#repository_policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_policy_text EcrPublicRepository#repository_policy_text}
 
 ---
 
@@ -149,7 +149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#tags EcrPublicRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#tags EcrPublicRepository#tags}
 
 ---
 
@@ -558,7 +558,7 @@ Provide a detailed description of the repository.
 
 Identify what is included in the repository, any licensing details, or other relevant information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#about_text EcrPublicRepository#about_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#about_text EcrPublicRepository#about_text}
 
 ---
 
@@ -568,7 +568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Select the system architectures that the images in your repository are compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#architectures EcrPublicRepository#architectures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#architectures EcrPublicRepository#architectures}
 
 ---
 
@@ -578,7 +578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Select the operating systems that the images in your repository are compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#operating_systems EcrPublicRepository#operating_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#operating_systems EcrPublicRepository#operating_systems}
 
 ---
 
@@ -588,7 +588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the public repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_description EcrPublicRepository#repository_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_description EcrPublicRepository#repository_description}
 
 ---
 
@@ -600,7 +600,7 @@ Provide detailed information about how to use the images in the repository.
 
 This provides context, support information, and additional usage details for users of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#usage_text EcrPublicRepository#usage_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#usage_text EcrPublicRepository#usage_text}
 
 ---
 
@@ -756,7 +756,7 @@ The construct id used in the generated config for the EcrPublicRepository to imp
 
 The id of the existing EcrPublicRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1183,7 +1183,7 @@ The details about the repository that are publicly visible in the Amazon ECR Pub
 
 For more information, see [Amazon ECR Public repository catalog data](https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-catalog-data.html) in the *Amazon ECR Public User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_catalog_data EcrPublicRepository#repository_catalog_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_catalog_data EcrPublicRepository#repository_catalog_data}
 
 ---
 
@@ -1200,7 +1200,7 @@ The name to use for the public repository.
 The repository name may be specified on its own (such as `nginx-web-app`) or it can be prepended with a namespace to group the repository into a category (such as `project-a/nginx-web-app`). If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the repository name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_name EcrPublicRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_name EcrPublicRepository#repository_name}
 
 ---
 
@@ -1216,7 +1216,7 @@ The JSON repository policy text to apply to the public repository.
 
 For more information, see [Amazon ECR Public repository policies](https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-policies.html) in the *Amazon ECR Public User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_policy_text EcrPublicRepository#repository_policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_policy_text EcrPublicRepository#repository_policy_text}
 
 ---
 
@@ -1230,7 +1230,7 @@ tags: IResolvable | typing.List[EcrPublicRepositoryTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#tags EcrPublicRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#tags EcrPublicRepository#tags}
 
 ---
 
@@ -1274,7 +1274,7 @@ Provide a detailed description of the repository.
 
 Identify what is included in the repository, any licensing details, or other relevant information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#about_text EcrPublicRepository#about_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#about_text EcrPublicRepository#about_text}
 
 ---
 
@@ -1288,7 +1288,7 @@ architectures: typing.List[str]
 
 Select the system architectures that the images in your repository are compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#architectures EcrPublicRepository#architectures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#architectures EcrPublicRepository#architectures}
 
 ---
 
@@ -1302,7 +1302,7 @@ operating_systems: typing.List[str]
 
 Select the operating systems that the images in your repository are compatible with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#operating_systems EcrPublicRepository#operating_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#operating_systems EcrPublicRepository#operating_systems}
 
 ---
 
@@ -1316,7 +1316,7 @@ repository_description: str
 
 The description of the public repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#repository_description EcrPublicRepository#repository_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#repository_description EcrPublicRepository#repository_description}
 
 ---
 
@@ -1332,7 +1332,7 @@ Provide detailed information about how to use the images in the repository.
 
 This provides context, support information, and additional usage details for users of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#usage_text EcrPublicRepository#usage_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#usage_text EcrPublicRepository#usage_text}
 
 ---
 
@@ -1370,7 +1370,7 @@ One part of a key-value pair that make up a tag.
 
 A `key` is a general label that acts like a category for more specific tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#key EcrPublicRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#key EcrPublicRepository#key}
 
 ---
 
@@ -1384,7 +1384,7 @@ value: str
 
 A ``value`` acts as a descriptor within a tag category (key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_public_repository#value EcrPublicRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository#value EcrPublicRepository#value}
 
 ---
 

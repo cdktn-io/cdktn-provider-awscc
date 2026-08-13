@@ -4,7 +4,7 @@
 
 ### EventschemasSchema <a name="EventschemasSchema" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasSchema.EventschemasSchema.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the EventschemasSchema to impo
 
 The id of the existing EventschemasSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1029,7 +1029,7 @@ public string Content { get; set; }
 
 The source of the schema definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#content EventschemasSchema#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#content EventschemasSchema#content}
 
 ---
 
@@ -1043,7 +1043,7 @@ public string RegistryName { get; set; }
 
 The name of the schema registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#registry_name EventschemasSchema#registry_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#registry_name EventschemasSchema#registry_name}
 
 ---
 
@@ -1057,7 +1057,7 @@ public string Type { get; set; }
 
 The type of schema. Valid types include OpenApi3 and JSONSchemaDraft4.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#type EventschemasSchema#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#type EventschemasSchema#type}
 
 ---
 
@@ -1071,7 +1071,7 @@ public string Description { get; set; }
 
 A description of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#description EventschemasSchema#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#description EventschemasSchema#description}
 
 ---
 
@@ -1085,7 +1085,7 @@ public string SchemaName { get; set; }
 
 The name of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#schema_name EventschemasSchema#schema_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#schema_name EventschemasSchema#schema_name}
 
 ---
 
@@ -1099,7 +1099,7 @@ public IResolvable|EventschemasSchemaTags[] Tags { get; set; }
 
 Tags associated with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#tags EventschemasSchema#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#tags EventschemasSchema#tags}
 
 ---
 
@@ -1120,8 +1120,8 @@ new EventschemasSchemaTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasSchema.EventschemasSchemaTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}. |
 
 ---
 
@@ -1133,7 +1133,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#key EventschemasSchema#key}.
 
 ---
 
@@ -1145,7 +1145,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema#value EventschemasSchema#value}.
 
 ---
 

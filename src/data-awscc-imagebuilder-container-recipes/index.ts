@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_container_recipes
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_container_recipes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccImagebuilderContainerRecipesConfig extends cdktn.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_container_recipes awscc_imagebuilder_container_recipes}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_container_recipes awscc_imagebuilder_container_recipes}
 */
 export class DataAwsccImagebuilderContainerRecipes extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccImagebuilderContainerRecipes extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccImagebuilderContainerRecipes resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccImagebuilderContainerRecipes to import
-  * @param importFromId The id of the existing DataAwsccImagebuilderContainerRecipes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_container_recipes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccImagebuilderContainerRecipes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_container_recipes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccImagebuilderContainerRecipes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccImagebuilderContainerRecipes extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_container_recipes awscc_imagebuilder_container_recipes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_container_recipes awscc_imagebuilder_container_recipes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccImagebuilderContainerRecipes extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_imagebuilder_container_recipes',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

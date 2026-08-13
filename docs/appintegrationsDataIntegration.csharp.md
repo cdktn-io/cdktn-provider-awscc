@@ -4,7 +4,7 @@
 
 ### AppintegrationsDataIntegration <a name="AppintegrationsDataIntegration" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration awscc_appintegrations_data_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsDataIntegration.AppintegrationsDataIntegration.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the AppintegrationsDataIntegra
 
 The id of the existing AppintegrationsDataIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1095,7 +1095,7 @@ public string KmsKey { get; set; }
 
 The KMS key of the data integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#kms_key AppintegrationsDataIntegration#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#kms_key AppintegrationsDataIntegration#kms_key}
 
 ---
 
@@ -1109,7 +1109,7 @@ public string Name { get; set; }
 
 The name of the data integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#name AppintegrationsDataIntegration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#name AppintegrationsDataIntegration#name}
 
 ---
 
@@ -1123,7 +1123,7 @@ public string SourceUri { get; set; }
 
 The URI of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#source_uri AppintegrationsDataIntegration#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#source_uri AppintegrationsDataIntegration#source_uri}
 
 ---
 
@@ -1137,7 +1137,7 @@ public string Description { get; set; }
 
 The data integration description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#description AppintegrationsDataIntegration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#description AppintegrationsDataIntegration#description}
 
 ---
 
@@ -1151,7 +1151,7 @@ public AppintegrationsDataIntegrationFileConfiguration FileConfiguration { get; 
 
 The configuration for what files should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#file_configuration AppintegrationsDataIntegration#file_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#file_configuration AppintegrationsDataIntegration#file_configuration}
 
 ---
 
@@ -1165,7 +1165,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, IResolvable|Sy
 
 The configuration for what data should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#object_configuration AppintegrationsDataIntegration#object_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#object_configuration AppintegrationsDataIntegration#object_configuration}
 
 ---
 
@@ -1179,7 +1179,7 @@ public AppintegrationsDataIntegrationScheduleConfig ScheduleConfig { get; set; }
 
 The name of the data and how often it should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#schedule_config AppintegrationsDataIntegration#schedule_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#schedule_config AppintegrationsDataIntegration#schedule_config}
 
 ---
 
@@ -1193,7 +1193,7 @@ public IResolvable|AppintegrationsDataIntegrationTags[] Tags { get; set; }
 
 The tags (keys and values) associated with the data integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#tags AppintegrationsDataIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#tags AppintegrationsDataIntegration#tags}
 
 ---
 
@@ -1229,7 +1229,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, string[]> Filt
 
 Restrictions for what files should be pulled from the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#filters AppintegrationsDataIntegration#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#filters AppintegrationsDataIntegration#filters}
 
 ---
 
@@ -1243,7 +1243,7 @@ public string[] Folders { get; set; }
 
 Identifiers for the source folders to pull all files from recursively.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#folders AppintegrationsDataIntegration#folders}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#folders AppintegrationsDataIntegration#folders}
 
 ---
 
@@ -1281,7 +1281,7 @@ public string FirstExecutionFrom { get; set; }
 
 The start date for objects to import in the first flow run. Epoch or ISO timestamp format is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#first_execution_from AppintegrationsDataIntegration#first_execution_from}
 
 ---
 
@@ -1295,7 +1295,7 @@ public string Object { get; set; }
 
 The name of the object to pull from the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#object AppintegrationsDataIntegration#object}
 
 ---
 
@@ -1309,7 +1309,7 @@ public string ScheduleExpression { get; set; }
 
 How often the data should be pulled from data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#schedule_expression AppintegrationsDataIntegration#schedule_expression}
 
 ---
 
@@ -1345,7 +1345,7 @@ public string Key { get; set; }
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
 
 ---
 
@@ -1359,7 +1359,7 @@ public string Value { get; set; }
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### CloudwatchMetricStream <a name="CloudwatchMetricStream" id="@cdktn/provider-awscc.cloudwatchMetricStream.CloudwatchMetricStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream awscc_cloudwatch_metric_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream awscc_cloudwatch_metric_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchMetricStream.CloudwatchMetricStream.Initializer"></a>
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the CloudwatchMetricStream to 
 
 The id of the existing CloudwatchMetricStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1184,7 +1184,7 @@ Define which metrics will be not streamed.
 
 Metrics matched by multiple instances of MetricStreamFilter are joined with an OR operation by default. If both IncludeFilters and ExcludeFilters are omitted, all metrics in the account will be streamed. IncludeFilters and ExcludeFilters are mutually exclusive. Default to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#exclude_filters CloudwatchMetricStream#exclude_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#exclude_filters CloudwatchMetricStream#exclude_filters}
 
 ---
 
@@ -1198,7 +1198,7 @@ FirehoseArn *string
 
 The ARN of the Kinesis Firehose where to stream the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#firehose_arn CloudwatchMetricStream#firehose_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#firehose_arn CloudwatchMetricStream#firehose_arn}
 
 ---
 
@@ -1214,7 +1214,7 @@ Define which metrics will be streamed.
 
 Metrics matched by multiple instances of MetricStreamFilter are joined with an OR operation by default. If both IncludeFilters and ExcludeFilters are omitted, all metrics in the account will be streamed. IncludeFilters and ExcludeFilters are mutually exclusive. Default to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#include_filters CloudwatchMetricStream#include_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#include_filters CloudwatchMetricStream#include_filters}
 
 ---
 
@@ -1230,7 +1230,7 @@ If you are creating a metric stream in a monitoring account, specify true to inc
 
 The default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#include_linked_accounts_metrics CloudwatchMetricStream#include_linked_accounts_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#include_linked_accounts_metrics CloudwatchMetricStream#include_linked_accounts_metrics}
 
 ---
 
@@ -1244,7 +1244,7 @@ Name *string
 
 Name of the metric stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#name CloudwatchMetricStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#name CloudwatchMetricStream#name}
 
 ---
 
@@ -1258,7 +1258,7 @@ OutputFormat *string
 
 The output format of the data streamed to the Kinesis Firehose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#output_format CloudwatchMetricStream#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#output_format CloudwatchMetricStream#output_format}
 
 ---
 
@@ -1272,7 +1272,7 @@ RoleArn *string
 
 The ARN of the role that provides access to the Kinesis Firehose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#role_arn CloudwatchMetricStream#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#role_arn CloudwatchMetricStream#role_arn}
 
 ---
 
@@ -1288,7 +1288,7 @@ By default, a metric stream always sends the MAX, MIN, SUM, and SAMPLECOUNT stat
 
 You can use this parameter to have the metric stream also send additional statistics in the stream. This array can have up to 100 members.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#statistics_configurations CloudwatchMetricStream#statistics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#statistics_configurations CloudwatchMetricStream#statistics_configurations}
 
 ---
 
@@ -1302,7 +1302,7 @@ Tags interface{}
 
 A set of tags to assign to the delivery stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#tags CloudwatchMetricStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#tags CloudwatchMetricStream#tags}
 
 ---
 
@@ -1338,7 +1338,7 @@ MetricNames *[]*string
 
 Only metrics with MetricNames matching these values will be streamed. Must be set together with Namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
 
 ---
 
@@ -1352,7 +1352,7 @@ Namespace *string
 
 Only metrics with Namespace matching this value will be streamed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
 
 ---
 
@@ -1388,7 +1388,7 @@ MetricNames *[]*string
 
 Only metrics with MetricNames matching these values will be streamed. Must be set together with Namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#metric_names CloudwatchMetricStream#metric_names}
 
 ---
 
@@ -1402,7 +1402,7 @@ Namespace *string
 
 Only metrics with Namespace matching this value will be streamed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
 
 ---
 
@@ -1438,7 +1438,7 @@ AdditionalStatistics *[]*string
 
 The additional statistics to stream for the metrics listed in IncludeMetrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#additional_statistics CloudwatchMetricStream#additional_statistics}
 
 ---
 
@@ -1452,7 +1452,7 @@ IncludeMetrics interface{}
 
 An array that defines the metrics that are to have additional statistics streamed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#include_metrics CloudwatchMetricStream#include_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#include_metrics CloudwatchMetricStream#include_metrics}
 
 ---
 
@@ -1488,7 +1488,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#metric_name CloudwatchMetricStream#metric_name}
 
 ---
 
@@ -1502,7 +1502,7 @@ Namespace *string
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#namespace CloudwatchMetricStream#namespace}
 
 ---
 
@@ -1538,7 +1538,7 @@ Key *string
 
 A unique identifier for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#key CloudwatchMetricStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#key CloudwatchMetricStream#key}
 
 ---
 
@@ -1552,7 +1552,7 @@ Value *string
 
 String which you can use to describe or define the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudwatch_metric_stream#value CloudwatchMetricStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_metric_stream#value CloudwatchMetricStream#value}
 
 ---
 

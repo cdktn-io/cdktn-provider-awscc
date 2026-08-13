@@ -4,7 +4,7 @@
 
 ### DataAwsccBillingconductorPricingPlans <a name="DataAwsccBillingconductorPricingPlans" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlans.DataAwsccBillingconductorPricingPlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/billingconductor_pricing_plans awscc_billingconductor_pricing_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/billingconductor_pricing_plans awscc_billingconductor_pricing_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBillingconductorPricingPlans.DataAwsccBillingconductorPricingPlans.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBillingconductorP
 
 The id of the existing DataAwsccBillingconductorPricingPlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/billingconductor_pricing_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/billingconductor_pricing_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 

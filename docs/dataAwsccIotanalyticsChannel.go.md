@@ -4,7 +4,7 @@
 
 ### DataAwsccIotanalyticsChannel <a name="DataAwsccIotanalyticsChannel" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsChannel.DataAwsccIotanalyticsChannel.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsChann
 
 The id of the existing DataAwsccIotanalyticsChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotanalytics_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotanalytics_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -777,7 +777,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotanalytics_channel#id DataAwsccIotanalyticsChannel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotanalytics_channel#id DataAwsccIotanalyticsChannel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

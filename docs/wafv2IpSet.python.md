@@ -4,7 +4,7 @@
 
 ### Wafv2IpSet <a name="Wafv2IpSet" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set awscc_wafv2_ip_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer"></a>
 
@@ -46,7 +46,7 @@ wafv2IpSet.Wafv2IpSet(
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer.parameter.scope">scope</a></code> | <code>str</code> | Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway. |
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer.parameter.description">description</a></code> | <code>str</code> | Description of the entity. |
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer.parameter.name">name</a></code> | <code>str</code> | Name of the IPSet. |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags">Wafv2IpSetTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSet.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags">Wafv2IpSetTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}. |
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 List of IPAddresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Type of addresses in the IPSet, use IPV4 for IPV4 IP addresses, IPV6 for IPV6 address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the IPSet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags">Wafv2IpSetTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}.
 
 ---
 
@@ -697,7 +697,7 @@ The construct id used in the generated config for the Wafv2IpSet to import.
 
 The id of the existing Wafv2IpSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1097,7 +1097,7 @@ wafv2IpSet.Wafv2IpSetConfig(
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.scope">scope</a></code> | <code>str</code> | Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway. |
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.description">description</a></code> | <code>str</code> | Description of the entity. |
 | <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.name">name</a></code> | <code>str</code> | Name of the IPSet. |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags">Wafv2IpSetTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags">Wafv2IpSetTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}. |
 
 ---
 
@@ -1181,7 +1181,7 @@ addresses: typing.List[str]
 
 List of IPAddresses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#addresses Wafv2IpSet#addresses}
 
 ---
 
@@ -1195,7 +1195,7 @@ ip_address_version: str
 
 Type of addresses in the IPSet, use IPV4 for IPV4 IP addresses, IPV6 for IPV6 address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#ip_address_version Wafv2IpSet#ip_address_version}
 
 ---
 
@@ -1209,7 +1209,7 @@ scope: str
 
 Use CLOUDFRONT for CloudFront IPSet, use REGIONAL for Application Load Balancer and API Gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#scope Wafv2IpSet#scope}
 
 ---
 
@@ -1223,7 +1223,7 @@ description: str
 
 Description of the entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#description Wafv2IpSet#description}
 
 ---
 
@@ -1237,7 +1237,7 @@ name: str
 
 Name of the IPSet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#name Wafv2IpSet#name}
 
 ---
 
@@ -1249,7 +1249,7 @@ tags: IResolvable | typing.List[Wafv2IpSetTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags">Wafv2IpSetTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#tags Wafv2IpSet#tags}.
 
 ---
 
@@ -1270,8 +1270,8 @@ wafv2IpSet.Wafv2IpSetTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.wafv2IpSet.Wafv2IpSetTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}. |
 
 ---
 
@@ -1283,7 +1283,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#key Wafv2IpSet#key}.
 
 ---
 
@@ -1295,7 +1295,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wafv2_ip_set#value Wafv2IpSet#value}.
 
 ---
 

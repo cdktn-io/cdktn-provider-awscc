@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,35 @@ export interface ScnNamespaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#description ScnNamespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#description ScnNamespace#description}
   */
   readonly description?: string;
   /**
   * The Amazon Web Services Supply Chain instance identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#instance_id ScnNamespace#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#instance_id ScnNamespace#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name of the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#name ScnNamespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#name ScnNamespace#name}
   */
   readonly name: string;
   /**
   * The tags for the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#tags ScnNamespace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#tags ScnNamespace#tags}
   */
   readonly tags?: ScnNamespaceTags[] | cdktn.IResolvable;
 }
 export interface ScnNamespaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#key ScnNamespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#key ScnNamespace#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#value ScnNamespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#value ScnNamespace#value}
   */
   readonly value?: string;
 }
@@ -188,7 +188,7 @@ export class ScnNamespaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace awscc_scn_namespace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace awscc_scn_namespace}
 */
 export class ScnNamespace extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class ScnNamespace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ScnNamespace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScnNamespace to import
-  * @param importFromId The id of the existing ScnNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScnNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScnNamespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class ScnNamespace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/scn_namespace awscc_scn_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_namespace awscc_scn_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class ScnNamespace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_scn_namespace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

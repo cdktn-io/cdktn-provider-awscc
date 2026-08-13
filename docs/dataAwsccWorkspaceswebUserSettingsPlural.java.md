@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspaceswebUserSettingsPlural <a name="DataAwsccWorkspaceswebUserSettingsPlural" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebUserSettingsPlural.DataAwsccWorkspaceswebUserSettingsPlural.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebUser
 
 The id of the existing DataAwsccWorkspaceswebUserSettingsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_user_settings_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_user_settings_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

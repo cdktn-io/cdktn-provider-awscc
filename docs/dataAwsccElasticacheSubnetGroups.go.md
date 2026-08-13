@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticacheSubnetGroups <a name="DataAwsccElasticacheSubnetGroups" id="@cdktn/provider-awscc.dataAwsccElasticacheSubnetGroups.DataAwsccElasticacheSubnetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticache_subnet_groups awscc_elasticache_subnet_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticache_subnet_groups awscc_elasticache_subnet_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheSubnetGroups.DataAwsccElasticacheSubnetGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheSubnet
 
 The id of the existing DataAwsccElasticacheSubnetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticache_subnet_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticache_subnet_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

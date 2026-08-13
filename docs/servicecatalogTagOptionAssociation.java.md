@@ -4,7 +4,7 @@
 
 ### ServicecatalogTagOptionAssociation <a name="ServicecatalogTagOptionAssociation" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogTagOptionAssociation.ServicecatalogTagOptionAssociation.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The CloudformationProduct or Portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The TagOption identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
 
 ---
 
@@ -579,7 +579,7 @@ The construct id used in the generated config for the ServicecatalogTagOptionAss
 
 The id of the existing ServicecatalogTagOptionAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_tag_option_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ public java.lang.String getResourceId();
 
 The CloudformationProduct or Portfolio identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
 
 ---
 
@@ -959,7 +959,7 @@ public java.lang.String getTagOptionId();
 
 The TagOption identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### LambdaUrl <a name="LambdaUrl" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url awscc_lambda_url}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url awscc_lambda_url}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer"></a>
 
@@ -40,7 +40,7 @@ LambdaUrl.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.authType">authType</a></code> | <code>java.lang.String</code> | Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.targetFunctionArn">targetFunctionArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the function associated with the Function URL. |
-| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.cors">cors</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#cors LambdaUrl#cors}. |
+| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.cors">cors</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#cors LambdaUrl#cors}. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.invokeMode">invokeMode</a></code> | <code>java.lang.String</code> | The invocation mode for the function's URL. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrl.Initializer.parameter.qualifier">qualifier</a></code> | <code>java.lang.String</code> | The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed. |
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the function associated with the Function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#cors LambdaUrl#cors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#cors LambdaUrl#cors}.
 
 ---
 
@@ -142,7 +142,7 @@ The invocation mode for the function's URL.
 
 Set to BUFFERED if you want to buffer responses before returning them to the client. Set to RESPONSE_STREAM if you want to stream responses, allowing faster time to first byte and larger response payload sizes. If not set, defaults to BUFFERED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
 
 ---
 
@@ -635,7 +635,7 @@ The construct id used in the generated config for the LambdaUrl to import.
 
 The id of the existing LambdaUrl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,7 +1009,7 @@ LambdaUrlConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.authType">authType</a></code> | <code>java.lang.String</code> | Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.targetFunctionArn">targetFunctionArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the function associated with the Function URL. |
-| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.cors">cors</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#cors LambdaUrl#cors}. |
+| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.cors">cors</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#cors LambdaUrl#cors}. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.invokeMode">invokeMode</a></code> | <code>java.lang.String</code> | The invocation mode for the function's URL. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlConfig.property.qualifier">qualifier</a></code> | <code>java.lang.String</code> | The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed. |
 
@@ -1095,7 +1095,7 @@ public java.lang.String getAuthType();
 
 Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
 
 ---
 
@@ -1109,7 +1109,7 @@ public java.lang.String getTargetFunctionArn();
 
 The Amazon Resource Name (ARN) of the function associated with the Function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
 
 ---
 
@@ -1121,7 +1121,7 @@ public LambdaUrlCors getCors();
 
 - *Type:* <a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors">LambdaUrlCors</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#cors LambdaUrl#cors}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#cors LambdaUrl#cors}.
 
 ---
 
@@ -1137,7 +1137,7 @@ The invocation mode for the function's URL.
 
 Set to BUFFERED if you want to buffer responses before returning them to the client. Set to RESPONSE_STREAM if you want to stream responses, allowing faster time to first byte and larger response payload sizes. If not set, defaults to BUFFERED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
 
 ---
 
@@ -1151,7 +1151,7 @@ public java.lang.String getQualifier();
 
 The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
 
 ---
 
@@ -1181,7 +1181,7 @@ LambdaUrlCors.builder()
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.allowMethods">allowMethods</a></code> | <code>java.util.List<java.lang.String></code> | Represents a collection of allowed HTTP methods. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.allowOrigins">allowOrigins</a></code> | <code>java.util.List<java.lang.String></code> | Represents a collection of allowed origins. |
 | <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.exposeHeaders">exposeHeaders</a></code> | <code>java.util.List<java.lang.String></code> | Represents a collection of exposed headers. |
-| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.maxAge">maxAge</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}. |
+| <code><a href="#@cdktn/provider-awscc.lambdaUrl.LambdaUrlCors.property.maxAge">maxAge</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}. |
 
 ---
 
@@ -1195,7 +1195,7 @@ public java.lang.Boolean|IResolvable getAllowCredentials();
 
 Specifies whether credentials are included in the CORS request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#allow_credentials LambdaUrl#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#allow_credentials LambdaUrl#allow_credentials}
 
 ---
 
@@ -1209,7 +1209,7 @@ public java.util.List<java.lang.String> getAllowHeaders();
 
 Represents a collection of allowed headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#allow_headers LambdaUrl#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#allow_headers LambdaUrl#allow_headers}
 
 ---
 
@@ -1223,7 +1223,7 @@ public java.util.List<java.lang.String> getAllowMethods();
 
 Represents a collection of allowed HTTP methods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#allow_methods LambdaUrl#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#allow_methods LambdaUrl#allow_methods}
 
 ---
 
@@ -1237,7 +1237,7 @@ public java.util.List<java.lang.String> getAllowOrigins();
 
 Represents a collection of allowed origins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#allow_origins LambdaUrl#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#allow_origins LambdaUrl#allow_origins}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.util.List<java.lang.String> getExposeHeaders();
 
 Represents a collection of exposed headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#expose_headers LambdaUrl#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#expose_headers LambdaUrl#expose_headers}
 
 ---
 
@@ -1263,7 +1263,7 @@ public java.lang.Number getMaxAge();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}.
 
 ---
 

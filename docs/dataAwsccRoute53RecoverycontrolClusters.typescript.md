@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53RecoverycontrolClusters <a name="DataAwsccRoute53RecoverycontrolClusters" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolClusters.DataAwsccRoute53RecoverycontrolClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolClusters.DataAwsccRoute53RecoverycontrolClusters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryco
 
 The id of the existing DataAwsccRoute53RecoverycontrolClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoverycontrol_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoverycontrol_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

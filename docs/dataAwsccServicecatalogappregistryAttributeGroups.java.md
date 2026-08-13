@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogappregistryAttributeGroups <a name="DataAwsccServicecatalogappregistryAttributeGroups" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryAttributeGroups.DataAwsccServicecatalogappregistryAttributeGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_attribute_groups awscc_servicecatalogappregistry_attribute_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_attribute_groups awscc_servicecatalogappregistry_attribute_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogappregistryAttributeGroups.DataAwsccServicecatalogappregistryAttributeGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogapp
 
 The id of the existing DataAwsccServicecatalogappregistryAttributeGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_attribute_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_attribute_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

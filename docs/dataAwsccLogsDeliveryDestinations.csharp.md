@@ -4,7 +4,7 @@
 
 ### DataAwsccLogsDeliveryDestinations <a name="DataAwsccLogsDeliveryDestinations" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_delivery_destinations awscc_logs_delivery_destinations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_delivery_destinations awscc_logs_delivery_destinations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsDeliveryDestinations.DataAwsccLogsDeliveryDestinations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsDeliveryDesti
 
 The id of the existing DataAwsccLogsDeliveryDestinations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_delivery_destinations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_delivery_destinations#import import section} in the documentation of this resource for the id to use
 
 ---
 

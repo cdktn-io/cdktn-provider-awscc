@@ -4,7 +4,7 @@
 
 ### S3VectorsIndex <a name="S3VectorsIndex" id="@cdktn/provider-awscc.s3VectorsIndex.S3VectorsIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index awscc_s3vectors_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index awscc_s3vectors_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsIndex.S3VectorsIndex.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The data type of the vectors to be inserted into the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The dimensions of the vectors to be inserted into the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The distance metric to be used for similarity search.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The encryption configuration for the index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the vector index to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The metadata configuration for the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User tags (key-value pairs) to associate with the index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the vector bucket that contains the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
 
 ---
 
@@ -730,7 +730,7 @@ The construct id used in the generated config for the S3VectorsIndex to import.
 
 The id of the existing S3VectorsIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1286,7 +1286,7 @@ public java.lang.String getDataType();
 
 The data type of the vectors to be inserted into the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
 
 ---
 
@@ -1300,7 +1300,7 @@ public java.lang.Number getDimension();
 
 The dimensions of the vectors to be inserted into the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
 
 ---
 
@@ -1314,7 +1314,7 @@ public java.lang.String getDistanceMetric();
 
 The distance metric to be used for similarity search.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
 
 ---
 
@@ -1328,7 +1328,7 @@ public S3VectorsIndexEncryptionConfiguration getEncryptionConfiguration();
 
 The encryption configuration for the index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
 
 ---
 
@@ -1342,7 +1342,7 @@ public java.lang.String getIndexName();
 
 The name of the vector index to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
 
 ---
 
@@ -1356,7 +1356,7 @@ public S3VectorsIndexMetadataConfiguration getMetadataConfiguration();
 
 The metadata configuration for the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
 
 ---
 
@@ -1370,7 +1370,7 @@ public IResolvable|java.util.List<S3VectorsIndexTags> getTags();
 
 User tags (key-value pairs) to associate with the index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
 
 ---
 
@@ -1384,7 +1384,7 @@ public java.lang.String getVectorBucketArn();
 
 The Amazon Resource Name (ARN) of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
 
 ---
 
@@ -1398,7 +1398,7 @@ public java.lang.String getVectorBucketName();
 
 The name of the vector bucket that contains the vector index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
 
 ---
 
@@ -1436,7 +1436,7 @@ AWS Key Management Service (KMS) customer managed key ID to use for the encrypti
 
 This parameter is allowed if and only if sseType is set to aws:kms
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#kms_key_arn S3VectorsIndex#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#kms_key_arn S3VectorsIndex#kms_key_arn}
 
 ---
 
@@ -1450,7 +1450,7 @@ public java.lang.String getSseType();
 
 Defines the server-side encryption type for index encryption configuration. Defaults to the parent vector bucket's encryption settings when unspecified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#sse_type S3VectorsIndex#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#sse_type S3VectorsIndex#sse_type}
 
 ---
 
@@ -1486,7 +1486,7 @@ Non-filterable metadata keys allow you to enrich vectors with additional context
 
 Unlike default metadata keys, these keys cannot be used as query filters. Non-filterable metadata keys can be retrieved but cannot be searched, queried, or filtered. You can access non-filterable metadata keys of your vectors after finding the vectors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}
 
 ---
 

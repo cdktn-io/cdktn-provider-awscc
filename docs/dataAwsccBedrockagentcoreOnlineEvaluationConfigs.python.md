@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreOnlineEvaluationConfigs <a name="DataAwsccBedrockagentcoreOnlineEvaluationConfigs" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOnlineEvaluationConfigs.DataAwsccBedrockagentcoreOnlineEvaluationConfigs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreO
 
 The id of the existing DataAwsccBedrockagentcoreOnlineEvaluationConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_online_evaluation_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_online_evaluation_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

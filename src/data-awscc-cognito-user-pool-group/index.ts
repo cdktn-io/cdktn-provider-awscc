@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCognitoUserPoolGroupConfig extends cdktn.TerraformMeta
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_group#id DataAwsccCognitoUserPoolGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_group#id DataAwsccCognitoUserPoolGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ export interface DataAwsccCognitoUserPoolGroupConfig extends cdktn.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_group awscc_cognito_user_pool_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_group awscc_cognito_user_pool_group}
 */
 export class DataAwsccCognitoUserPoolGroup extends cdktn.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataAwsccCognitoUserPoolGroup extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccCognitoUserPoolGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCognitoUserPoolGroup to import
-  * @param importFromId The id of the existing DataAwsccCognitoUserPoolGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCognitoUserPoolGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCognitoUserPoolGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataAwsccCognitoUserPoolGroup extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_group awscc_cognito_user_pool_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_group awscc_cognito_user_pool_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +63,7 @@ export class DataAwsccCognitoUserPoolGroup extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_cognito_user_pool_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

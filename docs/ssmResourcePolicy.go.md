@@ -4,7 +4,7 @@
 
 ### SsmResourcePolicy <a name="SsmResourcePolicy" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmResourcePolicy.SsmResourcePolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SsmResourcePolicy to impor
 
 The id of the existing SsmResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -877,7 +877,7 @@ Policy *string
 
 Actual policy statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_resource_policy#policy SsmResourcePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy#policy SsmResourcePolicy#policy}
 
 ---
 
@@ -891,7 +891,7 @@ ResourceArn *string
 
 Arn of OpsItemGroup etc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssm_resource_policy#resource_arn SsmResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy#resource_arn SsmResourcePolicy#resource_arn}
 
 ---
 

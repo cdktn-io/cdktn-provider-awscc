@@ -4,7 +4,7 @@
 
 ### DataAwsccGameliftScripts <a name="DataAwsccGameliftScripts" id="@cdktn/provider-awscc.dataAwsccGameliftScripts.DataAwsccGameliftScripts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_scripts awscc_gamelift_scripts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_scripts awscc_gamelift_scripts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftScripts.DataAwsccGameliftScripts.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccGameliftScripts t
 
 The id of the existing DataAwsccGameliftScripts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_scripts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_scripts#import import section} in the documentation of this resource for the id to use
 
 ---
 

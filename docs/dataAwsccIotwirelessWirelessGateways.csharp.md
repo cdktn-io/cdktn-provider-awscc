@@ -4,7 +4,7 @@
 
 ### DataAwsccIotwirelessWirelessGateways <a name="DataAwsccIotwirelessWirelessGateways" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateways.DataAwsccIotwirelessWirelessGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessWirelessGateways.DataAwsccIotwirelessWirelessGateways.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessWirele
 
 The id of the existing DataAwsccIotwirelessWirelessGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotwireless_wireless_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotwireless_wireless_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

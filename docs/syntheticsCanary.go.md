@@ -4,7 +4,7 @@
 
 ### SyntheticsCanary <a name="SyntheticsCanary" id="@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary awscc_synthetics_canary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary awscc_synthetics_canary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanary.Initializer"></a>
 
@@ -704,7 +704,7 @@ The construct id used in the generated config for the SyntheticsCanary to import
 
 The id of the existing SyntheticsCanary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1402,7 +1402,7 @@ S3Encryption SyntheticsCanaryArtifactConfigS3Encryption
 
 Encryption configuration for uploading artifacts to S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_encryption SyntheticsCanary#s3_encryption}
 
 ---
 
@@ -1438,7 +1438,7 @@ EncryptionMode *string
 
 Encryption mode for encrypting artifacts when uploading to S3. Valid values: SSE_S3 and SSE_KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#encryption_mode SyntheticsCanary#encryption_mode}
 
 ---
 
@@ -1454,7 +1454,7 @@ KMS key Arn for encrypting artifacts when uploading to S3.
 
 You must specify KMS key Arn for SSE_KMS encryption mode only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#kms_key_arn SyntheticsCanary#kms_key_arn}
 
 ---
 
@@ -1474,7 +1474,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryBrowserConfigs.property.browserType">BrowserType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryBrowserConfigs.property.browserType">BrowserType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}. |
 
 ---
 
@@ -1486,7 +1486,7 @@ BrowserType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
 
 ---
 
@@ -1512,13 +1512,13 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.blueprintTypes">BlueprintTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#blueprint_types SyntheticsCanary#blueprint_types}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.blueprintTypes">BlueprintTypes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#blueprint_types SyntheticsCanary#blueprint_types}. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.dependencies">Dependencies</a></code> | <code>interface{}</code> | List of Lambda layers to attach to the canary. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.handler">Handler</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.s3Bucket">S3Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.s3Key">S3Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.s3ObjectVersion">S3ObjectVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_object_version SyntheticsCanary#s3_object_version}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.script">Script</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#script SyntheticsCanary#script}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.handler">Handler</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.s3Bucket">S3Bucket</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.s3Key">S3Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.s3ObjectVersion">S3ObjectVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_object_version SyntheticsCanary#s3_object_version}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryCode.property.script">Script</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#script SyntheticsCanary#script}. |
 
 ---
 
@@ -1530,7 +1530,7 @@ BlueprintTypes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#blueprint_types SyntheticsCanary#blueprint_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#blueprint_types SyntheticsCanary#blueprint_types}.
 
 ---
 
@@ -1544,7 +1544,7 @@ Dependencies interface{}
 
 List of Lambda layers to attach to the canary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#dependencies SyntheticsCanary#dependencies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#dependencies SyntheticsCanary#dependencies}
 
 ---
 
@@ -1556,7 +1556,7 @@ Handler *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}.
 
 ---
 
@@ -1568,7 +1568,7 @@ S3Bucket *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}.
 
 ---
 
@@ -1580,7 +1580,7 @@ S3Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}.
 
 ---
 
@@ -1592,7 +1592,7 @@ S3ObjectVersion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#s3_object_version SyntheticsCanary#s3_object_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#s3_object_version SyntheticsCanary#s3_object_version}.
 
 ---
 
@@ -1604,7 +1604,7 @@ Script *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#script SyntheticsCanary#script}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#script SyntheticsCanary#script}.
 
 ---
 
@@ -1640,7 +1640,7 @@ Reference *string
 
 ARN of the Lambda layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#reference SyntheticsCanary#reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#reference SyntheticsCanary#reference}
 
 ---
 
@@ -1654,7 +1654,7 @@ Type *string
 
 Type of dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#type SyntheticsCanary#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#type SyntheticsCanary#type}
 
 ---
 
@@ -1723,7 +1723,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.runConfig">RunConfig</a></code> | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryRunConfig">SyntheticsCanaryRunConfig</a></code> | Provide canary run configuration. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.startCanaryAfterCreation">StartCanaryAfterCreation</a></code> | <code>interface{}</code> | Runs canary if set to True. Default is False. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.successRetentionPeriod">SuccessRetentionPeriod</a></code> | <code>*f64</code> | Retention period of successful canary runs represented in number of days. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.visualReference">VisualReference</a></code> | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReference">SyntheticsCanaryVisualReference</a></code> | Visual reference configuration for visual testing. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.visualReferences">VisualReferences</a></code> | <code>interface{}</code> | List of visual references for the canary. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryConfig.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig">SyntheticsCanaryVpcConfig</a></code> | Provide VPC Configuration if enabled. |
@@ -1810,7 +1810,7 @@ ArtifactS3Location *string
 
 Provide the s3 bucket output location for test results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}
 
 ---
 
@@ -1824,7 +1824,7 @@ Code SyntheticsCanaryCode
 
 Provide the canary script source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#code SyntheticsCanary#code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#code SyntheticsCanary#code}
 
 ---
 
@@ -1838,7 +1838,7 @@ ExecutionRoleArn *string
 
 Lambda Execution role used to run your canaries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}
 
 ---
 
@@ -1852,7 +1852,7 @@ Name *string
 
 Name of the canary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#name SyntheticsCanary#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#name SyntheticsCanary#name}
 
 ---
 
@@ -1866,7 +1866,7 @@ RuntimeVersion *string
 
 Runtime version of Synthetics Library.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}
 
 ---
 
@@ -1880,7 +1880,7 @@ Schedule SyntheticsCanarySchedule
 
 Frequency to run your canaries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
 
 ---
 
@@ -1894,7 +1894,7 @@ ArtifactConfig SyntheticsCanaryArtifactConfig
 
 Provide artifact configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
 
 ---
 
@@ -1908,7 +1908,7 @@ BrowserConfigs interface{}
 
 List of browser configurations for the canary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_configs SyntheticsCanary#browser_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_configs SyntheticsCanary#browser_configs}
 
 ---
 
@@ -1922,7 +1922,7 @@ DeleteLambdaResourcesOnCanaryDeletion interface{}
 
 Deletes associated lambda resources created by Synthetics if set to True. Default is False.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#delete_lambda_resources_on_canary_deletion SyntheticsCanary#delete_lambda_resources_on_canary_deletion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#delete_lambda_resources_on_canary_deletion SyntheticsCanary#delete_lambda_resources_on_canary_deletion}
 
 ---
 
@@ -1938,7 +1938,7 @@ Setting to control if UpdateCanary will perform a DryRun and validate it is PASS
 
 Default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#dry_run_and_update SyntheticsCanary#dry_run_and_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#dry_run_and_update SyntheticsCanary#dry_run_and_update}
 
 ---
 
@@ -1952,7 +1952,7 @@ FailureRetentionPeriod *f64
 
 Retention period of failed canary runs represented in number of days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}
 
 ---
 
@@ -1966,7 +1966,7 @@ ProvisionedResourceCleanup *string
 
 Setting to control if provisioned resources created by Synthetics are deleted alongside the canary. Default is AUTOMATIC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#provisioned_resource_cleanup SyntheticsCanary#provisioned_resource_cleanup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#provisioned_resource_cleanup SyntheticsCanary#provisioned_resource_cleanup}
 
 ---
 
@@ -1980,7 +1980,7 @@ ResourcesToReplicateTags *[]*string
 
 List of resources which canary tags should be replicated to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#resources_to_replicate_tags SyntheticsCanary#resources_to_replicate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#resources_to_replicate_tags SyntheticsCanary#resources_to_replicate_tags}
 
 ---
 
@@ -1994,7 +1994,7 @@ RunConfig SyntheticsCanaryRunConfig
 
 Provide canary run configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
 
 ---
 
@@ -2008,7 +2008,7 @@ StartCanaryAfterCreation interface{}
 
 Runs canary if set to True. Default is False.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#start_canary_after_creation SyntheticsCanary#start_canary_after_creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#start_canary_after_creation SyntheticsCanary#start_canary_after_creation}
 
 ---
 
@@ -2022,7 +2022,7 @@ SuccessRetentionPeriod *f64
 
 Retention period of successful canary runs represented in number of days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}
 
 ---
 
@@ -2034,7 +2034,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}.
 
 ---
 
@@ -2048,7 +2048,7 @@ VisualReference SyntheticsCanaryVisualReference
 
 Visual reference configuration for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#visual_reference SyntheticsCanary#visual_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#visual_reference SyntheticsCanary#visual_reference}
 
 ---
 
@@ -2062,7 +2062,7 @@ VisualReferences interface{}
 
 List of visual references for the canary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#visual_references SyntheticsCanary#visual_references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#visual_references SyntheticsCanary#visual_references}
 
 ---
 
@@ -2076,7 +2076,7 @@ VpcConfig SyntheticsCanaryVpcConfig
 
 Provide VPC Configuration if enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
 
 ---
 
@@ -2118,7 +2118,7 @@ ActiveTracing interface{}
 
 Enable active tracing if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#active_tracing SyntheticsCanary#active_tracing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#active_tracing SyntheticsCanary#active_tracing}
 
 ---
 
@@ -2132,7 +2132,7 @@ EnvironmentVariables *map[string]*string
 
 Environment variable key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#environment_variables SyntheticsCanary#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#environment_variables SyntheticsCanary#environment_variables}
 
 ---
 
@@ -2146,7 +2146,7 @@ EphemeralStorage *f64
 
 Provide ephemeralStorage available for canary in MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#ephemeral_storage SyntheticsCanary#ephemeral_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#ephemeral_storage SyntheticsCanary#ephemeral_storage}
 
 ---
 
@@ -2160,7 +2160,7 @@ MemoryInMb *f64
 
 Provide maximum memory available for canary in MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#memory_in_mb SyntheticsCanary#memory_in_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#memory_in_mb SyntheticsCanary#memory_in_mb}
 
 ---
 
@@ -2174,7 +2174,7 @@ TimeoutInSeconds *f64
 
 Provide maximum canary timeout per run in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#timeout_in_seconds SyntheticsCanary#timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#timeout_in_seconds SyntheticsCanary#timeout_in_seconds}
 
 ---
 
@@ -2196,8 +2196,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanarySchedule.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanarySchedule.property.durationInSeconds">DurationInSeconds</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanarySchedule.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanarySchedule.property.durationInSeconds">DurationInSeconds</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanarySchedule.property.retryConfig">RetryConfig</a></code> | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryScheduleRetryConfig">SyntheticsCanaryScheduleRetryConfig</a></code> | Provide canary auto retry configuration. |
 
 ---
@@ -2210,7 +2210,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#expression SyntheticsCanary#expression}.
 
 ---
 
@@ -2222,7 +2222,7 @@ DurationInSeconds *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#duration_in_seconds SyntheticsCanary#duration_in_seconds}.
 
 ---
 
@@ -2236,7 +2236,7 @@ RetryConfig SyntheticsCanaryScheduleRetryConfig
 
 Provide canary auto retry configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#retry_config SyntheticsCanary#retry_config}
 
 ---
 
@@ -2270,7 +2270,7 @@ MaxRetries *f64
 
 maximum times the canary will be retried upon the scheduled run failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#max_retries SyntheticsCanary#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#max_retries SyntheticsCanary#max_retries}
 
 ---
 
@@ -2308,7 +2308,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#key SyntheticsCanary#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#key SyntheticsCanary#key}
 
 ---
 
@@ -2324,7 +2324,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#value SyntheticsCanary#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#value SyntheticsCanary#value}
 
 ---
 
@@ -2348,7 +2348,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReference.property.baseCanaryRunId">BaseCanaryRunId</a></code> | <code>*string</code> | Canary run id to be used as base reference for visual testing. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReference.property.baseScreenshots">BaseScreenshots</a></code> | <code>interface{}</code> | List of screenshots used as base reference for visual testing. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReference.property.browserType">BrowserType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReference.property.browserType">BrowserType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}. |
 
 ---
 
@@ -2362,7 +2362,7 @@ BaseCanaryRunId *string
 
 Canary run id to be used as base reference for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
 
 ---
 
@@ -2376,7 +2376,7 @@ BaseScreenshots interface{}
 
 List of screenshots used as base reference for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
 
 ---
 
@@ -2388,7 +2388,7 @@ BrowserType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
 
 ---
 
@@ -2424,7 +2424,7 @@ IgnoreCoordinates *[]*string
 
 List of coordinates of rectangles to be ignored during visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
 
 ---
 
@@ -2438,7 +2438,7 @@ ScreenshotName *string
 
 Name of the screenshot to be used as base reference for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
 
 ---
 
@@ -2462,7 +2462,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReferences.property.baseCanaryRunId">BaseCanaryRunId</a></code> | <code>*string</code> | Canary run id to be used as base reference for visual testing. |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReferences.property.baseScreenshots">BaseScreenshots</a></code> | <code>interface{}</code> | List of screenshots used as base reference for visual testing. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReferences.property.browserType">BrowserType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVisualReferences.property.browserType">BrowserType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}. |
 
 ---
 
@@ -2476,7 +2476,7 @@ BaseCanaryRunId *string
 
 Canary run id to be used as base reference for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#base_canary_run_id SyntheticsCanary#base_canary_run_id}
 
 ---
 
@@ -2490,7 +2490,7 @@ BaseScreenshots interface{}
 
 List of screenshots used as base reference for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#base_screenshots SyntheticsCanary#base_screenshots}
 
 ---
 
@@ -2502,7 +2502,7 @@ BrowserType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
 
 ---
 
@@ -2538,7 +2538,7 @@ IgnoreCoordinates *[]*string
 
 List of coordinates of rectangles to be ignored during visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#ignore_coordinates SyntheticsCanary#ignore_coordinates}
 
 ---
 
@@ -2552,7 +2552,7 @@ ScreenshotName *string
 
 Name of the screenshot to be used as base reference for visual testing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#screenshot_name SyntheticsCanary#screenshot_name}
 
 ---
 
@@ -2576,9 +2576,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.ipv6AllowedForDualStack">Ipv6AllowedForDualStack</a></code> | <code>interface{}</code> | Allow outbound IPv6 traffic on VPC canaries that are connected to dual-stack subnets if set to true. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#vpc_id SyntheticsCanary#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsCanary.SyntheticsCanaryVpcConfig.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#vpc_id SyntheticsCanary#vpc_id}. |
 
 ---
 
@@ -2592,7 +2592,7 @@ Ipv6AllowedForDualStack interface{}
 
 Allow outbound IPv6 traffic on VPC canaries that are connected to dual-stack subnets if set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#ipv_6_allowed_for_dual_stack SyntheticsCanary#ipv_6_allowed_for_dual_stack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#ipv_6_allowed_for_dual_stack SyntheticsCanary#ipv_6_allowed_for_dual_stack}
 
 ---
 
@@ -2604,7 +2604,7 @@ SecurityGroupIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#security_group_ids SyntheticsCanary#security_group_ids}.
 
 ---
 
@@ -2616,7 +2616,7 @@ SubnetIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#subnet_ids SyntheticsCanary#subnet_ids}.
 
 ---
 
@@ -2628,7 +2628,7 @@ VpcId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/synthetics_canary#vpc_id SyntheticsCanary#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_canary#vpc_id SyntheticsCanary#vpc_id}.
 
 ---
 

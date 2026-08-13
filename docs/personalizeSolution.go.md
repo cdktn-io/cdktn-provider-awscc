@@ -4,7 +4,7 @@
 
 ### PersonalizeSolution <a name="PersonalizeSolution" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution awscc_personalize_solution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the PersonalizeSolution to imp
 
 The id of the existing PersonalizeSolution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1034,7 +1034,7 @@ DatasetGroupArn *string
 
 The ARN of the dataset group that provides the training data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#dataset_group_arn PersonalizeSolution#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#dataset_group_arn PersonalizeSolution#dataset_group_arn}
 
 ---
 
@@ -1048,7 +1048,7 @@ Name *string
 
 The name for the solution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1064,7 +1064,7 @@ When your have multiple event types (using an EVENT_TYPE schema field), this par
 
 If you do not provide an eventType, Amazon Personalize will use all interactions for training with equal weight regardless of type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#event_type PersonalizeSolution#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#event_type PersonalizeSolution#event_type}
 
 ---
 
@@ -1078,7 +1078,7 @@ PerformAutoMl interface{}
 
 Whether to perform automated machine learning (AutoML). The default is false. For this case, you must specify recipeArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#perform_auto_ml PersonalizeSolution#perform_auto_ml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#perform_auto_ml PersonalizeSolution#perform_auto_ml}
 
 ---
 
@@ -1094,7 +1094,7 @@ Whether to perform hyperparameter optimization (HPO) on the specified or selecte
 
 The default is false. When performing AutoML, this parameter is always true and you should not set it to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#perform_hpo PersonalizeSolution#perform_hpo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#perform_hpo PersonalizeSolution#perform_hpo}
 
 ---
 
@@ -1108,7 +1108,7 @@ RecipeArn *string
 
 The ARN of the recipe to use for model training. Only specified when performAutoML is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#recipe_arn PersonalizeSolution#recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#recipe_arn PersonalizeSolution#recipe_arn}
 
 ---
 
@@ -1124,7 +1124,7 @@ The configuration to use with the solution.
 
 When performAutoML is set to true, Amazon Personalize only evaluates the autoMLConfig section of the solution configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#solution_config PersonalizeSolution#solution_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#solution_config PersonalizeSolution#solution_config}
 
 ---
 
@@ -1166,7 +1166,7 @@ AlgorithmHyperParameters *map[string]*string
 
 Lists the hyperparameter names and ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#algorithm_hyper_parameters PersonalizeSolution#algorithm_hyper_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#algorithm_hyper_parameters PersonalizeSolution#algorithm_hyper_parameters}
 
 ---
 
@@ -1180,7 +1180,7 @@ AutoMlConfig PersonalizeSolutionSolutionConfigAutoMlConfig
 
 The AutoMLConfig object containing a list of recipes to search when AutoML is performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#auto_ml_config PersonalizeSolution#auto_ml_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#auto_ml_config PersonalizeSolution#auto_ml_config}
 
 ---
 
@@ -1194,7 +1194,7 @@ EventValueThreshold *string
 
 Only events with a value greater than or equal to this threshold are used for training a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#event_value_threshold PersonalizeSolution#event_value_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#event_value_threshold PersonalizeSolution#event_value_threshold}
 
 ---
 
@@ -1208,7 +1208,7 @@ FeatureTransformationParameters *map[string]*string
 
 Lists the feature transformation parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#feature_transformation_parameters PersonalizeSolution#feature_transformation_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#feature_transformation_parameters PersonalizeSolution#feature_transformation_parameters}
 
 ---
 
@@ -1222,7 +1222,7 @@ HpoConfig PersonalizeSolutionSolutionConfigHpoConfig
 
 Describes the properties for hyperparameter optimization (HPO).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#hpo_config PersonalizeSolution#hpo_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_config PersonalizeSolution#hpo_config}
 
 ---
 
@@ -1258,7 +1258,7 @@ MetricName *string
 
 The metric to optimize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
 
 ---
 
@@ -1272,7 +1272,7 @@ RecipeList *[]*string
 
 The list of candidate recipes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#recipe_list PersonalizeSolution#recipe_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#recipe_list PersonalizeSolution#recipe_list}
 
 ---
 
@@ -1310,7 +1310,7 @@ AlgorithmHyperParameterRanges PersonalizeSolutionSolutionConfigHpoConfigAlgorith
 
 The hyperparameters and their allowable ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#algorithm_hyper_parameter_ranges PersonalizeSolution#algorithm_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#algorithm_hyper_parameter_ranges PersonalizeSolution#algorithm_hyper_parameter_ranges}
 
 ---
 
@@ -1324,7 +1324,7 @@ HpoObjective PersonalizeSolutionSolutionConfigHpoConfigHpoObjective
 
 The metric to optimize during HPO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#hpo_objective PersonalizeSolution#hpo_objective}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_objective PersonalizeSolution#hpo_objective}
 
 ---
 
@@ -1338,7 +1338,7 @@ HpoResourceConfig PersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfig
 
 Describes the resource configuration for hyperparameter optimization (HPO).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#hpo_resource_config PersonalizeSolution#hpo_resource_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_resource_config PersonalizeSolution#hpo_resource_config}
 
 ---
 
@@ -1376,7 +1376,7 @@ CategoricalHyperParameterRanges interface{}
 
 The categorical hyperparameters and their ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#categorical_hyper_parameter_ranges PersonalizeSolution#categorical_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#categorical_hyper_parameter_ranges PersonalizeSolution#categorical_hyper_parameter_ranges}
 
 ---
 
@@ -1390,7 +1390,7 @@ ContinuousHyperParameterRanges interface{}
 
 The continuous hyperparameters and their ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#continuous_hyper_parameter_ranges PersonalizeSolution#continuous_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#continuous_hyper_parameter_ranges PersonalizeSolution#continuous_hyper_parameter_ranges}
 
 ---
 
@@ -1404,7 +1404,7 @@ IntegerHyperParameterRanges interface{}
 
 The integer hyperparameters and their ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#integer_hyper_parameter_ranges PersonalizeSolution#integer_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#integer_hyper_parameter_ranges PersonalizeSolution#integer_hyper_parameter_ranges}
 
 ---
 
@@ -1440,7 +1440,7 @@ Name *string
 
 The name of the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1454,7 +1454,7 @@ Values *[]*string
 
 A list of the categories for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#values PersonalizeSolution#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#values PersonalizeSolution#values}
 
 ---
 
@@ -1492,7 +1492,7 @@ MaxValue *f64
 
 The maximum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
 
 ---
 
@@ -1506,7 +1506,7 @@ MinValue *f64
 
 The minimum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
 
 ---
 
@@ -1520,7 +1520,7 @@ Name *string
 
 The name of the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1558,7 +1558,7 @@ MaxValue *f64
 
 The maximum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
 
 ---
 
@@ -1572,7 +1572,7 @@ MinValue *f64
 
 The minimum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
 
 ---
 
@@ -1586,7 +1586,7 @@ Name *string
 
 The name of the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1624,7 +1624,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
 
 ---
 
@@ -1638,7 +1638,7 @@ MetricRegex *string
 
 A regular expression for finding the metric in the training job logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#metric_regex PersonalizeSolution#metric_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_regex PersonalizeSolution#metric_regex}
 
 ---
 
@@ -1652,7 +1652,7 @@ Type *string
 
 The type of the metric. Valid values are Maximize and Minimize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#type PersonalizeSolution#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#type PersonalizeSolution#type}
 
 ---
 
@@ -1688,7 +1688,7 @@ MaxNumberOfTrainingJobs *string
 
 The maximum number of training jobs when you create a solution version. The maximum value for maxNumberOfTrainingJobs is 40.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#max_number_of_training_jobs PersonalizeSolution#max_number_of_training_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_number_of_training_jobs PersonalizeSolution#max_number_of_training_jobs}
 
 ---
 
@@ -1704,7 +1704,7 @@ The maximum number of parallel training jobs when you create a solution version.
 
 The maximum value for maxParallelTrainingJobs is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_solution#max_parallel_training_jobs PersonalizeSolution#max_parallel_training_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_parallel_training_jobs PersonalizeSolution#max_parallel_training_jobs}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ApigatewayUsagePlanKey <a name="ApigatewayUsagePlanKey" id="@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer"></a>
 
@@ -37,7 +37,7 @@ ApigatewayUsagePlanKey.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer.parameter.keyId">keyId</a></code> | <code>java.lang.String</code> | The Id of the UsagePlanKey resource. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer.parameter.keyType">keyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer.parameter.keyType">keyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKey.Initializer.parameter.usagePlanId">usagePlanId</a></code> | <code>java.lang.String</code> | The Id of the UsagePlan resource representing the usage plan containing the UsagePlanKey resource representing a plan customer. |
 
 ---
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The Id of the UsagePlanKey resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Id of the UsagePlan resource representing the usage plan containing the UsagePlanKey resource representing a plan customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
 
 ---
 
@@ -575,7 +575,7 @@ The construct id used in the generated config for the ApigatewayUsagePlanKey to 
 
 The id of the existing ApigatewayUsagePlanKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -891,7 +891,7 @@ ApigatewayUsagePlanKeyConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKeyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKeyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKeyConfig.property.keyId">keyId</a></code> | <code>java.lang.String</code> | The Id of the UsagePlanKey resource. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKeyConfig.property.keyType">keyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKeyConfig.property.keyType">keyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayUsagePlanKey.ApigatewayUsagePlanKeyConfig.property.usagePlanId">usagePlanId</a></code> | <code>java.lang.String</code> | The Id of the UsagePlan resource representing the usage plan containing the UsagePlanKey resource representing a plan customer. |
 
 ---
@@ -976,7 +976,7 @@ public java.lang.String getKeyId();
 
 The Id of the UsagePlanKey resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
 
 ---
 
@@ -988,7 +988,7 @@ public java.lang.String getKeyType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}.
 
 ---
 
@@ -1002,7 +1002,7 @@ public java.lang.String getUsagePlanId();
 
 The Id of the UsagePlan resource representing the usage plan containing the UsagePlanKey resource representing a plan customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
 
 ---
 

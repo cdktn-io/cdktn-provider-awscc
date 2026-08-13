@@ -4,7 +4,7 @@
 
 ### BackupFramework <a name="BackupFramework" id="@cdktn/provider-awscc.backupFramework.BackupFramework"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework awscc_backup_framework}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework awscc_backup_framework}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupFramework.BackupFramework.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Contains detailed information about all of the controls of a framework. Each framework must contain at least one control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of the framework with a maximum 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
 
 ---
 
@@ -134,7 +134,7 @@ The unique name of a framework.
 
 This name is between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
 
 ---
 
@@ -692,7 +692,7 @@ The construct id used in the generated config for the BackupFramework to import.
 
 The id of the existing BackupFramework that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1150,7 +1150,7 @@ framework_controls: IResolvable | typing.List[BackupFrameworkFrameworkControls]
 
 Contains detailed information about all of the controls of a framework. Each framework must contain at least one control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
 
 ---
 
@@ -1164,7 +1164,7 @@ framework_description: str
 
 An optional description of the framework with a maximum 1,024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
 
 ---
 
@@ -1180,7 +1180,7 @@ The unique name of a framework.
 
 This name is between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
 
 ---
 
@@ -1194,7 +1194,7 @@ framework_tags: IResolvable | typing.List[BackupFrameworkFrameworkTags]
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
 
 ---
 
@@ -1232,7 +1232,7 @@ control_name: str
 
 The name of a control. This name is between 1 and 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#control_name BackupFramework#control_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#control_name BackupFramework#control_name}
 
 ---
 
@@ -1246,7 +1246,7 @@ control_input_parameters: IResolvable | typing.List[BackupFrameworkFrameworkCont
 
 A list of ParameterName and ParameterValue pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#control_input_parameters BackupFramework#control_input_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#control_input_parameters BackupFramework#control_input_parameters}
 
 ---
 
@@ -1262,7 +1262,7 @@ The scope of a control.
 
 The control scope defines what the control will evaluate. Three examples of control scopes are: a specific backup plan, all backup plans with a specific tag, or all backup plans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#control_scope BackupFramework#control_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#control_scope BackupFramework#control_scope}
 
 ---
 
@@ -1283,8 +1283,8 @@ backupFramework.BackupFrameworkFrameworkControlsControlInputParameters(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterName">parameter_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}. |
-| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterValue">parameter_value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}. |
+| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterName">parameter_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}. |
+| <code><a href="#@cdktn/provider-awscc.backupFramework.BackupFrameworkFrameworkControlsControlInputParameters.property.parameterValue">parameter_value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}. |
 
 ---
 
@@ -1296,7 +1296,7 @@ parameter_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}.
 
 ---
 
@@ -1308,7 +1308,7 @@ parameter_value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}.
 
 ---
 
@@ -1346,7 +1346,7 @@ compliance_resource_ids: typing.List[str]
 
 The ID of the only AWS resource that you want your control scope to contain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
 
 ---
 
@@ -1360,7 +1360,7 @@ compliance_resource_types: typing.List[str]
 
 Describes whether the control scope includes one or more types of resources, such as `EFS` or `RDS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
 
 ---
 
@@ -1374,7 +1374,7 @@ tags: IResolvable | typing.List[BackupFrameworkFrameworkControlsControlScopeTags
 
 Describes whether the control scope includes resources with one or more tags. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#tags BackupFramework#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#tags BackupFramework#tags}
 
 ---
 
@@ -1412,7 +1412,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#key BackupFramework#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#key BackupFramework#key}
 
 ---
 
@@ -1428,7 +1428,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#value BackupFramework#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#value BackupFramework#value}
 
 ---
 
@@ -1466,7 +1466,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#key BackupFramework#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#key BackupFramework#key}
 
 ---
 
@@ -1482,7 +1482,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#value BackupFramework#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#value BackupFramework#value}
 
 ---
 
@@ -3360,7 +3360,7 @@ def put_control_scope(
 
 The ID of the only AWS resource that you want your control scope to contain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
 
 ---
 
@@ -3370,7 +3370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Describes whether the control scope includes one or more types of resources, such as `EFS` or `RDS`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
 
 ---
 
@@ -3380,7 +3380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Describes whether the control scope includes resources with one or more tags. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/backup_framework#tags BackupFramework#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_framework#tags BackupFramework#tags}
 
 ---
 

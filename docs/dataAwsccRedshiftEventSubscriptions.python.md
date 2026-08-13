@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftEventSubscriptions <a name="DataAwsccRedshiftEventSubscriptions" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscriptions.DataAwsccRedshiftEventSubscriptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_event_subscriptions awscc_redshift_event_subscriptions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_event_subscriptions awscc_redshift_event_subscriptions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftEventSubscriptions.DataAwsccRedshiftEventSubscriptions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRedshiftEventSubs
 
 The id of the existing DataAwsccRedshiftEventSubscriptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_event_subscriptions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_event_subscriptions#import import section} in the documentation of this resource for the id to use
 
 ---
 

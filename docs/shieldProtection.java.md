@@ -4,7 +4,7 @@
 
 ### ShieldProtection <a name="ShieldProtection" id="@cdktn/provider-awscc.shieldProtection.ShieldProtection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection awscc_shield_protection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection awscc_shield_protection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.shieldProtection.ShieldProtection.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Friendly name for the Protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#name ShieldProtection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#name ShieldProtection#name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN (Amazon Resource Name) of the resource to be protected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#resource_arn ShieldProtection#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#resource_arn ShieldProtection#resource_arn}
 
 ---
 
@@ -134,7 +134,7 @@ The automatic application layer DDoS mitigation settings for a Protection.
 
 This configuration determines whether Shield Advanced automatically manages rules in the web ACL in order to respond to application layer events that Shield Advanced determines to be DDoS attacks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#application_layer_automatic_response_configuration ShieldProtection#application_layer_automatic_response_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#application_layer_automatic_response_configuration ShieldProtection#application_layer_automatic_response_configuration}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Names (ARNs) of the health check to associate with the protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#health_check_arns ShieldProtection#health_check_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#health_check_arns ShieldProtection#health_check_arns}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tag key-value pairs for the Protection object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#tags ShieldProtection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#tags ShieldProtection#tags}
 
 ---
 
@@ -650,7 +650,7 @@ The construct id used in the generated config for the ShieldProtection to import
 
 The id of the existing ShieldProtection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1022,7 +1022,7 @@ Specifies the action setting that Shield Advanced should use in the AWS WAF rule
 
 You specify this as part of the configuration for the automatic application layer DDoS mitigation feature, when you enable or update automatic mitigation. Shield Advanced creates the AWS WAF rules in a Shield Advanced-managed rule group, inside the web ACL that you have associated with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#action ShieldProtection#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#action ShieldProtection#action}
 
 ---
 
@@ -1036,7 +1036,7 @@ public java.lang.String getStatus();
 
 Indicates whether automatic application layer DDoS mitigation is enabled for the protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#status ShieldProtection#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#status ShieldProtection#status}
 
 ---
 
@@ -1074,7 +1074,7 @@ Specifies that Shield Advanced should configure its AWS WAF rules with the AWS W
 
 You must specify exactly one action, either `Block` or `Count`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#block ShieldProtection#block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#block ShieldProtection#block}
 
 ---
 
@@ -1090,7 +1090,7 @@ Specifies that Shield Advanced should configure its AWS WAF rules with the AWS W
 
 You must specify exactly one action, either `Block` or `Count`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#count ShieldProtection#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#count ShieldProtection#count}
 
 ---
 
@@ -1216,7 +1216,7 @@ public java.lang.String getName();
 
 Friendly name for the Protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#name ShieldProtection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#name ShieldProtection#name}
 
 ---
 
@@ -1230,7 +1230,7 @@ public java.lang.String getResourceArn();
 
 The ARN (Amazon Resource Name) of the resource to be protected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#resource_arn ShieldProtection#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#resource_arn ShieldProtection#resource_arn}
 
 ---
 
@@ -1246,7 +1246,7 @@ The automatic application layer DDoS mitigation settings for a Protection.
 
 This configuration determines whether Shield Advanced automatically manages rules in the web ACL in order to respond to application layer events that Shield Advanced determines to be DDoS attacks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#application_layer_automatic_response_configuration ShieldProtection#application_layer_automatic_response_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#application_layer_automatic_response_configuration ShieldProtection#application_layer_automatic_response_configuration}
 
 ---
 
@@ -1260,7 +1260,7 @@ public java.util.List<java.lang.String> getHealthCheckArns();
 
 The Amazon Resource Names (ARNs) of the health check to associate with the protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#health_check_arns ShieldProtection#health_check_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#health_check_arns ShieldProtection#health_check_arns}
 
 ---
 
@@ -1274,7 +1274,7 @@ public IResolvable|java.util.List<ShieldProtectionTags> getTags();
 
 One or more tag key-value pairs for the Protection object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#tags ShieldProtection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#tags ShieldProtection#tags}
 
 ---
 
@@ -1312,7 +1312,7 @@ Part of the key:value pair that defines a tag.
 
 You can use a tag key to describe a category of information, such as "customer." Tag keys are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#key ShieldProtection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#key ShieldProtection#key}
 
 ---
 
@@ -1328,7 +1328,7 @@ Part of the key:value pair that defines a tag.
 
 You can use a tag value to describe a specific value within a category, such as "companyA" or "companyB." Tag values are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/shield_protection#value ShieldProtection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_protection#value ShieldProtection#value}
 
 ---
 

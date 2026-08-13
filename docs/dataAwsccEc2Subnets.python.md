@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2Subnets <a name="DataAwsccEc2Subnets" id="@cdktn/provider-awscc.dataAwsccEc2Subnets.DataAwsccEc2Subnets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_subnets awscc_ec2_subnets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnets awscc_ec2_subnets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Subnets.DataAwsccEc2Subnets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2Subnets to imp
 
 The id of the existing DataAwsccEc2Subnets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_subnets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnets#import import section} in the documentation of this resource for the id to use
 
 ---
 

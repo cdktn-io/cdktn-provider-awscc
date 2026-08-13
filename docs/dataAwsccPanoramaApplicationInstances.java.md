@@ -4,7 +4,7 @@
 
 ### DataAwsccPanoramaApplicationInstances <a name="DataAwsccPanoramaApplicationInstances" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPanoramaApplicationInstances.DataAwsccPanoramaApplicationInstances.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccPanoramaApplicati
 
 The id of the existing DataAwsccPanoramaApplicationInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/panorama_application_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/panorama_application_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 

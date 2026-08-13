@@ -4,7 +4,7 @@
 
 ### WisdomMessageTemplate <a name="WisdomMessageTemplate" id="@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template awscc_wisdom_message_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template awscc_wisdom_message_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplate.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the WisdomMessageTemplate to i
 
 The id of the existing WisdomMessageTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1187,7 +1187,7 @@ ChannelSubtype *string
 
 The channel subtype this message template applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#channel_subtype WisdomMessageTemplate#channel_subtype}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#channel_subtype WisdomMessageTemplate#channel_subtype}
 
 ---
 
@@ -1201,7 +1201,7 @@ Content WisdomMessageTemplateContent
 
 The content of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}
 
 ---
 
@@ -1215,7 +1215,7 @@ KnowledgeBaseArn *string
 
 The Amazon Resource Name (ARN) of the knowledge base to which the message template belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#knowledge_base_arn WisdomMessageTemplate#knowledge_base_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#knowledge_base_arn WisdomMessageTemplate#knowledge_base_arn}
 
 ---
 
@@ -1229,7 +1229,7 @@ Name *string
 
 The name of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
 
 ---
 
@@ -1245,7 +1245,7 @@ An object that specifies the default values to use for variables in the message 
 
 This object contains different categories of key-value pairs. Each key defines a variable or placeholder in the message template. The corresponding value defines the default value for that variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#default_attributes WisdomMessageTemplate#default_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#default_attributes WisdomMessageTemplate#default_attributes}
 
 ---
 
@@ -1259,7 +1259,7 @@ Description *string
 
 The description of the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#description WisdomMessageTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#description WisdomMessageTemplate#description}
 
 ---
 
@@ -1273,7 +1273,7 @@ GroupingConfiguration WisdomMessageTemplateGroupingConfiguration
 
 The configuration information of the user groups that the message template is accessible to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#grouping_configuration WisdomMessageTemplate#grouping_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#grouping_configuration WisdomMessageTemplate#grouping_configuration}
 
 ---
 
@@ -1289,7 +1289,7 @@ The language code value for the language in which the message template is writte
 
 The supported language codes include de_DE, en_US, es_ES, fr_FR, id_ID, it_IT, ja_JP, ko_KR, pt_BR, zh_CN, zh_TW
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#language WisdomMessageTemplate#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#language WisdomMessageTemplate#language}
 
 ---
 
@@ -1303,7 +1303,7 @@ MessageTemplateAttachments interface{}
 
 List of message template attachments.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#message_template_attachments WisdomMessageTemplate#message_template_attachments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#message_template_attachments WisdomMessageTemplate#message_template_attachments}
 
 ---
 
@@ -1317,7 +1317,7 @@ Tags interface{}
 
 The tags used to organize, track, or control access for this resource. For example, { "tags": {"key1":"value1", "key2":"value2"} }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#tags WisdomMessageTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#tags WisdomMessageTemplate#tags}
 
 ---
 
@@ -1353,7 +1353,7 @@ EmailMessageTemplateContent WisdomMessageTemplateContentEmailMessageTemplateCont
 
 The content of message template that applies to email channel subtype.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#email_message_template_content WisdomMessageTemplate#email_message_template_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#email_message_template_content WisdomMessageTemplate#email_message_template_content}
 
 ---
 
@@ -1367,7 +1367,7 @@ SmsMessageTemplateContent WisdomMessageTemplateContentSmsMessageTemplateContent
 
 The content of message template that applies to SMS channel subtype.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#sms_message_template_content WisdomMessageTemplate#sms_message_template_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#sms_message_template_content WisdomMessageTemplate#sms_message_template_content}
 
 ---
 
@@ -1405,7 +1405,7 @@ Body WisdomMessageTemplateContentEmailMessageTemplateContentBody
 
 The body to use in email messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
 
 ---
 
@@ -1419,7 +1419,7 @@ Headers interface{}
 
 The email headers to include in email messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#headers WisdomMessageTemplate#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#headers WisdomMessageTemplate#headers}
 
 ---
 
@@ -1433,7 +1433,7 @@ Subject *string
 
 The subject line, or title, to use in email messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#subject WisdomMessageTemplate#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#subject WisdomMessageTemplate#subject}
 
 ---
 
@@ -1471,7 +1471,7 @@ The message body, in HTML format, to use in email messages that are based on the
 
 We recommend using HTML format for email clients that render HTML content. You can include links, formatted text, and more in an HTML message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#html WisdomMessageTemplate#html}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#html WisdomMessageTemplate#html}
 
 ---
 
@@ -1487,7 +1487,7 @@ The message body, in plain text format, to use in email messages that are based 
 
 We recommend using plain text format for email clients that don't render HTML content and clients that are connected to high-latency networks, such as mobile devices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
 
 ---
 
@@ -1507,7 +1507,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplate"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}. |
 
 ---
 
@@ -1519,7 +1519,7 @@ Content *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}.
 
 ---
 
@@ -1539,7 +1539,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplate"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}. |
 
 ---
 
@@ -1551,7 +1551,7 @@ Content *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}.
 
 ---
 
@@ -1587,7 +1587,7 @@ Name *string
 
 The name of the email header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
 
 ---
 
@@ -1601,7 +1601,7 @@ Value *string
 
 The value of the email header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
 
 ---
 
@@ -1635,7 +1635,7 @@ Body WisdomMessageTemplateContentSmsMessageTemplateContentBody
 
 The body to use in SMS messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#body WisdomMessageTemplate#body}
 
 ---
 
@@ -1669,7 +1669,7 @@ PlainText WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText
 
 The container of message template body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
 
 ---
 
@@ -1689,7 +1689,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplate"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainText.property.content">Content</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}. |
 
 ---
 
@@ -1701,7 +1701,7 @@ Content *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#content WisdomMessageTemplate#content}.
 
 ---
 
@@ -1741,7 +1741,7 @@ AgentAttributes WisdomMessageTemplateDefaultAttributesAgentAttributes
 
 The agent attributes that are used with the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#agent_attributes WisdomMessageTemplate#agent_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#agent_attributes WisdomMessageTemplate#agent_attributes}
 
 ---
 
@@ -1755,7 +1755,7 @@ CustomAttributes *map[string]*string
 
 The custom attributes that are used with the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#custom_attributes WisdomMessageTemplate#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#custom_attributes WisdomMessageTemplate#custom_attributes}
 
 ---
 
@@ -1769,7 +1769,7 @@ CustomerProfileAttributes WisdomMessageTemplateDefaultAttributesCustomerProfileA
 
 The customer profile attributes that are used with the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#customer_profile_attributes WisdomMessageTemplate#customer_profile_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#customer_profile_attributes WisdomMessageTemplate#customer_profile_attributes}
 
 ---
 
@@ -1783,7 +1783,7 @@ SystemAttributes WisdomMessageTemplateDefaultAttributesSystemAttributes
 
 The system attributes that are used with the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#system_attributes WisdomMessageTemplate#system_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#system_attributes WisdomMessageTemplate#system_attributes}
 
 ---
 
@@ -1819,7 +1819,7 @@ FirstName *string
 
 The agent?s first name as entered in their Amazon Connect user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
 
 ---
 
@@ -1833,7 +1833,7 @@ LastName *string
 
 The agent?s last name as entered in their Amazon Connect user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
 
 ---
 
@@ -1981,7 +1981,7 @@ AccountNumber *string
 
 A unique account number that you have given to the customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#account_number WisdomMessageTemplate#account_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#account_number WisdomMessageTemplate#account_number}
 
 ---
 
@@ -1995,7 +1995,7 @@ AdditionalInformation *string
 
 Any additional information relevant to the customer's profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#additional_information WisdomMessageTemplate#additional_information}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#additional_information WisdomMessageTemplate#additional_information}
 
 ---
 
@@ -2009,7 +2009,7 @@ Address1 *string
 
 The first line of a customer address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#address_1 WisdomMessageTemplate#address_1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#address_1 WisdomMessageTemplate#address_1}
 
 ---
 
@@ -2023,7 +2023,7 @@ Address2 *string
 
 The second line of a customer address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#address_2 WisdomMessageTemplate#address_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#address_2 WisdomMessageTemplate#address_2}
 
 ---
 
@@ -2037,7 +2037,7 @@ Address3 *string
 
 The third line of a customer address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#address_3 WisdomMessageTemplate#address_3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#address_3 WisdomMessageTemplate#address_3}
 
 ---
 
@@ -2051,7 +2051,7 @@ Address4 *string
 
 The fourth line of a customer address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#address_4 WisdomMessageTemplate#address_4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#address_4 WisdomMessageTemplate#address_4}
 
 ---
 
@@ -2065,7 +2065,7 @@ BillingAddress1 *string
 
 The first line of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_address_1 WisdomMessageTemplate#billing_address_1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_address_1 WisdomMessageTemplate#billing_address_1}
 
 ---
 
@@ -2079,7 +2079,7 @@ BillingAddress2 *string
 
 The second line of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_address_2 WisdomMessageTemplate#billing_address_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_address_2 WisdomMessageTemplate#billing_address_2}
 
 ---
 
@@ -2093,7 +2093,7 @@ BillingAddress3 *string
 
 The third line of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_address_3 WisdomMessageTemplate#billing_address_3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_address_3 WisdomMessageTemplate#billing_address_3}
 
 ---
 
@@ -2107,7 +2107,7 @@ BillingAddress4 *string
 
 The fourth line of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_address_4 WisdomMessageTemplate#billing_address_4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_address_4 WisdomMessageTemplate#billing_address_4}
 
 ---
 
@@ -2121,7 +2121,7 @@ BillingCity *string
 
 The city of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_city WisdomMessageTemplate#billing_city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_city WisdomMessageTemplate#billing_city}
 
 ---
 
@@ -2135,7 +2135,7 @@ BillingCountry *string
 
 The country of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_country WisdomMessageTemplate#billing_country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_country WisdomMessageTemplate#billing_country}
 
 ---
 
@@ -2149,7 +2149,7 @@ BillingCounty *string
 
 The county of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_county WisdomMessageTemplate#billing_county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_county WisdomMessageTemplate#billing_county}
 
 ---
 
@@ -2163,7 +2163,7 @@ BillingPostalCode *string
 
 The postal code of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_postal_code WisdomMessageTemplate#billing_postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_postal_code WisdomMessageTemplate#billing_postal_code}
 
 ---
 
@@ -2177,7 +2177,7 @@ BillingProvince *string
 
 The province of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_province WisdomMessageTemplate#billing_province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_province WisdomMessageTemplate#billing_province}
 
 ---
 
@@ -2191,7 +2191,7 @@ BillingState *string
 
 The state of a customer?s billing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#billing_state WisdomMessageTemplate#billing_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#billing_state WisdomMessageTemplate#billing_state}
 
 ---
 
@@ -2205,7 +2205,7 @@ BirthDate *string
 
 The customer's birth date.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#birth_date WisdomMessageTemplate#birth_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#birth_date WisdomMessageTemplate#birth_date}
 
 ---
 
@@ -2219,7 +2219,7 @@ BusinessEmailAddress *string
 
 The customer's business email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#business_email_address WisdomMessageTemplate#business_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#business_email_address WisdomMessageTemplate#business_email_address}
 
 ---
 
@@ -2233,7 +2233,7 @@ BusinessName *string
 
 The name of the customer's business.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#business_name WisdomMessageTemplate#business_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#business_name WisdomMessageTemplate#business_name}
 
 ---
 
@@ -2247,7 +2247,7 @@ BusinessPhoneNumber *string
 
 The customer's business phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#business_phone_number WisdomMessageTemplate#business_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#business_phone_number WisdomMessageTemplate#business_phone_number}
 
 ---
 
@@ -2261,7 +2261,7 @@ City *string
 
 The city in which a customer lives.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#city WisdomMessageTemplate#city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#city WisdomMessageTemplate#city}
 
 ---
 
@@ -2275,7 +2275,7 @@ Country *string
 
 The country in which a customer lives.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#country WisdomMessageTemplate#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#country WisdomMessageTemplate#country}
 
 ---
 
@@ -2289,7 +2289,7 @@ County *string
 
 The county in which a customer lives.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#county WisdomMessageTemplate#county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#county WisdomMessageTemplate#county}
 
 ---
 
@@ -2303,7 +2303,7 @@ Custom *map[string]*string
 
 The custom attributes that are used with the message template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#custom WisdomMessageTemplate#custom}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#custom WisdomMessageTemplate#custom}
 
 ---
 
@@ -2317,7 +2317,7 @@ EmailAddress *string
 
 The customer's email address, which has not been specified as a personal or business address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#email_address WisdomMessageTemplate#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#email_address WisdomMessageTemplate#email_address}
 
 ---
 
@@ -2331,7 +2331,7 @@ FirstName *string
 
 The customer's first name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#first_name WisdomMessageTemplate#first_name}
 
 ---
 
@@ -2345,7 +2345,7 @@ Gender *string
 
 The customer's gender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#gender WisdomMessageTemplate#gender}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#gender WisdomMessageTemplate#gender}
 
 ---
 
@@ -2359,7 +2359,7 @@ HomePhoneNumber *string
 
 The customer's home phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#home_phone_number WisdomMessageTemplate#home_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#home_phone_number WisdomMessageTemplate#home_phone_number}
 
 ---
 
@@ -2373,7 +2373,7 @@ LastName *string
 
 The customer's last name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#last_name WisdomMessageTemplate#last_name}
 
 ---
 
@@ -2387,7 +2387,7 @@ MailingAddress1 *string
 
 The first line of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_address_1 WisdomMessageTemplate#mailing_address_1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_address_1 WisdomMessageTemplate#mailing_address_1}
 
 ---
 
@@ -2401,7 +2401,7 @@ MailingAddress2 *string
 
 The second line of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_address_2 WisdomMessageTemplate#mailing_address_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_address_2 WisdomMessageTemplate#mailing_address_2}
 
 ---
 
@@ -2415,7 +2415,7 @@ MailingAddress3 *string
 
 The third line of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_address_3 WisdomMessageTemplate#mailing_address_3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_address_3 WisdomMessageTemplate#mailing_address_3}
 
 ---
 
@@ -2429,7 +2429,7 @@ MailingAddress4 *string
 
 The fourth line of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_address_4 WisdomMessageTemplate#mailing_address_4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_address_4 WisdomMessageTemplate#mailing_address_4}
 
 ---
 
@@ -2443,7 +2443,7 @@ MailingCity *string
 
 The city of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_city WisdomMessageTemplate#mailing_city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_city WisdomMessageTemplate#mailing_city}
 
 ---
 
@@ -2457,7 +2457,7 @@ MailingCountry *string
 
 The country of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_country WisdomMessageTemplate#mailing_country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_country WisdomMessageTemplate#mailing_country}
 
 ---
 
@@ -2471,7 +2471,7 @@ MailingCounty *string
 
 The county of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_county WisdomMessageTemplate#mailing_county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_county WisdomMessageTemplate#mailing_county}
 
 ---
 
@@ -2485,7 +2485,7 @@ MailingPostalCode *string
 
 The postal code of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_postal_code WisdomMessageTemplate#mailing_postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_postal_code WisdomMessageTemplate#mailing_postal_code}
 
 ---
 
@@ -2499,7 +2499,7 @@ MailingProvince *string
 
 The province of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_province WisdomMessageTemplate#mailing_province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_province WisdomMessageTemplate#mailing_province}
 
 ---
 
@@ -2513,7 +2513,7 @@ MailingState *string
 
 The state of a customer?s mailing address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mailing_state WisdomMessageTemplate#mailing_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mailing_state WisdomMessageTemplate#mailing_state}
 
 ---
 
@@ -2527,7 +2527,7 @@ MiddleName *string
 
 The customer's middle name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#middle_name WisdomMessageTemplate#middle_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#middle_name WisdomMessageTemplate#middle_name}
 
 ---
 
@@ -2541,7 +2541,7 @@ MobilePhoneNumber *string
 
 The customer's mobile phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#mobile_phone_number WisdomMessageTemplate#mobile_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#mobile_phone_number WisdomMessageTemplate#mobile_phone_number}
 
 ---
 
@@ -2555,7 +2555,7 @@ PartyType *string
 
 The customer's party type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#party_type WisdomMessageTemplate#party_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#party_type WisdomMessageTemplate#party_type}
 
 ---
 
@@ -2569,7 +2569,7 @@ PhoneNumber *string
 
 The customer's phone number, which has not been specified as a mobile, home, or business number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#phone_number WisdomMessageTemplate#phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#phone_number WisdomMessageTemplate#phone_number}
 
 ---
 
@@ -2583,7 +2583,7 @@ PostalCode *string
 
 The postal code of a customer address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#postal_code WisdomMessageTemplate#postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#postal_code WisdomMessageTemplate#postal_code}
 
 ---
 
@@ -2597,7 +2597,7 @@ ProfileArn *string
 
 The ARN of a customer profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#profile_arn WisdomMessageTemplate#profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#profile_arn WisdomMessageTemplate#profile_arn}
 
 ---
 
@@ -2611,7 +2611,7 @@ ProfileId *string
 
 The unique identifier of a customer profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#profile_id WisdomMessageTemplate#profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#profile_id WisdomMessageTemplate#profile_id}
 
 ---
 
@@ -2625,7 +2625,7 @@ Province *string
 
 The province in which a customer lives.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#province WisdomMessageTemplate#province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#province WisdomMessageTemplate#province}
 
 ---
 
@@ -2639,7 +2639,7 @@ ShippingAddress1 *string
 
 The first line of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_address_1 WisdomMessageTemplate#shipping_address_1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_address_1 WisdomMessageTemplate#shipping_address_1}
 
 ---
 
@@ -2653,7 +2653,7 @@ ShippingAddress2 *string
 
 The second line of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_address_2 WisdomMessageTemplate#shipping_address_2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_address_2 WisdomMessageTemplate#shipping_address_2}
 
 ---
 
@@ -2667,7 +2667,7 @@ ShippingAddress3 *string
 
 The third line of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_address_3 WisdomMessageTemplate#shipping_address_3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_address_3 WisdomMessageTemplate#shipping_address_3}
 
 ---
 
@@ -2681,7 +2681,7 @@ ShippingAddress4 *string
 
 The fourth line of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_address_4 WisdomMessageTemplate#shipping_address_4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_address_4 WisdomMessageTemplate#shipping_address_4}
 
 ---
 
@@ -2695,7 +2695,7 @@ ShippingCity *string
 
 The city of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_city WisdomMessageTemplate#shipping_city}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_city WisdomMessageTemplate#shipping_city}
 
 ---
 
@@ -2709,7 +2709,7 @@ ShippingCountry *string
 
 The country of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_country WisdomMessageTemplate#shipping_country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_country WisdomMessageTemplate#shipping_country}
 
 ---
 
@@ -2723,7 +2723,7 @@ ShippingCounty *string
 
 The county of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_county WisdomMessageTemplate#shipping_county}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_county WisdomMessageTemplate#shipping_county}
 
 ---
 
@@ -2737,7 +2737,7 @@ ShippingPostalCode *string
 
 The postal code of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_postal_code WisdomMessageTemplate#shipping_postal_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_postal_code WisdomMessageTemplate#shipping_postal_code}
 
 ---
 
@@ -2751,7 +2751,7 @@ ShippingProvince *string
 
 The province of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_province WisdomMessageTemplate#shipping_province}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_province WisdomMessageTemplate#shipping_province}
 
 ---
 
@@ -2765,7 +2765,7 @@ ShippingState *string
 
 The state of a customer?s shipping address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#shipping_state WisdomMessageTemplate#shipping_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#shipping_state WisdomMessageTemplate#shipping_state}
 
 ---
 
@@ -2779,7 +2779,7 @@ State *string
 
 The state in which a customer lives.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#state WisdomMessageTemplate#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#state WisdomMessageTemplate#state}
 
 ---
 
@@ -2817,7 +2817,7 @@ CustomerEndpoint WisdomMessageTemplateDefaultAttributesSystemAttributesCustomerE
 
 The CustomerEndpoint attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#customer_endpoint WisdomMessageTemplate#customer_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#customer_endpoint WisdomMessageTemplate#customer_endpoint}
 
 ---
 
@@ -2831,7 +2831,7 @@ Name *string
 
 The name of the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#name WisdomMessageTemplate#name}
 
 ---
 
@@ -2845,7 +2845,7 @@ SystemEndpoint WisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpo
 
 The SystemEndpoint attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#system_endpoint WisdomMessageTemplate#system_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#system_endpoint WisdomMessageTemplate#system_endpoint}
 
 ---
 
@@ -2879,7 +2879,7 @@ Address *string
 
 The customer's phone number if used with customerEndpoint, or the number the customer dialed to call your contact center if used with systemEndpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
 
 ---
 
@@ -2913,7 +2913,7 @@ Address *string
 
 The customer's phone number if used with customerEndpoint, or the number the customer dialed to call your contact center if used with systemEndpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#address WisdomMessageTemplate#address}
 
 ---
 
@@ -2949,7 +2949,7 @@ Criteria *string
 
 The criteria used for grouping Amazon Q in Connect users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#criteria WisdomMessageTemplate#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#criteria WisdomMessageTemplate#criteria}
 
 ---
 
@@ -2963,7 +2963,7 @@ Values *[]*string
 
 The list of values that define different groups of Amazon Q in Connect users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#values WisdomMessageTemplate#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#values WisdomMessageTemplate#values}
 
 ---
 
@@ -2985,7 +2985,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdommessagetemplate"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateMessageTemplateAttachments.property.attachmentId">AttachmentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#attachment_id WisdomMessageTemplate#attachment_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateMessageTemplateAttachments.property.attachmentId">AttachmentId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#attachment_id WisdomMessageTemplate#attachment_id}. |
 | <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateMessageTemplateAttachments.property.attachmentName">AttachmentName</a></code> | <code>*string</code> | The name of the attachment file being uploaded. The name should include the file extension. |
 | <code><a href="#@cdktn/provider-awscc.wisdomMessageTemplate.WisdomMessageTemplateMessageTemplateAttachments.property.s3PresignedUrl">S3PresignedUrl</a></code> | <code>*string</code> | The S3 Presigned URL for the attachment file. |
 
@@ -2999,7 +2999,7 @@ AttachmentId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#attachment_id WisdomMessageTemplate#attachment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#attachment_id WisdomMessageTemplate#attachment_id}.
 
 ---
 
@@ -3013,7 +3013,7 @@ AttachmentName *string
 
 The name of the attachment file being uploaded. The name should include the file extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#attachment_name WisdomMessageTemplate#attachment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#attachment_name WisdomMessageTemplate#attachment_name}
 
 ---
 
@@ -3029,7 +3029,7 @@ The S3 Presigned URL for the attachment file.
 
 When generating the PreSignedUrl, please ensure that the expires-in time is set to 30 minutes. The URL can be generated through the AWS Console or through the AWS CLI (https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#s3_presigned_url WisdomMessageTemplate#s3_presigned_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#s3_presigned_url WisdomMessageTemplate#s3_presigned_url}
 
 ---
 
@@ -3067,7 +3067,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#key WisdomMessageTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#key WisdomMessageTemplate#key}
 
 ---
 
@@ -3083,7 +3083,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#value WisdomMessageTemplate#value}
 
 ---
 

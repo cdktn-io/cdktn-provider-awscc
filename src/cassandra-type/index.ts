@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,29 @@ export interface CassandraTypeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Field definitions of the User-Defined Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type#fields CassandraType#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#fields CassandraType#fields}
   */
   readonly fields: CassandraTypeFields[] | cdktn.IResolvable;
   /**
   * Name of the Keyspace which contains the User-Defined Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
   */
   readonly keyspaceName: string;
   /**
   * Name of the User-Defined Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
   */
   readonly typeName: string;
 }
 export interface CassandraTypeFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type#field_name CassandraType#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#field_name CassandraType#field_name}
   */
   readonly fieldName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type#field_type CassandraType#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#field_type CassandraType#field_type}
   */
   readonly fieldType: string;
 }
@@ -176,7 +176,7 @@ export class CassandraTypeFieldsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type awscc_cassandra_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type awscc_cassandra_type}
 */
 export class CassandraType extends cdktn.TerraformResource {
 
@@ -192,7 +192,7 @@ export class CassandraType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CassandraType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CassandraType to import
-  * @param importFromId The id of the existing CassandraType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CassandraType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CassandraType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -204,7 +204,7 @@ export class CassandraType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cassandra_type awscc_cassandra_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type awscc_cassandra_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -215,7 +215,7 @@ export class CassandraType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cassandra_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

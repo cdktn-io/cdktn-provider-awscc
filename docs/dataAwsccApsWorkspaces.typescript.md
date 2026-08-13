@@ -4,7 +4,7 @@
 
 ### DataAwsccApsWorkspaces <a name="DataAwsccApsWorkspaces" id="@cdktn/provider-awscc.dataAwsccApsWorkspaces.DataAwsccApsWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/aps_workspaces awscc_aps_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/aps_workspaces awscc_aps_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApsWorkspaces.DataAwsccApsWorkspaces.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApsWorkspaces to 
 
 The id of the existing DataAwsccApsWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/aps_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/aps_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

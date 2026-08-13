@@ -4,7 +4,7 @@
 
 ### Resiliencehubv2ServiceFunction <a name="Resiliencehubv2ServiceFunction" id="@cdktn/provider-awscc.resiliencehubv2ServiceFunction.Resiliencehubv2ServiceFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2ServiceFunction.Resiliencehubv2ServiceFunction.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Resiliencehubv2ServiceFunc
 
 The id of the existing Resiliencehubv2ServiceFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -953,7 +953,7 @@ public readonly criticality: string;
 
 The criticality of the service function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service_function#criticality Resiliencehubv2ServiceFunction#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service_function#criticality Resiliencehubv2ServiceFunction#criticality}
 
 ---
 
@@ -967,7 +967,7 @@ public readonly name: string;
 
 The name of the service function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service_function#name Resiliencehubv2ServiceFunction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service_function#name Resiliencehubv2ServiceFunction#name}
 
 ---
 
@@ -981,7 +981,7 @@ public readonly serviceArn: string;
 
 The ARN of the parent service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service_function#service_arn Resiliencehubv2ServiceFunction#service_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service_function#service_arn Resiliencehubv2ServiceFunction#service_arn}
 
 ---
 
@@ -995,7 +995,7 @@ public readonly description: string;
 
 The description of the service function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service_function#description Resiliencehubv2ServiceFunction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service_function#description Resiliencehubv2ServiceFunction#description}
 
 ---
 

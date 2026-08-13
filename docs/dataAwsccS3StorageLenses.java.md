@@ -4,7 +4,7 @@
 
 ### DataAwsccS3StorageLenses <a name="DataAwsccS3StorageLenses" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_storage_lenses awscc_s3_storage_lenses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_storage_lenses awscc_s3_storage_lenses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3StorageLenses.DataAwsccS3StorageLenses.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccS3StorageLenses t
 
 The id of the existing DataAwsccS3StorageLenses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_storage_lenses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_storage_lenses#import import section} in the documentation of this resource for the id to use
 
 ---
 

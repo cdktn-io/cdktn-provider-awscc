@@ -4,7 +4,7 @@
 
 ### ApigatewayGatewayResponse <a name="ApigatewayGatewayResponse" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response awscc_apigateway_gateway_response}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer"></a>
 
@@ -38,11 +38,11 @@ ApigatewayGatewayResponse.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseType">responseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseParameters">responseParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseTemplates">responseTemplates</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.statusCode">statusCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseType">responseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseParameters">responseParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.responseTemplates">responseTemplates</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponse.Initializer.parameter.statusCode">statusCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
 
 ---
 
@@ -612,7 +612,7 @@ The construct id used in the generated config for the ApigatewayGatewayResponse 
 
 The id of the existing ApigatewayGatewayResponse that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -973,11 +973,11 @@ ApigatewayGatewayResponseConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseType">responseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseParameters">responseParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseTemplates">responseTemplates</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.statusCode">statusCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseType">responseType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseParameters">responseParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.responseTemplates">responseTemplates</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayGatewayResponse.ApigatewayGatewayResponseConfig.property.statusCode">statusCode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}. |
 
 ---
 
@@ -1059,7 +1059,7 @@ public java.lang.String getResponseType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
 
 ---
 
@@ -1071,7 +1071,7 @@ public java.lang.String getRestApiId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
 
 ---
 
@@ -1083,7 +1083,7 @@ public java.util.Map<java.lang.String, java.lang.String> getResponseParameters()
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
 
 ---
 
@@ -1095,7 +1095,7 @@ public java.util.Map<java.lang.String, java.lang.String> getResponseTemplates();
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
 
 ---
 
@@ -1107,7 +1107,7 @@ public java.lang.String getStatusCode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
 
 ---
 

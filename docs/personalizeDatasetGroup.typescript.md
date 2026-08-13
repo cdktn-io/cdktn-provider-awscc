@@ -4,7 +4,7 @@
 
 ### PersonalizeDatasetGroup <a name="PersonalizeDatasetGroup" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeDatasetGroup.PersonalizeDatasetGroup.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the PersonalizeDatasetGroup to
 
 The id of the existing PersonalizeDatasetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -923,7 +923,7 @@ public readonly name: string;
 
 The name for the new dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset_group#name PersonalizeDatasetGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group#name PersonalizeDatasetGroup#name}
 
 ---
 
@@ -937,7 +937,7 @@ public readonly domain: string;
 
 The domain of a Domain dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset_group#domain PersonalizeDatasetGroup#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group#domain PersonalizeDatasetGroup#domain}
 
 ---
 
@@ -951,7 +951,7 @@ public readonly kmsKeyArn: string;
 
 The Amazon Resource Name(ARN) of a AWS Key Management Service (KMS) key used to encrypt the datasets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset_group#kms_key_arn PersonalizeDatasetGroup#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group#kms_key_arn PersonalizeDatasetGroup#kms_key_arn}
 
 ---
 
@@ -967,7 +967,7 @@ The ARN of the AWS Identity and Access Management (IAM) role that has permission
 
 Supplying an IAM role is only valid when also specifying a KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_dataset_group#role_arn PersonalizeDatasetGroup#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group#role_arn PersonalizeDatasetGroup#role_arn}
 
 ---
 

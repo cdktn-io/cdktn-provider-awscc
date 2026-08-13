@@ -4,7 +4,7 @@
 
 ### DataAwsccMacieSessions <a name="DataAwsccMacieSessions" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/macie_sessions awscc_macie_sessions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/macie_sessions awscc_macie_sessions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMacieSessions.DataAwsccMacieSessions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMacieSessions to 
 
 The id of the existing DataAwsccMacieSessions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/macie_sessions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/macie_sessions#import import section} in the documentation of this resource for the id to use
 
 ---
 

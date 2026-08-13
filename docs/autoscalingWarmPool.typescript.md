@@ -4,7 +4,7 @@
 
 ### AutoscalingWarmPool <a name="AutoscalingWarmPool" id="@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPool.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the AutoscalingWarmPool to imp
 
 The id of the existing AutoscalingWarmPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -867,11 +867,11 @@ const autoscalingWarmPoolConfig: autoscalingWarmPool.AutoscalingWarmPoolConfig =
 | <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.autoScalingGroupName">autoScalingGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#auto_scaling_group_name AutoscalingWarmPool#auto_scaling_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.instanceReusePolicy">instanceReusePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolInstanceReusePolicy">AutoscalingWarmPoolInstanceReusePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#instance_reuse_policy AutoscalingWarmPool#instance_reuse_policy}. |
-| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.maxGroupPreparedCapacity">maxGroupPreparedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#max_group_prepared_capacity AutoscalingWarmPool#max_group_prepared_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.minSize">minSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#min_size AutoscalingWarmPool#min_size}. |
-| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.poolState">poolState</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#pool_state AutoscalingWarmPool#pool_state}. |
+| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.autoScalingGroupName">autoScalingGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#auto_scaling_group_name AutoscalingWarmPool#auto_scaling_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.instanceReusePolicy">instanceReusePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolInstanceReusePolicy">AutoscalingWarmPoolInstanceReusePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#instance_reuse_policy AutoscalingWarmPool#instance_reuse_policy}. |
+| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.maxGroupPreparedCapacity">maxGroupPreparedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#max_group_prepared_capacity AutoscalingWarmPool#max_group_prepared_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.minSize">minSize</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#min_size AutoscalingWarmPool#min_size}. |
+| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolConfig.property.poolState">poolState</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#pool_state AutoscalingWarmPool#pool_state}. |
 
 ---
 
@@ -953,7 +953,7 @@ public readonly autoScalingGroupName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#auto_scaling_group_name AutoscalingWarmPool#auto_scaling_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#auto_scaling_group_name AutoscalingWarmPool#auto_scaling_group_name}.
 
 ---
 
@@ -965,7 +965,7 @@ public readonly instanceReusePolicy: AutoscalingWarmPoolInstanceReusePolicy;
 
 - *Type:* <a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolInstanceReusePolicy">AutoscalingWarmPoolInstanceReusePolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#instance_reuse_policy AutoscalingWarmPool#instance_reuse_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#instance_reuse_policy AutoscalingWarmPool#instance_reuse_policy}.
 
 ---
 
@@ -977,7 +977,7 @@ public readonly maxGroupPreparedCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#max_group_prepared_capacity AutoscalingWarmPool#max_group_prepared_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#max_group_prepared_capacity AutoscalingWarmPool#max_group_prepared_capacity}.
 
 ---
 
@@ -989,7 +989,7 @@ public readonly minSize: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#min_size AutoscalingWarmPool#min_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#min_size AutoscalingWarmPool#min_size}.
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly poolState: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#pool_state AutoscalingWarmPool#pool_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#pool_state AutoscalingWarmPool#pool_state}.
 
 ---
 
@@ -1019,7 +1019,7 @@ const autoscalingWarmPoolInstanceReusePolicy: autoscalingWarmPool.AutoscalingWar
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolInstanceReusePolicy.property.reuseOnScaleIn">reuseOnScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#reuse_on_scale_in AutoscalingWarmPool#reuse_on_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.autoscalingWarmPool.AutoscalingWarmPoolInstanceReusePolicy.property.reuseOnScaleIn">reuseOnScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#reuse_on_scale_in AutoscalingWarmPool#reuse_on_scale_in}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ public readonly reuseOnScaleIn: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_warm_pool#reuse_on_scale_in AutoscalingWarmPool#reuse_on_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_warm_pool#reuse_on_scale_in AutoscalingWarmPool#reuse_on_scale_in}.
 
 ---
 

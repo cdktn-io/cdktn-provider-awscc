@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface IotfleethubApplicationConfig extends cdktn.TerraformMetaArgumen
   /**
   * Application Description, should be between 1 and 2048 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#application_description IotfleethubApplication#application_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#application_description IotfleethubApplication#application_description}
   */
   readonly applicationDescription?: string;
   /**
   * Application Name, should be between 1 and 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#application_name IotfleethubApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#application_name IotfleethubApplication#application_name}
   */
   readonly applicationName: string;
   /**
   * The ARN of the role that the web application assumes when it interacts with AWS IoT Core. For more info on configuring this attribute, see https://docs.aws.amazon.com/iot/latest/apireference/API_iotfleethub_CreateApplication.html#API_iotfleethub_CreateApplication_RequestSyntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#role_arn IotfleethubApplication#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#role_arn IotfleethubApplication#role_arn}
   */
   readonly roleArn: string;
   /**
   * A list of key-value pairs that contain metadata for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#tags IotfleethubApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#tags IotfleethubApplication#tags}
   */
   readonly tags?: IotfleethubApplicationTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface IotfleethubApplicationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#key IotfleethubApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#key IotfleethubApplication#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#value IotfleethubApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#value IotfleethubApplication#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class IotfleethubApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application awscc_iotfleethub_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application awscc_iotfleethub_application}
 */
 export class IotfleethubApplication extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class IotfleethubApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotfleethubApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotfleethubApplication to import
-  * @param importFromId The id of the existing IotfleethubApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotfleethubApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotfleethubApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class IotfleethubApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotfleethub_application awscc_iotfleethub_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotfleethub_application awscc_iotfleethub_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class IotfleethubApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotfleethub_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

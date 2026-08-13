@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface SagemakerHubConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#hub_description SagemakerHub#hub_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#hub_description SagemakerHub#hub_description}
   */
   readonly hubDescription: string;
   /**
   * The display name of the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#hub_display_name SagemakerHub#hub_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#hub_display_name SagemakerHub#hub_display_name}
   */
   readonly hubDisplayName?: string;
   /**
   * The name of the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#hub_name SagemakerHub#hub_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#hub_name SagemakerHub#hub_name}
   */
   readonly hubName: string;
   /**
   * The searchable keywords for the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#hub_search_keywords SagemakerHub#hub_search_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#hub_search_keywords SagemakerHub#hub_search_keywords}
   */
   readonly hubSearchKeywords?: string[];
   /**
   * The Amazon S3 storage configuration for the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#s3_storage_config SagemakerHub#s3_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#s3_storage_config SagemakerHub#s3_storage_config}
   */
   readonly s3StorageConfig?: SagemakerHubS3StorageConfig;
   /**
   * Tags to associate with the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#tags SagemakerHub#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#tags SagemakerHub#tags}
   */
   readonly tags?: SagemakerHubTags[] | cdktn.IResolvable;
 }
@@ -53,7 +53,7 @@ export interface SagemakerHubS3StorageConfig {
   /**
   * The Amazon S3 bucket prefix for hosting hub content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#s3_output_path SagemakerHub#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -147,11 +147,11 @@ export class SagemakerHubS3StorageConfigOutputReference extends cdktn.ComplexObj
 }
 export interface SagemakerHubTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#key SagemakerHub#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#key SagemakerHub#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#value SagemakerHub#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#value SagemakerHub#value}
   */
   readonly value?: string;
 }
@@ -296,7 +296,7 @@ export class SagemakerHubTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}
 */
 export class SagemakerHub extends cdktn.TerraformResource {
 
@@ -312,7 +312,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerHub resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerHub to import
-  * @param importFromId The id of the existing SagemakerHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerHub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -324,7 +324,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_hub awscc_sagemaker_hub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_hub awscc_sagemaker_hub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -335,7 +335,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_hub',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

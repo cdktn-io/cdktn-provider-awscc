@@ -4,7 +4,7 @@
 
 ### LambdaNetworkConnector <a name="LambdaNetworkConnector" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnector.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the LambdaNetworkConnector to 
 
 The id of the existing LambdaNetworkConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ Configuration LambdaNetworkConnectorConfiguration
 
 The network configuration for the connector. Specify a VpcEgressConfiguration to enable outbound traffic routing through your VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#configuration LambdaNetworkConnector#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#configuration LambdaNetworkConnector#configuration}
 
 ---
 
@@ -988,7 +988,7 @@ A unique name for the network connector within your account and Region.
 
 Must be 1 to 64 alphanumeric characters, hyphens, or underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#name LambdaNetworkConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#name LambdaNetworkConnector#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ The ARN of the IAM role that Lambda assumes to manage elastic network interfaces
 
 This role must have permissions for ec2:CreateNetworkInterface and related describe operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#operator_role LambdaNetworkConnector#operator_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#operator_role LambdaNetworkConnector#operator_role}
 
 ---
 
@@ -1020,7 +1020,7 @@ A list of tags to apply to the network connector.
 
 Use tags to categorize network connectors for cost allocation, access control, or operational management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#tags LambdaNetworkConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#tags LambdaNetworkConnector#tags}
 
 ---
 
@@ -1056,7 +1056,7 @@ The VPC egress configuration for the network connector.
 
 Specifies the subnets, security groups, and network protocol for routing outbound traffic through your VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#vpc_egress_configuration LambdaNetworkConnector#vpc_egress_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#vpc_egress_configuration LambdaNetworkConnector#vpc_egress_configuration}
 
 ---
 
@@ -1096,7 +1096,7 @@ AssociatedComputeResourceTypes *[]*string
 
 The types of Lambda compute resources that can use this connector. Currently, only MicroVm is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#associated_compute_resource_types LambdaNetworkConnector#associated_compute_resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#associated_compute_resource_types LambdaNetworkConnector#associated_compute_resource_types}
 
 ---
 
@@ -1112,7 +1112,7 @@ The IDs of the VPC subnets where Lambda provisions elastic network interfaces (E
 
 Specify 1 to 16 subnets. All subnets must be in the same VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#subnet_ids LambdaNetworkConnector#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#subnet_ids LambdaNetworkConnector#subnet_ids}
 
 ---
 
@@ -1126,7 +1126,7 @@ NetworkProtocol *string
 
 The network protocol for the connector. Specify IPv4 for IPv4-only networking, or DualStack for both IPv4 and IPv6.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#network_protocol LambdaNetworkConnector#network_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#network_protocol LambdaNetworkConnector#network_protocol}
 
 ---
 
@@ -1142,7 +1142,7 @@ The IDs of the VPC security groups to attach to the ENIs.
 
 Specify 0 to 5 security groups. All security groups must be in the same VPC as the subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#security_group_ids LambdaNetworkConnector#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#security_group_ids LambdaNetworkConnector#security_group_ids}
 
 ---
 
@@ -1178,7 +1178,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#key LambdaNetworkConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#key LambdaNetworkConnector#key}
 
 ---
 
@@ -1192,7 +1192,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_network_connector#value LambdaNetworkConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#value LambdaNetworkConnector#value}
 
 ---
 

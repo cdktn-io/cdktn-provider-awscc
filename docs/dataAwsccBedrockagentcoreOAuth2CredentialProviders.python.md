@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreOAuth2CredentialProviders <a name="DataAwsccBedrockagentcoreOAuth2CredentialProviders" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreOAuth2CredentialProviders.DataAwsccBedrockagentcoreOAuth2CredentialProviders.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreO
 
 The id of the existing DataAwsccBedrockagentcoreOAuth2CredentialProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 

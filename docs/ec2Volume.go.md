@@ -4,7 +4,7 @@
 
 ### Ec2Volume <a name="Ec2Volume" id="@cdktn/provider-awscc.ec2Volume.Ec2Volume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume awscc_ec2_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume awscc_ec2_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Volume.Ec2Volume.Initializer"></a>
 
@@ -607,7 +607,7 @@ The construct id used in the generated config for the Ec2Volume to import.
 
 The id of the existing Ec2Volume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1298,7 +1298,7 @@ Indicates whether the volume is auto-enabled for I/O operations.
 
 By default, EBS disables I/O to the volume from attached EC2 instances when it determines that a volume's data is potentially inconsistent. If the consistency of the volume is not a concern, and you prefer that the volume be made available immediately if it's impaired, you can configure the volume to automatically enable I/O.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#auto_enable_io Ec2Volume#auto_enable_io}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#auto_enable_io Ec2Volume#auto_enable_io}
 
 ---
 
@@ -1316,7 +1316,7 @@ For example, `us-east-1a`.
 Either `AvailabilityZone` or `AvailabilityZoneId` must be specified, but not both.
 If you are creating a volume copy, omit this parameter. The volume copy is created in the same Availability Zone as the source volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#availability_zone Ec2Volume#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#availability_zone Ec2Volume#availability_zone}
 
 ---
 
@@ -1334,7 +1334,7 @@ For example, `use1-az1`.
 Either `AvailabilityZone` or `AvailabilityZoneId` must be specified, but not both.
 If you are creating a volume copy, omit this parameter. The volume copy is created in the same Availability Zone as the source volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#availability_zone_id Ec2Volume#availability_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#availability_zone_id Ec2Volume#availability_zone_id}
 
 ---
 
@@ -1351,7 +1351,7 @@ Indicates whether the volume should be encrypted.
 The effect of setting the encryption state to `true` depends on the volume origin (new, from a snapshot, or from an existing volume), starting encryption state, ownership, and whether encryption by default is enabled. For more information, see [Encryption by default](https://docs.aws.amazon.com/ebs/latest/userguide/work-with-ebs-encr.html#encryption-by-default) in the *Amazon EBS User Guide*.
 If you are creating a volume copy, omit this parameter. The volume is automatically encrypted with the same KMS key as the source volume. You can't copy unencrypted volumes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#encrypted Ec2Volume#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#encrypted Ec2Volume#encrypted}
 
 ---
 
@@ -1374,7 +1374,7 @@ Valid ranges:
 
 [Instances built on the Nitro System](https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-nitro-instances.html) can support up to 256,000 IOPS. Other instances can support up to 32,000 IOPS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#iops Ec2Volume#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#iops Ec2Volume#iops}
 
 ---
 
@@ -1399,7 +1399,7 @@ Alternatively, if you want to specify a different key, you can specify one of th
 
 If you are creating a volume copy, omit this parameter. The volume is automatically encrypted with the same KMS key as the source volume. You can't copy unencrypted volumes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#kms_key_id Ec2Volume#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#kms_key_id Ec2Volume#kms_key_id}
 
 ---
 
@@ -1415,7 +1415,7 @@ Indicates whether Amazon EBS Multi-Attach is enabled.
 
 CFNlong does not currently support updating a single-attach volume to be multi-attach enabled, updating a multi-attach enabled volume to be single-attach, or updating the size or number of I/O operations per second (IOPS) of a multi-attach enabled volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#multi_attach_enabled Ec2Volume#multi_attach_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#multi_attach_enabled Ec2Volume#multi_attach_enabled}
 
 ---
 
@@ -1431,7 +1431,7 @@ The Amazon Resource Name (ARN) of the Outpost on which to create the volume.
 
 If you intend to use a volume with an instance running on an outpost, then you must create the volume on the same outpost as the instance. You can't use a volume created in an AWS Region with an instance on an AWS outpost, or the other way around.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#outpost_arn Ec2Volume#outpost_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#outpost_arn Ec2Volume#outpost_arn}
 
 ---
 
@@ -1457,7 +1457,7 @@ Supported volume sizes:
 * st1 and sc1: `125 - 16,384` GiB
 * standard: `1 - 1024` GiB
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#size Ec2Volume#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#size Ec2Volume#size}
 
 ---
 
@@ -1473,7 +1473,7 @@ The snapshot from which to create the volume.
 
 Only specify to create a volume from a snapshot. To create a new empty volume, omit this parameter and specify a value for `Size` instead. To create a volume copy, omit this parameter and specify `SourceVolumeId` instead.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#snapshot_id Ec2Volume#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#snapshot_id Ec2Volume#snapshot_id}
 
 ---
 
@@ -1489,7 +1489,7 @@ The ID of the source EBS volume to copy.
 
 When specified, the volume is created as an exact copy of the specified volume. Only specify to create a volume copy. To create a new empty volume or to create a volume from a snapshot, omit this parameter,
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#source_volume_id Ec2Volume#source_volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#source_volume_id Ec2Volume#source_volume_id}
 
 ---
 
@@ -1503,7 +1503,7 @@ Tags interface{}
 
 The tags to apply to the volume during creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#tags Ec2Volume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#tags Ec2Volume#tags}
 
 ---
 
@@ -1521,7 +1521,7 @@ This parameter is valid only for `gp3` volumes. The default value is 125.
 Valid Range: Minimum value of 125. Maximum value of 2000.
 The maximum ratio of throughput to IOPS is 0.25 MiB/s per IOPS. For example, a volume with 3,000 IOPS can have a maximum throughput of 750 MiB/s (3,000 x 0.25).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#throughput Ec2Volume#throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#throughput Ec2Volume#throughput}
 
 ---
 
@@ -1545,7 +1545,7 @@ This parameter is supported only for volumes created from snapshots. Omit this p
 For more information, see [Initialize Amazon EBS volumes](https://docs.aws.amazon.com/ebs/latest/userguide/initalize-volume.html) in the *Amazon EC2 User Guide*.
 Valid range: 100 - 300 MiB/s
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#volume_initialization_rate Ec2Volume#volume_initialization_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#volume_initialization_rate Ec2Volume#volume_initialization_rate}
 
 ---
 
@@ -1571,7 +1571,7 @@ Throughput Optimized HDD (`st1`) and Cold HDD (`sc1`) volumes can't be used as b
 For more information, see [Amazon EBS volume types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html) in the *Amazon EBS User Guide*.
 Default: `gp2`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#volume_type Ec2Volume#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#volume_type Ec2Volume#volume_type}
 
 ---
 
@@ -1607,7 +1607,7 @@ Key *string
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#key Ec2Volume#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#key Ec2Volume#key}
 
 ---
 
@@ -1621,7 +1621,7 @@ Value *string
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_volume#value Ec2Volume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_volume#value Ec2Volume#value}
 
 ---
 

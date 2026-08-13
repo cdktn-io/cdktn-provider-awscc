@@ -4,7 +4,7 @@
 
 ### Mediapackagev2ChannelGroup <a name="Mediapackagev2ChannelGroup" id="@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group awscc_mediapackagev2_channel_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group awscc_mediapackagev2_channel_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer"></a>
 
@@ -36,9 +36,9 @@ Mediapackagev2ChannelGroup.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.channelGroupName">channelGroupName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.channelGroupName">channelGroupName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | <p>Enter any descriptive text that helps you to identify the channel group.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags">Mediapackagev2ChannelGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroup.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags">Mediapackagev2ChannelGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Enter any descriptive text that helps you to identify the channel group.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#description Mediapackagev2ChannelGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#description Mediapackagev2ChannelGroup#description}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags">Mediapackagev2ChannelGroupTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}.
 
 ---
 
@@ -600,7 +600,7 @@ The construct id used in the generated config for the Mediapackagev2ChannelGroup
 
 The id of the existing Mediapackagev2ChannelGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -948,9 +948,9 @@ Mediapackagev2ChannelGroupConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.channelGroupName">channelGroupName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.channelGroupName">channelGroupName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.description">description</a></code> | <code>java.lang.String</code> | <p>Enter any descriptive text that helps you to identify the channel group.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags">Mediapackagev2ChannelGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags">Mediapackagev2ChannelGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}. |
 
 ---
 
@@ -1032,7 +1032,7 @@ public java.lang.String getChannelGroupName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#channel_group_name Mediapackagev2ChannelGroup#channel_group_name}.
 
 ---
 
@@ -1046,7 +1046,7 @@ public java.lang.String getDescription();
 
 <p>Enter any descriptive text that helps you to identify the channel group.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#description Mediapackagev2ChannelGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#description Mediapackagev2ChannelGroup#description}
 
 ---
 
@@ -1058,7 +1058,7 @@ public IResolvable|java.util.List<Mediapackagev2ChannelGroupTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags">Mediapackagev2ChannelGroupTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#tags Mediapackagev2ChannelGroup#tags}.
 
 ---
 
@@ -1079,8 +1079,8 @@ Mediapackagev2ChannelGroupTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelGroup.Mediapackagev2ChannelGroupTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}. |
 
 ---
 
@@ -1092,7 +1092,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#key Mediapackagev2ChannelGroup#key}.
 
 ---
 
@@ -1104,7 +1104,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_group#value Mediapackagev2ChannelGroup#value}.
 
 ---
 

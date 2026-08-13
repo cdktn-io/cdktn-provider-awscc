@@ -4,7 +4,7 @@
 
 ### DataAwsccCertificatemanagerAcmeExternalAccountBindings <a name="DataAwsccCertificatemanagerAcmeExternalAccountBindings" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBindings.DataAwsccCertificatemanagerAcmeExternalAccountBindings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/certificatemanager_acme_external_account_bindings awscc_certificatemanager_acme_external_account_bindings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/certificatemanager_acme_external_account_bindings awscc_certificatemanager_acme_external_account_bindings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeExternalAccountBindings.DataAwsccCertificatemanagerAcmeExternalAccountBindings.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCertificatemanage
 
 The id of the existing DataAwsccCertificatemanagerAcmeExternalAccountBindings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/certificatemanager_acme_external_account_bindings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/certificatemanager_acme_external_account_bindings#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SecurityagentTargetDomain <a name="SecurityagentTargetDomain" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentTargetDomain.SecurityagentTargetDomain.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the SecurityagentTargetDomain 
 
 The id of the existing SecurityagentTargetDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,7 +965,7 @@ TargetDomainName *string
 
 Domain name of the target domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
 
 ---
 
@@ -979,7 +979,7 @@ VerificationMethod *string
 
 Verification method for the target domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
 
 ---
 
@@ -993,7 +993,7 @@ Tags interface{}
 
 Tags for the target domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
 
 ---
 
@@ -1029,7 +1029,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain#key SecurityagentTargetDomain#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain#key SecurityagentTargetDomain#key}
 
 ---
 
@@ -1043,7 +1043,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain#value SecurityagentTargetDomain#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain#value SecurityagentTargetDomain#value}
 
 ---
 

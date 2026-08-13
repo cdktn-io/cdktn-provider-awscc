@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface NeptunegraphGraphSnapshotConfig extends cdktn.TerraformMetaArgu
   /**
   * The unique identifier of the Neptune Analytics graph to create the snapshot from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot#graph_identifier NeptunegraphGraphSnapshot#graph_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#graph_identifier NeptunegraphGraphSnapshot#graph_identifier}
   */
   readonly graphIdentifier: string;
   /**
   * The snapshot name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot#snapshot_name NeptunegraphGraphSnapshot#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#snapshot_name NeptunegraphGraphSnapshot#snapshot_name}
   */
   readonly snapshotName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot#tags NeptunegraphGraphSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#tags NeptunegraphGraphSnapshot#tags}
   */
   readonly tags?: NeptunegraphGraphSnapshotTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface NeptunegraphGraphSnapshotTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class NeptunegraphGraphSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}
 */
 export class NeptunegraphGraphSnapshot extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class NeptunegraphGraphSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NeptunegraphGraphSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NeptunegraphGraphSnapshot to import
-  * @param importFromId The id of the existing NeptunegraphGraphSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NeptunegraphGraphSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NeptunegraphGraphSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class NeptunegraphGraphSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class NeptunegraphGraphSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_neptunegraph_graph_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

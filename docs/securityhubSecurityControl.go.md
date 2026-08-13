@@ -4,7 +4,7 @@
 
 ### SecurityhubSecurityControl <a name="SecurityhubSecurityControl" id="@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control awscc_securityhub_security_control}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control awscc_securityhub_security_control}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControl.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SecurityhubSecurityControl
 
 The id of the existing SecurityhubSecurityControl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -937,7 +937,7 @@ Parameters interface{}
 
 An object that identifies the name of a control parameter, its current value, and whether it has been customized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#parameters SecurityhubSecurityControl#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#parameters SecurityhubSecurityControl#parameters}
 
 ---
 
@@ -953,7 +953,7 @@ The most recent reason for updating the customizable properties of a security co
 
 This differs from the UpdateReason field of the BatchUpdateStandardsControlAssociations API, which tracks the reason for updating the enablement status of a control. This field accepts alphanumeric characters in addition to white spaces, dashes, and underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#last_update_reason SecurityhubSecurityControl#last_update_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#last_update_reason SecurityhubSecurityControl#last_update_reason}
 
 ---
 
@@ -967,7 +967,7 @@ SecurityControlArn *string
 
 The Amazon Resource Name (ARN) for a security control across standards, such as `arn:aws:securityhub:eu-central-1:123456789012:security-control/S3.1`. This parameter doesn't mention a specific standard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#security_control_arn SecurityhubSecurityControl#security_control_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#security_control_arn SecurityhubSecurityControl#security_control_arn}
 
 ---
 
@@ -983,7 +983,7 @@ The unique identifier of a security control across standards.
 
 Values for this field typically consist of an AWS service name and a number, such as APIGateway.3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#security_control_id SecurityhubSecurityControl#security_control_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#security_control_id SecurityhubSecurityControl#security_control_id}
 
 ---
 
@@ -1004,8 +1004,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubsecuritycon
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParameters.property.value">Value</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParametersValue">SecurityhubSecurityControlParametersValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#value SecurityhubSecurityControl#value}. |
-| <code><a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParameters.property.valueType">ValueType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#value_type SecurityhubSecurityControl#value_type}. |
+| <code><a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParameters.property.value">Value</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParametersValue">SecurityhubSecurityControlParametersValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#value SecurityhubSecurityControl#value}. |
+| <code><a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParameters.property.valueType">ValueType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#value_type SecurityhubSecurityControl#value_type}. |
 
 ---
 
@@ -1017,7 +1017,7 @@ Value SecurityhubSecurityControlParametersValue
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubSecurityControl.SecurityhubSecurityControlParametersValue">SecurityhubSecurityControlParametersValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#value SecurityhubSecurityControl#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#value SecurityhubSecurityControl#value}.
 
 ---
 
@@ -1029,7 +1029,7 @@ ValueType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#value_type SecurityhubSecurityControl#value_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#value_type SecurityhubSecurityControl#value_type}.
 
 ---
 
@@ -1077,7 +1077,7 @@ Boolean interface{}
 
 A control parameter that is a boolean.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#boolean SecurityhubSecurityControl#boolean}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#boolean SecurityhubSecurityControl#boolean}
 
 ---
 
@@ -1091,7 +1091,7 @@ Double *f64
 
 A control parameter that is a double.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#double SecurityhubSecurityControl#double}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#double SecurityhubSecurityControl#double}
 
 ---
 
@@ -1105,7 +1105,7 @@ Enum *string
 
 A control parameter that is a enum.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#enum SecurityhubSecurityControl#enum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#enum SecurityhubSecurityControl#enum}
 
 ---
 
@@ -1119,7 +1119,7 @@ EnumList *[]*string
 
 A control parameter that is a list of enums.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#enum_list SecurityhubSecurityControl#enum_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#enum_list SecurityhubSecurityControl#enum_list}
 
 ---
 
@@ -1133,7 +1133,7 @@ Integer *f64
 
 A control parameter that is a integer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#integer SecurityhubSecurityControl#integer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#integer SecurityhubSecurityControl#integer}
 
 ---
 
@@ -1147,7 +1147,7 @@ IntegerList *[]*f64
 
 A control parameter that is a list of integers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#integer_list SecurityhubSecurityControl#integer_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#integer_list SecurityhubSecurityControl#integer_list}
 
 ---
 
@@ -1161,7 +1161,7 @@ String *string
 
 A control parameter that is a string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#string SecurityhubSecurityControl#string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#string SecurityhubSecurityControl#string}
 
 ---
 
@@ -1175,7 +1175,7 @@ StringList *[]*string
 
 A control parameter that is a list of strings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_security_control#string_list SecurityhubSecurityControl#string_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_security_control#string_list SecurityhubSecurityControl#string_list}
 
 ---
 

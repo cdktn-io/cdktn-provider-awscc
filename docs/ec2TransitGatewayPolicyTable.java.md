@@ -4,7 +4,7 @@
 
 ### Ec2TransitGatewayPolicyTable <a name="Ec2TransitGatewayPolicyTable" id="@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable.Initializer"></a>
 
@@ -36,7 +36,7 @@ Ec2TransitGatewayPolicyTable.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable.Initializer.parameter.transitGatewayId">transitGatewayId</a></code> | <code>java.lang.String</code> | The Id of transit gateway. |
-| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags">Ec2TransitGatewayPolicyTableTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTable.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags">Ec2TransitGatewayPolicyTableTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The Id of transit gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#transit_gateway_id Ec2TransitGatewayPolicyTable#transit_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#transit_gateway_id Ec2TransitGatewayPolicyTable#transit_gateway_id}
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags">Ec2TransitGatewayPolicyTableTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}.
 
 ---
 
@@ -583,7 +583,7 @@ The construct id used in the generated config for the Ec2TransitGatewayPolicyTab
 
 The id of the existing Ec2TransitGatewayPolicyTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -898,7 +898,7 @@ Ec2TransitGatewayPolicyTableConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableConfig.property.transitGatewayId">transitGatewayId</a></code> | <code>java.lang.String</code> | The Id of transit gateway. |
-| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags">Ec2TransitGatewayPolicyTableTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags">Ec2TransitGatewayPolicyTableTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}. |
 
 ---
 
@@ -982,7 +982,7 @@ public java.lang.String getTransitGatewayId();
 
 The Id of transit gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#transit_gateway_id Ec2TransitGatewayPolicyTable#transit_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#transit_gateway_id Ec2TransitGatewayPolicyTable#transit_gateway_id}
 
 ---
 
@@ -994,7 +994,7 @@ public IResolvable|java.util.List<Ec2TransitGatewayPolicyTableTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags">Ec2TransitGatewayPolicyTableTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}.
 
 ---
 
@@ -1015,8 +1015,8 @@ Ec2TransitGatewayPolicyTableTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#key Ec2TransitGatewayPolicyTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#value Ec2TransitGatewayPolicyTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#key Ec2TransitGatewayPolicyTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TransitGatewayPolicyTable.Ec2TransitGatewayPolicyTableTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#value Ec2TransitGatewayPolicyTable#value}. |
 
 ---
 
@@ -1028,7 +1028,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#key Ec2TransitGatewayPolicyTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#key Ec2TransitGatewayPolicyTable#key}.
 
 ---
 
@@ -1040,7 +1040,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_transit_gateway_policy_table#value Ec2TransitGatewayPolicyTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_transit_gateway_policy_table#value Ec2TransitGatewayPolicyTable#value}.
 
 ---
 

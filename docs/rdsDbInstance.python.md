@@ -4,7 +4,7 @@
 
 ### RdsDbInstance <a name="RdsDbInstance" id="@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance awscc_rds_db_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance awscc_rds_db_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer"></a>
 
@@ -159,7 +159,7 @@ rdsDbInstance.RdsDbInstance(
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.enableIamDatabaseAuthentication">enable_iam_database_authentication</a></code> | <code>bool \| cdktn.IResolvable</code> | A value that indicates whether to enable mapping of AWS Identity and Access Management (IAM) accounts to database accounts. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.enablePerformanceInsights">enable_performance_insights</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether to enable Performance Insights for the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.engine">engine</a></code> | <code>str</code> | The name of the database engine to use for this DB instance. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.engineLifecycleSupport">engine_lifecycle_support</a></code> | <code>str</code> | The life cycle type for this DB instance. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.engineLifecycleSupport">engine_lifecycle_support</a></code> | <code>str</code> | The lifecycle type for this DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.engineVersion">engine_version</a></code> | <code>str</code> | The version number of the database engine to use. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.iops">iops</a></code> | <code>typing.Union[int, float]</code> | The number of I/O operations per second (IOPS) that the database provisions. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.kmsKeyId">kms_key_id</a></code> | <code>str</code> | The ARN of the AWS KMS key that's used to encrypt the DB instance, such as ``arn:aws:kms:us-east-1:012345678910:key/abcd1234-a123-456a-a12b-a123b4cd56ef``. |
@@ -195,8 +195,8 @@ rdsDbInstance.RdsDbInstance(
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.storageThroughput">storage_throughput</a></code> | <code>typing.Union[int, float]</code> | Specifies the storage throughput value, in mebibyte per second (MiBps), for the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.storageType">storage_type</a></code> | <code>str</code> | The storage type to associate with the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceTags">RdsDbInstanceTags</a>]</code> | Tags to assign to the DB instance. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.tdeCredentialArn">tde_credential_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.tdeCredentialPassword">tde_credential_password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.tdeCredentialArn">tde_credential_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.tdeCredentialPassword">tde_credential_password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.timezone">timezone</a></code> | <code>str</code> | The time zone of the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.useDefaultProcessorFeatures">use_default_processor_features</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether the DB instance class of the DB instance uses its default processor features. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstance.Initializer.parameter.useLatestRestorableTime">use_latest_restorable_time</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether the DB instance is restored from the latest backup time. |
@@ -272,7 +272,7 @@ The additional storage volumes associated with the DB instance.
 
 RDS supports additional storage volumes for RDS for Oracle and RDS for SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#additional_storage_volumes RdsDbInstance#additional_storage_volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#additional_storage_volumes RdsDbInstance#additional_storage_volumes}
 
 ---
 
@@ -332,7 +332,7 @@ Constraints to the amount of storage for each storage type are the following:
 * Enterprise and Standard editions: Must be an integer from 20 to 1024.
 * Web and Express editions: Must be an integer from 20 to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#allocated_storage RdsDbInstance#allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#allocated_storage RdsDbInstance#allocated_storage}
 
 ---
 
@@ -345,7 +345,7 @@ A value that indicates whether major version upgrades are allowed.
 Changing this parameter doesn't result in an outage and the change is asynchronously applied as soon as possible.
 Constraints: Major version upgrades must be allowed when specifying a value for the `EngineVersion` parameter that is a different major version than the DB instance's current version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#allow_major_version_upgrade RdsDbInstance#allow_major_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#allow_major_version_upgrade RdsDbInstance#allow_major_version_upgrade}
 
 ---
 
@@ -359,7 +359,7 @@ If set to `false`, changes are applied during the next maintenance window. Until
 In addition to the settings described in [Modifying a DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html), this property also determines whether the DB instance reboots when a static parameter is modified in the associated DB parameter group.
 Default: `true`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#apply_immediately RdsDbInstance#apply_immediately}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#apply_immediately RdsDbInstance#apply_immediately}
 
 ---
 
@@ -372,7 +372,7 @@ The IAMlong (IAM) roles associated with the DB instance.
 *Amazon Aurora*
 Not applicable. The associated roles are managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#associated_roles RdsDbInstance#associated_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#associated_roles RdsDbInstance#associated_roles}
 
 ---
 
@@ -384,7 +384,7 @@ The AWS KMS key identifier for encryption of the replicated automated backups.
 
 The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS-Region, for example, `arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#automatic_backup_replication_kms_key_id RdsDbInstance#automatic_backup_replication_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#automatic_backup_replication_kms_key_id RdsDbInstance#automatic_backup_replication_kms_key_id}
 
 ---
 
@@ -394,7 +394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS-Region associated with the automated backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#automatic_backup_replication_region RdsDbInstance#automatic_backup_replication_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#automatic_backup_replication_region RdsDbInstance#automatic_backup_replication_region}
 
 ---
 
@@ -407,7 +407,7 @@ The retention period for automated backups in a different AWS Region.
 Use this parameter to set a unique retention period that only applies to cross-Region automated backups. To enable automated backups in a different Region, specify a positive value for the `AutomaticBackupReplicationRegion` parameter.
 If not specified, this parameter defaults to the value of the `BackupRetentionPeriod` parameter. The maximum allowed value is 35.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#automatic_backup_replication_retention_period RdsDbInstance#automatic_backup_replication_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#automatic_backup_replication_retention_period RdsDbInstance#automatic_backup_replication_retention_period}
 
 ---
 
@@ -419,7 +419,7 @@ A value that indicates whether minor engine upgrades are applied automatically t
 
 By default, minor engine upgrades are applied automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#auto_minor_version_upgrade RdsDbInstance#auto_minor_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#auto_minor_version_upgrade RdsDbInstance#auto_minor_version_upgrade}
 
 ---
 
@@ -439,7 +439,7 @@ Constraints:
 
 Example: `us-east-1d`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#availability_zone RdsDbInstance#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#availability_zone RdsDbInstance#availability_zone}
 
 ---
 
@@ -458,7 +458,7 @@ Constraints:
 * Must be a value from 0 to 35
 * Can't be set to 0 if the DB instance is a source to read replicas
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#backup_retention_period RdsDbInstance#backup_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#backup_retention_period RdsDbInstance#backup_retention_period}
 
 ---
 
@@ -477,7 +477,7 @@ Valid Values:
 Default: `region`
 For more information, see [Working with Amazon RDS on Outposts](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-on-outposts.html) in the *Amazon RDS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#backup_target RdsDbInstance#backup_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#backup_target RdsDbInstance#backup_target}
 
 ---
 
@@ -489,7 +489,7 @@ The identifier of the CA certificate for this DB instance.
 
 For more information, see [Using SSL/TLS to encrypt a connection to a DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the *Amazon RDS User Guide* and [Using SSL/TLS to encrypt a connection to a DB cluster](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.SSL.html) in the *Amazon Aurora User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#ca_certificate_identifier RdsDbInstance#ca_certificate_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#ca_certificate_identifier RdsDbInstance#ca_certificate_identifier}
 
 ---
 
@@ -508,7 +508,7 @@ If you are using SSL/TLS to connect to the DB instance, follow the appropriate i
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#certificate_rotation_restart RdsDbInstance#certificate_rotation_restart}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#certificate_rotation_restart RdsDbInstance#certificate_rotation_restart}
 
 ---
 
@@ -521,7 +521,7 @@ For supported engines, indicates that the DB instance should be associated with 
 *Amazon Aurora*
 Not applicable. The character set is managed by the DB cluster. For more information, see [AWS::RDS::DBCluster](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#character_set_name RdsDbInstance#character_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#character_set_name RdsDbInstance#character_set_name}
 
 ---
 
@@ -534,7 +534,7 @@ Specifies whether to copy tags from the DB instance to snapshots of the DB insta
 By default, tags are not copied.
 This setting doesn't apply to Amazon Aurora DB instances. Copying tags to snapshots is managed by the DB cluster. Setting this value for an Aurora DB instance has no effect on the DB cluster setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#copy_tags_to_snapshot RdsDbInstance#copy_tags_to_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#copy_tags_to_snapshot RdsDbInstance#copy_tags_to_snapshot}
 
 ---
 
@@ -553,7 +553,7 @@ Constraints:
 
 For the list of permissions required for the IAM role, see [Configure IAM and your VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/custom-setup-orcl.html#custom-setup-orcl.iam-vpc) in the *Amazon RDS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#custom_iam_instance_profile RdsDbInstance#custom_iam_instance_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#custom_iam_instance_profile RdsDbInstance#custom_iam_instance_profile}
 
 ---
 
@@ -565,7 +565,7 @@ The mode of Database Insights to enable for the DB instance.
 
 Aurora DB instances inherit this value from the DB cluster, so you can't change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#database_insights_mode RdsDbInstance#database_insights_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#database_insights_mode RdsDbInstance#database_insights_mode}
 
 ---
 
@@ -577,7 +577,7 @@ The identifier of the DB cluster that this DB instance will belong to.
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_cluster_identifier RdsDbInstance#db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_cluster_identifier RdsDbInstance#db_cluster_identifier}
 
 ---
 
@@ -596,7 +596,7 @@ Constraints:
 * If you are restoring from a shared manual Multi-AZ DB cluster snapshot, the `DBClusterSnapshotIdentifier` must be the ARN of the shared snapshot.
 * Can't be the identifier of an Aurora DB cluster snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_cluster_snapshot_identifier RdsDbInstance#db_cluster_snapshot_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_cluster_snapshot_identifier RdsDbInstance#db_cluster_snapshot_identifier}
 
 ---
 
@@ -606,7 +606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The compute and memory capacity of the DB instance, for example ``db.m5.large``. Not all DB instance classes are available in all AWS-Regions, or for all database engines. For the full list of DB instance classes, and availability for your engine, see [DB instance classes](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html) in the *Amazon RDS User Guide* or [Aurora DB instance classes](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.DBInstanceClass.html) in the *Amazon Aurora User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_instance_class RdsDbInstance#db_instance_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_instance_class RdsDbInstance#db_instance_class}
 
 ---
 
@@ -620,7 +620,7 @@ If you specify a name, AWS CloudFormation converts it to lowercase. If you don't
 For information about constraints that apply to DB instance identifiers, see [Naming constraints in Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints) in the *Amazon RDS User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_instance_identifier RdsDbInstance#db_instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_instance_identifier RdsDbInstance#db_instance_identifier}
 
 ---
 
@@ -673,7 +673,7 @@ Constraints:
 *SQL Server*
 Not applicable. Must be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_name RdsDbInstance#db_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_name RdsDbInstance#db_name}
 
 ---
 
@@ -683,7 +683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of an existing DB parameter group or a reference to an [AWS::RDS::DBParameterGroup](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html) resource created in the template.  To list all of the available DB parameter group names, use the following command:   ``aws rds describe-db-parameter-groups --query "DBParameterGroups[].DBParameterGroupName" --output text``    If any of the data members of the referenced parameter group are changed during an update, the DB instance might need to be restarted, which causes some interruption. If the parameter group contains static parameters, whether they were changed or not, an update triggers a reboot.   If you don't specify a value for ``DBParameterGroupName`` property, the default DB parameter group for the specified engine and engine version is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_parameter_group_name RdsDbInstance#db_parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_parameter_group_name RdsDbInstance#db_parameter_group_name}
 
 ---
 
@@ -720,7 +720,7 @@ If you specify this property, AWS CloudFormation sends only the following proper
 
 All other properties are ignored. Specify a virtual private cloud (VPC) security group if you want to submit other properties, such as `StorageType`, `StorageEncrypted`, or `KmsKeyId`. If you're already using the `DBSecurityGroups` property, you can't use these other properties by updating your DB instance to use a VPC security group. You must recreate the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_security_groups RdsDbInstance#db_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_security_groups RdsDbInstance#db_security_groups}
 
 ---
 
@@ -751,7 +751,7 @@ If you specify the `DBSnapshotIdentifier` property to restore a DB instance (as 
 *Amazon Aurora*
 Not applicable. Snapshot restore is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_snapshot_identifier RdsDbInstance#db_snapshot_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_snapshot_identifier RdsDbInstance#db_snapshot_identifier}
 
 ---
 
@@ -766,7 +766,7 @@ If you don't specify a DB subnet group, RDS uses the default DB subnet group if 
 For more information about using Amazon RDS in a VPC, see [Amazon VPC and Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html) in the *Amazon RDS User Guide*.
 This setting doesn't apply to Amazon Aurora DB instances. The DB subnet group is managed by the DB cluster. If specified, the setting must match the DB cluster setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_subnet_group_name RdsDbInstance#db_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_subnet_group_name RdsDbInstance#db_subnet_group_name}
 
 ---
 
@@ -778,7 +778,7 @@ The Oracle system identifier (SID), which is the name of the Oracle database ins
 
 In this context, the term "Oracle database instance" refers exclusively to the system global area (SGA) and Oracle background processes. If you don't specify a SID, the value defaults to `RDSCDB`. The Oracle SID is also the name of your CDB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_system_id RdsDbInstance#db_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_system_id RdsDbInstance#db_system_id}
 
 ---
 
@@ -788,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether the DB instance has a dedicated log volume (DLV) enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#dedicated_log_volume RdsDbInstance#dedicated_log_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#dedicated_log_volume RdsDbInstance#dedicated_log_volume}
 
 ---
 
@@ -802,7 +802,7 @@ This parameter isn't case-sensitive. The default is to remove automated backups 
 *Amazon Aurora*
 Not applicable. When you delete a DB cluster, all automated backups for that DB cluster are deleted and can't be recovered. Manual DB cluster snapshots of the DB cluster are not deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#delete_automated_backups RdsDbInstance#delete_automated_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#delete_automated_backups RdsDbInstance#delete_automated_backups}
 
 ---
 
@@ -815,7 +815,7 @@ Specifies whether the DB instance has deletion protection enabled.
 The database can't be deleted when deletion protection is enabled. By default, deletion protection isn't enabled. For more information, see [Deleting a DB Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html).
 This setting doesn't apply to Amazon Aurora DB instances. You can enable or disable deletion protection for the DB cluster. For more information, see `CreateDBCluster`. DB instances in a DB cluster can be deleted even when deletion protection is enabled for the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#deletion_protection RdsDbInstance#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#deletion_protection RdsDbInstance#deletion_protection}
 
 ---
 
@@ -828,7 +828,7 @@ The Active Directory directory ID to create the DB instance in.
 Currently, only Db2, MySQL, Microsoft SQL Server, Oracle, and PostgreSQL DB instances can be created in an Active Directory Domain.
 For more information, see [Kerberos Authentication](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/kerberos-authentication.html) in the *Amazon RDS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain RdsDbInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain RdsDbInstance#domain}
 
 ---
 
@@ -838,7 +838,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for the Secrets Manager secret with the credentials for the user joining the domain.  Example: ``arn:aws:secretsmanager:region:account-number:secret:myselfmanagedADtestsecret-123456``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_auth_secret_arn RdsDbInstance#domain_auth_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_auth_secret_arn RdsDbInstance#domain_auth_secret_arn}
 
 ---
 
@@ -854,7 +854,7 @@ Constraints:
 
 Example: `123.124.125.126,234.235.236.237`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_dns_ips RdsDbInstance#domain_dns_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_dns_ips RdsDbInstance#domain_dns_ips}
 
 ---
 
@@ -870,7 +870,7 @@ Constraints:
 
 Example: `mymanagedADtest.mymanagedAD.mydomain`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_fqdn RdsDbInstance#domain_fqdn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_fqdn RdsDbInstance#domain_fqdn}
 
 ---
 
@@ -885,7 +885,7 @@ This setting doesn't apply to the following DB instances:
 * Amazon Aurora (The domain is managed by the DB cluster.)
 * RDS Custom
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_iam_role_name RdsDbInstance#domain_iam_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_iam_role_name RdsDbInstance#domain_iam_role_name}
 
 ---
 
@@ -902,7 +902,7 @@ Constraints:
 
 Example: `OU=mymanagedADtestOU,DC=mymanagedADtest,DC=mymanagedAD,DC=mydomain`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_ou RdsDbInstance#domain_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_ou RdsDbInstance#domain_ou}
 
 ---
 
@@ -928,7 +928,7 @@ Valid values: `alert`, `audit`, `listener`, `trace`, `oemagent`
 *PostgreSQL*
 Valid values: `postgresql`, `upgrade`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#enable_cloudwatch_logs_exports RdsDbInstance#enable_cloudwatch_logs_exports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#enable_cloudwatch_logs_exports RdsDbInstance#enable_cloudwatch_logs_exports}
 
 ---
 
@@ -943,7 +943,7 @@ This property is supported for RDS for MariaDB, RDS for MySQL, and RDS for Postg
 *Amazon Aurora*
 Not applicable. Mapping AWS IAM accounts to database accounts is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#enable_iam_database_authentication RdsDbInstance#enable_iam_database_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#enable_iam_database_authentication RdsDbInstance#enable_iam_database_authentication}
 
 ---
 
@@ -956,7 +956,7 @@ Specifies whether to enable Performance Insights for the DB instance.
 For more information, see [Using Amazon Performance Insights](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html) in the *Amazon RDS User Guide*.
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#enable_performance_insights RdsDbInstance#enable_performance_insights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#enable_performance_insights RdsDbInstance#enable_performance_insights}
 
 ---
 
@@ -992,7 +992,7 @@ Valid Values:
 * `sqlserver-ex`
 * `sqlserver-web`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#engine RdsDbInstance#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#engine RdsDbInstance#engine}
 
 ---
 
@@ -1000,15 +1000,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-The life cycle type for this DB instance.
+The lifecycle type for this DB instance.
 
 By default, this value is set to `open-source-rds-extended-support`, which enrolls your DB instance into Amazon RDS Extended Support. At the end of standard support, you can avoid charges for Extended Support by setting the value to `open-source-rds-extended-support-disabled`. In this case, creating the DB instance will fail if the DB major version is past its end of standard support date.
-This setting applies only to RDS for MySQL and RDS for PostgreSQL. For Amazon Aurora DB instances, the life cycle type is managed by the DB cluster.
+This setting applies only to RDS for MySQL and RDS for PostgreSQL. For Amazon Aurora DB instances, the engine lifecycle support is managed by the DB cluster.
 You can use this setting to enroll your DB instance into Amazon RDS Extended Support. With RDS Extended Support, you can run the selected major engine version on your DB instance past the end of standard support for that engine version. For more information, see [Amazon RDS Extended Support with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html) in the *Amazon RDS User Guide*.
 Valid Values: `open-source-rds-extended-support | open-source-rds-extended-support-disabled`
 Default: `open-source-rds-extended-support`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#engine_lifecycle_support RdsDbInstance#engine_lifecycle_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#engine_lifecycle_support RdsDbInstance#engine_lifecycle_support}
 
 ---
 
@@ -1035,7 +1035,7 @@ See [Oracle Database Engine Release Notes](https://docs.aws.amazon.com/AmazonRDS
 *PostgreSQL*
 See [Supported PostgreSQL Database Versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.DBVersions) in the *Amazon RDS User Guide.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#engine_version RdsDbInstance#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#engine_version RdsDbInstance#engine_version}
 
 ---
 
@@ -1053,7 +1053,7 @@ Constraints:
 * For RDS for Db2, MariaDB, MySQL, Oracle, and PostgreSQL - Must be a multiple between .5 and 50 of the storage amount for the DB instance.
 * For RDS for SQL Server - Must be a multiple between 1 and 50 of the storage amount for the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#iops RdsDbInstance#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#iops RdsDbInstance#iops}
 
 ---
 
@@ -1072,7 +1072,7 @@ If you specify `DBSecurityGroups`, AWS CloudFormation ignores this property. To 
 *Amazon Aurora*
 Not applicable. The KMS key identifier is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
 
 ---
 
@@ -1095,7 +1095,7 @@ Valid Values:
 
 If you've specified `DBSecurityGroups` and then you update the license model, AWS CloudFormation replaces the underlying DB instance. This will incur some interruptions to database availability.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#license_model RdsDbInstance#license_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#license_model RdsDbInstance#license_model}
 
 ---
 
@@ -1110,7 +1110,7 @@ Constraints:
 
 * Can't manage the master user password with AWS Secrets Manager if `MasterUserPassword` is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#manage_master_user_password RdsDbInstance#manage_master_user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#manage_master_user_password RdsDbInstance#manage_master_user_password}
 
 ---
 
@@ -1128,7 +1128,7 @@ You can specify one of the following values:
 
 This option is only valid for RDS for MySQL, RDS for MariaDB, RDS for PostgreSQL, Aurora MySQL, and Aurora PostgreSQL engines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_user_authentication_type RdsDbInstance#master_user_authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_user_authentication_type RdsDbInstance#master_user_authentication_type}
 
 ---
 
@@ -1183,7 +1183,7 @@ Constraints:
 * First character must be a letter.
 * Can't be a reserved word for the chosen database engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_username RdsDbInstance#master_username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_username RdsDbInstance#master_username}
 
 ---
 
@@ -1209,7 +1209,7 @@ Constraints: Must contain from 8 to 30 characters.
 *RDS for PostgreSQL*
 Constraints: Must contain from 8 to 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_user_password RdsDbInstance#master_user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_user_password RdsDbInstance#master_user_password}
 
 ---
 
@@ -1221,7 +1221,7 @@ The secret managed by RDS in AWS Secrets Manager for the master user password.
 
 For more information, see [Password management with Secrets Manager](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-secrets-manager.html) in the *Amazon RDS User Guide.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_user_secret RdsDbInstance#master_user_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_user_secret RdsDbInstance#master_user_secret}
 
 ---
 
@@ -1237,7 +1237,7 @@ This setting doesn't apply to the following DB instances:
 * Amazon Aurora (Storage is managed by the DB cluster.)
 * RDS Custom
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#max_allocated_storage RdsDbInstance#max_allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#max_allocated_storage RdsDbInstance#max_allocated_storage}
 
 ---
 
@@ -1253,7 +1253,7 @@ This setting doesn't apply to RDS Custom DB instances.
 Valid Values: `0 | 1 | 5 | 10 | 15 | 30 | 60`
 Default: `0`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#monitoring_interval RdsDbInstance#monitoring_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#monitoring_interval RdsDbInstance#monitoring_interval}
 
 ---
 
@@ -1267,7 +1267,7 @@ For example, `arn:aws:iam:123456789012:role/emaccess`. For information on creati
 If `MonitoringInterval` is set to a value other than `0`, then you must supply a `MonitoringRoleArn` value.
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#monitoring_role_arn RdsDbInstance#monitoring_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#monitoring_role_arn RdsDbInstance#monitoring_role_arn}
 
 ---
 
@@ -1280,7 +1280,7 @@ Specifies whether the DB instance is a Multi-AZ deployment.
 You can't set the `AvailabilityZone` parameter if the DB instance is a Multi-AZ deployment.
 This setting doesn't apply to Amazon Aurora because the DB instance Availability Zones (AZs) are managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#multi_az RdsDbInstance#multi_az}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#multi_az RdsDbInstance#multi_az}
 
 ---
 
@@ -1292,7 +1292,7 @@ The name of the NCHAR character set for the Oracle DB instance.
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#nchar_character_set_name RdsDbInstance#nchar_character_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#nchar_character_set_name RdsDbInstance#nchar_character_set_name}
 
 ---
 
@@ -1310,7 +1310,7 @@ Valid values:
 The network type is determined by the `DBSubnetGroup` specified for the DB instance. A `DBSubnetGroup` can support only the IPv4 protocol or the IPv4 and IPv6 protocols (`DUAL`).
 For more information, see [Working with a DB instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) in the *Amazon RDS User Guide.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#network_type RdsDbInstance#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#network_type RdsDbInstance#network_type}
 
 ---
 
@@ -1322,7 +1322,7 @@ Indicates that the DB instance should be associated with the specified option gr
 
 Permanent options, such as the TDE option for Oracle Advanced Security TDE, can't be removed from an option group. Also, that option group can't be removed from a DB instance once it is associated with a DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#option_group_name RdsDbInstance#option_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#option_group_name RdsDbInstance#option_group_name}
 
 ---
 
@@ -1344,7 +1344,7 @@ If you do not specify a value for `PerformanceInsightsKMSKeyId`, then Amazon RDS
 To avoid drift, omit both `EnablePerformanceInsights` and `PerformanceInsightsKMSKeyId` during initial instance creation, then set both properties together when you're ready to enable Performance Insights.
 For information about enabling Performance Insights, see [EnablePerformanceInsights](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-enableperformanceinsights).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#performance_insights_kms_key_id RdsDbInstance#performance_insights_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#performance_insights_kms_key_id RdsDbInstance#performance_insights_kms_key_id}
 
 ---
 
@@ -1365,7 +1365,7 @@ Valid Values:
 Default: `7` days
 If you specify a retention period that isn't valid, such as `94`, Amazon RDS returns an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#performance_insights_retention_period RdsDbInstance#performance_insights_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#performance_insights_retention_period RdsDbInstance#performance_insights_retention_period}
 
 ---
 
@@ -1390,7 +1390,7 @@ Constraints:
 
 * For RDS for Microsoft SQL Server, the value can't be `1234`, `1434`, `3260`, `3343`, `3389`, `47001`, or `49152-49156`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#port RdsDbInstance#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#port RdsDbInstance#port}
 
 ---
 
@@ -1411,7 +1411,7 @@ Constraints:
 *Amazon Aurora*
 Not applicable. The daily time range for creating automated backups is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#preferred_backup_window RdsDbInstance#preferred_backup_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#preferred_backup_window RdsDbInstance#preferred_backup_window}
 
 ---
 
@@ -1426,7 +1426,7 @@ The default is a 30-minute window selected at random from an 8-hour block of tim
 This property applies when AWS CloudFormation initially creates the DB instance. If you use AWS CloudFormation to update the DB instance, those updates are applied immediately.
 Constraints: Minimum 30-minute window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#preferred_maintenance_window RdsDbInstance#preferred_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#preferred_maintenance_window RdsDbInstance#preferred_maintenance_window}
 
 ---
 
@@ -1438,7 +1438,7 @@ The number of CPU cores and the number of threads per core for the DB instance c
 
 This setting doesn't apply to Amazon Aurora or RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#processor_features RdsDbInstance#processor_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#processor_features RdsDbInstance#processor_features}
 
 ---
 
@@ -1453,7 +1453,7 @@ This setting doesn't apply to RDS Custom DB instances.
 Default: `1`
 Valid Values: `0 - 15`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#promotion_tier RdsDbInstance#promotion_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#promotion_tier RdsDbInstance#promotion_tier}
 
 ---
 
@@ -1466,7 +1466,7 @@ Indicates whether the DB instance is an internet-facing instance.
 If you specify true, AWS CloudFormation creates an instance with a publicly resolvable DNS name, which resolves to a public IP address. If you specify false, AWS CloudFormation creates an internal instance with a DNS name that resolves to a private IP address.
 The default behavior value depends on your VPC setup and the database subnet group. For more information, see the `PubliclyAccessible` parameter in the [CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html) in the *Amazon RDS API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#publicly_accessible RdsDbInstance#publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#publicly_accessible RdsDbInstance#publicly_accessible}
 
 ---
 
@@ -1481,7 +1481,7 @@ This setting is only supported in RDS for Oracle.
 Default: `open-read-only`
 Valid Values: `open-read-only` or `mounted`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#replica_mode RdsDbInstance#replica_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#replica_mode RdsDbInstance#replica_mode}
 
 ---
 
@@ -1500,7 +1500,7 @@ Constraints:
 
 Example: `2009-09-07T23:45:00Z`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#restore_time RdsDbInstance#restore_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#restore_time RdsDbInstance#restore_time}
 
 ---
 
@@ -1518,7 +1518,7 @@ Constraints:
 * The specified DB cluster must have automatic backups enabled, that is, its backup retention period must be greater than 0.
 * The source DB cluster must be in the same AWS-Region as the read replica. Cross-Region replication isn't supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_db_cluster_identifier RdsDbInstance#source_db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_db_cluster_identifier RdsDbInstance#source_db_cluster_identifier}
 
 ---
 
@@ -1530,7 +1530,7 @@ The Amazon Resource Name (ARN) of the replicated automated backups from which to
 
 This setting doesn't apply to RDS Custom.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_db_instance_automated_backups_arn RdsDbInstance#source_db_instance_automated_backups_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_db_instance_automated_backups_arn RdsDbInstance#source_db_instance_automated_backups_arn}
 
 ---
 
@@ -1552,7 +1552,7 @@ If you specify the `UseLatestRestorableTime` or `RestoreTime` properties in conj
 * If the source DB instance is in a different region than the read replica, specify the source region in `SourceRegion`, and specify an ARN for a valid DB instance in `SourceDBInstanceIdentifier`. For more information, see [Constructing a Amazon RDS Amazon Resource Name (ARN)](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Tagging.html#USER_Tagging.ARN) in the *Amazon RDS User Guide*.
 * For DB instances in Amazon Aurora clusters, don't specify this property. Amazon RDS automatically assigns writer and reader DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_db_instance_identifier RdsDbInstance#source_db_instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_db_instance_identifier RdsDbInstance#source_db_instance_identifier}
 
 ---
 
@@ -1562,7 +1562,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource ID of the source DB instance from which to restore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_dbi_resource_id RdsDbInstance#source_dbi_resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_dbi_resource_id RdsDbInstance#source_dbi_resource_id}
 
 ---
 
@@ -1572,7 +1572,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the region that contains the source DB instance for the read replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_region RdsDbInstance#source_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_region RdsDbInstance#source_region}
 
 ---
 
@@ -1590,7 +1590,7 @@ If you specify `DBSnapshotIdentifier` property, don't specify this property. The
 *Amazon Aurora*
 Not applicable. The encryption for DB instances is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_encrypted RdsDbInstance#storage_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_encrypted RdsDbInstance#storage_encrypted}
 
 ---
 
@@ -1603,7 +1603,7 @@ Specifies the storage throughput value, in mebibyte per second (MiBps), for the 
 This setting applies only to the `gp3` storage type.
 This setting doesn't apply to RDS Custom or Amazon Aurora.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_throughput RdsDbInstance#storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_throughput RdsDbInstance#storage_throughput}
 
 ---
 
@@ -1618,7 +1618,7 @@ This setting doesn't apply to Amazon Aurora DB instances. Storage is managed by 
 Valid Values: `gp2 | gp3 | io1 | io2 | standard`
 Default: `io1`, if the `Iops` parameter is specified. Otherwise, `gp3`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_type RdsDbInstance#storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_type RdsDbInstance#storage_type}
 
 ---
 
@@ -1628,7 +1628,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags to assign to the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tags RdsDbInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tags RdsDbInstance#tags}
 
 ---
 
@@ -1636,7 +1636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}.
 
 ---
 
@@ -1644,7 +1644,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}.
 
 ---
 
@@ -1656,7 +1656,7 @@ The time zone of the DB instance.
 
 The time zone parameter is currently supported only by [RDS for Db2](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/db2-time-zone) and [RDS for SQL Server](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html#SQLServer.Concepts.General.TimeZone).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#timezone RdsDbInstance#timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#timezone RdsDbInstance#timezone}
 
 ---
 
@@ -1668,7 +1668,7 @@ Specifies whether the DB instance class of the DB instance uses its default proc
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#use_default_processor_features RdsDbInstance#use_default_processor_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#use_default_processor_features RdsDbInstance#use_default_processor_features}
 
 ---
 
@@ -1683,7 +1683,7 @@ Constraints:
 
 * Can't be specified if the `RestoreTime` parameter is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#use_latest_restorable_time RdsDbInstance#use_latest_restorable_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#use_latest_restorable_time RdsDbInstance#use_latest_restorable_time}
 
 ---
 
@@ -1706,7 +1706,7 @@ To avoid this situation, migrate your DB instance to using VPC security groups o
 *Amazon Aurora*
 Not applicable. The associated list of EC2 VPC security groups is managed by the DB cluster. If specified, the setting must match the DB cluster setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#vpc_security_groups RdsDbInstance#vpc_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#vpc_security_groups RdsDbInstance#vpc_security_groups}
 
 ---
 
@@ -2219,7 +2219,7 @@ def put_master_user_secret(
 
 The AWS KMS key identifier that is used to encrypt the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
 
 ---
 
@@ -2863,7 +2863,7 @@ The construct id used in the generated config for the RdsDbInstance to import.
 
 The id of the existing RdsDbInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -5113,7 +5113,7 @@ The amount of storage allocated for the additional storage volume, in gibibytes 
 
 The minimum is 20 GiB. The maximum is 65,536 GiB (64 TiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#allocated_storage RdsDbInstance#allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#allocated_storage RdsDbInstance#allocated_storage}
 
 ---
 
@@ -5127,7 +5127,7 @@ iops: typing.Union[int, float]
 
 The number of I/O operations per second (IOPS) provisioned for the additional storage volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#iops RdsDbInstance#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#iops RdsDbInstance#iops}
 
 ---
 
@@ -5141,7 +5141,7 @@ max_allocated_storage: typing.Union[int, float]
 
 The upper limit in gibibytes (GiB) to which RDS can automatically scale the storage of the additional storage volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#max_allocated_storage RdsDbInstance#max_allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#max_allocated_storage RdsDbInstance#max_allocated_storage}
 
 ---
 
@@ -5157,7 +5157,7 @@ The storage throughput value for the additional storage volume, in mebibytes per
 
 This setting applies only to the General Purpose SSD (`gp3`) storage type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_throughput RdsDbInstance#storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_throughput RdsDbInstance#storage_throughput}
 
 ---
 
@@ -5171,7 +5171,7 @@ storage_type: str
 
 The storage type for the additional storage volume.  Valid Values: ``GP3 | IO2``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_type RdsDbInstance#storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_type RdsDbInstance#storage_type}
 
 ---
 
@@ -5185,7 +5185,7 @@ volume_name: str
 
 The name of the additional storage volume.  Valid Values: ``RDSDBDATA2 | RDSDBDATA3 | RDSDBDATA4``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#volume_name RdsDbInstance#volume_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#volume_name RdsDbInstance#volume_name}
 
 ---
 
@@ -5223,7 +5223,7 @@ The name of the feature associated with the AWS Identity and Access Management (
 
 IAM roles that are associated with a DB instance grant permission for the DB instance to access other AWS services on your behalf. For the list of supported feature names, see the `SupportedFeatureNames` description in [DBEngineVersion](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DBEngineVersion.html) in the *Amazon RDS API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#feature_name RdsDbInstance#feature_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#feature_name RdsDbInstance#feature_name}
 
 ---
 
@@ -5237,7 +5237,7 @@ role_arn: str
 
 The Amazon Resource Name (ARN) of the IAM role that is associated with the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#role_arn RdsDbInstance#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#role_arn RdsDbInstance#role_arn}
 
 ---
 
@@ -5405,7 +5405,7 @@ rdsDbInstance.RdsDbInstanceConfig(
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.enableIamDatabaseAuthentication">enable_iam_database_authentication</a></code> | <code>bool \| cdktn.IResolvable</code> | A value that indicates whether to enable mapping of AWS Identity and Access Management (IAM) accounts to database accounts. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.enablePerformanceInsights">enable_performance_insights</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether to enable Performance Insights for the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.engine">engine</a></code> | <code>str</code> | The name of the database engine to use for this DB instance. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.engineLifecycleSupport">engine_lifecycle_support</a></code> | <code>str</code> | The life cycle type for this DB instance. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.engineLifecycleSupport">engine_lifecycle_support</a></code> | <code>str</code> | The lifecycle type for this DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.engineVersion">engine_version</a></code> | <code>str</code> | The version number of the database engine to use. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.iops">iops</a></code> | <code>typing.Union[int, float]</code> | The number of I/O operations per second (IOPS) that the database provisions. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | The ARN of the AWS KMS key that's used to encrypt the DB instance, such as ``arn:aws:kms:us-east-1:012345678910:key/abcd1234-a123-456a-a12b-a123b4cd56ef``. |
@@ -5441,8 +5441,8 @@ rdsDbInstance.RdsDbInstanceConfig(
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.storageThroughput">storage_throughput</a></code> | <code>typing.Union[int, float]</code> | Specifies the storage throughput value, in mebibyte per second (MiBps), for the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.storageType">storage_type</a></code> | <code>str</code> | The storage type to associate with the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceTags">RdsDbInstanceTags</a>]</code> | Tags to assign to the DB instance. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.tdeCredentialArn">tde_credential_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.tdeCredentialPassword">tde_credential_password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.tdeCredentialArn">tde_credential_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.tdeCredentialPassword">tde_credential_password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.timezone">timezone</a></code> | <code>str</code> | The time zone of the DB instance. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.useDefaultProcessorFeatures">use_default_processor_features</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether the DB instance class of the DB instance uses its default processor features. |
 | <code><a href="#@cdktn/provider-awscc.rdsDbInstance.RdsDbInstanceConfig.property.useLatestRestorableTime">use_latest_restorable_time</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether the DB instance is restored from the latest backup time. |
@@ -5532,7 +5532,7 @@ The additional storage volumes associated with the DB instance.
 
 RDS supports additional storage volumes for RDS for Oracle and RDS for SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#additional_storage_volumes RdsDbInstance#additional_storage_volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#additional_storage_volumes RdsDbInstance#additional_storage_volumes}
 
 ---
 
@@ -5596,7 +5596,7 @@ Constraints to the amount of storage for each storage type are the following:
 * Enterprise and Standard editions: Must be an integer from 20 to 1024.
 * Web and Express editions: Must be an integer from 20 to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#allocated_storage RdsDbInstance#allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#allocated_storage RdsDbInstance#allocated_storage}
 
 ---
 
@@ -5613,7 +5613,7 @@ A value that indicates whether major version upgrades are allowed.
 Changing this parameter doesn't result in an outage and the change is asynchronously applied as soon as possible.
 Constraints: Major version upgrades must be allowed when specifying a value for the `EngineVersion` parameter that is a different major version than the DB instance's current version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#allow_major_version_upgrade RdsDbInstance#allow_major_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#allow_major_version_upgrade RdsDbInstance#allow_major_version_upgrade}
 
 ---
 
@@ -5631,7 +5631,7 @@ If set to `false`, changes are applied during the next maintenance window. Until
 In addition to the settings described in [Modifying a DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.Modifying.html), this property also determines whether the DB instance reboots when a static parameter is modified in the associated DB parameter group.
 Default: `true`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#apply_immediately RdsDbInstance#apply_immediately}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#apply_immediately RdsDbInstance#apply_immediately}
 
 ---
 
@@ -5648,7 +5648,7 @@ The IAMlong (IAM) roles associated with the DB instance.
 *Amazon Aurora*
 Not applicable. The associated roles are managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#associated_roles RdsDbInstance#associated_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#associated_roles RdsDbInstance#associated_roles}
 
 ---
 
@@ -5664,7 +5664,7 @@ The AWS KMS key identifier for encryption of the replicated automated backups.
 
 The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS-Region, for example, `arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#automatic_backup_replication_kms_key_id RdsDbInstance#automatic_backup_replication_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#automatic_backup_replication_kms_key_id RdsDbInstance#automatic_backup_replication_kms_key_id}
 
 ---
 
@@ -5678,7 +5678,7 @@ automatic_backup_replication_region: str
 
 The AWS-Region associated with the automated backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#automatic_backup_replication_region RdsDbInstance#automatic_backup_replication_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#automatic_backup_replication_region RdsDbInstance#automatic_backup_replication_region}
 
 ---
 
@@ -5695,7 +5695,7 @@ The retention period for automated backups in a different AWS Region.
 Use this parameter to set a unique retention period that only applies to cross-Region automated backups. To enable automated backups in a different Region, specify a positive value for the `AutomaticBackupReplicationRegion` parameter.
 If not specified, this parameter defaults to the value of the `BackupRetentionPeriod` parameter. The maximum allowed value is 35.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#automatic_backup_replication_retention_period RdsDbInstance#automatic_backup_replication_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#automatic_backup_replication_retention_period RdsDbInstance#automatic_backup_replication_retention_period}
 
 ---
 
@@ -5711,7 +5711,7 @@ A value that indicates whether minor engine upgrades are applied automatically t
 
 By default, minor engine upgrades are applied automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#auto_minor_version_upgrade RdsDbInstance#auto_minor_version_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#auto_minor_version_upgrade RdsDbInstance#auto_minor_version_upgrade}
 
 ---
 
@@ -5735,7 +5735,7 @@ Constraints:
 
 Example: `us-east-1d`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#availability_zone RdsDbInstance#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#availability_zone RdsDbInstance#availability_zone}
 
 ---
 
@@ -5758,7 +5758,7 @@ Constraints:
 * Must be a value from 0 to 35
 * Can't be set to 0 if the DB instance is a source to read replicas
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#backup_retention_period RdsDbInstance#backup_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#backup_retention_period RdsDbInstance#backup_retention_period}
 
 ---
 
@@ -5781,7 +5781,7 @@ Valid Values:
 Default: `region`
 For more information, see [Working with Amazon RDS on Outposts](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-on-outposts.html) in the *Amazon RDS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#backup_target RdsDbInstance#backup_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#backup_target RdsDbInstance#backup_target}
 
 ---
 
@@ -5797,7 +5797,7 @@ The identifier of the CA certificate for this DB instance.
 
 For more information, see [Using SSL/TLS to encrypt a connection to a DB instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html) in the *Amazon RDS User Guide* and [Using SSL/TLS to encrypt a connection to a DB cluster](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.SSL.html) in the *Amazon Aurora User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#ca_certificate_identifier RdsDbInstance#ca_certificate_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#ca_certificate_identifier RdsDbInstance#ca_certificate_identifier}
 
 ---
 
@@ -5820,7 +5820,7 @@ If you are using SSL/TLS to connect to the DB instance, follow the appropriate i
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#certificate_rotation_restart RdsDbInstance#certificate_rotation_restart}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#certificate_rotation_restart RdsDbInstance#certificate_rotation_restart}
 
 ---
 
@@ -5837,7 +5837,7 @@ For supported engines, indicates that the DB instance should be associated with 
 *Amazon Aurora*
 Not applicable. The character set is managed by the DB cluster. For more information, see [AWS::RDS::DBCluster](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#character_set_name RdsDbInstance#character_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#character_set_name RdsDbInstance#character_set_name}
 
 ---
 
@@ -5854,7 +5854,7 @@ Specifies whether to copy tags from the DB instance to snapshots of the DB insta
 By default, tags are not copied.
 This setting doesn't apply to Amazon Aurora DB instances. Copying tags to snapshots is managed by the DB cluster. Setting this value for an Aurora DB instance has no effect on the DB cluster setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#copy_tags_to_snapshot RdsDbInstance#copy_tags_to_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#copy_tags_to_snapshot RdsDbInstance#copy_tags_to_snapshot}
 
 ---
 
@@ -5877,7 +5877,7 @@ Constraints:
 
 For the list of permissions required for the IAM role, see [Configure IAM and your VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/custom-setup-orcl.html#custom-setup-orcl.iam-vpc) in the *Amazon RDS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#custom_iam_instance_profile RdsDbInstance#custom_iam_instance_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#custom_iam_instance_profile RdsDbInstance#custom_iam_instance_profile}
 
 ---
 
@@ -5893,7 +5893,7 @@ The mode of Database Insights to enable for the DB instance.
 
 Aurora DB instances inherit this value from the DB cluster, so you can't change this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#database_insights_mode RdsDbInstance#database_insights_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#database_insights_mode RdsDbInstance#database_insights_mode}
 
 ---
 
@@ -5909,7 +5909,7 @@ The identifier of the DB cluster that this DB instance will belong to.
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_cluster_identifier RdsDbInstance#db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_cluster_identifier RdsDbInstance#db_cluster_identifier}
 
 ---
 
@@ -5932,7 +5932,7 @@ Constraints:
 * If you are restoring from a shared manual Multi-AZ DB cluster snapshot, the `DBClusterSnapshotIdentifier` must be the ARN of the shared snapshot.
 * Can't be the identifier of an Aurora DB cluster snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_cluster_snapshot_identifier RdsDbInstance#db_cluster_snapshot_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_cluster_snapshot_identifier RdsDbInstance#db_cluster_snapshot_identifier}
 
 ---
 
@@ -5946,7 +5946,7 @@ db_instance_class: str
 
 The compute and memory capacity of the DB instance, for example ``db.m5.large``. Not all DB instance classes are available in all AWS-Regions, or for all database engines. For the full list of DB instance classes, and availability for your engine, see [DB instance classes](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html) in the *Amazon RDS User Guide* or [Aurora DB instance classes](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.DBInstanceClass.html) in the *Amazon Aurora User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_instance_class RdsDbInstance#db_instance_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_instance_class RdsDbInstance#db_instance_class}
 
 ---
 
@@ -5964,7 +5964,7 @@ If you specify a name, AWS CloudFormation converts it to lowercase. If you don't
 For information about constraints that apply to DB instance identifiers, see [Naming constraints in Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Limits.html#RDS_Limits.Constraints) in the *Amazon RDS User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_instance_identifier RdsDbInstance#db_instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_instance_identifier RdsDbInstance#db_instance_identifier}
 
 ---
 
@@ -6021,7 +6021,7 @@ Constraints:
 *SQL Server*
 Not applicable. Must be null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_name RdsDbInstance#db_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_name RdsDbInstance#db_name}
 
 ---
 
@@ -6035,7 +6035,7 @@ db_parameter_group_name: str
 
 The name of an existing DB parameter group or a reference to an [AWS::RDS::DBParameterGroup](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html) resource created in the template.  To list all of the available DB parameter group names, use the following command:   ``aws rds describe-db-parameter-groups --query "DBParameterGroups[].DBParameterGroupName" --output text``    If any of the data members of the referenced parameter group are changed during an update, the DB instance might need to be restarted, which causes some interruption. If the parameter group contains static parameters, whether they were changed or not, an update triggers a reboot.   If you don't specify a value for ``DBParameterGroupName`` property, the default DB parameter group for the specified engine and engine version is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_parameter_group_name RdsDbInstance#db_parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_parameter_group_name RdsDbInstance#db_parameter_group_name}
 
 ---
 
@@ -6076,7 +6076,7 @@ If you specify this property, AWS CloudFormation sends only the following proper
 
 All other properties are ignored. Specify a virtual private cloud (VPC) security group if you want to submit other properties, such as `StorageType`, `StorageEncrypted`, or `KmsKeyId`. If you're already using the `DBSecurityGroups` property, you can't use these other properties by updating your DB instance to use a VPC security group. You must recreate the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_security_groups RdsDbInstance#db_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_security_groups RdsDbInstance#db_security_groups}
 
 ---
 
@@ -6111,7 +6111,7 @@ If you specify the `DBSnapshotIdentifier` property to restore a DB instance (as 
 *Amazon Aurora*
 Not applicable. Snapshot restore is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_snapshot_identifier RdsDbInstance#db_snapshot_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_snapshot_identifier RdsDbInstance#db_snapshot_identifier}
 
 ---
 
@@ -6130,7 +6130,7 @@ If you don't specify a DB subnet group, RDS uses the default DB subnet group if 
 For more information about using Amazon RDS in a VPC, see [Amazon VPC and Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.html) in the *Amazon RDS User Guide*.
 This setting doesn't apply to Amazon Aurora DB instances. The DB subnet group is managed by the DB cluster. If specified, the setting must match the DB cluster setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_subnet_group_name RdsDbInstance#db_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_subnet_group_name RdsDbInstance#db_subnet_group_name}
 
 ---
 
@@ -6146,7 +6146,7 @@ The Oracle system identifier (SID), which is the name of the Oracle database ins
 
 In this context, the term "Oracle database instance" refers exclusively to the system global area (SGA) and Oracle background processes. If you don't specify a SID, the value defaults to `RDSCDB`. The Oracle SID is also the name of your CDB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#db_system_id RdsDbInstance#db_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#db_system_id RdsDbInstance#db_system_id}
 
 ---
 
@@ -6160,7 +6160,7 @@ dedicated_log_volume: bool | IResolvable
 
 Indicates whether the DB instance has a dedicated log volume (DLV) enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#dedicated_log_volume RdsDbInstance#dedicated_log_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#dedicated_log_volume RdsDbInstance#dedicated_log_volume}
 
 ---
 
@@ -6178,7 +6178,7 @@ This parameter isn't case-sensitive. The default is to remove automated backups 
 *Amazon Aurora*
 Not applicable. When you delete a DB cluster, all automated backups for that DB cluster are deleted and can't be recovered. Manual DB cluster snapshots of the DB cluster are not deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#delete_automated_backups RdsDbInstance#delete_automated_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#delete_automated_backups RdsDbInstance#delete_automated_backups}
 
 ---
 
@@ -6195,7 +6195,7 @@ Specifies whether the DB instance has deletion protection enabled.
 The database can't be deleted when deletion protection is enabled. By default, deletion protection isn't enabled. For more information, see [Deleting a DB Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html).
 This setting doesn't apply to Amazon Aurora DB instances. You can enable or disable deletion protection for the DB cluster. For more information, see `CreateDBCluster`. DB instances in a DB cluster can be deleted even when deletion protection is enabled for the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#deletion_protection RdsDbInstance#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#deletion_protection RdsDbInstance#deletion_protection}
 
 ---
 
@@ -6212,7 +6212,7 @@ The Active Directory directory ID to create the DB instance in.
 Currently, only Db2, MySQL, Microsoft SQL Server, Oracle, and PostgreSQL DB instances can be created in an Active Directory Domain.
 For more information, see [Kerberos Authentication](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/kerberos-authentication.html) in the *Amazon RDS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain RdsDbInstance#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain RdsDbInstance#domain}
 
 ---
 
@@ -6226,7 +6226,7 @@ domain_auth_secret_arn: str
 
 The ARN for the Secrets Manager secret with the credentials for the user joining the domain.  Example: ``arn:aws:secretsmanager:region:account-number:secret:myselfmanagedADtestsecret-123456``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_auth_secret_arn RdsDbInstance#domain_auth_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_auth_secret_arn RdsDbInstance#domain_auth_secret_arn}
 
 ---
 
@@ -6246,7 +6246,7 @@ Constraints:
 
 Example: `123.124.125.126,234.235.236.237`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_dns_ips RdsDbInstance#domain_dns_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_dns_ips RdsDbInstance#domain_dns_ips}
 
 ---
 
@@ -6266,7 +6266,7 @@ Constraints:
 
 Example: `mymanagedADtest.mymanagedAD.mydomain`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_fqdn RdsDbInstance#domain_fqdn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_fqdn RdsDbInstance#domain_fqdn}
 
 ---
 
@@ -6285,7 +6285,7 @@ This setting doesn't apply to the following DB instances:
 * Amazon Aurora (The domain is managed by the DB cluster.)
 * RDS Custom
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_iam_role_name RdsDbInstance#domain_iam_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_iam_role_name RdsDbInstance#domain_iam_role_name}
 
 ---
 
@@ -6306,7 +6306,7 @@ Constraints:
 
 Example: `OU=mymanagedADtestOU,DC=mymanagedADtest,DC=mymanagedAD,DC=mydomain`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#domain_ou RdsDbInstance#domain_ou}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#domain_ou RdsDbInstance#domain_ou}
 
 ---
 
@@ -6336,7 +6336,7 @@ Valid values: `alert`, `audit`, `listener`, `trace`, `oemagent`
 *PostgreSQL*
 Valid values: `postgresql`, `upgrade`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#enable_cloudwatch_logs_exports RdsDbInstance#enable_cloudwatch_logs_exports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#enable_cloudwatch_logs_exports RdsDbInstance#enable_cloudwatch_logs_exports}
 
 ---
 
@@ -6355,7 +6355,7 @@ This property is supported for RDS for MariaDB, RDS for MySQL, and RDS for Postg
 *Amazon Aurora*
 Not applicable. Mapping AWS IAM accounts to database accounts is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#enable_iam_database_authentication RdsDbInstance#enable_iam_database_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#enable_iam_database_authentication RdsDbInstance#enable_iam_database_authentication}
 
 ---
 
@@ -6372,7 +6372,7 @@ Specifies whether to enable Performance Insights for the DB instance.
 For more information, see [Using Amazon Performance Insights](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html) in the *Amazon RDS User Guide*.
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#enable_performance_insights RdsDbInstance#enable_performance_insights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#enable_performance_insights RdsDbInstance#enable_performance_insights}
 
 ---
 
@@ -6412,7 +6412,7 @@ Valid Values:
 * `sqlserver-ex`
 * `sqlserver-web`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#engine RdsDbInstance#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#engine RdsDbInstance#engine}
 
 ---
 
@@ -6424,15 +6424,15 @@ engine_lifecycle_support: str
 
 - *Type:* str
 
-The life cycle type for this DB instance.
+The lifecycle type for this DB instance.
 
 By default, this value is set to `open-source-rds-extended-support`, which enrolls your DB instance into Amazon RDS Extended Support. At the end of standard support, you can avoid charges for Extended Support by setting the value to `open-source-rds-extended-support-disabled`. In this case, creating the DB instance will fail if the DB major version is past its end of standard support date.
-This setting applies only to RDS for MySQL and RDS for PostgreSQL. For Amazon Aurora DB instances, the life cycle type is managed by the DB cluster.
+This setting applies only to RDS for MySQL and RDS for PostgreSQL. For Amazon Aurora DB instances, the engine lifecycle support is managed by the DB cluster.
 You can use this setting to enroll your DB instance into Amazon RDS Extended Support. With RDS Extended Support, you can run the selected major engine version on your DB instance past the end of standard support for that engine version. For more information, see [Amazon RDS Extended Support with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html) in the *Amazon RDS User Guide*.
 Valid Values: `open-source-rds-extended-support | open-source-rds-extended-support-disabled`
 Default: `open-source-rds-extended-support`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#engine_lifecycle_support RdsDbInstance#engine_lifecycle_support}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#engine_lifecycle_support RdsDbInstance#engine_lifecycle_support}
 
 ---
 
@@ -6463,7 +6463,7 @@ See [Oracle Database Engine Release Notes](https://docs.aws.amazon.com/AmazonRDS
 *PostgreSQL*
 See [Supported PostgreSQL Database Versions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.DBVersions) in the *Amazon RDS User Guide.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#engine_version RdsDbInstance#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#engine_version RdsDbInstance#engine_version}
 
 ---
 
@@ -6485,7 +6485,7 @@ Constraints:
 * For RDS for Db2, MariaDB, MySQL, Oracle, and PostgreSQL - Must be a multiple between .5 and 50 of the storage amount for the DB instance.
 * For RDS for SQL Server - Must be a multiple between 1 and 50 of the storage amount for the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#iops RdsDbInstance#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#iops RdsDbInstance#iops}
 
 ---
 
@@ -6508,7 +6508,7 @@ If you specify `DBSecurityGroups`, AWS CloudFormation ignores this property. To 
 *Amazon Aurora*
 Not applicable. The KMS key identifier is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
 
 ---
 
@@ -6535,7 +6535,7 @@ Valid Values:
 
 If you've specified `DBSecurityGroups` and then you update the license model, AWS CloudFormation replaces the underlying DB instance. This will incur some interruptions to database availability.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#license_model RdsDbInstance#license_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#license_model RdsDbInstance#license_model}
 
 ---
 
@@ -6554,7 +6554,7 @@ Constraints:
 
 * Can't manage the master user password with AWS Secrets Manager if `MasterUserPassword` is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#manage_master_user_password RdsDbInstance#manage_master_user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#manage_master_user_password RdsDbInstance#manage_master_user_password}
 
 ---
 
@@ -6576,7 +6576,7 @@ You can specify one of the following values:
 
 This option is only valid for RDS for MySQL, RDS for MariaDB, RDS for PostgreSQL, Aurora MySQL, and Aurora PostgreSQL engines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_user_authentication_type RdsDbInstance#master_user_authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_user_authentication_type RdsDbInstance#master_user_authentication_type}
 
 ---
 
@@ -6635,7 +6635,7 @@ Constraints:
 * First character must be a letter.
 * Can't be a reserved word for the chosen database engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_username RdsDbInstance#master_username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_username RdsDbInstance#master_username}
 
 ---
 
@@ -6665,7 +6665,7 @@ Constraints: Must contain from 8 to 30 characters.
 *RDS for PostgreSQL*
 Constraints: Must contain from 8 to 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_user_password RdsDbInstance#master_user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_user_password RdsDbInstance#master_user_password}
 
 ---
 
@@ -6681,7 +6681,7 @@ The secret managed by RDS in AWS Secrets Manager for the master user password.
 
 For more information, see [Password management with Secrets Manager](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-secrets-manager.html) in the *Amazon RDS User Guide.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#master_user_secret RdsDbInstance#master_user_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#master_user_secret RdsDbInstance#master_user_secret}
 
 ---
 
@@ -6701,7 +6701,7 @@ This setting doesn't apply to the following DB instances:
 * Amazon Aurora (Storage is managed by the DB cluster.)
 * RDS Custom
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#max_allocated_storage RdsDbInstance#max_allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#max_allocated_storage RdsDbInstance#max_allocated_storage}
 
 ---
 
@@ -6721,7 +6721,7 @@ This setting doesn't apply to RDS Custom DB instances.
 Valid Values: `0 | 1 | 5 | 10 | 15 | 30 | 60`
 Default: `0`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#monitoring_interval RdsDbInstance#monitoring_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#monitoring_interval RdsDbInstance#monitoring_interval}
 
 ---
 
@@ -6739,7 +6739,7 @@ For example, `arn:aws:iam:123456789012:role/emaccess`. For information on creati
 If `MonitoringInterval` is set to a value other than `0`, then you must supply a `MonitoringRoleArn` value.
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#monitoring_role_arn RdsDbInstance#monitoring_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#monitoring_role_arn RdsDbInstance#monitoring_role_arn}
 
 ---
 
@@ -6756,7 +6756,7 @@ Specifies whether the DB instance is a Multi-AZ deployment.
 You can't set the `AvailabilityZone` parameter if the DB instance is a Multi-AZ deployment.
 This setting doesn't apply to Amazon Aurora because the DB instance Availability Zones (AZs) are managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#multi_az RdsDbInstance#multi_az}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#multi_az RdsDbInstance#multi_az}
 
 ---
 
@@ -6772,7 +6772,7 @@ The name of the NCHAR character set for the Oracle DB instance.
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#nchar_character_set_name RdsDbInstance#nchar_character_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#nchar_character_set_name RdsDbInstance#nchar_character_set_name}
 
 ---
 
@@ -6794,7 +6794,7 @@ Valid values:
 The network type is determined by the `DBSubnetGroup` specified for the DB instance. A `DBSubnetGroup` can support only the IPv4 protocol or the IPv4 and IPv6 protocols (`DUAL`).
 For more information, see [Working with a DB instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) in the *Amazon RDS User Guide.*
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#network_type RdsDbInstance#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#network_type RdsDbInstance#network_type}
 
 ---
 
@@ -6810,7 +6810,7 @@ Indicates that the DB instance should be associated with the specified option gr
 
 Permanent options, such as the TDE option for Oracle Advanced Security TDE, can't be removed from an option group. Also, that option group can't be removed from a DB instance once it is associated with a DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#option_group_name RdsDbInstance#option_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#option_group_name RdsDbInstance#option_group_name}
 
 ---
 
@@ -6836,7 +6836,7 @@ If you do not specify a value for `PerformanceInsightsKMSKeyId`, then Amazon RDS
 To avoid drift, omit both `EnablePerformanceInsights` and `PerformanceInsightsKMSKeyId` during initial instance creation, then set both properties together when you're ready to enable Performance Insights.
 For information about enabling Performance Insights, see [EnablePerformanceInsights](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-enableperformanceinsights).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#performance_insights_kms_key_id RdsDbInstance#performance_insights_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#performance_insights_kms_key_id RdsDbInstance#performance_insights_kms_key_id}
 
 ---
 
@@ -6861,7 +6861,7 @@ Valid Values:
 Default: `7` days
 If you specify a retention period that isn't valid, such as `94`, Amazon RDS returns an error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#performance_insights_retention_period RdsDbInstance#performance_insights_retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#performance_insights_retention_period RdsDbInstance#performance_insights_retention_period}
 
 ---
 
@@ -6890,7 +6890,7 @@ Constraints:
 
 * For RDS for Microsoft SQL Server, the value can't be `1234`, `1434`, `3260`, `3343`, `3389`, `47001`, or `49152-49156`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#port RdsDbInstance#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#port RdsDbInstance#port}
 
 ---
 
@@ -6915,7 +6915,7 @@ Constraints:
 *Amazon Aurora*
 Not applicable. The daily time range for creating automated backups is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#preferred_backup_window RdsDbInstance#preferred_backup_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#preferred_backup_window RdsDbInstance#preferred_backup_window}
 
 ---
 
@@ -6934,7 +6934,7 @@ The default is a 30-minute window selected at random from an 8-hour block of tim
 This property applies when AWS CloudFormation initially creates the DB instance. If you use AWS CloudFormation to update the DB instance, those updates are applied immediately.
 Constraints: Minimum 30-minute window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#preferred_maintenance_window RdsDbInstance#preferred_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#preferred_maintenance_window RdsDbInstance#preferred_maintenance_window}
 
 ---
 
@@ -6950,7 +6950,7 @@ The number of CPU cores and the number of threads per core for the DB instance c
 
 This setting doesn't apply to Amazon Aurora or RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#processor_features RdsDbInstance#processor_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#processor_features RdsDbInstance#processor_features}
 
 ---
 
@@ -6969,7 +6969,7 @@ This setting doesn't apply to RDS Custom DB instances.
 Default: `1`
 Valid Values: `0 - 15`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#promotion_tier RdsDbInstance#promotion_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#promotion_tier RdsDbInstance#promotion_tier}
 
 ---
 
@@ -6986,7 +6986,7 @@ Indicates whether the DB instance is an internet-facing instance.
 If you specify true, AWS CloudFormation creates an instance with a publicly resolvable DNS name, which resolves to a public IP address. If you specify false, AWS CloudFormation creates an internal instance with a DNS name that resolves to a private IP address.
 The default behavior value depends on your VPC setup and the database subnet group. For more information, see the `PubliclyAccessible` parameter in the [CreateDBInstance](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_CreateDBInstance.html) in the *Amazon RDS API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#publicly_accessible RdsDbInstance#publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#publicly_accessible RdsDbInstance#publicly_accessible}
 
 ---
 
@@ -7005,7 +7005,7 @@ This setting is only supported in RDS for Oracle.
 Default: `open-read-only`
 Valid Values: `open-read-only` or `mounted`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#replica_mode RdsDbInstance#replica_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#replica_mode RdsDbInstance#replica_mode}
 
 ---
 
@@ -7028,7 +7028,7 @@ Constraints:
 
 Example: `2009-09-07T23:45:00Z`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#restore_time RdsDbInstance#restore_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#restore_time RdsDbInstance#restore_time}
 
 ---
 
@@ -7050,7 +7050,7 @@ Constraints:
 * The specified DB cluster must have automatic backups enabled, that is, its backup retention period must be greater than 0.
 * The source DB cluster must be in the same AWS-Region as the read replica. Cross-Region replication isn't supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_db_cluster_identifier RdsDbInstance#source_db_cluster_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_db_cluster_identifier RdsDbInstance#source_db_cluster_identifier}
 
 ---
 
@@ -7066,7 +7066,7 @@ The Amazon Resource Name (ARN) of the replicated automated backups from which to
 
 This setting doesn't apply to RDS Custom.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_db_instance_automated_backups_arn RdsDbInstance#source_db_instance_automated_backups_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_db_instance_automated_backups_arn RdsDbInstance#source_db_instance_automated_backups_arn}
 
 ---
 
@@ -7092,7 +7092,7 @@ If you specify the `UseLatestRestorableTime` or `RestoreTime` properties in conj
 * If the source DB instance is in a different region than the read replica, specify the source region in `SourceRegion`, and specify an ARN for a valid DB instance in `SourceDBInstanceIdentifier`. For more information, see [Constructing a Amazon RDS Amazon Resource Name (ARN)](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Tagging.html#USER_Tagging.ARN) in the *Amazon RDS User Guide*.
 * For DB instances in Amazon Aurora clusters, don't specify this property. Amazon RDS automatically assigns writer and reader DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_db_instance_identifier RdsDbInstance#source_db_instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_db_instance_identifier RdsDbInstance#source_db_instance_identifier}
 
 ---
 
@@ -7106,7 +7106,7 @@ source_dbi_resource_id: str
 
 The resource ID of the source DB instance from which to restore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_dbi_resource_id RdsDbInstance#source_dbi_resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_dbi_resource_id RdsDbInstance#source_dbi_resource_id}
 
 ---
 
@@ -7120,7 +7120,7 @@ source_region: str
 
 The ID of the region that contains the source DB instance for the read replica.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#source_region RdsDbInstance#source_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#source_region RdsDbInstance#source_region}
 
 ---
 
@@ -7142,7 +7142,7 @@ If you specify `DBSnapshotIdentifier` property, don't specify this property. The
 *Amazon Aurora*
 Not applicable. The encryption for DB instances is managed by the DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_encrypted RdsDbInstance#storage_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_encrypted RdsDbInstance#storage_encrypted}
 
 ---
 
@@ -7159,7 +7159,7 @@ Specifies the storage throughput value, in mebibyte per second (MiBps), for the 
 This setting applies only to the `gp3` storage type.
 This setting doesn't apply to RDS Custom or Amazon Aurora.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_throughput RdsDbInstance#storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_throughput RdsDbInstance#storage_throughput}
 
 ---
 
@@ -7178,7 +7178,7 @@ This setting doesn't apply to Amazon Aurora DB instances. Storage is managed by 
 Valid Values: `gp2 | gp3 | io1 | io2 | standard`
 Default: `io1`, if the `Iops` parameter is specified. Otherwise, `gp3`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#storage_type RdsDbInstance#storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#storage_type RdsDbInstance#storage_type}
 
 ---
 
@@ -7192,7 +7192,7 @@ tags: IResolvable | typing.List[RdsDbInstanceTags]
 
 Tags to assign to the DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tags RdsDbInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tags RdsDbInstance#tags}
 
 ---
 
@@ -7204,7 +7204,7 @@ tde_credential_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_arn RdsDbInstance#tde_credential_arn}.
 
 ---
 
@@ -7216,7 +7216,7 @@ tde_credential_password: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#tde_credential_password RdsDbInstance#tde_credential_password}.
 
 ---
 
@@ -7232,7 +7232,7 @@ The time zone of the DB instance.
 
 The time zone parameter is currently supported only by [RDS for Db2](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/db2-time-zone) and [RDS for SQL Server](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html#SQLServer.Concepts.General.TimeZone).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#timezone RdsDbInstance#timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#timezone RdsDbInstance#timezone}
 
 ---
 
@@ -7248,7 +7248,7 @@ Specifies whether the DB instance class of the DB instance uses its default proc
 
 This setting doesn't apply to RDS Custom DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#use_default_processor_features RdsDbInstance#use_default_processor_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#use_default_processor_features RdsDbInstance#use_default_processor_features}
 
 ---
 
@@ -7267,7 +7267,7 @@ Constraints:
 
 * Can't be specified if the `RestoreTime` parameter is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#use_latest_restorable_time RdsDbInstance#use_latest_restorable_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#use_latest_restorable_time RdsDbInstance#use_latest_restorable_time}
 
 ---
 
@@ -7294,7 +7294,7 @@ To avoid this situation, migrate your DB instance to using VPC security groups o
 *Amazon Aurora*
 Not applicable. The associated list of EC2 VPC security groups is managed by the DB cluster. If specified, the setting must match the DB cluster setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#vpc_security_groups RdsDbInstance#vpc_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#vpc_security_groups RdsDbInstance#vpc_security_groups}
 
 ---
 
@@ -7350,7 +7350,7 @@ kms_key_id: str
 
 The AWS KMS key identifier that is used to encrypt the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#kms_key_id RdsDbInstance#kms_key_id}
 
 ---
 
@@ -7386,7 +7386,7 @@ name: str
 
 The name of the processor feature. Valid names are ``coreCount`` and ``threadsPerCore``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#name RdsDbInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#name RdsDbInstance#name}
 
 ---
 
@@ -7400,7 +7400,7 @@ value: str
 
 The value of a processor feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#value RdsDbInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#value RdsDbInstance#value}
 
 ---
 
@@ -7449,7 +7449,7 @@ A key is the required name of the tag.
 
 The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#key RdsDbInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#key RdsDbInstance#key}
 
 ---
 
@@ -7465,7 +7465,7 @@ A value is the optional value of the tag.
 
 The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with `aws:` or `rds:`. The string can only contain only the set of Unicode letters, digits, white-space, '*', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\p{L}\p{Z}\p{N}*.:/=+\-@]*)$").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_instance#value RdsDbInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_instance#value RdsDbInstance#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TransitGateways <a name="DataAwsccEc2TransitGateways" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateways.DataAwsccEc2TransitGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGateways.DataAwsccEc2TransitGateways.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

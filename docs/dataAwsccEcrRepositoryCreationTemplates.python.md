@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrRepositoryCreationTemplates <a name="DataAwsccEcrRepositoryCreationTemplates" id="@cdktn/provider-awscc.dataAwsccEcrRepositoryCreationTemplates.DataAwsccEcrRepositoryCreationTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRepositoryCreationTemplates.DataAwsccEcrRepositoryCreationTemplates.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEcrRepositoryCrea
 
 The id of the existing DataAwsccEcrRepositoryCreationTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ecr_repository_creation_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ecr_repository_creation_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

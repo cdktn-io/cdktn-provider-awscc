@@ -4,7 +4,7 @@
 
 ### SagemakerModelPackage <a name="SagemakerModelPackage" id="@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackage.Initializer"></a>
 
@@ -154,7 +154,7 @@ Must be unique amongst siblings in the same scope
 
 An array of additional Inference Specification objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#additional_inference_specifications SagemakerModelPackage#additional_inference_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#additional_inference_specifications SagemakerModelPackage#additional_inference_specifications}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of additional Inference Specification objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#additional_inference_specifications_to_add SagemakerModelPackage#additional_inference_specifications_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#additional_inference_specifications_to_add SagemakerModelPackage#additional_inference_specifications_to_add}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description provided for the model approval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#approval_description SagemakerModelPackage#approval_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#approval_description SagemakerModelPackage#approval_description}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to certify the model package for listing on AWS Marketplace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#certify_for_marketplace SagemakerModelPackage#certify_for_marketplace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#certify_for_marketplace SagemakerModelPackage#certify_for_marketplace}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A unique token that guarantees that the call to this API is idempotent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#client_token SagemakerModelPackage#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#client_token SagemakerModelPackage#client_token}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The metadata properties associated with the model package versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#customer_metadata_properties SagemakerModelPackage#customer_metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#customer_metadata_properties SagemakerModelPackage#customer_metadata_properties}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The machine learning domain of the model package you specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#domain SagemakerModelPackage#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#domain SagemakerModelPackage#domain}
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents the drift check baselines that can be used when the model monitor is set using the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#drift_check_baselines SagemakerModelPackage#drift_check_baselines}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#drift_check_baselines SagemakerModelPackage#drift_check_baselines}
 
 ---
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Details about inference jobs that can be run with models based on this model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#inference_specification SagemakerModelPackage#inference_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#inference_specification SagemakerModelPackage#inference_specification}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#metadata_properties SagemakerModelPackage#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#metadata_properties SagemakerModelPackage#metadata_properties}
 
 ---
 
@@ -254,7 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The approval status of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_approval_status SagemakerModelPackage#model_approval_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_approval_status SagemakerModelPackage#model_approval_status}
 
 ---
 
@@ -264,7 +264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The model card associated with the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_card SagemakerModelPackage#model_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_card SagemakerModelPackage#model_card}
 
 ---
 
@@ -274,7 +274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure that contains model metrics reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_metrics SagemakerModelPackage#model_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_metrics SagemakerModelPackage#model_metrics}
 
 ---
 
@@ -284,7 +284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_description SagemakerModelPackage#model_package_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_description SagemakerModelPackage#model_package_description}
 
 ---
 
@@ -294,7 +294,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the model package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_group_name SagemakerModelPackage#model_package_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_group_name SagemakerModelPackage#model_package_group_name}
 
 ---
 
@@ -304,7 +304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name or arn of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_name SagemakerModelPackage#model_package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_name SagemakerModelPackage#model_package_name}
 
 ---
 
@@ -314,7 +314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Details about the current status of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_status_details SagemakerModelPackage#model_package_status_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_status_details SagemakerModelPackage#model_package_status_details}
 
 ---
 
@@ -324,7 +324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_version SagemakerModelPackage#model_package_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_version SagemakerModelPackage#model_package_version}
 
 ---
 
@@ -334,7 +334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Simple Storage Service (Amazon S3) path where the sample payload are stored pointing to single gzip compressed tar archive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#sample_payload_url SagemakerModelPackage#sample_payload_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#sample_payload_url SagemakerModelPackage#sample_payload_url}
 
 ---
 
@@ -344,7 +344,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional AWS Key Management Service key to encrypt, decrypt, and re-encrypt model package information for regulated workloads with highly sensitive data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#security_config SagemakerModelPackage#security_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#security_config SagemakerModelPackage#security_config}
 
 ---
 
@@ -354,7 +354,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if you want to skip model validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#skip_model_validation SagemakerModelPackage#skip_model_validation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#skip_model_validation SagemakerModelPackage#skip_model_validation}
 
 ---
 
@@ -364,7 +364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Details about the algorithm that was used to create the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#source_algorithm_specification SagemakerModelPackage#source_algorithm_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#source_algorithm_specification SagemakerModelPackage#source_algorithm_specification}
 
 ---
 
@@ -374,7 +374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URI of the source for the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#source_uri SagemakerModelPackage#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#source_uri SagemakerModelPackage#source_uri}
 
 ---
 
@@ -384,7 +384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#tags SagemakerModelPackage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#tags SagemakerModelPackage#tags}
 
 ---
 
@@ -394,7 +394,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The machine learning task your model package accomplishes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#task SagemakerModelPackage#task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#task SagemakerModelPackage#task}
 
 ---
 
@@ -404,7 +404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies configurations for one or more transform jobs that Amazon SageMaker runs to test the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_specification SagemakerModelPackage#validation_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_specification SagemakerModelPackage#validation_specification}
 
 ---
 
@@ -1191,7 +1191,7 @@ The construct id used in the generated config for the SagemakerModelPackage to i
 
 The id of the existing SagemakerModelPackage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2055,7 +2055,7 @@ public IResolvable|java.util.List<SagemakerModelPackageAdditionalInferenceSpecif
 
 The Amazon ECR registry path of the Docker image that contains the inference code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#containers SagemakerModelPackage#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#containers SagemakerModelPackage#containers}
 
 ---
 
@@ -2069,7 +2069,7 @@ public java.lang.String getDescription();
 
 A description of the additional Inference specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#description SagemakerModelPackage#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#description SagemakerModelPackage#description}
 
 ---
 
@@ -2085,7 +2085,7 @@ A unique name to identify the additional inference specification.
 
 The name must be unique within the list of your additional inference specifications for a particular model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#name SagemakerModelPackage#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#name SagemakerModelPackage#name}
 
 ---
 
@@ -2099,7 +2099,7 @@ public java.util.List<java.lang.String> getSupportedContentTypes();
 
 The supported MIME types for the input data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_content_types SagemakerModelPackage#supported_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_content_types SagemakerModelPackage#supported_content_types}
 
 ---
 
@@ -2113,7 +2113,7 @@ public java.util.List<java.lang.String> getSupportedRealtimeInferenceInstanceTyp
 
 A list of the instance types that are used to generate inferences in real-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_realtime_inference_instance_types SagemakerModelPackage#supported_realtime_inference_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_realtime_inference_instance_types SagemakerModelPackage#supported_realtime_inference_instance_types}
 
 ---
 
@@ -2127,7 +2127,7 @@ public java.util.List<java.lang.String> getSupportedResponseMimeTypes();
 
 The supported MIME types for the output data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_response_mime_types SagemakerModelPackage#supported_response_mime_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_response_mime_types SagemakerModelPackage#supported_response_mime_types}
 
 ---
 
@@ -2141,7 +2141,7 @@ public java.util.List<java.lang.String> getSupportedTransformInstanceTypes();
 
 A list of the instance types on which a transformation job can be run or on which an endpoint can be deployed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_transform_instance_types SagemakerModelPackage#supported_transform_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_transform_instance_types SagemakerModelPackage#supported_transform_instance_types}
 
 ---
 
@@ -2178,7 +2178,7 @@ SagemakerModelPackageAdditionalInferenceSpecificationsContainers.builder()
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainers.property.imageDigest">imageDigest</a></code> | <code>java.lang.String</code> | An MD5 hash of the training algorithm that identifies the Docker image used for training. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainers.property.modelDataSource">modelDataSource</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSource">SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSource</a></code> | Specifies the location of ML model data to deploy during endpoint creation. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainers.property.modelDataUrl">modelDataUrl</a></code> | <code>java.lang.String</code> | A structure with Model Input details. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainers.property.modelInput">modelInput</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput">SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainers.property.modelInput">modelInput</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput">SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainers.property.nearestModelName">nearestModelName</a></code> | <code>java.lang.String</code> | The name of a pre-trained machine learning benchmarked by Amazon SageMaker Inference Recommender model that matches your model. |
 
 ---
@@ -2193,7 +2193,7 @@ public java.lang.String getContainerHostname();
 
 The DNS host name for the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#container_hostname SagemakerModelPackage#container_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#container_hostname SagemakerModelPackage#container_hostname}
 
 ---
 
@@ -2207,7 +2207,7 @@ public java.util.Map<java.lang.String, java.lang.String> getEnvironment();
 
 Sets the environment variables in the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
 
 ---
 
@@ -2221,7 +2221,7 @@ public java.lang.String getFramework();
 
 The machine learning framework of the model package container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#framework SagemakerModelPackage#framework}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#framework SagemakerModelPackage#framework}
 
 ---
 
@@ -2235,7 +2235,7 @@ public java.lang.String getFrameworkVersion();
 
 The framework version of the Model Package Container Image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#framework_version SagemakerModelPackage#framework_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#framework_version SagemakerModelPackage#framework_version}
 
 ---
 
@@ -2249,7 +2249,7 @@ public java.lang.String getImage();
 
 The Amazon EC2 Container Registry (Amazon ECR) path where inference code is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#image SagemakerModelPackage#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#image SagemakerModelPackage#image}
 
 ---
 
@@ -2263,7 +2263,7 @@ public java.lang.String getImageDigest();
 
 An MD5 hash of the training algorithm that identifies the Docker image used for training.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#image_digest SagemakerModelPackage#image_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#image_digest SagemakerModelPackage#image_digest}
 
 ---
 
@@ -2277,7 +2277,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelData
 
 Specifies the location of ML model data to deploy during endpoint creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_source SagemakerModelPackage#model_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_source SagemakerModelPackage#model_data_source}
 
 ---
 
@@ -2291,7 +2291,7 @@ public java.lang.String getModelDataUrl();
 
 A structure with Model Input details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
 
 ---
 
@@ -2303,7 +2303,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInpu
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput">SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelInput</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}.
 
 ---
 
@@ -2317,7 +2317,7 @@ public java.lang.String getNearestModelName();
 
 The name of a pre-trained machine learning benchmarked by Amazon SageMaker Inference Recommender model that matches your model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#nearest_model_name SagemakerModelPackage#nearest_model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#nearest_model_name SagemakerModelPackage#nearest_model_name}
 
 ---
 
@@ -2351,7 +2351,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelData
 
 Specifies the S3 location of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
 
 ---
 
@@ -2391,7 +2391,7 @@ public java.lang.String getCompressionType();
 
 Specifies how the ML model data is prepared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
 
 ---
 
@@ -2405,7 +2405,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelData
 
 Specifies the access configuration file for the ML model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_access_config SagemakerModelPackage#model_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_access_config SagemakerModelPackage#model_access_config}
 
 ---
 
@@ -2419,7 +2419,7 @@ public java.lang.String getS3DataType();
 
 Specifies the type of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
 
 ---
 
@@ -2433,7 +2433,7 @@ public java.lang.String getS3Uri();
 
 Specifies the S3 path of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -2467,7 +2467,7 @@ public java.lang.Boolean|IResolvable getAcceptEula();
 
 Specifies agreement to the model end-user license agreement (EULA).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
 
 ---
 
@@ -2501,7 +2501,7 @@ public java.lang.String getDataInputConfig();
 
 The input configuration object for the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#data_input_config SagemakerModelPackage#data_input_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#data_input_config SagemakerModelPackage#data_input_config}
 
 ---
 
@@ -2547,7 +2547,7 @@ public IResolvable|java.util.List<SagemakerModelPackageAdditionalInferenceSpecif
 
 The Amazon ECR registry path of the Docker image that contains the inference code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#containers SagemakerModelPackage#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#containers SagemakerModelPackage#containers}
 
 ---
 
@@ -2561,7 +2561,7 @@ public java.lang.String getDescription();
 
 A description of the additional Inference specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#description SagemakerModelPackage#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#description SagemakerModelPackage#description}
 
 ---
 
@@ -2577,7 +2577,7 @@ A unique name to identify the additional inference specification.
 
 The name must be unique within the list of your additional inference specifications for a particular model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#name SagemakerModelPackage#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#name SagemakerModelPackage#name}
 
 ---
 
@@ -2591,7 +2591,7 @@ public java.util.List<java.lang.String> getSupportedContentTypes();
 
 The supported MIME types for the input data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_content_types SagemakerModelPackage#supported_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_content_types SagemakerModelPackage#supported_content_types}
 
 ---
 
@@ -2605,7 +2605,7 @@ public java.util.List<java.lang.String> getSupportedRealtimeInferenceInstanceTyp
 
 A list of the instance types that are used to generate inferences in real-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_realtime_inference_instance_types SagemakerModelPackage#supported_realtime_inference_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_realtime_inference_instance_types SagemakerModelPackage#supported_realtime_inference_instance_types}
 
 ---
 
@@ -2619,7 +2619,7 @@ public java.util.List<java.lang.String> getSupportedResponseMimeTypes();
 
 The supported MIME types for the output data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_response_mime_types SagemakerModelPackage#supported_response_mime_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_response_mime_types SagemakerModelPackage#supported_response_mime_types}
 
 ---
 
@@ -2633,7 +2633,7 @@ public java.util.List<java.lang.String> getSupportedTransformInstanceTypes();
 
 A list of the instance types on which a transformation job can be run or on which an endpoint can be deployed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_transform_instance_types SagemakerModelPackage#supported_transform_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_transform_instance_types SagemakerModelPackage#supported_transform_instance_types}
 
 ---
 
@@ -2670,7 +2670,7 @@ SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.builder()
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.property.imageDigest">imageDigest</a></code> | <code>java.lang.String</code> | An MD5 hash of the training algorithm that identifies the Docker image used for training. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.property.modelDataSource">modelDataSource</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSource">SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelDataSource</a></code> | Specifies the location of ML model data to deploy during endpoint creation. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.property.modelDataUrl">modelDataUrl</a></code> | <code>java.lang.String</code> | A structure with Model Input details. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.property.modelInput">modelInput</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput">SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.property.modelInput">modelInput</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput">SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainers.property.nearestModelName">nearestModelName</a></code> | <code>java.lang.String</code> | The name of a pre-trained machine learning benchmarked by Amazon SageMaker Inference Recommender model that matches your model. |
 
 ---
@@ -2685,7 +2685,7 @@ public java.lang.String getContainerHostname();
 
 The DNS host name for the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#container_hostname SagemakerModelPackage#container_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#container_hostname SagemakerModelPackage#container_hostname}
 
 ---
 
@@ -2699,7 +2699,7 @@ public java.util.Map<java.lang.String, java.lang.String> getEnvironment();
 
 Sets the environment variables in the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
 
 ---
 
@@ -2713,7 +2713,7 @@ public java.lang.String getFramework();
 
 The machine learning framework of the model package container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#framework SagemakerModelPackage#framework}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#framework SagemakerModelPackage#framework}
 
 ---
 
@@ -2727,7 +2727,7 @@ public java.lang.String getFrameworkVersion();
 
 The framework version of the Model Package Container Image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#framework_version SagemakerModelPackage#framework_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#framework_version SagemakerModelPackage#framework_version}
 
 ---
 
@@ -2741,7 +2741,7 @@ public java.lang.String getImage();
 
 The Amazon EC2 Container Registry (Amazon ECR) path where inference code is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#image SagemakerModelPackage#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#image SagemakerModelPackage#image}
 
 ---
 
@@ -2755,7 +2755,7 @@ public java.lang.String getImageDigest();
 
 An MD5 hash of the training algorithm that identifies the Docker image used for training.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#image_digest SagemakerModelPackage#image_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#image_digest SagemakerModelPackage#image_digest}
 
 ---
 
@@ -2769,7 +2769,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersMode
 
 Specifies the location of ML model data to deploy during endpoint creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_source SagemakerModelPackage#model_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_source SagemakerModelPackage#model_data_source}
 
 ---
 
@@ -2783,7 +2783,7 @@ public java.lang.String getModelDataUrl();
 
 A structure with Model Input details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
 
 ---
 
@@ -2795,7 +2795,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersMode
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput">SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}.
 
 ---
 
@@ -2809,7 +2809,7 @@ public java.lang.String getNearestModelName();
 
 The name of a pre-trained machine learning benchmarked by Amazon SageMaker Inference Recommender model that matches your model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#nearest_model_name SagemakerModelPackage#nearest_model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#nearest_model_name SagemakerModelPackage#nearest_model_name}
 
 ---
 
@@ -2843,7 +2843,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersMode
 
 Specifies the S3 location of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
 
 ---
 
@@ -2883,7 +2883,7 @@ public java.lang.String getCompressionType();
 
 Specifies how the ML model data is prepared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
 
 ---
 
@@ -2897,7 +2897,7 @@ public SagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersMode
 
 Specifies the access configuration file for the ML model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_access_config SagemakerModelPackage#model_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_access_config SagemakerModelPackage#model_access_config}
 
 ---
 
@@ -2911,7 +2911,7 @@ public java.lang.String getS3DataType();
 
 Specifies the type of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
 
 ---
 
@@ -2925,7 +2925,7 @@ public java.lang.String getS3Uri();
 
 Specifies the S3 path of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -2959,7 +2959,7 @@ public java.lang.Boolean|IResolvable getAcceptEula();
 
 Specifies agreement to the model end-user license agreement (EULA).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
 
 ---
 
@@ -2993,7 +2993,7 @@ public java.lang.String getDataInputConfig();
 
 The input configuration object for the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#data_input_config SagemakerModelPackage#data_input_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#data_input_config SagemakerModelPackage#data_input_config}
 
 ---
 
@@ -3161,7 +3161,7 @@ public IResolvable|java.util.List<SagemakerModelPackageAdditionalInferenceSpecif
 
 An array of additional Inference Specification objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#additional_inference_specifications SagemakerModelPackage#additional_inference_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#additional_inference_specifications SagemakerModelPackage#additional_inference_specifications}
 
 ---
 
@@ -3175,7 +3175,7 @@ public IResolvable|java.util.List<SagemakerModelPackageAdditionalInferenceSpecif
 
 An array of additional Inference Specification objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#additional_inference_specifications_to_add SagemakerModelPackage#additional_inference_specifications_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#additional_inference_specifications_to_add SagemakerModelPackage#additional_inference_specifications_to_add}
 
 ---
 
@@ -3189,7 +3189,7 @@ public java.lang.String getApprovalDescription();
 
 A description provided for the model approval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#approval_description SagemakerModelPackage#approval_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#approval_description SagemakerModelPackage#approval_description}
 
 ---
 
@@ -3203,7 +3203,7 @@ public java.lang.Boolean|IResolvable getCertifyForMarketplace();
 
 Whether to certify the model package for listing on AWS Marketplace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#certify_for_marketplace SagemakerModelPackage#certify_for_marketplace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#certify_for_marketplace SagemakerModelPackage#certify_for_marketplace}
 
 ---
 
@@ -3217,7 +3217,7 @@ public java.lang.String getClientToken();
 
 A unique token that guarantees that the call to this API is idempotent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#client_token SagemakerModelPackage#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#client_token SagemakerModelPackage#client_token}
 
 ---
 
@@ -3231,7 +3231,7 @@ public java.util.Map<java.lang.String, java.lang.String> getCustomerMetadataProp
 
 The metadata properties associated with the model package versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#customer_metadata_properties SagemakerModelPackage#customer_metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#customer_metadata_properties SagemakerModelPackage#customer_metadata_properties}
 
 ---
 
@@ -3245,7 +3245,7 @@ public java.lang.String getDomain();
 
 The machine learning domain of the model package you specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#domain SagemakerModelPackage#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#domain SagemakerModelPackage#domain}
 
 ---
 
@@ -3259,7 +3259,7 @@ public SagemakerModelPackageDriftCheckBaselines getDriftCheckBaselines();
 
 Represents the drift check baselines that can be used when the model monitor is set using the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#drift_check_baselines SagemakerModelPackage#drift_check_baselines}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#drift_check_baselines SagemakerModelPackage#drift_check_baselines}
 
 ---
 
@@ -3273,7 +3273,7 @@ public SagemakerModelPackageInferenceSpecification getInferenceSpecification();
 
 Details about inference jobs that can be run with models based on this model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#inference_specification SagemakerModelPackage#inference_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#inference_specification SagemakerModelPackage#inference_specification}
 
 ---
 
@@ -3287,7 +3287,7 @@ public SagemakerModelPackageMetadataProperties getMetadataProperties();
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#metadata_properties SagemakerModelPackage#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#metadata_properties SagemakerModelPackage#metadata_properties}
 
 ---
 
@@ -3301,7 +3301,7 @@ public java.lang.String getModelApprovalStatus();
 
 The approval status of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_approval_status SagemakerModelPackage#model_approval_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_approval_status SagemakerModelPackage#model_approval_status}
 
 ---
 
@@ -3315,7 +3315,7 @@ public SagemakerModelPackageModelCard getModelCard();
 
 The model card associated with the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_card SagemakerModelPackage#model_card}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_card SagemakerModelPackage#model_card}
 
 ---
 
@@ -3329,7 +3329,7 @@ public SagemakerModelPackageModelMetrics getModelMetrics();
 
 A structure that contains model metrics reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_metrics SagemakerModelPackage#model_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_metrics SagemakerModelPackage#model_metrics}
 
 ---
 
@@ -3343,7 +3343,7 @@ public java.lang.String getModelPackageDescription();
 
 The description of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_description SagemakerModelPackage#model_package_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_description SagemakerModelPackage#model_package_description}
 
 ---
 
@@ -3357,7 +3357,7 @@ public java.lang.String getModelPackageGroupName();
 
 The name of the model package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_group_name SagemakerModelPackage#model_package_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_group_name SagemakerModelPackage#model_package_group_name}
 
 ---
 
@@ -3371,7 +3371,7 @@ public java.lang.String getModelPackageName();
 
 The name or arn of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_name SagemakerModelPackage#model_package_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_name SagemakerModelPackage#model_package_name}
 
 ---
 
@@ -3385,7 +3385,7 @@ public SagemakerModelPackageModelPackageStatusDetails getModelPackageStatusDetai
 
 Details about the current status of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_status_details SagemakerModelPackage#model_package_status_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_status_details SagemakerModelPackage#model_package_status_details}
 
 ---
 
@@ -3399,7 +3399,7 @@ public java.lang.Number getModelPackageVersion();
 
 The version of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_package_version SagemakerModelPackage#model_package_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_package_version SagemakerModelPackage#model_package_version}
 
 ---
 
@@ -3413,7 +3413,7 @@ public java.lang.String getSamplePayloadUrl();
 
 The Amazon Simple Storage Service (Amazon S3) path where the sample payload are stored pointing to single gzip compressed tar archive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#sample_payload_url SagemakerModelPackage#sample_payload_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#sample_payload_url SagemakerModelPackage#sample_payload_url}
 
 ---
 
@@ -3427,7 +3427,7 @@ public SagemakerModelPackageSecurityConfig getSecurityConfig();
 
 An optional AWS Key Management Service key to encrypt, decrypt, and re-encrypt model package information for regulated workloads with highly sensitive data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#security_config SagemakerModelPackage#security_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#security_config SagemakerModelPackage#security_config}
 
 ---
 
@@ -3441,7 +3441,7 @@ public java.lang.String getSkipModelValidation();
 
 Indicates if you want to skip model validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#skip_model_validation SagemakerModelPackage#skip_model_validation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#skip_model_validation SagemakerModelPackage#skip_model_validation}
 
 ---
 
@@ -3455,7 +3455,7 @@ public SagemakerModelPackageSourceAlgorithmSpecification getSourceAlgorithmSpeci
 
 Details about the algorithm that was used to create the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#source_algorithm_specification SagemakerModelPackage#source_algorithm_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#source_algorithm_specification SagemakerModelPackage#source_algorithm_specification}
 
 ---
 
@@ -3469,7 +3469,7 @@ public java.lang.String getSourceUri();
 
 The URI of the source for the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#source_uri SagemakerModelPackage#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#source_uri SagemakerModelPackage#source_uri}
 
 ---
 
@@ -3483,7 +3483,7 @@ public IResolvable|java.util.List<SagemakerModelPackageTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#tags SagemakerModelPackage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#tags SagemakerModelPackage#tags}
 
 ---
 
@@ -3497,7 +3497,7 @@ public java.lang.String getTask();
 
 The machine learning task your model package accomplishes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#task SagemakerModelPackage#task}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#task SagemakerModelPackage#task}
 
 ---
 
@@ -3511,7 +3511,7 @@ public SagemakerModelPackageValidationSpecification getValidationSpecification()
 
 Specifies configurations for one or more transform jobs that Amazon SageMaker runs to test the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_specification SagemakerModelPackage#validation_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_specification SagemakerModelPackage#validation_specification}
 
 ---
 
@@ -3551,7 +3551,7 @@ public SagemakerModelPackageDriftCheckBaselinesBias getBias();
 
 Represents the drift check bias baselines that can be used when the model monitor is set using the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#bias SagemakerModelPackage#bias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#bias SagemakerModelPackage#bias}
 
 ---
 
@@ -3565,7 +3565,7 @@ public SagemakerModelPackageDriftCheckBaselinesExplainability getExplainability(
 
 Contains explainability metrics for a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#explainability SagemakerModelPackage#explainability}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#explainability SagemakerModelPackage#explainability}
 
 ---
 
@@ -3579,7 +3579,7 @@ public SagemakerModelPackageDriftCheckBaselinesModelDataQuality getModelDataQual
 
 Represents the drift check data quality baselines that can be used when the model monitor is set using the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_quality SagemakerModelPackage#model_data_quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_quality SagemakerModelPackage#model_data_quality}
 
 ---
 
@@ -3593,7 +3593,7 @@ public SagemakerModelPackageDriftCheckBaselinesModelQuality getModelQuality();
 
 Represents the drift check model quality baselines that can be used when the model monitor is set using the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_quality SagemakerModelPackage#model_quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_quality SagemakerModelPackage#model_quality}
 
 ---
 
@@ -3631,7 +3631,7 @@ public SagemakerModelPackageDriftCheckBaselinesBiasConfigFile getConfigFile();
 
 Represents a File Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#config_file SagemakerModelPackage#config_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#config_file SagemakerModelPackage#config_file}
 
 ---
 
@@ -3645,7 +3645,7 @@ public SagemakerModelPackageDriftCheckBaselinesBiasPostTrainingConstraints getPo
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#post_training_constraints SagemakerModelPackage#post_training_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#post_training_constraints SagemakerModelPackage#post_training_constraints}
 
 ---
 
@@ -3659,7 +3659,7 @@ public SagemakerModelPackageDriftCheckBaselinesBiasPreTrainingConstraints getPre
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#pre_training_constraints SagemakerModelPackage#pre_training_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#pre_training_constraints SagemakerModelPackage#pre_training_constraints}
 
 ---
 
@@ -3697,7 +3697,7 @@ public java.lang.String getContentDigest();
 
 The digest of the file source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -3711,7 +3711,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the file source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -3725,7 +3725,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the file source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -3763,7 +3763,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -3777,7 +3777,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -3791,7 +3791,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -3829,7 +3829,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -3843,7 +3843,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -3857,7 +3857,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -3893,7 +3893,7 @@ public SagemakerModelPackageDriftCheckBaselinesExplainabilityConfigFile getConfi
 
 Represents a File Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#config_file SagemakerModelPackage#config_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#config_file SagemakerModelPackage#config_file}
 
 ---
 
@@ -3907,7 +3907,7 @@ public SagemakerModelPackageDriftCheckBaselinesExplainabilityConstraints getCons
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
 
 ---
 
@@ -3945,7 +3945,7 @@ public java.lang.String getContentDigest();
 
 The digest of the file source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -3959,7 +3959,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the file source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -3973,7 +3973,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the file source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4011,7 +4011,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -4025,7 +4025,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -4039,7 +4039,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4075,7 +4075,7 @@ public SagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraints getCo
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
 
 ---
 
@@ -4089,7 +4089,7 @@ public SagemakerModelPackageDriftCheckBaselinesModelDataQualityStatistics getSta
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
 
 ---
 
@@ -4127,7 +4127,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -4141,7 +4141,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -4155,7 +4155,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4193,7 +4193,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -4207,7 +4207,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -4221,7 +4221,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4257,7 +4257,7 @@ public SagemakerModelPackageDriftCheckBaselinesModelQualityConstraints getConstr
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
 
 ---
 
@@ -4271,7 +4271,7 @@ public SagemakerModelPackageDriftCheckBaselinesModelQualityStatistics getStatist
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
 
 ---
 
@@ -4309,7 +4309,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -4323,7 +4323,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -4337,7 +4337,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4375,7 +4375,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -4389,7 +4389,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -4403,7 +4403,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4445,7 +4445,7 @@ public IResolvable|java.util.List<SagemakerModelPackageInferenceSpecificationCon
 
 The Amazon ECR registry path of the Docker image that contains the inference code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#containers SagemakerModelPackage#containers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#containers SagemakerModelPackage#containers}
 
 ---
 
@@ -4459,7 +4459,7 @@ public java.util.List<java.lang.String> getSupportedContentTypes();
 
 The supported MIME types for the input data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_content_types SagemakerModelPackage#supported_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_content_types SagemakerModelPackage#supported_content_types}
 
 ---
 
@@ -4473,7 +4473,7 @@ public java.util.List<java.lang.String> getSupportedRealtimeInferenceInstanceTyp
 
 A list of the instance types that are used to generate inferences in real-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_realtime_inference_instance_types SagemakerModelPackage#supported_realtime_inference_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_realtime_inference_instance_types SagemakerModelPackage#supported_realtime_inference_instance_types}
 
 ---
 
@@ -4487,7 +4487,7 @@ public java.util.List<java.lang.String> getSupportedResponseMimeTypes();
 
 The supported MIME types for the output data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_response_mime_types SagemakerModelPackage#supported_response_mime_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_response_mime_types SagemakerModelPackage#supported_response_mime_types}
 
 ---
 
@@ -4501,7 +4501,7 @@ public java.util.List<java.lang.String> getSupportedTransformInstanceTypes();
 
 A list of the instance types on which a transformation job can be run or on which an endpoint can be deployed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#supported_transform_instance_types SagemakerModelPackage#supported_transform_instance_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#supported_transform_instance_types SagemakerModelPackage#supported_transform_instance_types}
 
 ---
 
@@ -4538,7 +4538,7 @@ SagemakerModelPackageInferenceSpecificationContainers.builder()
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainers.property.imageDigest">imageDigest</a></code> | <code>java.lang.String</code> | An MD5 hash of the training algorithm that identifies the Docker image used for training. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainers.property.modelDataSource">modelDataSource</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainersModelDataSource">SagemakerModelPackageInferenceSpecificationContainersModelDataSource</a></code> | Specifies the location of ML model data to deploy during endpoint creation. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainers.property.modelDataUrl">modelDataUrl</a></code> | <code>java.lang.String</code> | A structure with Model Input details. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainers.property.modelInput">modelInput</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainersModelInput">SagemakerModelPackageInferenceSpecificationContainersModelInput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainers.property.modelInput">modelInput</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainersModelInput">SagemakerModelPackageInferenceSpecificationContainersModelInput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainers.property.nearestModelName">nearestModelName</a></code> | <code>java.lang.String</code> | The name of a pre-trained machine learning benchmarked by Amazon SageMaker Inference Recommender model that matches your model. |
 
 ---
@@ -4553,7 +4553,7 @@ public java.lang.String getContainerHostname();
 
 The DNS host name for the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#container_hostname SagemakerModelPackage#container_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#container_hostname SagemakerModelPackage#container_hostname}
 
 ---
 
@@ -4567,7 +4567,7 @@ public java.util.Map<java.lang.String, java.lang.String> getEnvironment();
 
 Sets the environment variables in the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
 
 ---
 
@@ -4581,7 +4581,7 @@ public java.lang.String getFramework();
 
 The machine learning framework of the model package container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#framework SagemakerModelPackage#framework}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#framework SagemakerModelPackage#framework}
 
 ---
 
@@ -4595,7 +4595,7 @@ public java.lang.String getFrameworkVersion();
 
 The framework version of the Model Package Container Image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#framework_version SagemakerModelPackage#framework_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#framework_version SagemakerModelPackage#framework_version}
 
 ---
 
@@ -4609,7 +4609,7 @@ public java.lang.String getImage();
 
 The Amazon EC2 Container Registry (Amazon ECR) path where inference code is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#image SagemakerModelPackage#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#image SagemakerModelPackage#image}
 
 ---
 
@@ -4623,7 +4623,7 @@ public java.lang.String getImageDigest();
 
 An MD5 hash of the training algorithm that identifies the Docker image used for training.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#image_digest SagemakerModelPackage#image_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#image_digest SagemakerModelPackage#image_digest}
 
 ---
 
@@ -4637,7 +4637,7 @@ public SagemakerModelPackageInferenceSpecificationContainersModelDataSource getM
 
 Specifies the location of ML model data to deploy during endpoint creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_source SagemakerModelPackage#model_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_source SagemakerModelPackage#model_data_source}
 
 ---
 
@@ -4651,7 +4651,7 @@ public java.lang.String getModelDataUrl();
 
 A structure with Model Input details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
 
 ---
 
@@ -4663,7 +4663,7 @@ public SagemakerModelPackageInferenceSpecificationContainersModelInput getModelI
 
 - *Type:* <a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageInferenceSpecificationContainersModelInput">SagemakerModelPackageInferenceSpecificationContainersModelInput</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_input SagemakerModelPackage#model_input}.
 
 ---
 
@@ -4677,7 +4677,7 @@ public java.lang.String getNearestModelName();
 
 The name of a pre-trained machine learning benchmarked by Amazon SageMaker Inference Recommender model that matches your model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#nearest_model_name SagemakerModelPackage#nearest_model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#nearest_model_name SagemakerModelPackage#nearest_model_name}
 
 ---
 
@@ -4711,7 +4711,7 @@ public SagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3Dat
 
 Specifies the S3 location of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
 
 ---
 
@@ -4751,7 +4751,7 @@ public java.lang.String getCompressionType();
 
 Specifies how the ML model data is prepared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
 
 ---
 
@@ -4765,7 +4765,7 @@ public SagemakerModelPackageInferenceSpecificationContainersModelDataSourceS3Dat
 
 Specifies the access configuration file for the ML model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_access_config SagemakerModelPackage#model_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_access_config SagemakerModelPackage#model_access_config}
 
 ---
 
@@ -4779,7 +4779,7 @@ public java.lang.String getS3DataType();
 
 Specifies the type of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
 
 ---
 
@@ -4793,7 +4793,7 @@ public java.lang.String getS3Uri();
 
 Specifies the S3 path of ML model data to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -4827,7 +4827,7 @@ public java.lang.Boolean|IResolvable getAcceptEula();
 
 Specifies agreement to the model end-user license agreement (EULA).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
 
 ---
 
@@ -4861,7 +4861,7 @@ public java.lang.String getDataInputConfig();
 
 The input configuration object for the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#data_input_config SagemakerModelPackage#data_input_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#data_input_config SagemakerModelPackage#data_input_config}
 
 ---
 
@@ -4901,7 +4901,7 @@ public java.lang.String getCommitId();
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#commit_id SagemakerModelPackage#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#commit_id SagemakerModelPackage#commit_id}
 
 ---
 
@@ -4915,7 +4915,7 @@ public java.lang.String getGeneratedBy();
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#generated_by SagemakerModelPackage#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#generated_by SagemakerModelPackage#generated_by}
 
 ---
 
@@ -4929,7 +4929,7 @@ public java.lang.String getProjectId();
 
 The project ID metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#project_id SagemakerModelPackage#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#project_id SagemakerModelPackage#project_id}
 
 ---
 
@@ -4943,7 +4943,7 @@ public java.lang.String getRepository();
 
 The repository metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#repository SagemakerModelPackage#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#repository SagemakerModelPackage#repository}
 
 ---
 
@@ -4979,7 +4979,7 @@ public java.lang.String getModelCardContent();
 
 The content of the model card.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_card_content SagemakerModelPackage#model_card_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_card_content SagemakerModelPackage#model_card_content}
 
 ---
 
@@ -4993,7 +4993,7 @@ public java.lang.String getModelCardStatus();
 
 The approval status of the model card within your organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_card_status SagemakerModelPackage#model_card_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_card_status SagemakerModelPackage#model_card_status}
 
 ---
 
@@ -5033,7 +5033,7 @@ public SagemakerModelPackageModelMetricsBias getBias();
 
 Contains bias metrics for a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#bias SagemakerModelPackage#bias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#bias SagemakerModelPackage#bias}
 
 ---
 
@@ -5047,7 +5047,7 @@ public SagemakerModelPackageModelMetricsExplainability getExplainability();
 
 Contains explainability metrics for a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#explainability SagemakerModelPackage#explainability}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#explainability SagemakerModelPackage#explainability}
 
 ---
 
@@ -5061,7 +5061,7 @@ public SagemakerModelPackageModelMetricsModelDataQuality getModelDataQuality();
 
 Metrics that measure the quality of the input data for a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_quality SagemakerModelPackage#model_data_quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_quality SagemakerModelPackage#model_data_quality}
 
 ---
 
@@ -5075,7 +5075,7 @@ public SagemakerModelPackageModelMetricsModelQuality getModelQuality();
 
 Metrics that measure the quality of a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_quality SagemakerModelPackage#model_quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_quality SagemakerModelPackage#model_quality}
 
 ---
 
@@ -5113,7 +5113,7 @@ public SagemakerModelPackageModelMetricsBiasPostTrainingReport getPostTrainingRe
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#post_training_report SagemakerModelPackage#post_training_report}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#post_training_report SagemakerModelPackage#post_training_report}
 
 ---
 
@@ -5127,7 +5127,7 @@ public SagemakerModelPackageModelMetricsBiasPreTrainingReport getPreTrainingRepo
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#pre_training_report SagemakerModelPackage#pre_training_report}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#pre_training_report SagemakerModelPackage#pre_training_report}
 
 ---
 
@@ -5141,7 +5141,7 @@ public SagemakerModelPackageModelMetricsBiasReport getReport();
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#report SagemakerModelPackage#report}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#report SagemakerModelPackage#report}
 
 ---
 
@@ -5179,7 +5179,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5193,7 +5193,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5207,7 +5207,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5245,7 +5245,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5259,7 +5259,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5273,7 +5273,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5311,7 +5311,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5325,7 +5325,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5339,7 +5339,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5373,7 +5373,7 @@ public SagemakerModelPackageModelMetricsExplainabilityReport getReport();
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#report SagemakerModelPackage#report}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#report SagemakerModelPackage#report}
 
 ---
 
@@ -5411,7 +5411,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5425,7 +5425,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5439,7 +5439,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5475,7 +5475,7 @@ public SagemakerModelPackageModelMetricsModelDataQualityConstraints getConstrain
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
 
 ---
 
@@ -5489,7 +5489,7 @@ public SagemakerModelPackageModelMetricsModelDataQualityStatistics getStatistics
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
 
 ---
 
@@ -5527,7 +5527,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5541,7 +5541,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5555,7 +5555,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5593,7 +5593,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5607,7 +5607,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5621,7 +5621,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5657,7 +5657,7 @@ public SagemakerModelPackageModelMetricsModelQualityConstraints getConstraints()
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
 
 ---
 
@@ -5671,7 +5671,7 @@ public SagemakerModelPackageModelMetricsModelQualityStatistics getStatistics();
 
 Represents a Metric Source Object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
 
 ---
 
@@ -5709,7 +5709,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5723,7 +5723,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5737,7 +5737,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5775,7 +5775,7 @@ public java.lang.String getContentDigest();
 
 The digest of the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_digest SagemakerModelPackage#content_digest}
 
 ---
 
@@ -5789,7 +5789,7 @@ public java.lang.String getContentType();
 
 The type of content stored in the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -5803,7 +5803,7 @@ public java.lang.String getS3Uri();
 
 The Amazon S3 URI for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -5823,7 +5823,7 @@ SagemakerModelPackageModelPackageStatusDetails.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageModelPackageStatusDetails.property.validationStatuses">validationStatuses</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageModelPackageStatusDetailsValidationStatuses">SagemakerModelPackageModelPackageStatusDetailsValidationStatuses</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_statuses SagemakerModelPackage#validation_statuses}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageModelPackageStatusDetails.property.validationStatuses">validationStatuses</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageModelPackageStatusDetailsValidationStatuses">SagemakerModelPackageModelPackageStatusDetailsValidationStatuses</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_statuses SagemakerModelPackage#validation_statuses}. |
 
 ---
 
@@ -5835,7 +5835,7 @@ public IResolvable|java.util.List<SagemakerModelPackageModelPackageStatusDetails
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageModelPackageStatusDetailsValidationStatuses">SagemakerModelPackageModelPackageStatusDetailsValidationStatuses</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_statuses SagemakerModelPackage#validation_statuses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_statuses SagemakerModelPackage#validation_statuses}.
 
 ---
 
@@ -5873,7 +5873,7 @@ public java.lang.String getFailureReason();
 
 If the overall status is Failed, the reason for the failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#failure_reason SagemakerModelPackage#failure_reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#failure_reason SagemakerModelPackage#failure_reason}
 
 ---
 
@@ -5887,7 +5887,7 @@ public java.lang.String getName();
 
 The name of the model package for which the overall status is being reported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#name SagemakerModelPackage#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#name SagemakerModelPackage#name}
 
 ---
 
@@ -5901,7 +5901,7 @@ public java.lang.String getStatus();
 
 The current status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#status SagemakerModelPackage#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#status SagemakerModelPackage#status}
 
 ---
 
@@ -5935,7 +5935,7 @@ public java.lang.String getKmsKeyId();
 
 The AWS KMS Key ID (KMSKeyId) used for encryption of model package information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#kms_key_id SagemakerModelPackage#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#kms_key_id SagemakerModelPackage#kms_key_id}
 
 ---
 
@@ -5969,7 +5969,7 @@ public IResolvable|java.util.List<SagemakerModelPackageSourceAlgorithmSpecificat
 
 A list of algorithms that were used to create a model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#source_algorithms SagemakerModelPackage#source_algorithms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#source_algorithms SagemakerModelPackage#source_algorithms}
 
 ---
 
@@ -6007,7 +6007,7 @@ The name of an algorithm that was used to create the model package.
 
 The algorithm must be either an algorithm resource in your Amazon SageMaker account or an algorithm in AWS Marketplace that you are subscribed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#algorithm_name SagemakerModelPackage#algorithm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#algorithm_name SagemakerModelPackage#algorithm_name}
 
 ---
 
@@ -6023,7 +6023,7 @@ The Amazon S3 path where the model artifacts, which result from model training, 
 
 This path must point to a single gzip compressed tar archive (.tar.gz suffix).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#model_data_url SagemakerModelPackage#model_data_url}
 
 ---
 
@@ -6061,7 +6061,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#key SagemakerModelPackage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#key SagemakerModelPackage#key}
 
 ---
 
@@ -6077,7 +6077,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#value SagemakerModelPackage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#value SagemakerModelPackage#value}
 
 ---
 
@@ -6098,7 +6098,7 @@ SagemakerModelPackageValidationSpecification.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageValidationSpecification.property.validationProfiles">validationProfiles</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageValidationSpecificationValidationProfiles">SagemakerModelPackageValidationSpecificationValidationProfiles</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_profiles SagemakerModelPackage#validation_profiles}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageValidationSpecification.property.validationProfiles">validationProfiles</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageValidationSpecificationValidationProfiles">SagemakerModelPackageValidationSpecificationValidationProfiles</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_profiles SagemakerModelPackage#validation_profiles}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageValidationSpecification.property.validationRole">validationRole</a></code> | <code>java.lang.String</code> | The IAM roles to be used for the validation of the model package. |
 
 ---
@@ -6111,7 +6111,7 @@ public IResolvable|java.util.List<SagemakerModelPackageValidationSpecificationVa
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerModelPackage.SagemakerModelPackageValidationSpecificationValidationProfiles">SagemakerModelPackageValidationSpecificationValidationProfiles</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_profiles SagemakerModelPackage#validation_profiles}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_profiles SagemakerModelPackage#validation_profiles}.
 
 ---
 
@@ -6125,7 +6125,7 @@ public java.lang.String getValidationRole();
 
 The IAM roles to be used for the validation of the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#validation_role SagemakerModelPackage#validation_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#validation_role SagemakerModelPackage#validation_role}
 
 ---
 
@@ -6161,7 +6161,7 @@ public java.lang.String getProfileName();
 
 The name of the profile for the model package.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#profile_name SagemakerModelPackage#profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#profile_name SagemakerModelPackage#profile_name}
 
 ---
 
@@ -6175,7 +6175,7 @@ public SagemakerModelPackageValidationSpecificationValidationProfilesTransformJo
 
 Defines the input needed to run a transform job using the inference specification specified in the algorithm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#transform_job_definition SagemakerModelPackage#transform_job_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#transform_job_definition SagemakerModelPackage#transform_job_definition}
 
 ---
 
@@ -6221,7 +6221,7 @@ public java.lang.String getBatchStrategy();
 
 A string that determines the number of records included in a single mini-batch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#batch_strategy SagemakerModelPackage#batch_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#batch_strategy SagemakerModelPackage#batch_strategy}
 
 ---
 
@@ -6235,7 +6235,7 @@ public java.util.Map<java.lang.String, java.lang.String> getEnvironment();
 
 Sets the environment variables in the Docker container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#environment SagemakerModelPackage#environment}
 
 ---
 
@@ -6251,7 +6251,7 @@ The maximum number of parallel requests that can be sent to each instance in a t
 
 The default value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#max_concurrent_transforms SagemakerModelPackage#max_concurrent_transforms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#max_concurrent_transforms SagemakerModelPackage#max_concurrent_transforms}
 
 ---
 
@@ -6265,7 +6265,7 @@ public java.lang.Number getMaxPayloadInMb();
 
 The maximum payload size allowed, in MB. A payload is the data portion of a record (without metadata).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#max_payload_in_mb SagemakerModelPackage#max_payload_in_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#max_payload_in_mb SagemakerModelPackage#max_payload_in_mb}
 
 ---
 
@@ -6279,7 +6279,7 @@ public SagemakerModelPackageValidationSpecificationValidationProfilesTransformJo
 
 Describes the input source of a transform job and the way the transform job consumes it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#transform_input SagemakerModelPackage#transform_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#transform_input SagemakerModelPackage#transform_input}
 
 ---
 
@@ -6293,7 +6293,7 @@ public SagemakerModelPackageValidationSpecificationValidationProfilesTransformJo
 
 Describes the results of a transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#transform_output SagemakerModelPackage#transform_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#transform_output SagemakerModelPackage#transform_output}
 
 ---
 
@@ -6307,7 +6307,7 @@ public SagemakerModelPackageValidationSpecificationValidationProfilesTransformJo
 
 Describes the resources, including ML instance types and ML instance count, to use for transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#transform_resources SagemakerModelPackage#transform_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#transform_resources SagemakerModelPackage#transform_resources}
 
 ---
 
@@ -6349,7 +6349,7 @@ If your transform data is compressed, specify the compression type.
 
 Amazon SageMaker automatically decompresses the data for the transform job accordingly. The default value is None.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#compression_type SagemakerModelPackage#compression_type}
 
 ---
 
@@ -6365,7 +6365,7 @@ The multipurpose internet mail extension (MIME) type of the data.
 
 Amazon SageMaker uses the MIME type with each http call to transfer data to the transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#content_type SagemakerModelPackage#content_type}
 
 ---
 
@@ -6379,7 +6379,7 @@ public SagemakerModelPackageValidationSpecificationValidationProfilesTransformJo
 
 Describes the input source of a transform job and the way the transform job consumes it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#data_source SagemakerModelPackage#data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#data_source SagemakerModelPackage#data_source}
 
 ---
 
@@ -6393,7 +6393,7 @@ public java.lang.String getSplitType();
 
 The method to use to split the transform job's data files into smaller batches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#split_type SagemakerModelPackage#split_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#split_type SagemakerModelPackage#split_type}
 
 ---
 
@@ -6427,7 +6427,7 @@ public SagemakerModelPackageValidationSpecificationValidationProfilesTransformJo
 
 Describes the S3 data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_source SagemakerModelPackage#s3_data_source}
 
 ---
 
@@ -6463,7 +6463,7 @@ public java.lang.String getS3DataType();
 
 The S3 Data Source Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_data_type SagemakerModelPackage#s3_data_type}
 
 ---
 
@@ -6477,7 +6477,7 @@ public java.lang.String getS3Uri();
 
 Depending on the value specified for the S3DataType, identifies either a key name prefix or a manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_uri SagemakerModelPackage#s3_uri}
 
 ---
 
@@ -6519,7 +6519,7 @@ The MIME type used to specify the output data.
 
 Amazon SageMaker uses the MIME type with each http call to transfer data from the transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#accept SagemakerModelPackage#accept}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#accept SagemakerModelPackage#accept}
 
 ---
 
@@ -6533,7 +6533,7 @@ public java.lang.String getAssembleWith();
 
 Defines how to assemble the results of the transform job as a single S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#assemble_with SagemakerModelPackage#assemble_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#assemble_with SagemakerModelPackage#assemble_with}
 
 ---
 
@@ -6547,7 +6547,7 @@ public java.lang.String getKmsKeyId();
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artifacts at rest using Amazon S3 server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#kms_key_id SagemakerModelPackage#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#kms_key_id SagemakerModelPackage#kms_key_id}
 
 ---
 
@@ -6561,7 +6561,7 @@ public java.lang.String getS3OutputPath();
 
 The Amazon S3 path where you want Amazon SageMaker to store the results of the transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#s3_output_path SagemakerModelPackage#s3_output_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#s3_output_path SagemakerModelPackage#s3_output_path}
 
 ---
 
@@ -6601,7 +6601,7 @@ The number of ML compute instances to use in the transform job.
 
 For distributed transform jobs, specify a value greater than 1. The default value is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#instance_count SagemakerModelPackage#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#instance_count SagemakerModelPackage#instance_count}
 
 ---
 
@@ -6615,7 +6615,7 @@ public java.lang.String getInstanceType();
 
 The ML compute instance type for the transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#instance_type SagemakerModelPackage#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#instance_type SagemakerModelPackage#instance_type}
 
 ---
 
@@ -6629,7 +6629,7 @@ public java.lang.String getVolumeKmsKeyId();
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt model data on the storage volume attached to the ML compute instance(s) that run the batch transform job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_model_package#volume_kms_key_id SagemakerModelPackage#volume_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#volume_kms_key_id SagemakerModelPackage#volume_kms_key_id}
 
 ---
 

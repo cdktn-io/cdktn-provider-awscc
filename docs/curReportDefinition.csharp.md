@@ -4,7 +4,7 @@
 
 ### CurReportDefinition <a name="CurReportDefinition" id="@cdktn/provider-awscc.curReportDefinition.CurReportDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition awscc_cur_report_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition awscc_cur_report_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.curReportDefinition.CurReportDefinition.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the CurReportDefinition to imp
 
 The id of the existing CurReportDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1076,7 +1076,7 @@ new CurReportDefinitionConfig {
 | <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionConfig.property.additionalArtifacts">AdditionalArtifacts</a></code> | <code>string[]</code> | A list of manifests that you want Amazon Web Services to create for this report. |
 | <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionConfig.property.additionalSchemaElements">AdditionalSchemaElements</a></code> | <code>string[]</code> | A list of strings that indicate additional content that Amazon Web Services includes in the report, such as individual resource IDs. |
 | <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionConfig.property.billingViewArn">BillingViewArn</a></code> | <code>string</code> | The Amazon resource name of the billing view. |
-| <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags">CurReportDefinitionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}. |
+| <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags">CurReportDefinitionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}. |
 
 ---
 
@@ -1160,7 +1160,7 @@ public string Compression { get; set; }
 
 The compression format that AWS uses for the report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#compression CurReportDefinition#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#compression CurReportDefinition#compression}
 
 ---
 
@@ -1174,7 +1174,7 @@ public string Format { get; set; }
 
 The format that AWS saves the report in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#format CurReportDefinition#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#format CurReportDefinition#format}
 
 ---
 
@@ -1190,7 +1190,7 @@ Whether you want Amazon Web Services to update your reports after they have been
 
 These charges can include refunds, credits, or support fees.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#refresh_closed_reports CurReportDefinition#refresh_closed_reports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#refresh_closed_reports CurReportDefinition#refresh_closed_reports}
 
 ---
 
@@ -1206,7 +1206,7 @@ The name of the report that you want to create.
 
 The name must be unique, is case sensitive, and can't include spaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#report_name CurReportDefinition#report_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#report_name CurReportDefinition#report_name}
 
 ---
 
@@ -1220,7 +1220,7 @@ public string ReportVersioning { get; set; }
 
 Whether you want Amazon Web Services to overwrite the previous version of each report or to deliver the report in addition to the previous versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#report_versioning CurReportDefinition#report_versioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#report_versioning CurReportDefinition#report_versioning}
 
 ---
 
@@ -1234,7 +1234,7 @@ public string S3Bucket { get; set; }
 
 The S3 bucket where AWS delivers the report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#s3_bucket CurReportDefinition#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#s3_bucket CurReportDefinition#s3_bucket}
 
 ---
 
@@ -1248,7 +1248,7 @@ public string S3Prefix { get; set; }
 
 The prefix that AWS adds to the report name when AWS delivers the report. Your prefix can't include spaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#s3_prefix CurReportDefinition#s3_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#s3_prefix CurReportDefinition#s3_prefix}
 
 ---
 
@@ -1262,7 +1262,7 @@ public string S3Region { get; set; }
 
 The region of the S3 bucket that AWS delivers the report into.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#s3_region CurReportDefinition#s3_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#s3_region CurReportDefinition#s3_region}
 
 ---
 
@@ -1276,7 +1276,7 @@ public string TimeUnit { get; set; }
 
 The granularity of the line items in the report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#time_unit CurReportDefinition#time_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#time_unit CurReportDefinition#time_unit}
 
 ---
 
@@ -1290,7 +1290,7 @@ public string[] AdditionalArtifacts { get; set; }
 
 A list of manifests that you want Amazon Web Services to create for this report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#additional_artifacts CurReportDefinition#additional_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#additional_artifacts CurReportDefinition#additional_artifacts}
 
 ---
 
@@ -1304,7 +1304,7 @@ public string[] AdditionalSchemaElements { get; set; }
 
 A list of strings that indicate additional content that Amazon Web Services includes in the report, such as individual resource IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#additional_schema_elements CurReportDefinition#additional_schema_elements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#additional_schema_elements CurReportDefinition#additional_schema_elements}
 
 ---
 
@@ -1320,7 +1320,7 @@ The Amazon resource name of the billing view.
 
 You can get this value by using the billing view service public APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#billing_view_arn CurReportDefinition#billing_view_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#billing_view_arn CurReportDefinition#billing_view_arn}
 
 ---
 
@@ -1332,7 +1332,7 @@ public IResolvable|CurReportDefinitionTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags">CurReportDefinitionTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#tags CurReportDefinition#tags}.
 
 ---
 
@@ -1353,8 +1353,8 @@ new CurReportDefinitionTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#key CurReportDefinition#key}. |
-| <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#value CurReportDefinition#value}. |
+| <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#key CurReportDefinition#key}. |
+| <code><a href="#@cdktn/provider-awscc.curReportDefinition.CurReportDefinitionTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#value CurReportDefinition#value}. |
 
 ---
 
@@ -1366,7 +1366,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#key CurReportDefinition#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#key CurReportDefinition#key}.
 
 ---
 
@@ -1378,7 +1378,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cur_report_definition#value CurReportDefinition#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cur_report_definition#value CurReportDefinition#value}.
 
 ---
 

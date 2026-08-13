@@ -4,7 +4,7 @@
 
 ### DataAwsccIamUsers <a name="DataAwsccIamUsers" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_users awscc_iam_users}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_users awscc_iam_users}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamUsers.DataAwsccIamUsers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamUsers to impor
 
 The id of the existing DataAwsccIamUsers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_users#import import section} in the documentation of this resource for the id to use
 
 ---
 

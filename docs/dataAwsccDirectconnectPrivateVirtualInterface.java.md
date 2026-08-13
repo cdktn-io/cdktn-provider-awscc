@@ -4,7 +4,7 @@
 
 ### DataAwsccDirectconnectPrivateVirtualInterface <a name="DataAwsccDirectconnectPrivateVirtualInterface" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_private_virtual_interface#id DataAwsccDirectconnectPrivateVirtualInterface#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_private_virtual_interface#id DataAwsccDirectconnectPrivateVirtualInterface#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectPriv
 
 The id of the existing DataAwsccDirectconnectPrivateVirtualInterface that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_private_virtual_interface#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_private_virtual_interface#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -486,6 +486,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.directConnectGatewayId">directConnectGatewayId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.enableSiteLink">enableSiteLink</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.mtu">mtu</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.rateLimit">rateLimit</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterfaceTagsList">DataAwsccDirectconnectPrivateVirtualInterfaceTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.virtualGatewayId">virtualGatewayId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.virtualInterfaceArn">virtualInterfaceArn</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -676,6 +677,16 @@ public java.lang.Number getMtu();
 ```
 
 - *Type:* java.lang.Number
+
+---
+
+##### `rateLimit`<sup>Required</sup> <a name="rateLimit" id="@cdktn/provider-awscc.dataAwsccDirectconnectPrivateVirtualInterface.DataAwsccDirectconnectPrivateVirtualInterface.property.rateLimit"></a>
+
+```java
+public java.lang.String getRateLimit();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -905,7 +916,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_private_virtual_interface#id DataAwsccDirectconnectPrivateVirtualInterface#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_private_virtual_interface#id DataAwsccDirectconnectPrivateVirtualInterface#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

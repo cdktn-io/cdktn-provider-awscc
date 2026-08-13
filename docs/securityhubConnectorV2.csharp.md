@@ -4,7 +4,7 @@
 
 ### SecurityhubConnectorV2 <a name="SecurityhubConnectorV2" id="@cdktn/provider-awscc.securityhubConnectorV2.SecurityhubConnectorV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2 awscc_securityhub_connector_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2 awscc_securityhub_connector_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnectorV2.SecurityhubConnectorV2.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SecurityhubConnectorV2 to 
 
 The id of the existing SecurityhubConnectorV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1071,7 +1071,7 @@ public string Name { get; set; }
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#name SecurityhubConnectorV2#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#name SecurityhubConnectorV2#name}
 
 ---
 
@@ -1085,7 +1085,7 @@ public SecurityhubConnectorV2ProviderName ProviderName { get; set; }
 
 The third-party provider configuration for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#provider_name SecurityhubConnectorV2#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#provider_name SecurityhubConnectorV2#provider_name}
 
 ---
 
@@ -1099,7 +1099,7 @@ public string Description { get; set; }
 
 A description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#description SecurityhubConnectorV2#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#description SecurityhubConnectorV2#description}
 
 ---
 
@@ -1113,7 +1113,7 @@ public string KmsKeyArn { get; set; }
 
 The ARN of KMS key used for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#kms_key_arn SecurityhubConnectorV2#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#kms_key_arn SecurityhubConnectorV2#kms_key_arn}
 
 ---
 
@@ -1127,7 +1127,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#tags SecurityhubConnectorV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#tags SecurityhubConnectorV2#tags}
 
 ---
 
@@ -1178,7 +1178,7 @@ public SecurityhubConnectorV2ProviderNameAzure Azure { get; set; }
 
 The configuration settings required to establish an integration between AWS Security Hub and Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#azure SecurityhubConnectorV2#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#azure SecurityhubConnectorV2#azure}
 
 ---
 
@@ -1192,7 +1192,7 @@ public SecurityhubConnectorV2ProviderNameJiraCloud JiraCloud { get; set; }
 
 The initial configuration settings required to establish an integration between Security Hub and Jira Cloud.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#jira_cloud SecurityhubConnectorV2#jira_cloud}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#jira_cloud SecurityhubConnectorV2#jira_cloud}
 
 ---
 
@@ -1206,7 +1206,7 @@ public SecurityhubConnectorV2ProviderNameServiceNow ServiceNow { get; set; }
 
 The initial configuration settings required to establish an integration between Security Hub and ServiceNow ITSM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#service_now SecurityhubConnectorV2#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#service_now SecurityhubConnectorV2#service_now}
 
 ---
 
@@ -1244,7 +1244,7 @@ public string AwsConfigConnectorArn { get; set; }
 
 The ARN of the AWS Config connector used for the Azure integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#aws_config_connector_arn SecurityhubConnectorV2#aws_config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#aws_config_connector_arn SecurityhubConnectorV2#aws_config_connector_arn}
 
 ---
 
@@ -1258,7 +1258,7 @@ public string[] AzureRegions { get; set; }
 
 The list of Azure regions to include in the connector scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#azure_regions SecurityhubConnectorV2#azure_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#azure_regions SecurityhubConnectorV2#azure_regions}
 
 ---
 
@@ -1272,7 +1272,7 @@ public SecurityhubConnectorV2ProviderNameAzureScopeConfiguration ScopeConfigurat
 
 The scope configuration for an Azure connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#scope_configuration SecurityhubConnectorV2#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#scope_configuration SecurityhubConnectorV2#scope_configuration}
 
 ---
 
@@ -1308,7 +1308,7 @@ public string ScopeType { get; set; }
 
 The scope type for the Azure connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#scope_type SecurityhubConnectorV2#scope_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#scope_type SecurityhubConnectorV2#scope_type}
 
 ---
 
@@ -1322,7 +1322,7 @@ public string[] ScopeValues { get; set; }
 
 The list of scope values for the Azure connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#scope_values SecurityhubConnectorV2#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#scope_values SecurityhubConnectorV2#scope_values}
 
 ---
 
@@ -1356,7 +1356,7 @@ public string ProjectKey { get; set; }
 
 The project key for a Jira Cloud instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}
 
 ---
 
@@ -1392,7 +1392,7 @@ public string InstanceName { get; set; }
 
 The instance name of ServiceNow ITSM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#instance_name SecurityhubConnectorV2#instance_name}
 
 ---
 
@@ -1406,7 +1406,7 @@ public string SecretArn { get; set; }
 
 The Amazon Resource Name (ARN) of the AWS Secrets Manager secret that contains the ServiceNow credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_connector_v2#secret_arn SecurityhubConnectorV2#secret_arn}
 
 ---
 

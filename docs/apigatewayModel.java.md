@@ -4,7 +4,7 @@
 
 ### ApigatewayModel <a name="ApigatewayModel" id="@cdktn/provider-awscc.apigatewayModel.ApigatewayModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model awscc_apigateway_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model awscc_apigateway_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer"></a>
 
@@ -38,11 +38,11 @@ ApigatewayModel.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.contentType">contentType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#description ApigatewayModel#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.contentType">contentType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#description ApigatewayModel#description}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | A name for the model. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.schema">schema</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModel.Initializer.parameter.schema">schema</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#description ApigatewayModel#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#description ApigatewayModel#description}.
 
 ---
 
@@ -139,7 +139,7 @@ A name for the model.
 If you don't specify a name, CFN generates a unique physical ID and uses that ID for the model name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#name ApigatewayModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#name ApigatewayModel#name}
 
 ---
 
@@ -147,7 +147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}.
 
 ---
 
@@ -624,7 +624,7 @@ The construct id used in the generated config for the ApigatewayModel to import.
 
 The id of the existing ApigatewayModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -974,11 +974,11 @@ ApigatewayModelConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.contentType">contentType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#description ApigatewayModel#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.contentType">contentType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#description ApigatewayModel#description}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.name">name</a></code> | <code>java.lang.String</code> | A name for the model. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.schema">schema</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayModel.ApigatewayModelConfig.property.schema">schema</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}. |
 
 ---
 
@@ -1060,7 +1060,7 @@ public java.lang.String getRestApiId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#rest_api_id ApigatewayModel#rest_api_id}.
 
 ---
 
@@ -1072,7 +1072,7 @@ public java.lang.String getContentType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#content_type ApigatewayModel#content_type}.
 
 ---
 
@@ -1084,7 +1084,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#description ApigatewayModel#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#description ApigatewayModel#description}.
 
 ---
 
@@ -1101,7 +1101,7 @@ A name for the model.
 If you don't specify a name, CFN generates a unique physical ID and uses that ID for the model name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#name ApigatewayModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#name ApigatewayModel#name}
 
 ---
 
@@ -1113,7 +1113,7 @@ public java.lang.String getSchema();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model#schema ApigatewayModel#schema}.
 
 ---
 

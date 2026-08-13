@@ -4,7 +4,7 @@
 
 ### DataAwsccWisdomAssistants <a name="DataAwsccWisdomAssistants" id="@cdktn/provider-awscc.dataAwsccWisdomAssistants.DataAwsccWisdomAssistants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_assistants awscc_wisdom_assistants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_assistants awscc_wisdom_assistants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAssistants.DataAwsccWisdomAssistants.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccWisdomAssistants 
 
 The id of the existing DataAwsccWisdomAssistants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_assistants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_assistants#import import section} in the documentation of this resource for the id to use
 
 ---
 

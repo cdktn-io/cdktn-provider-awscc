@@ -4,7 +4,7 @@
 
 ### DataAwsccAuditmanagerAssessmentFramework <a name="DataAwsccAuditmanagerAssessmentFramework" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessmentFramework.DataAwsccAuditmanagerAssessmentFramework"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAuditmanagerAssessmentFramework.DataAwsccAuditmanagerAssessmentFramework.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAuditmanagerAsses
 
 The id of the existing DataAwsccAuditmanagerAssessmentFramework that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/auditmanager_assessment_framework#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/auditmanager_assessment_framework#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,7 +819,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/auditmanager_assessment_framework#id DataAwsccAuditmanagerAssessmentFramework#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/auditmanager_assessment_framework#id DataAwsccAuditmanagerAssessmentFramework#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

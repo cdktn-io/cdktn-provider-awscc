@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,7 +16,7 @@ export interface IamInstanceProfileConfig extends cdktn.TerraformMetaArguments {
   * The name of the instance profile to create.
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile#instance_profile_name IamInstanceProfile#instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile#instance_profile_name IamInstanceProfile#instance_profile_name}
   */
   readonly instanceProfileName?: string;
   /**
@@ -24,19 +24,19 @@ export interface IamInstanceProfileConfig extends cdktn.TerraformMetaArguments {
   *  This parameter is optional. If it is not included, it defaults to a slash (/).
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile#path IamInstanceProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile#path IamInstanceProfile#path}
   */
   readonly path?: string;
   /**
   * The name of the role to associate with the instance profile. Only one role can be assigned to an EC2 instance at a time, and all applications on the instance share the same role and permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile#roles IamInstanceProfile#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile#roles IamInstanceProfile#roles}
   */
   readonly roles: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile awscc_iam_instance_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile awscc_iam_instance_profile}
 */
 export class IamInstanceProfile extends cdktn.TerraformResource {
 
@@ -52,7 +52,7 @@ export class IamInstanceProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamInstanceProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamInstanceProfile to import
-  * @param importFromId The id of the existing IamInstanceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamInstanceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamInstanceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -64,7 +64,7 @@ export class IamInstanceProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_instance_profile awscc_iam_instance_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_instance_profile awscc_iam_instance_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,7 +75,7 @@ export class IamInstanceProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_instance_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

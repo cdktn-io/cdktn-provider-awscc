@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbProxies <a name="DataAwsccRdsDbProxies" id="@cdktn/provider-awscc.dataAwsccRdsDbProxies.DataAwsccRdsDbProxies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_proxies awscc_rds_db_proxies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_proxies awscc_rds_db_proxies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbProxies.DataAwsccRdsDbProxies.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbProxies to i
 
 The id of the existing DataAwsccRdsDbProxies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_proxies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_proxies#import import section} in the documentation of this resource for the id to use
 
 ---
 

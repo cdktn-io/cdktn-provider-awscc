@@ -4,7 +4,7 @@
 
 ### DataAwsccCeCostCategories <a name="DataAwsccCeCostCategories" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCeCostCategories.DataAwsccCeCostCategories.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCeCostCategories 
 
 The id of the existing DataAwsccCeCostCategories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_cost_categories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_cost_categories#import import section} in the documentation of this resource for the id to use
 
 ---
 

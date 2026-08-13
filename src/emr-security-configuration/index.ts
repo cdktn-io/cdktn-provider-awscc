@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface EmrSecurityConfigurationConfig extends cdktn.TerraformMetaArgum
   /**
   * The name of the security configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
   */
   readonly name?: string;
   /**
   * The security configuration details in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
   */
   readonly securityConfiguration: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration awscc_emr_security_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration awscc_emr_security_configuration}
 */
 export class EmrSecurityConfiguration extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class EmrSecurityConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EmrSecurityConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrSecurityConfiguration to import
-  * @param importFromId The id of the existing EmrSecurityConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrSecurityConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrSecurityConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class EmrSecurityConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_security_configuration awscc_emr_security_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_security_configuration awscc_emr_security_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class EmrSecurityConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_emr_security_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### Route53ResolverOutpostResolver <a name="Route53ResolverOutpostResolver" id="@cdktn/provider-awscc.route53ResolverOutpostResolver.Route53ResolverOutpostResolver"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverOutpostResolver.Route53ResolverOutpostResolver.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The OutpostResolver name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#name Route53ResolverOutpostResolver#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#name Route53ResolverOutpostResolver#name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Outpost ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#outpost_arn Route53ResolverOutpostResolver#outpost_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#outpost_arn Route53ResolverOutpostResolver#outpost_arn}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OutpostResolver instance type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#preferred_instance_type Route53ResolverOutpostResolver#preferred_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#preferred_instance_type Route53ResolverOutpostResolver#preferred_instance_type}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of OutpostResolvers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#instance_count Route53ResolverOutpostResolver#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#instance_count Route53ResolverOutpostResolver#instance_count}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#tags Route53ResolverOutpostResolver#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#tags Route53ResolverOutpostResolver#tags}
 
 ---
 
@@ -628,7 +628,7 @@ The construct id used in the generated config for the Route53ResolverOutpostReso
 
 The id of the existing Route53ResolverOutpostResolver that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1143,7 +1143,7 @@ public java.lang.String getName();
 
 The OutpostResolver name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#name Route53ResolverOutpostResolver#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#name Route53ResolverOutpostResolver#name}
 
 ---
 
@@ -1157,7 +1157,7 @@ public java.lang.String getOutpostArn();
 
 The Outpost ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#outpost_arn Route53ResolverOutpostResolver#outpost_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#outpost_arn Route53ResolverOutpostResolver#outpost_arn}
 
 ---
 
@@ -1171,7 +1171,7 @@ public java.lang.String getPreferredInstanceType();
 
 The OutpostResolver instance type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#preferred_instance_type Route53ResolverOutpostResolver#preferred_instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#preferred_instance_type Route53ResolverOutpostResolver#preferred_instance_type}
 
 ---
 
@@ -1185,7 +1185,7 @@ public java.lang.Number getInstanceCount();
 
 The number of OutpostResolvers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#instance_count Route53ResolverOutpostResolver#instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#instance_count Route53ResolverOutpostResolver#instance_count}
 
 ---
 
@@ -1199,7 +1199,7 @@ public IResolvable|java.util.List<Route53ResolverOutpostResolverTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#tags Route53ResolverOutpostResolver#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#tags Route53ResolverOutpostResolver#tags}
 
 ---
 
@@ -1237,7 +1237,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#key Route53ResolverOutpostResolver#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#key Route53ResolverOutpostResolver#key}
 
 ---
 
@@ -1253,7 +1253,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_outpost_resolver#value Route53ResolverOutpostResolver#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_outpost_resolver#value Route53ResolverOutpostResolver#value}
 
 ---
 

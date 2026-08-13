@@ -4,7 +4,7 @@
 
 ### DataAwsccResiliencehubv2ServiceFunction <a name="DataAwsccResiliencehubv2ServiceFunction" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2ServiceFunction.DataAwsccResiliencehubv2ServiceFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2ServiceFunction.DataAwsccResiliencehubv2ServiceFunction.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubv2Se
 
 The id of the existing DataAwsccResiliencehubv2ServiceFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resiliencehubv2_service_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehubv2_service_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -786,7 +786,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resiliencehubv2_service_function#id DataAwsccResiliencehubv2ServiceFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehubv2_service_function#id DataAwsccResiliencehubv2ServiceFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

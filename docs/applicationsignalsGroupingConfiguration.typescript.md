@@ -4,7 +4,7 @@
 
 ### ApplicationsignalsGroupingConfiguration <a name="ApplicationsignalsGroupingConfiguration" id="@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfiguration.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the ApplicationsignalsGrouping
 
 The id of the existing ApplicationsignalsGroupingConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -773,7 +773,7 @@ const applicationsignalsGroupingConfigurationConfig: applicationsignalsGroupingC
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationConfig.property.groupingAttributeDefinitions">groupingAttributeDefinitions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions">ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationConfig.property.groupingAttributeDefinitions">groupingAttributeDefinitions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions">ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}. |
 
 ---
 
@@ -855,7 +855,7 @@ public readonly groupingAttributeDefinitions: IResolvable | ApplicationsignalsGr
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions">ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}.
 
 ---
 
@@ -873,9 +873,9 @@ const applicationsignalsGroupingConfigurationGroupingAttributeDefinitions: appli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions.property.groupingName">groupingName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_name ApplicationsignalsGroupingConfiguration#grouping_name}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions.property.groupingSourceKeys">groupingSourceKeys</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_source_keys ApplicationsignalsGroupingConfiguration#grouping_source_keys}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions.property.defaultGroupingValue">defaultGroupingValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#default_grouping_value ApplicationsignalsGroupingConfiguration#default_grouping_value}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions.property.groupingName">groupingName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_name ApplicationsignalsGroupingConfiguration#grouping_name}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions.property.groupingSourceKeys">groupingSourceKeys</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_source_keys ApplicationsignalsGroupingConfiguration#grouping_source_keys}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsGroupingConfiguration.ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions.property.defaultGroupingValue">defaultGroupingValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#default_grouping_value ApplicationsignalsGroupingConfiguration#default_grouping_value}. |
 
 ---
 
@@ -887,7 +887,7 @@ public readonly groupingName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_name ApplicationsignalsGroupingConfiguration#grouping_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_name ApplicationsignalsGroupingConfiguration#grouping_name}.
 
 ---
 
@@ -899,7 +899,7 @@ public readonly groupingSourceKeys: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_source_keys ApplicationsignalsGroupingConfiguration#grouping_source_keys}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_source_keys ApplicationsignalsGroupingConfiguration#grouping_source_keys}.
 
 ---
 
@@ -911,7 +911,7 @@ public readonly defaultGroupingValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#default_grouping_value ApplicationsignalsGroupingConfiguration#default_grouping_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#default_grouping_value ApplicationsignalsGroupingConfiguration#default_grouping_value}.
 
 ---
 

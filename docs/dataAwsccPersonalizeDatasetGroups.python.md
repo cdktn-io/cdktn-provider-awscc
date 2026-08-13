@@ -4,7 +4,7 @@
 
 ### DataAwsccPersonalizeDatasetGroups <a name="DataAwsccPersonalizeDatasetGroups" id="@cdktn/provider-awscc.dataAwsccPersonalizeDatasetGroups.DataAwsccPersonalizeDatasetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeDatasetGroups.DataAwsccPersonalizeDatasetGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeDatase
 
 The id of the existing DataAwsccPersonalizeDatasetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/personalize_dataset_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/personalize_dataset_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

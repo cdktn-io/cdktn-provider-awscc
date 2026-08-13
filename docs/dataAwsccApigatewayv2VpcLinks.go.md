@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayv2VpcLinks <a name="DataAwsccApigatewayv2VpcLinks" id="@cdktn/provider-awscc.dataAwsccApigatewayv2VpcLinks.DataAwsccApigatewayv2VpcLinks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_vpc_links awscc_apigatewayv2_vpc_links}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_vpc_links awscc_apigatewayv2_vpc_links}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2VpcLinks.DataAwsccApigatewayv2VpcLinks.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2VpcLi
 
 The id of the existing DataAwsccApigatewayv2VpcLinks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_vpc_links#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_vpc_links#import import section} in the documentation of this resource for the id to use
 
 ---
 

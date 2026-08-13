@@ -4,7 +4,7 @@
 
 ### DataAwsccResiliencehubApp <a name="DataAwsccResiliencehubApp" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubApp.DataAwsccResiliencehubApp.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubApp 
 
 The id of the existing DataAwsccResiliencehubApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -817,7 +817,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/resiliencehub_app#id DataAwsccResiliencehubApp#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app#id DataAwsccResiliencehubApp#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

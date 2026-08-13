@@ -4,7 +4,7 @@
 
 ### DataAwsccDatazoneProjectProfiles <a name="DataAwsccDatazoneProjectProfiles" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datazone_project_profiles awscc_datazone_project_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datazone_project_profiles awscc_datazone_project_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatazoneProjectProfiles.DataAwsccDatazoneProjectProfiles.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatazoneProjectPr
 
 The id of the existing DataAwsccDatazoneProjectProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datazone_project_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datazone_project_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

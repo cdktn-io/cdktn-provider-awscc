@@ -4,7 +4,7 @@
 
 ### ApprunnerVpcIngressConnection <a name="ApprunnerVpcIngressConnection" id="@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnection.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the ApprunnerVpcIngressConnect
 
 The id of the existing ApprunnerVpcIngressConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -891,7 +891,7 @@ new ApprunnerVpcIngressConnectionConfig {
 | <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionConfig.property.ingressVpcConfiguration">IngressVpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionIngressVpcConfiguration">ApprunnerVpcIngressConnectionIngressVpcConfiguration</a></code> | The configuration of customer?s VPC and related VPC endpoint. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionConfig.property.serviceArn">ServiceArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the service. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags">ApprunnerVpcIngressConnectionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#tags ApprunnerVpcIngressConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags">ApprunnerVpcIngressConnectionTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#tags ApprunnerVpcIngressConnection#tags}. |
 | <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionConfig.property.vpcIngressConnectionName">VpcIngressConnectionName</a></code> | <code>string</code> | The customer-provided Vpc Ingress Connection name. |
 
 ---
@@ -976,7 +976,7 @@ public ApprunnerVpcIngressConnectionIngressVpcConfiguration IngressVpcConfigurat
 
 The configuration of customer?s VPC and related VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#ingress_vpc_configuration ApprunnerVpcIngressConnection#ingress_vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#ingress_vpc_configuration ApprunnerVpcIngressConnection#ingress_vpc_configuration}
 
 ---
 
@@ -990,7 +990,7 @@ public string ServiceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#service_arn ApprunnerVpcIngressConnection#service_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#service_arn ApprunnerVpcIngressConnection#service_arn}
 
 ---
 
@@ -1002,7 +1002,7 @@ public IResolvable|ApprunnerVpcIngressConnectionTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags">ApprunnerVpcIngressConnectionTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#tags ApprunnerVpcIngressConnection#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#tags ApprunnerVpcIngressConnection#tags}.
 
 ---
 
@@ -1016,7 +1016,7 @@ public string VpcIngressConnectionName { get; set; }
 
 The customer-provided Vpc Ingress Connection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#vpc_ingress_connection_name ApprunnerVpcIngressConnection#vpc_ingress_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#vpc_ingress_connection_name ApprunnerVpcIngressConnection#vpc_ingress_connection_name}
 
 ---
 
@@ -1052,7 +1052,7 @@ public string VpcEndpointId { get; set; }
 
 The ID of the VPC endpoint that your App Runner service connects to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#vpc_endpoint_id ApprunnerVpcIngressConnection#vpc_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#vpc_endpoint_id ApprunnerVpcIngressConnection#vpc_endpoint_id}
 
 ---
 
@@ -1066,7 +1066,7 @@ public string VpcId { get; set; }
 
 The ID of the VPC that the VPC endpoint is used in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#vpc_id ApprunnerVpcIngressConnection#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#vpc_id ApprunnerVpcIngressConnection#vpc_id}
 
 ---
 
@@ -1087,8 +1087,8 @@ new ApprunnerVpcIngressConnectionTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#key ApprunnerVpcIngressConnection#key}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#value ApprunnerVpcIngressConnection#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#key ApprunnerVpcIngressConnection#key}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerVpcIngressConnection.ApprunnerVpcIngressConnectionTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#value ApprunnerVpcIngressConnection#value}. |
 
 ---
 
@@ -1100,7 +1100,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#key ApprunnerVpcIngressConnection#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#key ApprunnerVpcIngressConnection#key}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apprunner_vpc_ingress_connection#value ApprunnerVpcIngressConnection#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_ingress_connection#value ApprunnerVpcIngressConnection#value}.
 
 ---
 

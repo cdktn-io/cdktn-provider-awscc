@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,73 +15,73 @@ export interface QuicksightAgentConfig extends cdktn.TerraformMetaArguments {
   /**
   * A list of ActionConnector ARNs (max 10) attached to the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#action_connectors QuicksightAgent#action_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#action_connectors QuicksightAgent#action_connectors}
   */
   readonly actionConnectors?: string[];
   /**
   * The unique identifier for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#agent_id QuicksightAgent#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#agent_id QuicksightAgent#agent_id}
   */
   readonly agentId: string;
   /**
   * The lifecycle stage of the agent. PREVIEW or PUBLISHED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#agent_lifecycle QuicksightAgent#agent_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#agent_lifecycle QuicksightAgent#agent_lifecycle}
   */
   readonly agentLifecycle?: string;
   /**
   * The ID of the Amazon Web Services account where the agent is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#aws_account_id QuicksightAgent#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#aws_account_id QuicksightAgent#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
   * Custom prompt configuration. Specify either ExistingPrompt or NewPrompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#custom_prompt_input QuicksightAgent#custom_prompt_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#custom_prompt_input QuicksightAgent#custom_prompt_input}
   */
   readonly customPromptInput?: QuicksightAgentCustomPromptInput;
   /**
   * A description of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#description QuicksightAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#description QuicksightAgent#description}
   */
   readonly description?: string;
   /**
   * The icon identifier for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#icon_id QuicksightAgent#icon_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#icon_id QuicksightAgent#icon_id}
   */
   readonly iconId?: string;
   /**
   * The display name of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#name QuicksightAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#name QuicksightAgent#name}
   */
   readonly name: string;
   /**
   * A list of Space ARNs (max 10) attached to the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#spaces QuicksightAgent#spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#spaces QuicksightAgent#spaces}
   */
   readonly spaces?: string[];
   /**
   * A list of up to 3 starter prompts displayed to users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#starter_prompts QuicksightAgent#starter_prompts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#starter_prompts QuicksightAgent#starter_prompts}
   */
   readonly starterPrompts?: string[];
   /**
   * A list of key-value pairs to associate with the agent resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#tags QuicksightAgent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#tags QuicksightAgent#tags}
   */
   readonly tags?: QuicksightAgentTags[] | cdktn.IResolvable;
   /**
   * The welcome message displayed when a user opens the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#welcome_message QuicksightAgent#welcome_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#welcome_message QuicksightAgent#welcome_message}
   */
   readonly welcomeMessage?: string;
 }
@@ -89,19 +89,19 @@ export interface QuicksightAgentCustomPromptInputExistingPrompt {
   /**
   * The identifier of the model profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#model_profile_id QuicksightAgent#model_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#model_profile_id QuicksightAgent#model_profile_id}
   */
   readonly modelProfileId?: string;
   /**
   * The QBS AWS account identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#qbs_aws_account_id QuicksightAgent#qbs_aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#qbs_aws_account_id QuicksightAgent#qbs_aws_account_id}
   */
   readonly qbsAwsAccountId?: string;
   /**
   * The subscription identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#subscription_id QuicksightAgent#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#subscription_id QuicksightAgent#subscription_id}
   */
   readonly subscriptionId?: string;
 }
@@ -255,31 +255,31 @@ export interface QuicksightAgentCustomPromptInputNewPrompt {
   /**
   * Custom instructions for the agent behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#custom_instructions QuicksightAgent#custom_instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#custom_instructions QuicksightAgent#custom_instructions}
   */
   readonly customInstructions?: string;
   /**
   * The identity or persona of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#identity QuicksightAgent#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#identity QuicksightAgent#identity}
   */
   readonly identity?: string;
   /**
   * The output style for the agent responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#output_style QuicksightAgent#output_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#output_style QuicksightAgent#output_style}
   */
   readonly outputStyle?: string;
   /**
   * The desired response length for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#response_length QuicksightAgent#response_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#response_length QuicksightAgent#response_length}
   */
   readonly responseLength?: string;
   /**
   * The tone used in agent responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#tone QuicksightAgent#tone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#tone QuicksightAgent#tone}
   */
   readonly tone?: string;
 }
@@ -491,13 +491,13 @@ export interface QuicksightAgentCustomPromptInput {
   /**
   * Reference to an existing custom prompt profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#existing_prompt QuicksightAgent#existing_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#existing_prompt QuicksightAgent#existing_prompt}
   */
   readonly existingPrompt?: QuicksightAgentCustomPromptInputExistingPrompt;
   /**
   * Parameters for creating a new custom prompt configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#new_prompt QuicksightAgent#new_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#new_prompt QuicksightAgent#new_prompt}
   */
   readonly newPrompt?: QuicksightAgentCustomPromptInputNewPrompt;
 }
@@ -716,13 +716,13 @@ export interface QuicksightAgentTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#key QuicksightAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#key QuicksightAgent#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#value QuicksightAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#value QuicksightAgent#value}
   */
   readonly value?: string;
 }
@@ -867,7 +867,7 @@ export class QuicksightAgentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent awscc_quicksight_agent}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent awscc_quicksight_agent}
 */
 export class QuicksightAgent extends cdktn.TerraformResource {
 
@@ -883,7 +883,7 @@ export class QuicksightAgent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightAgent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightAgent to import
-  * @param importFromId The id of the existing QuicksightAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -895,7 +895,7 @@ export class QuicksightAgent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_agent awscc_quicksight_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_agent awscc_quicksight_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -906,7 +906,7 @@ export class QuicksightAgent extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_agent',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

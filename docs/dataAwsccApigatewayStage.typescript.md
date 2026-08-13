@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayStage <a name="DataAwsccApigatewayStage" id="@cdktn/provider-awscc.dataAwsccApigatewayStage.DataAwsccApigatewayStage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigateway_stage awscc_apigateway_stage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_stage awscc_apigateway_stage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayStage.DataAwsccApigatewayStage.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayStage t
 
 The id of the existing DataAwsccApigatewayStage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigateway_stage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_stage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -863,7 +863,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigateway_stage#id DataAwsccApigatewayStage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_stage#id DataAwsccApigatewayStage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

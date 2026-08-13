@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface SnsTopicInlinePolicyConfig extends cdktn.TerraformMetaArguments
   /**
   * A policy document that contains permissions to add to the specified SNS topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
   */
   readonly policyDocument: string;
   /**
   * The Amazon Resource Name (ARN) of the topic to which you want to add the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
   */
   readonly topicArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy}
 */
 export class SnsTopicInlinePolicy extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class SnsTopicInlinePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SnsTopicInlinePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnsTopicInlinePolicy to import
-  * @param importFromId The id of the existing SnsTopicInlinePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnsTopicInlinePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnsTopicInlinePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class SnsTopicInlinePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class SnsTopicInlinePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sns_topic_inline_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

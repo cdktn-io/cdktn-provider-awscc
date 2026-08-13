@@ -4,7 +4,7 @@
 
 ### InvoicingInvoiceUnit <a name="InvoicingInvoiceUnit" id="@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnit.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the InvoicingInvoiceUnit to im
 
 The id of the existing InvoicingInvoiceUnit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,12 +931,12 @@ new InvoicingInvoiceUnitConfig {
 | <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.invoiceReceiver">InvoiceReceiver</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#invoice_receiver InvoicingInvoiceUnit#invoice_receiver}. |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#name InvoicingInvoiceUnit#name}. |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.rule">Rule</a></code> | <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitRule">InvoicingInvoiceUnitRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#rule InvoicingInvoiceUnit#rule}. |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#description InvoicingInvoiceUnit#description}. |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.resourceTags">ResourceTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags">InvoicingInvoiceUnitResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#resource_tags InvoicingInvoiceUnit#resource_tags}. |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.taxInheritanceDisabled">TaxInheritanceDisabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#tax_inheritance_disabled InvoicingInvoiceUnit#tax_inheritance_disabled}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.invoiceReceiver">InvoiceReceiver</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#invoice_receiver InvoicingInvoiceUnit#invoice_receiver}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#name InvoicingInvoiceUnit#name}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.rule">Rule</a></code> | <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitRule">InvoicingInvoiceUnitRule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#rule InvoicingInvoiceUnit#rule}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#description InvoicingInvoiceUnit#description}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.resourceTags">ResourceTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags">InvoicingInvoiceUnitResourceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#resource_tags InvoicingInvoiceUnit#resource_tags}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitConfig.property.taxInheritanceDisabled">TaxInheritanceDisabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#tax_inheritance_disabled InvoicingInvoiceUnit#tax_inheritance_disabled}. |
 
 ---
 
@@ -1018,7 +1018,7 @@ public string InvoiceReceiver { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#invoice_receiver InvoicingInvoiceUnit#invoice_receiver}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#invoice_receiver InvoicingInvoiceUnit#invoice_receiver}.
 
 ---
 
@@ -1030,7 +1030,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#name InvoicingInvoiceUnit#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#name InvoicingInvoiceUnit#name}.
 
 ---
 
@@ -1042,7 +1042,7 @@ public InvoicingInvoiceUnitRule Rule { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitRule">InvoicingInvoiceUnitRule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#rule InvoicingInvoiceUnit#rule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#rule InvoicingInvoiceUnit#rule}.
 
 ---
 
@@ -1054,7 +1054,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#description InvoicingInvoiceUnit#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#description InvoicingInvoiceUnit#description}.
 
 ---
 
@@ -1066,7 +1066,7 @@ public IResolvable|InvoicingInvoiceUnitResourceTags[] ResourceTags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags">InvoicingInvoiceUnitResourceTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#resource_tags InvoicingInvoiceUnit#resource_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#resource_tags InvoicingInvoiceUnit#resource_tags}.
 
 ---
 
@@ -1078,7 +1078,7 @@ public bool|IResolvable TaxInheritanceDisabled { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#tax_inheritance_disabled InvoicingInvoiceUnit#tax_inheritance_disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#tax_inheritance_disabled InvoicingInvoiceUnit#tax_inheritance_disabled}.
 
 ---
 
@@ -1099,8 +1099,8 @@ new InvoicingInvoiceUnitResourceTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#key InvoicingInvoiceUnit#key}. |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#value InvoicingInvoiceUnit#value}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#key InvoicingInvoiceUnit#key}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitResourceTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#value InvoicingInvoiceUnit#value}. |
 
 ---
 
@@ -1112,7 +1112,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#key InvoicingInvoiceUnit#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#key InvoicingInvoiceUnit#key}.
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#value InvoicingInvoiceUnit#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#value InvoicingInvoiceUnit#value}.
 
 ---
 
@@ -1144,7 +1144,7 @@ new InvoicingInvoiceUnitRule {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitRule.property.linkedAccounts">LinkedAccounts</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#linked_accounts InvoicingInvoiceUnit#linked_accounts}. |
+| <code><a href="#@cdktn/provider-awscc.invoicingInvoiceUnit.InvoicingInvoiceUnitRule.property.linkedAccounts">LinkedAccounts</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#linked_accounts InvoicingInvoiceUnit#linked_accounts}. |
 
 ---
 
@@ -1156,7 +1156,7 @@ public string[] LinkedAccounts { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/invoicing_invoice_unit#linked_accounts InvoicingInvoiceUnit#linked_accounts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/invoicing_invoice_unit#linked_accounts InvoicingInvoiceUnit#linked_accounts}.
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,21 +13,21 @@ import * as cdktn from 'cdktn';
 
 export interface ApplicationsignalsGroupingConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}
   */
   readonly groupingAttributeDefinitions: ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions[] | cdktn.IResolvable;
 }
 export interface ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#default_grouping_value ApplicationsignalsGroupingConfiguration#default_grouping_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#default_grouping_value ApplicationsignalsGroupingConfiguration#default_grouping_value}
   */
   readonly defaultGroupingValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_name ApplicationsignalsGroupingConfiguration#grouping_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_name ApplicationsignalsGroupingConfiguration#grouping_name}
   */
   readonly groupingName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#grouping_source_keys ApplicationsignalsGroupingConfiguration#grouping_source_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#grouping_source_keys ApplicationsignalsGroupingConfiguration#grouping_source_keys}
   */
   readonly groupingSourceKeys: string[];
 }
@@ -195,7 +195,7 @@ export class ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}
 */
 export class ApplicationsignalsGroupingConfiguration extends cdktn.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ApplicationsignalsGroupingConfiguration extends cdktn.TerraformReso
   * Generates CDKTN code for importing a ApplicationsignalsGroupingConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationsignalsGroupingConfiguration to import
-  * @param importFromId The id of the existing ApplicationsignalsGroupingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationsignalsGroupingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationsignalsGroupingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ApplicationsignalsGroupingConfiguration extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,7 +234,7 @@ export class ApplicationsignalsGroupingConfiguration extends cdktn.TerraformReso
       terraformResourceType: 'awscc_applicationsignals_grouping_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

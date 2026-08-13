@@ -4,7 +4,7 @@
 
 ### SecuritylakeAwsLogSource <a name="SecuritylakeAwsLogSource" id="@cdktn/provider-awscc.securitylakeAwsLogSource.SecuritylakeAwsLogSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source awscc_securitylake_aws_log_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source awscc_securitylake_aws_log_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securitylakeAwsLogSource.SecuritylakeAwsLogSource.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN for the data lake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#data_lake_arn SecuritylakeAwsLogSource#data_lake_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#data_lake_arn SecuritylakeAwsLogSource#data_lake_arn}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name for a AWS source. This must be a Regionally unique value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version for a AWS source. This must be a Regionally unique value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS account where you want to collect logs from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
 
 ---
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the SecuritylakeAwsLogSource t
 
 The id of the existing SecuritylakeAwsLogSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,7 +1010,7 @@ public java.lang.String getDataLakeArn();
 
 The ARN for the data lake.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#data_lake_arn SecuritylakeAwsLogSource#data_lake_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#data_lake_arn SecuritylakeAwsLogSource#data_lake_arn}
 
 ---
 
@@ -1024,7 +1024,7 @@ public java.lang.String getSourceName();
 
 The name for a AWS source. This must be a Regionally unique value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
 
 ---
 
@@ -1038,7 +1038,7 @@ public java.lang.String getSourceVersion();
 
 The version for a AWS source. This must be a Regionally unique value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
 
 ---
 
@@ -1052,7 +1052,7 @@ public java.util.List<java.lang.String> getAccounts();
 
 AWS account where you want to collect logs from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
 
 ---
 

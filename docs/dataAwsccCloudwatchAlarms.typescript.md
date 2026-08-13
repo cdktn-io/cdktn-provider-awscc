@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchAlarms <a name="DataAwsccCloudwatchAlarms" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarms.DataAwsccCloudwatchAlarms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudwatch_alarms awscc_cloudwatch_alarms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_alarms awscc_cloudwatch_alarms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchAlarms.DataAwsccCloudwatchAlarms.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchAlarms 
 
 The id of the existing DataAwsccCloudwatchAlarms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudwatch_alarms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_alarms#import import section} in the documentation of this resource for the id to use
 
 ---
 

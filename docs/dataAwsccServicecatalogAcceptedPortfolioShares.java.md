@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogAcceptedPortfolioShares <a name="DataAwsccServicecatalogAcceptedPortfolioShares" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogAcceptedPortfolioShares.DataAwsccServicecatalogAcceptedPortfolioShares.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogAcc
 
 The id of the existing DataAwsccServicecatalogAcceptedPortfolioShares that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_accepted_portfolio_shares#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_accepted_portfolio_shares#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BedrockmantleProject <a name="BedrockmantleProject" id="@cdktn/provider-awscc.bedrockmantleProject.BedrockmantleProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockmantleProject.BedrockmantleProject.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
 
 ---
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the BedrockmantleProject to im
 
 The id of the existing BedrockmantleProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -984,7 +984,7 @@ public java.lang.String getName();
 
 The name of the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
 
 ---
 
@@ -998,7 +998,7 @@ public IResolvable|java.util.List<BedrockmantleProjectTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
 
 ---
 
@@ -1034,7 +1034,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#key BedrockmantleProject#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#key BedrockmantleProject#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockmantle_project#value BedrockmantleProject#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#value BedrockmantleProject#value}
 
 ---
 

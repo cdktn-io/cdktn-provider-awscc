@@ -4,7 +4,7 @@
 
 ### IotsitewisePortal <a name="IotsitewisePortal" id="@cdktn/provider-awscc.iotsitewisePortal.IotsitewisePortal"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal awscc_iotsitewise_portal}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal awscc_iotsitewise_portal}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePortal.IotsitewisePortal.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the IotsitewisePortal to impor
 
 The id of the existing IotsitewisePortal that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1079,7 +1079,7 @@ AlarmRoleArn *string
 
 The ARN of the IAM role that allows the alarm to perform actions and access AWS resources and services, such as AWS IoT Events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#alarm_role_arn IotsitewisePortal#alarm_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#alarm_role_arn IotsitewisePortal#alarm_role_arn}
 
 ---
 
@@ -1095,7 +1095,7 @@ The ARN of the AWS Lambda function that manages alarm notifications.
 
 For more information, see Managing alarm notifications in the AWS IoT Events Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#notification_lambda_arn IotsitewisePortal#notification_lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#notification_lambda_arn IotsitewisePortal#notification_lambda_arn}
 
 ---
 
@@ -1231,7 +1231,7 @@ PortalContactEmail *string
 
 The AWS administrator's contact email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_contact_email IotsitewisePortal#portal_contact_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_contact_email IotsitewisePortal#portal_contact_email}
 
 ---
 
@@ -1245,7 +1245,7 @@ PortalName *string
 
 A friendly name for the portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_name IotsitewisePortal#portal_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_name IotsitewisePortal#portal_name}
 
 ---
 
@@ -1259,7 +1259,7 @@ RoleArn *string
 
 The ARN of a service role that allows the portal's users to access your AWS IoT SiteWise resources on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#role_arn IotsitewisePortal#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#role_arn IotsitewisePortal#role_arn}
 
 ---
 
@@ -1275,7 +1275,7 @@ Contains the configuration information of an alarm created in an AWS IoT SiteWis
 
 You can use the alarm to monitor an asset property and get notified when the asset property value is outside a specified range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#alarms IotsitewisePortal#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#alarms IotsitewisePortal#alarms}
 
 ---
 
@@ -1289,7 +1289,7 @@ NotificationSenderEmail *string
 
 The email address that sends alarm notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#notification_sender_email IotsitewisePortal#notification_sender_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#notification_sender_email IotsitewisePortal#notification_sender_email}
 
 ---
 
@@ -1305,7 +1305,7 @@ The service to use to authenticate users to the portal.
 
 Choose from SSO or IAM. You can't change this value after you create a portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_auth_mode IotsitewisePortal#portal_auth_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_auth_mode IotsitewisePortal#portal_auth_mode}
 
 ---
 
@@ -1319,7 +1319,7 @@ PortalDescription *string
 
 A description for the portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_description IotsitewisePortal#portal_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_description IotsitewisePortal#portal_description}
 
 ---
 
@@ -1333,7 +1333,7 @@ PortalType *string
 
 The type of portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_type IotsitewisePortal#portal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_type IotsitewisePortal#portal_type}
 
 ---
 
@@ -1347,7 +1347,7 @@ PortalTypeConfiguration interface{}
 
 Map to associate detail of configuration related with a PortalType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_type_configuration IotsitewisePortal#portal_type_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_type_configuration IotsitewisePortal#portal_type_configuration}
 
 ---
 
@@ -1361,7 +1361,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#tags IotsitewisePortal#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#tags IotsitewisePortal#tags}
 
 ---
 
@@ -1395,7 +1395,7 @@ PortalTools *[]*string
 
 List of enabled Tools for a certain portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#portal_tools IotsitewisePortal#portal_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#portal_tools IotsitewisePortal#portal_tools}
 
 ---
 
@@ -1416,8 +1416,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseportal"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewisePortal.IotsitewisePortalTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#key IotsitewisePortal#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewisePortal.IotsitewisePortalTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#value IotsitewisePortal#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewisePortal.IotsitewisePortalTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#key IotsitewisePortal#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewisePortal.IotsitewisePortalTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#value IotsitewisePortal#value}. |
 
 ---
 
@@ -1429,7 +1429,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#key IotsitewisePortal#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#key IotsitewisePortal#key}.
 
 ---
 
@@ -1441,7 +1441,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_portal#value IotsitewisePortal#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_portal#value IotsitewisePortal#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupTieringConfigurations <a name="DataAwsccBackupTieringConfigurations" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupTieringConfigurations.DataAwsccBackupTieringConfigurations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBackupTieringConf
 
 The id of the existing DataAwsccBackupTieringConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_tiering_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_tiering_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

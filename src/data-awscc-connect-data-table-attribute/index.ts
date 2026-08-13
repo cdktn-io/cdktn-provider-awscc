@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccConnectDataTableAttributeConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute#id DataAwsccConnectDataTableAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute#id DataAwsccConnectDataTableAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -242,7 +242,7 @@ export class DataAwsccConnectDataTableAttributeValidationOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}
 */
 export class DataAwsccConnectDataTableAttribute extends cdktn.TerraformDataSource {
 
@@ -258,7 +258,7 @@ export class DataAwsccConnectDataTableAttribute extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccConnectDataTableAttribute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccConnectDataTableAttribute to import
-  * @param importFromId The id of the existing DataAwsccConnectDataTableAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccConnectDataTableAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccConnectDataTableAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -270,7 +270,7 @@ export class DataAwsccConnectDataTableAttribute extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -281,7 +281,7 @@ export class DataAwsccConnectDataTableAttribute extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_connect_data_table_attribute',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

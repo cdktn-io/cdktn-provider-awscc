@@ -4,7 +4,7 @@
 
 ### DataAwsccSesTenants <a name="DataAwsccSesTenants" id="@cdktn/provider-awscc.dataAwsccSesTenants.DataAwsccSesTenants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_tenants awscc_ses_tenants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_tenants awscc_ses_tenants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenants.DataAwsccSesTenants.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSesTenants to imp
 
 The id of the existing DataAwsccSesTenants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_tenants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_tenants#import import section} in the documentation of this resource for the id to use
 
 ---
 

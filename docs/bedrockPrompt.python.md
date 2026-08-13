@@ -4,7 +4,7 @@
 
 ### BedrockPrompt <a name="BedrockPrompt" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt awscc_bedrock_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPrompt.BedrockPrompt.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of prompt variants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
 
 ---
 
@@ -713,7 +713,7 @@ The construct id used in the generated config for the BedrockPrompt to import.
 
 The id of the existing BedrockPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1230,7 +1230,7 @@ name: str
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1244,7 +1244,7 @@ customer_encryption_key_arn: str
 
 A KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#customer_encryption_key_arn BedrockPrompt#customer_encryption_key_arn}
 
 ---
 
@@ -1258,7 +1258,7 @@ default_variant: str
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#default_variant BedrockPrompt#default_variant}
 
 ---
 
@@ -1272,7 +1272,7 @@ description: str
 
 Name for a prompt resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ tags: typing.Mapping[str]
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tags BedrockPrompt#tags}
 
 ---
 
@@ -1300,7 +1300,7 @@ variants: IResolvable | typing.List[BedrockPromptVariants]
 
 List of prompt variants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#variants BedrockPrompt#variants}
 
 ---
 
@@ -1348,7 +1348,7 @@ additional_model_request_fields: str
 
 Contains model-specific configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#additional_model_request_fields BedrockPrompt#additional_model_request_fields}
 
 ---
 
@@ -1362,7 +1362,7 @@ gen_ai_resource: BedrockPromptVariantsGenAiResource
 
 Target resource to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#gen_ai_resource BedrockPrompt#gen_ai_resource}
 
 ---
 
@@ -1376,7 +1376,7 @@ inference_configuration: BedrockPromptVariantsInferenceConfiguration
 
 Model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#inference_configuration BedrockPrompt#inference_configuration}
 
 ---
 
@@ -1390,7 +1390,7 @@ metadata: IResolvable | typing.List[BedrockPromptVariantsMetadata]
 
 List of metadata to associate with the prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#metadata BedrockPrompt#metadata}
 
 ---
 
@@ -1404,7 +1404,7 @@ model_id: str
 
 ARN or Id of a Bedrock Foundational Model or Inference Profile, or the ARN of a imported model, or a provisioned throughput ARN for custom models.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#model_id BedrockPrompt#model_id}
 
 ---
 
@@ -1418,7 +1418,7 @@ name: str
 
 Name for a variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1432,7 +1432,7 @@ template_configuration: BedrockPromptVariantsTemplateConfiguration
 
 Prompt template configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#template_configuration BedrockPrompt#template_configuration}
 
 ---
 
@@ -1446,7 +1446,7 @@ template_type: str
 
 Prompt template type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#template_type BedrockPrompt#template_type}
 
 ---
 
@@ -1480,7 +1480,7 @@ agent: BedrockPromptVariantsGenAiResourceAgent
 
 Target Agent to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
 
 ---
 
@@ -1514,7 +1514,7 @@ agent_identifier: str
 
 Arn representation of the Agent Alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
 
 ---
 
@@ -1548,7 +1548,7 @@ text: BedrockPromptVariantsInferenceConfigurationText
 
 Prompt model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1588,7 +1588,7 @@ max_tokens: typing.Union[int, float]
 
 Maximum length of output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
 
 ---
 
@@ -1602,7 +1602,7 @@ stop_sequences: typing.List[str]
 
 List of stop sequences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
 
 ---
 
@@ -1616,7 +1616,7 @@ temperature: typing.Union[int, float]
 
 Controls randomness, higher values increase diversity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
 
 ---
 
@@ -1630,7 +1630,7 @@ top_p: typing.Union[int, float]
 
 Cumulative probability cutoff for token selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
 
 ---
 
@@ -1666,7 +1666,7 @@ key: str
 
 The key of a metadata tag for a prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -1680,7 +1680,7 @@ value: str
 
 The value of a metadata tag for a prompt variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#value BedrockPrompt#value}
 
 ---
 
@@ -1716,7 +1716,7 @@ chat: BedrockPromptVariantsTemplateConfigurationChat
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
 
 ---
 
@@ -1730,7 +1730,7 @@ text: BedrockPromptVariantsTemplateConfigurationText
 
 Configuration for text prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1770,7 +1770,7 @@ input_variables: IResolvable | typing.List[BedrockPromptVariantsTemplateConfigur
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -1784,7 +1784,7 @@ messages: IResolvable | typing.List[BedrockPromptVariantsTemplateConfigurationCh
 
 List of messages for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
 
 ---
 
@@ -1798,7 +1798,7 @@ system_attribute: IResolvable | typing.List[BedrockPromptVariantsTemplateConfigu
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
 
 ---
 
@@ -1812,7 +1812,7 @@ tool_configuration: BedrockPromptVariantsTemplateConfigurationChatToolConfigurat
 
 Tool configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
 
 ---
 
@@ -1846,7 +1846,7 @@ name: str
 
 Name for an input variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -1882,7 +1882,7 @@ content: IResolvable | typing.List[BedrockPromptVariantsTemplateConfigurationCha
 
 List of Content Blocks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#content BedrockPrompt#content}
 
 ---
 
@@ -1896,7 +1896,7 @@ role: str
 
 Conversation roles for the chat prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#role BedrockPrompt#role}
 
 ---
 
@@ -1932,7 +1932,7 @@ cache_point: BedrockPromptVariantsTemplateConfigurationChatMessagesContentCacheP
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -1946,7 +1946,7 @@ text: str
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -1980,7 +1980,7 @@ type: str
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2016,7 +2016,7 @@ cache_point: BedrockPromptVariantsTemplateConfigurationChatSystemCachePoint
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2030,7 +2030,7 @@ text: str
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -2064,7 +2064,7 @@ type: str
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2100,7 +2100,7 @@ tool_choice: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
 
 Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
 
 ---
 
@@ -2114,7 +2114,7 @@ tools: IResolvable | typing.List[BedrockPromptVariantsTemplateConfigurationChatT
 
 List of Tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
 
 ---
 
@@ -2152,7 +2152,7 @@ any: str
 
 Any Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
 
 ---
 
@@ -2166,7 +2166,7 @@ auto: str
 
 Auto Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
 
 ---
 
@@ -2180,7 +2180,7 @@ tool: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolChoiceT
 
 Specific Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
 
 ---
 
@@ -2214,7 +2214,7 @@ name: str
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2250,7 +2250,7 @@ cache_point: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2264,7 +2264,7 @@ tool_spec: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsT
 
 Tool specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
 
 ---
 
@@ -2298,7 +2298,7 @@ type: str
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2320,7 +2320,7 @@ bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.inputSchema">input_schema</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema">BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema</a></code> | Tool input schema. |
 | <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec.property.name">name</a></code> | <code>str</code> | Tool name. |
 
@@ -2334,7 +2334,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
 
 ---
 
@@ -2348,7 +2348,7 @@ input_schema: BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToo
 
 Tool input schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
 
 ---
 
@@ -2362,7 +2362,7 @@ name: str
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2382,7 +2382,7 @@ bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.property.json">json</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockPrompt.BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpecInputSchema.property.json">json</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}. |
 
 ---
 
@@ -2394,7 +2394,7 @@ json: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
 
 ---
 
@@ -2434,7 +2434,7 @@ cache_point: BedrockPromptVariantsTemplateConfigurationTextCachePoint
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -2448,7 +2448,7 @@ input_variables: IResolvable | typing.List[BedrockPromptVariantsTemplateConfigur
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -2462,7 +2462,7 @@ text: str
 
 Prompt content for String prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -2476,7 +2476,7 @@ text_s3_location: BedrockPromptVariantsTemplateConfigurationTextTextS3Location
 
 The identifier for the S3 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
 
 ---
 
@@ -2510,7 +2510,7 @@ type: str
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -2544,7 +2544,7 @@ name: str
 
 Name for an input variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -2582,7 +2582,7 @@ bucket: str
 
 A bucket in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
 
 ---
 
@@ -2596,7 +2596,7 @@ key: str
 
 A object key in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -2610,7 +2610,7 @@ version: str
 
 The version of the the S3 object to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
 
 ---
 
@@ -3163,7 +3163,7 @@ def put_agent(
 
 Arn representation of the Agent Alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#agent_identifier BedrockPrompt#agent_identifier}
 
 ---
 
@@ -3488,7 +3488,7 @@ def put_text(
 
 Maximum length of output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#max_tokens BedrockPrompt#max_tokens}
 
 ---
 
@@ -3498,7 +3498,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of stop sequences.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#stop_sequences BedrockPrompt#stop_sequences}
 
 ---
 
@@ -3508,7 +3508,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Controls randomness, higher values increase diversity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#temperature BedrockPrompt#temperature}
 
 ---
 
@@ -3518,7 +3518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Cumulative probability cutoff for token selection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#top_p BedrockPrompt#top_p}
 
 ---
 
@@ -4952,7 +4952,7 @@ def put_gen_ai_resource(
 
 Target Agent to invoke with Prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#agent BedrockPrompt#agent}
 
 ---
 
@@ -4970,7 +4970,7 @@ def put_inference_configuration(
 
 Prompt model inference configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -5003,7 +5003,7 @@ def put_template_configuration(
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#chat BedrockPrompt#chat}
 
 ---
 
@@ -5013,7 +5013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for text prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -6518,7 +6518,7 @@ def put_cache_point(
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -7454,7 +7454,7 @@ def put_tool_configuration(
 
 Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool_choice BedrockPrompt#tool_choice}
 
 ---
 
@@ -7464,7 +7464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of Tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tools BedrockPrompt#tools}
 
 ---
 
@@ -8364,7 +8364,7 @@ def put_cache_point(
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -8718,7 +8718,7 @@ def put_tool_choice(
 
 Any Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#any BedrockPrompt#any}
 
 ---
 
@@ -8728,7 +8728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Auto Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#auto BedrockPrompt#auto}
 
 ---
 
@@ -8738,7 +8738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specific Tool choice.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool BedrockPrompt#tool}
 
 ---
 
@@ -9104,7 +9104,7 @@ def put_tool(
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -10280,7 +10280,7 @@ def put_cache_point(
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -10298,7 +10298,7 @@ def put_tool_spec(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#description BedrockPrompt#description}.
 
 ---
 
@@ -10308,7 +10308,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tool input schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#input_schema BedrockPrompt#input_schema}
 
 ---
 
@@ -10318,7 +10318,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tool name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#name BedrockPrompt#name}
 
 ---
 
@@ -10971,7 +10971,7 @@ def put_input_schema(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#json BedrockPrompt#json}.
 
 ---
 
@@ -11354,7 +11354,7 @@ def put_chat(
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -11364,7 +11364,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of messages for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#messages BedrockPrompt#messages}
 
 ---
 
@@ -11374,7 +11374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for chat prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#system BedrockPrompt#system}
 
 ---
 
@@ -11384,7 +11384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tool configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#tool_configuration BedrockPrompt#tool_configuration}
 
 ---
 
@@ -11405,7 +11405,7 @@ def put_text(
 
 CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 
 ---
 
@@ -11415,7 +11415,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of input variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#input_variables BedrockPrompt#input_variables}
 
 ---
 
@@ -11425,7 +11425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Prompt content for String prompt template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text BedrockPrompt#text}
 
 ---
 
@@ -11435,7 +11435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier for the S3 resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#text_s3_location BedrockPrompt#text_s3_location}
 
 ---
 
@@ -12586,7 +12586,7 @@ def put_cache_point(
 
 CachePoint types for CachePointBlock.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 
 ---
 
@@ -12620,7 +12620,7 @@ def put_text_s3_location(
 
 A bucket in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#bucket BedrockPrompt#bucket}
 
 ---
 
@@ -12630,7 +12630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A object key in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#key BedrockPrompt#key}
 
 ---
 
@@ -12640,7 +12640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the the S3 object to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt#version BedrockPrompt#version}
 
 ---
 

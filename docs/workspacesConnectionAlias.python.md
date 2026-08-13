@@ -4,7 +4,7 @@
 
 ### WorkspacesConnectionAlias <a name="WorkspacesConnectionAlias" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer"></a>
 
@@ -37,8 +37,8 @@ workspacesConnectionAlias.WorkspacesConnectionAlias(
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.connectionString">connection_string</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}. |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags">WorkspacesConnectionAliasTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.connectionString">connection_string</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAlias.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags">WorkspacesConnectionAliasTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags">WorkspacesConnectionAliasTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
 
 ---
 
@@ -633,7 +633,7 @@ The construct id used in the generated config for the WorkspacesConnectionAlias 
 
 The id of the existing WorkspacesConnectionAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -958,8 +958,8 @@ workspacesConnectionAlias.WorkspacesConnectionAliasConfig(
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.connectionString">connection_string</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}. |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags">WorkspacesConnectionAliasTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.connectionString">connection_string</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags">WorkspacesConnectionAliasTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}. |
 
 ---
 
@@ -1041,7 +1041,7 @@ connection_string: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
 
 ---
 
@@ -1053,7 +1053,7 @@ tags: IResolvable | typing.List[WorkspacesConnectionAliasTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags">WorkspacesConnectionAliasTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
 
 ---
 
@@ -1074,8 +1074,8 @@ workspacesConnectionAlias.WorkspacesConnectionAliasTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}. |
-| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}. |
+| <code><a href="#@cdktn/provider-awscc.workspacesConnectionAlias.WorkspacesConnectionAliasTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}. |
 
 ---
 
@@ -1087,7 +1087,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}.
 
 ---
 
@@ -1099,7 +1099,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}.
 
 ---
 

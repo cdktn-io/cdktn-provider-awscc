@@ -4,7 +4,7 @@
 
 ### DataAwsccSystemsmanagersapApplications <a name="DataAwsccSystemsmanagersapApplications" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplications.DataAwsccSystemsmanagersapApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSystemsmanagersapApplications.DataAwsccSystemsmanagersapApplications.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSystemsmanagersap
 
 The id of the existing DataAwsccSystemsmanagersapApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/systemsmanagersap_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/systemsmanagersap_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

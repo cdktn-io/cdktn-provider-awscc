@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,47 +15,47 @@ export interface GlobalacceleratorAcceleratorConfig extends cdktn.TerraformMetaA
   /**
   * Indicates whether an accelerator is enabled. The value is true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether flow logs are enabled for the accelerator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
   */
   readonly flowLogsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The name of the Amazon S3 bucket for the flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
   */
   readonly flowLogsS3Bucket?: string;
   /**
   * The prefix for the location in the Amazon S3 bucket for the flow logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
   */
   readonly flowLogsS3Prefix?: string;
   /**
   * IP Address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * The IP addresses from BYOIP Prefix pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Name of accelerator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}
   */
   readonly tags?: GlobalacceleratorAcceleratorTags[] | cdktn.IResolvable;
 }
@@ -63,13 +63,13 @@ export interface GlobalacceleratorAcceleratorTags {
   /**
   * Key of the tag. Value can be 1 to 127 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#key GlobalacceleratorAccelerator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#key GlobalacceleratorAccelerator#key}
   */
   readonly key?: string;
   /**
   * Value for the tag. Value can be 1 to 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#value GlobalacceleratorAccelerator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#value GlobalacceleratorAccelerator#value}
   */
   readonly value?: string;
 }
@@ -214,7 +214,7 @@ export class GlobalacceleratorAcceleratorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator}
 */
 export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
 
@@ -230,7 +230,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlobalacceleratorAccelerator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalacceleratorAccelerator to import
-  * @param importFromId The id of the existing GlobalacceleratorAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalacceleratorAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalacceleratorAccelerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -242,7 +242,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,7 +253,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_globalaccelerator_accelerator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### SesConfigurationSet <a name="SesConfigurationSet" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set awscc_ses_configuration_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set awscc_ses_configuration_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSet.Initializer"></a>
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 An object that defines a MailManager archive that is used to preserve emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#archiving_options SesConfigurationSet#archiving_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#archiving_options SesConfigurationSet#archiving_options}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that defines the dedicated IP pool that is used to send emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that defines whether or not Amazon SES collects reputation metrics for the emails that you send that use the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#reputation_options SesConfigurationSet#reputation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#reputation_options SesConfigurationSet#reputation_options}
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that defines whether or not Amazon SES can send email that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_options SesConfigurationSet#sending_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_options SesConfigurationSet#sending_options}
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that contains information about the suppression list preferences for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#suppression_options SesConfigurationSet#suppression_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#suppression_options SesConfigurationSet#suppression_options}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags (keys and values) associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#tags SesConfigurationSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#tags SesConfigurationSet#tags}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that defines the open and click tracking options for emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that contains Virtual Deliverability Manager (VDM) settings for this configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#vdm_options SesConfigurationSet#vdm_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#vdm_options SesConfigurationSet#vdm_options}
 
 ---
 
@@ -616,7 +616,7 @@ def put_archiving_options(
 
 The ARN of the MailManager archive to associate with the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
 
 ---
 
@@ -636,7 +636,7 @@ def put_delivery_options(
 
 Specifies the maximum time until which SES will retry sending emails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#max_delivery_seconds SesConfigurationSet#max_delivery_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#max_delivery_seconds SesConfigurationSet#max_delivery_seconds}
 
 ---
 
@@ -646,7 +646,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the dedicated IP pool to associate with the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_pool_name SesConfigurationSet#sending_pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_pool_name SesConfigurationSet#sending_pool_name}
 
 ---
 
@@ -658,7 +658,7 @@ Specifies whether messages that use the configuration set are required to use Tr
 
 If the value is Require , messages are only delivered if a TLS connection can be established. If the value is Optional , messages can be delivered in plain text if a TLS connection can't be established.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}
 
 ---
 
@@ -678,7 +678,7 @@ If true , tracking of reputation metrics is enabled for the configuration set.
 
 If false , tracking of reputation metrics is disabled for the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}
 
 ---
 
@@ -694,7 +694,7 @@ def put_sending_options(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.
 
 ---
 
@@ -713,7 +713,7 @@ def put_suppression_options(
 
 A list that contains the reasons that email addresses are automatically added to the suppression list for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#suppressed_reasons SesConfigurationSet#suppressed_reasons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#suppressed_reasons SesConfigurationSet#suppressed_reasons}
 
 ---
 
@@ -723,7 +723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An object that contains information about the validation options for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#validation_options SesConfigurationSet#validation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#validation_options SesConfigurationSet#validation_options}
 
 ---
 
@@ -756,7 +756,7 @@ def put_tracking_options(
 
 The domain to use for tracking open and click events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}
 
 ---
 
@@ -766,7 +766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The https policy to use for tracking open and click events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#https_policy SesConfigurationSet#https_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#https_policy SesConfigurationSet#https_policy}
 
 ---
 
@@ -785,7 +785,7 @@ def put_vdm_options(
 
 Preferences regarding the Dashboard feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#dashboard_options SesConfigurationSet#dashboard_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#dashboard_options SesConfigurationSet#dashboard_options}
 
 ---
 
@@ -795,7 +795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Preferences regarding the Guardian feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#guardian_options SesConfigurationSet#guardian_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#guardian_options SesConfigurationSet#guardian_options}
 
 ---
 
@@ -967,7 +967,7 @@ The construct id used in the generated config for the SesConfigurationSet to imp
 
 The id of the existing SesConfigurationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1401,7 +1401,7 @@ archive_arn: str
 
 The ARN of the MailManager archive to associate with the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
 
 ---
 
@@ -1535,7 +1535,7 @@ archiving_options: SesConfigurationSetArchivingOptions
 
 An object that defines a MailManager archive that is used to preserve emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#archiving_options SesConfigurationSet#archiving_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#archiving_options SesConfigurationSet#archiving_options}
 
 ---
 
@@ -1549,7 +1549,7 @@ delivery_options: SesConfigurationSetDeliveryOptions
 
 An object that defines the dedicated IP pool that is used to send emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#delivery_options SesConfigurationSet#delivery_options}
 
 ---
 
@@ -1563,7 +1563,7 @@ name: str
 
 The name of the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#name SesConfigurationSet#name}
 
 ---
 
@@ -1577,7 +1577,7 @@ reputation_options: SesConfigurationSetReputationOptions
 
 An object that defines whether or not Amazon SES collects reputation metrics for the emails that you send that use the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#reputation_options SesConfigurationSet#reputation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#reputation_options SesConfigurationSet#reputation_options}
 
 ---
 
@@ -1591,7 +1591,7 @@ sending_options: SesConfigurationSetSendingOptions
 
 An object that defines whether or not Amazon SES can send email that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_options SesConfigurationSet#sending_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_options SesConfigurationSet#sending_options}
 
 ---
 
@@ -1605,7 +1605,7 @@ suppression_options: SesConfigurationSetSuppressionOptions
 
 An object that contains information about the suppression list preferences for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#suppression_options SesConfigurationSet#suppression_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#suppression_options SesConfigurationSet#suppression_options}
 
 ---
 
@@ -1619,7 +1619,7 @@ tags: IResolvable | typing.List[SesConfigurationSetTags]
 
 The tags (keys and values) associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#tags SesConfigurationSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#tags SesConfigurationSet#tags}
 
 ---
 
@@ -1633,7 +1633,7 @@ tracking_options: SesConfigurationSetTrackingOptions
 
 An object that defines the open and click tracking options for emails that you send using the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#tracking_options SesConfigurationSet#tracking_options}
 
 ---
 
@@ -1647,7 +1647,7 @@ vdm_options: SesConfigurationSetVdmOptions
 
 An object that contains Virtual Deliverability Manager (VDM) settings for this configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#vdm_options SesConfigurationSet#vdm_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#vdm_options SesConfigurationSet#vdm_options}
 
 ---
 
@@ -1685,7 +1685,7 @@ max_delivery_seconds: typing.Union[int, float]
 
 Specifies the maximum time until which SES will retry sending emails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#max_delivery_seconds SesConfigurationSet#max_delivery_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#max_delivery_seconds SesConfigurationSet#max_delivery_seconds}
 
 ---
 
@@ -1699,7 +1699,7 @@ sending_pool_name: str
 
 The name of the dedicated IP pool to associate with the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_pool_name SesConfigurationSet#sending_pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_pool_name SesConfigurationSet#sending_pool_name}
 
 ---
 
@@ -1715,7 +1715,7 @@ Specifies whether messages that use the configuration set are required to use Tr
 
 If the value is Require , messages are only delivered if a TLS connection can be established. If the value is Optional , messages can be delivered in plain text if a TLS connection can't be established.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#tls_policy SesConfigurationSet#tls_policy}
 
 ---
 
@@ -1751,7 +1751,7 @@ If true , tracking of reputation metrics is enabled for the configuration set.
 
 If false , tracking of reputation metrics is disabled for the configuration set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#reputation_metrics_enabled SesConfigurationSet#reputation_metrics_enabled}
 
 ---
 
@@ -1771,7 +1771,7 @@ sesConfigurationSet.SesConfigurationSetSendingOptions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSendingOptions.property.sendingEnabled">sending_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetSendingOptions.property.sendingEnabled">sending_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}. |
 
 ---
 
@@ -1783,7 +1783,7 @@ sending_enabled: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#sending_enabled SesConfigurationSet#sending_enabled}.
 
 ---
 
@@ -1819,7 +1819,7 @@ suppressed_reasons: typing.List[str]
 
 A list that contains the reasons that email addresses are automatically added to the suppression list for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#suppressed_reasons SesConfigurationSet#suppressed_reasons}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#suppressed_reasons SesConfigurationSet#suppressed_reasons}
 
 ---
 
@@ -1833,7 +1833,7 @@ validation_options: SesConfigurationSetSuppressionOptionsValidationOptions
 
 An object that contains information about the validation options for your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#validation_options SesConfigurationSet#validation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#validation_options SesConfigurationSet#validation_options}
 
 ---
 
@@ -1867,7 +1867,7 @@ condition_threshold: SesConfigurationSetSuppressionOptionsValidationOptionsCondi
 
 The condition threshold settings for suppression validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#condition_threshold SesConfigurationSet#condition_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#condition_threshold SesConfigurationSet#condition_threshold}
 
 ---
 
@@ -1903,7 +1903,7 @@ condition_threshold_enabled: str
 
 Whether the condition threshold is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
 
 ---
 
@@ -1917,7 +1917,7 @@ overall_confidence_threshold: SesConfigurationSetSuppressionOptionsValidationOpt
 
 The overall confidence threshold settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
 
 ---
 
@@ -1951,7 +1951,7 @@ confidence_verdict_threshold: str
 
 The confidence verdict threshold level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
 
 ---
 
@@ -1972,8 +1972,8 @@ sesConfigurationSet.SesConfigurationSetTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesConfigurationSet.SesConfigurationSetTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}. |
 
 ---
 
@@ -1985,7 +1985,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#key SesConfigurationSet#key}.
 
 ---
 
@@ -1997,7 +1997,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#value SesConfigurationSet#value}.
 
 ---
 
@@ -2033,7 +2033,7 @@ custom_redirect_domain: str
 
 The domain to use for tracking open and click events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#custom_redirect_domain SesConfigurationSet#custom_redirect_domain}
 
 ---
 
@@ -2047,7 +2047,7 @@ https_policy: str
 
 The https policy to use for tracking open and click events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#https_policy SesConfigurationSet#https_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#https_policy SesConfigurationSet#https_policy}
 
 ---
 
@@ -2083,7 +2083,7 @@ dashboard_options: SesConfigurationSetVdmOptionsDashboardOptions
 
 Preferences regarding the Dashboard feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#dashboard_options SesConfigurationSet#dashboard_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#dashboard_options SesConfigurationSet#dashboard_options}
 
 ---
 
@@ -2097,7 +2097,7 @@ guardian_options: SesConfigurationSetVdmOptionsGuardianOptions
 
 Preferences regarding the Guardian feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#guardian_options SesConfigurationSet#guardian_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#guardian_options SesConfigurationSet#guardian_options}
 
 ---
 
@@ -2131,7 +2131,7 @@ engagement_metrics: str
 
 Whether emails sent with this configuration set have engagement tracking enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#engagement_metrics SesConfigurationSet#engagement_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#engagement_metrics SesConfigurationSet#engagement_metrics}
 
 ---
 
@@ -2165,7 +2165,7 @@ optimized_shared_delivery: str
 
 Whether emails sent with this configuration set have optimized delivery algorithm enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#optimized_shared_delivery SesConfigurationSet#optimized_shared_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#optimized_shared_delivery SesConfigurationSet#optimized_shared_delivery}
 
 ---
 
@@ -3686,7 +3686,7 @@ def put_validation_options(
 
 The condition threshold settings for suppression validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#condition_threshold SesConfigurationSet#condition_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#condition_threshold SesConfigurationSet#condition_threshold}
 
 ---
 
@@ -4037,7 +4037,7 @@ def put_overall_confidence_threshold(
 
 The confidence verdict threshold level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
 
 ---
 
@@ -4691,7 +4691,7 @@ def put_condition_threshold(
 
 Whether the condition threshold is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
 
 ---
 
@@ -4701,7 +4701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The overall confidence threshold settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
 
 ---
 
@@ -6485,7 +6485,7 @@ def put_dashboard_options(
 
 Whether emails sent with this configuration set have engagement tracking enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#engagement_metrics SesConfigurationSet#engagement_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#engagement_metrics SesConfigurationSet#engagement_metrics}
 
 ---
 
@@ -6503,7 +6503,7 @@ def put_guardian_options(
 
 Whether emails sent with this configuration set have optimized delivery algorithm enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set#optimized_shared_delivery SesConfigurationSet#optimized_shared_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#optimized_shared_delivery SesConfigurationSet#optimized_shared_delivery}
 
 ---
 

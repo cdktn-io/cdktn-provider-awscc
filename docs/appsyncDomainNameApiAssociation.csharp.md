@@ -4,7 +4,7 @@
 
 ### AppsyncDomainNameApiAssociation <a name="AppsyncDomainNameApiAssociation" id="@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the AppsyncDomainNameApiAssoci
 
 The id of the existing AppsyncDomainNameApiAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_domain_name_api_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_domain_name_api_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -781,8 +781,8 @@ new AppsyncDomainNameApiAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.apiId">ApiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_domain_name_api_association#api_id AppsyncDomainNameApiAssociation#api_id}. |
-| <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.domainName">DomainName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_domain_name_api_association#domain_name AppsyncDomainNameApiAssociation#domain_name}. |
+| <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.apiId">ApiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_domain_name_api_association#api_id AppsyncDomainNameApiAssociation#api_id}. |
+| <code><a href="#@cdktn/provider-awscc.appsyncDomainNameApiAssociation.AppsyncDomainNameApiAssociationConfig.property.domainName">DomainName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_domain_name_api_association#domain_name AppsyncDomainNameApiAssociation#domain_name}. |
 
 ---
 
@@ -864,7 +864,7 @@ public string ApiId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_domain_name_api_association#api_id AppsyncDomainNameApiAssociation#api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_domain_name_api_association#api_id AppsyncDomainNameApiAssociation#api_id}.
 
 ---
 
@@ -876,7 +876,7 @@ public string DomainName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appsync_domain_name_api_association#domain_name AppsyncDomainNameApiAssociation#domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_domain_name_api_association#domain_name AppsyncDomainNameApiAssociation#domain_name}.
 
 ---
 

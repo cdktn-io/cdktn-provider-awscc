@@ -4,7 +4,7 @@
 
 ### MediaconnectRouterInput <a name="MediaconnectRouterInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the MediaconnectRouterInput to
 
 The id of the existing MediaconnectRouterInput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1197,8 +1197,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration">MediaconnectRouterInputConfiguration</a></code> | The configuration settings for a router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.maximumBitrate">MaximumBitrate</a></code> | <code>*f64</code> | The maximum bitrate for the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.name">Name</a></code> | <code>*string</code> | The name of the router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.routingScope">RoutingScope</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.tier">Tier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.routingScope">RoutingScope</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.tier">Tier</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.availabilityZone">AvailabilityZone</a></code> | <code>*string</code> | The Availability Zone where you want to create the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.contentQualityAnalysisConfiguration">ContentQualityAnalysisConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfiguration">MediaconnectRouterInputContentQualityAnalysisConfiguration</a></code> | The content quality analysis configuration for the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.maintenanceConfiguration">MaintenanceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfiguration">MediaconnectRouterInputMaintenanceConfiguration</a></code> | The configuration settings for maintenance operations, including preferred maintenance windows and schedules. |
@@ -1288,7 +1288,7 @@ Configuration MediaconnectRouterInputConfiguration
 
 The configuration settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
 
 ---
 
@@ -1302,7 +1302,7 @@ MaximumBitrate *f64
 
 The maximum bitrate for the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
 
 ---
 
@@ -1316,7 +1316,7 @@ Name *string
 
 The name of the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
 
 ---
 
@@ -1328,7 +1328,7 @@ RoutingScope *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}.
 
 ---
 
@@ -1340,7 +1340,7 @@ Tier *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}.
 
 ---
 
@@ -1356,7 +1356,7 @@ The Availability Zone where you want to create the router input.
 
 This must be a valid Availability Zone for the region specified by regionName, or the current region if no regionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
 
 ---
 
@@ -1372,7 +1372,7 @@ The content quality analysis configuration for the router input.
 
 The content quality analysis feature only monitors the first video stream and the first audio stream it encounters within the router input source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
 
 ---
 
@@ -1386,7 +1386,7 @@ MaintenanceConfiguration MediaconnectRouterInputMaintenanceConfiguration
 
 The configuration settings for maintenance operations, including preferred maintenance windows and schedules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
 
 ---
 
@@ -1400,7 +1400,7 @@ RegionName *string
 
 The Amazon Web Services Region for the router input. Defaults to the current region if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
 
 ---
 
@@ -1414,7 +1414,7 @@ Tags interface{}
 
 Key-value pairs that can be used to tag and organize this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
 
 ---
 
@@ -1428,7 +1428,7 @@ TransitEncryption MediaconnectRouterInputTransitEncryption
 
 The transit encryption settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
 
 ---
 
@@ -1470,7 +1470,7 @@ Failover MediaconnectRouterInputConfigurationFailover
 
 Configuration settings for a failover router input that allows switching between two input sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#failover MediaconnectRouterInput#failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#failover MediaconnectRouterInput#failover}
 
 ---
 
@@ -1484,7 +1484,7 @@ MediaConnectFlow MediaconnectRouterInputConfigurationMediaConnectFlow
 
 Configuration settings for connecting a router input to a flow output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#media_connect_flow MediaconnectRouterInput#media_connect_flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#media_connect_flow MediaconnectRouterInput#media_connect_flow}
 
 ---
 
@@ -1498,7 +1498,7 @@ MediaLiveChannel MediaconnectRouterInputConfigurationMediaLiveChannel
 
 Configuration settings for connecting a router input to a MediaLive channel output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#media_live_channel MediaconnectRouterInput#media_live_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#media_live_channel MediaconnectRouterInput#media_live_channel}
 
 ---
 
@@ -1512,7 +1512,7 @@ Merge MediaconnectRouterInputConfigurationMerge
 
 Configuration settings for a merge router input that combines two input sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#merge MediaconnectRouterInput#merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#merge MediaconnectRouterInput#merge}
 
 ---
 
@@ -1526,7 +1526,7 @@ Standard MediaconnectRouterInputConfigurationStandard
 
 The configuration settings for a standard router input, including the protocol, protocol-specific configuration, network interface, and availability zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#standard MediaconnectRouterInput#standard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#standard MediaconnectRouterInput#standard}
 
 ---
 
@@ -1552,7 +1552,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.networkInterfaceArn">NetworkInterfaceArn</a></code> | <code>*string</code> | The ARN of the network interface to use for this failover router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.primarySourceIndex">PrimarySourceIndex</a></code> | <code>*f64</code> | The index (0 or 1) that specifies which source in the protocol configurations list is currently active. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.protocolConfigurations">ProtocolConfigurations</a></code> | <code>interface{}</code> | A list of exactly two protocol configurations for the failover input sources. Both must use the same protocol type. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.sourcePriorityMode">SourcePriorityMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.sourcePriorityMode">SourcePriorityMode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}. |
 
 ---
 
@@ -1566,7 +1566,7 @@ NetworkInterfaceArn *string
 
 The ARN of the network interface to use for this failover router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
 
 ---
 
@@ -1582,7 +1582,7 @@ The index (0 or 1) that specifies which source in the protocol configurations li
 
 Used to control which of the two failover sources is currently selected. This field is ignored when sourcePriorityMode is set to NO_PRIORITY
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#primary_source_index MediaconnectRouterInput#primary_source_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#primary_source_index MediaconnectRouterInput#primary_source_index}
 
 ---
 
@@ -1596,7 +1596,7 @@ ProtocolConfigurations interface{}
 
 A list of exactly two protocol configurations for the failover input sources. Both must use the same protocol type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
 
 ---
 
@@ -1608,7 +1608,7 @@ SourcePriorityMode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}.
 
 ---
 
@@ -1648,7 +1648,7 @@ Rist MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRist
 
 The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
 
 ---
 
@@ -1662,7 +1662,7 @@ Rtp MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp
 
 The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
 
 ---
 
@@ -1676,7 +1676,7 @@ SrtCaller MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtC
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
 
 ---
 
@@ -1690,7 +1690,7 @@ SrtListener MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSr
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
 
 ---
 
@@ -1726,7 +1726,7 @@ Port *f64
 
 The port number used for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -1740,7 +1740,7 @@ RecoveryLatencyMilliseconds *f64
 
 The recovery latency in milliseconds for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
 
 ---
 
@@ -1761,7 +1761,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.property.forwardErrorCorrection">ForwardErrorCorrection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.property.forwardErrorCorrection">ForwardErrorCorrection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.property.port">Port</a></code> | <code>*f64</code> | The port number used for the RTP protocol in the router input configuration. |
 
 ---
@@ -1774,7 +1774,7 @@ ForwardErrorCorrection *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
 
 ---
 
@@ -1788,7 +1788,7 @@ Port *f64
 
 The port number used for the RTP protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -1830,7 +1830,7 @@ DecryptionConfiguration MediaconnectRouterInputConfigurationFailoverProtocolConf
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -1844,7 +1844,7 @@ MinimumLatencyMilliseconds *f64
 
 The minimum latency in milliseconds for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -1858,7 +1858,7 @@ SourceAddress *string
 
 The source IP address for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
 
 ---
 
@@ -1872,7 +1872,7 @@ SourcePort *f64
 
 The source port number for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
 
 ---
 
@@ -1886,7 +1886,7 @@ StreamId *string
 
 The stream ID for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
 
 ---
 
@@ -1920,7 +1920,7 @@ EncryptionKey MediaconnectRouterInputConfigurationFailoverProtocolConfigurations
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -1956,7 +1956,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -1970,7 +1970,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2008,7 +2008,7 @@ DecryptionConfiguration MediaconnectRouterInputConfigurationFailoverProtocolConf
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -2022,7 +2022,7 @@ MinimumLatencyMilliseconds *f64
 
 The minimum latency in milliseconds for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -2036,7 +2036,7 @@ Port *f64
 
 The port number for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2070,7 +2070,7 @@ EncryptionKey MediaconnectRouterInputConfigurationFailoverProtocolConfigurations
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -2106,7 +2106,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2120,7 +2120,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2158,7 +2158,7 @@ FlowArn *string
 
 The ARN of the flow to connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#flow_arn MediaconnectRouterInput#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#flow_arn MediaconnectRouterInput#flow_arn}
 
 ---
 
@@ -2172,7 +2172,7 @@ FlowOutputArn *string
 
 The ARN of the flow output to connect to this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#flow_output_arn MediaconnectRouterInput#flow_output_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#flow_output_arn MediaconnectRouterInput#flow_output_arn}
 
 ---
 
@@ -2186,7 +2186,7 @@ SourceTransitDecryption MediaconnectRouterInputConfigurationMediaConnectFlowSour
 
 The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
 
 ---
 
@@ -2208,7 +2208,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.property.encryptionKeyConfiguration">EncryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryptionEncryptionKeyConfiguration">MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryptionEncryptionKeyConfiguration</a></code> | Configuration settings for flow transit encryption keys. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
 
 ---
 
@@ -2222,7 +2222,7 @@ EncryptionKeyConfiguration MediaconnectRouterInputConfigurationMediaConnectFlowS
 
 Configuration settings for flow transit encryption keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
 
 ---
 
@@ -2234,7 +2234,7 @@ EncryptionKeyType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
 
 ---
 
@@ -2270,7 +2270,7 @@ Automatic *string
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
 
 ---
 
@@ -2284,7 +2284,7 @@ SecretsManager MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransit
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
 
 ---
 
@@ -2320,7 +2320,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2334,7 +2334,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2359,7 +2359,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLiveChannelArn">MediaLiveChannelArn</a></code> | <code>*string</code> | The ARN of the MediaLive channel to connect to this router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLiveChannelOutputName">MediaLiveChannelOutputName</a></code> | <code>*string</code> | The name of the MediaLive channel output to connect to this router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLivePipelineId">MediaLivePipelineId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLivePipelineId">MediaLivePipelineId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.sourceTransitDecryption">SourceTransitDecryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption">MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption</a></code> | The encryption configuration that defines how content is encrypted during transit between MediaConnect Router and MediaLive. |
 
 ---
@@ -2374,7 +2374,7 @@ MediaLiveChannelArn *string
 
 The ARN of the MediaLive channel to connect to this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#media_live_channel_arn MediaconnectRouterInput#media_live_channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#media_live_channel_arn MediaconnectRouterInput#media_live_channel_arn}
 
 ---
 
@@ -2388,7 +2388,7 @@ MediaLiveChannelOutputName *string
 
 The name of the MediaLive channel output to connect to this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#media_live_channel_output_name MediaconnectRouterInput#media_live_channel_output_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#media_live_channel_output_name MediaconnectRouterInput#media_live_channel_output_name}
 
 ---
 
@@ -2400,7 +2400,7 @@ MediaLivePipelineId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}.
 
 ---
 
@@ -2416,7 +2416,7 @@ The encryption configuration that defines how content is encrypted during transi
 
 This configuration determines whether encryption keys are automatically managed by the service or manually managed through Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
 
 ---
 
@@ -2438,7 +2438,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.property.encryptionKeyConfiguration">EncryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryptionEncryptionKeyConfiguration">MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryptionEncryptionKeyConfiguration</a></code> | Configuration settings for the MediaLive transit encryption key. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
 
 ---
 
@@ -2452,7 +2452,7 @@ EncryptionKeyConfiguration MediaconnectRouterInputConfigurationMediaLiveChannelS
 
 Configuration settings for the MediaLive transit encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
 
 ---
 
@@ -2464,7 +2464,7 @@ EncryptionKeyType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
 
 ---
 
@@ -2500,7 +2500,7 @@ Automatic *string
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
 
 ---
 
@@ -2514,7 +2514,7 @@ SecretsManager MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransit
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
 
 ---
 
@@ -2550,7 +2550,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2564,7 +2564,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2602,7 +2602,7 @@ MergeRecoveryWindowMilliseconds *f64
 
 The time window in milliseconds for merging the two input sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#merge_recovery_window_milliseconds MediaconnectRouterInput#merge_recovery_window_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#merge_recovery_window_milliseconds MediaconnectRouterInput#merge_recovery_window_milliseconds}
 
 ---
 
@@ -2616,7 +2616,7 @@ NetworkInterfaceArn *string
 
 The ARN of the network interface to use for this merge router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
 
 ---
 
@@ -2630,7 +2630,7 @@ ProtocolConfigurations interface{}
 
 A list of exactly two protocol configurations for the merge input sources. Both must use the same protocol type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
 
 ---
 
@@ -2666,7 +2666,7 @@ Rist MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRist
 
 The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
 
 ---
 
@@ -2680,7 +2680,7 @@ Rtp MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp
 
 The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
 
 ---
 
@@ -2716,7 +2716,7 @@ Port *f64
 
 The port number used for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2730,7 +2730,7 @@ RecoveryLatencyMilliseconds *f64
 
 The recovery latency in milliseconds for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
 
 ---
 
@@ -2751,7 +2751,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.property.forwardErrorCorrection">ForwardErrorCorrection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.property.forwardErrorCorrection">ForwardErrorCorrection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.property.port">Port</a></code> | <code>*f64</code> | The port number used for the RTP protocol in the router input configuration. |
 
 ---
@@ -2764,7 +2764,7 @@ ForwardErrorCorrection *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
 
 ---
 
@@ -2778,7 +2778,7 @@ Port *f64
 
 The port number used for the RTP protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2801,7 +2801,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.networkInterfaceArn">NetworkInterfaceArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) of the network interface associated with the standard router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.protocolConfiguration">ProtocolConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfiguration">MediaconnectRouterInputConfigurationStandardProtocolConfiguration</a></code> | The protocol configuration settings for a router input. |
 
 ---
@@ -2816,7 +2816,7 @@ NetworkInterfaceArn *string
 
 The Amazon Resource Name (ARN) of the network interface associated with the standard router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
 
 ---
 
@@ -2828,7 +2828,7 @@ Protocol *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}.
 
 ---
 
@@ -2842,7 +2842,7 @@ ProtocolConfiguration MediaconnectRouterInputConfigurationStandardProtocolConfig
 
 The protocol configuration settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#protocol_configuration MediaconnectRouterInput#protocol_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#protocol_configuration MediaconnectRouterInput#protocol_configuration}
 
 ---
 
@@ -2882,7 +2882,7 @@ Rist MediaconnectRouterInputConfigurationStandardProtocolConfigurationRist
 
 The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
 
 ---
 
@@ -2896,7 +2896,7 @@ Rtp MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp
 
 The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
 
 ---
 
@@ -2910,7 +2910,7 @@ SrtCaller MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCa
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
 
 ---
 
@@ -2924,7 +2924,7 @@ SrtListener MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrt
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
 
 ---
 
@@ -2960,7 +2960,7 @@ Port *f64
 
 The port number used for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2974,7 +2974,7 @@ RecoveryLatencyMilliseconds *f64
 
 The recovery latency in milliseconds for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
 
 ---
 
@@ -2995,7 +2995,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.property.forwardErrorCorrection">ForwardErrorCorrection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.property.forwardErrorCorrection">ForwardErrorCorrection</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.property.port">Port</a></code> | <code>*f64</code> | The port number used for the RTP protocol in the router input configuration. |
 
 ---
@@ -3008,7 +3008,7 @@ ForwardErrorCorrection *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
 
 ---
 
@@ -3022,7 +3022,7 @@ Port *f64
 
 The port number used for the RTP protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -3064,7 +3064,7 @@ DecryptionConfiguration MediaconnectRouterInputConfigurationStandardProtocolConf
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -3078,7 +3078,7 @@ MinimumLatencyMilliseconds *f64
 
 The minimum latency in milliseconds for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -3092,7 +3092,7 @@ SourceAddress *string
 
 The source IP address for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
 
 ---
 
@@ -3106,7 +3106,7 @@ SourcePort *f64
 
 The source port number for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
 
 ---
 
@@ -3120,7 +3120,7 @@ StreamId *string
 
 The stream ID for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
 
 ---
 
@@ -3154,7 +3154,7 @@ EncryptionKey MediaconnectRouterInputConfigurationStandardProtocolConfigurationS
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -3190,7 +3190,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -3204,7 +3204,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -3242,7 +3242,7 @@ DecryptionConfiguration MediaconnectRouterInputConfigurationStandardProtocolConf
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -3256,7 +3256,7 @@ MinimumLatencyMilliseconds *f64
 
 The minimum latency in milliseconds for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -3270,7 +3270,7 @@ Port *f64
 
 The port number for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -3304,7 +3304,7 @@ EncryptionKey MediaconnectRouterInputConfigurationStandardProtocolConfigurationS
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -3340,7 +3340,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -3354,7 +3354,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -3388,7 +3388,7 @@ ContentLevel MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
 
 Configures the content quality analysis features for the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#content_level MediaconnectRouterInput#content_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#content_level MediaconnectRouterInput#content_level}
 
 ---
 
@@ -3426,7 +3426,7 @@ BlackFrames MediaconnectRouterInputContentQualityAnalysisConfigurationContentLev
 
 Detects black frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
 
 ---
 
@@ -3440,7 +3440,7 @@ FrozenFrames MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
 
 Detects frozen video frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
 
 ---
 
@@ -3454,7 +3454,7 @@ SilentAudio MediaconnectRouterInputContentQualityAnalysisConfigurationContentLev
 
 Detects silent audio in the router input's source content and reports it through a CloudWatch metric, an EventBridge event, and a router input message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
 
 ---
 
@@ -3475,7 +3475,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames.property.thresholdSeconds">ThresholdSeconds</a></code> | <code>*f64</code> | The number of consecutive seconds of black frames that MediaConnect must detect before it reports an issue. |
 
 ---
@@ -3488,7 +3488,7 @@ State *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 
 ---
 
@@ -3502,7 +3502,7 @@ ThresholdSeconds *f64
 
 The number of consecutive seconds of black frames that MediaConnect must detect before it reports an issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 
 ---
 
@@ -3523,7 +3523,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames.property.thresholdSeconds">ThresholdSeconds</a></code> | <code>*f64</code> | The number of consecutive seconds of a frozen frame that MediaConnect must detect before it reports an issue. |
 
 ---
@@ -3536,7 +3536,7 @@ State *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 
 ---
 
@@ -3550,7 +3550,7 @@ ThresholdSeconds *f64
 
 The number of consecutive seconds of a frozen frame that MediaConnect must detect before it reports an issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 
 ---
 
@@ -3571,7 +3571,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio.property.state">State</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio.property.thresholdSeconds">ThresholdSeconds</a></code> | <code>*f64</code> | The number of consecutive seconds of silence that MediaConnect must detect before it reports an issue. |
 
 ---
@@ -3584,7 +3584,7 @@ State *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 
 ---
 
@@ -3598,7 +3598,7 @@ ThresholdSeconds *f64
 
 The number of consecutive seconds of silence that MediaConnect must detect before it reports an issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 
 ---
 
@@ -3634,7 +3634,7 @@ Default *string
 
 Configuration settings for default maintenance scheduling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#default MediaconnectRouterInput#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#default MediaconnectRouterInput#default}
 
 ---
 
@@ -3648,7 +3648,7 @@ PreferredDayTime MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime
 
 Configuration for preferred day and time maintenance settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#preferred_day_time MediaconnectRouterInput#preferred_day_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#preferred_day_time MediaconnectRouterInput#preferred_day_time}
 
 ---
 
@@ -3669,7 +3669,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.property.day">Day</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.property.day">Day</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.property.time">Time</a></code> | <code>*string</code> | The preferred time for maintenance operations. |
 
 ---
@@ -3682,7 +3682,7 @@ Day *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}.
 
 ---
 
@@ -3696,7 +3696,7 @@ Time *string
 
 The preferred time for maintenance operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#time MediaconnectRouterInput#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#time MediaconnectRouterInput#time}
 
 ---
 
@@ -3717,8 +3717,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}. |
 
 ---
 
@@ -3730,7 +3730,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}.
 
 ---
 
@@ -3742,7 +3742,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}.
 
 ---
 
@@ -3764,7 +3764,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinpu
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryption.property.encryptionKeyConfiguration">EncryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguration">MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguration</a></code> | Defines the configuration settings for transit encryption keys. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
 
 ---
 
@@ -3778,7 +3778,7 @@ EncryptionKeyConfiguration MediaconnectRouterInputTransitEncryptionEncryptionKey
 
 Defines the configuration settings for transit encryption keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
 
 ---
 
@@ -3790,7 +3790,7 @@ EncryptionKeyType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
 
 ---
 
@@ -3826,7 +3826,7 @@ Automatic *string
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
 
 ---
 
@@ -3840,7 +3840,7 @@ SecretsManager MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguratio
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
 
 ---
 
@@ -3876,7 +3876,7 @@ RoleArn *string
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -3890,7 +3890,7 @@ SecretArn *string
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 

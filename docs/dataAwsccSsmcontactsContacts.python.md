@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmcontactsContacts <a name="DataAwsccSsmcontactsContacts" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssmcontacts_contacts awscc_ssmcontacts_contacts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmcontacts_contacts awscc_ssmcontacts_contacts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmcontactsContacts.DataAwsccSsmcontactsContacts.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSsmcontactsContac
 
 The id of the existing DataAwsccSsmcontactsContacts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssmcontacts_contacts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmcontacts_contacts#import import section} in the documentation of this resource for the id to use
 
 ---
 

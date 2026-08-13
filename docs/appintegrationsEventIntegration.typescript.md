@@ -4,7 +4,7 @@
 
 ### AppintegrationsEventIntegration <a name="AppintegrationsEventIntegration" id="@cdktn/provider-awscc.appintegrationsEventIntegration.AppintegrationsEventIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsEventIntegration.AppintegrationsEventIntegration.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the AppintegrationsEventIntegr
 
 The id of the existing AppintegrationsEventIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,7 +965,7 @@ public readonly eventBridgeBus: string;
 
 The Amazon Eventbridge bus for the event integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#event_bridge_bus AppintegrationsEventIntegration#event_bridge_bus}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#event_bridge_bus AppintegrationsEventIntegration#event_bridge_bus}
 
 ---
 
@@ -979,7 +979,7 @@ public readonly eventFilter: AppintegrationsEventIntegrationEventFilter;
 
 The EventFilter (source) associated with the event integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#event_filter AppintegrationsEventIntegration#event_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#event_filter AppintegrationsEventIntegration#event_filter}
 
 ---
 
@@ -993,7 +993,7 @@ public readonly name: string;
 
 The name of the event integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#name AppintegrationsEventIntegration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#name AppintegrationsEventIntegration#name}
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly description: string;
 
 The event integration description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#description AppintegrationsEventIntegration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#description AppintegrationsEventIntegration#description}
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly tags: IResolvable | AppintegrationsEventIntegrationTags[];
 
 The tags (keys and values) associated with the event integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#tags AppintegrationsEventIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#tags AppintegrationsEventIntegration#tags}
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly source: string;
 
 The source of the events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#source AppintegrationsEventIntegration#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#source AppintegrationsEventIntegration#source}
 
 ---
 
@@ -1086,7 +1086,7 @@ public readonly key: string;
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#key AppintegrationsEventIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#key AppintegrationsEventIntegration#key}
 
 ---
 
@@ -1100,7 +1100,7 @@ public readonly value: string;
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_event_integration#value AppintegrationsEventIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_event_integration#value AppintegrationsEventIntegration#value}
 
 ---
 

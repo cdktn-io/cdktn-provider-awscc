@@ -4,7 +4,7 @@
 
 ### DataAwsccS3ObjectlambdaAccessPoints <a name="DataAwsccS3ObjectlambdaAccessPoints" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoints.DataAwsccS3ObjectlambdaAccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3ObjectlambdaAccessPoints.DataAwsccS3ObjectlambdaAccessPoints.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccS3ObjectlambdaAcc
 
 The id of the existing DataAwsccS3ObjectlambdaAccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3objectlambda_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3objectlambda_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 

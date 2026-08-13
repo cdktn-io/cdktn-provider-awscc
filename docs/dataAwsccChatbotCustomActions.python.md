@@ -4,7 +4,7 @@
 
 ### DataAwsccChatbotCustomActions <a name="DataAwsccChatbotCustomActions" id="@cdktn/provider-awscc.dataAwsccChatbotCustomActions.DataAwsccChatbotCustomActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChatbotCustomActions.DataAwsccChatbotCustomActions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccChatbotCustomActi
 
 The id of the existing DataAwsccChatbotCustomActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/chatbot_custom_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/chatbot_custom_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 

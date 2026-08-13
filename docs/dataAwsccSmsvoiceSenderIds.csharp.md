@@ -4,7 +4,7 @@
 
 ### DataAwsccSmsvoiceSenderIds <a name="DataAwsccSmsvoiceSenderIds" id="@cdktn/provider-awscc.dataAwsccSmsvoiceSenderIds.DataAwsccSmsvoiceSenderIds"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/smsvoice_sender_ids awscc_smsvoice_sender_ids}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/smsvoice_sender_ids awscc_smsvoice_sender_ids}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceSenderIds.DataAwsccSmsvoiceSenderIds.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceSenderIds
 
 The id of the existing DataAwsccSmsvoiceSenderIds that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/smsvoice_sender_ids#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/smsvoice_sender_ids#import import section} in the documentation of this resource for the id to use
 
 ---
 

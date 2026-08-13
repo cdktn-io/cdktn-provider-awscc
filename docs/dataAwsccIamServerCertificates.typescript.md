@@ -4,7 +4,7 @@
 
 ### DataAwsccIamServerCertificates <a name="DataAwsccIamServerCertificates" id="@cdktn/provider-awscc.dataAwsccIamServerCertificates.DataAwsccIamServerCertificates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamServerCertificates.DataAwsccIamServerCertificates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamServerCertific
 
 The id of the existing DataAwsccIamServerCertificates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_server_certificates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_server_certificates#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### NotificationsNotificationHub <a name="NotificationsNotificationHub" id="@cdktn/provider-awscc.notificationsNotificationHub.NotificationsNotificationHub"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.notificationsNotificationHub.NotificationsNotificationHub.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the NotificationsNotificationH
 
 The id of the existing NotificationsNotificationHub that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notifications_notification_hub#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notifications_notification_hub#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -853,7 +853,7 @@ public string Region { get; set; }
 
 Region that NotificationHub is present in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notifications_notification_hub#region NotificationsNotificationHub#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notifications_notification_hub#region NotificationsNotificationHub#region}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogServiceActions <a name="DataAwsccServicecatalogServiceActions" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_service_actions awscc_servicecatalog_service_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_service_actions awscc_servicecatalog_service_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogServiceActions.DataAwsccServicecatalogServiceActions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogSer
 
 The id of the existing DataAwsccServicecatalogServiceActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_service_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_service_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 

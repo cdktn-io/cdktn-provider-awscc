@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerDomains <a name="DataAwsccSagemakerDomains" id="@cdktn/provider-awscc.dataAwsccSagemakerDomains.DataAwsccSagemakerDomains"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_domains awscc_sagemaker_domains}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_domains awscc_sagemaker_domains}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerDomains.DataAwsccSagemakerDomains.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSagemakerDomains 
 
 The id of the existing DataAwsccSagemakerDomains that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_domains#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_domains#import import section} in the documentation of this resource for the id to use
 
 ---
 

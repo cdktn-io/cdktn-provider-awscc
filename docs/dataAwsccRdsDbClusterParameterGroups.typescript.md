@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbClusterParameterGroups <a name="DataAwsccRdsDbClusterParameterGroups" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterParameterGroups.DataAwsccRdsDbClusterParameterGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_cluster_parameter_groups awscc_rds_db_cluster_parameter_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_cluster_parameter_groups awscc_rds_db_cluster_parameter_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbClusterParameterGroups.DataAwsccRdsDbClusterParameterGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbClusterParam
 
 The id of the existing DataAwsccRdsDbClusterParameterGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

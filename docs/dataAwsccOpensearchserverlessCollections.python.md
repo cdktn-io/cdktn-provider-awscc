@@ -4,7 +4,7 @@
 
 ### DataAwsccOpensearchserverlessCollections <a name="DataAwsccOpensearchserverlessCollections" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollections.DataAwsccOpensearchserverlessCollections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserverlessCollections.DataAwsccOpensearchserverlessCollections.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccOpensearchserverl
 
 The id of the existing DataAwsccOpensearchserverlessCollections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/opensearchserverless_collections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/opensearchserverless_collections#import import section} in the documentation of this resource for the id to use
 
 ---
 

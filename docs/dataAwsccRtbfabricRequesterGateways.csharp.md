@@ -4,7 +4,7 @@
 
 ### DataAwsccRtbfabricRequesterGateways <a name="DataAwsccRtbfabricRequesterGateways" id="@cdktn/provider-awscc.dataAwsccRtbfabricRequesterGateways.DataAwsccRtbfabricRequesterGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricRequesterGateways.DataAwsccRtbfabricRequesterGateways.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRtbfabricRequeste
 
 The id of the existing DataAwsccRtbfabricRequesterGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rtbfabric_requester_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rtbfabric_requester_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

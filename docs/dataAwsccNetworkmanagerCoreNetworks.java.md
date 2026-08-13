@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerCoreNetworks <a name="DataAwsccNetworkmanagerCoreNetworks" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetworks.DataAwsccNetworkmanagerCoreNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/networkmanager_core_networks awscc_networkmanager_core_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_core_networks awscc_networkmanager_core_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerCoreNetworks.DataAwsccNetworkmanagerCoreNetworks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerCor
 
 The id of the existing DataAwsccNetworkmanagerCoreNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/networkmanager_core_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_core_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ConnectQueue <a name="ConnectQueue" id="@cdktn/provider-awscc.connectQueue.ConnectQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue awscc_connect_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue awscc_connect_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectQueue.ConnectQueue.Initializer"></a>
 
@@ -597,7 +597,7 @@ The construct id used in the generated config for the ConnectQueue to import.
 
 The id of the existing ConnectQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly emailAddressArn: string;
 
 The Amazon Resource Name (ARN) of the email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#email_address_arn ConnectQueue#email_address_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#email_address_arn ConnectQueue#email_address_arn}
 
 ---
 
@@ -1214,7 +1214,7 @@ public readonly hoursOfOperationArn: string;
 
 The identifier for the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#hours_of_operation_arn ConnectQueue#hours_of_operation_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#hours_of_operation_arn ConnectQueue#hours_of_operation_arn}
 
 ---
 
@@ -1228,7 +1228,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#instance_arn ConnectQueue#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#instance_arn ConnectQueue#instance_arn}
 
 ---
 
@@ -1242,7 +1242,7 @@ public readonly name: string;
 
 The name of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#name ConnectQueue#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#name ConnectQueue#name}
 
 ---
 
@@ -1256,7 +1256,7 @@ public readonly additionalEmailAddresses: IResolvable | ConnectQueueAdditionalEm
 
 The email addresses that agents can use when replying to or initiating email contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#additional_email_addresses ConnectQueue#additional_email_addresses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#additional_email_addresses ConnectQueue#additional_email_addresses}
 
 ---
 
@@ -1270,7 +1270,7 @@ public readonly description: string;
 
 The description of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#description ConnectQueue#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#description ConnectQueue#description}
 
 ---
 
@@ -1284,7 +1284,7 @@ public readonly maxContacts: number;
 
 The maximum number of contacts that can be in the queue before it is considered full.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#max_contacts ConnectQueue#max_contacts}
 
 ---
 
@@ -1298,7 +1298,7 @@ public readonly outboundCallerConfig: ConnectQueueOutboundCallerConfig;
 
 The outbound caller ID name, number, and outbound whisper flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#outbound_caller_config ConnectQueue#outbound_caller_config}
 
 ---
 
@@ -1312,7 +1312,7 @@ public readonly outboundEmailConfig: ConnectQueueOutboundEmailConfig;
 
 The outbound email address ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#outbound_email_config ConnectQueue#outbound_email_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#outbound_email_config ConnectQueue#outbound_email_config}
 
 ---
 
@@ -1326,7 +1326,7 @@ public readonly quickConnectArns: string[];
 
 The quick connects available to agents who are working the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#quick_connect_arns ConnectQueue#quick_connect_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#quick_connect_arns ConnectQueue#quick_connect_arns}
 
 ---
 
@@ -1340,7 +1340,7 @@ public readonly status: string;
 
 The status of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#status ConnectQueue#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#status ConnectQueue#status}
 
 ---
 
@@ -1354,7 +1354,7 @@ public readonly tags: IResolvable | ConnectQueueTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#tags ConnectQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#tags ConnectQueue#tags}
 
 ---
 
@@ -1388,7 +1388,7 @@ public readonly outboundCallerIdName: string;
 
 The caller ID name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#outbound_caller_id_name ConnectQueue#outbound_caller_id_name}
 
 ---
 
@@ -1402,7 +1402,7 @@ public readonly outboundCallerIdNumberArn: string;
 
 The caller ID number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#outbound_caller_id_number_arn ConnectQueue#outbound_caller_id_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#outbound_caller_id_number_arn ConnectQueue#outbound_caller_id_number_arn}
 
 ---
 
@@ -1416,7 +1416,7 @@ public readonly outboundFlowArn: string;
 
 The outbound whisper flow to be used during an outbound call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#outbound_flow_arn ConnectQueue#outbound_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#outbound_flow_arn ConnectQueue#outbound_flow_arn}
 
 ---
 
@@ -1448,7 +1448,7 @@ public readonly outboundEmailAddressId: string;
 
 The email address connect resource ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#outbound_email_address_id ConnectQueue#outbound_email_address_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#outbound_email_address_id ConnectQueue#outbound_email_address_id}
 
 ---
 
@@ -1483,7 +1483,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#key ConnectQueue#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#key ConnectQueue#key}
 
 ---
 
@@ -1499,7 +1499,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_queue#value ConnectQueue#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_queue#value ConnectQueue#value}
 
 ---
 

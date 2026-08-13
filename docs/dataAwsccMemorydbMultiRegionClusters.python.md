@@ -4,7 +4,7 @@
 
 ### DataAwsccMemorydbMultiRegionClusters <a name="DataAwsccMemorydbMultiRegionClusters" id="@cdktn/provider-awscc.dataAwsccMemorydbMultiRegionClusters.DataAwsccMemorydbMultiRegionClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbMultiRegionClusters.DataAwsccMemorydbMultiRegionClusters.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccMemorydbMultiRegi
 
 The id of the existing DataAwsccMemorydbMultiRegionClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/memorydb_multi_region_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_multi_region_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

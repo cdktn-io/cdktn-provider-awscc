@@ -4,7 +4,7 @@
 
 ### DataAwsccGrafanaWorkspaces <a name="DataAwsccGrafanaWorkspaces" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGrafanaWorkspaces.DataAwsccGrafanaWorkspaces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccGrafanaWorkspaces
 
 The id of the existing DataAwsccGrafanaWorkspaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/grafana_workspaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/grafana_workspaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

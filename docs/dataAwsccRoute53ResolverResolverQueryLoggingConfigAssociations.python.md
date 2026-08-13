@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations <a name="DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRoute53ResolverRe
 
 The id of the existing DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

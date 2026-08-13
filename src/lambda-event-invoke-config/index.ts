@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface LambdaEventInvokeConfigConfig extends cdktn.TerraformMetaArgume
   /**
   * A destination for events after they have been sent to a function for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#destination_config LambdaEventInvokeConfig#destination_config}
   */
   readonly destinationConfig?: LambdaEventInvokeConfigDestinationConfig;
   /**
   * The name of the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#function_name LambdaEventInvokeConfig#function_name}
   */
   readonly functionName: string;
   /**
   * The maximum age of a request that Lambda sends to a function for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#maximum_event_age_in_seconds LambdaEventInvokeConfig#maximum_event_age_in_seconds}
   */
   readonly maximumEventAgeInSeconds?: number;
   /**
   * The maximum number of times to retry when the function returns an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#maximum_retry_attempts LambdaEventInvokeConfig#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
   * The identifier of a version or alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#qualifier LambdaEventInvokeConfig#qualifier}
   */
   readonly qualifier: string;
 }
@@ -47,7 +47,7 @@ export interface LambdaEventInvokeConfigDestinationConfigOnFailure {
   /**
   * The Amazon Resource Name (ARN) of the destination resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
   */
   readonly destination?: string;
 }
@@ -143,7 +143,7 @@ export interface LambdaEventInvokeConfigDestinationConfigOnSuccess {
   /**
   * The Amazon Resource Name (ARN) of the destination resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#destination LambdaEventInvokeConfig#destination}
   */
   readonly destination?: string;
 }
@@ -239,13 +239,13 @@ export interface LambdaEventInvokeConfigDestinationConfig {
   /**
   * The destination configuration for failed invocations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#on_failure LambdaEventInvokeConfig#on_failure}
   */
   readonly onFailure?: LambdaEventInvokeConfigDestinationConfigOnFailure;
   /**
   * The destination configuration for successful invocations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#on_success LambdaEventInvokeConfig#on_success}
   */
   readonly onSuccess?: LambdaEventInvokeConfigDestinationConfigOnSuccess;
 }
@@ -368,7 +368,7 @@ export class LambdaEventInvokeConfigDestinationConfigOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}
 */
 export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
 
@@ -384,7 +384,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaEventInvokeConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaEventInvokeConfig to import
-  * @param importFromId The id of the existing LambdaEventInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaEventInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaEventInvokeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -396,7 +396,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,7 +407,7 @@ export class LambdaEventInvokeConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_event_invoke_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

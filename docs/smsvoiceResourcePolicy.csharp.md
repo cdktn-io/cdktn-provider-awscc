@@ -4,7 +4,7 @@
 
 ### SmsvoiceResourcePolicy <a name="SmsvoiceResourcePolicy" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceResourcePolicy.SmsvoiceResourcePolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SmsvoiceResourcePolicy to 
 
 The id of the existing SmsvoiceResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ public string PolicyDocument { get; set; }
 
 The JSON formatted resource-based policy to attach.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
 
 ---
 
@@ -869,7 +869,7 @@ public string ResourceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the AWS End User Messaging SMS and Voice resource to attach the resource-based policy to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccIamVirtualMfaDevices <a name="DataAwsccIamVirtualMfaDevices" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamVirtualMfaDevices.DataAwsccIamVirtualMfaDevices.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIamVirtualMfaDevi
 
 The id of the existing DataAwsccIamVirtualMfaDevices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iam_virtual_mfa_devices#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_virtual_mfa_devices#import import section} in the documentation of this resource for the id to use
 
 ---
 

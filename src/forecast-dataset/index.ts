@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface ForecastDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
   * Frequency of data collection. This parameter is required for RELATED_TIME_SERIES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#data_frequency ForecastDataset#data_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#data_frequency ForecastDataset#data_frequency}
   */
   readonly dataFrequency?: string;
   /**
   * A name for the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#dataset_name ForecastDataset#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#dataset_name ForecastDataset#dataset_name}
   */
   readonly datasetName: string;
   /**
   * The dataset type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#dataset_type ForecastDataset#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#dataset_type ForecastDataset#dataset_type}
   */
   readonly datasetType: string;
   /**
   * The domain associated with the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#domain ForecastDataset#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#domain ForecastDataset#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#encryption_config ForecastDataset#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#encryption_config ForecastDataset#encryption_config}
   */
   readonly encryptionConfig?: ForecastDatasetEncryptionConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#schema ForecastDataset#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#schema ForecastDataset#schema}
   */
   readonly schema: ForecastDatasetSchema;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#tags ForecastDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#tags ForecastDataset#tags}
   */
   readonly tags?: ForecastDatasetTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface ForecastDatasetEncryptionConfig {
   /**
   * KMS key used to encrypt the Dataset data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#kms_key_arn ForecastDataset#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#kms_key_arn ForecastDataset#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The ARN of the IAM role that Amazon Forecast can assume to access the AWS KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#role_arn ForecastDataset#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#role_arn ForecastDataset#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -184,13 +184,13 @@ export interface ForecastDatasetSchemaAttributes {
   /**
   * Name of the dataset field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#attribute_name ForecastDataset#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#attribute_name ForecastDataset#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * Data type of the field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#attribute_type ForecastDataset#attribute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#attribute_type ForecastDataset#attribute_type}
   */
   readonly attributeType?: string;
 }
@@ -335,7 +335,7 @@ export class ForecastDatasetSchemaAttributesList extends cdktn.ComplexList {
 }
 export interface ForecastDatasetSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}
   */
   readonly attributes?: ForecastDatasetSchemaAttributes[] | cdktn.IResolvable;
 }
@@ -431,13 +431,13 @@ export interface ForecastDatasetTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#key ForecastDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#key ForecastDataset#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#value ForecastDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#value ForecastDataset#value}
   */
   readonly value?: string;
 }
@@ -582,7 +582,7 @@ export class ForecastDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset awscc_forecast_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset awscc_forecast_dataset}
 */
 export class ForecastDataset extends cdktn.TerraformResource {
 
@@ -598,7 +598,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ForecastDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForecastDataset to import
-  * @param importFromId The id of the existing ForecastDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForecastDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForecastDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -610,7 +610,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/forecast_dataset awscc_forecast_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/forecast_dataset awscc_forecast_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,7 +621,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_forecast_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

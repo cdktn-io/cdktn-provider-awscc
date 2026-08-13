@@ -4,7 +4,7 @@
 
 ### ConnectContactFlowModuleAlias <a name="ConnectContactFlowModuleAlias" id="@cdktn/provider-awscc.connectContactFlowModuleAlias.ConnectContactFlowModuleAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlowModuleAlias.ConnectContactFlowModuleAlias.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ConnectContactFlowModuleAl
 
 The id of the existing ConnectContactFlowModuleAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -932,7 +932,7 @@ public string ContactFlowModuleId { get; set; }
 
 The identifier of the contact flow module (ARN) this alias is tied to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_id ConnectContactFlowModuleAlias#contact_flow_module_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_id ConnectContactFlowModuleAlias#contact_flow_module_id}
 
 ---
 
@@ -946,7 +946,7 @@ public double ContactFlowModuleVersion { get; set; }
 
 The version number of the contact flow module this alias points to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_version ConnectContactFlowModuleAlias#contact_flow_module_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_alias#contact_flow_module_version ConnectContactFlowModuleAlias#contact_flow_module_version}
 
 ---
 
@@ -960,7 +960,7 @@ public string Name { get; set; }
 
 The name of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_alias#name ConnectContactFlowModuleAlias#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_alias#name ConnectContactFlowModuleAlias#name}
 
 ---
 
@@ -974,7 +974,7 @@ public string Description { get; set; }
 
 The description of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_contact_flow_module_alias#description ConnectContactFlowModuleAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_module_alias#description ConnectContactFlowModuleAlias#description}
 
 ---
 

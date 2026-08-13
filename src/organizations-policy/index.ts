@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface OrganizationsPolicyConfig extends cdktn.TerraformMetaArguments 
   /**
   * The Policy text content. For AWS CloudFormation templates formatted in YAML, you can provide the policy in JSON or YAML format. AWS CloudFormation always converts a YAML policy to JSON format before submitting it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#content OrganizationsPolicy#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#content OrganizationsPolicy#content}
   */
   readonly content: string;
   /**
   * Human readable description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#description OrganizationsPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#description OrganizationsPolicy#description}
   */
   readonly description?: string;
   /**
   * Name of the Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#name OrganizationsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#name OrganizationsPolicy#name}
   */
   readonly name: string;
   /**
   * A list of tags that you want to attach to the newly created policy. For each tag in the list, you must specify both a tag key and a value. You can set the value to an empty string, but you can't set it to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#tags OrganizationsPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#tags OrganizationsPolicy#tags}
   */
   readonly tags?: OrganizationsPolicyTags[] | cdktn.IResolvable;
   /**
   * List of unique identifiers (IDs) of the root, OU, or account that you want to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#target_ids OrganizationsPolicy#target_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#target_ids OrganizationsPolicy#target_ids}
   */
   readonly targetIds?: string[];
   /**
   * The type of policy to create. You can specify one of the following values: AISERVICES_OPT_OUT_POLICY, BACKUP_POLICY, BEDROCK_POLICY, CHATBOT_POLICY, DECLARATIVE_POLICY_EC2, INSPECTOR_POLICY, NETWORK_SECURITY_DIRECTOR_POLICY, RESOURCE_CONTROL_POLICY, S3_POLICY, SECURITYHUB_POLICY, SERVICE_CONTROL_POLICY, TAG_POLICY, UPGRADE_ROLLOUT_POLICY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#type OrganizationsPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#type OrganizationsPolicy#type}
   */
   readonly type: string;
 }
@@ -53,13 +53,13 @@ export interface OrganizationsPolicyTags {
   /**
   * The key identifier, or name, of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#key OrganizationsPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#key OrganizationsPolicy#key}
   */
   readonly key?: string;
   /**
   * The string value that's associated with the key of the tag. You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#value OrganizationsPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#value OrganizationsPolicy#value}
   */
   readonly value?: string;
 }
@@ -204,7 +204,7 @@ export class OrganizationsPolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy awscc_organizations_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy awscc_organizations_policy}
 */
 export class OrganizationsPolicy extends cdktn.TerraformResource {
 
@@ -220,7 +220,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OrganizationsPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationsPolicy to import
-  * @param importFromId The id of the existing OrganizationsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -232,7 +232,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_policy awscc_organizations_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy awscc_organizations_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,7 +243,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_organizations_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

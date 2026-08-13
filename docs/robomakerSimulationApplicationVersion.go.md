@@ -4,7 +4,7 @@
 
 ### RobomakerSimulationApplicationVersion <a name="RobomakerSimulationApplicationVersion" id="@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersion.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the RobomakerSimulationApplica
 
 The id of the existing RobomakerSimulationApplicationVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_simulation_application_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_simulation_application_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -799,7 +799,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakersimulationapp
 | <code><a href="#@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersionConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersionConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersionConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersionConfig.property.application">Application</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_simulation_application_version#application RobomakerSimulationApplicationVersion#application}. |
+| <code><a href="#@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersionConfig.property.application">Application</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_simulation_application_version#application RobomakerSimulationApplicationVersion#application}. |
 | <code><a href="#@cdktn/provider-awscc.robomakerSimulationApplicationVersion.RobomakerSimulationApplicationVersionConfig.property.currentRevisionId">CurrentRevisionId</a></code> | <code>*string</code> | The revision ID of robot application. |
 
 ---
@@ -882,7 +882,7 @@ Application *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_simulation_application_version#application RobomakerSimulationApplicationVersion#application}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_simulation_application_version#application RobomakerSimulationApplicationVersion#application}.
 
 ---
 
@@ -896,7 +896,7 @@ CurrentRevisionId *string
 
 The revision ID of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_simulation_application_version#current_revision_id RobomakerSimulationApplicationVersion#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_simulation_application_version#current_revision_id RobomakerSimulationApplicationVersion#current_revision_id}
 
 ---
 

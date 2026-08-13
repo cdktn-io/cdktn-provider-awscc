@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,29 +13,29 @@ import * as cdktn from 'cdktn';
 
 export interface IotCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}
   */
   readonly caCertificatePem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}
   */
   readonly certificateMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}
   */
   readonly certificatePem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}
   */
   readonly certificateSigningRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate#status IotCertificate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate#status IotCertificate#status}
   */
   readonly status: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate awscc_iot_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate awscc_iot_certificate}
 */
 export class IotCertificate extends cdktn.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCertificate to import
-  * @param importFromId The id of the existing IotCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IotCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_certificate awscc_iot_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate awscc_iot_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,7 +74,7 @@ export class IotCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

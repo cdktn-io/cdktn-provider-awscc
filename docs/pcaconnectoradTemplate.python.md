@@ -4,7 +4,7 @@
 
 ### PcaconnectoradTemplate <a name="PcaconnectoradTemplate" id="@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template awscc_pcaconnectorad_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template awscc_pcaconnectorad_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer"></a>
 
@@ -40,11 +40,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplate(
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.definition">definition</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition">PcaconnectoradTemplateDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.reenrollAllCertificateHolders">reenroll_all_certificate_holders</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.definition">definition</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition">PcaconnectoradTemplateDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.reenrollAllCertificateHolders">reenroll_all_certificate_holders</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplate.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}.
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition">PcaconnectoradTemplateDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}.
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}.
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}.
 
 ---
 
@@ -544,7 +544,7 @@ def put_definition(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2">PcaconnectoradTemplateDefinitionTemplateV2</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}.
 
 ---
 
@@ -552,7 +552,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3">PcaconnectoradTemplateDefinitionTemplateV3</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}.
 
 ---
 
@@ -560,7 +560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4">PcaconnectoradTemplateDefinitionTemplateV4</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}.
 
 ---
 
@@ -690,7 +690,7 @@ The construct id used in the generated config for the PcaconnectoradTemplate to 
 
 The id of the existing PcaconnectoradTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1051,11 +1051,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateConfig(
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.definition">definition</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition">PcaconnectoradTemplateDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.reenrollAllCertificateHolders">reenroll_all_certificate_holders</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.definition">definition</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition">PcaconnectoradTemplateDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.reenrollAllCertificateHolders">reenroll_all_certificate_holders</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}. |
 
 ---
 
@@ -1137,7 +1137,7 @@ connector_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}.
 
 ---
 
@@ -1149,7 +1149,7 @@ definition: PcaconnectoradTemplateDefinition
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition">PcaconnectoradTemplateDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}.
 
 ---
 
@@ -1161,7 +1161,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}.
 
 ---
 
@@ -1173,7 +1173,7 @@ reenroll_all_certificate_holders: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}.
 
 ---
 
@@ -1185,7 +1185,7 @@ tags: typing.Mapping[str]
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}.
 
 ---
 
@@ -1207,9 +1207,9 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinition(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition.property.templateV2">template_v2</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2">PcaconnectoradTemplateDefinitionTemplateV2</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition.property.templateV3">template_v3</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3">PcaconnectoradTemplateDefinitionTemplateV3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition.property.templateV4">template_v4</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4">PcaconnectoradTemplateDefinitionTemplateV4</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition.property.templateV2">template_v2</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2">PcaconnectoradTemplateDefinitionTemplateV2</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition.property.templateV3">template_v3</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3">PcaconnectoradTemplateDefinitionTemplateV3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinition.property.templateV4">template_v4</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4">PcaconnectoradTemplateDefinitionTemplateV4</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}. |
 
 ---
 
@@ -1221,7 +1221,7 @@ template_v2: PcaconnectoradTemplateDefinitionTemplateV2
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2">PcaconnectoradTemplateDefinitionTemplateV2</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}.
 
 ---
 
@@ -1233,7 +1233,7 @@ template_v3: PcaconnectoradTemplateDefinitionTemplateV3
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3">PcaconnectoradTemplateDefinitionTemplateV3</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}.
 
 ---
 
@@ -1245,7 +1245,7 @@ template_v4: PcaconnectoradTemplateDefinitionTemplateV4
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4">PcaconnectoradTemplateDefinitionTemplateV4</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}.
 
 ---
 
@@ -1272,14 +1272,14 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.certificateValidity">certificate_validity</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.enrollmentFlags">enrollment_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.extensions">extensions</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions">PcaconnectoradTemplateDefinitionTemplateV2Extensions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.generalFlags">general_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.privateKeyAttributes">private_key_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.privateKeyFlags">private_key_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.subjectNameFlags">subject_name_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.supersededTemplates">superseded_templates</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.certificateValidity">certificate_validity</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.enrollmentFlags">enrollment_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.extensions">extensions</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions">PcaconnectoradTemplateDefinitionTemplateV2Extensions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.generalFlags">general_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.privateKeyAttributes">private_key_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.privateKeyFlags">private_key_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.subjectNameFlags">subject_name_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2.property.supersededTemplates">superseded_templates</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}. |
 
 ---
 
@@ -1291,7 +1291,7 @@ certificate_validity: PcaconnectoradTemplateDefinitionTemplateV2CertificateValid
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
 
 ---
 
@@ -1303,7 +1303,7 @@ enrollment_flags: PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
 
 ---
 
@@ -1315,7 +1315,7 @@ extensions: PcaconnectoradTemplateDefinitionTemplateV2Extensions
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions">PcaconnectoradTemplateDefinitionTemplateV2Extensions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
 
 ---
 
@@ -1327,7 +1327,7 @@ general_flags: PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
 
 ---
 
@@ -1339,7 +1339,7 @@ private_key_attributes: PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttr
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
 
 ---
 
@@ -1351,7 +1351,7 @@ private_key_flags: PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
 
 ---
 
@@ -1363,7 +1363,7 @@ subject_name_flags: PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
 
 ---
 
@@ -1375,7 +1375,7 @@ superseded_templates: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
 
 ---
 
@@ -1396,8 +1396,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity.property.renewalPeriod">renewal_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity.property.validityPeriod">validity_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity.property.renewalPeriod">renewal_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity.property.validityPeriod">validity_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}. |
 
 ---
 
@@ -1409,7 +1409,7 @@ renewal_period: PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRen
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
 
 ---
 
@@ -1421,7 +1421,7 @@ validity_period: PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityVa
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
 
 ---
 
@@ -1442,8 +1442,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
 
 ---
 
@@ -1455,7 +1455,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -1467,7 +1467,7 @@ period_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -1488,8 +1488,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
 
 ---
 
@@ -1501,7 +1501,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -1513,7 +1513,7 @@ period_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -1537,11 +1537,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.enableKeyReuseOnNtTokenKeysetStorageFull">enable_key_reuse_on_nt_token_keyset_storage_full</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.includeSymmetricAlgorithms">include_symmetric_algorithms</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.noSecurityExtension">no_security_extension</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.removeInvalidCertificateFromPersonalStore">remove_invalid_certificate_from_personal_store</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.userInteractionRequired">user_interaction_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.enableKeyReuseOnNtTokenKeysetStorageFull">enable_key_reuse_on_nt_token_keyset_storage_full</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.includeSymmetricAlgorithms">include_symmetric_algorithms</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.noSecurityExtension">no_security_extension</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.removeInvalidCertificateFromPersonalStore">remove_invalid_certificate_from_personal_store</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags.property.userInteractionRequired">user_interaction_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}. |
 
 ---
 
@@ -1553,7 +1553,7 @@ enable_key_reuse_on_nt_token_keyset_storage_full: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
 
 ---
 
@@ -1565,7 +1565,7 @@ include_symmetric_algorithms: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
 
 ---
 
@@ -1577,7 +1577,7 @@ no_security_extension: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
 
 ---
 
@@ -1589,7 +1589,7 @@ remove_invalid_certificate_from_personal_store: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
 
 ---
 
@@ -1601,7 +1601,7 @@ user_interaction_required: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
 
 ---
 
@@ -1622,8 +1622,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions.property.applicationPolicies">application_policies</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions.property.keyUsage">key_usage</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions.property.applicationPolicies">application_policies</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions.property.keyUsage">key_usage</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}. |
 
 ---
 
@@ -1635,7 +1635,7 @@ application_policies: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplic
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
 
 ---
 
@@ -1647,7 +1647,7 @@ key_usage: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
 
 ---
 
@@ -1668,8 +1668,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies.property.policies">policies</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies.property.policies">policies</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}. |
 
 ---
 
@@ -1681,7 +1681,7 @@ critical: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -1693,7 +1693,7 @@ policies: IResolvable | typing.List[PcaconnectoradTemplateDefinitionTemplateV2Ex
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 
 ---
 
@@ -1714,8 +1714,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies.property.policyObjectIdentifier">policy_object_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies.property.policyType">policy_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies.property.policyObjectIdentifier">policy_object_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies.property.policyType">policy_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}. |
 
 ---
 
@@ -1727,7 +1727,7 @@ policy_object_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}.
 
 ---
 
@@ -1739,7 +1739,7 @@ policy_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}.
 
 ---
 
@@ -1760,8 +1760,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUs
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage.property.usageFlags">usage_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage.property.usageFlags">usage_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}. |
 
 ---
 
@@ -1773,7 +1773,7 @@ critical: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -1785,7 +1785,7 @@ usage_flags: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
 
 ---
 
@@ -1809,11 +1809,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUs
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.dataEncipherment">data_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.digitalSignature">digital_signature</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.keyEncipherment">key_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.nonRepudiation">non_repudiation</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.dataEncipherment">data_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.digitalSignature">digital_signature</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.keyEncipherment">key_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags.property.nonRepudiation">non_repudiation</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}. |
 
 ---
 
@@ -1825,7 +1825,7 @@ data_encipherment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
 
 ---
 
@@ -1837,7 +1837,7 @@ digital_signature: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
 
 ---
 
@@ -1849,7 +1849,7 @@ key_agreement: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -1861,7 +1861,7 @@ key_encipherment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
 
 ---
 
@@ -1873,7 +1873,7 @@ non_repudiation: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
 
 ---
 
@@ -1894,8 +1894,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags.property.autoEnrollment">auto_enrollment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags.property.machineType">machine_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags.property.autoEnrollment">auto_enrollment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags.property.machineType">machine_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}. |
 
 ---
 
@@ -1907,7 +1907,7 @@ auto_enrollment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
 
 ---
 
@@ -1919,7 +1919,7 @@ machine_type: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
 
 ---
 
@@ -1941,9 +1941,9 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.property.cryptoProviders">crypto_providers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.property.keySpec">key_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.property.minimalKeyLength">minimal_key_length</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.property.cryptoProviders">crypto_providers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.property.keySpec">key_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes.property.minimalKeyLength">minimal_key_length</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}. |
 
 ---
 
@@ -1955,7 +1955,7 @@ crypto_providers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
 
 ---
 
@@ -1967,7 +1967,7 @@ key_spec: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
 
 ---
 
@@ -1979,7 +1979,7 @@ minimal_key_length: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
 
 ---
 
@@ -2001,9 +2001,9 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.property.clientVersion">client_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.property.exportableKey">exportable_key</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.property.strongKeyProtectionRequired">strong_key_protection_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.property.clientVersion">client_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.property.exportableKey">exportable_key</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags.property.strongKeyProtectionRequired">strong_key_protection_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}. |
 
 ---
 
@@ -2015,7 +2015,7 @@ client_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
 
 ---
 
@@ -2027,7 +2027,7 @@ exportable_key: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
 
 ---
 
@@ -2039,7 +2039,7 @@ strong_key_protection_required: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
 
 ---
 
@@ -2068,16 +2068,16 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireCommonName">require_common_name</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireDirectoryPath">require_directory_path</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireDnsAsCn">require_dns_as_cn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireEmail">require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireDirectoryGuid">san_require_directory_guid</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireDns">san_require_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireDomainDns">san_require_domain_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireEmail">san_require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireSpn">san_require_spn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireUpn">san_require_upn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireCommonName">require_common_name</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireDirectoryPath">require_directory_path</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireDnsAsCn">require_dns_as_cn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.requireEmail">require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireDirectoryGuid">san_require_directory_guid</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireDns">san_require_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireDomainDns">san_require_domain_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireEmail">san_require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireSpn">san_require_spn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags.property.sanRequireUpn">san_require_upn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}. |
 
 ---
 
@@ -2089,7 +2089,7 @@ require_common_name: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
 
 ---
 
@@ -2101,7 +2101,7 @@ require_directory_path: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
 
 ---
 
@@ -2113,7 +2113,7 @@ require_dns_as_cn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
 
 ---
 
@@ -2125,7 +2125,7 @@ require_email: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
 
 ---
 
@@ -2137,7 +2137,7 @@ san_require_directory_guid: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
 
 ---
 
@@ -2149,7 +2149,7 @@ san_require_dns: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
 
 ---
 
@@ -2161,7 +2161,7 @@ san_require_domain_dns: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
 
 ---
 
@@ -2173,7 +2173,7 @@ san_require_email: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
 
 ---
 
@@ -2185,7 +2185,7 @@ san_require_spn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
 
 ---
 
@@ -2197,7 +2197,7 @@ san_require_upn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
 
 ---
 
@@ -2225,15 +2225,15 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.certificateValidity">certificate_validity</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.enrollmentFlags">enrollment_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.extensions">extensions</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions">PcaconnectoradTemplateDefinitionTemplateV3Extensions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.generalFlags">general_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.hashAlgorithm">hash_algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.privateKeyAttributes">private_key_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.privateKeyFlags">private_key_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.subjectNameFlags">subject_name_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.supersededTemplates">superseded_templates</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.certificateValidity">certificate_validity</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.enrollmentFlags">enrollment_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.extensions">extensions</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions">PcaconnectoradTemplateDefinitionTemplateV3Extensions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.generalFlags">general_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.hashAlgorithm">hash_algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.privateKeyAttributes">private_key_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.privateKeyFlags">private_key_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.subjectNameFlags">subject_name_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3.property.supersededTemplates">superseded_templates</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}. |
 
 ---
 
@@ -2245,7 +2245,7 @@ certificate_validity: PcaconnectoradTemplateDefinitionTemplateV3CertificateValid
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
 
 ---
 
@@ -2257,7 +2257,7 @@ enrollment_flags: PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
 
 ---
 
@@ -2269,7 +2269,7 @@ extensions: PcaconnectoradTemplateDefinitionTemplateV3Extensions
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions">PcaconnectoradTemplateDefinitionTemplateV3Extensions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
 
 ---
 
@@ -2281,7 +2281,7 @@ general_flags: PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
 
 ---
 
@@ -2293,7 +2293,7 @@ hash_algorithm: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
 
 ---
 
@@ -2305,7 +2305,7 @@ private_key_attributes: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttr
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
 
 ---
 
@@ -2317,7 +2317,7 @@ private_key_flags: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
 
 ---
 
@@ -2329,7 +2329,7 @@ subject_name_flags: PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
 
 ---
 
@@ -2341,7 +2341,7 @@ superseded_templates: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
 
 ---
 
@@ -2362,8 +2362,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity.property.renewalPeriod">renewal_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity.property.validityPeriod">validity_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity.property.renewalPeriod">renewal_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity.property.validityPeriod">validity_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}. |
 
 ---
 
@@ -2375,7 +2375,7 @@ renewal_period: PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRen
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
 
 ---
 
@@ -2387,7 +2387,7 @@ validity_period: PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityVa
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
 
 ---
 
@@ -2408,8 +2408,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
 
 ---
 
@@ -2421,7 +2421,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -2433,7 +2433,7 @@ period_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -2454,8 +2454,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
 
 ---
 
@@ -2467,7 +2467,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -2479,7 +2479,7 @@ period_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -2503,11 +2503,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.enableKeyReuseOnNtTokenKeysetStorageFull">enable_key_reuse_on_nt_token_keyset_storage_full</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.includeSymmetricAlgorithms">include_symmetric_algorithms</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.noSecurityExtension">no_security_extension</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.removeInvalidCertificateFromPersonalStore">remove_invalid_certificate_from_personal_store</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.userInteractionRequired">user_interaction_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.enableKeyReuseOnNtTokenKeysetStorageFull">enable_key_reuse_on_nt_token_keyset_storage_full</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.includeSymmetricAlgorithms">include_symmetric_algorithms</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.noSecurityExtension">no_security_extension</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.removeInvalidCertificateFromPersonalStore">remove_invalid_certificate_from_personal_store</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags.property.userInteractionRequired">user_interaction_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}. |
 
 ---
 
@@ -2519,7 +2519,7 @@ enable_key_reuse_on_nt_token_keyset_storage_full: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
 
 ---
 
@@ -2531,7 +2531,7 @@ include_symmetric_algorithms: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
 
 ---
 
@@ -2543,7 +2543,7 @@ no_security_extension: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
 
 ---
 
@@ -2555,7 +2555,7 @@ remove_invalid_certificate_from_personal_store: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
 
 ---
 
@@ -2567,7 +2567,7 @@ user_interaction_required: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
 
 ---
 
@@ -2588,8 +2588,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions.property.applicationPolicies">application_policies</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions.property.keyUsage">key_usage</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions.property.applicationPolicies">application_policies</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions.property.keyUsage">key_usage</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}. |
 
 ---
 
@@ -2601,7 +2601,7 @@ application_policies: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplic
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
 
 ---
 
@@ -2613,7 +2613,7 @@ key_usage: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
 
 ---
 
@@ -2634,8 +2634,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies.property.policies">policies</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies.property.policies">policies</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}. |
 
 ---
 
@@ -2647,7 +2647,7 @@ critical: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -2659,7 +2659,7 @@ policies: IResolvable | typing.List[PcaconnectoradTemplateDefinitionTemplateV3Ex
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 
 ---
 
@@ -2680,8 +2680,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies.property.policyObjectIdentifier">policy_object_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies.property.policyType">policy_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies.property.policyObjectIdentifier">policy_object_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies.property.policyType">policy_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}. |
 
 ---
 
@@ -2693,7 +2693,7 @@ policy_object_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}.
 
 ---
 
@@ -2705,7 +2705,7 @@ policy_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}.
 
 ---
 
@@ -2726,8 +2726,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUs
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage.property.usageFlags">usage_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage.property.usageFlags">usage_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}. |
 
 ---
 
@@ -2739,7 +2739,7 @@ critical: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -2751,7 +2751,7 @@ usage_flags: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
 
 ---
 
@@ -2775,11 +2775,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUs
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.dataEncipherment">data_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.digitalSignature">digital_signature</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.keyEncipherment">key_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.nonRepudiation">non_repudiation</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.dataEncipherment">data_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.digitalSignature">digital_signature</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.keyEncipherment">key_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags.property.nonRepudiation">non_repudiation</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}. |
 
 ---
 
@@ -2791,7 +2791,7 @@ data_encipherment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
 
 ---
 
@@ -2803,7 +2803,7 @@ digital_signature: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
 
 ---
 
@@ -2815,7 +2815,7 @@ key_agreement: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -2827,7 +2827,7 @@ key_encipherment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
 
 ---
 
@@ -2839,7 +2839,7 @@ non_repudiation: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
 
 ---
 
@@ -2860,8 +2860,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags.property.autoEnrollment">auto_enrollment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags.property.machineType">machine_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags.property.autoEnrollment">auto_enrollment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags.property.machineType">machine_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}. |
 
 ---
 
@@ -2873,7 +2873,7 @@ auto_enrollment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
 
 ---
 
@@ -2885,7 +2885,7 @@ machine_type: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
 
 ---
 
@@ -2909,11 +2909,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.algorithm">algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.cryptoProviders">crypto_providers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.keySpec">key_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.keyUsageProperty">key_usage_property</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.minimalKeyLength">minimal_key_length</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.algorithm">algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.cryptoProviders">crypto_providers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.keySpec">key_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.keyUsageProperty">key_usage_property</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes.property.minimalKeyLength">minimal_key_length</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}. |
 
 ---
 
@@ -2925,7 +2925,7 @@ algorithm: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
 
 ---
 
@@ -2937,7 +2937,7 @@ crypto_providers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
 
 ---
 
@@ -2949,7 +2949,7 @@ key_spec: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
 
 ---
 
@@ -2961,7 +2961,7 @@ key_usage_property: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttribut
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
 
 ---
 
@@ -2973,7 +2973,7 @@ minimal_key_length: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
 
 ---
 
@@ -2994,8 +2994,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty.property.propertyFlags">property_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty.property.propertyType">property_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty.property.propertyFlags">property_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty.property.propertyType">property_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}. |
 
 ---
 
@@ -3007,7 +3007,7 @@ property_flags: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKe
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
 
 ---
 
@@ -3019,7 +3019,7 @@ property_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
 
 ---
 
@@ -3041,9 +3041,9 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.decrypt">decrypt</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.sign">sign</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.decrypt">decrypt</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.sign">sign</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}. |
 
 ---
 
@@ -3055,7 +3055,7 @@ decrypt: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
 
 ---
 
@@ -3067,7 +3067,7 @@ key_agreement: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -3079,7 +3079,7 @@ sign: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
 
 ---
 
@@ -3102,10 +3102,10 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.clientVersion">client_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.exportableKey">exportable_key</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.requireAlternateSignatureAlgorithm">require_alternate_signature_algorithm</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.strongKeyProtectionRequired">strong_key_protection_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.clientVersion">client_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.exportableKey">exportable_key</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.requireAlternateSignatureAlgorithm">require_alternate_signature_algorithm</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags.property.strongKeyProtectionRequired">strong_key_protection_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}. |
 
 ---
 
@@ -3117,7 +3117,7 @@ client_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
 
 ---
 
@@ -3129,7 +3129,7 @@ exportable_key: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
 
 ---
 
@@ -3141,7 +3141,7 @@ require_alternate_signature_algorithm: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
 
 ---
 
@@ -3153,7 +3153,7 @@ strong_key_protection_required: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
 
 ---
 
@@ -3182,16 +3182,16 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireCommonName">require_common_name</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireDirectoryPath">require_directory_path</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireDnsAsCn">require_dns_as_cn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireEmail">require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireDirectoryGuid">san_require_directory_guid</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireDns">san_require_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireDomainDns">san_require_domain_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireEmail">san_require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireSpn">san_require_spn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireUpn">san_require_upn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireCommonName">require_common_name</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireDirectoryPath">require_directory_path</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireDnsAsCn">require_dns_as_cn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.requireEmail">require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireDirectoryGuid">san_require_directory_guid</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireDns">san_require_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireDomainDns">san_require_domain_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireEmail">san_require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireSpn">san_require_spn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags.property.sanRequireUpn">san_require_upn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}. |
 
 ---
 
@@ -3203,7 +3203,7 @@ require_common_name: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
 
 ---
 
@@ -3215,7 +3215,7 @@ require_directory_path: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
 
 ---
 
@@ -3227,7 +3227,7 @@ require_dns_as_cn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
 
 ---
 
@@ -3239,7 +3239,7 @@ require_email: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
 
 ---
 
@@ -3251,7 +3251,7 @@ san_require_directory_guid: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
 
 ---
 
@@ -3263,7 +3263,7 @@ san_require_dns: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
 
 ---
 
@@ -3275,7 +3275,7 @@ san_require_domain_dns: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
 
 ---
 
@@ -3287,7 +3287,7 @@ san_require_email: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
 
 ---
 
@@ -3299,7 +3299,7 @@ san_require_spn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
 
 ---
 
@@ -3311,7 +3311,7 @@ san_require_upn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
 
 ---
 
@@ -3339,15 +3339,15 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.certificateValidity">certificate_validity</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.enrollmentFlags">enrollment_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.extensions">extensions</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions">PcaconnectoradTemplateDefinitionTemplateV4Extensions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.generalFlags">general_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.hashAlgorithm">hash_algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.privateKeyAttributes">private_key_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.privateKeyFlags">private_key_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.subjectNameFlags">subject_name_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.supersededTemplates">superseded_templates</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.certificateValidity">certificate_validity</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.enrollmentFlags">enrollment_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.extensions">extensions</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions">PcaconnectoradTemplateDefinitionTemplateV4Extensions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.generalFlags">general_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.hashAlgorithm">hash_algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.privateKeyAttributes">private_key_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.privateKeyFlags">private_key_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.subjectNameFlags">subject_name_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4.property.supersededTemplates">superseded_templates</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}. |
 
 ---
 
@@ -3359,7 +3359,7 @@ certificate_validity: PcaconnectoradTemplateDefinitionTemplateV4CertificateValid
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
 
 ---
 
@@ -3371,7 +3371,7 @@ enrollment_flags: PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
 
 ---
 
@@ -3383,7 +3383,7 @@ extensions: PcaconnectoradTemplateDefinitionTemplateV4Extensions
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions">PcaconnectoradTemplateDefinitionTemplateV4Extensions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
 
 ---
 
@@ -3395,7 +3395,7 @@ general_flags: PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
 
 ---
 
@@ -3407,7 +3407,7 @@ hash_algorithm: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
 
 ---
 
@@ -3419,7 +3419,7 @@ private_key_attributes: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttr
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
 
 ---
 
@@ -3431,7 +3431,7 @@ private_key_flags: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
 
 ---
 
@@ -3443,7 +3443,7 @@ subject_name_flags: PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
 
 ---
 
@@ -3455,7 +3455,7 @@ superseded_templates: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
 
 ---
 
@@ -3476,8 +3476,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity.property.renewalPeriod">renewal_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity.property.validityPeriod">validity_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity.property.renewalPeriod">renewal_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity.property.validityPeriod">validity_period</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}. |
 
 ---
 
@@ -3489,7 +3489,7 @@ renewal_period: PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRen
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
 
 ---
 
@@ -3501,7 +3501,7 @@ validity_period: PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityVa
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
 
 ---
 
@@ -3522,8 +3522,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
 
 ---
 
@@ -3535,7 +3535,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -3547,7 +3547,7 @@ period_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -3568,8 +3568,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateVali
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod.property.period">period</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod.property.periodType">period_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}. |
 
 ---
 
@@ -3581,7 +3581,7 @@ period: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -3593,7 +3593,7 @@ period_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -3617,11 +3617,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.enableKeyReuseOnNtTokenKeysetStorageFull">enable_key_reuse_on_nt_token_keyset_storage_full</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.includeSymmetricAlgorithms">include_symmetric_algorithms</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.noSecurityExtension">no_security_extension</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.removeInvalidCertificateFromPersonalStore">remove_invalid_certificate_from_personal_store</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.userInteractionRequired">user_interaction_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.enableKeyReuseOnNtTokenKeysetStorageFull">enable_key_reuse_on_nt_token_keyset_storage_full</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.includeSymmetricAlgorithms">include_symmetric_algorithms</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.noSecurityExtension">no_security_extension</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.removeInvalidCertificateFromPersonalStore">remove_invalid_certificate_from_personal_store</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags.property.userInteractionRequired">user_interaction_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}. |
 
 ---
 
@@ -3633,7 +3633,7 @@ enable_key_reuse_on_nt_token_keyset_storage_full: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
 
 ---
 
@@ -3645,7 +3645,7 @@ include_symmetric_algorithms: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
 
 ---
 
@@ -3657,7 +3657,7 @@ no_security_extension: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
 
 ---
 
@@ -3669,7 +3669,7 @@ remove_invalid_certificate_from_personal_store: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
 
 ---
 
@@ -3681,7 +3681,7 @@ user_interaction_required: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
 
 ---
 
@@ -3702,8 +3702,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions.property.applicationPolicies">application_policies</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions.property.keyUsage">key_usage</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions.property.applicationPolicies">application_policies</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions.property.keyUsage">key_usage</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}. |
 
 ---
 
@@ -3715,7 +3715,7 @@ application_policies: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplic
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
 
 ---
 
@@ -3727,7 +3727,7 @@ key_usage: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
 
 ---
 
@@ -3748,8 +3748,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies.property.policies">policies</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies.property.policies">policies</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}. |
 
 ---
 
@@ -3761,7 +3761,7 @@ critical: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -3773,7 +3773,7 @@ policies: IResolvable | typing.List[PcaconnectoradTemplateDefinitionTemplateV4Ex
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 
 ---
 
@@ -3794,8 +3794,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies.property.policyObjectIdentifier">policy_object_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies.property.policyType">policy_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies.property.policyObjectIdentifier">policy_object_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies.property.policyType">policy_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}. |
 
 ---
 
@@ -3807,7 +3807,7 @@ policy_object_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}.
 
 ---
 
@@ -3819,7 +3819,7 @@ policy_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}.
 
 ---
 
@@ -3840,8 +3840,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUs
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage.property.usageFlags">usage_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage.property.critical">critical</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage.property.usageFlags">usage_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}. |
 
 ---
 
@@ -3853,7 +3853,7 @@ critical: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -3865,7 +3865,7 @@ usage_flags: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
 
 ---
 
@@ -3889,11 +3889,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUs
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.dataEncipherment">data_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.digitalSignature">digital_signature</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.keyEncipherment">key_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.nonRepudiation">non_repudiation</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.dataEncipherment">data_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.digitalSignature">digital_signature</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.keyEncipherment">key_encipherment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags.property.nonRepudiation">non_repudiation</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}. |
 
 ---
 
@@ -3905,7 +3905,7 @@ data_encipherment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
 
 ---
 
@@ -3917,7 +3917,7 @@ digital_signature: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
 
 ---
 
@@ -3929,7 +3929,7 @@ key_agreement: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -3941,7 +3941,7 @@ key_encipherment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
 
 ---
 
@@ -3953,7 +3953,7 @@ non_repudiation: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
 
 ---
 
@@ -3974,8 +3974,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags.property.autoEnrollment">auto_enrollment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags.property.machineType">machine_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags.property.autoEnrollment">auto_enrollment</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags.property.machineType">machine_type</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}. |
 
 ---
 
@@ -3987,7 +3987,7 @@ auto_enrollment: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
 
 ---
 
@@ -3999,7 +3999,7 @@ machine_type: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
 
 ---
 
@@ -4023,11 +4023,11 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.algorithm">algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.cryptoProviders">crypto_providers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.keySpec">key_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.keyUsageProperty">key_usage_property</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.minimalKeyLength">minimal_key_length</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.algorithm">algorithm</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.cryptoProviders">crypto_providers</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.keySpec">key_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.keyUsageProperty">key_usage_property</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes.property.minimalKeyLength">minimal_key_length</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}. |
 
 ---
 
@@ -4039,7 +4039,7 @@ algorithm: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
 
 ---
 
@@ -4051,7 +4051,7 @@ crypto_providers: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
 
 ---
 
@@ -4063,7 +4063,7 @@ key_spec: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
 
 ---
 
@@ -4075,7 +4075,7 @@ key_usage_property: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttribut
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
 
 ---
 
@@ -4087,7 +4087,7 @@ minimal_key_length: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
 
 ---
 
@@ -4108,8 +4108,8 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty.property.propertyFlags">property_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty.property.propertyType">property_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty.property.propertyFlags">property_flags</a></code> | <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty.property.propertyType">property_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}. |
 
 ---
 
@@ -4121,7 +4121,7 @@ property_flags: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKe
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
 
 ---
 
@@ -4133,7 +4133,7 @@ property_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
 
 ---
 
@@ -4155,9 +4155,9 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttri
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.decrypt">decrypt</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.sign">sign</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.decrypt">decrypt</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.keyAgreement">key_agreement</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags.property.sign">sign</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}. |
 
 ---
 
@@ -4169,7 +4169,7 @@ decrypt: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
 
 ---
 
@@ -4181,7 +4181,7 @@ key_agreement: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -4193,7 +4193,7 @@ sign: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
 
 ---
 
@@ -4218,12 +4218,12 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.clientVersion">client_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.exportableKey">exportable_key</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.requireAlternateSignatureAlgorithm">require_alternate_signature_algorithm</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.requireSameKeyRenewal">require_same_key_renewal</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.strongKeyProtectionRequired">strong_key_protection_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.useLegacyProvider">use_legacy_provider</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.clientVersion">client_version</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.exportableKey">exportable_key</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.requireAlternateSignatureAlgorithm">require_alternate_signature_algorithm</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.requireSameKeyRenewal">require_same_key_renewal</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.strongKeyProtectionRequired">strong_key_protection_required</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags.property.useLegacyProvider">use_legacy_provider</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}. |
 
 ---
 
@@ -4235,7 +4235,7 @@ client_version: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
 
 ---
 
@@ -4247,7 +4247,7 @@ exportable_key: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
 
 ---
 
@@ -4259,7 +4259,7 @@ require_alternate_signature_algorithm: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
 
 ---
 
@@ -4271,7 +4271,7 @@ require_same_key_renewal: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}.
 
 ---
 
@@ -4283,7 +4283,7 @@ strong_key_protection_required: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
 
 ---
 
@@ -4295,7 +4295,7 @@ use_legacy_provider: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}.
 
 ---
 
@@ -4324,16 +4324,16 @@ pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireCommonName">require_common_name</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireDirectoryPath">require_directory_path</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireDnsAsCn">require_dns_as_cn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireEmail">require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireDirectoryGuid">san_require_directory_guid</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireDns">san_require_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireDomainDns">san_require_domain_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireEmail">san_require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireSpn">san_require_spn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireUpn">san_require_upn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireCommonName">require_common_name</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireDirectoryPath">require_directory_path</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireDnsAsCn">require_dns_as_cn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.requireEmail">require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireDirectoryGuid">san_require_directory_guid</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireDns">san_require_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireDomainDns">san_require_domain_dns</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireEmail">san_require_email</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireSpn">san_require_spn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags.property.sanRequireUpn">san_require_upn</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}. |
 
 ---
 
@@ -4345,7 +4345,7 @@ require_common_name: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
 
 ---
 
@@ -4357,7 +4357,7 @@ require_directory_path: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
 
 ---
 
@@ -4369,7 +4369,7 @@ require_dns_as_cn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
 
 ---
 
@@ -4381,7 +4381,7 @@ require_email: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
 
 ---
 
@@ -4393,7 +4393,7 @@ san_require_directory_guid: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
 
 ---
 
@@ -4405,7 +4405,7 @@ san_require_dns: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
 
 ---
 
@@ -4417,7 +4417,7 @@ san_require_domain_dns: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
 
 ---
 
@@ -4429,7 +4429,7 @@ san_require_email: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
 
 ---
 
@@ -4441,7 +4441,7 @@ san_require_spn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
 
 ---
 
@@ -4453,7 +4453,7 @@ san_require_upn: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
 
 ---
 
@@ -4712,7 +4712,7 @@ def put_template_v2(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
 
 ---
 
@@ -4720,7 +4720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
 
 ---
 
@@ -4728,7 +4728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2Extensions">PcaconnectoradTemplateDefinitionTemplateV2Extensions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
 
 ---
 
@@ -4736,7 +4736,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
 
 ---
 
@@ -4744,7 +4744,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
 
 ---
 
@@ -4752,7 +4752,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
 
 ---
 
@@ -4760,7 +4760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
 
 ---
 
@@ -4768,7 +4768,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
 
 ---
 
@@ -4792,7 +4792,7 @@ def put_template_v3(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
 
 ---
 
@@ -4800,7 +4800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
 
 ---
 
@@ -4808,7 +4808,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3Extensions">PcaconnectoradTemplateDefinitionTemplateV3Extensions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
 
 ---
 
@@ -4816,7 +4816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
 
 ---
 
@@ -4824,7 +4824,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
 
 ---
 
@@ -4832,7 +4832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
 
 ---
 
@@ -4840,7 +4840,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
 
 ---
 
@@ -4848,7 +4848,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
 
 ---
 
@@ -4856,7 +4856,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
 
 ---
 
@@ -4880,7 +4880,7 @@ def put_template_v4(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}.
 
 ---
 
@@ -4888,7 +4888,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags">PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}.
 
 ---
 
@@ -4896,7 +4896,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4Extensions">PcaconnectoradTemplateDefinitionTemplateV4Extensions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}.
 
 ---
 
@@ -4904,7 +4904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags">PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}.
 
 ---
 
@@ -4912,7 +4912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}.
 
 ---
 
@@ -4920,7 +4920,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}.
 
 ---
 
@@ -4928,7 +4928,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}.
 
 ---
 
@@ -4936,7 +4936,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags">PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}.
 
 ---
 
@@ -4944,7 +4944,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}.
 
 ---
 
@@ -5323,7 +5323,7 @@ def put_renewal_period(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -5331,7 +5331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -5348,7 +5348,7 @@ def put_validity_period(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -5356,7 +5356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -7661,7 +7661,7 @@ def put_usage_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
 
 ---
 
@@ -7669,7 +7669,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
 
 ---
 
@@ -7677,7 +7677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -7685,7 +7685,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
 
 ---
 
@@ -7693,7 +7693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
 
 ---
 
@@ -8463,7 +8463,7 @@ def put_application_policies(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -8471,7 +8471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 
 ---
 
@@ -8488,7 +8488,7 @@ def put_key_usage(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -8496,7 +8496,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
 
 ---
 
@@ -9190,7 +9190,7 @@ def put_certificate_validity(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
 
 ---
 
@@ -9198,7 +9198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
 
 ---
 
@@ -9218,7 +9218,7 @@ def put_enrollment_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
 
 ---
 
@@ -9226,7 +9226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
 
 ---
 
@@ -9234,7 +9234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
 
 ---
 
@@ -9242,7 +9242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
 
 ---
 
@@ -9250,7 +9250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
 
 ---
 
@@ -9267,7 +9267,7 @@ def put_extensions(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
 
 ---
 
@@ -9275,7 +9275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
 
 ---
 
@@ -9292,7 +9292,7 @@ def put_general_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
 
 ---
 
@@ -9300,7 +9300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
 
 ---
 
@@ -9318,7 +9318,7 @@ def put_private_key_attributes(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
 
 ---
 
@@ -9326,7 +9326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
 
 ---
 
@@ -9334,7 +9334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
 
 ---
 
@@ -9352,7 +9352,7 @@ def put_private_key_flags(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
 
 ---
 
@@ -9360,7 +9360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
 
 ---
 
@@ -9368,7 +9368,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
 
 ---
 
@@ -9393,7 +9393,7 @@ def put_subject_name_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
 
 ---
 
@@ -9401,7 +9401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
 
 ---
 
@@ -9409,7 +9409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
 
 ---
 
@@ -9417,7 +9417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
 
 ---
 
@@ -9425,7 +9425,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
 
 ---
 
@@ -9433,7 +9433,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
 
 ---
 
@@ -9441,7 +9441,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
 
 ---
 
@@ -9449,7 +9449,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
 
 ---
 
@@ -9457,7 +9457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
 
 ---
 
@@ -9465,7 +9465,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
 
 ---
 
@@ -11270,7 +11270,7 @@ def put_renewal_period(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -11278,7 +11278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -11295,7 +11295,7 @@ def put_validity_period(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -11303,7 +11303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -13608,7 +13608,7 @@ def put_usage_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
 
 ---
 
@@ -13616,7 +13616,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
 
 ---
 
@@ -13624,7 +13624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -13632,7 +13632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
 
 ---
 
@@ -13640,7 +13640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
 
 ---
 
@@ -14410,7 +14410,7 @@ def put_application_policies(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -14418,7 +14418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 
 ---
 
@@ -14435,7 +14435,7 @@ def put_key_usage(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -14443,7 +14443,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
 
 ---
 
@@ -15138,7 +15138,7 @@ def put_certificate_validity(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
 
 ---
 
@@ -15146,7 +15146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
 
 ---
 
@@ -15166,7 +15166,7 @@ def put_enrollment_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
 
 ---
 
@@ -15174,7 +15174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
 
 ---
 
@@ -15182,7 +15182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
 
 ---
 
@@ -15190,7 +15190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
 
 ---
 
@@ -15198,7 +15198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
 
 ---
 
@@ -15215,7 +15215,7 @@ def put_extensions(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
 
 ---
 
@@ -15223,7 +15223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
 
 ---
 
@@ -15240,7 +15240,7 @@ def put_general_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
 
 ---
 
@@ -15248,7 +15248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
 
 ---
 
@@ -15268,7 +15268,7 @@ def put_private_key_attributes(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
 
 ---
 
@@ -15276,7 +15276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
 
 ---
 
@@ -15284,7 +15284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
 
 ---
 
@@ -15292,7 +15292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
 
 ---
 
@@ -15300,7 +15300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
 
 ---
 
@@ -15319,7 +15319,7 @@ def put_private_key_flags(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
 
 ---
 
@@ -15327,7 +15327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
 
 ---
 
@@ -15335,7 +15335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
 
 ---
 
@@ -15343,7 +15343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
 
 ---
 
@@ -15368,7 +15368,7 @@ def put_subject_name_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
 
 ---
 
@@ -15376,7 +15376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
 
 ---
 
@@ -15384,7 +15384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
 
 ---
 
@@ -15392,7 +15392,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
 
 ---
 
@@ -15400,7 +15400,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
 
 ---
 
@@ -15408,7 +15408,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
 
 ---
 
@@ -15416,7 +15416,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
 
 ---
 
@@ -15424,7 +15424,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
 
 ---
 
@@ -15432,7 +15432,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
 
 ---
 
@@ -15440,7 +15440,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
 
 ---
 
@@ -15987,7 +15987,7 @@ def put_property_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
 
 ---
 
@@ -15995,7 +15995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -16003,7 +16003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
 
 ---
 
@@ -16717,7 +16717,7 @@ def put_key_usage_property(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
 
 ---
 
@@ -16725,7 +16725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
 
 ---
 
@@ -18114,7 +18114,7 @@ def put_renewal_period(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -18122,7 +18122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -18139,7 +18139,7 @@ def put_validity_period(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}.
 
 ---
 
@@ -18147,7 +18147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}.
 
 ---
 
@@ -20452,7 +20452,7 @@ def put_usage_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}.
 
 ---
 
@@ -20460,7 +20460,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}.
 
 ---
 
@@ -20468,7 +20468,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -20476,7 +20476,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}.
 
 ---
 
@@ -20484,7 +20484,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}.
 
 ---
 
@@ -21254,7 +21254,7 @@ def put_application_policies(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -21262,7 +21262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 
 ---
 
@@ -21279,7 +21279,7 @@ def put_key_usage(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 
 ---
 
@@ -21287,7 +21287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}.
 
 ---
 
@@ -21982,7 +21982,7 @@ def put_certificate_validity(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}.
 
 ---
 
@@ -21990,7 +21990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod">PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}.
 
 ---
 
@@ -22010,7 +22010,7 @@ def put_enrollment_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}.
 
 ---
 
@@ -22018,7 +22018,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}.
 
 ---
 
@@ -22026,7 +22026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}.
 
 ---
 
@@ -22034,7 +22034,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}.
 
 ---
 
@@ -22042,7 +22042,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}.
 
 ---
 
@@ -22059,7 +22059,7 @@ def put_extensions(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}.
 
 ---
 
@@ -22067,7 +22067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage">PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}.
 
 ---
 
@@ -22084,7 +22084,7 @@ def put_general_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}.
 
 ---
 
@@ -22092,7 +22092,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}.
 
 ---
 
@@ -22112,7 +22112,7 @@ def put_private_key_attributes(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}.
 
 ---
 
@@ -22120,7 +22120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}.
 
 ---
 
@@ -22128,7 +22128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}.
 
 ---
 
@@ -22136,7 +22136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}.
 
 ---
 
@@ -22144,7 +22144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}.
 
 ---
 
@@ -22165,7 +22165,7 @@ def put_private_key_flags(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}.
 
 ---
 
@@ -22173,7 +22173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}.
 
 ---
 
@@ -22181,7 +22181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}.
 
 ---
 
@@ -22189,7 +22189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}.
 
 ---
 
@@ -22197,7 +22197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}.
 
 ---
 
@@ -22205,7 +22205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}.
 
 ---
 
@@ -22230,7 +22230,7 @@ def put_subject_name_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}.
 
 ---
 
@@ -22238,7 +22238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}.
 
 ---
 
@@ -22246,7 +22246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}.
 
 ---
 
@@ -22254,7 +22254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}.
 
 ---
 
@@ -22262,7 +22262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}.
 
 ---
 
@@ -22270,7 +22270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}.
 
 ---
 
@@ -22278,7 +22278,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}.
 
 ---
 
@@ -22286,7 +22286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}.
 
 ---
 
@@ -22294,7 +22294,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}.
 
 ---
 
@@ -22302,7 +22302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}.
 
 ---
 
@@ -22849,7 +22849,7 @@ def put_property_flags(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}.
 
 ---
 
@@ -22857,7 +22857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}.
 
 ---
 
@@ -22865,7 +22865,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}.
 
 ---
 
@@ -23579,7 +23579,7 @@ def put_key_usage_property(
 
 - *Type:* <a href="#@cdktn/provider-awscc.pcaconnectoradTemplate.PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags">PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}.
 
 ---
 
@@ -23587,7 +23587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}.
 
 ---
 

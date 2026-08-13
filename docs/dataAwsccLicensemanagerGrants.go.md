@@ -4,7 +4,7 @@
 
 ### DataAwsccLicensemanagerGrants <a name="DataAwsccLicensemanagerGrants" id="@cdktn/provider-awscc.dataAwsccLicensemanagerGrants.DataAwsccLicensemanagerGrants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/licensemanager_grants awscc_licensemanager_grants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/licensemanager_grants awscc_licensemanager_grants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerGrants.DataAwsccLicensemanagerGrants.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLicensemanagerGra
 
 The id of the existing DataAwsccLicensemanagerGrants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/licensemanager_grants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/licensemanager_grants#import import section} in the documentation of this resource for the id to use
 
 ---
 

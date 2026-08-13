@@ -4,7 +4,7 @@
 
 ### ApigatewayAccount <a name="ApigatewayAccount" id="@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_account awscc_apigateway_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_account awscc_apigateway_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccount.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ApigatewayAccount to impor
 
 The id of the existing ApigatewayAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -756,7 +756,7 @@ const apigatewayAccountConfig: apigatewayAccount.ApigatewayAccountConfig = { ...
 | <code><a href="#@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccountConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccountConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccountConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccountConfig.property.cloudwatchRoleArn">cloudwatchRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_account#cloudwatch_role_arn ApigatewayAccount#cloudwatch_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayAccount.ApigatewayAccountConfig.property.cloudwatchRoleArn">cloudwatchRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_account#cloudwatch_role_arn ApigatewayAccount#cloudwatch_role_arn}. |
 
 ---
 
@@ -838,7 +838,7 @@ public readonly cloudwatchRoleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_account#cloudwatch_role_arn ApigatewayAccount#cloudwatch_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_account#cloudwatch_role_arn ApigatewayAccount#cloudwatch_role_arn}.
 
 ---
 

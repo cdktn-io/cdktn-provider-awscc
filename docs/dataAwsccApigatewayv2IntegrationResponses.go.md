@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayv2IntegrationResponses <a name="DataAwsccApigatewayv2IntegrationResponses" id="@cdktn/provider-awscc.dataAwsccApigatewayv2IntegrationResponses.DataAwsccApigatewayv2IntegrationResponses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_integration_responses awscc_apigatewayv2_integration_responses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_integration_responses awscc_apigatewayv2_integration_responses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2IntegrationResponses.DataAwsccApigatewayv2IntegrationResponses.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2Integ
 
 The id of the existing DataAwsccApigatewayv2IntegrationResponses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_integration_responses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_integration_responses#import import section} in the documentation of this resource for the id to use
 
 ---
 

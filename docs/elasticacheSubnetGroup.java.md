@@ -4,7 +4,7 @@
 
 ### ElasticacheSubnetGroup <a name="ElasticacheSubnetGroup" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group awscc_elasticache_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group awscc_elasticache_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer"></a>
 
@@ -40,7 +40,7 @@ ElasticacheSubnetGroup.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description for the cache subnet group. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer.parameter.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | The EC2 subnet IDs for the cache subnet group. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer.parameter.cacheSubnetGroupName">cacheSubnetGroupName</a></code> | <code>java.lang.String</code> | The name for the cache subnet group. This value is stored as a lowercase string. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags">ElasticacheSubnetGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroup.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags">ElasticacheSubnetGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The description for the cache subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#description ElasticacheSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#description ElasticacheSubnetGroup#description}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The EC2 subnet IDs for the cache subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#subnet_ids ElasticacheSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#subnet_ids ElasticacheSubnetGroup#subnet_ids}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name for the cache subnet group. This value is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#cache_subnet_group_name ElasticacheSubnetGroup#cache_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#cache_subnet_group_name ElasticacheSubnetGroup#cache_subnet_group_name}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags">ElasticacheSubnetGroupTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}.
 
 ---
 
@@ -614,7 +614,7 @@ The construct id used in the generated config for the ElasticacheSubnetGroup to 
 
 The id of the existing ElasticacheSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -944,7 +944,7 @@ ElasticacheSubnetGroupConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description for the cache subnet group. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | The EC2 subnet IDs for the cache subnet group. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.cacheSubnetGroupName">cacheSubnetGroupName</a></code> | <code>java.lang.String</code> | The name for the cache subnet group. This value is stored as a lowercase string. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags">ElasticacheSubnetGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags">ElasticacheSubnetGroupTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}. |
 
 ---
 
@@ -1028,7 +1028,7 @@ public java.lang.String getDescription();
 
 The description for the cache subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#description ElasticacheSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#description ElasticacheSubnetGroup#description}
 
 ---
 
@@ -1042,7 +1042,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 The EC2 subnet IDs for the cache subnet group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#subnet_ids ElasticacheSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#subnet_ids ElasticacheSubnetGroup#subnet_ids}
 
 ---
 
@@ -1056,7 +1056,7 @@ public java.lang.String getCacheSubnetGroupName();
 
 The name for the cache subnet group. This value is stored as a lowercase string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#cache_subnet_group_name ElasticacheSubnetGroup#cache_subnet_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#cache_subnet_group_name ElasticacheSubnetGroup#cache_subnet_group_name}
 
 ---
 
@@ -1068,7 +1068,7 @@ public IResolvable|java.util.List<ElasticacheSubnetGroupTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags">ElasticacheSubnetGroupTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#tags ElasticacheSubnetGroup#tags}.
 
 ---
 
@@ -1089,8 +1089,8 @@ ElasticacheSubnetGroupTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheSubnetGroup.ElasticacheSubnetGroupTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}. |
 
 ---
 
@@ -1102,7 +1102,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#key ElasticacheSubnetGroup#key}.
 
 ---
 
@@ -1114,7 +1114,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_subnet_group#value ElasticacheSubnetGroup#value}.
 
 ---
 

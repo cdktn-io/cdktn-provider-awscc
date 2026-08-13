@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_publishing_destinations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_publishing_destinations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccGuarddutyPublishingDestinationsConfig extends cdktn.Te
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations}
 */
 export class DataAwsccGuarddutyPublishingDestinations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccGuarddutyPublishingDestinations extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccGuarddutyPublishingDestinations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGuarddutyPublishingDestinations to import
-  * @param importFromId The id of the existing DataAwsccGuarddutyPublishingDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_publishing_destinations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGuarddutyPublishingDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_publishing_destinations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGuarddutyPublishingDestinations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccGuarddutyPublishingDestinations extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccGuarddutyPublishingDestinations extends cdktn.TerraformDat
       terraformResourceType: 'awscc_guardduty_publishing_destinations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DatazoneFormType <a name="DatazoneFormType" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type awscc_datazone_form_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type awscc_datazone_form_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneFormType.DatazoneFormType.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DatazoneFormType to import
 
 The id of the existing DatazoneFormType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1044,7 +1044,7 @@ public string DomainIdentifier { get; set; }
 
 The ID of the Amazon DataZone domain in which this metadata form type is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
 
 ---
 
@@ -1058,7 +1058,7 @@ public DatazoneFormTypeModel Model { get; set; }
 
 The model of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
 
 ---
 
@@ -1072,7 +1072,7 @@ public string Name { get; set; }
 
 The name of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
 
 ---
 
@@ -1086,7 +1086,7 @@ public string OwningProjectIdentifier { get; set; }
 
 The ID of the Amazon DataZone project that owns this metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
 
 ---
 
@@ -1100,7 +1100,7 @@ public string Description { get; set; }
 
 The description of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
 
 ---
 
@@ -1114,7 +1114,7 @@ public string Status { get; set; }
 
 The status of this Amazon DataZone metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
 
 ---
 
@@ -1134,7 +1134,7 @@ new DatazoneFormTypeModel {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeModel.property.smithy">Smithy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneFormType.DatazoneFormTypeModel.property.smithy">Smithy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}. |
 
 ---
 
@@ -1146,7 +1146,7 @@ public string Smithy { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}.
 
 ---
 

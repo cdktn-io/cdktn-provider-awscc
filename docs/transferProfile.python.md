@@ -4,7 +4,7 @@
 
 ### TransferProfile <a name="TransferProfile" id="@cdktn/provider-awscc.transferProfile.TransferProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile awscc_transfer_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile awscc_transfer_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferProfile.TransferProfile.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 AS2 identifier agreed with a trading partner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#as_2_id TransferProfile#as_2_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#as_2_id TransferProfile#as_2_id}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enum specifying whether the profile is local or associated with a trading partner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#profile_type TransferProfile#profile_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#profile_type TransferProfile#profile_type}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of the certificate IDs associated with this profile to be used for encryption and signing of AS2 messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#certificate_ids TransferProfile#certificate_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#certificate_ids TransferProfile#certificate_ids}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#tags TransferProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#tags TransferProfile#tags}
 
 ---
 
@@ -668,7 +668,7 @@ The construct id used in the generated config for the TransferProfile to import.
 
 The id of the existing TransferProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1104,7 +1104,7 @@ as2_id: str
 
 AS2 identifier agreed with a trading partner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#as_2_id TransferProfile#as_2_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#as_2_id TransferProfile#as_2_id}
 
 ---
 
@@ -1118,7 +1118,7 @@ profile_type: str
 
 Enum specifying whether the profile is local or associated with a trading partner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#profile_type TransferProfile#profile_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#profile_type TransferProfile#profile_type}
 
 ---
 
@@ -1132,7 +1132,7 @@ certificate_ids: typing.List[str]
 
 List of the certificate IDs associated with this profile to be used for encryption and signing of AS2 messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#certificate_ids TransferProfile#certificate_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#certificate_ids TransferProfile#certificate_ids}
 
 ---
 
@@ -1146,7 +1146,7 @@ tags: IResolvable | typing.List[TransferProfileTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#tags TransferProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#tags TransferProfile#tags}
 
 ---
 
@@ -1182,7 +1182,7 @@ key: str
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#key TransferProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#key TransferProfile#key}
 
 ---
 
@@ -1196,7 +1196,7 @@ value: str
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/transfer_profile#value TransferProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/transfer_profile#value TransferProfile#value}
 
 ---
 

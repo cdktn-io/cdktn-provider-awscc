@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccTimestreamInfluxDbClusterConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster#id DataAwsccTimestreamInfluxDbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster#id DataAwsccTimestreamInfluxDbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -136,6 +136,65 @@ export class DataAwsccTimestreamInfluxDbClusterLogDeliveryConfigurationOutputRef
     return this._s3Configuration;
   }
 }
+export interface DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule {
+}
+
+export function dataAwsccTimestreamInfluxDbClusterMaintenanceScheduleToTerraform(struct?: DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccTimestreamInfluxDbClusterMaintenanceScheduleToHclTerraform(struct?: DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccTimestreamInfluxDbClusterMaintenanceSchedule | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // preferred_maintenance_window - computed: true, optional: false, required: false
+  public get preferredMaintenanceWindow() {
+    return this.getStringAttribute('preferred_maintenance_window');
+  }
+
+  // timezone - computed: true, optional: false, required: false
+  public get timezone() {
+    return this.getStringAttribute('timezone');
+  }
+}
 export interface DataAwsccTimestreamInfluxDbClusterTags {
 }
 
@@ -218,7 +277,7 @@ export class DataAwsccTimestreamInfluxDbClusterTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}
 */
 export class DataAwsccTimestreamInfluxDbCluster extends cdktn.TerraformDataSource {
 
@@ -234,7 +293,7 @@ export class DataAwsccTimestreamInfluxDbCluster extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccTimestreamInfluxDbCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccTimestreamInfluxDbCluster to import
-  * @param importFromId The id of the existing DataAwsccTimestreamInfluxDbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccTimestreamInfluxDbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccTimestreamInfluxDbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -246,7 +305,7 @@ export class DataAwsccTimestreamInfluxDbCluster extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,7 +316,7 @@ export class DataAwsccTimestreamInfluxDbCluster extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_timestream_influx_db_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -354,6 +413,12 @@ export class DataAwsccTimestreamInfluxDbCluster extends cdktn.TerraformDataSourc
     return this._logDeliveryConfiguration;
   }
 
+  // maintenance_schedule - computed: true, optional: false, required: false
+  private _maintenanceSchedule = new DataAwsccTimestreamInfluxDbClusterMaintenanceScheduleOutputReference(this, "maintenance_schedule");
+  public get maintenanceSchedule() {
+    return this._maintenanceSchedule;
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -362,6 +427,11 @@ export class DataAwsccTimestreamInfluxDbCluster extends cdktn.TerraformDataSourc
   // network_type - computed: true, optional: false, required: false
   public get networkType() {
     return this.getStringAttribute('network_type');
+  }
+
+  // next_maintenance_time - computed: true, optional: false, required: false
+  public get nextMaintenanceTime() {
+    return this.getStringAttribute('next_maintenance_time');
   }
 
   // organization - computed: true, optional: false, required: false

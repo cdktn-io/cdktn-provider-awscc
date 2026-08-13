@@ -4,7 +4,7 @@
 
 ### Resourceexplorer2Index <a name="Resourceexplorer2Index" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer"></a>
 
@@ -35,8 +35,8 @@ Resourceexplorer2Index.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
 
 ---
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
 
 ---
 
@@ -568,7 +568,7 @@ The construct id used in the generated config for the Resourceexplorer2Index to 
 
 The id of the existing Resourceexplorer2Index that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -871,8 +871,8 @@ Resourceexplorer2IndexConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.type">type</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
 
 ---
 
@@ -954,7 +954,7 @@ public java.lang.String getType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
 
 ---
 
@@ -966,7 +966,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
 
 ---
 

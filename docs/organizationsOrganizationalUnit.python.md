@@ -4,7 +4,7 @@
 
 ### OrganizationsOrganizationalUnit <a name="OrganizationsOrganizationalUnit" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsOrganizationalUnit.OrganizationsOrganizationalUnit.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The friendly name of this OU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#name OrganizationsOrganizationalUnit#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#name OrganizationsOrganizationalUnit#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier (ID) of the parent root or OU that you want to create the new OU in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#parent_id OrganizationsOrganizationalUnit#parent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#parent_id OrganizationsOrganizationalUnit#parent_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags that you want to attach to the newly created OU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#tags OrganizationsOrganizationalUnit#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#tags OrganizationsOrganizationalUnit#tags}
 
 ---
 
@@ -649,7 +649,7 @@ The construct id used in the generated config for the OrganizationsOrganizationa
 
 The id of the existing OrganizationsOrganizationalUnit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1072,7 +1072,7 @@ name: str
 
 The friendly name of this OU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#name OrganizationsOrganizationalUnit#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#name OrganizationsOrganizationalUnit#name}
 
 ---
 
@@ -1086,7 +1086,7 @@ parent_id: str
 
 The unique identifier (ID) of the parent root or OU that you want to create the new OU in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#parent_id OrganizationsOrganizationalUnit#parent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#parent_id OrganizationsOrganizationalUnit#parent_id}
 
 ---
 
@@ -1100,7 +1100,7 @@ tags: IResolvable | typing.List[OrganizationsOrganizationalUnitTags]
 
 A list of tags that you want to attach to the newly created OU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#tags OrganizationsOrganizationalUnit#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#tags OrganizationsOrganizationalUnit#tags}
 
 ---
 
@@ -1136,7 +1136,7 @@ key: str
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#key OrganizationsOrganizationalUnit#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#key OrganizationsOrganizationalUnit#key}
 
 ---
 
@@ -1152,7 +1152,7 @@ The string value that's associated with the key of the tag.
 
 You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/organizations_organizational_unit#value OrganizationsOrganizationalUnit#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organizational_unit#value OrganizationsOrganizationalUnit#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MskChannel <a name="MskChannel" id="@cdktn/provider-awscc.mskChannel.MskChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel awscc_msk_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel awscc_msk_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskChannel.MskChannel.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the MskChannel to import.
 
 The id of the existing MskChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1123,7 +1123,7 @@ public readonly channelName: string;
 
 Name of the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#channel_name MskChannel#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#channel_name MskChannel#channel_name}
 
 ---
 
@@ -1137,7 +1137,7 @@ public readonly topicConfigurationList: IResolvable | MskChannelTopicConfigurati
 
 Topic configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#topic_configuration_list MskChannel#topic_configuration_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#topic_configuration_list MskChannel#topic_configuration_list}
 
 ---
 
@@ -1151,7 +1151,7 @@ public readonly clusterArn: string;
 
 The Amazon Resource Name (ARN) of the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#cluster_arn MskChannel#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#cluster_arn MskChannel#cluster_arn}
 
 ---
 
@@ -1165,7 +1165,7 @@ public readonly encryptionConfiguration: MskChannelEncryptionConfiguration;
 
 Encryption configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#encryption_configuration MskChannel#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#encryption_configuration MskChannel#encryption_configuration}
 
 ---
 
@@ -1179,7 +1179,7 @@ public readonly icebergDestinationConfiguration: MskChannelIcebergDestinationCon
 
 Iceberg destination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#iceberg_destination_configuration MskChannel#iceberg_destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#iceberg_destination_configuration MskChannel#iceberg_destination_configuration}
 
 ---
 
@@ -1193,7 +1193,7 @@ public readonly loggingInfo: MskChannelLoggingInfo;
 
 Log configuration details for Channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#logging_info MskChannel#logging_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#logging_info MskChannel#logging_info}
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly s3DestinationConfiguration: MskChannelS3DestinationConfiguration
 
 S3 destination configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#s3_destination_configuration MskChannel#s3_destination_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#s3_destination_configuration MskChannel#s3_destination_configuration}
 
 ---
 
@@ -1221,7 +1221,7 @@ public readonly tags: {[ key: string ]: string};
 
 Tags attached to the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#tags MskChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#tags MskChannel#tags}
 
 ---
 
@@ -1253,7 +1253,7 @@ public readonly kmsKeyArn: string;
 
 The ARN of the KMS key for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#kms_key_arn MskChannel#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#kms_key_arn MskChannel#kms_key_arn}
 
 ---
 
@@ -1293,7 +1293,7 @@ public readonly appendOnly: boolean | IResolvable;
 
 Append only mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#append_only MskChannel#append_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#append_only MskChannel#append_only}
 
 ---
 
@@ -1307,7 +1307,7 @@ public readonly catalog: MskChannelIcebergDestinationConfigurationCatalog;
 
 Catalog configuration of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#catalog MskChannel#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#catalog MskChannel#catalog}
 
 ---
 
@@ -1321,7 +1321,7 @@ public readonly compressionType: string;
 
 Compression codec for Iceberg table data files. Defaults to ZSTD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#compression_type MskChannel#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#compression_type MskChannel#compression_type}
 
 ---
 
@@ -1335,7 +1335,7 @@ public readonly dataFreshnessInSeconds: number;
 
 Data freshness in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#data_freshness_in_seconds MskChannel#data_freshness_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#data_freshness_in_seconds MskChannel#data_freshness_in_seconds}
 
 ---
 
@@ -1349,7 +1349,7 @@ public readonly deadLetterQueueS3: MskChannelIcebergDestinationConfigurationDead
 
 Dead letter queue S3 configuration of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#dead_letter_queue_s3 MskChannel#dead_letter_queue_s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#dead_letter_queue_s3 MskChannel#dead_letter_queue_s3}
 
 ---
 
@@ -1363,7 +1363,7 @@ public readonly destinationTableList: IResolvable | MskChannelIcebergDestination
 
 List of destination tables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#destination_table_list MskChannel#destination_table_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#destination_table_list MskChannel#destination_table_list}
 
 ---
 
@@ -1377,7 +1377,7 @@ public readonly schemaEvolution: MskChannelIcebergDestinationConfigurationSchema
 
 Schema evolution configuration of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#schema_evolution MskChannel#schema_evolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#schema_evolution MskChannel#schema_evolution}
 
 ---
 
@@ -1391,7 +1391,7 @@ public readonly serviceExecutionRoleArn: string;
 
 The Amazon Resource Name (ARN) of an IAM role used by MSK to access the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#service_execution_role_arn MskChannel#service_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#service_execution_role_arn MskChannel#service_execution_role_arn}
 
 ---
 
@@ -1405,7 +1405,7 @@ public readonly tableCreation: MskChannelIcebergDestinationConfigurationTableCre
 
 Table creation configuration of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#table_creation MskChannel#table_creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#table_creation MskChannel#table_creation}
 
 ---
 
@@ -1438,7 +1438,7 @@ public readonly catalogArn: string;
 
 The ARN of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}
 
 ---
 
@@ -1452,7 +1452,7 @@ public readonly warehouseLocation: string;
 
 The warehouse location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}
 
 ---
 
@@ -1486,7 +1486,7 @@ public readonly bucketArn: string;
 
 The ARN of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#bucket_arn MskChannel#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#bucket_arn MskChannel#bucket_arn}
 
 ---
 
@@ -1500,7 +1500,7 @@ public readonly errorOutputPrefix: string;
 
 The error output prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#error_output_prefix MskChannel#error_output_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#error_output_prefix MskChannel#error_output_prefix}
 
 ---
 
@@ -1514,7 +1514,7 @@ public readonly expectedBucketOwner: string;
 
 Optional 12-digit AWS account ID expected to own the dead-letter S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#expected_bucket_owner MskChannel#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#expected_bucket_owner MskChannel#expected_bucket_owner}
 
 ---
 
@@ -1547,7 +1547,7 @@ public readonly partitionStrategy: string;
 
 Partition strategy for MSK channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#partition_strategy MskChannel#partition_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#partition_strategy MskChannel#partition_strategy}
 
 ---
 
@@ -1561,7 +1561,7 @@ public readonly sourceList: IResolvable | MskChannelIcebergDestinationConfigurat
 
 Source list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#source_list MskChannel#source_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#source_list MskChannel#source_list}
 
 ---
 
@@ -1593,7 +1593,7 @@ public readonly sourceName: string;
 
 Source name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#source_name MskChannel#source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#source_name MskChannel#source_name}
 
 ---
 
@@ -1627,7 +1627,7 @@ public readonly destinationDatabaseName: string;
 
 The destination database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#destination_database_name MskChannel#destination_database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#destination_database_name MskChannel#destination_database_name}
 
 ---
 
@@ -1641,7 +1641,7 @@ public readonly destinationTableName: string;
 
 The destination table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#destination_table_name MskChannel#destination_table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#destination_table_name MskChannel#destination_table_name}
 
 ---
 
@@ -1655,7 +1655,7 @@ public readonly partitionSpec: MskChannelIcebergDestinationConfigurationDestinat
 
 Partition specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#partition_spec MskChannel#partition_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#partition_spec MskChannel#partition_spec}
 
 ---
 
@@ -1687,7 +1687,7 @@ public readonly enableSchemaEvolution: boolean | IResolvable;
 
 Whether schema evolution is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#enable_schema_evolution MskChannel#enable_schema_evolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enable_schema_evolution MskChannel#enable_schema_evolution}
 
 ---
 
@@ -1719,7 +1719,7 @@ public readonly enableTableCreation: boolean | IResolvable;
 
 Whether table creation is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}
 
 ---
 
@@ -1753,7 +1753,7 @@ public readonly cloudwatchLogs: MskChannelLoggingInfoCloudwatchLogs;
 
 CloudWatch Logs log destination details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#cloudwatch_logs MskChannel#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#cloudwatch_logs MskChannel#cloudwatch_logs}
 
 ---
 
@@ -1767,7 +1767,7 @@ public readonly firehose: MskChannelLoggingInfoFirehose;
 
 Firehose log destination details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#firehose MskChannel#firehose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#firehose MskChannel#firehose}
 
 ---
 
@@ -1781,7 +1781,7 @@ public readonly s3: MskChannelLoggingInfoS3;
 
 S3 log destination details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#s3 MskChannel#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#s3 MskChannel#s3}
 
 ---
 
@@ -1814,7 +1814,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether CloudWatch Logs logging is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#enabled MskChannel#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enabled MskChannel#enabled}
 
 ---
 
@@ -1828,7 +1828,7 @@ public readonly logGroup: string;
 
 The CloudWatch log group for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#log_group MskChannel#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#log_group MskChannel#log_group}
 
 ---
 
@@ -1861,7 +1861,7 @@ public readonly deliveryStream: string;
 
 The Firehose delivery stream for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#delivery_stream MskChannel#delivery_stream}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#delivery_stream MskChannel#delivery_stream}
 
 ---
 
@@ -1875,7 +1875,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether Firehose logging is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#enabled MskChannel#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enabled MskChannel#enabled}
 
 ---
 
@@ -1909,7 +1909,7 @@ public readonly bucket: string;
 
 The name of the S3 bucket for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#bucket MskChannel#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#bucket MskChannel#bucket}
 
 ---
 
@@ -1923,7 +1923,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether S3 logging is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#enabled MskChannel#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enabled MskChannel#enabled}
 
 ---
 
@@ -1937,7 +1937,7 @@ public readonly prefix: string;
 
 The S3 prefix for log delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#prefix MskChannel#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#prefix MskChannel#prefix}
 
 ---
 
@@ -1972,7 +1972,7 @@ public readonly dataFreshnessInSeconds: number;
 
 Data freshness in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#data_freshness_in_seconds MskChannel#data_freshness_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#data_freshness_in_seconds MskChannel#data_freshness_in_seconds}
 
 ---
 
@@ -1986,7 +1986,7 @@ public readonly deadLetterQueueS3: MskChannelS3DestinationConfigurationDeadLette
 
 Dead letter queue S3 configuration of the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#dead_letter_queue_s3 MskChannel#dead_letter_queue_s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#dead_letter_queue_s3 MskChannel#dead_letter_queue_s3}
 
 ---
 
@@ -2000,7 +2000,7 @@ public readonly serviceExecutionRoleArn: string;
 
 The Amazon Resource Name (ARN) of an IAM role used by MSK to access S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#service_execution_role_arn MskChannel#service_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#service_execution_role_arn MskChannel#service_execution_role_arn}
 
 ---
 
@@ -2014,7 +2014,7 @@ public readonly storage: MskChannelS3DestinationConfigurationStorage;
 
 S3 storage configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#storage MskChannel#storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#storage MskChannel#storage}
 
 ---
 
@@ -2048,7 +2048,7 @@ public readonly bucketArn: string;
 
 The ARN of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#bucket_arn MskChannel#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#bucket_arn MskChannel#bucket_arn}
 
 ---
 
@@ -2062,7 +2062,7 @@ public readonly errorOutputPrefix: string;
 
 The error output prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#error_output_prefix MskChannel#error_output_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#error_output_prefix MskChannel#error_output_prefix}
 
 ---
 
@@ -2076,7 +2076,7 @@ public readonly expectedBucketOwner: string;
 
 Optional 12-digit AWS account ID expected to own the dead-letter S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#expected_bucket_owner MskChannel#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#expected_bucket_owner MskChannel#expected_bucket_owner}
 
 ---
 
@@ -2113,7 +2113,7 @@ public readonly bucketArn: string;
 
 ARN of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#bucket_arn MskChannel#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#bucket_arn MskChannel#bucket_arn}
 
 ---
 
@@ -2127,7 +2127,7 @@ public readonly compressionType: string;
 
 S3 compression type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#compression_type MskChannel#compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#compression_type MskChannel#compression_type}
 
 ---
 
@@ -2141,7 +2141,7 @@ public readonly expectedBucketOwner: string;
 
 Optional 12-digit AWS account ID expected to own the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#expected_bucket_owner MskChannel#expected_bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#expected_bucket_owner MskChannel#expected_bucket_owner}
 
 ---
 
@@ -2155,7 +2155,7 @@ public readonly outputKeyTemplate: string;
 
 Template for S3 key for output objects, used for partitioning.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#output_key_template MskChannel#output_key_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#output_key_template MskChannel#output_key_template}
 
 ---
 
@@ -2169,7 +2169,7 @@ public readonly outputPrefix: string;
 
 Optional prefix for output objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#output_prefix MskChannel#output_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#output_prefix MskChannel#output_prefix}
 
 ---
 
@@ -2183,7 +2183,7 @@ public readonly storageClass: string;
 
 S3 storage class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#storage_class MskChannel#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#storage_class MskChannel#storage_class}
 
 ---
 
@@ -2226,7 +2226,7 @@ public readonly valueConverter: string;
 
 Value converter for topic data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#value_converter MskChannel#value_converter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#value_converter MskChannel#value_converter}
 
 ---
 
@@ -2258,7 +2258,7 @@ public readonly gsrArn: string;
 
 ARN of Glue Schema Registry resource used for table schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}
 
 ---
 
@@ -2292,7 +2292,7 @@ public readonly recordConverter: MskChannelTopicConfigurationListRecordConverter
 
 Record converter configuration for a topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#record_converter MskChannel#record_converter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#record_converter MskChannel#record_converter}
 
 ---
 
@@ -2306,7 +2306,7 @@ public readonly topicArn: string;
 
 The Amazon Resource Name (ARN) that uniquely identifies the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#topic_arn MskChannel#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#topic_arn MskChannel#topic_arn}
 
 ---
 
@@ -2320,7 +2320,7 @@ public readonly recordSchema: MskChannelTopicConfigurationListRecordSchema;
 
 Record schema configuration for a topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/msk_channel#record_schema MskChannel#record_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#record_schema MskChannel#record_schema}
 
 ---
 

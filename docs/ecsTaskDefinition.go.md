@@ -4,7 +4,7 @@
 
 ### EcsTaskDefinition <a name="EcsTaskDefinition" id="@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition awscc_ecs_task_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition awscc_ecs_task_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinition.Initializer"></a>
 
@@ -719,7 +719,7 @@ The construct id used in the generated config for the EcsTaskDefinition to impor
 
 The id of the existing EcsTaskDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1385,7 +1385,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecstaskdefinition"
 | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.ephemeralStorage">EphemeralStorage</a></code> | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionEphemeralStorage">EcsTaskDefinitionEphemeralStorage</a></code> | The ephemeral storage settings to use for tasks run with the task definition. |
 | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>*string</code> | The Amazon Resource Name (ARN) of the task execution role that grants the Amazon ECS container agent permission to make AWS API calls on your behalf. |
 | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.family">Family</a></code> | <code>*string</code> | The name of a family that this task definition is registered to. |
-| <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.inferenceAccelerators">InferenceAccelerators</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#inference_accelerators EcsTaskDefinition#inference_accelerators}. |
+| <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.inferenceAccelerators">InferenceAccelerators</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#inference_accelerators EcsTaskDefinition#inference_accelerators}. |
 | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.ipcMode">IpcMode</a></code> | <code>*string</code> | The IPC resource namespace to use for the containers in the task. |
 | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.memory">Memory</a></code> | <code>*string</code> | The amount (in MiB) of memory used by the task. |
 | <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionConfig.property.networkMode">NetworkMode</a></code> | <code>*string</code> | The Docker networking mode to use for the containers in the task. |
@@ -1482,7 +1482,7 @@ A list of container definitions in JSON format that describe the different conta
 
 For more information about container definition parameters and defaults, see [Amazon ECS Task Definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_defintions.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_definitions EcsTaskDefinition#container_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_definitions EcsTaskDefinition#container_definitions}
 
 ---
 
@@ -1500,7 +1500,7 @@ If you use the EC2 launch type, this field is optional. Any value can be used. I
 If you're using the EC2 launch type or the external launch type, this field is optional. Supported values are between `128` CPU units (`0.125` vCPUs) and `196608` CPU units (`192` vCPUs).
 This field is required for Fargate. For information about the valid values, see [Task size](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html#task_size) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#cpu EcsTaskDefinition#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#cpu EcsTaskDefinition#cpu}
 
 ---
 
@@ -1516,7 +1516,7 @@ Enables fault injection and allows for fault injection requests to be accepted f
 
 The default value is `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#enable_fault_injection EcsTaskDefinition#enable_fault_injection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#enable_fault_injection EcsTaskDefinition#enable_fault_injection}
 
 ---
 
@@ -1530,7 +1530,7 @@ EphemeralStorage EcsTaskDefinitionEphemeralStorage
 
 The ephemeral storage settings to use for tasks run with the task definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#ephemeral_storage EcsTaskDefinition#ephemeral_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#ephemeral_storage EcsTaskDefinition#ephemeral_storage}
 
 ---
 
@@ -1546,7 +1546,7 @@ The Amazon Resource Name (ARN) of the task execution role that grants the Amazon
 
 For informationabout the required IAM roles for Amazon ECS, see [IAM roles for Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/security-ecs-iam-role-overview.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#execution_role_arn EcsTaskDefinition#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#execution_role_arn EcsTaskDefinition#execution_role_arn}
 
 ---
 
@@ -1564,7 +1564,7 @@ Up to 255 letters (uppercase and lowercase), numbers, hyphens, and underscores a
 A family groups multiple versions of a task definition. Amazon ECS gives the first task definition that you registered to a family a revision number of 1. Amazon ECS gives sequential revision numbers to each task definition that you add.
 To use revision numbers when you update a task definition, specify this property. If you don't specify a value, CFNlong generates a new task definition each time that you update it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#family EcsTaskDefinition#family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#family EcsTaskDefinition#family}
 
 ---
 
@@ -1576,7 +1576,7 @@ InferenceAccelerators interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#inference_accelerators EcsTaskDefinition#inference_accelerators}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#inference_accelerators EcsTaskDefinition#inference_accelerators}.
 
 ---
 
@@ -1599,7 +1599,7 @@ If you are setting namespaced kernel parameters using `systemControls` for the c
 
 This parameter is not supported for Windows containers or tasks run on FARGATElong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#ipc_mode EcsTaskDefinition#ipc_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#ipc_mode EcsTaskDefinition#ipc_mode}
 
 ---
 
@@ -1626,7 +1626,7 @@ If your tasks runs on FARGATElong, this field is required. You must use one of t
 * Between 32GB and 120 GB in 8 GB increments - Available `cpu` values: 16384 (16 vCPU)
   This option requires Linux platform `1.4.0` or later.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#memory EcsTaskDefinition#memory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#memory EcsTaskDefinition#memory}
 
 ---
 
@@ -1647,7 +1647,7 @@ When using the `host` network mode, you should not run containers using the root
 If the network mode is `awsvpc`, the task is allocated an elastic network interface, and you must specify a [NetworkConfiguration](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_NetworkConfiguration.html) value when you create a service or run a task with the task definition. For more information, see [Task Networking](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-networking.html) in the *Amazon Elastic Container Service Developer Guide*.
 If the network mode is `host`, you cannot run multiple instantiations of the same task on a single container instance when port mappings are used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#network_mode EcsTaskDefinition#network_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#network_mode EcsTaskDefinition#network_mode}
 
 ---
 
@@ -1669,7 +1669,7 @@ If the `host` PID mode is used, there's a heightened risk of undesired process n
 This parameter is not supported for Windows containers.
 This parameter is only supported for tasks that are hosted on FARGATElong if the tasks are using platform version `1.4.0` or later (Linux). This isn't supported for Windows containers on Fargate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#pid_mode EcsTaskDefinition#pid_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#pid_mode EcsTaskDefinition#pid_mode}
 
 ---
 
@@ -1685,7 +1685,7 @@ An array of placement constraint objects to use for tasks.
 
 This parameter isn't supported for tasks run on FARGATElong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#placement_constraints EcsTaskDefinition#placement_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#placement_constraints EcsTaskDefinition#placement_constraints}
 
 ---
 
@@ -1701,7 +1701,7 @@ The configuration details for the App Mesh proxy.
 
 Your Amazon ECS container instances require at least version 1.26.0 of the container agent and at least version 1.26.0-1 of the `ecs-init` package to use a proxy configuration. If your container instances are launched from the Amazon ECS optimized AMI version `20190301` or later, they contain the required versions of the container agent and `ecs-init`. For more information, see [Amazon ECS-optimized Linux AMI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#proxy_configuration EcsTaskDefinition#proxy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#proxy_configuration EcsTaskDefinition#proxy_configuration}
 
 ---
 
@@ -1717,7 +1717,7 @@ The task launch types the task definition was validated against.
 
 The valid values are `MANAGED_INSTANCES`, `EC2`, `FARGATE`, and `EXTERNAL`. For more information, see [Amazon ECS launch types](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#requires_compatibilities EcsTaskDefinition#requires_compatibilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#requires_compatibilities EcsTaskDefinition#requires_compatibilities}
 
 ---
 
@@ -1731,7 +1731,7 @@ RuntimePlatform EcsTaskDefinitionRuntimePlatform
 
 The operating system that your tasks definitions run on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#runtime_platform EcsTaskDefinition#runtime_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#runtime_platform EcsTaskDefinition#runtime_platform}
 
 ---
 
@@ -1770,7 +1770,7 @@ For more information, see [Amazon ECS Task Role](https://docs.aws.amazon.com/Ama
 IAM roles for tasks on Windows require that the `-EnableTaskIAMRole` option is set when you launch the Amazon ECS-optimized Windows AMI. Your containers must also run some configuration code to use the feature. For more information, see [Windows IAM roles for tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/windows_task_IAM_roles.html) in the *Amazon Elastic Container Service Developer Guide*.
 String validation is done on the ECS side. If an invalid string value is given for `TaskRoleArn`, it may cause the Cloudformation job to hang.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#task_role_arn EcsTaskDefinition#task_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#task_role_arn EcsTaskDefinition#task_role_arn}
 
 ---
 
@@ -1787,7 +1787,7 @@ The list of data volume definitions for the task.
 For more information, see [Using data volumes in tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_data_volumes.html) in the *Amazon Elastic Container Service Developer Guide*.
 The `host` and `sourcePath` parameters aren't supported for tasks run on FARGATElong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#volumes EcsTaskDefinition#volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#volumes EcsTaskDefinition#volumes}
 
 ---
 
@@ -1905,7 +1905,7 @@ The command that's passed to the container.
 
 This parameter maps to `Cmd` in the docker container create command and the `COMMAND` parameter to docker run. If there are multiple arguments, each argument is a separated string in the array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#command EcsTaskDefinition#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#command EcsTaskDefinition#command}
 
 ---
 
@@ -1931,7 +1931,7 @@ On Linux container instances, the Docker daemon on the container instance uses t
 
 On Windows container instances, the CPU limit is enforced as an absolute limit, or a quota. Windows containers only have access to the specified amount of CPU that's described in the task definition. A null or zero CPU value is passed to Docker as `0`, which Windows interprets as 1% of one CPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#cpu EcsTaskDefinition#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#cpu EcsTaskDefinition#cpu}
 
 ---
 
@@ -1952,7 +1952,7 @@ There are two formats for each ARN.
   In both formats, replace `MyARN` with the ARN in SSM or Amazon S3.
   If you provide a `credentialspecdomainless:MyARN`, the `credspec` must provide a ARN in ASMlong for a secret containing the username, password, and the domain to connect to. For better security, the instance isn't joined to the domain for domainless authentication. Other applications on the instance can't use the domainless credentials. You can use this parameter to run tasks on the same instance, even it the tasks need to join different domains. For more information, see [Using gMSAs for Windows Containers](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/windows-gmsa.html) and [Using gMSAs for Linux Containers](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/linux-gmsa.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#credential_specs EcsTaskDefinition#credential_specs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#credential_specs EcsTaskDefinition#credential_specs}
 
 ---
 
@@ -1975,7 +1975,7 @@ For tasks using the Fargate launch type, the task or service requires the follow
 
 If the task definition is used in a blue/green deployment that uses [AWS::CodeDeploy::DeploymentGroup BlueGreenDeploymentConfiguration](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-codedeploy-deploymentgroup-bluegreendeploymentconfiguration.html), the `dependsOn` parameter is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#depends_on EcsTaskDefinition#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#depends_on EcsTaskDefinition#depends_on}
 
 ---
 
@@ -1992,7 +1992,7 @@ When this parameter is true, networking is off within the container.
 This parameter maps to `NetworkDisabled` in the docker container create command.
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#disable_networking EcsTaskDefinition#disable_networking}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#disable_networking EcsTaskDefinition#disable_networking}
 
 ---
 
@@ -2009,7 +2009,7 @@ A list of DNS search domains that are presented to the container.
 This parameter maps to `DnsSearch` in the docker container create command and the `--dns-search` option to docker run.
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#dns_search_domains EcsTaskDefinition#dns_search_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#dns_search_domains EcsTaskDefinition#dns_search_domains}
 
 ---
 
@@ -2026,7 +2026,7 @@ A list of DNS servers that are presented to the container.
 This parameter maps to `Dns` in the docker container create command and the `--dns` option to docker run.
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#dns_servers EcsTaskDefinition#dns_servers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#dns_servers EcsTaskDefinition#dns_servers}
 
 ---
 
@@ -2042,7 +2042,7 @@ A key/value map of labels to add to the container.
 
 This parameter maps to `Labels` in the docker container create command and the `--label` option to docker run. This parameter requires version 1.18 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: `sudo docker version --format '{{.Server.APIVersion}}'`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#docker_labels EcsTaskDefinition#docker_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#docker_labels EcsTaskDefinition#docker_labels}
 
 ---
 
@@ -2063,7 +2063,7 @@ This parameter maps to `SecurityOpt` in the docker container create command and 
 The Amazon ECS container agent running on a container instance must register with the `ECS_SELINUX_CAPABLE=true` or `ECS_APPARMOR_CAPABLE=true` environment variables before containers placed on that instance can use these security options. For more information, see [Amazon ECS Container Agent Configuration](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html) in the *Amazon Elastic Container Service Developer Guide*.
 Valid values: "no-new-privileges" | "apparmor:PROFILE" | "label:value" | "credentialspec:CredentialSpecFilePath"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#docker_security_options EcsTaskDefinition#docker_security_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#docker_security_options EcsTaskDefinition#docker_security_options}
 
 ---
 
@@ -2080,7 +2080,7 @@ Early versions of the Amazon ECS container agent don't properly handle ``entryPo
 If you have problems using `entryPoint`, update your container agent or enter your commands and arguments as `command` array items instead.
 The entry point that's passed to the container. This parameter maps to `Entrypoint` in the docker container create command and the `--entrypoint` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#entry_point EcsTaskDefinition#entry_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#entry_point EcsTaskDefinition#entry_point}
 
 ---
 
@@ -2097,7 +2097,7 @@ The environment variables to pass to a container.
 This parameter maps to `Env` in the docker container create command and the `--env` option to docker run.
 We don't recommend that you use plaintext environment variables for sensitive information, such as credential data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#environment EcsTaskDefinition#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#environment EcsTaskDefinition#environment}
 
 ---
 
@@ -2115,7 +2115,7 @@ This parameter maps to the `--env-file` option to docker run.
 You can specify up to ten environment files. The file must have a `.env` file extension. Each line in an environment file contains an environment variable in `VARIABLE=VALUE` format. Lines beginning with `#` are treated as comments and are ignored.
 If there are environment variables specified using the `environment` parameter in a container definition, they take precedence over the variables contained within an environment file. If multiple environment files are specified that contain the same variable, they're processed from the top down. We recommend that you use unique variable names. For more information, see [Specifying Environment Variables](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/taskdef-envfiles.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#environment_files EcsTaskDefinition#environment_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#environment_files EcsTaskDefinition#environment_files}
 
 ---
 
@@ -2132,7 +2132,7 @@ If the ``essential`` parameter of a container is marked as ``true``, and that co
 If the `essential` parameter of a container is marked as `false`, its failure doesn't affect the rest of the containers in a task. If this parameter is omitted, a container is assumed to be essential.
 All tasks must have at least one essential container. If you have an application that's composed of multiple containers, group containers that are used for a common purpose into components, and separate the different components into multiple task definitions. For more information, see [Application Architecture](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/application_architecture.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#essential EcsTaskDefinition#essential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#essential EcsTaskDefinition#essential}
 
 ---
 
@@ -2149,7 +2149,7 @@ A list of hostnames and IP address mappings to append to the ``/etc/hosts`` file
 This parameter maps to `ExtraHosts` in the docker container create command and the `--add-host` option to docker run.
 This parameter isn't supported for Windows containers or tasks that use the `awsvpc` network mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#extra_hosts EcsTaskDefinition#extra_hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#extra_hosts EcsTaskDefinition#extra_hosts}
 
 ---
 
@@ -2165,7 +2165,7 @@ The FireLens configuration for the container.
 
 This is used to specify and configure a log router for container logs. For more information, see [Custom Log Routing](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_firelens.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#firelens_configuration EcsTaskDefinition#firelens_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#firelens_configuration EcsTaskDefinition#firelens_configuration}
 
 ---
 
@@ -2181,7 +2181,7 @@ The container health check command and associated configuration parameters for t
 
 This parameter maps to `HealthCheck` in the docker container create command and the `HEALTHCHECK` parameter of docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#health_check EcsTaskDefinition#health_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#health_check EcsTaskDefinition#health_check}
 
 ---
 
@@ -2198,7 +2198,7 @@ The hostname to use for your container.
 This parameter maps to `Hostname` in the docker container create command and the `--hostname` option to docker run.
 The `hostname` parameter is not supported if you're using the `awsvpc` network mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#hostname EcsTaskDefinition#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#hostname EcsTaskDefinition#hostname}
 
 ---
 
@@ -2220,7 +2220,7 @@ This string is passed directly to the Docker daemon. By default, images in the D
 * Images in other repositories on Docker Hub are qualified with an organization name (for example, `amazon/amazon-ecs-agent`).
 * Images in other online repositories are qualified further by a domain name (for example, `quay.io/assemblyline/ubuntu`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#image EcsTaskDefinition#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#image EcsTaskDefinition#image}
 
 ---
 
@@ -2236,7 +2236,7 @@ When this parameter is ``true``, you can deploy containerized applications that 
 
 This parameter maps to `OpenStdin` in the docker container create command and the `--interactive` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#interactive EcsTaskDefinition#interactive}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#interactive EcsTaskDefinition#interactive}
 
 ---
 
@@ -2254,7 +2254,7 @@ This parameter is only supported if the network mode of a task definition is `br
 This parameter is not supported for Windows containers.
 Containers that are collocated on a single container instance may be able to communicate with each other without requiring links or host port mappings. Network isolation is achieved on the container instance using security groups and VPC settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#links EcsTaskDefinition#links}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#links EcsTaskDefinition#links}
 
 ---
 
@@ -2271,7 +2271,7 @@ Linux-specific modifications that are applied to the container, such as Linux ke
 For more information see [KernelCapabilities](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_KernelCapabilities.html).
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#linux_parameters EcsTaskDefinition#linux_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#linux_parameters EcsTaskDefinition#linux_parameters}
 
 ---
 
@@ -2290,7 +2290,7 @@ Amazon ECS currently supports a subset of the logging drivers available to the D
 This parameter requires version 1.18 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: `sudo docker version --format '{{.Server.APIVersion}}'`
 The Amazon ECS container agent running on a container instance must register the logging drivers available on that instance with the `ECS_AVAILABLE_LOGGING_DRIVERS` environment variable before containers placed on that instance can use these log configuration options. For more information, see [Container Agent Configuration](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#log_configuration EcsTaskDefinition#log_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#log_configuration EcsTaskDefinition#log_configuration}
 
 ---
 
@@ -2310,7 +2310,7 @@ If using the EC2 launch type, you must specify either a task-level memory value 
 The Docker 20.10.0 or later daemon reserves a minimum of 6 MiB of memory for a container, so you should not specify fewer than 6 MiB of memory for your containers.
 The Docker 19.03.13-ce or earlier daemon reserves a minimum of 4 MiB of memory for a container, so you should not specify fewer than 4 MiB of memory for your containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#memory EcsTaskDefinition#memory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#memory EcsTaskDefinition#memory}
 
 ---
 
@@ -2330,7 +2330,7 @@ For example, if your container normally uses 128 MiB of memory, but occasionally
 The Docker 20.10.0 or later daemon reserves a minimum of 6 MiB of memory for a container. So, don't specify less than 6 MiB of memory for your containers.
 The Docker 19.03.13-ce or earlier daemon reserves a minimum of 4 MiB of memory for a container. So, don't specify less than 4 MiB of memory for your containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#memory_reservation EcsTaskDefinition#memory_reservation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#memory_reservation EcsTaskDefinition#memory_reservation}
 
 ---
 
@@ -2347,7 +2347,7 @@ The mount points for data volumes in your container.
 This parameter maps to `Volumes` in the docker container create command and the `--volume` option to docker run.
 Windows containers can mount whole directories on the same drive as `$env:ProgramData`. Windows containers can't mount directories on a different drive, and mount point can't be across drives.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#mount_points EcsTaskDefinition#mount_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#mount_points EcsTaskDefinition#mount_points}
 
 ---
 
@@ -2363,7 +2363,7 @@ The name of a container.
 
 If you're linking multiple containers together in a task definition, the `name` of one container can be entered in the `links` of another container to connect the containers. Up to 255 letters (uppercase and lowercase), numbers, underscores, and hyphens are allowed. This parameter maps to `name` in the docker container create command and the `--name` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -2383,7 +2383,7 @@ Port mappings on Windows use the `NetNAT` gateway address rather than `localhost
 This parameter maps to `PortBindings` in the [Create a container](https://docs.aws.amazon.com/https://docs.docker.com/engine/api/v1.35/#operation/ContainerCreate) section of the [Docker Remote API](https://docs.aws.amazon.com/https://docs.docker.com/engine/api/v1.35/) and the `--publish` option to [docker run](https://docs.aws.amazon.com/https://docs.docker.com/engine/reference/run/). If the network mode of a task definition is set to `none`, then you can't specify port mappings. If the network mode of a task definition is set to `host`, then host ports must either be undefined or they must match the container port in the port mapping.
 After a task reaches the `RUNNING` status, manual and automatic host and container port assignments are visible in the *Network Bindings* section of a container description for a selected task in the Amazon ECS console. The assignments are also visible in the `networkBindings` section [DescribeTasks](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DescribeTasks.html) responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#port_mappings EcsTaskDefinition#port_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#port_mappings EcsTaskDefinition#port_mappings}
 
 ---
 
@@ -2400,7 +2400,7 @@ When this parameter is true, the container is given elevated privileges on the h
 This parameter maps to `Privileged` in the docker container create command and the `--privileged` option to docker run
 This parameter is not supported for Windows containers or tasks run on FARGATElong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#privileged EcsTaskDefinition#privileged}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#privileged EcsTaskDefinition#privileged}
 
 ---
 
@@ -2416,7 +2416,7 @@ When this parameter is ``true``, a TTY is allocated.
 
 This parameter maps to `Tty` in the docker container create command and the `--tty` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#pseudo_terminal EcsTaskDefinition#pseudo_terminal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#pseudo_terminal EcsTaskDefinition#pseudo_terminal}
 
 ---
 
@@ -2433,7 +2433,7 @@ When this parameter is true, the container is given read-only access to its root
 This parameter maps to `ReadonlyRootfs` in the docker container create command and the `--read-only` option to docker run.
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#readonly_root_filesystem EcsTaskDefinition#readonly_root_filesystem}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#readonly_root_filesystem EcsTaskDefinition#readonly_root_filesystem}
 
 ---
 
@@ -2447,7 +2447,7 @@ RepositoryCredentials EcsTaskDefinitionContainerDefinitionsRepositoryCredentials
 
 The private repository authentication credentials to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#repository_credentials EcsTaskDefinition#repository_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#repository_credentials EcsTaskDefinition#repository_credentials}
 
 ---
 
@@ -2463,7 +2463,7 @@ The type and amount of a resource to assign to a container.
 
 The supported resources are GPUs and Neuron devices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#resource_requirements EcsTaskDefinition#resource_requirements}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#resource_requirements EcsTaskDefinition#resource_requirements}
 
 ---
 
@@ -2479,7 +2479,7 @@ The restart policy for a container.
 
 When you set up a restart policy, Amazon ECS can restart the container without needing to replace the task. For more information, see [Restart individual containers in Amazon ECS tasks with container restart policies](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/container-restart-policy.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#restart_policy EcsTaskDefinition#restart_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#restart_policy EcsTaskDefinition#restart_policy}
 
 ---
 
@@ -2495,7 +2495,7 @@ The secrets to pass to the container.
 
 For more information, see [Specifying Sensitive Data](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#secrets EcsTaskDefinition#secrets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#secrets EcsTaskDefinition#secrets}
 
 ---
 
@@ -2519,7 +2519,7 @@ For tasks using the Fargate launch type, the task or service requires the follow
 For tasks using the EC2 launch type, your container instances require at least version `1.26.0` of the container agent to use a container start timeout value. However, we recommend using the latest container agent version. For information about checking your agent version and updating to the latest version, see [Updating the Amazon ECS Container Agent](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-update.html) in the *Amazon Elastic Container Service Developer Guide*. If you're using an Amazon ECS-optimized Linux AMI, your instance needs at least version `1.26.0-1` of the `ecs-init` package. If your container instances are launched from version `20190301` or later, then they contain the required versions of the container agent and `ecs-init`. For more information, see [Amazon ECS-optimized Linux AMI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) in the *Amazon Elastic Container Service Developer Guide*.
 The valid values for Fargate are 2-120 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#start_timeout EcsTaskDefinition#start_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#start_timeout EcsTaskDefinition#start_timeout}
 
 ---
 
@@ -2542,7 +2542,7 @@ For tasks that use the Fargate launch type, the max stop timeout value is 120 se
 For tasks that use the EC2 launch type, if the `stopTimeout` parameter isn't specified, the value set for the Amazon ECS container agent configuration variable `ECS_CONTAINER_STOP_TIMEOUT` is used. If neither the `stopTimeout` parameter or the `ECS_CONTAINER_STOP_TIMEOUT` agent configuration variable are set, then the default values of 30 seconds for Linux containers and 30 seconds on Windows containers are used. Your container instances require at least version 1.26.0 of the container agent to use a container stop timeout value. However, we recommend using the latest container agent version. For information about checking your agent version and updating to the latest version, see [Updating the Amazon ECS Container Agent](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-update.html) in the *Amazon Elastic Container Service Developer Guide*. If you're using an Amazon ECS-optimized Linux AMI, your instance needs at least version 1.26.0-1 of the `ecs-init` package. If your container instances are launched from version `20190301` or later, then they contain the required versions of the container agent and `ecs-init`. For more information, see [Amazon ECS-optimized Linux AMI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) in the *Amazon Elastic Container Service Developer Guide*.
 The valid values for Fargate are 2-120 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#stop_timeout EcsTaskDefinition#stop_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#stop_timeout EcsTaskDefinition#stop_timeout}
 
 ---
 
@@ -2558,7 +2558,7 @@ A list of namespaced kernel parameters to set in the container.
 
 This parameter maps to `Sysctls` in the docker container create command and the `--sysctl` option to docker run. For example, you can configure `net.ipv4.tcp_keepalive_time` setting to maintain longer lived connections.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#system_controls EcsTaskDefinition#system_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#system_controls EcsTaskDefinition#system_controls}
 
 ---
 
@@ -2575,7 +2575,7 @@ A list of ``ulimits`` to set in the container.
 This parameter maps to `Ulimits` in the [Create a container](https://docs.aws.amazon.com/https://docs.docker.com/engine/api/v1.35/#operation/ContainerCreate) section of the [Docker Remote API](https://docs.aws.amazon.com/https://docs.docker.com/engine/api/v1.35/) and the `--ulimit` option to [docker run](https://docs.aws.amazon.com/https://docs.docker.com/engine/reference/run/). Valid naming values are displayed in the [Ulimit](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_Ulimit.html) data type. This parameter requires version 1.18 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: `sudo docker version --format '{{.Server.APIVersion}}'`
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#ulimits EcsTaskDefinition#ulimits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#ulimits EcsTaskDefinition#ulimits}
 
 ---
 
@@ -2602,7 +2602,7 @@ You can specify the `user` using the following formats. If specifying a UID or G
 
 This parameter is not supported for Windows containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#user EcsTaskDefinition#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#user EcsTaskDefinition#user}
 
 ---
 
@@ -2618,7 +2618,7 @@ Specifies whether Amazon ECS will resolve the container image tag provided in th
 
 By default, the value is `enabled`. If you set the value for a container as `disabled`, Amazon ECS will not resolve the provided container image tag to a digest and will use the original image URI specified in the container definition for deployment. For more information about container image resolution, see [Container image resolution](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html#deployment-container-image-stability) in the *Amazon ECS Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#version_consistency EcsTaskDefinition#version_consistency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#version_consistency EcsTaskDefinition#version_consistency}
 
 ---
 
@@ -2634,7 +2634,7 @@ Data volumes to mount from another container.
 
 This parameter maps to `VolumesFrom` in the docker container create command and the `--volumes-from` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#volumes_from EcsTaskDefinition#volumes_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#volumes_from EcsTaskDefinition#volumes_from}
 
 ---
 
@@ -2650,7 +2650,7 @@ The working directory to run commands inside the container in.
 
 This parameter maps to `WorkingDir` in the docker container create command and the `--workdir` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#working_directory EcsTaskDefinition#working_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#working_directory EcsTaskDefinition#working_directory}
 
 ---
 
@@ -2693,7 +2693,7 @@ The following are the available conditions and their behavior:
 * `SUCCESS` - This condition is the same as `COMPLETE`, but it also requires that the container exits with a `zero` status. This condition can't be set on an essential container.
 * `HEALTHY` - This condition validates that the dependent container passes its Docker health check before permitting other containers to start. This requires that the dependent container has health checks configured. This condition is confirmed only at task startup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#condition EcsTaskDefinition#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#condition EcsTaskDefinition#condition}
 
 ---
 
@@ -2707,7 +2707,7 @@ ContainerName *string
 
 The name of a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
 
 ---
 
@@ -2743,7 +2743,7 @@ Name *string
 
 The name of the key-value pair. For environment variables, this is the name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -2757,7 +2757,7 @@ Value *string
 
 The value of the key-value pair. For environment variables, this is the value of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 
 ---
 
@@ -2793,7 +2793,7 @@ Type *string
 
 The file type to use. Environment files are objects in Amazon S3. The only supported value is ``s3``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 
 ---
 
@@ -2807,7 +2807,7 @@ Value *string
 
 The Amazon Resource Name (ARN) of the Amazon S3 object containing the environment variable file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 
 ---
 
@@ -2843,7 +2843,7 @@ Hostname *string
 
 The hostname to use in the ``/etc/hosts`` entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#hostname EcsTaskDefinition#hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#hostname EcsTaskDefinition#hostname}
 
 ---
 
@@ -2857,7 +2857,7 @@ IpAddress *string
 
 The IP address to use in the ``/etc/hosts`` entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#ip_address EcsTaskDefinition#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#ip_address EcsTaskDefinition#ip_address}
 
 ---
 
@@ -2900,7 +2900,7 @@ If specified, valid option keys are:
 * `config-file-type`, which can be `s3` or `file`
 * `config-file-value`, which is either an S3 ARN or a file path
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
 
 ---
 
@@ -2914,7 +2914,7 @@ Type *string
 
 The log router to use. The valid values are ``fluentd`` or ``fluentbit``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 
 ---
 
@@ -2963,7 +2963,7 @@ You don't include the double quotes and brackets when you use the AWS Management
 `CMD-SHELL, curl -f http://localhost/ || exit 1`
 An exit code of 0 indicates success, and non-zero exit code indicates failure. For more information, see `HealthCheck` in the docker container create command.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#command EcsTaskDefinition#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#command EcsTaskDefinition#command}
 
 ---
 
@@ -2979,7 +2979,7 @@ The time period in seconds between each health check execution.
 
 You may specify between 5 and 300 seconds. The default value is 30 seconds. This value applies only when you specify a `command`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#interval EcsTaskDefinition#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#interval EcsTaskDefinition#interval}
 
 ---
 
@@ -2995,7 +2995,7 @@ The number of times to retry a failed health check before the container is consi
 
 You may specify between 1 and 10 retries. The default value is 3. This value applies only when you specify a `command`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#retries EcsTaskDefinition#retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#retries EcsTaskDefinition#retries}
 
 ---
 
@@ -3012,7 +3012,7 @@ The optional grace period to provide containers time to bootstrap before failed 
 You can specify between 0 and 300 seconds. By default, the `startPeriod` is off. This value applies only when you specify a `command`.
 If a health check succeeds within the `startPeriod`, then the container is considered healthy and any subsequent failures count toward the maximum number of retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#start_period EcsTaskDefinition#start_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#start_period EcsTaskDefinition#start_period}
 
 ---
 
@@ -3028,7 +3028,7 @@ The time period in seconds to wait for a health check to succeed before it is co
 
 You may specify between 2 and 60 seconds. The default value is 5. This value applies only when you specify a `command`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#timeout EcsTaskDefinition#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#timeout EcsTaskDefinition#timeout}
 
 ---
 
@@ -3076,7 +3076,7 @@ The Linux capabilities for the container that are added to or dropped from the d
 
 For tasks that use the Fargate launch type, `capabilities` is supported for all platform versions but the `add` parameter is only supported if using platform version 1.4.0 or later.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#capabilities EcsTaskDefinition#capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#capabilities EcsTaskDefinition#capabilities}
 
 ---
 
@@ -3093,7 +3093,7 @@ Any host devices to expose to the container.
 This parameter maps to `Devices` in the docker container create command and the `--device` option to docker run.
 If you're using tasks that use the Fargate launch type, the `devices` parameter isn't supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#devices EcsTaskDefinition#devices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#devices EcsTaskDefinition#devices}
 
 ---
 
@@ -3109,7 +3109,7 @@ Run an ``init`` process inside the container that forwards signals and reaps pro
 
 This parameter maps to the `--init` option to docker run. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: `sudo docker version --format '{{.Server.APIVersion}}'`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#init_process_enabled EcsTaskDefinition#init_process_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#init_process_enabled EcsTaskDefinition#init_process_enabled}
 
 ---
 
@@ -3128,7 +3128,7 @@ If a `maxSwap` value of `0` is specified, the container will not use swap. Accep
 If you're using tasks that use the Fargate launch type, the `maxSwap` parameter isn't supported.
 If you're using tasks on Amazon Linux 2023 the `swappiness` parameter isn't supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#max_swap EcsTaskDefinition#max_swap}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#max_swap EcsTaskDefinition#max_swap}
 
 ---
 
@@ -3145,7 +3145,7 @@ The value for the size (in MiB) of the ``/dev/shm`` volume.
 This parameter maps to the `--shm-size` option to docker run.
 If you are using tasks that use the Fargate launch type, the `sharedMemorySize` parameter is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#shared_memory_size EcsTaskDefinition#shared_memory_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#shared_memory_size EcsTaskDefinition#shared_memory_size}
 
 ---
 
@@ -3163,7 +3163,7 @@ A `swappiness` value of `0` will cause swapping to not happen unless absolutely 
 If you're using tasks that use the Fargate launch type, the `swappiness` parameter isn't supported.
 If you're using tasks on Amazon Linux 2023 the `swappiness` parameter isn't supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#swappiness EcsTaskDefinition#swappiness}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#swappiness EcsTaskDefinition#swappiness}
 
 ---
 
@@ -3179,7 +3179,7 @@ The container path, mount options, and size (in MiB) of the tmpfs mount.
 
 This parameter maps to the `--tmpfs` option to docker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#tmpfs EcsTaskDefinition#tmpfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#tmpfs EcsTaskDefinition#tmpfs}
 
 ---
 
@@ -3219,7 +3219,7 @@ This parameter maps to `CapAdd` in the docker container create command and the `
 Tasks launched on FARGATElong only support adding the `SYS_PTRACE` kernel capability.
 Valid values: `"ALL" | "AUDIT_CONTROL" | "AUDIT_WRITE" | "BLOCK_SUSPEND" | "CHOWN" | "DAC_OVERRIDE" | "DAC_READ_SEARCH" | "FOWNER" | "FSETID" | "IPC_LOCK" | "IPC_OWNER" | "KILL" | "LEASE" | "LINUX_IMMUTABLE" | "MAC_ADMIN" | "MAC_OVERRIDE" | "MKNOD" | "NET_ADMIN" | "NET_BIND_SERVICE" | "NET_BROADCAST" | "NET_RAW" | "SETFCAP" | "SETGID" | "SETPCAP" | "SETUID" | "SYS_ADMIN" | "SYS_BOOT" | "SYS_CHROOT" | "SYS_MODULE" | "SYS_NICE" | "SYS_PACCT" | "SYS_PTRACE" | "SYS_RAWIO" | "SYS_RESOURCE" | "SYS_TIME" | "SYS_TTY_CONFIG" | "SYSLOG" | "WAKE_ALARM"`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#add EcsTaskDefinition#add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#add EcsTaskDefinition#add}
 
 ---
 
@@ -3236,7 +3236,7 @@ The Linux capabilities for the container that have been removed from the default
 This parameter maps to `CapDrop` in the docker container create command and the `--cap-drop` option to docker run.
 Valid values: `"ALL" | "AUDIT_CONTROL" | "AUDIT_WRITE" | "BLOCK_SUSPEND" | "CHOWN" | "DAC_OVERRIDE" | "DAC_READ_SEARCH" | "FOWNER" | "FSETID" | "IPC_LOCK" | "IPC_OWNER" | "KILL" | "LEASE" | "LINUX_IMMUTABLE" | "MAC_ADMIN" | "MAC_OVERRIDE" | "MKNOD" | "NET_ADMIN" | "NET_BIND_SERVICE" | "NET_BROADCAST" | "NET_RAW" | "SETFCAP" | "SETGID" | "SETPCAP" | "SETUID" | "SYS_ADMIN" | "SYS_BOOT" | "SYS_CHROOT" | "SYS_MODULE" | "SYS_NICE" | "SYS_PACCT" | "SYS_PTRACE" | "SYS_RAWIO" | "SYS_RESOURCE" | "SYS_TIME" | "SYS_TTY_CONFIG" | "SYSLOG" | "WAKE_ALARM"`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#drop EcsTaskDefinition#drop}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#drop EcsTaskDefinition#drop}
 
 ---
 
@@ -3274,7 +3274,7 @@ ContainerPath *string
 
 The path inside the container at which to expose the host device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
 
 ---
 
@@ -3288,7 +3288,7 @@ HostPath *string
 
 The path for the device on the host container instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#host_path EcsTaskDefinition#host_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#host_path EcsTaskDefinition#host_path}
 
 ---
 
@@ -3304,7 +3304,7 @@ The explicit permissions to provide to the container for the device.
 
 By default, the container has permissions for `read`, `write`, and `mknod` for the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#permissions EcsTaskDefinition#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#permissions EcsTaskDefinition#permissions}
 
 ---
 
@@ -3342,7 +3342,7 @@ ContainerPath *string
 
 The absolute file path where the tmpfs volume is to be mounted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
 
 ---
 
@@ -3358,7 +3358,7 @@ The list of tmpfs volume mount options.
 
 Valid values: `"defaults" | "ro" | "rw" | "suid" | "nosuid" | "dev" | "nodev" | "exec" | "noexec" | "sync" | "async" | "dirsync" | "remount" | "mand" | "nomand" | "atime" | "noatime" | "diratime" | "nodiratime" | "bind" | "rbind" | "unbindable" | "runbindable" | "private" | "rprivate" | "shared" | "rshared" | "slave" | "rslave" | "relatime" | "norelatime" | "strictatime" | "nostrictatime" | "mode" | "uid" | "gid" | "nr_inodes" | "nr_blocks" | "mpol"`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#mount_options EcsTaskDefinition#mount_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#mount_options EcsTaskDefinition#mount_options}
 
 ---
 
@@ -3372,7 +3372,7 @@ Size *f64
 
 The maximum size (in MiB) of the tmpfs volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#size EcsTaskDefinition#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#size EcsTaskDefinition#size}
 
 ---
 
@@ -3416,7 +3416,7 @@ For more information about using the `awslogs` log driver, see [Send Amazon ECS 
 For more information about using the `awsfirelens` log driver, see [Send Amazon ECS logs to an service or Partner](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_firelens.html).
 If you have a custom driver that isn't listed, you can fork the Amazon ECS container agent project that's [available on GitHub](https://docs.aws.amazon.com/https://github.com/aws/amazon-ecs-agent) and customize it to work with that driver. We encourage you to submit pull requests for changes that you would like to have included. However, we don't currently provide support for running modified copies of this software.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#log_driver EcsTaskDefinition#log_driver}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#log_driver EcsTaskDefinition#log_driver}
 
 ---
 
@@ -3443,7 +3443,7 @@ The options you can specify depend on the log driver. Some of the options you ca
   When you export logs to Amazon S3, you can specify the bucket using the `bucket` option. You can also specify `region`, `total_file_size`, `upload_timeout`, and `use_put_object` as options.
   This parameter requires version 1.19 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: `sudo docker version --format '{{.Server.APIVersion}}'`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
 
 ---
 
@@ -3459,7 +3459,7 @@ The secrets to pass to the log configuration.
 
 For more information, see [Specifying sensitive data](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#secret_options EcsTaskDefinition#secret_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#secret_options EcsTaskDefinition#secret_options}
 
 ---
 
@@ -3495,7 +3495,7 @@ Name *string
 
 The name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -3513,7 +3513,7 @@ The supported values are either the full ARN of the ASMlong secret or the full A
 For information about the require IAMlong permissions, see [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-secrets.html#secrets-iam) (for Secrets Manager) or [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-parameters.html) (for Systems Manager Parameter store) in the *Amazon Elastic Container Service Developer Guide*.
 If the SSM Parameter Store parameter exists in the same Region as the task you're launching, then you can use either the full ARN or name of the parameter. If the parameter exists in a different Region, then the full ARN must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value_from EcsTaskDefinition#value_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value_from EcsTaskDefinition#value_from}
 
 ---
 
@@ -3551,7 +3551,7 @@ ContainerPath *string
 
 The path on the container to mount the host volume at.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
 
 ---
 
@@ -3567,7 +3567,7 @@ If this value is ``true``, the container has read-only access to the volume.
 
 If this value is `false`, then the container can write to the volume. The default value is `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#read_only EcsTaskDefinition#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#read_only EcsTaskDefinition#read_only}
 
 ---
 
@@ -3583,7 +3583,7 @@ The name of the volume to mount.
 
 Must be a volume name referenced in the `name` parameter of task definition `volume`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#source_volume EcsTaskDefinition#source_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#source_volume EcsTaskDefinition#source_volume}
 
 ---
 
@@ -3632,7 +3632,7 @@ If you don't set a value for this parameter, then TCP is used. However, Amazon E
 `appProtocol` is immutable in a Service Connect service. Updating this field requires a service deletion and redeployment.
 Tasks that run in a namespace can use short names to connect to services in the namespace. Tasks can connect to services across all of the clusters in the namespace. Tasks connect through a managed proxy container that collects logs and metrics for increased visibility. Only the tasks that Amazon ECS services create are supported with Service Connect. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#app_protocol EcsTaskDefinition#app_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#app_protocol EcsTaskDefinition#app_protocol}
 
 ---
 
@@ -3649,7 +3649,7 @@ The port number on the container that's bound to the user-specified or automatic
 If you use containers in a task with the `awsvpc` or `host` network mode, specify the exposed ports using `containerPort`.
 If you use containers in a task with the `bridge` network mode and you specify a container port and not a host port, your container automatically receives a host port in the ephemeral port range. For more information, see `hostPort`. Port mappings that are automatically assigned in this way do not count toward the 100 reserved ports limit of a container instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_port EcsTaskDefinition#container_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_port EcsTaskDefinition#container_port}
 
 ---
 
@@ -3683,7 +3683,7 @@ The following rules apply when you specify a `containerPortRange`:
 
 You can call [DescribeTasks](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DescribeTasks.html) to view the `hostPortRange` which are the host ports that are bound to the container ports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_port_range EcsTaskDefinition#container_port_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_port_range EcsTaskDefinition#container_port_range}
 
 ---
 
@@ -3707,7 +3707,7 @@ If you use containers in a task with the `bridge` network mode, you can specify 
 The default ephemeral port range for Docker version 1.6.0 and later is listed on the instance under `/proc/sys/net/ipv4/ip_local_port_range`. If this kernel parameter is unavailable, the default ephemeral port range from 49153 through 65535 (Linux) or 49152 through 65535 (Windows) is used. Do not attempt to specify a host port in the ephemeral port range as these are reserved for automatic assignment. In general, ports below 32768 are outside of the ephemeral port range.
 The default reserved ports are 22 for SSH, the Docker ports 2375 and 2376, and the Amazon ECS container agent ports 51678-51680. Any host port that was previously specified in a running task is also reserved while the task is running. That is, after a task stops, the host port is released. The current reserved ports are displayed in the `remainingResources` of [DescribeContainerInstances](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DescribeContainerInstances.html) output. A container instance can have up to 100 reserved ports at a time. This number includes the default reserved ports. Automatically assigned ports aren't included in the 100 reserved ports quota.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#host_port EcsTaskDefinition#host_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#host_port EcsTaskDefinition#host_port}
 
 ---
 
@@ -3723,7 +3723,7 @@ The name that's used for the port mapping.
 
 This parameter is the name that you use in the `serviceConnectConfiguration` and the `vpcLatticeConfigurations` of a service. The name can include up to 64 characters. The characters can include lowercase letters, numbers, underscores (_), and hyphens (-). The name can't start with a hyphen.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -3739,7 +3739,7 @@ The protocol used for the port mapping.
 
 Valid values are `tcp` and `udp`. The default is `tcp`. `protocol` is immutable in a Service Connect service. Updating this field requires a service deletion and redeployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#protocol EcsTaskDefinition#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#protocol EcsTaskDefinition#protocol}
 
 ---
 
@@ -3775,7 +3775,7 @@ The Amazon Resource Name (ARN) of the secret containing the private repository c
 
 When you use the Amazon ECS API, CLI, or AWS SDK, if the secret exists in the same Region as the task that you're launching then you can use either the full ARN or the name of the secret. When you use the AWS Management Console, you must specify the full ARN of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#credentials_parameter EcsTaskDefinition#credentials_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#credentials_parameter EcsTaskDefinition#credentials_parameter}
 
 ---
 
@@ -3811,7 +3811,7 @@ Type *string
 
 The type of resource to assign to a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 
 ---
 
@@ -3829,7 +3829,7 @@ When the type is `GPU`, the value is the number of physical `GPUs` the Amazon EC
 When the type is `NeuronDevice`, the value must be `ALL`. This allocates all available Neuron devices on the instance to the container. Only one container in a task can specify `NeuronDevice` resources. This resource type is only supported on Managed Instances.
 When the type is `InferenceAccelerator`, the `value` matches the `deviceName` for an [InferenceAccelerator](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_InferenceAccelerator.html) specified in a task definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 
 ---
 
@@ -3867,7 +3867,7 @@ Enabled interface{}
 
 Specifies whether a restart policy is enabled for the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#enabled EcsTaskDefinition#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#enabled EcsTaskDefinition#enabled}
 
 ---
 
@@ -3883,7 +3883,7 @@ A list of exit codes that Amazon ECS will ignore and not attempt a restart on.
 
 You can specify a maximum of 50 container exit codes. By default, Amazon ECS does not ignore any exit codes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#ignored_exit_codes EcsTaskDefinition#ignored_exit_codes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#ignored_exit_codes EcsTaskDefinition#ignored_exit_codes}
 
 ---
 
@@ -3899,7 +3899,7 @@ A period of time (in seconds) that the container must run for before a restart c
 
 A container can be restarted only once every `restartAttemptPeriod` seconds. If a container isn't able to run for this time period and exits early, it will not be restarted. You can set a minimum `restartAttemptPeriod` of 60 seconds and a maximum `restartAttemptPeriod` of 1800 seconds. By default, a container must run for 300 seconds before it can be restarted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#restart_attempt_period EcsTaskDefinition#restart_attempt_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#restart_attempt_period EcsTaskDefinition#restart_attempt_period}
 
 ---
 
@@ -3935,7 +3935,7 @@ Name *string
 
 The name of the secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -3953,7 +3953,7 @@ The supported values are either the full ARN of the ASMlong secret or the full A
 For information about the require IAMlong permissions, see [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-secrets.html#secrets-iam) (for Secrets Manager) or [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-parameters.html) (for Systems Manager Parameter store) in the *Amazon Elastic Container Service Developer Guide*.
 If the SSM Parameter Store parameter exists in the same Region as the task you're launching, then you can use either the full ARN or name of the parameter. If the parameter exists in a different Region, then the full ARN must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value_from EcsTaskDefinition#value_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value_from EcsTaskDefinition#value_from}
 
 ---
 
@@ -3989,7 +3989,7 @@ Namespace *string
 
 The namespaced kernel parameter to set a ``value`` for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#namespace EcsTaskDefinition#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#namespace EcsTaskDefinition#namespace}
 
 ---
 
@@ -4007,7 +4007,7 @@ Valid IPC namespace values: `"kernel.msgmax" | "kernel.msgmnb" | "kernel.msgmni"
 Valid network namespace values: `Sysctls` that start with `"net.*"`. Only namespaced `Sysctls` that exist within the container starting with "net.* are accepted.
 All of these values are supported by Fargate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 
 ---
 
@@ -4047,7 +4047,7 @@ The hard limit for the ``ulimit`` type.
 
 The value can be specified in bytes, seconds, or as a count, depending on the `type` of the `ulimit`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#hard_limit EcsTaskDefinition#hard_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#hard_limit EcsTaskDefinition#hard_limit}
 
 ---
 
@@ -4061,7 +4061,7 @@ Name *string
 
 The ``type`` of the ``ulimit``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -4077,7 +4077,7 @@ The soft limit for the ``ulimit`` type.
 
 The value can be specified in bytes, seconds, or as a count, depending on the `type` of the `ulimit`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#soft_limit EcsTaskDefinition#soft_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#soft_limit EcsTaskDefinition#soft_limit}
 
 ---
 
@@ -4115,7 +4115,7 @@ If this value is ``true``, the container has read-only access to the volume.
 
 If this value is `false`, then the container can write to the volume. The default value is `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#read_only EcsTaskDefinition#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#read_only EcsTaskDefinition#read_only}
 
 ---
 
@@ -4129,7 +4129,7 @@ SourceContainer *string
 
 The name of another container within the same task definition to mount volumes from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#source_container EcsTaskDefinition#source_container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#source_container EcsTaskDefinition#source_container}
 
 ---
 
@@ -4165,7 +4165,7 @@ The total amount, in GiB, of ephemeral storage to set for the task.
 
 The minimum supported value is `21` GiB and the maximum supported value is `200` GiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#size_in_gi_b EcsTaskDefinition#size_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#size_in_gi_b EcsTaskDefinition#size_in_gi_b}
 
 ---
 
@@ -4186,8 +4186,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecstaskdefinition"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionInferenceAccelerators.property.deviceName">DeviceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#device_name EcsTaskDefinition#device_name}. |
-| <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionInferenceAccelerators.property.deviceType">DeviceType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#device_type EcsTaskDefinition#device_type}. |
+| <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionInferenceAccelerators.property.deviceName">DeviceName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#device_name EcsTaskDefinition#device_name}. |
+| <code><a href="#@cdktn/provider-awscc.ecsTaskDefinition.EcsTaskDefinitionInferenceAccelerators.property.deviceType">DeviceType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#device_type EcsTaskDefinition#device_type}. |
 
 ---
 
@@ -4199,7 +4199,7 @@ DeviceName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#device_name EcsTaskDefinition#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#device_name EcsTaskDefinition#device_name}.
 
 ---
 
@@ -4211,7 +4211,7 @@ DeviceType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#device_type EcsTaskDefinition#device_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#device_type EcsTaskDefinition#device_type}.
 
 ---
 
@@ -4249,7 +4249,7 @@ A cluster query language expression to apply to the constraint.
 
 For more information, see [Cluster query language](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cluster-query-language.html) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#expression EcsTaskDefinition#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#expression EcsTaskDefinition#expression}
 
 ---
 
@@ -4263,7 +4263,7 @@ Type *string
 
 The type of constraint. The ``MemberOf`` constraint restricts selection to be from a group of valid candidates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 
 ---
 
@@ -4301,7 +4301,7 @@ ContainerName *string
 
 The name of the container that will serve as the App Mesh proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
 
 ---
 
@@ -4323,7 +4323,7 @@ The set of network configuration parameters to provide the Container Network Int
 * `EgressIgnoredPorts` - (Required) The egress traffic going to the specified ports is ignored and not redirected to the `ProxyEgressPort`. It can be an empty list.
 * `EgressIgnoredIPs` - (Required) The egress traffic going to the specified IP addresses is ignored and not redirected to the `ProxyEgressPort`. It can be an empty list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#proxy_configuration_properties EcsTaskDefinition#proxy_configuration_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#proxy_configuration_properties EcsTaskDefinition#proxy_configuration_properties}
 
 ---
 
@@ -4337,7 +4337,7 @@ Type *string
 
 The proxy type. The only supported value is ``APPMESH``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 
 ---
 
@@ -4373,7 +4373,7 @@ Name *string
 
 The name of the key-value pair. For environment variables, this is the name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -4387,7 +4387,7 @@ Value *string
 
 The value of the key-value pair. For environment variables, this is the value of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 
 ---
 
@@ -4425,7 +4425,7 @@ The CPU architecture.
 
 You can run your Linux tasks on an ARM-based platform by setting the value to `ARM64`. This option is available for tasks that run on Linux Amazon EC2 instance, Amazon ECS Managed Instances, or Linux containers on Fargate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#cpu_architecture EcsTaskDefinition#cpu_architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#cpu_architecture EcsTaskDefinition#cpu_architecture}
 
 ---
 
@@ -4439,7 +4439,7 @@ OperatingSystemFamily *string
 
 The operating system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#operating_system_family EcsTaskDefinition#operating_system_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#operating_system_family EcsTaskDefinition#operating_system_family}
 
 ---
 
@@ -4477,7 +4477,7 @@ One part of a key-value pair that make up a tag.
 
 A `key` is a general label that acts like a category for more specific tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#key EcsTaskDefinition#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#key EcsTaskDefinition#key}
 
 ---
 
@@ -4493,7 +4493,7 @@ The optional part of a key-value pair that make up a tag.
 
 A `value` acts as a descriptor within a tag category (key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 
 ---
 
@@ -4542,7 +4542,7 @@ Indicates whether the volume should be configured at launch time.
 This is used to create Amazon EBS volumes for standalone tasks or tasks created as part of a service. Each task definition revision may only have one volume configured at launch in the volume configuration.
 To configure a volume at launch time, use this task definition revision and specify a `volumeConfigurations` object when calling the `CreateService`, `UpdateService`, `RunTask` or `StartTask` APIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#configured_at_launch EcsTaskDefinition#configured_at_launch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#configured_at_launch EcsTaskDefinition#configured_at_launch}
 
 ---
 
@@ -4559,7 +4559,7 @@ This parameter is specified when you use Docker volumes.
 Windows containers only support the use of the `local` driver. To use bind mounts, specify the `host` parameter instead.
 Docker volumes aren't supported by tasks run on FARGATElong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#docker_volume_configuration EcsTaskDefinition#docker_volume_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#docker_volume_configuration EcsTaskDefinition#docker_volume_configuration}
 
 ---
 
@@ -4573,7 +4573,7 @@ EfsVolumeConfiguration EcsTaskDefinitionVolumesEfsVolumeConfiguration
 
 This parameter is specified when you use an Amazon Elastic File System file system for task storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#efs_volume_configuration EcsTaskDefinition#efs_volume_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#efs_volume_configuration EcsTaskDefinition#efs_volume_configuration}
 
 ---
 
@@ -4587,7 +4587,7 @@ FsxWindowsFileServerVolumeConfiguration EcsTaskDefinitionVolumesFsxWindowsFileSe
 
 This parameter is specified when you use Amazon FSx for Windows File Server file system for task storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#fsx_windows_file_server_volume_configuration EcsTaskDefinition#fsx_windows_file_server_volume_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#fsx_windows_file_server_volume_configuration EcsTaskDefinition#fsx_windows_file_server_volume_configuration}
 
 ---
 
@@ -4604,7 +4604,7 @@ This parameter is specified when you use bind mount host volumes.
 The contents of the `host` parameter determine whether your bind mount host volume persists on the host container instance and where it's stored. If the `host` parameter is empty, then the Docker daemon assigns a host path for your data volume. However, the data isn't guaranteed to persist after the containers that are associated with it stop running.
 Windows containers can mount whole directories on the same drive as `$env:ProgramData`. Windows containers can't mount directories on a different drive, and mount point can't be across drives. For example, you can mount `C:\my\path:C:\my\path` and `D:\:D:\`, but not `D:\my\path:C:\my\path` or `D:\:C:\my\path`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#host EcsTaskDefinition#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#host EcsTaskDefinition#host}
 
 ---
 
@@ -4624,7 +4624,7 @@ For all other types of volumes, this name is referenced in the `sourceVolume` pa
 When a volume is using the `efsVolumeConfiguration`, the name is required.
 When a volume is using the `s3filesVolumeConfiguration`, the name is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 
 ---
 
@@ -4638,7 +4638,7 @@ S3FilesVolumeConfiguration EcsTaskDefinitionVolumesS3FilesVolumeConfiguration
 
 This parameter is specified when you use an Amazon S3 Files file system for task storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#s3_files_volume_configuration EcsTaskDefinition#s3_files_volume_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#s3_files_volume_configuration EcsTaskDefinition#s3_files_volume_configuration}
 
 ---
 
@@ -4682,7 +4682,7 @@ If this value is ``true``, the Docker volume is created if it doesn't already ex
 
 This field is only used if the `scope` is `shared`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#autoprovision EcsTaskDefinition#autoprovision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#autoprovision EcsTaskDefinition#autoprovision}
 
 ---
 
@@ -4698,7 +4698,7 @@ The Docker volume driver to use.
 
 The driver value must match the driver name provided by Docker because it is used for task placement. If the driver was installed using the Docker plugin CLI, use `docker plugin ls` to retrieve the driver name from your container instance. If the driver was installed using another method, use Docker plugin discovery to retrieve the driver name. This parameter maps to `Driver` in the docker container create command and the `xxdriver` option to docker volume create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#driver EcsTaskDefinition#driver}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#driver EcsTaskDefinition#driver}
 
 ---
 
@@ -4714,7 +4714,7 @@ A map of Docker driver-specific options passed through.
 
 This parameter maps to `DriverOpts` in the docker create-volume command and the `xxopt` option to docker volume create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#driver_opts EcsTaskDefinition#driver_opts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#driver_opts EcsTaskDefinition#driver_opts}
 
 ---
 
@@ -4730,7 +4730,7 @@ Custom metadata to add to your Docker volume.
 
 This parameter maps to `Labels` in the docker container create command and the `xxlabel` option to docker volume create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#labels EcsTaskDefinition#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#labels EcsTaskDefinition#labels}
 
 ---
 
@@ -4746,7 +4746,7 @@ The scope for the Docker volume that determines its lifecycle.
 
 Docker volumes that are scoped to a `task` are automatically provisioned when the task starts and destroyed when the task stops. Docker volumes that are scoped as `shared` persist after the task stops.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#scope EcsTaskDefinition#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#scope EcsTaskDefinition#scope}
 
 ---
 
@@ -4788,7 +4788,7 @@ AuthorizationConfig EcsTaskDefinitionVolumesEfsVolumeConfigurationAuthorizationC
 
 The authorization configuration details for the Amazon EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#authorization_config EcsTaskDefinition#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#authorization_config EcsTaskDefinition#authorization_config}
 
 ---
 
@@ -4802,7 +4802,7 @@ FilesystemId *string
 
 The Amazon EFS file system ID to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#filesystem_id EcsTaskDefinition#filesystem_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#filesystem_id EcsTaskDefinition#filesystem_id}
 
 ---
 
@@ -4819,7 +4819,7 @@ The directory within the Amazon EFS file system to mount as the root directory i
 If this parameter is omitted, the root of the Amazon EFS volume will be used. Specifying `/` will have the same effect as omitting this parameter.
 If an EFS access point is specified in the `authorizationConfig`, the root directory parameter must either be omitted or set to `/` which will enforce the path set on the EFS access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}
 
 ---
 
@@ -4835,7 +4835,7 @@ Determines whether to use encryption for Amazon EFS data in transit between the 
 
 Transit encryption must be turned on if Amazon EFS IAM authorization is used. If this parameter is omitted, the default value of `DISABLED` is used. For more information, see [Encrypting data in transit](https://docs.aws.amazon.com/efs/latest/ug/encryption-in-transit.html) in the *Amazon Elastic File System User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#transit_encryption EcsTaskDefinition#transit_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#transit_encryption EcsTaskDefinition#transit_encryption}
 
 ---
 
@@ -4851,7 +4851,7 @@ The port to use when sending encrypted data between the Amazon ECS host and the 
 
 If you do not specify a transit encryption port, it will use the port selection strategy that the Amazon EFS mount helper uses. For more information, see [EFS mount helper](https://docs.aws.amazon.com/efs/latest/ug/efs-mount-helper.html) in the *Amazon Elastic File System User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#transit_encryption_port EcsTaskDefinition#transit_encryption_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#transit_encryption_port EcsTaskDefinition#transit_encryption_port}
 
 ---
 
@@ -4889,7 +4889,7 @@ The Amazon EFS access point ID to use.
 
 If an access point is specified, the root directory value specified in the `EFSVolumeConfiguration` must either be omitted or set to `/` which will enforce the path set on the EFS access point. If an access point is used, transit encryption must be on in the `EFSVolumeConfiguration`. For more information, see [Working with Amazon EFS access points](https://docs.aws.amazon.com/efs/latest/ug/efs-access-points.html) in the *Amazon Elastic File System User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#access_point_id EcsTaskDefinition#access_point_id}
 
 ---
 
@@ -4905,7 +4905,7 @@ Determines whether to use the Amazon ECS task role defined in a task definition 
 
 If it is turned on, transit encryption must be turned on in the `EFSVolumeConfiguration`. If this parameter is omitted, the default value of `DISABLED` is used. For more information, see [Using Amazon EFS access points](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/efs-volumes.html#efs-volume-accesspoints) in the *Amazon Elastic Container Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#iam EcsTaskDefinition#iam}
 
 ---
 
@@ -4943,7 +4943,7 @@ AuthorizationConfig EcsTaskDefinitionVolumesFsxWindowsFileServerVolumeConfigurat
 
 The authorization configuration details for the Amazon FSx for Windows File Server file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#authorization_config EcsTaskDefinition#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#authorization_config EcsTaskDefinition#authorization_config}
 
 ---
 
@@ -4957,7 +4957,7 @@ FileSystemId *string
 
 The Amazon FSx for Windows File Server file system ID to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#file_system_id EcsTaskDefinition#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#file_system_id EcsTaskDefinition#file_system_id}
 
 ---
 
@@ -4971,7 +4971,7 @@ RootDirectory *string
 
 The directory within the Amazon FSx for Windows File Server file system to mount as the root directory inside the host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}
 
 ---
 
@@ -5009,7 +5009,7 @@ The authorization credential option to use.
 
 The authorization credential options can be provided using either the Amazon Resource Name (ARN) of an ASMlong secret or SSM Parameter Store parameter. The ARN refers to the stored credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#credentials_parameter EcsTaskDefinition#credentials_parameter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#credentials_parameter EcsTaskDefinition#credentials_parameter}
 
 ---
 
@@ -5023,7 +5023,7 @@ Domain *string
 
 A fully qualified domain name hosted by an [](https://docs.aws.amazon.com/directoryservice/latest/admin-guide/directory_microsoft_ad.html) Managed Microsoft AD (Active Directory) or self-hosted AD on Amazon EC2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#domain EcsTaskDefinition#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#domain EcsTaskDefinition#domain}
 
 ---
 
@@ -5060,7 +5060,7 @@ When the ``host`` parameter is used, specify a ``sourcePath`` to declare the pat
 If this parameter is empty, then the Docker daemon has assigned a host path for you. If the `host` parameter contains a `sourcePath` file location, then the data volume persists at the specified location on the host container instance until you delete it manually. If the `sourcePath` value doesn't exist on the host container instance, the Docker daemon creates it. If the location does exist, the contents of the source path folder are exported.
 If you're using the Fargate launch type, the `sourcePath` parameter is not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#source_path EcsTaskDefinition#source_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#source_path EcsTaskDefinition#source_path}
 
 ---
 
@@ -5102,7 +5102,7 @@ The full ARN of the S3 Files access point to use.
 
 If an access point is specified, the root directory value specified in the `S3FilesVolumeConfiguration` must either be omitted or set to `/` which will enforce the path set on the S3 Files access point. For more information, see [Creating S3 Files access points](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files-access-points-creating.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#access_point_arn EcsTaskDefinition#access_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#access_point_arn EcsTaskDefinition#access_point_arn}
 
 ---
 
@@ -5116,7 +5116,7 @@ FileSystemArn *string
 
 The full ARN of the S3 Files file system to mount.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#file_system_arn EcsTaskDefinition#file_system_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#file_system_arn EcsTaskDefinition#file_system_arn}
 
 ---
 
@@ -5133,7 +5133,7 @@ The directory within the Amazon S3 Files file system to mount as the root direct
 If this parameter is omitted, the root of the Amazon S3 Files file system will be used. Specifying `/` will have the same effect as omitting this parameter.
 If a S3 Files access point is specified in the `accessPointArn`, the root directory parameter must either be omitted or set to `/` which will enforce the path set on the S3 Files access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#root_directory EcsTaskDefinition#root_directory}
 
 ---
 
@@ -5149,7 +5149,7 @@ The port to use for sending encrypted data between the ECS host and the S3 Files
 
 If you do not specify a transit encryption port, it will use the port selection strategy that the Amazon S3 Files mount helper uses. For more information, see [S3 Files mount helper](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-files-mounting.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#transit_encryption_port EcsTaskDefinition#transit_encryption_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#transit_encryption_port EcsTaskDefinition#transit_encryption_port}
 
 ---
 

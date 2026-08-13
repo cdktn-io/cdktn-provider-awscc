@@ -4,7 +4,7 @@
 
 ### M2Environment <a name="M2Environment" id="@cdktn/provider-awscc.m2Environment.M2Environment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment awscc_m2_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment awscc_m2_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.m2Environment.M2Environment.Initializer"></a>
 
@@ -592,7 +592,7 @@ The construct id used in the generated config for the M2Environment to import.
 
 The id of the existing M2Environment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1178,7 +1178,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2environment"
 | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.engineVersion">EngineVersion</a></code> | <code>*string</code> | The version of the runtime engine for the environment. |
 | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.highAvailabilityConfig">HighAvailabilityConfig</a></code> | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentHighAvailabilityConfig">M2EnvironmentHighAvailabilityConfig</a></code> | Defines the details of a high availability configuration. |
 | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.kmsKeyId">KmsKeyId</a></code> | <code>*string</code> | The ID or the Amazon Resource Name (ARN) of the customer managed KMS Key used for encrypting environment-related resources. |
-| <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.networkType">NetworkType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#network_type M2Environment#network_type}. |
+| <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.networkType">NetworkType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#network_type M2Environment#network_type}. |
 | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.preferredMaintenanceWindow">PreferredMaintenanceWindow</a></code> | <code>*string</code> | Configures a desired maintenance window for the environment. |
 | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.publiclyAccessible">PubliclyAccessible</a></code> | <code>interface{}</code> | Specifies whether the environment is publicly accessible. |
 | <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | The list of security groups for the VPC associated with this environment. |
@@ -1268,7 +1268,7 @@ EngineType *string
 
 The target platform for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#engine_type M2Environment#engine_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#engine_type M2Environment#engine_type}
 
 ---
 
@@ -1282,7 +1282,7 @@ InstanceType *string
 
 The type of instance underlying the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#instance_type M2Environment#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#instance_type M2Environment#instance_type}
 
 ---
 
@@ -1296,7 +1296,7 @@ Name *string
 
 The name of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#name M2Environment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#name M2Environment#name}
 
 ---
 
@@ -1310,7 +1310,7 @@ Description *string
 
 The description of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#description M2Environment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#description M2Environment#description}
 
 ---
 
@@ -1324,7 +1324,7 @@ EngineVersion *string
 
 The version of the runtime engine for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#engine_version M2Environment#engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#engine_version M2Environment#engine_version}
 
 ---
 
@@ -1338,7 +1338,7 @@ HighAvailabilityConfig M2EnvironmentHighAvailabilityConfig
 
 Defines the details of a high availability configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#high_availability_config M2Environment#high_availability_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#high_availability_config M2Environment#high_availability_config}
 
 ---
 
@@ -1352,7 +1352,7 @@ KmsKeyId *string
 
 The ID or the Amazon Resource Name (ARN) of the customer managed KMS Key used for encrypting environment-related resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#kms_key_id M2Environment#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#kms_key_id M2Environment#kms_key_id}
 
 ---
 
@@ -1364,7 +1364,7 @@ NetworkType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#network_type M2Environment#network_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#network_type M2Environment#network_type}.
 
 ---
 
@@ -1380,7 +1380,7 @@ Configures a desired maintenance window for the environment.
 
 If you do not provide a value, a random system-generated value will be assigned.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#preferred_maintenance_window M2Environment#preferred_maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#preferred_maintenance_window M2Environment#preferred_maintenance_window}
 
 ---
 
@@ -1394,7 +1394,7 @@ PubliclyAccessible interface{}
 
 Specifies whether the environment is publicly accessible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#publicly_accessible M2Environment#publicly_accessible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#publicly_accessible M2Environment#publicly_accessible}
 
 ---
 
@@ -1408,7 +1408,7 @@ SecurityGroupIds *[]*string
 
 The list of security groups for the VPC associated with this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#security_group_ids M2Environment#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#security_group_ids M2Environment#security_group_ids}
 
 ---
 
@@ -1422,7 +1422,7 @@ StorageConfigurations interface{}
 
 The storage configurations defined for the runtime environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#storage_configurations M2Environment#storage_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#storage_configurations M2Environment#storage_configurations}
 
 ---
 
@@ -1436,7 +1436,7 @@ SubnetIds *[]*string
 
 The unique identifiers of the subnets assigned to this runtime environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#subnet_ids M2Environment#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#subnet_ids M2Environment#subnet_ids}
 
 ---
 
@@ -1450,7 +1450,7 @@ Tags *map[string]*string
 
 Tags associated to this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#tags M2Environment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#tags M2Environment#tags}
 
 ---
 
@@ -1470,7 +1470,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/m2environment"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentHighAvailabilityConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.m2Environment.M2EnvironmentHighAvailabilityConfig.property.desiredCapacity">DesiredCapacity</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}. |
 
 ---
 
@@ -1482,7 +1482,7 @@ DesiredCapacity *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#desired_capacity M2Environment#desired_capacity}.
 
 ---
 
@@ -1518,7 +1518,7 @@ Efs M2EnvironmentStorageConfigurationsEfs
 
 Defines the storage configuration for an Amazon EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#efs M2Environment#efs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#efs M2Environment#efs}
 
 ---
 
@@ -1532,7 +1532,7 @@ Fsx M2EnvironmentStorageConfigurationsFsx
 
 Defines the storage configuration for an Amazon FSx file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#fsx M2Environment#fsx}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#fsx M2Environment#fsx}
 
 ---
 
@@ -1568,7 +1568,7 @@ FileSystemId *string
 
 The file system identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
 
 ---
 
@@ -1582,7 +1582,7 @@ MountPoint *string
 
 The mount point for the file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
 
 ---
 
@@ -1618,7 +1618,7 @@ FileSystemId *string
 
 The file system identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
 
 ---
 
@@ -1632,7 +1632,7 @@ MountPoint *string
 
 The mount point for the file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
 
 ---
 

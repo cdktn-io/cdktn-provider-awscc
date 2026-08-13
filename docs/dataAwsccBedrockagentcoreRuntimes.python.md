@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreRuntimes <a name="DataAwsccBedrockagentcoreRuntimes" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_runtimes awscc_bedrockagentcore_runtimes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_runtimes awscc_bedrockagentcore_runtimes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreRuntimes.DataAwsccBedrockagentcoreRuntimes.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreR
 
 The id of the existing DataAwsccBedrockagentcoreRuntimes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrockagentcore_runtimes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_runtimes#import import section} in the documentation of this resource for the id to use
 
 ---
 

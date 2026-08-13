@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockAutomatedReasoningPolicyVersions <a name="DataAwsccBedrockAutomatedReasoningPolicyVersions" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicyVersions.DataAwsccBedrockAutomatedReasoningPolicyVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockAutomatedReasoningPolicyVersions.DataAwsccBedrockAutomatedReasoningPolicyVersions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockAutomatedR
 
 The id of the existing DataAwsccBedrockAutomatedReasoningPolicyVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/bedrock_automated_reasoning_policy_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_automated_reasoning_policy_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 

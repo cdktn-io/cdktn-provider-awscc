@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseAssets <a name="DataAwsccIotsitewiseAssets" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAssets.DataAwsccIotsitewiseAssets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_assets awscc_iotsitewise_assets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_assets awscc_iotsitewise_assets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseAssets.DataAwsccIotsitewiseAssets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseAssets
 
 The id of the existing DataAwsccIotsitewiseAssets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_assets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_assets#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccPipesPipes <a name="DataAwsccPipesPipes" id="@cdktn/provider-awscc.dataAwsccPipesPipes.DataAwsccPipesPipes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/pipes_pipes awscc_pipes_pipes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pipes_pipes awscc_pipes_pipes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPipesPipes.DataAwsccPipesPipes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPipesPipes to imp
 
 The id of the existing DataAwsccPipesPipes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/pipes_pipes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pipes_pipes#import import section} in the documentation of this resource for the id to use
 
 ---
 

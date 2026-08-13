@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface SagemakerExperimentConfig extends cdktn.TerraformMetaArguments 
   /**
   * The description of the experiment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#description SagemakerExperiment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#description SagemakerExperiment#description}
   */
   readonly description?: string;
   /**
   * The name of the experiment as displayed. The name does not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#display_name SagemakerExperiment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#display_name SagemakerExperiment#display_name}
   */
   readonly displayName?: string;
   /**
   * The name of the experiment. Must be unique in your AWS account and is not case-sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#experiment_name SagemakerExperiment#experiment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#experiment_name SagemakerExperiment#experiment_name}
   */
   readonly experimentName: string;
   /**
   * A list of tags to associate with the experiment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#tags SagemakerExperiment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#tags SagemakerExperiment#tags}
   */
   readonly tags?: SagemakerExperimentTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface SagemakerExperimentTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#key SagemakerExperiment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#key SagemakerExperiment#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#value SagemakerExperiment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#value SagemakerExperiment#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class SagemakerExperimentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment}
 */
 export class SagemakerExperiment extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class SagemakerExperiment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerExperiment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerExperiment to import
-  * @param importFromId The id of the existing SagemakerExperiment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerExperiment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerExperiment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class SagemakerExperiment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class SagemakerExperiment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_experiment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.96.0',
+        providerVersion: '1.97.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

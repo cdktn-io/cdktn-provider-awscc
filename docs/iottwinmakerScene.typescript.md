@@ -4,7 +4,7 @@
 
 ### IottwinmakerScene <a name="IottwinmakerScene" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iottwinmakerScene.IottwinmakerScene.Initializer"></a>
 
@@ -517,7 +517,7 @@ The construct id used in the generated config for the IottwinmakerScene to impor
 
 The id of the existing IottwinmakerScene that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1032,7 +1032,7 @@ public readonly contentLocation: string;
 
 The relative path that specifies the location of the content definition file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#content_location IottwinmakerScene#content_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#content_location IottwinmakerScene#content_location}
 
 ---
 
@@ -1046,7 +1046,7 @@ public readonly sceneId: string;
 
 The ID of the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#scene_id IottwinmakerScene#scene_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#scene_id IottwinmakerScene#scene_id}
 
 ---
 
@@ -1060,7 +1060,7 @@ public readonly workspaceId: string;
 
 The ID of the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#workspace_id IottwinmakerScene#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#workspace_id IottwinmakerScene#workspace_id}
 
 ---
 
@@ -1074,7 +1074,7 @@ public readonly capabilities: string[];
 
 A list of capabilities that the scene uses to render.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#capabilities IottwinmakerScene#capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#capabilities IottwinmakerScene#capabilities}
 
 ---
 
@@ -1088,7 +1088,7 @@ public readonly description: string;
 
 The description of the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#description IottwinmakerScene#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#description IottwinmakerScene#description}
 
 ---
 
@@ -1102,7 +1102,7 @@ public readonly sceneMetadata: {[ key: string ]: string};
 
 A key-value pair of scene metadata for the scene.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#scene_metadata IottwinmakerScene#scene_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#scene_metadata IottwinmakerScene#scene_metadata}
 
 ---
 
@@ -1116,7 +1116,7 @@ public readonly tags: {[ key: string ]: string};
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene#tags IottwinmakerScene#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene#tags IottwinmakerScene#tags}
 
 ---
 

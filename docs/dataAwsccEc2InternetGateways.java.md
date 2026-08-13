@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2InternetGateways <a name="DataAwsccEc2InternetGateways" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateways.DataAwsccEc2InternetGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InternetGateways.DataAwsccEc2InternetGateways.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2InternetGatewa
 
 The id of the existing DataAwsccEc2InternetGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_internet_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_internet_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 
