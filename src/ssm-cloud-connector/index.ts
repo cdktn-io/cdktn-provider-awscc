@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface SsmCloudConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ARN of the AWS Config connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
   */
   readonly configConnectorArn: string;
   /**
   * The configuration for the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
   */
   readonly configuration: SsmCloudConnectorConfiguration;
   /**
   * The description of the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
   */
   readonly description?: string;
   /**
   * The display name of the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
   */
   readonly displayName: string;
   /**
   * The IAM role ARN used by the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
   */
   readonly roleArn: string;
   /**
   * Tags to apply to the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
   */
   readonly tags?: SsmCloudConnectorTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscrip
   /**
   * The display name of the Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
   */
   readonly displayName?: string;
   /**
   * The Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -209,7 +209,7 @@ export interface SsmCloudConnectorConfigurationAzureConfigurationTargets {
   /**
   * List of Azure subscriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
   */
   readonly subscriptions?: SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions[] | cdktn.IResolvable;
 }
@@ -305,31 +305,31 @@ export interface SsmCloudConnectorConfigurationAzureConfiguration {
   /**
   * The display name of the Azure AD application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
   */
   readonly applicationDisplayName?: string;
   /**
   * The Azure AD application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
   */
   readonly applicationId: string;
   /**
   * The targets for the cloud connector. If omitted, the entire tenant is targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
   */
   readonly targets?: SsmCloudConnectorConfigurationAzureConfigurationTargets;
   /**
   * The display name of the Azure AD tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
   */
   readonly tenantDisplayName?: string;
   /**
   * The Azure AD tenant ID. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -535,7 +535,7 @@ export interface SsmCloudConnectorConfiguration {
   /**
   * Configuration for connecting to Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
   */
   readonly azureConfiguration: SsmCloudConnectorConfigurationAzureConfiguration;
 }
@@ -626,11 +626,11 @@ export class SsmCloudConnectorConfigurationOutputReference extends cdktn.Complex
 }
 export interface SsmCloudConnectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}
   */
   readonly value?: string;
 }
@@ -775,7 +775,7 @@ export class SsmCloudConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}
 */
 export class SsmCloudConnector extends cdktn.TerraformResource {
 
@@ -791,7 +791,7 @@ export class SsmCloudConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmCloudConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmCloudConnector to import
-  * @param importFromId The id of the existing SsmCloudConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmCloudConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmCloudConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -803,7 +803,7 @@ export class SsmCloudConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,7 +814,7 @@ export class SsmCloudConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_cloud_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

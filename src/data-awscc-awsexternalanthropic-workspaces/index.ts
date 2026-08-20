@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/awsexternalanthropic_workspaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccAwsexternalanthropicWorkspacesConfig extends cdktn.Ter
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces}
 */
 export class DataAwsccAwsexternalanthropicWorkspaces extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccAwsexternalanthropicWorkspaces extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccAwsexternalanthropicWorkspaces resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAwsexternalanthropicWorkspaces to import
-  * @param importFromId The id of the existing DataAwsccAwsexternalanthropicWorkspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAwsexternalanthropicWorkspaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/awsexternalanthropic_workspaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAwsexternalanthropicWorkspaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccAwsexternalanthropicWorkspaces extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccAwsexternalanthropicWorkspaces extends cdktn.TerraformData
       terraformResourceType: 'awscc_awsexternalanthropic_workspaces',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

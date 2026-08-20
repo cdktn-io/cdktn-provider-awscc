@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface GlueTableOptimizerConfig extends cdktn.TerraformMetaArguments {
   /**
   * The catalog ID of the table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#catalog_id GlueTableOptimizer#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#catalog_id GlueTableOptimizer#catalog_id}
   */
   readonly catalogId: string;
   /**
   * The name of the database. For Hive compatibility, this is folded to lowercase when it is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#database_name GlueTableOptimizer#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#database_name GlueTableOptimizer#database_name}
   */
   readonly databaseName: string;
   /**
   * The table name. For Hive compatibility, this must be entirely lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#table_name GlueTableOptimizer#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#table_name GlueTableOptimizer#table_name}
   */
   readonly tableName: string;
   /**
   * Specifies configuration details of a table optimizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#table_optimizer_configuration GlueTableOptimizer#table_optimizer_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#table_optimizer_configuration GlueTableOptimizer#table_optimizer_configuration}
   */
   readonly tableOptimizerConfiguration: GlueTableOptimizerTableOptimizerConfiguration;
   /**
   * The type of table optimizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#type GlueTableOptimizer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#type GlueTableOptimizer#type}
   */
   readonly type: string;
 }
@@ -47,19 +47,19 @@ export interface GlueTableOptimizerTableOptimizerConfigurationCompactionConfigur
   /**
   * The minimum number of deletes in a data file to make it eligible for compaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#delete_file_threshold GlueTableOptimizer#delete_file_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#delete_file_threshold GlueTableOptimizer#delete_file_threshold}
   */
   readonly deleteFileThreshold?: number;
   /**
   * The minimum number of input files before compaction is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#min_input_files GlueTableOptimizer#min_input_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#min_input_files GlueTableOptimizer#min_input_files}
   */
   readonly minInputFiles?: number;
   /**
   * The compaction strategy to use. Valid values are binpack, sort, and z-order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#strategy GlueTableOptimizer#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#strategy GlueTableOptimizer#strategy}
   */
   readonly strategy?: string;
 }
@@ -213,7 +213,7 @@ export interface GlueTableOptimizerTableOptimizerConfigurationCompactionConfigur
   /**
   * The configuration for an Iceberg compaction optimizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
   */
   readonly icebergConfiguration?: GlueTableOptimizerTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration;
 }
@@ -309,13 +309,13 @@ export interface GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletion
   /**
   * Specifies a directory in which to look for orphan files (defaults to the table's location). You may choose a sub-directory rather than the top-level table location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#location GlueTableOptimizer#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#location GlueTableOptimizer#location}
   */
   readonly location?: string;
   /**
   * The specific number of days you want to keep the orphan files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#orphan_file_retention_period_in_days GlueTableOptimizer#orphan_file_retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#orphan_file_retention_period_in_days GlueTableOptimizer#orphan_file_retention_period_in_days}
   */
   readonly orphanFileRetentionPeriodInDays?: number;
 }
@@ -440,7 +440,7 @@ export interface GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletion
   /**
   * The IcebergConfiguration property helps optimize your Iceberg tables in AWS Glue by allowing you to specify format-specific settings that control how data is stored, compressed, and managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
   */
   readonly icebergConfiguration?: GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfigurationIcebergConfiguration;
 }
@@ -534,15 +534,15 @@ export class GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConf
 }
 export interface GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#clean_expired_files GlueTableOptimizer#clean_expired_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#clean_expired_files GlueTableOptimizer#clean_expired_files}
   */
   readonly cleanExpiredFiles?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#number_of_snapshots_to_retain GlueTableOptimizer#number_of_snapshots_to_retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#number_of_snapshots_to_retain GlueTableOptimizer#number_of_snapshots_to_retain}
   */
   readonly numberOfSnapshotsToRetain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#snapshot_retention_period_in_days GlueTableOptimizer#snapshot_retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#snapshot_retention_period_in_days GlueTableOptimizer#snapshot_retention_period_in_days}
   */
   readonly snapshotRetentionPeriodInDays?: number;
 }
@@ -696,7 +696,7 @@ export interface GlueTableOptimizerTableOptimizerConfigurationRetentionConfigura
   /**
   * The configuration for an Iceberg snapshot retention optimizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#iceberg_configuration GlueTableOptimizer#iceberg_configuration}
   */
   readonly icebergConfiguration?: GlueTableOptimizerTableOptimizerConfigurationRetentionConfigurationIcebergConfiguration;
 }
@@ -792,7 +792,7 @@ export interface GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration {
   /**
   * The name of the AWS Glue connection used for the VPC for the table optimizer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#glue_connection_name GlueTableOptimizer#glue_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#glue_connection_name GlueTableOptimizer#glue_connection_name}
   */
   readonly glueConnectionName?: string;
 }
@@ -888,37 +888,37 @@ export interface GlueTableOptimizerTableOptimizerConfiguration {
   /**
   * The configuration for a compaction optimizer. This configuration defines how data files in your table will be compacted to improve query performance and reduce storage costs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#compaction_configuration GlueTableOptimizer#compaction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#compaction_configuration GlueTableOptimizer#compaction_configuration}
   */
   readonly compactionConfiguration?: GlueTableOptimizerTableOptimizerConfigurationCompactionConfiguration;
   /**
   * Whether the table optimization is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#enabled GlueTableOptimizer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#enabled GlueTableOptimizer#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * OrphanFileDeletionConfiguration is a property that can be included within the TableOptimizer resource. It controls the automatic deletion of orphaned files - files that are not tracked by the table metadata, and older than the configured age limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#orphan_file_deletion_configuration GlueTableOptimizer#orphan_file_deletion_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#orphan_file_deletion_configuration GlueTableOptimizer#orphan_file_deletion_configuration}
   */
   readonly orphanFileDeletionConfiguration?: GlueTableOptimizerTableOptimizerConfigurationOrphanFileDeletionConfiguration;
   /**
   * The configuration for a snapshot retention optimizer for Apache Iceberg tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#retention_configuration GlueTableOptimizer#retention_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#retention_configuration GlueTableOptimizer#retention_configuration}
   */
   readonly retentionConfiguration?: GlueTableOptimizerTableOptimizerConfigurationRetentionConfiguration;
   /**
   * A role passed by the caller which gives the service permission to update the resources associated with the optimizer on the caller's behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#role_arn GlueTableOptimizer#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#role_arn GlueTableOptimizer#role_arn}
   */
   readonly roleArn: string;
   /**
   * An object that describes the VPC configuration for a table optimizer. This configuration is necessary to perform optimization on tables that are in a customer VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#vpc_configuration GlueTableOptimizer#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#vpc_configuration GlueTableOptimizer#vpc_configuration}
   */
   readonly vpcConfiguration?: GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration;
 }
@@ -1151,7 +1151,7 @@ export class GlueTableOptimizerTableOptimizerConfigurationOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer}
 */
 export class GlueTableOptimizer extends cdktn.TerraformResource {
 
@@ -1167,7 +1167,7 @@ export class GlueTableOptimizer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueTableOptimizer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueTableOptimizer to import
-  * @param importFromId The id of the existing GlueTableOptimizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueTableOptimizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueTableOptimizer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1179,7 +1179,7 @@ export class GlueTableOptimizer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1190,7 +1190,7 @@ export class GlueTableOptimizer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_table_optimizer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

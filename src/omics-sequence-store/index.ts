@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,51 +15,51 @@ export interface OmicsSequenceStoreConfig extends cdktn.TerraformMetaArguments {
   /**
   * Location of the access logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#access_log_location OmicsSequenceStore#access_log_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#access_log_location OmicsSequenceStore#access_log_location}
   */
   readonly accessLogLocation?: string;
   /**
   * A description for the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#description OmicsSequenceStore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#description OmicsSequenceStore#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#e_tag_algorithm_family OmicsSequenceStore#e_tag_algorithm_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#e_tag_algorithm_family OmicsSequenceStore#e_tag_algorithm_family}
   */
   readonly eTagAlgorithmFamily?: string;
   /**
   * An S3 location that is used to store files that have failed a direct upload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#fallback_location OmicsSequenceStore#fallback_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#fallback_location OmicsSequenceStore#fallback_location}
   */
   readonly fallbackLocation?: string;
   /**
   * A name for the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#name OmicsSequenceStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#name OmicsSequenceStore#name}
   */
   readonly name: string;
   /**
   * The tags keys to propagate to the S3 objects associated with read sets in the sequence store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#propagated_set_level_tags OmicsSequenceStore#propagated_set_level_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#propagated_set_level_tags OmicsSequenceStore#propagated_set_level_tags}
   */
   readonly propagatedSetLevelTags?: string[];
   /**
   * The resource policy that controls S3 access on the store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#s3_access_policy OmicsSequenceStore#s3_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#s3_access_policy OmicsSequenceStore#s3_access_policy}
   */
   readonly s3AccessPolicy?: string;
   /**
   * Server-side encryption (SSE) settings for a store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#sse_config OmicsSequenceStore#sse_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#sse_config OmicsSequenceStore#sse_config}
   */
   readonly sseConfig?: OmicsSequenceStoreSseConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#tags OmicsSequenceStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#tags OmicsSequenceStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -67,11 +67,11 @@ export interface OmicsSequenceStoreSseConfig {
   /**
   * An encryption key ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#key_arn OmicsSequenceStore#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#key_arn OmicsSequenceStore#key_arn}
   */
   readonly keyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#type OmicsSequenceStore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#type OmicsSequenceStore#type}
   */
   readonly type?: string;
 }
@@ -194,7 +194,7 @@ export class OmicsSequenceStoreSseConfigOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store awscc_omics_sequence_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store awscc_omics_sequence_store}
 */
 export class OmicsSequenceStore extends cdktn.TerraformResource {
 
@@ -210,7 +210,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsSequenceStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsSequenceStore to import
-  * @param importFromId The id of the existing OmicsSequenceStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsSequenceStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsSequenceStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -222,7 +222,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_sequence_store awscc_omics_sequence_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_sequence_store awscc_omics_sequence_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,7 +233,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_sequence_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

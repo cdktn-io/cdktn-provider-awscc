@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_instances
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/timestream_influx_db_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccTimestreamInfluxDbInstancesConfig extends cdktn.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances}
 */
 export class DataAwsccTimestreamInfluxDbInstances extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccTimestreamInfluxDbInstances extends cdktn.TerraformDataSou
   * Generates CDKTN code for importing a DataAwsccTimestreamInfluxDbInstances resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccTimestreamInfluxDbInstances to import
-  * @param importFromId The id of the existing DataAwsccTimestreamInfluxDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccTimestreamInfluxDbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/timestream_influx_db_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccTimestreamInfluxDbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccTimestreamInfluxDbInstances extends cdktn.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccTimestreamInfluxDbInstances extends cdktn.TerraformDataSou
       terraformResourceType: 'awscc_timestream_influx_db_instances',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

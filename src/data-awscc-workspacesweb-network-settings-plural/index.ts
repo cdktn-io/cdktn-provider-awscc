@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_network_settings_plural
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_network_settings_plural
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccWorkspaceswebNetworkSettingsPluralConfig extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural}
 */
 export class DataAwsccWorkspaceswebNetworkSettingsPlural extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccWorkspaceswebNetworkSettingsPlural extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsccWorkspaceswebNetworkSettingsPlural resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccWorkspaceswebNetworkSettingsPlural to import
-  * @param importFromId The id of the existing DataAwsccWorkspaceswebNetworkSettingsPlural that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_network_settings_plural#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccWorkspaceswebNetworkSettingsPlural that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_network_settings_plural#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccWorkspaceswebNetworkSettingsPlural to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccWorkspaceswebNetworkSettingsPlural extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccWorkspaceswebNetworkSettingsPlural extends cdktn.Terraform
       terraformResourceType: 'awscc_workspacesweb_network_settings_plural',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

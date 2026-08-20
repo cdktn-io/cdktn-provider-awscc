@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface DmsCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
   * The certificate Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
   */
   readonly certificateIdentifier?: string;
   /**
   * The certificate Pem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
   */
   readonly certificatePem?: string;
   /**
   * The certificate Wallet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
   */
   readonly certificateWallet?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate awscc_dms_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate awscc_dms_certificate}
 */
 export class DmsCertificate extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsCertificate to import
-  * @param importFromId The id of the existing DmsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_certificate awscc_dms_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_certificate awscc_dms_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,27 +15,27 @@ export interface ProtonServiceTemplateConfig extends cdktn.TerraformMetaArgument
   /**
   * <p>A description of the service template.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#description ProtonServiceTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#description ProtonServiceTemplate#description}
   */
   readonly description?: string;
   /**
   * <p>The name of the service template as displayed in the developer interface.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#display_name ProtonServiceTemplate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#display_name ProtonServiceTemplate#display_name}
   */
   readonly displayName?: string;
   /**
   * <p>A customer provided encryption key that's used to encrypt data.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#encryption_key ProtonServiceTemplate#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#encryption_key ProtonServiceTemplate#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}
   */
   readonly pipelineProvisioning?: string;
   /**
@@ -43,7 +43,7 @@ export interface ProtonServiceTemplateConfig extends cdktn.TerraformMetaArgument
   *          <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
   *         <i>Proton User Guide</i>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#tags ProtonServiceTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#tags ProtonServiceTemplate#tags}
   */
   readonly tags?: ProtonServiceTemplateTags[] | cdktn.IResolvable;
 }
@@ -51,13 +51,13 @@ export interface ProtonServiceTemplateTags {
   /**
   * <p>The key of the resource tag.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#key ProtonServiceTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#key ProtonServiceTemplate#key}
   */
   readonly key?: string;
   /**
   * <p>The value of the resource tag.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#value ProtonServiceTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#value ProtonServiceTemplate#value}
   */
   readonly value?: string;
 }
@@ -202,7 +202,7 @@ export class ProtonServiceTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template awscc_proton_service_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template awscc_proton_service_template}
 */
 export class ProtonServiceTemplate extends cdktn.TerraformResource {
 
@@ -218,7 +218,7 @@ export class ProtonServiceTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ProtonServiceTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtonServiceTemplate to import
-  * @param importFromId The id of the existing ProtonServiceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtonServiceTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtonServiceTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -230,7 +230,7 @@ export class ProtonServiceTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/proton_service_template awscc_proton_service_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/proton_service_template awscc_proton_service_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,7 +241,7 @@ export class ProtonServiceTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_proton_service_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

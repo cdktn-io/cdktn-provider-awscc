@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface PcsQueueConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the cluster of the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The list of compute node group configurations associated with the queue. Queues assign jobs to associated compute node groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
   */
   readonly computeNodeGroupConfigurations?: PcsQueueComputeNodeGroupConfigurations[] | cdktn.IResolvable;
   /**
   * The name that identifies the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#name PcsQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#name PcsQueue#name}
   */
   readonly name?: string;
   /**
   * The Slurm configuration for the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
   */
   readonly slurmConfiguration?: PcsQueueSlurmConfiguration;
   /**
   * 1 or more tags added to the resource. Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#tags PcsQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#tags PcsQueue#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -47,7 +47,7 @@ export interface PcsQueueComputeNodeGroupConfigurations {
   /**
   * The compute node group ID for the compute node group configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#compute_node_group_id PcsQueue#compute_node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#compute_node_group_id PcsQueue#compute_node_group_id}
   */
   readonly computeNodeGroupId?: string;
 }
@@ -245,13 +245,13 @@ export interface PcsQueueSlurmConfigurationSlurmCustomSettings {
   /**
   * AWS PCS supports configuration of the Slurm parameters for queues:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
   */
   readonly parameterName?: string;
   /**
   * The value for the configured Slurm setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -398,7 +398,7 @@ export interface PcsQueueSlurmConfiguration {
   /**
   * Custom Slurm parameters that directly map to Slurm configuration settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
   */
   readonly slurmCustomSettings?: PcsQueueSlurmConfigurationSlurmCustomSettings[] | cdktn.IResolvable;
 }
@@ -492,7 +492,7 @@ export class PcsQueueSlurmConfigurationOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue awscc_pcs_queue}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue awscc_pcs_queue}
 */
 export class PcsQueue extends cdktn.TerraformResource {
 
@@ -508,7 +508,7 @@ export class PcsQueue extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PcsQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcsQueue to import
-  * @param importFromId The id of the existing PcsQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcsQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcsQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -520,7 +520,7 @@ export class PcsQueue extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_queue awscc_pcs_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue awscc_pcs_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -531,7 +531,7 @@ export class PcsQueue extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pcs_queue',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface Apigatewayv2PortalProductConfig extends cdktn.TerraformMetaArgu
   /**
   * A description of the portal product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product#description Apigatewayv2PortalProduct#description}
   */
   readonly description?: string;
   /**
   * The name of the portal product as it appears in a published portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product#display_name Apigatewayv2PortalProduct#display_name}
   */
   readonly displayName: string;
   /**
   * The collection of tags associated with the portal product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product#tags Apigatewayv2PortalProduct#tags}
   */
   readonly tags?: Apigatewayv2PortalProductTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface Apigatewayv2PortalProductTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product#key Apigatewayv2PortalProduct#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product#key Apigatewayv2PortalProduct#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product#value Apigatewayv2PortalProduct#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product#value Apigatewayv2PortalProduct#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class Apigatewayv2PortalProductTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}
 */
 export class Apigatewayv2PortalProduct extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class Apigatewayv2PortalProduct extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Apigatewayv2PortalProduct resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigatewayv2PortalProduct to import
-  * @param importFromId The id of the existing Apigatewayv2PortalProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigatewayv2PortalProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigatewayv2PortalProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class Apigatewayv2PortalProduct extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class Apigatewayv2PortalProduct extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigatewayv2_portal_product',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

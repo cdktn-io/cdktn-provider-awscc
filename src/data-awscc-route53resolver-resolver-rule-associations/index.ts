@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_resolver_rule_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccRoute53ResolverResolverRuleAssociationsConfig extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations}
 */
 export class DataAwsccRoute53ResolverResolverRuleAssociations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccRoute53ResolverResolverRuleAssociations extends cdktn.Terr
   * Generates CDKTN code for importing a DataAwsccRoute53ResolverResolverRuleAssociations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccRoute53ResolverResolverRuleAssociations to import
-  * @param importFromId The id of the existing DataAwsccRoute53ResolverResolverRuleAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccRoute53ResolverResolverRuleAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_resolver_rule_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccRoute53ResolverResolverRuleAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccRoute53ResolverResolverRuleAssociations extends cdktn.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccRoute53ResolverResolverRuleAssociations extends cdktn.Terr
       terraformResourceType: 'awscc_route53resolver_resolver_rule_associations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

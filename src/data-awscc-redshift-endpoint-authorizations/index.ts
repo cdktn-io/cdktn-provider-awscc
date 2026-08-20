@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_endpoint_authorizations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_endpoint_authorizations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccRedshiftEndpointAuthorizationsConfig extends cdktn.Ter
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations}
 */
 export class DataAwsccRedshiftEndpointAuthorizations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccRedshiftEndpointAuthorizations extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccRedshiftEndpointAuthorizations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccRedshiftEndpointAuthorizations to import
-  * @param importFromId The id of the existing DataAwsccRedshiftEndpointAuthorizations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_endpoint_authorizations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccRedshiftEndpointAuthorizations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_endpoint_authorizations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccRedshiftEndpointAuthorizations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccRedshiftEndpointAuthorizations extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_endpoint_authorizations awscc_redshift_endpoint_authorizations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccRedshiftEndpointAuthorizations extends cdktn.TerraformData
       terraformResourceType: 'awscc_redshift_endpoint_authorizations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

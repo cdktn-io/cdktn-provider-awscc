@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBedrockagentcoreCodeInterpreterCustomsConfig extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}
 */
 export class DataAwsccBedrockagentcoreCodeInterpreterCustoms extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccBedrockagentcoreCodeInterpreterCustoms extends cdktn.Terra
   * Generates CDKTN code for importing a DataAwsccBedrockagentcoreCodeInterpreterCustoms resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcoreCodeInterpreterCustoms to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcoreCodeInterpreterCustoms that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcoreCodeInterpreterCustoms that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcoreCodeInterpreterCustoms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccBedrockagentcoreCodeInterpreterCustoms extends cdktn.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccBedrockagentcoreCodeInterpreterCustoms extends cdktn.Terra
       terraformResourceType: 'awscc_bedrockagentcore_code_interpreter_customs',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

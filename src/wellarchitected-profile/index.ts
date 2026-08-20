@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface WellarchitectedProfileConfig extends cdktn.TerraformMetaArgumen
   /**
   * The profile description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#profile_description WellarchitectedProfile#profile_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#profile_description WellarchitectedProfile#profile_description}
   */
   readonly profileDescription: string;
   /**
   * The name of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#profile_name WellarchitectedProfile#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#profile_name WellarchitectedProfile#profile_name}
   */
   readonly profileName: string;
   /**
   * The profile questions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#profile_questions WellarchitectedProfile#profile_questions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#profile_questions WellarchitectedProfile#profile_questions}
   */
   readonly profileQuestions: WellarchitectedProfileProfileQuestions[] | cdktn.IResolvable;
   /**
   * The tags assigned to the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#tags WellarchitectedProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#tags WellarchitectedProfile#tags}
   */
   readonly tags?: WellarchitectedProfileTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface WellarchitectedProfileProfileQuestions {
   /**
   * The ID of the question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#question_id WellarchitectedProfile#question_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#question_id WellarchitectedProfile#question_id}
   */
   readonly questionId?: string;
   /**
   * The selected choices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#selected_choice_ids WellarchitectedProfile#selected_choice_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#selected_choice_ids WellarchitectedProfile#selected_choice_ids}
   */
   readonly selectedChoiceIds?: string[];
 }
@@ -194,13 +194,13 @@ export interface WellarchitectedProfileTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#key WellarchitectedProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#key WellarchitectedProfile#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#value WellarchitectedProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#value WellarchitectedProfile#value}
   */
   readonly value?: string;
 }
@@ -345,7 +345,7 @@ export class WellarchitectedProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile}
 */
 export class WellarchitectedProfile extends cdktn.TerraformResource {
 
@@ -361,7 +361,7 @@ export class WellarchitectedProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WellarchitectedProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WellarchitectedProfile to import
-  * @param importFromId The id of the existing WellarchitectedProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WellarchitectedProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WellarchitectedProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -373,7 +373,7 @@ export class WellarchitectedProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,7 +384,7 @@ export class WellarchitectedProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wellarchitected_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

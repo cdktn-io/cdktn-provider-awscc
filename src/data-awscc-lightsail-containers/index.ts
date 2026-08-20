@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_containers
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_containers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLightsailContainersConfig extends cdktn.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_containers awscc_lightsail_containers}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_containers awscc_lightsail_containers}
 */
 export class DataAwsccLightsailContainers extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccLightsailContainers extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccLightsailContainers resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLightsailContainers to import
-  * @param importFromId The id of the existing DataAwsccLightsailContainers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_containers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLightsailContainers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_containers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLightsailContainers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccLightsailContainers extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_containers awscc_lightsail_containers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_containers awscc_lightsail_containers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccLightsailContainers extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_lightsail_containers',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_resource_policies
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLogsResourcePoliciesConfig extends cdktn.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_resource_policies awscc_logs_resource_policies}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policies awscc_logs_resource_policies}
 */
 export class DataAwsccLogsResourcePolicies extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccLogsResourcePolicies extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccLogsResourcePolicies resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLogsResourcePolicies to import
-  * @param importFromId The id of the existing DataAwsccLogsResourcePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_resource_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLogsResourcePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLogsResourcePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccLogsResourcePolicies extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_resource_policies awscc_logs_resource_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policies awscc_logs_resource_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccLogsResourcePolicies extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_logs_resource_policies',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface RekognitionDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The type of the dataset. Specify TRAIN to create a training dataset. Specify TEST to create a test dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
   */
   readonly datasetType: string;
   /**
   * The ARN of the project to which the dataset belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
   */
   readonly projectArn?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
   */
   readonly tags?: RekognitionDatasetTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface RekognitionDatasetTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#key RekognitionDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#key RekognitionDataset#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#value RekognitionDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#value RekognitionDataset#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class RekognitionDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}
 */
 export class RekognitionDataset extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class RekognitionDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RekognitionDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RekognitionDataset to import
-  * @param importFromId The id of the existing RekognitionDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RekognitionDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RekognitionDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class RekognitionDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset awscc_rekognition_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset awscc_rekognition_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class RekognitionDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rekognition_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
