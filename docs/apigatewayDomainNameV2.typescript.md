@@ -4,7 +4,7 @@
 
 ### ApigatewayDomainNameV2 <a name="ApigatewayDomainNameV2" id="@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2 awscc_apigateway_domain_name_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2 awscc_apigateway_domain_name_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2.Initializer"></a>
 
@@ -571,7 +571,7 @@ The construct id used in the generated config for the ApigatewayDomainNameV2 to 
 
 The id of the existing ApigatewayDomainNameV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -996,14 +996,14 @@ const apigatewayDomainNameV2Config: apigatewayDomainNameV2.ApigatewayDomainNameV
 | <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.certificateArn">certificateArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#certificate_arn ApigatewayDomainNameV2#certificate_arn}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.domainName">domainName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#domain_name ApigatewayDomainNameV2#domain_name}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.endpointAccessMode">endpointAccessMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#endpoint_access_mode ApigatewayDomainNameV2#endpoint_access_mode}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.endpointConfiguration">endpointConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration">ApigatewayDomainNameV2EndpointConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#endpoint_configuration ApigatewayDomainNameV2#endpoint_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#policy ApigatewayDomainNameV2#policy}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.certificateArn">certificateArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#certificate_arn ApigatewayDomainNameV2#certificate_arn}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.domainName">domainName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#domain_name ApigatewayDomainNameV2#domain_name}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.endpointAccessMode">endpointAccessMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#endpoint_access_mode ApigatewayDomainNameV2#endpoint_access_mode}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.endpointConfiguration">endpointConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration">ApigatewayDomainNameV2EndpointConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#endpoint_configuration ApigatewayDomainNameV2#endpoint_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#policy ApigatewayDomainNameV2#policy}. |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.routingMode">routingMode</a></code> | <code>string</code> | The valid routing modes are [BASE_PATH_MAPPING_ONLY], [ROUTING_RULE_THEN_BASE_PATH_MAPPING] and [ROUTING_RULE_ONLY]. All other inputs are invalid. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.securityPolicy">securityPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#security_policy ApigatewayDomainNameV2#security_policy}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags">ApigatewayDomainNameV2Tags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#tags ApigatewayDomainNameV2#tags}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.securityPolicy">securityPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#security_policy ApigatewayDomainNameV2#security_policy}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Config.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags">ApigatewayDomainNameV2Tags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#tags ApigatewayDomainNameV2#tags}. |
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly certificateArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#certificate_arn ApigatewayDomainNameV2#certificate_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#certificate_arn ApigatewayDomainNameV2#certificate_arn}.
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly domainName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#domain_name ApigatewayDomainNameV2#domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#domain_name ApigatewayDomainNameV2#domain_name}.
 
 ---
 
@@ -1109,7 +1109,7 @@ public readonly endpointAccessMode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#endpoint_access_mode ApigatewayDomainNameV2#endpoint_access_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#endpoint_access_mode ApigatewayDomainNameV2#endpoint_access_mode}.
 
 ---
 
@@ -1121,7 +1121,7 @@ public readonly endpointConfiguration: ApigatewayDomainNameV2EndpointConfigurati
 
 - *Type:* <a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration">ApigatewayDomainNameV2EndpointConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#endpoint_configuration ApigatewayDomainNameV2#endpoint_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#endpoint_configuration ApigatewayDomainNameV2#endpoint_configuration}.
 
 ---
 
@@ -1133,7 +1133,7 @@ public readonly policy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#policy ApigatewayDomainNameV2#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#policy ApigatewayDomainNameV2#policy}.
 
 ---
 
@@ -1147,7 +1147,7 @@ public readonly routingMode: string;
 
 The valid routing modes are [BASE_PATH_MAPPING_ONLY], [ROUTING_RULE_THEN_BASE_PATH_MAPPING] and [ROUTING_RULE_ONLY]. All other inputs are invalid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#routing_mode ApigatewayDomainNameV2#routing_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#routing_mode ApigatewayDomainNameV2#routing_mode}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly securityPolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#security_policy ApigatewayDomainNameV2#security_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#security_policy ApigatewayDomainNameV2#security_policy}.
 
 ---
 
@@ -1171,7 +1171,7 @@ public readonly tags: IResolvable | ApigatewayDomainNameV2Tags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags">ApigatewayDomainNameV2Tags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#tags ApigatewayDomainNameV2#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#tags ApigatewayDomainNameV2#tags}.
 
 ---
 
@@ -1189,8 +1189,8 @@ const apigatewayDomainNameV2EndpointConfiguration: apigatewayDomainNameV2.Apigat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration.property.ipAddressType">ipAddressType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#ip_address_type ApigatewayDomainNameV2#ip_address_type}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration.property.types">types</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#types ApigatewayDomainNameV2#types}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration.property.ipAddressType">ipAddressType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#ip_address_type ApigatewayDomainNameV2#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2EndpointConfiguration.property.types">types</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#types ApigatewayDomainNameV2#types}. |
 
 ---
 
@@ -1202,7 +1202,7 @@ public readonly ipAddressType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#ip_address_type ApigatewayDomainNameV2#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#ip_address_type ApigatewayDomainNameV2#ip_address_type}.
 
 ---
 
@@ -1214,7 +1214,7 @@ public readonly types: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#types ApigatewayDomainNameV2#types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#types ApigatewayDomainNameV2#types}.
 
 ---
 
@@ -1232,8 +1232,8 @@ const apigatewayDomainNameV2Tags: apigatewayDomainNameV2.ApigatewayDomainNameV2T
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#key ApigatewayDomainNameV2#key}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#value ApigatewayDomainNameV2#value}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#key ApigatewayDomainNameV2#key}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDomainNameV2.ApigatewayDomainNameV2Tags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#value ApigatewayDomainNameV2#value}. |
 
 ---
 
@@ -1245,7 +1245,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#key ApigatewayDomainNameV2#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#key ApigatewayDomainNameV2#key}.
 
 ---
 
@@ -1257,7 +1257,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_domain_name_v2#value ApigatewayDomainNameV2#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_domain_name_v2#value ApigatewayDomainNameV2#value}.
 
 ---
 

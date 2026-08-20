@@ -4,7 +4,7 @@
 
 ### KinesisStreamConsumer <a name="KinesisStreamConsumer" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisStreamConsumer.KinesisStreamConsumer.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the KinesisStreamConsumer to i
 
 The id of the existing KinesisStreamConsumer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -934,7 +934,7 @@ The name of the Kinesis Stream Consumer.
 
 For a given Kinesis data stream, each consumer must have a unique name. However, consumer names don't have to be unique across data streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer#consumer_name KinesisStreamConsumer#consumer_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer#consumer_name KinesisStreamConsumer#consumer_name}
 
 ---
 
@@ -948,7 +948,7 @@ public string StreamArn { get; set; }
 
 The Amazon resource name (ARN) of the Kinesis data stream that you want to register the consumer with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer#stream_arn KinesisStreamConsumer#stream_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer#stream_arn KinesisStreamConsumer#stream_arn}
 
 ---
 
@@ -962,7 +962,7 @@ public IResolvable|KinesisStreamConsumerTags[] Tags { get; set; }
 
 An arbitrary set of tags (key–value pairs) to associate with the Kinesis consumer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer#tags KinesisStreamConsumer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer#tags KinesisStreamConsumer#tags}
 
 ---
 
@@ -1000,7 +1000,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer#key KinesisStreamConsumer#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer#key KinesisStreamConsumer#key}
 
 ---
 
@@ -1016,7 +1016,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer#value KinesisStreamConsumer#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer#value KinesisStreamConsumer#value}
 
 ---
 

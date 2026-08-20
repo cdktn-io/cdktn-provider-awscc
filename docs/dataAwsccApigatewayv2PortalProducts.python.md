@@ -4,7 +4,7 @@
 
 ### DataAwsccApigatewayv2PortalProducts <a name="DataAwsccApigatewayv2PortalProducts" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProducts.DataAwsccApigatewayv2PortalProducts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_portal_products awscc_apigatewayv2_portal_products}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_portal_products awscc_apigatewayv2_portal_products}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApigatewayv2PortalProducts.DataAwsccApigatewayv2PortalProducts.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccApigatewayv2Porta
 
 The id of the existing DataAwsccApigatewayv2PortalProducts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_portal_products#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_portal_products#import import section} in the documentation of this resource for the id to use
 
 ---
 

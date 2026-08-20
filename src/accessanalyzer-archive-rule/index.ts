@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface AccessanalyzerArchiveRuleConfig extends cdktn.TerraformMetaArgu
   /**
   * The name of the analyzer for the archive rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#analyzer_name AccessanalyzerArchiveRule#analyzer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#analyzer_name AccessanalyzerArchiveRule#analyzer_name}
   */
   readonly analyzerName: string;
   /**
   * The criteria for the archive rule. A map of filter criteria property names to their criterion values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#filter AccessanalyzerArchiveRule#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#filter AccessanalyzerArchiveRule#filter}
   */
   readonly filter: { [key: string]: AccessanalyzerArchiveRuleFilter } | cdktn.IResolvable;
   /**
   * The name of the archive rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#rule_name AccessanalyzerArchiveRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#rule_name AccessanalyzerArchiveRule#rule_name}
   */
   readonly ruleName: string;
 }
 export interface AccessanalyzerArchiveRuleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#contains AccessanalyzerArchiveRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#contains AccessanalyzerArchiveRule#contains}
   */
   readonly contains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#eq AccessanalyzerArchiveRule#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#eq AccessanalyzerArchiveRule#eq}
   */
   readonly eq?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#exists AccessanalyzerArchiveRule#exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#exists AccessanalyzerArchiveRule#exists}
   */
   readonly exists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#neq AccessanalyzerArchiveRule#neq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#neq AccessanalyzerArchiveRule#neq}
   */
   readonly neq?: string[];
 }
@@ -246,7 +246,7 @@ export class AccessanalyzerArchiveRuleFilterMap extends cdktn.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}
 */
 export class AccessanalyzerArchiveRule extends cdktn.TerraformResource {
 
@@ -262,7 +262,7 @@ export class AccessanalyzerArchiveRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AccessanalyzerArchiveRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessanalyzerArchiveRule to import
-  * @param importFromId The id of the existing AccessanalyzerArchiveRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessanalyzerArchiveRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessanalyzerArchiveRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -274,7 +274,7 @@ export class AccessanalyzerArchiveRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,7 +285,7 @@ export class AccessanalyzerArchiveRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_accessanalyzer_archive_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

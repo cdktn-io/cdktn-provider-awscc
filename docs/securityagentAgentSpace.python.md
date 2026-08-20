@@ -4,7 +4,7 @@
 
 ### SecurityagentAgentSpace <a name="SecurityagentAgentSpace" id="@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentAgentSpace.SecurityagentAgentSpace.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS resource configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#aws_resources SecurityagentAgentSpace#aws_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#aws_resources SecurityagentAgentSpace#aws_resources}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Details of code review settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#code_review_settings SecurityagentAgentSpace#code_review_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#code_review_settings SecurityagentAgentSpace#code_review_settings}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description of the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#description SecurityagentAgentSpace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#description SecurityagentAgentSpace#description}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Integrated Resources configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#integrated_resources SecurityagentAgentSpace#integrated_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#integrated_resources SecurityagentAgentSpace#integrated_resources}
 
 ---
 
@@ -172,7 +172,7 @@ Identifier of the KMS key used to encrypt data.
 
 Can be a key ID, key ARN, alias name, or alias ARN. If not specified, an AWS managed key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#kms_key_id SecurityagentAgentSpace#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#kms_key_id SecurityagentAgentSpace#kms_key_id}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags for the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#tags SecurityagentAgentSpace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#tags SecurityagentAgentSpace#tags}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of target domain identifiers registered with the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#target_domain_ids SecurityagentAgentSpace#target_domain_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#target_domain_ids SecurityagentAgentSpace#target_domain_ids}
 
 ---
 
@@ -605,7 +605,7 @@ def put_aws_resources(
 
 IAM role ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#iam_roles SecurityagentAgentSpace#iam_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#iam_roles SecurityagentAgentSpace#iam_roles}
 
 ---
 
@@ -615,7 +615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Lambda function ARNs used to retrieve tester credentials for pentests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#lambda_function_arns SecurityagentAgentSpace#lambda_function_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#lambda_function_arns SecurityagentAgentSpace#lambda_function_arns}
 
 ---
 
@@ -625,7 +625,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 CloudWatch log group ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#log_groups SecurityagentAgentSpace#log_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#log_groups SecurityagentAgentSpace#log_groups}
 
 ---
 
@@ -635,7 +635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 S3 bucket ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#s3_buckets SecurityagentAgentSpace#s3_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#s3_buckets SecurityagentAgentSpace#s3_buckets}
 
 ---
 
@@ -645,7 +645,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SecretsManager secret ARNs used to store tester credentials for pentests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#secret_arns SecurityagentAgentSpace#secret_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#secret_arns SecurityagentAgentSpace#secret_arns}
 
 ---
 
@@ -655,7 +655,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 VPC configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#vpcs SecurityagentAgentSpace#vpcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#vpcs SecurityagentAgentSpace#vpcs}
 
 ---
 
@@ -674,7 +674,7 @@ def put_code_review_settings(
 
 Whether Controls are utilized for code review analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#controls_scanning SecurityagentAgentSpace#controls_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#controls_scanning SecurityagentAgentSpace#controls_scanning}
 
 ---
 
@@ -684,7 +684,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether general purpose analysis is performed for code review.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#general_purpose_scanning SecurityagentAgentSpace#general_purpose_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#general_purpose_scanning SecurityagentAgentSpace#general_purpose_scanning}
 
 ---
 
@@ -872,7 +872,7 @@ The construct id used in the generated config for the SecurityagentAgentSpace to
 
 The id of the existing SecurityagentAgentSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1327,7 +1327,7 @@ iam_roles: typing.List[str]
 
 IAM role ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#iam_roles SecurityagentAgentSpace#iam_roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#iam_roles SecurityagentAgentSpace#iam_roles}
 
 ---
 
@@ -1341,7 +1341,7 @@ lambda_function_arns: typing.List[str]
 
 Lambda function ARNs used to retrieve tester credentials for pentests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#lambda_function_arns SecurityagentAgentSpace#lambda_function_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#lambda_function_arns SecurityagentAgentSpace#lambda_function_arns}
 
 ---
 
@@ -1355,7 +1355,7 @@ log_groups: typing.List[str]
 
 CloudWatch log group ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#log_groups SecurityagentAgentSpace#log_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#log_groups SecurityagentAgentSpace#log_groups}
 
 ---
 
@@ -1369,7 +1369,7 @@ s3_buckets: typing.List[str]
 
 S3 bucket ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#s3_buckets SecurityagentAgentSpace#s3_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#s3_buckets SecurityagentAgentSpace#s3_buckets}
 
 ---
 
@@ -1383,7 +1383,7 @@ secret_arns: typing.List[str]
 
 SecretsManager secret ARNs used to store tester credentials for pentests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#secret_arns SecurityagentAgentSpace#secret_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#secret_arns SecurityagentAgentSpace#secret_arns}
 
 ---
 
@@ -1397,7 +1397,7 @@ vpcs: IResolvable | typing.List[SecurityagentAgentSpaceAwsResourcesVpcs]
 
 VPC configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#vpcs SecurityagentAgentSpace#vpcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#vpcs SecurityagentAgentSpace#vpcs}
 
 ---
 
@@ -1435,7 +1435,7 @@ security_group_arns: typing.List[str]
 
 List of security group ARNs in the customer VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#security_group_arns SecurityagentAgentSpace#security_group_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#security_group_arns SecurityagentAgentSpace#security_group_arns}
 
 ---
 
@@ -1449,7 +1449,7 @@ subnet_arns: typing.List[str]
 
 List of subnet ARNs in the customer VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#subnet_arns SecurityagentAgentSpace#subnet_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#subnet_arns SecurityagentAgentSpace#subnet_arns}
 
 ---
 
@@ -1463,7 +1463,7 @@ vpc_arn: str
 
 ARN of the customer VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#vpc_arn SecurityagentAgentSpace#vpc_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#vpc_arn SecurityagentAgentSpace#vpc_arn}
 
 ---
 
@@ -1499,7 +1499,7 @@ controls_scanning: bool | IResolvable
 
 Whether Controls are utilized for code review analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#controls_scanning SecurityagentAgentSpace#controls_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#controls_scanning SecurityagentAgentSpace#controls_scanning}
 
 ---
 
@@ -1513,7 +1513,7 @@ general_purpose_scanning: bool | IResolvable
 
 Whether general purpose analysis is performed for code review.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#general_purpose_scanning SecurityagentAgentSpace#general_purpose_scanning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#general_purpose_scanning SecurityagentAgentSpace#general_purpose_scanning}
 
 ---
 
@@ -1645,7 +1645,7 @@ name: str
 
 Name of the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -1659,7 +1659,7 @@ aws_resources: SecurityagentAgentSpaceAwsResources
 
 AWS resource configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#aws_resources SecurityagentAgentSpace#aws_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#aws_resources SecurityagentAgentSpace#aws_resources}
 
 ---
 
@@ -1673,7 +1673,7 @@ code_review_settings: SecurityagentAgentSpaceCodeReviewSettings
 
 Details of code review settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#code_review_settings SecurityagentAgentSpace#code_review_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#code_review_settings SecurityagentAgentSpace#code_review_settings}
 
 ---
 
@@ -1687,7 +1687,7 @@ description: str
 
 Description of the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#description SecurityagentAgentSpace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#description SecurityagentAgentSpace#description}
 
 ---
 
@@ -1701,7 +1701,7 @@ integrated_resources: IResolvable | typing.List[SecurityagentAgentSpaceIntegrate
 
 Integrated Resources configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#integrated_resources SecurityagentAgentSpace#integrated_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#integrated_resources SecurityagentAgentSpace#integrated_resources}
 
 ---
 
@@ -1717,7 +1717,7 @@ Identifier of the KMS key used to encrypt data.
 
 Can be a key ID, key ARN, alias name, or alias ARN. If not specified, an AWS managed key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#kms_key_id SecurityagentAgentSpace#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#kms_key_id SecurityagentAgentSpace#kms_key_id}
 
 ---
 
@@ -1731,7 +1731,7 @@ tags: IResolvable | typing.List[SecurityagentAgentSpaceTags]
 
 Tags for the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#tags SecurityagentAgentSpace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#tags SecurityagentAgentSpace#tags}
 
 ---
 
@@ -1745,7 +1745,7 @@ target_domain_ids: typing.List[str]
 
 List of target domain identifiers registered with the agent space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#target_domain_ids SecurityagentAgentSpace#target_domain_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#target_domain_ids SecurityagentAgentSpace#target_domain_ids}
 
 ---
 
@@ -1781,7 +1781,7 @@ integration: str
 
 Unique identifier of the Provider Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#integration SecurityagentAgentSpace#integration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#integration SecurityagentAgentSpace#integration}
 
 ---
 
@@ -1795,7 +1795,7 @@ provider_resources: IResolvable | typing.List[SecurityagentAgentSpaceIntegratedR
 
 List of selected Resources from the Integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#provider_resources SecurityagentAgentSpace#provider_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#provider_resources SecurityagentAgentSpace#provider_resources}
 
 ---
 
@@ -1843,7 +1843,7 @@ bitbucket_capabilities: SecurityagentAgentSpaceIntegratedResourcesProviderResour
 
 Bitbucket repository capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#bitbucket_capabilities SecurityagentAgentSpace#bitbucket_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#bitbucket_capabilities SecurityagentAgentSpace#bitbucket_capabilities}
 
 ---
 
@@ -1857,7 +1857,7 @@ bitbucket_repository: SecurityagentAgentSpaceIntegratedResourcesProviderResource
 
 Bitbucket repository details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#bitbucket_repository SecurityagentAgentSpace#bitbucket_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#bitbucket_repository SecurityagentAgentSpace#bitbucket_repository}
 
 ---
 
@@ -1871,7 +1871,7 @@ confluence_capabilities: SecurityagentAgentSpaceIntegratedResourcesProviderResou
 
 Confluence document capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#confluence_capabilities SecurityagentAgentSpace#confluence_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#confluence_capabilities SecurityagentAgentSpace#confluence_capabilities}
 
 ---
 
@@ -1885,7 +1885,7 @@ confluence_document: SecurityagentAgentSpaceIntegratedResourcesProviderResources
 
 Confluence document details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#confluence_document SecurityagentAgentSpace#confluence_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#confluence_document SecurityagentAgentSpace#confluence_document}
 
 ---
 
@@ -1899,7 +1899,7 @@ git_hub_capabilities: SecurityagentAgentSpaceIntegratedResourcesProviderResource
 
 GitHub repository capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#git_hub_capabilities SecurityagentAgentSpace#git_hub_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#git_hub_capabilities SecurityagentAgentSpace#git_hub_capabilities}
 
 ---
 
@@ -1913,7 +1913,7 @@ git_hub_repository: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesG
 
 GitHub repository details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#git_hub_repository SecurityagentAgentSpace#git_hub_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#git_hub_repository SecurityagentAgentSpace#git_hub_repository}
 
 ---
 
@@ -1927,7 +1927,7 @@ git_lab_capabilities: SecurityagentAgentSpaceIntegratedResourcesProviderResource
 
 GitLab repository capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#git_lab_capabilities SecurityagentAgentSpace#git_lab_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#git_lab_capabilities SecurityagentAgentSpace#git_lab_capabilities}
 
 ---
 
@@ -1941,7 +1941,7 @@ git_lab_repository: SecurityagentAgentSpaceIntegratedResourcesProviderResourcesG
 
 GitLab repository details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#git_lab_repository SecurityagentAgentSpace#git_lab_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#git_lab_repository SecurityagentAgentSpace#git_lab_repository}
 
 ---
 
@@ -1977,7 +1977,7 @@ leave_comments: bool | IResolvable
 
 Enables Code Review in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
 
 ---
 
@@ -1991,7 +1991,7 @@ remediate_code: bool | IResolvable
 
 Enables creation of pull requests with automated fixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
 
 ---
 
@@ -2027,7 +2027,7 @@ name: str
 
 Bitbucket repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -2041,7 +2041,7 @@ workspace: str
 
 Bitbucket workspace slug owning the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#workspace SecurityagentAgentSpace#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#workspace SecurityagentAgentSpace#workspace}
 
 ---
 
@@ -2079,7 +2079,7 @@ create_document: bool | IResolvable
 
 Enables creation of new Confluence documents in the same space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#create_document SecurityagentAgentSpace#create_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#create_document SecurityagentAgentSpace#create_document}
 
 ---
 
@@ -2093,7 +2093,7 @@ fetch_document: bool | IResolvable
 
 Enables read access to the document content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#fetch_document SecurityagentAgentSpace#fetch_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#fetch_document SecurityagentAgentSpace#fetch_document}
 
 ---
 
@@ -2107,7 +2107,7 @@ update_document: bool | IResolvable
 
 Enables updates to the document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#update_document SecurityagentAgentSpace#update_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#update_document SecurityagentAgentSpace#update_document}
 
 ---
 
@@ -2149,7 +2149,7 @@ name: str
 
 Customer-supplied logical name for the Confluence document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -2163,7 +2163,7 @@ page_id: str
 
 Confluence page identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#page_id SecurityagentAgentSpace#page_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#page_id SecurityagentAgentSpace#page_id}
 
 ---
 
@@ -2177,7 +2177,7 @@ space_key: str
 
 Confluence space key containing the document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#space_key SecurityagentAgentSpace#space_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#space_key SecurityagentAgentSpace#space_key}
 
 ---
 
@@ -2191,7 +2191,7 @@ space_title: str
 
 Read-only human-readable title of the containing space, populated from service-side metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#space_title SecurityagentAgentSpace#space_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#space_title SecurityagentAgentSpace#space_title}
 
 ---
 
@@ -2205,7 +2205,7 @@ title: str
 
 Read-only human-readable title of the page, populated from service-side metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#title SecurityagentAgentSpace#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#title SecurityagentAgentSpace#title}
 
 ---
 
@@ -2241,7 +2241,7 @@ leave_comments: bool | IResolvable
 
 Enables Code Review in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
 
 ---
 
@@ -2255,7 +2255,7 @@ remediate_code: bool | IResolvable
 
 Enables creation of pull requests with automated fixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
 
 ---
 
@@ -2291,7 +2291,7 @@ name: str
 
 GitHub repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -2305,7 +2305,7 @@ owner: str
 
 GitHub repository owner (user or organization).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#owner SecurityagentAgentSpace#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#owner SecurityagentAgentSpace#owner}
 
 ---
 
@@ -2341,7 +2341,7 @@ leave_comments: bool | IResolvable
 
 Enables Code Review in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
 
 ---
 
@@ -2355,7 +2355,7 @@ remediate_code: bool | IResolvable
 
 Enables creation of merge requests with automated fixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
 
 ---
 
@@ -2391,7 +2391,7 @@ name: str
 
 GitLab project name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -2405,7 +2405,7 @@ namespace: str
 
 GitLab project namespace (user, group, or subgroup path).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#namespace SecurityagentAgentSpace#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#namespace SecurityagentAgentSpace#namespace}
 
 ---
 
@@ -2441,7 +2441,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#key SecurityagentAgentSpace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#key SecurityagentAgentSpace#key}
 
 ---
 
@@ -2455,7 +2455,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#value SecurityagentAgentSpace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#value SecurityagentAgentSpace#value}
 
 ---
 
@@ -7565,7 +7565,7 @@ def put_bitbucket_capabilities(
 
 Enables Code Review in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
 
 ---
 
@@ -7575,7 +7575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables creation of pull requests with automated fixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
 
 ---
 
@@ -7594,7 +7594,7 @@ def put_bitbucket_repository(
 
 Bitbucket repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -7604,7 +7604,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Bitbucket workspace slug owning the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#workspace SecurityagentAgentSpace#workspace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#workspace SecurityagentAgentSpace#workspace}
 
 ---
 
@@ -7624,7 +7624,7 @@ def put_confluence_capabilities(
 
 Enables creation of new Confluence documents in the same space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#create_document SecurityagentAgentSpace#create_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#create_document SecurityagentAgentSpace#create_document}
 
 ---
 
@@ -7634,7 +7634,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables read access to the document content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#fetch_document SecurityagentAgentSpace#fetch_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#fetch_document SecurityagentAgentSpace#fetch_document}
 
 ---
 
@@ -7644,7 +7644,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables updates to the document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#update_document SecurityagentAgentSpace#update_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#update_document SecurityagentAgentSpace#update_document}
 
 ---
 
@@ -7666,7 +7666,7 @@ def put_confluence_document(
 
 Customer-supplied logical name for the Confluence document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -7676,7 +7676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Confluence page identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#page_id SecurityagentAgentSpace#page_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#page_id SecurityagentAgentSpace#page_id}
 
 ---
 
@@ -7686,7 +7686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Confluence space key containing the document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#space_key SecurityagentAgentSpace#space_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#space_key SecurityagentAgentSpace#space_key}
 
 ---
 
@@ -7696,7 +7696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Read-only human-readable title of the containing space, populated from service-side metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#space_title SecurityagentAgentSpace#space_title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#space_title SecurityagentAgentSpace#space_title}
 
 ---
 
@@ -7706,7 +7706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Read-only human-readable title of the page, populated from service-side metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#title SecurityagentAgentSpace#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#title SecurityagentAgentSpace#title}
 
 ---
 
@@ -7725,7 +7725,7 @@ def put_git_hub_capabilities(
 
 Enables Code Review in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
 
 ---
 
@@ -7735,7 +7735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables creation of pull requests with automated fixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
 
 ---
 
@@ -7754,7 +7754,7 @@ def put_git_hub_repository(
 
 GitHub repository name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -7764,7 +7764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitHub repository owner (user or organization).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#owner SecurityagentAgentSpace#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#owner SecurityagentAgentSpace#owner}
 
 ---
 
@@ -7783,7 +7783,7 @@ def put_git_lab_capabilities(
 
 Enables Code Review in the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#leave_comments SecurityagentAgentSpace#leave_comments}
 
 ---
 
@@ -7793,7 +7793,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables creation of merge requests with automated fixes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#remediate_code SecurityagentAgentSpace#remediate_code}
 
 ---
 
@@ -7812,7 +7812,7 @@ def put_git_lab_repository(
 
 GitLab project name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#name SecurityagentAgentSpace#name}
 
 ---
 
@@ -7822,7 +7822,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab project namespace (user, group, or subgroup path).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#namespace SecurityagentAgentSpace#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space#namespace SecurityagentAgentSpace#namespace}
 
 ---
 

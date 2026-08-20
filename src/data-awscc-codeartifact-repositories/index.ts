@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_repositories
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codeartifact_repositories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCodeartifactRepositoriesConfig extends cdktn.Terraform
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories}
 */
 export class DataAwsccCodeartifactRepositories extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccCodeartifactRepositories extends cdktn.TerraformDataSource
   * Generates CDKTN code for importing a DataAwsccCodeartifactRepositories resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCodeartifactRepositories to import
-  * @param importFromId The id of the existing DataAwsccCodeartifactRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_repositories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCodeartifactRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codeartifact_repositories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCodeartifactRepositories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccCodeartifactRepositories extends cdktn.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codeartifact_repositories awscc_codeartifact_repositories} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccCodeartifactRepositories extends cdktn.TerraformDataSource
       terraformResourceType: 'awscc_codeartifact_repositories',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

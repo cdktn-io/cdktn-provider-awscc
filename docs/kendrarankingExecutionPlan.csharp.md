@@ -4,7 +4,7 @@
 
 ### KendrarankingExecutionPlan <a name="KendrarankingExecutionPlan" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan awscc_kendraranking_execution_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlan.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the KendrarankingExecutionPlan
 
 The id of the existing KendrarankingExecutionPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -868,7 +868,7 @@ new KendrarankingExecutionPlanCapacityUnits {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits.property.rescoreCapacityUnits">RescoreCapacityUnits</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.kendrarankingExecutionPlan.KendrarankingExecutionPlanCapacityUnits.property.rescoreCapacityUnits">RescoreCapacityUnits</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}. |
 
 ---
 
@@ -880,7 +880,7 @@ public double RescoreCapacityUnits { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#rescore_capacity_units KendrarankingExecutionPlan#rescore_capacity_units}.
 
 ---
 
@@ -1004,7 +1004,7 @@ public string Name { get; set; }
 
 Name of kendra ranking rescore execution plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
 
 ---
 
@@ -1018,7 +1018,7 @@ public KendrarankingExecutionPlanCapacityUnits CapacityUnits { get; set; }
 
 Capacity units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
 
 ---
 
@@ -1032,7 +1032,7 @@ public string Description { get; set; }
 
 A description for the execution plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
 
 ---
 
@@ -1046,7 +1046,7 @@ public IResolvable|KendrarankingExecutionPlanTags[] Tags { get; set; }
 
 Tags for labeling the execution plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
 
 ---
 
@@ -1082,7 +1082,7 @@ public string Key { get; set; }
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#key KendrarankingExecutionPlan#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#key KendrarankingExecutionPlan#key}
 
 ---
 
@@ -1096,7 +1096,7 @@ public string Value { get; set; }
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendraranking_execution_plan#value KendrarankingExecutionPlan#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendraranking_execution_plan#value KendrarankingExecutionPlan#value}
 
 ---
 

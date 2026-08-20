@@ -4,7 +4,7 @@
 
 ### DataAwsccVpclatticeServices <a name="DataAwsccVpclatticeServices" id="@cdktn/provider-awscc.dataAwsccVpclatticeServices.DataAwsccVpclatticeServices"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_services awscc_vpclattice_services}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/vpclattice_services awscc_vpclattice_services}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccVpclatticeServices.DataAwsccVpclatticeServices.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccVpclatticeService
 
 The id of the existing DataAwsccVpclatticeServices that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_services#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/vpclattice_services#import import section} in the documentation of this resource for the id to use
 
 ---
 

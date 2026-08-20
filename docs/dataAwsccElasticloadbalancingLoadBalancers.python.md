@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticloadbalancingLoadBalancers <a name="DataAwsccElasticloadbalancingLoadBalancers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingLoadBalancers.DataAwsccElasticloadbalancingLoadBalancers.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingLoadBalancers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancing_load_balancers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancing_load_balancers#import import section} in the documentation of this resource for the id to use
 
 ---
 

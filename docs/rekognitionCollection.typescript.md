@@ -4,7 +4,7 @@
 
 ### RekognitionCollection <a name="RekognitionCollection" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_collection awscc_rekognition_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_collection awscc_rekognition_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionCollection.RekognitionCollection.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RekognitionCollection to i
 
 The id of the existing RekognitionCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -876,7 +876,7 @@ public readonly collectionId: string;
 
 The name of the collection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_collection#collection_id RekognitionCollection#collection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_collection#collection_id RekognitionCollection#collection_id}
 
 ---
 
@@ -890,7 +890,7 @@ public readonly tags: IResolvable | RekognitionCollectionTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_collection#tags RekognitionCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_collection#tags RekognitionCollection#tags}
 
 ---
 
@@ -925,7 +925,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_collection#key RekognitionCollection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_collection#key RekognitionCollection#key}
 
 ---
 
@@ -941,7 +941,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_collection#value RekognitionCollection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_collection#value RekognitionCollection#value}
 
 ---
 

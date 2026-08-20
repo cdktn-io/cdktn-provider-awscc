@@ -4,7 +4,7 @@
 
 ### DataAwsccAppconfigApplications <a name="DataAwsccAppconfigApplications" id="@cdktn/provider-awscc.dataAwsccAppconfigApplications.DataAwsccAppconfigApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_applications awscc_appconfig_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_applications awscc_appconfig_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppconfigApplications.DataAwsccAppconfigApplications.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAppconfigApplicat
 
 The id of the existing DataAwsccAppconfigApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccRefactorspacesEnvironments <a name="DataAwsccRefactorspacesEnvironments" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/refactorspaces_environments awscc_refactorspaces_environments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/refactorspaces_environments awscc_refactorspaces_environments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRefactorspacesEnvironments.DataAwsccRefactorspacesEnvironments.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRefactorspacesEnv
 
 The id of the existing DataAwsccRefactorspacesEnvironments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/refactorspaces_environments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/refactorspaces_environments#import import section} in the documentation of this resource for the id to use
 
 ---
 

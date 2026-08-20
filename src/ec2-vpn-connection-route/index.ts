@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface Ec2VpnConnectionRouteConfig extends cdktn.TerraformMetaArgument
   /**
   * The CIDR block associated with the local subnet of the customer network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route#destination_cidr_block Ec2VpnConnectionRoute#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route#destination_cidr_block Ec2VpnConnectionRoute#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
   * The ID of the VPN connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route#vpn_connection_id Ec2VpnConnectionRoute#vpn_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route#vpn_connection_id Ec2VpnConnectionRoute#vpn_connection_id}
   */
   readonly vpnConnectionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route}
 */
 export class Ec2VpnConnectionRoute extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class Ec2VpnConnectionRoute extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpnConnectionRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpnConnectionRoute to import
-  * @param importFromId The id of the existing Ec2VpnConnectionRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpnConnectionRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpnConnectionRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class Ec2VpnConnectionRoute extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class Ec2VpnConnectionRoute extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpn_connection_route',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

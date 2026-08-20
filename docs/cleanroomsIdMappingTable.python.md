@@ -4,7 +4,7 @@
 
 ### CleanroomsIdMappingTable <a name="CleanroomsIdMappingTable" id="@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer"></a>
 
@@ -41,12 +41,12 @@ cleanroomsIdMappingTable.CleanroomsIdMappingTable(
 | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.inputReferenceConfig">input_reference_config</a></code> | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig">CleanroomsIdMappingTableInputReferenceConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.membershipIdentifier">membership_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags">CleanroomsIdMappingTableTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.inputReferenceConfig">input_reference_config</a></code> | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig">CleanroomsIdMappingTableInputReferenceConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.membershipIdentifier">membership_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTable.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags">CleanroomsIdMappingTableTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* <a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig">CleanroomsIdMappingTableInputReferenceConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags">CleanroomsIdMappingTableTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}.
 
 ---
 
@@ -555,7 +555,7 @@ def put_input_reference_config(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_arn CleanroomsIdMappingTable#input_reference_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_arn CleanroomsIdMappingTable#input_reference_arn}.
 
 ---
 
@@ -563,7 +563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#manage_resource_policies CleanroomsIdMappingTable#manage_resource_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#manage_resource_policies CleanroomsIdMappingTable#manage_resource_policies}.
 
 ---
 
@@ -713,7 +713,7 @@ The construct id used in the generated config for the CleanroomsIdMappingTable t
 
 The id of the existing CleanroomsIdMappingTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1152,12 +1152,12 @@ cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig(
 | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.inputReferenceConfig">input_reference_config</a></code> | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig">CleanroomsIdMappingTableInputReferenceConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.membershipIdentifier">membership_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags">CleanroomsIdMappingTableTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.inputReferenceConfig">input_reference_config</a></code> | <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig">CleanroomsIdMappingTableInputReferenceConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.membershipIdentifier">membership_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags">CleanroomsIdMappingTableTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}. |
 
 ---
 
@@ -1239,7 +1239,7 @@ input_reference_config: CleanroomsIdMappingTableInputReferenceConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig">CleanroomsIdMappingTableInputReferenceConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_config CleanroomsIdMappingTable#input_reference_config}.
 
 ---
 
@@ -1251,7 +1251,7 @@ membership_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#membership_identifier CleanroomsIdMappingTable#membership_identifier}.
 
 ---
 
@@ -1263,7 +1263,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#name CleanroomsIdMappingTable#name}.
 
 ---
 
@@ -1275,7 +1275,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#description CleanroomsIdMappingTable#description}.
 
 ---
 
@@ -1287,7 +1287,7 @@ kms_key_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#kms_key_arn CleanroomsIdMappingTable#kms_key_arn}.
 
 ---
 
@@ -1299,7 +1299,7 @@ tags: IResolvable | typing.List[CleanroomsIdMappingTableTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags">CleanroomsIdMappingTableTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#tags CleanroomsIdMappingTable#tags}.
 
 ---
 
@@ -1320,8 +1320,8 @@ cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig.property.inputReferenceArn">input_reference_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_arn CleanroomsIdMappingTable#input_reference_arn}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig.property.manageResourcePolicies">manage_resource_policies</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#manage_resource_policies CleanroomsIdMappingTable#manage_resource_policies}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig.property.inputReferenceArn">input_reference_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_arn CleanroomsIdMappingTable#input_reference_arn}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableInputReferenceConfig.property.manageResourcePolicies">manage_resource_policies</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#manage_resource_policies CleanroomsIdMappingTable#manage_resource_policies}. |
 
 ---
 
@@ -1333,7 +1333,7 @@ input_reference_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#input_reference_arn CleanroomsIdMappingTable#input_reference_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#input_reference_arn CleanroomsIdMappingTable#input_reference_arn}.
 
 ---
 
@@ -1345,7 +1345,7 @@ manage_resource_policies: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#manage_resource_policies CleanroomsIdMappingTable#manage_resource_policies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#manage_resource_policies CleanroomsIdMappingTable#manage_resource_policies}.
 
 ---
 
@@ -1388,8 +1388,8 @@ cleanroomsIdMappingTable.CleanroomsIdMappingTableTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#key CleanroomsIdMappingTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#value CleanroomsIdMappingTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#key CleanroomsIdMappingTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.cleanroomsIdMappingTable.CleanroomsIdMappingTableTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#value CleanroomsIdMappingTable#value}. |
 
 ---
 
@@ -1401,7 +1401,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#key CleanroomsIdMappingTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#key CleanroomsIdMappingTable#key}.
 
 ---
 
@@ -1413,7 +1413,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_id_mapping_table#value CleanroomsIdMappingTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_id_mapping_table#value CleanroomsIdMappingTable#value}.
 
 ---
 

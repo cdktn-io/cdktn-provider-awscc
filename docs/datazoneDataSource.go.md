@@ -4,7 +4,7 @@
 
 ### DatazoneDataSource <a name="DatazoneDataSource" id="@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source awscc_datazone_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source awscc_datazone_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSource.Initializer"></a>
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the DatazoneDataSource to impo
 
 The id of the existing DatazoneDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1253,7 +1253,7 @@ Content *string
 
 The content of the metadata form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#content DatazoneDataSource#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#content DatazoneDataSource#content}
 
 ---
 
@@ -1267,7 +1267,7 @@ FormName *string
 
 The name of the metadata form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#form_name DatazoneDataSource#form_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#form_name DatazoneDataSource#form_name}
 
 ---
 
@@ -1281,7 +1281,7 @@ TypeIdentifier *string
 
 The ID of the metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#type_identifier DatazoneDataSource#type_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#type_identifier DatazoneDataSource#type_identifier}
 
 ---
 
@@ -1295,7 +1295,7 @@ TypeRevision *string
 
 The revision of the metadata form type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#type_revision DatazoneDataSource#type_revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#type_revision DatazoneDataSource#type_revision}
 
 ---
 
@@ -1437,7 +1437,7 @@ DomainIdentifier *string
 
 The ID of the Amazon DataZone domain where the data source is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#domain_identifier DatazoneDataSource#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#domain_identifier DatazoneDataSource#domain_identifier}
 
 ---
 
@@ -1451,7 +1451,7 @@ Name *string
 
 The name of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#name DatazoneDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#name DatazoneDataSource#name}
 
 ---
 
@@ -1465,7 +1465,7 @@ ProjectIdentifier *string
 
 The identifier of the Amazon DataZone project in which you want to add the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#project_identifier DatazoneDataSource#project_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#project_identifier DatazoneDataSource#project_identifier}
 
 ---
 
@@ -1479,7 +1479,7 @@ Type *string
 
 The type of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#type DatazoneDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#type DatazoneDataSource#type}
 
 ---
 
@@ -1493,7 +1493,7 @@ AssetFormsInput interface{}
 
 The metadata forms that are to be attached to the assets that this data source works with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#asset_forms_input DatazoneDataSource#asset_forms_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#asset_forms_input DatazoneDataSource#asset_forms_input}
 
 ---
 
@@ -1507,7 +1507,7 @@ Configuration DatazoneDataSourceConfiguration
 
 Configuration of the data source. It can be set to either glueRunConfiguration or redshiftRunConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#configuration DatazoneDataSource#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#configuration DatazoneDataSource#configuration}
 
 ---
 
@@ -1521,7 +1521,7 @@ ConnectionIdentifier *string
 
 The unique identifier of a connection used to fetch relevant parameters from connection during Datasource run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#connection_identifier DatazoneDataSource#connection_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#connection_identifier DatazoneDataSource#connection_identifier}
 
 ---
 
@@ -1535,7 +1535,7 @@ Description *string
 
 The description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#description DatazoneDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#description DatazoneDataSource#description}
 
 ---
 
@@ -1549,7 +1549,7 @@ EnableSetting *string
 
 Specifies whether the data source is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#enable_setting DatazoneDataSource#enable_setting}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#enable_setting DatazoneDataSource#enable_setting}
 
 ---
 
@@ -1563,7 +1563,7 @@ EnvironmentIdentifier *string
 
 The unique identifier of the Amazon DataZone environment to which the data source publishes assets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#environment_identifier DatazoneDataSource#environment_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#environment_identifier DatazoneDataSource#environment_identifier}
 
 ---
 
@@ -1577,7 +1577,7 @@ PublishOnImport interface{}
 
 Specifies whether the assets that this data source creates in the inventory are to be also automatically published to the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#publish_on_import DatazoneDataSource#publish_on_import}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#publish_on_import DatazoneDataSource#publish_on_import}
 
 ---
 
@@ -1591,7 +1591,7 @@ Recommendation DatazoneDataSourceRecommendation
 
 Specifies whether the business name generation is to be enabled for this data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#recommendation DatazoneDataSource#recommendation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#recommendation DatazoneDataSource#recommendation}
 
 ---
 
@@ -1605,7 +1605,7 @@ Schedule DatazoneDataSourceSchedule
 
 The schedule of the data source runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#schedule DatazoneDataSource#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#schedule DatazoneDataSource#schedule}
 
 ---
 
@@ -1627,7 +1627,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazonedatasource"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfiguration.property.glueRunConfiguration">GlueRunConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationGlueRunConfiguration">DatazoneDataSourceConfigurationGlueRunConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#glue_run_configuration DatazoneDataSource#glue_run_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfiguration.property.glueRunConfiguration">GlueRunConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationGlueRunConfiguration">DatazoneDataSourceConfigurationGlueRunConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#glue_run_configuration DatazoneDataSource#glue_run_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfiguration.property.redshiftRunConfiguration">RedshiftRunConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationRedshiftRunConfiguration">DatazoneDataSourceConfigurationRedshiftRunConfiguration</a></code> | The configuration details of the Amazon Redshift data source. |
 | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfiguration.property.sageMakerRunConfiguration">SageMakerRunConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationSageMakerRunConfiguration">DatazoneDataSourceConfigurationSageMakerRunConfiguration</a></code> | The configuration details of the Amazon SageMaker data source. |
 
@@ -1641,7 +1641,7 @@ GlueRunConfiguration DatazoneDataSourceConfigurationGlueRunConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationGlueRunConfiguration">DatazoneDataSourceConfigurationGlueRunConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#glue_run_configuration DatazoneDataSource#glue_run_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#glue_run_configuration DatazoneDataSource#glue_run_configuration}.
 
 ---
 
@@ -1655,7 +1655,7 @@ RedshiftRunConfiguration DatazoneDataSourceConfigurationRedshiftRunConfiguration
 
 The configuration details of the Amazon Redshift data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#redshift_run_configuration DatazoneDataSource#redshift_run_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#redshift_run_configuration DatazoneDataSource#redshift_run_configuration}
 
 ---
 
@@ -1669,7 +1669,7 @@ SageMakerRunConfiguration DatazoneDataSourceConfigurationSageMakerRunConfigurati
 
 The configuration details of the Amazon SageMaker data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#sage_maker_run_configuration DatazoneDataSource#sage_maker_run_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#sage_maker_run_configuration DatazoneDataSource#sage_maker_run_configuration}
 
 ---
 
@@ -1709,7 +1709,7 @@ AutoImportDataQualityResult interface{}
 
 Specifies whether to automatically import data quality metrics as part of the data source run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#auto_import_data_quality_result DatazoneDataSource#auto_import_data_quality_result}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#auto_import_data_quality_result DatazoneDataSource#auto_import_data_quality_result}
 
 ---
 
@@ -1723,7 +1723,7 @@ CatalogName *string
 
 The catalog name in the AWS Glue run configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#catalog_name DatazoneDataSource#catalog_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#catalog_name DatazoneDataSource#catalog_name}
 
 ---
 
@@ -1737,7 +1737,7 @@ DataAccessRole *string
 
 The data access role included in the configuration details of the AWS Glue data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#data_access_role DatazoneDataSource#data_access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#data_access_role DatazoneDataSource#data_access_role}
 
 ---
 
@@ -1751,7 +1751,7 @@ RelationalFilterConfigurations interface{}
 
 The relational filter configurations included in the configuration details of the AWS Glue data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#relational_filter_configurations DatazoneDataSource#relational_filter_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#relational_filter_configurations DatazoneDataSource#relational_filter_configurations}
 
 ---
 
@@ -1789,7 +1789,7 @@ DatabaseName *string
 
 The database name specified in the relational filter configuration for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#database_name DatazoneDataSource#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#database_name DatazoneDataSource#database_name}
 
 ---
 
@@ -1803,7 +1803,7 @@ FilterExpressions interface{}
 
 The filter expressions specified in the relational filter configuration for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#filter_expressions DatazoneDataSource#filter_expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#filter_expressions DatazoneDataSource#filter_expressions}
 
 ---
 
@@ -1817,7 +1817,7 @@ SchemaName *string
 
 The schema name specified in the relational filter configuration for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#schema_name DatazoneDataSource#schema_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#schema_name DatazoneDataSource#schema_name}
 
 ---
 
@@ -1838,7 +1838,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazonedatasource"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilterConfigurationsFilterExpressions.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilterConfigurationsFilterExpressions.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}. |
 | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilterConfigurationsFilterExpressions.property.type">Type</a></code> | <code>*string</code> | The search filter expression type. |
 
 ---
@@ -1851,7 +1851,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}.
 
 ---
 
@@ -1865,7 +1865,7 @@ Type *string
 
 The search filter expression type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#type DatazoneDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#type DatazoneDataSource#type}
 
 ---
 
@@ -1905,7 +1905,7 @@ DataAccessRole *string
 
 The data access role included in the configuration details of the Amazon Redshift data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#data_access_role DatazoneDataSource#data_access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#data_access_role DatazoneDataSource#data_access_role}
 
 ---
 
@@ -1919,7 +1919,7 @@ RedshiftCredentialConfiguration DatazoneDataSourceConfigurationRedshiftRunConfig
 
 The details of the credentials required to access an Amazon Redshift cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#redshift_credential_configuration DatazoneDataSource#redshift_credential_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#redshift_credential_configuration DatazoneDataSource#redshift_credential_configuration}
 
 ---
 
@@ -1933,7 +1933,7 @@ RedshiftStorage DatazoneDataSourceConfigurationRedshiftRunConfigurationRedshiftS
 
 The details of the Amazon Redshift storage as part of the configuration of an Amazon Redshift data source run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#redshift_storage DatazoneDataSource#redshift_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#redshift_storage DatazoneDataSource#redshift_storage}
 
 ---
 
@@ -1947,7 +1947,7 @@ RelationalFilterConfigurations interface{}
 
 The relational filter configurations included in the configuration details of the Amazon Redshift data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#relational_filter_configurations DatazoneDataSource#relational_filter_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#relational_filter_configurations DatazoneDataSource#relational_filter_configurations}
 
 ---
 
@@ -1981,7 +1981,7 @@ SecretManagerArn *string
 
 The ARN of a secret manager for an Amazon Redshift cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#secret_manager_arn DatazoneDataSource#secret_manager_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#secret_manager_arn DatazoneDataSource#secret_manager_arn}
 
 ---
 
@@ -2017,7 +2017,7 @@ RedshiftClusterSource DatazoneDataSourceConfigurationRedshiftRunConfigurationRed
 
 The name of an Amazon Redshift cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#redshift_cluster_source DatazoneDataSource#redshift_cluster_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#redshift_cluster_source DatazoneDataSource#redshift_cluster_source}
 
 ---
 
@@ -2031,7 +2031,7 @@ RedshiftServerlessSource DatazoneDataSourceConfigurationRedshiftRunConfiguration
 
 The details of the Amazon Redshift Serverless workgroup storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#redshift_serverless_source DatazoneDataSource#redshift_serverless_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#redshift_serverless_source DatazoneDataSource#redshift_serverless_source}
 
 ---
 
@@ -2065,7 +2065,7 @@ ClusterName *string
 
 The name of an Amazon Redshift cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#cluster_name DatazoneDataSource#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#cluster_name DatazoneDataSource#cluster_name}
 
 ---
 
@@ -2099,7 +2099,7 @@ WorkgroupName *string
 
 The name of the Amazon Redshift Serverless workgroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#workgroup_name DatazoneDataSource#workgroup_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#workgroup_name DatazoneDataSource#workgroup_name}
 
 ---
 
@@ -2137,7 +2137,7 @@ DatabaseName *string
 
 The database name specified in the relational filter configuration for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#database_name DatazoneDataSource#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#database_name DatazoneDataSource#database_name}
 
 ---
 
@@ -2151,7 +2151,7 @@ FilterExpressions interface{}
 
 The filter expressions specified in the relational filter configuration for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#filter_expressions DatazoneDataSource#filter_expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#filter_expressions DatazoneDataSource#filter_expressions}
 
 ---
 
@@ -2165,7 +2165,7 @@ SchemaName *string
 
 The schema name specified in the relational filter configuration for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#schema_name DatazoneDataSource#schema_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#schema_name DatazoneDataSource#schema_name}
 
 ---
 
@@ -2186,7 +2186,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazonedatasource"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFilterConfigurationsFilterExpressions.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}. |
+| <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFilterConfigurationsFilterExpressions.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}. |
 | <code><a href="#@cdktn/provider-awscc.datazoneDataSource.DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFilterConfigurationsFilterExpressions.property.type">Type</a></code> | <code>*string</code> | The search filter expression type. |
 
 ---
@@ -2199,7 +2199,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#expression DatazoneDataSource#expression}.
 
 ---
 
@@ -2213,7 +2213,7 @@ Type *string
 
 The search filter expression type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#type DatazoneDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#type DatazoneDataSource#type}
 
 ---
 
@@ -2247,7 +2247,7 @@ TrackingAssets interface{}
 
 The tracking assets of the Amazon SageMaker run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#tracking_assets DatazoneDataSource#tracking_assets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#tracking_assets DatazoneDataSource#tracking_assets}
 
 ---
 
@@ -2281,7 +2281,7 @@ EnableBusinessNameGeneration interface{}
 
 Specifies whether automatic business name generation is to be enabled or not as part of the recommendation configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#enable_business_name_generation DatazoneDataSource#enable_business_name_generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#enable_business_name_generation DatazoneDataSource#enable_business_name_generation}
 
 ---
 
@@ -2317,7 +2317,7 @@ Schedule *string
 
 The schedule of the data source runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#schedule DatazoneDataSource#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#schedule DatazoneDataSource#schedule}
 
 ---
 
@@ -2331,7 +2331,7 @@ Timezone *string
 
 The timezone of the data source run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_data_source#timezone DatazoneDataSource#timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_data_source#timezone DatazoneDataSource#timezone}
 
 ---
 

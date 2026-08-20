@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface RedshiftSnapshotScheduleConfig extends cdktn.TerraformMetaArgum
   /**
   * The definition of the snapshot schedule. The definition is made up of schedule expressions, for example "cron(30 12 *)" or "rate(12 hours)".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#schedule_definitions RedshiftSnapshotSchedule#schedule_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#schedule_definitions RedshiftSnapshotSchedule#schedule_definitions}
   */
   readonly scheduleDefinitions: string[];
   /**
   * The description of the snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#schedule_description RedshiftSnapshotSchedule#schedule_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#schedule_description RedshiftSnapshotSchedule#schedule_description}
   */
   readonly scheduleDescription?: string;
   /**
   * A unique identifier for the snapshot schedule. Only alphanumeric characters are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#schedule_identifier RedshiftSnapshotSchedule#schedule_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#schedule_identifier RedshiftSnapshotSchedule#schedule_identifier}
   */
   readonly scheduleIdentifier: string;
   /**
   * An optional set of tags for the snapshot schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#tags RedshiftSnapshotSchedule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#tags RedshiftSnapshotSchedule#tags}
   */
   readonly tags?: RedshiftSnapshotScheduleTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface RedshiftSnapshotScheduleTags {
   /**
   * The key, or name, for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
   */
   readonly key?: string;
   /**
   * The value for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class RedshiftSnapshotScheduleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}
 */
 export class RedshiftSnapshotSchedule extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class RedshiftSnapshotSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftSnapshotSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftSnapshotSchedule to import
-  * @param importFromId The id of the existing RedshiftSnapshotSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftSnapshotSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftSnapshotSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class RedshiftSnapshotSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class RedshiftSnapshotSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_snapshot_schedule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

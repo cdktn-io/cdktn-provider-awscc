@@ -4,7 +4,7 @@
 
 ### ControltowerLandingZone <a name="ControltowerLandingZone" id="@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZone"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone awscc_controltower_landing_zone}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone awscc_controltower_landing_zone}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZone.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ControltowerLandingZone to
 
 The id of the existing ControltowerLandingZone that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,10 +886,10 @@ const controltowerLandingZoneConfig: controltowerLandingZone.ControltowerLanding
 | <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.manifest">manifest</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}. |
-| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.version">version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}. |
-| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.remediationTypes">remediationTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}. |
-| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags">ControltowerLandingZoneTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}. |
+| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.manifest">manifest</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}. |
+| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.version">version</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}. |
+| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.remediationTypes">remediationTypes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}. |
+| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags">ControltowerLandingZoneTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}. |
 
 ---
 
@@ -971,7 +971,7 @@ public readonly manifest: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}.
 
 ---
 
@@ -983,7 +983,7 @@ public readonly version: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}.
 
 ---
 
@@ -995,7 +995,7 @@ public readonly remediationTypes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}.
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly tags: IResolvable | ControltowerLandingZoneTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags">ControltowerLandingZoneTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}.
 
 ---
 
@@ -1025,8 +1025,8 @@ const controltowerLandingZoneTags: controltowerLandingZone.ControltowerLandingZo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}. |
-| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}. |
+| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}. |
+| <code><a href="#@cdktn/provider-awscc.controltowerLandingZone.ControltowerLandingZoneTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}. |
 
 ---
 
@@ -1038,7 +1038,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}.
 
 ---
 
@@ -1050,7 +1050,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}.
 
 ---
 

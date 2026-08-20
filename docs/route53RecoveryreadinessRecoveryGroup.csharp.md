@@ -4,7 +4,7 @@
 
 ### Route53RecoveryreadinessRecoveryGroup <a name="Route53RecoveryreadinessRecoveryGroup" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroup.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Route53RecoveryreadinessRe
 
 The id of the existing Route53RecoveryreadinessRecoveryGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ public string[] Cells { get; set; }
 
 A list of the cell Amazon Resource Names (ARNs) in the recovery group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#cells Route53RecoveryreadinessRecoveryGroup#cells}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#cells Route53RecoveryreadinessRecoveryGroup#cells}
 
 ---
 
@@ -938,7 +938,7 @@ public string RecoveryGroupName { get; set; }
 
 The name of the recovery group to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#recovery_group_name Route53RecoveryreadinessRecoveryGroup#recovery_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#recovery_group_name Route53RecoveryreadinessRecoveryGroup#recovery_group_name}
 
 ---
 
@@ -952,7 +952,7 @@ public IResolvable|Route53RecoveryreadinessRecoveryGroupTags[] Tags { get; set; 
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#tags Route53RecoveryreadinessRecoveryGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#tags Route53RecoveryreadinessRecoveryGroup#tags}
 
 ---
 
@@ -973,8 +973,8 @@ new Route53RecoveryreadinessRecoveryGroupTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessRecoveryGroup.Route53RecoveryreadinessRecoveryGroupTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}. |
 
 ---
 
@@ -986,7 +986,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}.
 
 ---
 
@@ -998,7 +998,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerVpcAttachments <a name="DataAwsccNetworkmanagerVpcAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_vpc_attachments awscc_networkmanager_vpc_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_vpc_attachments awscc_networkmanager_vpc_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerVpcAttachments.DataAwsccNetworkmanagerVpcAttachments.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerVpc
 
 The id of the existing DataAwsccNetworkmanagerVpcAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_vpc_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_vpc_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticbeanstalkApplicationVersions <a name="DataAwsccElasticbeanstalkApplicationVersions" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticbeanstalkApplicationVersions.DataAwsccElasticbeanstalkApplicationVersions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElasticbeanstalkA
 
 The id of the existing DataAwsccElasticbeanstalkApplicationVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticbeanstalk_application_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticbeanstalk_application_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 

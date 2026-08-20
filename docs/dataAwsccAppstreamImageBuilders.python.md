@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamImageBuilders <a name="DataAwsccAppstreamImageBuilders" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilders.DataAwsccAppstreamImageBuilders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_image_builders awscc_appstream_image_builders}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_image_builders awscc_appstream_image_builders}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamImageBuilders.DataAwsccAppstreamImageBuilders.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAppstreamImageBui
 
 The id of the existing DataAwsccAppstreamImageBuilders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_image_builders#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_image_builders#import import section} in the documentation of this resource for the id to use
 
 ---
 

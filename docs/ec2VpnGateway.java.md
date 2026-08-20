@@ -4,7 +4,7 @@
 
 ### Ec2VpnGateway <a name="Ec2VpnGateway" id="@cdktn/provider-awscc.ec2VpnGateway.Ec2VpnGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway awscc_ec2_vpn_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway awscc_ec2_vpn_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpnGateway.Ec2VpnGateway.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The type of VPN connection the virtual private gateway supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#type Ec2VpnGateway#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#type Ec2VpnGateway#type}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The private Autonomous System Number (ASN) for the Amazon side of a BGP session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#amazon_side_asn Ec2VpnGateway#amazon_side_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#amazon_side_asn Ec2VpnGateway#amazon_side_asn}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Any tags assigned to the virtual private gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#tags Ec2VpnGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#tags Ec2VpnGateway#tags}
 
 ---
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the Ec2VpnGateway to import.
 
 The id of the existing Ec2VpnGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ public java.lang.String getType();
 
 The type of VPN connection the virtual private gateway supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#type Ec2VpnGateway#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#type Ec2VpnGateway#type}
 
 ---
 
@@ -1019,7 +1019,7 @@ public java.lang.Number getAmazonSideAsn();
 
 The private Autonomous System Number (ASN) for the Amazon side of a BGP session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#amazon_side_asn Ec2VpnGateway#amazon_side_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#amazon_side_asn Ec2VpnGateway#amazon_side_asn}
 
 ---
 
@@ -1033,7 +1033,7 @@ public IResolvable|java.util.List<Ec2VpnGatewayTags> getTags();
 
 Any tags assigned to the virtual private gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#tags Ec2VpnGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#tags Ec2VpnGateway#tags}
 
 ---
 
@@ -1069,7 +1069,7 @@ public java.lang.String getKey();
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#key Ec2VpnGateway#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#key Ec2VpnGateway#key}
 
 ---
 
@@ -1083,7 +1083,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_gateway#value Ec2VpnGateway#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_gateway#value Ec2VpnGateway#value}
 
 ---
 

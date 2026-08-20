@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53CidrCollections <a name="DataAwsccRoute53CidrCollections" id="@cdktn/provider-awscc.dataAwsccRoute53CidrCollections.DataAwsccRoute53CidrCollections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_cidr_collections awscc_route53_cidr_collections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_cidr_collections awscc_route53_cidr_collections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53CidrCollections.DataAwsccRoute53CidrCollections.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRoute53CidrCollec
 
 The id of the existing DataAwsccRoute53CidrCollections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_cidr_collections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_cidr_collections#import import section} in the documentation of this resource for the id to use
 
 ---
 

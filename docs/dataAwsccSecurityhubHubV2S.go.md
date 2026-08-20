@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubHubV2S <a name="DataAwsccSecurityhubHubV2S" id="@cdktn/provider-awscc.dataAwsccSecurityhubHubV2S.DataAwsccSecurityhubHubV2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_hub_v2s awscc_securityhub_hub_v2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_hub_v2s awscc_securityhub_hub_v2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubHubV2S.DataAwsccSecurityhubHubV2S.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubHubV2S
 
 The id of the existing DataAwsccSecurityhubHubV2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_hub_v2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_hub_v2s#import import section} in the documentation of this resource for the id to use
 
 ---
 

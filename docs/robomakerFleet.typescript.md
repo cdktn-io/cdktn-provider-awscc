@@ -4,7 +4,7 @@
 
 ### RobomakerFleet <a name="RobomakerFleet" id="@cdktn/provider-awscc.robomakerFleet.RobomakerFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_fleet awscc_robomaker_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_fleet awscc_robomaker_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerFleet.RobomakerFleet.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the RobomakerFleet to import.
 
 The id of the existing RobomakerFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -870,7 +870,7 @@ public readonly name: string;
 
 The name of the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_fleet#name RobomakerFleet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_fleet#name RobomakerFleet#name}
 
 ---
 
@@ -884,7 +884,7 @@ public readonly tags: {[ key: string ]: string};
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_fleet#tags RobomakerFleet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_fleet#tags RobomakerFleet#tags}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SsoApplication <a name="SsoApplication" id="@cdktn/provider-awscc.ssoApplication.SsoApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application awscc_sso_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application awscc_sso_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer"></a>
 
@@ -46,7 +46,7 @@ SsoApplication.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description information for the Identity Center (SSO) Application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer.parameter.portalOptions">portalOptions</a></code> | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptions">SsoApplicationPortalOptions</a></code> | A structure that describes the options for the portal associated with an application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer.parameter.status">status</a></code> | <code>java.lang.String</code> | Specifies whether the application is enabled or disabled. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#tags SsoApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplication.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#tags SsoApplication#tags}. |
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the application provider under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the instance of IAM Identity Center under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name you want to assign to this Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#name SsoApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#name SsoApplication#name}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description information for the Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#description SsoApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#description SsoApplication#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure that describes the options for the portal associated with an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the application is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#status SsoApplication#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#status SsoApplication#status}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#tags SsoApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#tags SsoApplication#tags}.
 
 ---
 
@@ -677,7 +677,7 @@ The construct id used in the generated config for the SsoApplication to import.
 
 The id of the existing SsoApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1101,7 +1101,7 @@ SsoApplicationConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description information for the Identity Center (SSO) Application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.portalOptions">portalOptions</a></code> | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationPortalOptions">SsoApplicationPortalOptions</a></code> | A structure that describes the options for the portal associated with an application. |
 | <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.status">status</a></code> | <code>java.lang.String</code> | Specifies whether the application is enabled or disabled. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#tags SsoApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#tags SsoApplication#tags}. |
 
 ---
 
@@ -1185,7 +1185,7 @@ public java.lang.String getApplicationProviderArn();
 
 The ARN of the application provider under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
 
 ---
 
@@ -1199,7 +1199,7 @@ public java.lang.String getInstanceArn();
 
 The ARN of the instance of IAM Identity Center under which the operation will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
 
 ---
 
@@ -1213,7 +1213,7 @@ public java.lang.String getName();
 
 The name you want to assign to this Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#name SsoApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#name SsoApplication#name}
 
 ---
 
@@ -1227,7 +1227,7 @@ public java.lang.String getDescription();
 
 The description information for the Identity Center (SSO) Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#description SsoApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#description SsoApplication#description}
 
 ---
 
@@ -1241,7 +1241,7 @@ public SsoApplicationPortalOptions getPortalOptions();
 
 A structure that describes the options for the portal associated with an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
 
 ---
 
@@ -1255,7 +1255,7 @@ public java.lang.String getStatus();
 
 Specifies whether the application is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#status SsoApplication#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#status SsoApplication#status}
 
 ---
 
@@ -1267,7 +1267,7 @@ public IResolvable|java.util.List<SsoApplicationTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags">SsoApplicationTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#tags SsoApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#tags SsoApplication#tags}.
 
 ---
 
@@ -1303,7 +1303,7 @@ public SsoApplicationPortalOptionsSignInOptions getSignInOptions();
 
 A structure that describes the sign-in options for the access portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
 
 ---
 
@@ -1317,7 +1317,7 @@ public java.lang.String getVisibility();
 
 Indicates whether this application is visible in the access portal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#visibility SsoApplication#visibility}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#visibility SsoApplication#visibility}
 
 ---
 
@@ -1353,7 +1353,7 @@ public java.lang.String getApplicationUrl();
 
 The URL that accepts authentication requests for an application, this is a required parameter if the Origin parameter is APPLICATION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#application_url SsoApplication#application_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#application_url SsoApplication#application_url}
 
 ---
 
@@ -1367,7 +1367,7 @@ public java.lang.String getOrigin();
 
 This determines how IAM Identity Center navigates the user to the target application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#origin SsoApplication#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#origin SsoApplication#origin}
 
 ---
 
@@ -1388,8 +1388,8 @@ SsoApplicationTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#key SsoApplication#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#value SsoApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#key SsoApplication#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssoApplication.SsoApplicationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#value SsoApplication#value}. |
 
 ---
 
@@ -1401,7 +1401,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#key SsoApplication#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#key SsoApplication#key}.
 
 ---
 
@@ -1413,7 +1413,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application#value SsoApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application#value SsoApplication#value}.
 
 ---
 

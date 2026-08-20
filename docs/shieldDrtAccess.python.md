@@ -4,7 +4,7 @@
 
 ### ShieldDrtAccess <a name="ShieldDrtAccess" id="@cdktn/provider-awscc.shieldDrtAccess.ShieldDrtAccess"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_drt_access awscc_shield_drt_access}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access awscc_shield_drt_access}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.shieldDrtAccess.ShieldDrtAccess.Initializer"></a>
 
@@ -110,7 +110,7 @@ Authorizes the Shield Response Team (SRT) using the specified role, to access yo
 
 This enables the SRT to inspect your AWS WAF configuration and create or update AWS WAF rules and web ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
 
 ---
 
@@ -122,7 +122,7 @@ Authorizes the Shield Response Team (SRT) to access the specified Amazon S3 buck
 
 You can associate up to 10 Amazon S3 buckets with your subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
 
 ---
 
@@ -626,7 +626,7 @@ The construct id used in the generated config for the ShieldDrtAccess to import.
 
 The id of the existing ShieldDrtAccess that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_drt_access#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ Authorizes the Shield Response Team (SRT) using the specified role, to access yo
 
 This enables the SRT to inspect your AWS WAF configuration and create or update AWS WAF rules and web ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
 
 ---
 
@@ -1021,7 +1021,7 @@ Authorizes the Shield Response Team (SRT) to access the specified Amazon S3 buck
 
 You can associate up to 10 Amazon S3 buckets with your subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
 
 ---
 

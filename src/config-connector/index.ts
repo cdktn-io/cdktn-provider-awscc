@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface ConfigConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
   * The configuration for the connector that specifies the third-party cloud provider connection details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
   */
   readonly connectorConfiguration: ConfigConnectorConnectorConfiguration;
   /**
   * The tags for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#tags ConfigConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tags ConfigConnector#tags}
   */
   readonly tags?: ConfigConnectorTags[] | cdktn.IResolvable;
 }
@@ -29,13 +29,13 @@ export interface ConfigConnectorConnectorConfigurationAzure {
   /**
   * The Azure client (application) identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
   */
   readonly clientIdentifier?: string;
   /**
   * The Azure tenant identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
   */
   readonly tenantIdentifier?: string;
 }
@@ -160,7 +160,7 @@ export interface ConfigConnectorConnectorConfiguration {
   /**
   * The configuration for connecting to Microsoft Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#azure ConfigConnector#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#azure ConfigConnector#azure}
   */
   readonly azure?: ConfigConnectorConnectorConfigurationAzure;
 }
@@ -256,13 +256,13 @@ export interface ConfigConnectorTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#key ConfigConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#key ConfigConnector#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#value ConfigConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#value ConfigConnector#value}
   */
   readonly value?: string;
 }
@@ -407,7 +407,7 @@ export class ConfigConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector awscc_config_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector awscc_config_connector}
 */
 export class ConfigConnector extends cdktn.TerraformResource {
 
@@ -423,7 +423,7 @@ export class ConfigConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigConnector to import
-  * @param importFromId The id of the existing ConfigConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -435,7 +435,7 @@ export class ConfigConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector awscc_config_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector awscc_config_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,7 +446,7 @@ export class ConfigConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_config_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

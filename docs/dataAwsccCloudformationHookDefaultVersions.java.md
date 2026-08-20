@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationHookDefaultVersions <a name="DataAwsccCloudformationHookDefaultVersions" id="@cdktn/provider-awscc.dataAwsccCloudformationHookDefaultVersions.DataAwsccCloudformationHookDefaultVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_hook_default_versions awscc_cloudformation_hook_default_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_hook_default_versions awscc_cloudformation_hook_default_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationHookDefaultVersions.DataAwsccCloudformationHookDefaultVersions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudformationHoo
 
 The id of the existing DataAwsccCloudformationHookDefaultVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_hook_default_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_hook_default_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 

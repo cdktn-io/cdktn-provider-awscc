@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2CustomerGateways <a name="DataAwsccEc2CustomerGateways" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_customer_gateways awscc_ec2_customer_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_customer_gateways awscc_ec2_customer_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2CustomerGateways.DataAwsccEc2CustomerGateways.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2CustomerGatewa
 
 The id of the existing DataAwsccEc2CustomerGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_customer_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_customer_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

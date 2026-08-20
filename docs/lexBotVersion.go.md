@@ -4,7 +4,7 @@
 
 ### LexBotVersion <a name="LexBotVersion" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version awscc_lex_bot_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version awscc_lex_bot_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lexBotVersion.LexBotVersion.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the LexBotVersion to import.
 
 The id of the existing LexBotVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -824,7 +824,7 @@ BotVersionLocaleDetails LexBotVersionBotVersionLocaleSpecificationBotVersionLoca
 
 The version of a bot used for a bot locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#bot_version_locale_details LexBotVersion#bot_version_locale_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#bot_version_locale_details LexBotVersion#bot_version_locale_details}
 
 ---
 
@@ -838,7 +838,7 @@ LocaleId *string
 
 The identifier of the language and locale that the bot will be used in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#locale_id LexBotVersion#locale_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#locale_id LexBotVersion#locale_id}
 
 ---
 
@@ -872,7 +872,7 @@ SourceBotVersion *string
 
 The version of a bot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#source_bot_version LexBotVersion#source_bot_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#source_bot_version LexBotVersion#source_bot_version}
 
 ---
 
@@ -994,7 +994,7 @@ BotId *string
 
 Unique ID of resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#bot_id LexBotVersion#bot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#bot_id LexBotVersion#bot_id}
 
 ---
 
@@ -1010,7 +1010,7 @@ Specifies the locales that Amazon Lex adds to this version.
 
 You can choose the Draft version or any other previously published version for each locale.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#bot_version_locale_specification LexBotVersion#bot_version_locale_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#bot_version_locale_specification LexBotVersion#bot_version_locale_specification}
 
 ---
 
@@ -1024,7 +1024,7 @@ Description *string
 
 A description of the version. Use the description to help identify the version in lists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_bot_version#description LexBotVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_bot_version#description LexBotVersion#description}
 
 ---
 

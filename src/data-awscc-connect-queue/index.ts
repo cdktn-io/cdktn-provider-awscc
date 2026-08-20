@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccConnectQueueConfig extends cdktn.TerraformMetaArgument
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -297,7 +297,7 @@ export class DataAwsccConnectQueueTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue awscc_connect_queue}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue awscc_connect_queue}
 */
 export class DataAwsccConnectQueue extends cdktn.TerraformDataSource {
 
@@ -313,7 +313,7 @@ export class DataAwsccConnectQueue extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccConnectQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccConnectQueue to import
-  * @param importFromId The id of the existing DataAwsccConnectQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccConnectQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccConnectQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -325,7 +325,7 @@ export class DataAwsccConnectQueue extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,7 +336,7 @@ export class DataAwsccConnectQueue extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_connect_queue',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -386,6 +386,16 @@ export class DataAwsccConnectQueue extends cdktn.TerraformDataSource {
   // instance_arn - computed: true, optional: false, required: false
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
+  }
+
+  // last_modified_region - computed: true, optional: false, required: false
+  public get lastModifiedRegion() {
+    return this.getStringAttribute('last_modified_region');
+  }
+
+  // last_modified_time - computed: true, optional: false, required: false
+  public get lastModifiedTime() {
+    return this.getNumberAttribute('last_modified_time');
   }
 
   // max_contacts - computed: true, optional: false, required: false

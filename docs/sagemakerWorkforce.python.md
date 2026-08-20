@@ -4,7 +4,7 @@
 
 ### SagemakerWorkforce <a name="SagemakerWorkforce" id="@cdktn/provider-awscc.sagemakerWorkforce.SagemakerWorkforce"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce awscc_sagemaker_workforce}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce awscc_sagemaker_workforce}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerWorkforce.SagemakerWorkforce.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}
 
 ---
 
@@ -130,7 +130,7 @@ The configuration of an Amazon Cognito workforce.
 
 A single Cognito workforce is created using and corresponds to a single Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IP address type for the workforce. IPv4 only or dualstack (IPv4 and IPv6).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#ip_address_type SagemakerWorkforce#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#ip_address_type SagemakerWorkforce#ip_address_type}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration of an OIDC Identity Provider (IdP) private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of IP address ranges used to access your training data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#tags SagemakerWorkforce#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#tags SagemakerWorkforce#tags}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The VPC configuration for the workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
 
 ---
 
@@ -589,7 +589,7 @@ def put_cognito_config(
 
 The client ID for your Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
 
 ---
 
@@ -599,7 +599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID for your Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}
 
 ---
 
@@ -626,7 +626,7 @@ def put_oidc_config(
 
 A string to string map of identifiers specific to the custom identity provider (IdP) being used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#authentication_request_extra_params SagemakerWorkforce#authentication_request_extra_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#authentication_request_extra_params SagemakerWorkforce#authentication_request_extra_params}
 
 ---
 
@@ -636,7 +636,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP authorization endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#authorization_endpoint SagemakerWorkforce#authorization_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#authorization_endpoint SagemakerWorkforce#authorization_endpoint}
 
 ---
 
@@ -646,7 +646,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP client ID used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
 
 ---
 
@@ -656,7 +656,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP client secret used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#client_secret SagemakerWorkforce#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#client_secret SagemakerWorkforce#client_secret}
 
 ---
 
@@ -666,7 +666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP issuer used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#issuer SagemakerWorkforce#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#issuer SagemakerWorkforce#issuer}
 
 ---
 
@@ -676,7 +676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP JSON Web Key Set (Jwks) URI used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#jwks_uri SagemakerWorkforce#jwks_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#jwks_uri SagemakerWorkforce#jwks_uri}
 
 ---
 
@@ -686,7 +686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP logout endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#logout_endpoint SagemakerWorkforce#logout_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#logout_endpoint SagemakerWorkforce#logout_endpoint}
 
 ---
 
@@ -696,7 +696,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of string identifiers used to refer to the specific pieces of user data or claims that the client application wants to access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#scope SagemakerWorkforce#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#scope SagemakerWorkforce#scope}
 
 ---
 
@@ -706,7 +706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP token endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#token_endpoint SagemakerWorkforce#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#token_endpoint SagemakerWorkforce#token_endpoint}
 
 ---
 
@@ -716,7 +716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The OIDC IdP user info endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#user_info_endpoint SagemakerWorkforce#user_info_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#user_info_endpoint SagemakerWorkforce#user_info_endpoint}
 
 ---
 
@@ -734,7 +734,7 @@ def put_source_ip_config(
 
 A list of one to ten Classless Inter-Domain Routing (CIDR) values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
 
 ---
 
@@ -768,7 +768,7 @@ def put_workforce_vpc_config(
 
 The VPC security group IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#security_group_ids SagemakerWorkforce#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#security_group_ids SagemakerWorkforce#security_group_ids}
 
 ---
 
@@ -778,7 +778,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The VPC subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#subnets SagemakerWorkforce#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#subnets SagemakerWorkforce#subnets}
 
 ---
 
@@ -788,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#vpc_id SagemakerWorkforce#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#vpc_id SagemakerWorkforce#vpc_id}
 
 ---
 
@@ -942,7 +942,7 @@ The construct id used in the generated config for the SagemakerWorkforce to impo
 
 The id of the existing SagemakerWorkforce that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1356,7 +1356,7 @@ client_id: str
 
 The client ID for your Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
 
 ---
 
@@ -1370,7 +1370,7 @@ user_pool: str
 
 The ID for your Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#user_pool SagemakerWorkforce#user_pool}
 
 ---
 
@@ -1500,7 +1500,7 @@ workforce_name: str
 
 The name of the private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#workforce_name SagemakerWorkforce#workforce_name}
 
 ---
 
@@ -1516,7 +1516,7 @@ The configuration of an Amazon Cognito workforce.
 
 A single Cognito workforce is created using and corresponds to a single Amazon Cognito user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#cognito_config SagemakerWorkforce#cognito_config}
 
 ---
 
@@ -1530,7 +1530,7 @@ ip_address_type: str
 
 The IP address type for the workforce. IPv4 only or dualstack (IPv4 and IPv6).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#ip_address_type SagemakerWorkforce#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#ip_address_type SagemakerWorkforce#ip_address_type}
 
 ---
 
@@ -1544,7 +1544,7 @@ oidc_config: SagemakerWorkforceOidcConfig
 
 The configuration of an OIDC Identity Provider (IdP) private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#oidc_config SagemakerWorkforce#oidc_config}
 
 ---
 
@@ -1558,7 +1558,7 @@ source_ip_config: SagemakerWorkforceSourceIpConfig
 
 A list of IP address ranges used to access your training data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#source_ip_config SagemakerWorkforce#source_ip_config}
 
 ---
 
@@ -1572,7 +1572,7 @@ tags: IResolvable | typing.List[SagemakerWorkforceTags]
 
 An array of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#tags SagemakerWorkforce#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#tags SagemakerWorkforce#tags}
 
 ---
 
@@ -1586,7 +1586,7 @@ workforce_vpc_config: SagemakerWorkforceWorkforceVpcConfig
 
 The VPC configuration for the workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#workforce_vpc_config SagemakerWorkforce#workforce_vpc_config}
 
 ---
 
@@ -1638,7 +1638,7 @@ authentication_request_extra_params: typing.Mapping[str]
 
 A string to string map of identifiers specific to the custom identity provider (IdP) being used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#authentication_request_extra_params SagemakerWorkforce#authentication_request_extra_params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#authentication_request_extra_params SagemakerWorkforce#authentication_request_extra_params}
 
 ---
 
@@ -1652,7 +1652,7 @@ authorization_endpoint: str
 
 The OIDC IdP authorization endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#authorization_endpoint SagemakerWorkforce#authorization_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#authorization_endpoint SagemakerWorkforce#authorization_endpoint}
 
 ---
 
@@ -1666,7 +1666,7 @@ client_id: str
 
 The OIDC IdP client ID used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#client_id SagemakerWorkforce#client_id}
 
 ---
 
@@ -1680,7 +1680,7 @@ client_secret: str
 
 The OIDC IdP client secret used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#client_secret SagemakerWorkforce#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#client_secret SagemakerWorkforce#client_secret}
 
 ---
 
@@ -1694,7 +1694,7 @@ issuer: str
 
 The OIDC IdP issuer used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#issuer SagemakerWorkforce#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#issuer SagemakerWorkforce#issuer}
 
 ---
 
@@ -1708,7 +1708,7 @@ jwks_uri: str
 
 The OIDC IdP JSON Web Key Set (Jwks) URI used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#jwks_uri SagemakerWorkforce#jwks_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#jwks_uri SagemakerWorkforce#jwks_uri}
 
 ---
 
@@ -1722,7 +1722,7 @@ logout_endpoint: str
 
 The OIDC IdP logout endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#logout_endpoint SagemakerWorkforce#logout_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#logout_endpoint SagemakerWorkforce#logout_endpoint}
 
 ---
 
@@ -1736,7 +1736,7 @@ scope: str
 
 An array of string identifiers used to refer to the specific pieces of user data or claims that the client application wants to access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#scope SagemakerWorkforce#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#scope SagemakerWorkforce#scope}
 
 ---
 
@@ -1750,7 +1750,7 @@ token_endpoint: str
 
 The OIDC IdP token endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#token_endpoint SagemakerWorkforce#token_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#token_endpoint SagemakerWorkforce#token_endpoint}
 
 ---
 
@@ -1764,7 +1764,7 @@ user_info_endpoint: str
 
 The OIDC IdP user info endpoint used to configure your private workforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#user_info_endpoint SagemakerWorkforce#user_info_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#user_info_endpoint SagemakerWorkforce#user_info_endpoint}
 
 ---
 
@@ -1798,7 +1798,7 @@ cidrs: typing.List[str]
 
 A list of one to ten Classless Inter-Domain Routing (CIDR) values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
 
 ---
 
@@ -1834,7 +1834,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#key SagemakerWorkforce#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#key SagemakerWorkforce#key}
 
 ---
 
@@ -1848,7 +1848,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#value SagemakerWorkforce#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#value SagemakerWorkforce#value}
 
 ---
 
@@ -1886,7 +1886,7 @@ security_group_ids: typing.List[str]
 
 The VPC security group IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#security_group_ids SagemakerWorkforce#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#security_group_ids SagemakerWorkforce#security_group_ids}
 
 ---
 
@@ -1900,7 +1900,7 @@ subnets: typing.List[str]
 
 The VPC subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#subnets SagemakerWorkforce#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#subnets SagemakerWorkforce#subnets}
 
 ---
 
@@ -1914,7 +1914,7 @@ vpc_id: str
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#vpc_id SagemakerWorkforce#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#vpc_id SagemakerWorkforce#vpc_id}
 
 ---
 

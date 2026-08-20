@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/paymentcryptography_keys
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/paymentcryptography_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccPaymentcryptographyKeysConfig extends cdktn.TerraformM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys}
 */
 export class DataAwsccPaymentcryptographyKeys extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccPaymentcryptographyKeys extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccPaymentcryptographyKeys resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccPaymentcryptographyKeys to import
-  * @param importFromId The id of the existing DataAwsccPaymentcryptographyKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/paymentcryptography_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccPaymentcryptographyKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/paymentcryptography_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccPaymentcryptographyKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccPaymentcryptographyKeys extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccPaymentcryptographyKeys extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_paymentcryptography_keys',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

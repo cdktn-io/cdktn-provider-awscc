@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resiliencehub_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccResiliencehubAppConfig extends cdktn.TerraformMetaArgu
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app#id DataAwsccResiliencehubApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resiliencehub_app#id DataAwsccResiliencehubApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -343,7 +343,7 @@ export class DataAwsccResiliencehubAppResourceMappingsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}
 */
 export class DataAwsccResiliencehubApp extends cdktn.TerraformDataSource {
 
@@ -359,7 +359,7 @@ export class DataAwsccResiliencehubApp extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccResiliencehubApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccResiliencehubApp to import
-  * @param importFromId The id of the existing DataAwsccResiliencehubApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccResiliencehubApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccResiliencehubApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -371,7 +371,7 @@ export class DataAwsccResiliencehubApp extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -382,7 +382,7 @@ export class DataAwsccResiliencehubApp extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_resiliencehub_app',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

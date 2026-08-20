@@ -4,7 +4,7 @@
 
 ### DatazoneGroupProfile <a name="DatazoneGroupProfile" id="@cdktn/provider-awscc.datazoneGroupProfile.DatazoneGroupProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile awscc_datazone_group_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile awscc_datazone_group_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneGroupProfile.DatazoneGroupProfile.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the Amazon DataZone domain in which the group profile would be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the role principal for the group profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the group profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
 
 ---
 
@@ -679,7 +679,7 @@ The construct id used in the generated config for the DatazoneGroupProfile to im
 
 The id of the existing DatazoneGroupProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1161,7 +1161,7 @@ domain_identifier: str
 
 The identifier of the Amazon DataZone domain in which the group profile would be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
 
 ---
 
@@ -1175,7 +1175,7 @@ group_identifier: str
 
 The ID of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
 
 ---
 
@@ -1189,7 +1189,7 @@ group_type: str
 
 The type of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
 
 ---
 
@@ -1203,7 +1203,7 @@ role_principal_arn: str
 
 The ARN of the role principal for the group profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
 
 ---
 
@@ -1217,7 +1217,7 @@ status: str
 
 The status of the group profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
 
 ---
 

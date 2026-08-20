@@ -4,7 +4,7 @@
 
 ### Ec2CapacityManagerDataExport <a name="Ec2CapacityManagerDataExport" id="@cdktn/provider-awscc.ec2CapacityManagerDataExport.Ec2CapacityManagerDataExport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2CapacityManagerDataExport.Ec2CapacityManagerDataExport.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Ec2CapacityManagerDataExpo
 
 The id of the existing Ec2CapacityManagerDataExport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ The format of the exported capacity manager data.
 
 Choose 'csv' for comma-separated values or 'parquet' for optimized columnar storage format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#output_format Ec2CapacityManagerDataExport#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#output_format Ec2CapacityManagerDataExport#output_format}
 
 ---
 
@@ -970,7 +970,7 @@ The name of the Amazon S3 bucket where the capacity manager data export will be 
 
 The bucket must exist and be accessible by EC2 Capacity Manager service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_name Ec2CapacityManagerDataExport#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_name Ec2CapacityManagerDataExport#s3_bucket_name}
 
 ---
 
@@ -986,7 +986,7 @@ The schedule for the capacity manager data export.
 
 Currently supports hourly exports that provide periodic snapshots of capacity manager data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#schedule Ec2CapacityManagerDataExport#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#schedule Ec2CapacityManagerDataExport#schedule}
 
 ---
 
@@ -1002,7 +1002,7 @@ The prefix for the S3 bucket location where exported files will be placed.
 
 If not specified, files will be placed in the root of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_prefix Ec2CapacityManagerDataExport#s3_bucket_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_prefix Ec2CapacityManagerDataExport#s3_bucket_prefix}
 
 ---
 
@@ -1016,7 +1016,7 @@ public readonly tags: IResolvable | Ec2CapacityManagerDataExportTags[];
 
 An array of key-value pairs to apply to the capacity manager data export.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#tags Ec2CapacityManagerDataExport#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#tags Ec2CapacityManagerDataExport#tags}
 
 ---
 
@@ -1051,7 +1051,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#key Ec2CapacityManagerDataExport#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#key Ec2CapacityManagerDataExport#key}
 
 ---
 
@@ -1067,7 +1067,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export#value Ec2CapacityManagerDataExport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_capacity_manager_data_export#value Ec2CapacityManagerDataExport#value}
 
 ---
 

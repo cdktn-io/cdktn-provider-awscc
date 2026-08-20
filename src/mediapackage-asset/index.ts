@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface MediapackageAssetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The unique identifier for the Asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#asset_id MediapackageAsset#asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#asset_id MediapackageAsset#asset_id}
   */
   readonly assetId: string;
   /**
   * The list of egress endpoints available for the Asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#egress_endpoints MediapackageAsset#egress_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#egress_endpoints MediapackageAsset#egress_endpoints}
   */
   readonly egressEndpoints?: MediapackageAssetEgressEndpoints[] | cdktn.IResolvable;
   /**
   * The ID of the PackagingGroup for the Asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#packaging_group_id MediapackageAsset#packaging_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#packaging_group_id MediapackageAsset#packaging_group_id}
   */
   readonly packagingGroupId: string;
   /**
   * The resource ID to include in SPEKE key requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#resource_id MediapackageAsset#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#resource_id MediapackageAsset#resource_id}
   */
   readonly resourceId?: string;
   /**
   * ARN of the source object in S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#source_arn MediapackageAsset#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#source_arn MediapackageAsset#source_arn}
   */
   readonly sourceArn: string;
   /**
   * The IAM role_arn used to access the source S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#source_role_arn MediapackageAsset#source_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#source_role_arn MediapackageAsset#source_role_arn}
   */
   readonly sourceRoleArn: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#tags MediapackageAsset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#tags MediapackageAsset#tags}
   */
   readonly tags?: MediapackageAssetTags[] | cdktn.IResolvable;
 }
@@ -59,13 +59,13 @@ export interface MediapackageAssetEgressEndpoints {
   /**
   * The ID of the PackagingConfiguration being applied to the Asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#packaging_configuration_id MediapackageAsset#packaging_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#packaging_configuration_id MediapackageAsset#packaging_configuration_id}
   */
   readonly packagingConfigurationId?: string;
   /**
   * The URL of the parent manifest for the repackaged Asset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#url MediapackageAsset#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#url MediapackageAsset#url}
   */
   readonly url?: string;
 }
@@ -210,11 +210,11 @@ export class MediapackageAssetEgressEndpointsList extends cdktn.ComplexList {
 }
 export interface MediapackageAssetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#key MediapackageAsset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#key MediapackageAsset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#value MediapackageAsset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#value MediapackageAsset#value}
   */
   readonly value?: string;
 }
@@ -359,7 +359,7 @@ export class MediapackageAssetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset awscc_mediapackage_asset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset awscc_mediapackage_asset}
 */
 export class MediapackageAsset extends cdktn.TerraformResource {
 
@@ -375,7 +375,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediapackageAsset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediapackageAsset to import
-  * @param importFromId The id of the existing MediapackageAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediapackageAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediapackageAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -387,7 +387,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackage_asset awscc_mediapackage_asset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackage_asset awscc_mediapackage_asset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -398,7 +398,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediapackage_asset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

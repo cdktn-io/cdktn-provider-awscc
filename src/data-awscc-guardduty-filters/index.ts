@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_filters
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccGuarddutyFiltersConfig extends cdktn.TerraformMetaArgu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_filters awscc_guardduty_filters}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_filters awscc_guardduty_filters}
 */
 export class DataAwsccGuarddutyFilters extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccGuarddutyFilters extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccGuarddutyFilters resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGuarddutyFilters to import
-  * @param importFromId The id of the existing DataAwsccGuarddutyFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGuarddutyFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGuarddutyFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccGuarddutyFilters extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_filters awscc_guardduty_filters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_filters awscc_guardduty_filters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccGuarddutyFilters extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_guardduty_filters',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

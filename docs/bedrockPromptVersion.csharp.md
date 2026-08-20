@@ -4,7 +4,7 @@
 
 ### BedrockPromptVersion <a name="BedrockPromptVersion" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockPromptVersion.BedrockPromptVersion.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the BedrockPromptVersion to im
 
 The id of the existing BedrockPromptVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -992,7 +992,7 @@ public string PromptArn { get; set; }
 
 ARN of a prompt resource possibly with a version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt_version#prompt_arn BedrockPromptVersion#prompt_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt_version#prompt_arn BedrockPromptVersion#prompt_arn}
 
 ---
 
@@ -1006,7 +1006,7 @@ public string Description { get; set; }
 
 Description for a prompt version resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt_version#description BedrockPromptVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt_version#description BedrockPromptVersion#description}
 
 ---
 
@@ -1020,7 +1020,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A map of tag keys and values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_prompt_version#tags BedrockPromptVersion#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_prompt_version#tags BedrockPromptVersion#tags}
 
 ---
 

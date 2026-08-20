@@ -4,7 +4,7 @@
 
 ### LogsResourcePolicy <a name="LogsResourcePolicy" id="@cdktn/provider-awscc.logsResourcePolicy.LogsResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_resource_policy awscc_logs_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_resource_policy awscc_logs_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsResourcePolicy.LogsResourcePolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The policy document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_resource_policy#policy_document LogsResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_resource_policy#policy_document LogsResourcePolicy#policy_document}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A name for resource policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_resource_policy#policy_name LogsResourcePolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_resource_policy#policy_name LogsResourcePolicy#policy_name}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the LogsResourcePolicy to impo
 
 The id of the existing LogsResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -931,7 +931,7 @@ public java.lang.String getPolicyDocument();
 
 The policy document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_resource_policy#policy_document LogsResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_resource_policy#policy_document LogsResourcePolicy#policy_document}
 
 ---
 
@@ -945,7 +945,7 @@ public java.lang.String getPolicyName();
 
 A name for resource policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_resource_policy#policy_name LogsResourcePolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_resource_policy#policy_name LogsResourcePolicy#policy_name}
 
 ---
 

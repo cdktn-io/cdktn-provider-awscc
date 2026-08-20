@@ -4,7 +4,7 @@
 
 ### Resiliencehubv2Service <a name="Resiliencehubv2Service" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer"></a>
 
@@ -637,7 +637,7 @@ The construct id used in the generated config for the Resiliencehubv2Service to 
 
 The id of the existing Resiliencehubv2Service that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1179,7 +1179,7 @@ public readonly text: string;
 
 The text of the assertion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
 
 ---
 
@@ -1212,7 +1212,7 @@ public readonly systemArn: string;
 
 The system ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
 
 ---
 
@@ -1226,7 +1226,7 @@ public readonly userJourneyIds: string[];
 
 User journey IDs associated with this system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
 
 ---
 
@@ -1259,7 +1259,7 @@ const resiliencehubv2ServiceConfig: resiliencehubv2Service.Resiliencehubv2Servic
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.description">description</a></code> | <code>string</code> | The description of the service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.inputSources">inputSources</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSources">Resiliencehubv2ServiceInputSources</a>[]</code> | Input sources for this service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.kmsKeyId">kmsKeyId</a></code> | <code>string</code> | The KMS key ID for encrypting service data. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.permissionModel">permissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.permissionModel">permissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.policyArn">policyArn</a></code> | <code>string</code> | The ARN of the resilience policy to associate. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.reportConfiguration">reportConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration">Resiliencehubv2ServiceReportConfiguration</a></code> | Configuration for automatic report generation on a Service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceTags">Resiliencehubv2ServiceTags</a>[]</code> | Tags assigned to the service. |
@@ -1346,7 +1346,7 @@ public readonly name: string;
 
 The name of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly regions: string[];
 
 AWS regions for the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
 
 ---
 
@@ -1374,7 +1374,7 @@ public readonly assertions: IResolvable | Resiliencehubv2ServiceAssertions[];
 
 Assertions associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
 
 ---
 
@@ -1388,7 +1388,7 @@ public readonly associatedSystems: IResolvable | Resiliencehubv2ServiceAssociate
 
 Systems associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
 
 ---
 
@@ -1402,7 +1402,7 @@ public readonly dependencyDiscovery: string;
 
 Dependency discovery state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
 
 ---
 
@@ -1416,7 +1416,7 @@ public readonly description: string;
 
 The description of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
 
 ---
 
@@ -1430,7 +1430,7 @@ public readonly inputSources: IResolvable | Resiliencehubv2ServiceInputSources[]
 
 Input sources for this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
 
 ---
 
@@ -1444,7 +1444,7 @@ public readonly kmsKeyId: string;
 
 The KMS key ID for encrypting service data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
 
 ---
 
@@ -1456,7 +1456,7 @@ public readonly permissionModel: Resiliencehubv2ServicePermissionModel;
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
 
 ---
 
@@ -1470,7 +1470,7 @@ public readonly policyArn: string;
 
 The ARN of the resilience policy to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
 
 ---
 
@@ -1484,7 +1484,7 @@ public readonly reportConfiguration: Resiliencehubv2ServiceReportConfiguration;
 
 Configuration for automatic report generation on a Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
 
 ---
 
@@ -1498,7 +1498,7 @@ public readonly tags: IResolvable | Resiliencehubv2ServiceTags[];
 
 Tags assigned to the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
 
 ---
 
@@ -1618,7 +1618,7 @@ public readonly resourceConfiguration: Resiliencehubv2ServiceInputSourcesResourc
 
 Resource configuration for an input source. Provide exactly one field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
 
 ---
 
@@ -1638,7 +1638,7 @@ const resiliencehubv2ServiceInputSourcesResourceConfiguration: resiliencehubv2Se
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.cfnStackArn">cfnStackArn</a></code> | <code>string</code> | ARN of a CloudFormation stack. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.designFileS3Url">designFileS3Url</a></code> | <code>string</code> | S3 URL of a design file. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.eks">eks</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.eks">eks</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.resourceTags">resourceTags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags">Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags</a>[]</code> | Resource tags to discover resources. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.tfStateFileUrl">tfStateFileUrl</a></code> | <code>string</code> | URL of a Terraform state file. |
 
@@ -1654,7 +1654,7 @@ public readonly cfnStackArn: string;
 
 ARN of a CloudFormation stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
 
 ---
 
@@ -1668,7 +1668,7 @@ public readonly designFileS3Url: string;
 
 S3 URL of a design file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
 
 ---
 
@@ -1680,7 +1680,7 @@ public readonly eks: Resiliencehubv2ServiceInputSourcesResourceConfigurationEks;
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}.
 
 ---
 
@@ -1694,7 +1694,7 @@ public readonly resourceTags: IResolvable | Resiliencehubv2ServiceInputSourcesRe
 
 Resource tags to discover resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
 
 ---
 
@@ -1708,7 +1708,7 @@ public readonly tfStateFileUrl: string;
 
 URL of a Terraform state file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
 
 ---
 
@@ -1741,7 +1741,7 @@ public readonly clusterArn: string;
 
 ARN of the EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
 
 ---
 
@@ -1755,7 +1755,7 @@ public readonly namespaces: string[];
 
 EKS namespaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
 
 ---
 
@@ -1788,7 +1788,7 @@ public readonly key: string;
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -1802,7 +1802,7 @@ public readonly values: string[];
 
 Tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
 
 ---
 
@@ -1835,7 +1835,7 @@ public readonly crossAccountRoleArns: IResolvable | Resiliencehubv2ServicePermis
 
 Cross-account role ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
 
 ---
 
@@ -1849,7 +1849,7 @@ public readonly invokerRoleName: string;
 
 Name of the invoker IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
 
 ---
 
@@ -1882,7 +1882,7 @@ public readonly crossAccountRoleArn: string;
 
 ARN of the cross-account IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
 
 ---
 
@@ -1896,7 +1896,7 @@ public readonly externalId: string;
 
 External ID for cross-account access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
 
 ---
 
@@ -1928,7 +1928,7 @@ public readonly reportOutput: IResolvable | Resiliencehubv2ServiceReportConfigur
 
 Output destinations for generated reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
 
 ---
 
@@ -1960,7 +1960,7 @@ public readonly s3: Resiliencehubv2ServiceReportConfigurationReportOutputS3;
 
 S3 configuration for report output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
 
 ---
 
@@ -1993,7 +1993,7 @@ public readonly bucketOwner: string;
 
 Account ID of the bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
 
 ---
 
@@ -2007,7 +2007,7 @@ public readonly bucketPath: string;
 
 S3 bucket path where reports will be written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
 
 ---
 
@@ -2040,7 +2040,7 @@ public readonly key: string;
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -2054,7 +2054,7 @@ public readonly value: string;
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
 
 ---
 

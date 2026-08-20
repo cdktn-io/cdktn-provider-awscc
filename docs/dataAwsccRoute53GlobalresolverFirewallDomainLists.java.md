@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53GlobalresolverFirewallDomainLists <a name="DataAwsccRoute53GlobalresolverFirewallDomainLists" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainLists.DataAwsccRoute53GlobalresolverFirewallDomainLists"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverFirewallDomainLists.DataAwsccRoute53GlobalresolverFirewallDomainLists.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRoute53Globalreso
 
 The id of the existing DataAwsccRoute53GlobalresolverFirewallDomainLists that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53globalresolver_firewall_domain_lists#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53globalresolver_firewall_domain_lists#import import section} in the documentation of this resource for the id to use
 
 ---
 

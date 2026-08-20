@@ -4,7 +4,7 @@
 
 ### ManagedblockchainAccessor <a name="ManagedblockchainAccessor" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer"></a>
 
@@ -36,8 +36,8 @@ ManagedblockchainAccessor.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.accessorType">accessorType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}. |
-| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.networkType">networkType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}. |
+| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.accessorType">accessorType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}. |
+| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.networkType">networkType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}. |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessor.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorTags">ManagedblockchainAccessorTags</a>></code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
 
 ---
 
@@ -600,7 +600,7 @@ The construct id used in the generated config for the ManagedblockchainAccessor 
 
 The id of the existing ManagedblockchainAccessor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,8 +959,8 @@ ManagedblockchainAccessorConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.accessorType">accessorType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}. |
-| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.networkType">networkType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}. |
+| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.accessorType">accessorType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}. |
+| <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.networkType">networkType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}. |
 | <code><a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.managedblockchainAccessor.ManagedblockchainAccessorTags">ManagedblockchainAccessorTags</a>></code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1043,7 +1043,7 @@ public java.lang.String getAccessorType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}.
 
 ---
 
@@ -1055,7 +1055,7 @@ public java.lang.String getNetworkType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}.
 
 ---
 
@@ -1069,7 +1069,7 @@ public IResolvable|java.util.List<ManagedblockchainAccessorTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
 
 ---
 
@@ -1107,7 +1107,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
 
 ---
 
@@ -1123,7 +1123,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
 
 ---
 

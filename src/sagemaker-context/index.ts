@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface SagemakerContextConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the context. Must be unique to your account in an AWS Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#context_name SagemakerContext#context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#context_name SagemakerContext#context_name}
   */
   readonly contextName: string;
   /**
   * The context type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#context_type SagemakerContext#context_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#context_type SagemakerContext#context_type}
   */
   readonly contextType: string;
   /**
   * The description of the context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#description SagemakerContext#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#description SagemakerContext#description}
   */
   readonly description?: string;
   /**
   * A list of properties to add to the context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#properties SagemakerContext#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#properties SagemakerContext#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The source type, ID, and URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source SagemakerContext#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source SagemakerContext#source}
   */
   readonly source: SagemakerContextSource;
   /**
   * A list of tags to apply to the context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#tags SagemakerContext#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#tags SagemakerContext#tags}
   */
   readonly tags?: SagemakerContextTags[] | cdktn.IResolvable;
 }
@@ -53,19 +53,19 @@ export interface SagemakerContextSource {
   /**
   * The ID of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source_id SagemakerContext#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source_id SagemakerContext#source_id}
   */
   readonly sourceId?: string;
   /**
   * The type of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source_type SagemakerContext#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source_type SagemakerContext#source_type}
   */
   readonly sourceType?: string;
   /**
   * The URI of the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source_uri SagemakerContext#source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source_uri SagemakerContext#source_uri}
   */
   readonly sourceUri: string;
 }
@@ -216,13 +216,13 @@ export interface SagemakerContextTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#key SagemakerContext#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#key SagemakerContext#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#value SagemakerContext#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#value SagemakerContext#value}
   */
   readonly value?: string;
 }
@@ -367,7 +367,7 @@ export class SagemakerContextTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context awscc_sagemaker_context}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context awscc_sagemaker_context}
 */
 export class SagemakerContext extends cdktn.TerraformResource {
 
@@ -383,7 +383,7 @@ export class SagemakerContext extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerContext resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerContext to import
-  * @param importFromId The id of the existing SagemakerContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerContext that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerContext to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -395,7 +395,7 @@ export class SagemakerContext extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context awscc_sagemaker_context} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context awscc_sagemaker_context} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -406,7 +406,7 @@ export class SagemakerContext extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_context',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### ConnectPhoneNumber <a name="ConnectPhoneNumber" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number awscc_connect_phone_number}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number awscc_connect_phone_number}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPhoneNumber.ConnectPhoneNumber.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the ConnectPhoneNumber to impo
 
 The id of the existing ConnectPhoneNumber that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly targetArn: string;
 
 The ARN of the target the phone number is claimed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#target_arn ConnectPhoneNumber#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#target_arn ConnectPhoneNumber#target_arn}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly countryCode: string;
 
 The phone number country code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#country_code ConnectPhoneNumber#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#country_code ConnectPhoneNumber#country_code}
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly description: string;
 
 The description of the phone number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#description ConnectPhoneNumber#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#description ConnectPhoneNumber#description}
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly prefix: string;
 
 The phone number prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#prefix ConnectPhoneNumber#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#prefix ConnectPhoneNumber#prefix}
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly sourcePhoneNumberArn: string;
 
 The source phone number arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#source_phone_number_arn ConnectPhoneNumber#source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#source_phone_number_arn ConnectPhoneNumber#source_phone_number_arn}
 
 ---
 
@@ -1107,7 +1107,7 @@ public readonly tags: IResolvable | ConnectPhoneNumberTags[];
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#tags ConnectPhoneNumber#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#tags ConnectPhoneNumber#tags}
 
 ---
 
@@ -1121,7 +1121,7 @@ public readonly type: string;
 
 The phone number type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#type ConnectPhoneNumber#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#type ConnectPhoneNumber#type}
 
 ---
 
@@ -1156,7 +1156,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
 
 ---
 
@@ -1172,7 +1172,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
 
 ---
 

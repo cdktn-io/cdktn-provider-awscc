@@ -4,7 +4,7 @@
 
 ### WellarchitectedReviewTemplate <a name="WellarchitectedReviewTemplate" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplate.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The review template description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The lenses applied to the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The notes associated with the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags assigned to the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
 
 ---
 
@@ -680,7 +680,7 @@ The construct id used in the generated config for the WellarchitectedReviewTempl
 
 The id of the existing WellarchitectedReviewTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1162,7 +1162,7 @@ description: str
 
 The review template description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
 
 ---
 
@@ -1176,7 +1176,7 @@ lenses: typing.List[str]
 
 The lenses applied to the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
 
 ---
 
@@ -1190,7 +1190,7 @@ template_name: str
 
 The name of the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
 
 ---
 
@@ -1204,7 +1204,7 @@ notes: str
 
 The notes associated with the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
 
 ---
 
@@ -1218,7 +1218,7 @@ tags: IResolvable | typing.List[WellarchitectedReviewTemplateTags]
 
 The tags assigned to the review template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
 
 ---
 
@@ -1239,8 +1239,8 @@ wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}. |
-| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}. |
+| <code><a href="#@cdktn/provider-awscc.wellarchitectedReviewTemplate.WellarchitectedReviewTemplateTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}. |
 
 ---
 
@@ -1252,7 +1252,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}.
 
 ---
 
@@ -1264,7 +1264,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}.
 
 ---
 

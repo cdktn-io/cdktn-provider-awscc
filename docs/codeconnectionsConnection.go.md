@@ -4,7 +4,7 @@
 
 ### CodeconnectionsConnection <a name="CodeconnectionsConnection" id="@cdktn/provider-awscc.codeconnectionsConnection.CodeconnectionsConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection awscc_codeconnections_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection awscc_codeconnections_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeconnectionsConnection.CodeconnectionsConnection.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the CodeconnectionsConnection 
 
 The id of the existing CodeconnectionsConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ ConnectionName *string
 
 The name of the connection. Connection names must be unique in an AWS user account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#connection_name CodeconnectionsConnection#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#connection_name CodeconnectionsConnection#connection_name}
 
 ---
 
@@ -986,7 +986,7 @@ The host arn configured to represent the infrastructure where your third-party p
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#host_arn CodeconnectionsConnection#host_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#host_arn CodeconnectionsConnection#host_arn}
 
 ---
 
@@ -1002,7 +1002,7 @@ The name of the external provider where your third-party code repository is conf
 
 You must specify either a ProviderType or a HostArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#provider_type CodeconnectionsConnection#provider_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#provider_type CodeconnectionsConnection#provider_type}
 
 ---
 
@@ -1016,7 +1016,7 @@ Tags interface{}
 
 Specifies the tags applied to a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#tags CodeconnectionsConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#tags CodeconnectionsConnection#tags}
 
 ---
 
@@ -1054,7 +1054,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#key CodeconnectionsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#key CodeconnectionsConnection#key}
 
 ---
 
@@ -1070,7 +1070,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#value CodeconnectionsConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection#value CodeconnectionsConnection#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BedrockagentcorePolicyEngine <a name="BedrockagentcorePolicyEngine" id="@cdktn/provider-awscc.bedrockagentcorePolicyEngine.BedrockagentcorePolicyEngine"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcorePolicyEngine.BedrockagentcorePolicyEngine.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BedrockagentcorePolicyEngi
 
 The id of the existing BedrockagentcorePolicyEngine that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1003,7 +1003,7 @@ public string Name { get; set; }
 
 The customer-assigned immutable name for the policy engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#name BedrockagentcorePolicyEngine#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#name BedrockagentcorePolicyEngine#name}
 
 ---
 
@@ -1017,7 +1017,7 @@ public string Description { get; set; }
 
 A human-readable description of the policy engine's purpose and scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#description BedrockagentcorePolicyEngine#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#description BedrockagentcorePolicyEngine#description}
 
 ---
 
@@ -1031,7 +1031,7 @@ public string EncryptionKeyArn { get; set; }
 
 The ARN of the KMS key used to encrypt the policy engine data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#encryption_key_arn BedrockagentcorePolicyEngine#encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#encryption_key_arn BedrockagentcorePolicyEngine#encryption_key_arn}
 
 ---
 
@@ -1045,7 +1045,7 @@ public IResolvable|BedrockagentcorePolicyEngineTags[] Tags { get; set; }
 
 A list of tags to assign to the policy engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#tags BedrockagentcorePolicyEngine#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#tags BedrockagentcorePolicyEngine#tags}
 
 ---
 
@@ -1066,8 +1066,8 @@ new BedrockagentcorePolicyEngineTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bedrockagentcorePolicyEngine.BedrockagentcorePolicyEngineTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#key BedrockagentcorePolicyEngine#key}. |
-| <code><a href="#@cdktn/provider-awscc.bedrockagentcorePolicyEngine.BedrockagentcorePolicyEngineTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#value BedrockagentcorePolicyEngine#value}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockagentcorePolicyEngine.BedrockagentcorePolicyEngineTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#key BedrockagentcorePolicyEngine#key}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockagentcorePolicyEngine.BedrockagentcorePolicyEngineTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#value BedrockagentcorePolicyEngine#value}. |
 
 ---
 
@@ -1079,7 +1079,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#key BedrockagentcorePolicyEngine#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#key BedrockagentcorePolicyEngine#key}.
 
 ---
 
@@ -1091,7 +1091,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy_engine#value BedrockagentcorePolicyEngine#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy_engine#value BedrockagentcorePolicyEngine#value}.
 
 ---
 

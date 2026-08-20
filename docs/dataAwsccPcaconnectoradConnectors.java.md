@@ -4,7 +4,7 @@
 
 ### DataAwsccPcaconnectoradConnectors <a name="DataAwsccPcaconnectoradConnectors" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnectors.DataAwsccPcaconnectoradConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPcaconnectoradConnectors.DataAwsccPcaconnectoradConnectors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccPcaconnectoradCon
 
 The id of the existing DataAwsccPcaconnectoradConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pcaconnectorad_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pcaconnectorad_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 

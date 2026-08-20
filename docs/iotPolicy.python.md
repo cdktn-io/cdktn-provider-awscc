@@ -4,7 +4,7 @@
 
 ### IotPolicy <a name="IotPolicy" id="@cdktn/provider-awscc.iotPolicy.IotPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy awscc_iot_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy awscc_iot_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer"></a>
 
@@ -38,9 +38,9 @@ iotPolicy.IotPolicy(
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.policyDocument">policy_document</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags">IotPolicyTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#tags IotPolicy#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.policyDocument">policy_document</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicy.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags">IotPolicyTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#tags IotPolicy#tags}. |
 
 ---
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags">IotPolicyTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#tags IotPolicy#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#tags IotPolicy#tags}.
 
 ---
 
@@ -650,7 +650,7 @@ The construct id used in the generated config for the IotPolicy to import.
 
 The id of the existing IotPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,9 +976,9 @@ iotPolicy.IotPolicyConfig(
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyDocument">policy_document</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags">IotPolicyTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#tags IotPolicy#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyDocument">policy_document</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.policyName">policy_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags">IotPolicyTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#tags IotPolicy#tags}. |
 
 ---
 
@@ -1060,7 +1060,7 @@ policy_document: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_document IotPolicy#policy_document}.
 
 ---
 
@@ -1072,7 +1072,7 @@ policy_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#policy_name IotPolicy#policy_name}.
 
 ---
 
@@ -1084,7 +1084,7 @@ tags: IResolvable | typing.List[IotPolicyTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags">IotPolicyTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#tags IotPolicy#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#tags IotPolicy#tags}.
 
 ---
 
@@ -1105,8 +1105,8 @@ iotPolicy.IotPolicyTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#key IotPolicy#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#value IotPolicy#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#key IotPolicy#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotPolicy.IotPolicyTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#value IotPolicy#value}. |
 
 ---
 
@@ -1118,7 +1118,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#key IotPolicy#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#key IotPolicy#key}.
 
 ---
 
@@ -1130,7 +1130,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_policy#value IotPolicy#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_policy#value IotPolicy#value}.
 
 ---
 

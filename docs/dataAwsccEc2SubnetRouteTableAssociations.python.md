@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2SubnetRouteTableAssociations <a name="DataAwsccEc2SubnetRouteTableAssociations" id="@cdktn/provider-awscc.dataAwsccEc2SubnetRouteTableAssociations.DataAwsccEc2SubnetRouteTableAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_route_table_associations awscc_ec2_subnet_route_table_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_subnet_route_table_associations awscc_ec2_subnet_route_table_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetRouteTableAssociations.DataAwsccEc2SubnetRouteTableAssociations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2SubnetRouteTab
 
 The id of the existing DataAwsccEc2SubnetRouteTableAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_route_table_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_subnet_route_table_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

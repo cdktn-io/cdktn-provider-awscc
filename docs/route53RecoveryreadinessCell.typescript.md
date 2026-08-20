@@ -4,7 +4,7 @@
 
 ### Route53RecoveryreadinessCell <a name="Route53RecoveryreadinessCell" id="@cdktn/provider-awscc.route53RecoveryreadinessCell.Route53RecoveryreadinessCell"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell awscc_route53recoveryreadiness_cell}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell awscc_route53recoveryreadiness_cell}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecoveryreadinessCell.Route53RecoveryreadinessCell.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the Route53RecoveryreadinessCe
 
 The id of the existing Route53RecoveryreadinessCell that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ public readonly cellName: string;
 
 The name of the cell to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#cell_name Route53RecoveryreadinessCell#cell_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#cell_name Route53RecoveryreadinessCell#cell_name}
 
 ---
 
@@ -940,7 +940,7 @@ A list of cell Amazon Resource Names (ARNs) contained within this cell, for use 
 
 For example, Availability Zones within specific Regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#cells Route53RecoveryreadinessCell#cells}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#cells Route53RecoveryreadinessCell#cells}
 
 ---
 
@@ -954,7 +954,7 @@ public readonly tags: IResolvable | Route53RecoveryreadinessCellTags[];
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#tags Route53RecoveryreadinessCell#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#tags Route53RecoveryreadinessCell#tags}
 
 ---
 
@@ -972,8 +972,8 @@ const route53RecoveryreadinessCellTags: route53RecoveryreadinessCell.Route53Reco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#key Route53RecoveryreadinessCell#key}. |
-| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#value Route53RecoveryreadinessCell#value}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#key Route53RecoveryreadinessCell#key}. |
+| <code><a href="#@cdktn/provider-awscc.route53RecoveryreadinessCell.Route53RecoveryreadinessCellTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#value Route53RecoveryreadinessCell#value}. |
 
 ---
 
@@ -985,7 +985,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#key Route53RecoveryreadinessCell#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#key Route53RecoveryreadinessCell#key}.
 
 ---
 
@@ -997,7 +997,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_cell#value Route53RecoveryreadinessCell#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoveryreadiness_cell#value Route53RecoveryreadinessCell#value}.
 
 ---
 

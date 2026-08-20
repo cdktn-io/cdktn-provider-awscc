@@ -4,7 +4,7 @@
 
 ### SagemakerContext <a name="SagemakerContext" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context awscc_sagemaker_context}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context awscc_sagemaker_context}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerContext.SagemakerContext.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the SagemakerContext to import
 
 The id of the existing SagemakerContext that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1031,7 +1031,7 @@ public string ContextName { get; set; }
 
 The name of the context. Must be unique to your account in an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#context_name SagemakerContext#context_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#context_name SagemakerContext#context_name}
 
 ---
 
@@ -1045,7 +1045,7 @@ public string ContextType { get; set; }
 
 The context type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#context_type SagemakerContext#context_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#context_type SagemakerContext#context_type}
 
 ---
 
@@ -1059,7 +1059,7 @@ public SagemakerContextSource Source { get; set; }
 
 The source type, ID, and URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source SagemakerContext#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source SagemakerContext#source}
 
 ---
 
@@ -1073,7 +1073,7 @@ public string Description { get; set; }
 
 The description of the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#description SagemakerContext#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#description SagemakerContext#description}
 
 ---
 
@@ -1087,7 +1087,7 @@ public System.Collections.Generic.IDictionary<string, string> Properties { get; 
 
 A list of properties to add to the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#properties SagemakerContext#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#properties SagemakerContext#properties}
 
 ---
 
@@ -1101,7 +1101,7 @@ public IResolvable|SagemakerContextTags[] Tags { get; set; }
 
 A list of tags to apply to the context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#tags SagemakerContext#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#tags SagemakerContext#tags}
 
 ---
 
@@ -1139,7 +1139,7 @@ public string SourceUri { get; set; }
 
 The URI of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source_uri SagemakerContext#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source_uri SagemakerContext#source_uri}
 
 ---
 
@@ -1153,7 +1153,7 @@ public string SourceId { get; set; }
 
 The ID of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source_id SagemakerContext#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source_id SagemakerContext#source_id}
 
 ---
 
@@ -1167,7 +1167,7 @@ public string SourceType { get; set; }
 
 The type of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#source_type SagemakerContext#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#source_type SagemakerContext#source_type}
 
 ---
 
@@ -1203,7 +1203,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#key SagemakerContext#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#key SagemakerContext#key}
 
 ---
 
@@ -1217,7 +1217,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_context#value SagemakerContext#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context#value SagemakerContext#value}
 
 ---
 

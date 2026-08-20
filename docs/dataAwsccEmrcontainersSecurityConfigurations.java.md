@@ -4,7 +4,7 @@
 
 ### DataAwsccEmrcontainersSecurityConfigurations <a name="DataAwsccEmrcontainersSecurityConfigurations" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrcontainersSecurityConfigurations.DataAwsccEmrcontainersSecurityConfigurations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEmrcontainersSecu
 
 The id of the existing DataAwsccEmrcontainersSecurityConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emrcontainers_security_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emrcontainers_security_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

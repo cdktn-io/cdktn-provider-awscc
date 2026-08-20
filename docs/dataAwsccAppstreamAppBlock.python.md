@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamAppBlock <a name="DataAwsccAppstreamAppBlock" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlock.DataAwsccAppstreamAppBlock"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_app_block awscc_appstream_app_block}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_app_block awscc_appstream_app_block}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlock.DataAwsccAppstreamAppBlock.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_app_block#id DataAwsccAppstreamAppBlock#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_app_block#id DataAwsccAppstreamAppBlock#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccAppstreamAppBlock
 
 The id of the existing DataAwsccAppstreamAppBlock that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_app_block#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_app_block#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -911,7 +911,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_app_block#id DataAwsccAppstreamAppBlock#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_app_block#id DataAwsccAppstreamAppBlock#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

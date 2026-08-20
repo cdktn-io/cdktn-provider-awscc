@@ -4,7 +4,7 @@
 
 ### GlueWorkflow <a name="GlueWorkflow" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow awscc_glue_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow awscc_glue_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueWorkflow.GlueWorkflow.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 A collection of properties to be used as part of each execution of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#default_run_properties GlueWorkflow#default_run_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#default_run_properties GlueWorkflow#default_run_properties}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#description GlueWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#description GlueWorkflow#description}
 
 ---
 
@@ -134,7 +134,7 @@ You can use this parameter to prevent unwanted multiple updates to data, to cont
 
 If you leave this parameter blank, there is no limit to the number of concurrent workflow runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#max_concurrent_runs GlueWorkflow#max_concurrent_runs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#max_concurrent_runs GlueWorkflow#max_concurrent_runs}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the workflow representing the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#name GlueWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#name GlueWorkflow#name}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags to use with this workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#tags GlueWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#tags GlueWorkflow#tags}
 
 ---
 
@@ -638,7 +638,7 @@ The construct id used in the generated config for the GlueWorkflow to import.
 
 The id of the existing GlueWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1076,7 +1076,7 @@ public java.lang.String getDefaultRunProperties();
 
 A collection of properties to be used as part of each execution of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#default_run_properties GlueWorkflow#default_run_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#default_run_properties GlueWorkflow#default_run_properties}
 
 ---
 
@@ -1090,7 +1090,7 @@ public java.lang.String getDescription();
 
 A description of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#description GlueWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#description GlueWorkflow#description}
 
 ---
 
@@ -1106,7 +1106,7 @@ You can use this parameter to prevent unwanted multiple updates to data, to cont
 
 If you leave this parameter blank, there is no limit to the number of concurrent workflow runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#max_concurrent_runs GlueWorkflow#max_concurrent_runs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#max_concurrent_runs GlueWorkflow#max_concurrent_runs}
 
 ---
 
@@ -1120,7 +1120,7 @@ public java.lang.String getName();
 
 The name of the workflow representing the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#name GlueWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#name GlueWorkflow#name}
 
 ---
 
@@ -1134,7 +1134,7 @@ public java.lang.String getTags();
 
 The tags to use with this workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_workflow#tags GlueWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_workflow#tags GlueWorkflow#tags}
 
 ---
 

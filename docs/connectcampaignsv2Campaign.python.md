@@ -4,7 +4,7 @@
 
 ### Connectcampaignsv2Campaign <a name="Connectcampaignsv2Campaign" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2Campaign.Initializer"></a>
 
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 Amazon Connect Instance Id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_instance_id Connectcampaignsv2Campaign#connect_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_instance_id Connectcampaignsv2Campaign#connect_instance_id}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Campaign name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The possible types of channel subtype config parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#channel_subtype_config Connectcampaignsv2Campaign#channel_subtype_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#channel_subtype_config Connectcampaignsv2Campaign#channel_subtype_config}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Communication limits config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#communication_limits_override Connectcampaignsv2Campaign#communication_limits_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#communication_limits_override Connectcampaignsv2Campaign#communication_limits_override}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Campaign communication time config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#communication_time_config Connectcampaignsv2Campaign#communication_time_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#communication_time_config Connectcampaignsv2Campaign#communication_time_config}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_campaign_flow_arn Connectcampaignsv2Campaign#connect_campaign_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_campaign_flow_arn Connectcampaignsv2Campaign#connect_campaign_flow_arn}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Entry limits config for a campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#entry_limits_config Connectcampaignsv2Campaign#entry_limits_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#entry_limits_config Connectcampaignsv2Campaign#entry_limits_config}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Campaign schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#schedule Connectcampaignsv2Campaign#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#schedule Connectcampaignsv2Campaign#schedule}
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The possible source of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#source Connectcampaignsv2Campaign#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#source Connectcampaignsv2Campaign#source}
 
 ---
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#tags Connectcampaignsv2Campaign#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#tags Connectcampaignsv2Campaign#tags}
 
 ---
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Campaign type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#type Connectcampaignsv2Campaign#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#type Connectcampaignsv2Campaign#type}
 
 ---
 
@@ -642,7 +642,7 @@ def put_channel_subtype_config(
 
 Email Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
 
 ---
 
@@ -652,7 +652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SMS Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
 
 ---
 
@@ -662,7 +662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Telephony Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
 
 ---
 
@@ -672,7 +672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 WhatsApp Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
 
 ---
 
@@ -691,7 +691,7 @@ def put_communication_limits_override(
 
 Communication limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#all_channels_subtypes Connectcampaignsv2Campaign#all_channels_subtypes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#all_channels_subtypes Connectcampaignsv2Campaign#all_channels_subtypes}
 
 ---
 
@@ -701,7 +701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enumeration of Instance Limits handling in a Campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#instance_limits_handling Connectcampaignsv2Campaign#instance_limits_handling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#instance_limits_handling Connectcampaignsv2Campaign#instance_limits_handling}
 
 ---
 
@@ -723,7 +723,7 @@ def put_communication_time_config(
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
 
 ---
 
@@ -733,7 +733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Local time zone config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_config Connectcampaignsv2Campaign#local_time_zone_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_config Connectcampaignsv2Campaign#local_time_zone_config}
 
 ---
 
@@ -743,7 +743,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
 
 ---
 
@@ -753,7 +753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
 
 ---
 
@@ -763,7 +763,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
 
 ---
 
@@ -782,7 +782,7 @@ def put_entry_limits_config(
 
 Maximum number of entries per participant. 0 indicates unlimited entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#max_entry_count Connectcampaignsv2Campaign#max_entry_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#max_entry_count Connectcampaignsv2Campaign#max_entry_count}
 
 ---
 
@@ -792,7 +792,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum time interval between entries for the same participant in ISO 8601 duration format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#min_entry_interval Connectcampaignsv2Campaign#min_entry_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#min_entry_interval Connectcampaignsv2Campaign#min_entry_interval}
 
 ---
 
@@ -812,7 +812,7 @@ def put_schedule(
 
 Timestamp with no UTC offset or timezone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -822,7 +822,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Time duration in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#refresh_frequency Connectcampaignsv2Campaign#refresh_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#refresh_frequency Connectcampaignsv2Campaign#refresh_frequency}
 
 ---
 
@@ -832,7 +832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Timestamp with no UTC offset or timezone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -851,7 +851,7 @@ def put_source(
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_segment_arn Connectcampaignsv2Campaign#customer_profiles_segment_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_segment_arn Connectcampaignsv2Campaign#customer_profiles_segment_arn}
 
 ---
 
@@ -861,7 +861,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The event trigger of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#event_trigger Connectcampaignsv2Campaign#event_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#event_trigger Connectcampaignsv2Campaign#event_trigger}
 
 ---
 
@@ -1047,7 +1047,7 @@ The construct id used in the generated config for the Connectcampaignsv2Campaign
 
 The id of the existing Connectcampaignsv2Campaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1542,7 +1542,7 @@ email: Connectcampaignsv2CampaignChannelSubtypeConfigEmail
 
 Email Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
 
 ---
 
@@ -1556,7 +1556,7 @@ sms: Connectcampaignsv2CampaignChannelSubtypeConfigSms
 
 SMS Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
 
 ---
 
@@ -1570,7 +1570,7 @@ telephony: Connectcampaignsv2CampaignChannelSubtypeConfigTelephony
 
 Telephony Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
 
 ---
 
@@ -1584,7 +1584,7 @@ whats_app: Connectcampaignsv2CampaignChannelSubtypeConfigWhatsApp
 
 WhatsApp Channel Subtype config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
 
 ---
 
@@ -1622,7 +1622,7 @@ capacity: typing.Union[int, float]
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -1636,7 +1636,7 @@ default_outbound_config: Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefa
 
 Default Email outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -1650,7 +1650,7 @@ outbound_mode: Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundMode
 
 Email Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -1688,7 +1688,7 @@ connect_source_email_address: str
 
 Email address used for Email messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_email_address Connectcampaignsv2Campaign#connect_source_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_email_address Connectcampaignsv2Campaign#connect_source_email_address}
 
 ---
 
@@ -1702,7 +1702,7 @@ source_email_address_display_name: str
 
 The name of the source email address display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#source_email_address_display_name Connectcampaignsv2Campaign#source_email_address_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#source_email_address_display_name Connectcampaignsv2Campaign#source_email_address_display_name}
 
 ---
 
@@ -1716,7 +1716,7 @@ wisdom_template_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -1750,7 +1750,7 @@ agentless_config: str
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -1788,7 +1788,7 @@ capacity: typing.Union[int, float]
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -1802,7 +1802,7 @@ default_outbound_config: Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaul
 
 Default SMS outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -1816,7 +1816,7 @@ outbound_mode: Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundMode
 
 SMS Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -1852,7 +1852,7 @@ connect_source_phone_number_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
 
 ---
 
@@ -1866,7 +1866,7 @@ wisdom_template_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -1900,7 +1900,7 @@ agentless_config: str
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -1940,7 +1940,7 @@ capacity: typing.Union[int, float]
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -1954,7 +1954,7 @@ connect_queue_id: str
 
 The queue for the call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_queue_id Connectcampaignsv2Campaign#connect_queue_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_queue_id Connectcampaignsv2Campaign#connect_queue_id}
 
 ---
 
@@ -1968,7 +1968,7 @@ default_outbound_config: Connectcampaignsv2CampaignChannelSubtypeConfigTelephony
 
 Default Telephone Outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -1982,7 +1982,7 @@ outbound_mode: Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMo
 
 Telephony Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -2022,7 +2022,7 @@ answer_machine_detection_config: Connectcampaignsv2CampaignChannelSubtypeConfigT
 
 The configuration used for answering machine detection during outbound calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#answer_machine_detection_config Connectcampaignsv2Campaign#answer_machine_detection_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#answer_machine_detection_config Connectcampaignsv2Campaign#answer_machine_detection_config}
 
 ---
 
@@ -2036,7 +2036,7 @@ connect_contact_flow_id: str
 
 The identifier of the contact flow for the outbound call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_contact_flow_id Connectcampaignsv2Campaign#connect_contact_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_contact_flow_id Connectcampaignsv2Campaign#connect_contact_flow_id}
 
 ---
 
@@ -2050,7 +2050,7 @@ connect_source_phone_number: str
 
 The phone number associated with the Amazon Connect instance, in E.164 format. If you do not specify a source phone number, you must specify a queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number Connectcampaignsv2Campaign#connect_source_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number Connectcampaignsv2Campaign#connect_source_phone_number}
 
 ---
 
@@ -2064,7 +2064,7 @@ ring_timeout: typing.Union[int, float]
 
 Maximum ring time for outbound calls in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#ring_timeout Connectcampaignsv2Campaign#ring_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#ring_timeout Connectcampaignsv2Campaign#ring_timeout}
 
 ---
 
@@ -2100,7 +2100,7 @@ await_answer_machine_prompt: bool | IResolvable
 
 Enables detection of prompts (e.g., beep after after a voicemail greeting).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#await_answer_machine_prompt Connectcampaignsv2Campaign#await_answer_machine_prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#await_answer_machine_prompt Connectcampaignsv2Campaign#await_answer_machine_prompt}
 
 ---
 
@@ -2114,7 +2114,7 @@ enable_answer_machine_detection: bool | IResolvable
 
 Flag to decided whether outbound calls should have answering machine detection enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#enable_answer_machine_detection Connectcampaignsv2Campaign#enable_answer_machine_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#enable_answer_machine_detection Connectcampaignsv2Campaign#enable_answer_machine_detection}
 
 ---
 
@@ -2154,7 +2154,7 @@ agentless_config: str
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -2168,7 +2168,7 @@ predictive_config: Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutbou
 
 Predictive config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#predictive_config Connectcampaignsv2Campaign#predictive_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#predictive_config Connectcampaignsv2Campaign#predictive_config}
 
 ---
 
@@ -2182,7 +2182,7 @@ preview_config: Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundM
 
 Preview config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#preview_config Connectcampaignsv2Campaign#preview_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#preview_config Connectcampaignsv2Campaign#preview_config}
 
 ---
 
@@ -2196,7 +2196,7 @@ progressive_config: Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutbo
 
 Progressive config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#progressive_config Connectcampaignsv2Campaign#progressive_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#progressive_config Connectcampaignsv2Campaign#progressive_config}
 
 ---
 
@@ -2230,7 +2230,7 @@ bandwidth_allocation: typing.Union[int, float]
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -2268,7 +2268,7 @@ agent_actions: typing.List[str]
 
 Actions that can be performed by agent during preview phase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agent_actions Connectcampaignsv2Campaign#agent_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agent_actions Connectcampaignsv2Campaign#agent_actions}
 
 ---
 
@@ -2282,7 +2282,7 @@ bandwidth_allocation: typing.Union[int, float]
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -2296,7 +2296,7 @@ timeout_config: Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundM
 
 Timeout Config for preview contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#timeout_config Connectcampaignsv2Campaign#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#timeout_config Connectcampaignsv2Campaign#timeout_config}
 
 ---
 
@@ -2330,7 +2330,7 @@ duration_in_seconds: typing.Union[int, float]
 
 Timeout duration for a preview contact in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#duration_in_seconds Connectcampaignsv2Campaign#duration_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#duration_in_seconds Connectcampaignsv2Campaign#duration_in_seconds}
 
 ---
 
@@ -2364,7 +2364,7 @@ bandwidth_allocation: typing.Union[int, float]
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -2402,7 +2402,7 @@ capacity: typing.Union[int, float]
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -2416,7 +2416,7 @@ default_outbound_config: Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppD
 
 Default WhatsApp outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -2430,7 +2430,7 @@ outbound_mode: Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundMod
 
 WhatsApp Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -2466,7 +2466,7 @@ connect_source_phone_number_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
 
 ---
 
@@ -2480,7 +2480,7 @@ wisdom_template_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -2514,7 +2514,7 @@ agentless_config: str
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -2550,7 +2550,7 @@ all_channels_subtypes: Connectcampaignsv2CampaignCommunicationLimitsOverrideAllC
 
 Communication limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#all_channels_subtypes Connectcampaignsv2Campaign#all_channels_subtypes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#all_channels_subtypes Connectcampaignsv2Campaign#all_channels_subtypes}
 
 ---
 
@@ -2564,7 +2564,7 @@ instance_limits_handling: str
 
 Enumeration of Instance Limits handling in a Campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#instance_limits_handling Connectcampaignsv2Campaign#instance_limits_handling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#instance_limits_handling Connectcampaignsv2Campaign#instance_limits_handling}
 
 ---
 
@@ -2598,7 +2598,7 @@ communication_limit_list: IResolvable | typing.List[Connectcampaignsv2CampaignCo
 
 List of communication limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#communication_limit_list Connectcampaignsv2Campaign#communication_limit_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#communication_limit_list Connectcampaignsv2Campaign#communication_limit_list}
 
 ---
 
@@ -2620,8 +2620,8 @@ connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverride
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.frequency">frequency</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}. |
-| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.maxCountPerRecipient">max_count_per_recipient</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}. |
+| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.frequency">frequency</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}. |
+| <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.maxCountPerRecipient">max_count_per_recipient</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}. |
 | <code><a href="#@cdktn/provider-awscc.connectcampaignsv2Campaign.Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSubtypesCommunicationLimitListStruct.property.unit">unit</a></code> | <code>str</code> | The communication limit time unit. |
 
 ---
@@ -2634,7 +2634,7 @@ frequency: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#frequency Connectcampaignsv2Campaign#frequency}.
 
 ---
 
@@ -2646,7 +2646,7 @@ max_count_per_recipient: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#max_count_per_recipient Connectcampaignsv2Campaign#max_count_per_recipient}.
 
 ---
 
@@ -2660,7 +2660,7 @@ unit: str
 
 The communication limit time unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#unit Connectcampaignsv2Campaign#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#unit Connectcampaignsv2Campaign#unit}
 
 ---
 
@@ -2702,7 +2702,7 @@ email: Connectcampaignsv2CampaignCommunicationTimeConfigEmail
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#email Connectcampaignsv2Campaign#email}
 
 ---
 
@@ -2716,7 +2716,7 @@ local_time_zone_config: Connectcampaignsv2CampaignCommunicationTimeConfigLocalTi
 
 Local time zone config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_config Connectcampaignsv2Campaign#local_time_zone_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_config Connectcampaignsv2Campaign#local_time_zone_config}
 
 ---
 
@@ -2730,7 +2730,7 @@ sms: Connectcampaignsv2CampaignCommunicationTimeConfigSms
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#sms Connectcampaignsv2Campaign#sms}
 
 ---
 
@@ -2744,7 +2744,7 @@ telephony: Connectcampaignsv2CampaignCommunicationTimeConfigTelephony
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#telephony Connectcampaignsv2Campaign#telephony}
 
 ---
 
@@ -2758,7 +2758,7 @@ whats_app: Connectcampaignsv2CampaignCommunicationTimeConfigWhatsApp
 
 Time window config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#whats_app Connectcampaignsv2Campaign#whats_app}
 
 ---
 
@@ -2794,7 +2794,7 @@ open_hours: Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -2808,7 +2808,7 @@ restricted_periods: Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestri
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -2842,7 +2842,7 @@ daily_hours: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTi
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -2878,7 +2878,7 @@ key: str
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -2892,7 +2892,7 @@ value: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTimeConf
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -2928,7 +2928,7 @@ end_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -2942,7 +2942,7 @@ start_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -2976,7 +2976,7 @@ restricted_period_list: IResolvable | typing.List[Connectcampaignsv2CampaignComm
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -3014,7 +3014,7 @@ end_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -3028,7 +3028,7 @@ name: str
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3042,7 +3042,7 @@ start_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -3080,7 +3080,7 @@ default_time_zone: str
 
 Time Zone Id in the IANA format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_time_zone Connectcampaignsv2Campaign#default_time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_time_zone Connectcampaignsv2Campaign#default_time_zone}
 
 ---
 
@@ -3094,7 +3094,7 @@ local_time_zone_detection: typing.List[str]
 
 Local TimeZone Detection method list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection Connectcampaignsv2Campaign#local_time_zone_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection Connectcampaignsv2Campaign#local_time_zone_detection}
 
 ---
 
@@ -3108,7 +3108,7 @@ local_time_zone_detection_scope: str
 
 Local TimeZone Detection scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection_scope Connectcampaignsv2Campaign#local_time_zone_detection_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection_scope Connectcampaignsv2Campaign#local_time_zone_detection_scope}
 
 ---
 
@@ -3144,7 +3144,7 @@ open_hours: Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -3158,7 +3158,7 @@ restricted_periods: Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrict
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -3192,7 +3192,7 @@ daily_hours: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTi
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -3228,7 +3228,7 @@ key: str
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -3242,7 +3242,7 @@ value: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTimeConf
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -3278,7 +3278,7 @@ end_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -3292,7 +3292,7 @@ start_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -3326,7 +3326,7 @@ restricted_period_list: IResolvable | typing.List[Connectcampaignsv2CampaignComm
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -3364,7 +3364,7 @@ end_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -3378,7 +3378,7 @@ name: str
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3392,7 +3392,7 @@ start_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -3428,7 +3428,7 @@ open_hours: Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -3442,7 +3442,7 @@ restricted_periods: Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRe
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -3476,7 +3476,7 @@ daily_hours: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTi
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -3512,7 +3512,7 @@ key: str
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -3526,7 +3526,7 @@ value: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTimeConf
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -3562,7 +3562,7 @@ end_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -3576,7 +3576,7 @@ start_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -3610,7 +3610,7 @@ restricted_period_list: IResolvable | typing.List[Connectcampaignsv2CampaignComm
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -3648,7 +3648,7 @@ end_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -3662,7 +3662,7 @@ name: str
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3676,7 +3676,7 @@ start_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -3712,7 +3712,7 @@ open_hours: Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHours
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -3726,7 +3726,7 @@ restricted_periods: Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRes
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -3760,7 +3760,7 @@ daily_hours: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTi
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -3796,7 +3796,7 @@ key: str
 
 Day of week.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -3810,7 +3810,7 @@ value: IResolvable | typing.List[Connectcampaignsv2CampaignCommunicationTimeConf
 
 List of time range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -3846,7 +3846,7 @@ end_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -3860,7 +3860,7 @@ start_time: str
 
 Time in ISO 8601 format, e.g. T23:11.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -3894,7 +3894,7 @@ restricted_period_list: IResolvable | typing.List[Connectcampaignsv2CampaignComm
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -3932,7 +3932,7 @@ end_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_date Connectcampaignsv2Campaign#end_date}
 
 ---
 
@@ -3946,7 +3946,7 @@ name: str
 
 The name of a restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -3960,7 +3960,7 @@ start_date: str
 
 Date in ISO 8601 format, e.g. 2024-01-01.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_date Connectcampaignsv2Campaign#start_date}
 
 ---
 
@@ -4098,7 +4098,7 @@ connect_instance_id: str
 
 Amazon Connect Instance Id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_instance_id Connectcampaignsv2Campaign#connect_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_instance_id Connectcampaignsv2Campaign#connect_instance_id}
 
 ---
 
@@ -4112,7 +4112,7 @@ name: str
 
 Campaign name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#name Connectcampaignsv2Campaign#name}
 
 ---
 
@@ -4126,7 +4126,7 @@ channel_subtype_config: Connectcampaignsv2CampaignChannelSubtypeConfig
 
 The possible types of channel subtype config parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#channel_subtype_config Connectcampaignsv2Campaign#channel_subtype_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#channel_subtype_config Connectcampaignsv2Campaign#channel_subtype_config}
 
 ---
 
@@ -4140,7 +4140,7 @@ communication_limits_override: Connectcampaignsv2CampaignCommunicationLimitsOver
 
 Communication limits config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#communication_limits_override Connectcampaignsv2Campaign#communication_limits_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#communication_limits_override Connectcampaignsv2Campaign#communication_limits_override}
 
 ---
 
@@ -4154,7 +4154,7 @@ communication_time_config: Connectcampaignsv2CampaignCommunicationTimeConfig
 
 Campaign communication time config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#communication_time_config Connectcampaignsv2Campaign#communication_time_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#communication_time_config Connectcampaignsv2Campaign#communication_time_config}
 
 ---
 
@@ -4168,7 +4168,7 @@ connect_campaign_flow_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_campaign_flow_arn Connectcampaignsv2Campaign#connect_campaign_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_campaign_flow_arn Connectcampaignsv2Campaign#connect_campaign_flow_arn}
 
 ---
 
@@ -4182,7 +4182,7 @@ entry_limits_config: Connectcampaignsv2CampaignEntryLimitsConfig
 
 Entry limits config for a campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#entry_limits_config Connectcampaignsv2Campaign#entry_limits_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#entry_limits_config Connectcampaignsv2Campaign#entry_limits_config}
 
 ---
 
@@ -4196,7 +4196,7 @@ schedule: Connectcampaignsv2CampaignSchedule
 
 Campaign schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#schedule Connectcampaignsv2Campaign#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#schedule Connectcampaignsv2Campaign#schedule}
 
 ---
 
@@ -4210,7 +4210,7 @@ source: Connectcampaignsv2CampaignSource
 
 The possible source of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#source Connectcampaignsv2Campaign#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#source Connectcampaignsv2Campaign#source}
 
 ---
 
@@ -4224,7 +4224,7 @@ tags: IResolvable | typing.List[Connectcampaignsv2CampaignTags]
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#tags Connectcampaignsv2Campaign#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#tags Connectcampaignsv2Campaign#tags}
 
 ---
 
@@ -4238,7 +4238,7 @@ type: str
 
 Campaign type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#type Connectcampaignsv2Campaign#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#type Connectcampaignsv2Campaign#type}
 
 ---
 
@@ -4274,7 +4274,7 @@ max_entry_count: typing.Union[int, float]
 
 Maximum number of entries per participant. 0 indicates unlimited entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#max_entry_count Connectcampaignsv2Campaign#max_entry_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#max_entry_count Connectcampaignsv2Campaign#max_entry_count}
 
 ---
 
@@ -4288,7 +4288,7 @@ min_entry_interval: str
 
 Minimum time interval between entries for the same participant in ISO 8601 duration format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#min_entry_interval Connectcampaignsv2Campaign#min_entry_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#min_entry_interval Connectcampaignsv2Campaign#min_entry_interval}
 
 ---
 
@@ -4326,7 +4326,7 @@ end_time: str
 
 Timestamp with no UTC offset or timezone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 
 ---
 
@@ -4340,7 +4340,7 @@ refresh_frequency: str
 
 Time duration in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#refresh_frequency Connectcampaignsv2Campaign#refresh_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#refresh_frequency Connectcampaignsv2Campaign#refresh_frequency}
 
 ---
 
@@ -4354,7 +4354,7 @@ start_time: str
 
 Timestamp with no UTC offset or timezone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 
 ---
 
@@ -4390,7 +4390,7 @@ customer_profiles_segment_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_segment_arn Connectcampaignsv2Campaign#customer_profiles_segment_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_segment_arn Connectcampaignsv2Campaign#customer_profiles_segment_arn}
 
 ---
 
@@ -4404,7 +4404,7 @@ event_trigger: Connectcampaignsv2CampaignSourceEventTrigger
 
 The event trigger of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#event_trigger Connectcampaignsv2Campaign#event_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#event_trigger Connectcampaignsv2Campaign#event_trigger}
 
 ---
 
@@ -4438,7 +4438,7 @@ customer_profiles_domain_arn: str
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_domain_arn Connectcampaignsv2Campaign#customer_profiles_domain_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_domain_arn Connectcampaignsv2Campaign#customer_profiles_domain_arn}
 
 ---
 
@@ -4474,7 +4474,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#key Connectcampaignsv2Campaign#key}
 
 ---
 
@@ -4488,7 +4488,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#value Connectcampaignsv2Campaign#value}
 
 ---
 
@@ -5407,7 +5407,7 @@ def put_default_outbound_config(
 
 Email address used for Email messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_email_address Connectcampaignsv2Campaign#connect_source_email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_email_address Connectcampaignsv2Campaign#connect_source_email_address}
 
 ---
 
@@ -5417,7 +5417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the source email address display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#source_email_address_display_name Connectcampaignsv2Campaign#source_email_address_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#source_email_address_display_name Connectcampaignsv2Campaign#source_email_address_display_name}
 
 ---
 
@@ -5427,7 +5427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -5445,7 +5445,7 @@ def put_outbound_mode(
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -5831,7 +5831,7 @@ def put_email(
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -5841,7 +5841,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Default Email outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -5851,7 +5851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Email Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -5871,7 +5871,7 @@ def put_sms(
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -5881,7 +5881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Default SMS outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -5891,7 +5891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SMS Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -5912,7 +5912,7 @@ def put_telephony(
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -5922,7 +5922,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The queue for the call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_queue_id Connectcampaignsv2Campaign#connect_queue_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_queue_id Connectcampaignsv2Campaign#connect_queue_id}
 
 ---
 
@@ -5932,7 +5932,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Default Telephone Outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -5942,7 +5942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Telephony Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -5962,7 +5962,7 @@ def put_whats_app(
 
 Allocates outbound capacity for the specific channel of this campaign between multiple active campaigns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#capacity Connectcampaignsv2Campaign#capacity}
 
 ---
 
@@ -5972,7 +5972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Default WhatsApp outbound config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_outbound_config Connectcampaignsv2Campaign#default_outbound_config}
 
 ---
 
@@ -5982,7 +5982,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 WhatsApp Outbound Mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#outbound_mode Connectcampaignsv2Campaign#outbound_mode}
 
 ---
 
@@ -7027,7 +7027,7 @@ def put_default_outbound_config(
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
 
 ---
 
@@ -7037,7 +7037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -7055,7 +7055,7 @@ def put_outbound_mode(
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -7769,7 +7769,7 @@ def put_answer_machine_detection_config(
 
 Enables detection of prompts (e.g., beep after after a voicemail greeting).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#await_answer_machine_prompt Connectcampaignsv2Campaign#await_answer_machine_prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#await_answer_machine_prompt Connectcampaignsv2Campaign#await_answer_machine_prompt}
 
 ---
 
@@ -7779,7 +7779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Flag to decided whether outbound calls should have answering machine detection enabled or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#enable_answer_machine_detection Connectcampaignsv2Campaign#enable_answer_machine_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#enable_answer_machine_detection Connectcampaignsv2Campaign#enable_answer_machine_detection}
 
 ---
 
@@ -8190,7 +8190,7 @@ def put_predictive_config(
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -8210,7 +8210,7 @@ def put_preview_config(
 
 Actions that can be performed by agent during preview phase.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agent_actions Connectcampaignsv2Campaign#agent_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agent_actions Connectcampaignsv2Campaign#agent_actions}
 
 ---
 
@@ -8220,7 +8220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -8230,7 +8230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Timeout Config for preview contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#timeout_config Connectcampaignsv2Campaign#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#timeout_config Connectcampaignsv2Campaign#timeout_config}
 
 ---
 
@@ -8248,7 +8248,7 @@ def put_progressive_config(
 
 The bandwidth allocation of a queue resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#bandwidth_allocation Connectcampaignsv2Campaign#bandwidth_allocation}
 
 ---
 
@@ -8959,7 +8959,7 @@ def put_timeout_config(
 
 Timeout duration for a preview contact in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#duration_in_seconds Connectcampaignsv2Campaign#duration_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#duration_in_seconds Connectcampaignsv2Campaign#duration_in_seconds}
 
 ---
 
@@ -9950,7 +9950,7 @@ def put_default_outbound_config(
 
 The configuration used for answering machine detection during outbound calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#answer_machine_detection_config Connectcampaignsv2Campaign#answer_machine_detection_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#answer_machine_detection_config Connectcampaignsv2Campaign#answer_machine_detection_config}
 
 ---
 
@@ -9960,7 +9960,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the contact flow for the outbound call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_contact_flow_id Connectcampaignsv2Campaign#connect_contact_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_contact_flow_id Connectcampaignsv2Campaign#connect_contact_flow_id}
 
 ---
 
@@ -9970,7 +9970,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The phone number associated with the Amazon Connect instance, in E.164 format. If you do not specify a source phone number, you must specify a queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number Connectcampaignsv2Campaign#connect_source_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number Connectcampaignsv2Campaign#connect_source_phone_number}
 
 ---
 
@@ -9980,7 +9980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum ring time for outbound calls in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#ring_timeout Connectcampaignsv2Campaign#ring_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#ring_timeout Connectcampaignsv2Campaign#ring_timeout}
 
 ---
 
@@ -10001,7 +10001,7 @@ def put_outbound_mode(
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -10011,7 +10011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Predictive config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#predictive_config Connectcampaignsv2Campaign#predictive_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#predictive_config Connectcampaignsv2Campaign#predictive_config}
 
 ---
 
@@ -10021,7 +10021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Preview config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#preview_config Connectcampaignsv2Campaign#preview_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#preview_config Connectcampaignsv2Campaign#preview_config}
 
 ---
 
@@ -10031,7 +10031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Progressive config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#progressive_config Connectcampaignsv2Campaign#progressive_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#progressive_config Connectcampaignsv2Campaign#progressive_config}
 
 ---
 
@@ -11076,7 +11076,7 @@ def put_default_outbound_config(
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#connect_source_phone_number_arn Connectcampaignsv2Campaign#connect_source_phone_number_arn}
 
 ---
 
@@ -11086,7 +11086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#wisdom_template_arn Connectcampaignsv2Campaign#wisdom_template_arn}
 
 ---
 
@@ -11104,7 +11104,7 @@ def put_outbound_mode(
 
 Agentless config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#agentless_config Connectcampaignsv2Campaign#agentless_config}
 
 ---
 
@@ -12352,7 +12352,7 @@ def put_all_channels_subtypes(
 
 List of communication limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#communication_limit_list Connectcampaignsv2Campaign#communication_limit_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#communication_limit_list Connectcampaignsv2Campaign#communication_limit_list}
 
 ---
 
@@ -14081,7 +14081,7 @@ def put_open_hours(
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -14099,7 +14099,7 @@ def put_restricted_periods(
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -15688,7 +15688,7 @@ def put_email(
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -15698,7 +15698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -15718,7 +15718,7 @@ def put_local_time_zone_config(
 
 Time Zone Id in the IANA format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#default_time_zone Connectcampaignsv2Campaign#default_time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#default_time_zone Connectcampaignsv2Campaign#default_time_zone}
 
 ---
 
@@ -15728,7 +15728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Local TimeZone Detection method list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection Connectcampaignsv2Campaign#local_time_zone_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection Connectcampaignsv2Campaign#local_time_zone_detection}
 
 ---
 
@@ -15738,7 +15738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Local TimeZone Detection scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection_scope Connectcampaignsv2Campaign#local_time_zone_detection_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#local_time_zone_detection_scope Connectcampaignsv2Campaign#local_time_zone_detection_scope}
 
 ---
 
@@ -15757,7 +15757,7 @@ def put_sms(
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -15767,7 +15767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -15786,7 +15786,7 @@ def put_telephony(
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -15796,7 +15796,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -15815,7 +15815,7 @@ def put_whats_app(
 
 Open Hours config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 
 ---
 
@@ -15825,7 +15825,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Restricted period config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 
 ---
 
@@ -17638,7 +17638,7 @@ def put_open_hours(
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -17656,7 +17656,7 @@ def put_restricted_periods(
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -20254,7 +20254,7 @@ def put_open_hours(
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -20272,7 +20272,7 @@ def put_restricted_periods(
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -22870,7 +22870,7 @@ def put_open_hours(
 
 Daily Hours map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#daily_hours Connectcampaignsv2Campaign#daily_hours}
 
 ---
 
@@ -22888,7 +22888,7 @@ def put_restricted_periods(
 
 List of restricted period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#restricted_period_list Connectcampaignsv2Campaign#restricted_period_list}
 
 ---
 
@@ -25104,7 +25104,7 @@ def put_event_trigger(
 
 Arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_domain_arn Connectcampaignsv2Campaign#customer_profiles_domain_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#customer_profiles_domain_arn Connectcampaignsv2Campaign#customer_profiles_domain_arn}
 
 ---
 

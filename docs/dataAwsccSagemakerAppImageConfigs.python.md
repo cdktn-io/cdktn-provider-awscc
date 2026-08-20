@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerAppImageConfigs <a name="DataAwsccSagemakerAppImageConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app_image_configs awscc_sagemaker_app_image_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_app_image_configs awscc_sagemaker_app_image_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAppImageConfigs.DataAwsccSagemakerAppImageConfigs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAppImage
 
 The id of the existing DataAwsccSagemakerAppImageConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app_image_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_app_image_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

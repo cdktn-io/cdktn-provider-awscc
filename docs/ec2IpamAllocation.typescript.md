@@ -4,7 +4,7 @@
 
 ### Ec2IpamAllocation <a name="Ec2IpamAllocation" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocation.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the Ec2IpamAllocation to impor
 
 The id of the existing Ec2IpamAllocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -838,7 +838,7 @@ const ec2IpamAllocationConfig: ec2IpamAllocation.Ec2IpamAllocationConfig = { ...
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.ipamPoolId">ipamPoolId</a></code> | <code>string</code> | Id of the IPAM Pool. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.cidr">cidr</a></code> | <code>string</code> | Represents an IPAM custom allocation of a single IPv4 or IPv6 CIDR. |
-| <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}. |
 | <code><a href="#@cdktn/provider-awscc.ec2IpamAllocation.Ec2IpamAllocationConfig.property.netmaskLength">netmaskLength</a></code> | <code>number</code> | The desired netmask length of the allocation. |
 
 ---
@@ -923,7 +923,7 @@ public readonly ipamPoolId: string;
 
 Id of the IPAM Pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation#ipam_pool_id Ec2IpamAllocation#ipam_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation#ipam_pool_id Ec2IpamAllocation#ipam_pool_id}
 
 ---
 
@@ -937,7 +937,7 @@ public readonly cidr: string;
 
 Represents an IPAM custom allocation of a single IPv4 or IPv6 CIDR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation#cidr Ec2IpamAllocation#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation#cidr Ec2IpamAllocation#cidr}
 
 ---
 
@@ -949,7 +949,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation#description Ec2IpamAllocation#description}.
 
 ---
 
@@ -965,7 +965,7 @@ The desired netmask length of the allocation.
 
 If set, IPAM will choose a block of free space with this size and return the CIDR representing it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam_allocation#netmask_length Ec2IpamAllocation#netmask_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation#netmask_length Ec2IpamAllocation#netmask_length}
 
 ---
 

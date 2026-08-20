@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogLaunchNotificationConstraints <a name="DataAwsccServicecatalogLaunchNotificationConstraints" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_launch_notification_constraints awscc_servicecatalog_launch_notification_constraints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_launch_notification_constraints awscc_servicecatalog_launch_notification_constraints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogLaunchNotificationConstraints.DataAwsccServicecatalogLaunchNotificationConstraints.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogLau
 
 The id of the existing DataAwsccServicecatalogLaunchNotificationConstraints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_launch_notification_constraints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_launch_notification_constraints#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53RecoveryreadinessReadinessChecks <a name="DataAwsccRoute53RecoveryreadinessReadinessChecks" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoveryreadinessReadinessChecks.DataAwsccRoute53RecoveryreadinessReadinessChecks.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryre
 
 The id of the existing DataAwsccRoute53RecoveryreadinessReadinessChecks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_readiness_checks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_readiness_checks#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccLocationRouteCalculator <a name="DataAwsccLocationRouteCalculator" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/location_route_calculator awscc_location_route_calculator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_route_calculator awscc_location_route_calculator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationRouteCalculator.DataAwsccLocationRouteCalculator.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationRouteCalc
 
 The id of the existing DataAwsccLocationRouteCalculator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/location_route_calculator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_route_calculator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/location_route_calculator#id DataAwsccLocationRouteCalculator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_route_calculator#id DataAwsccLocationRouteCalculator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

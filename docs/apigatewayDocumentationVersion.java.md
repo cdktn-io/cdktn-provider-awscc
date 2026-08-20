@@ -4,7 +4,7 @@
 
 ### ApigatewayDocumentationVersion <a name="ApigatewayDocumentationVersion" id="@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version awscc_apigateway_documentation_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version awscc_apigateway_documentation_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer"></a>
 
@@ -36,9 +36,9 @@ ApigatewayDocumentationVersion.Builder.create(Construct scope, java.lang.String 
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.documentationVersion">documentationVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.documentationVersion">documentationVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersion.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}.
 
 ---
 
@@ -578,7 +578,7 @@ The construct id used in the generated config for the ApigatewayDocumentationVer
 
 The id of the existing ApigatewayDocumentationVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -882,9 +882,9 @@ ApigatewayDocumentationVersionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.documentationVersion">documentationVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.documentationVersion">documentationVersion</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.restApiId">restApiId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayDocumentationVersion.ApigatewayDocumentationVersionConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}. |
 
 ---
 
@@ -966,7 +966,7 @@ public java.lang.String getDocumentationVersion();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#documentation_version ApigatewayDocumentationVersion#documentation_version}.
 
 ---
 
@@ -978,7 +978,7 @@ public java.lang.String getRestApiId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#rest_api_id ApigatewayDocumentationVersion#rest_api_id}.
 
 ---
 
@@ -990,7 +990,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_documentation_version#description ApigatewayDocumentationVersion#description}.
 
 ---
 

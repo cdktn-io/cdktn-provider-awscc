@@ -4,7 +4,7 @@
 
 ### BedrockagentcoreResourcePolicy <a name="BedrockagentcoreResourcePolicy" id="@cdktn/provider-awscc.bedrockagentcoreResourcePolicy.BedrockagentcoreResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockagentcoreResourcePolicy.BedrockagentcoreResourcePolicy.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The resource policy to create or update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#policy BedrockagentcoreResourcePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_resource_policy#policy BedrockagentcoreResourcePolicy#policy}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the resource for which to create or update the resource policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#resource_arn BedrockagentcoreResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_resource_policy#resource_arn BedrockagentcoreResourcePolicy#resource_arn}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the BedrockagentcoreResourcePo
 
 The id of the existing BedrockagentcoreResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ policy: str
 
 The resource policy to create or update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#policy BedrockagentcoreResourcePolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_resource_policy#policy BedrockagentcoreResourcePolicy#policy}
 
 ---
 
@@ -995,7 +995,7 @@ resource_arn: str
 
 The Amazon Resource Name (ARN) of the resource for which to create or update the resource policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#resource_arn BedrockagentcoreResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_resource_policy#resource_arn BedrockagentcoreResourcePolicy#resource_arn}
 
 ---
 

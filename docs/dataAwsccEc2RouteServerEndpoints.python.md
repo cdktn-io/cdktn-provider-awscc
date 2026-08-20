@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2RouteServerEndpoints <a name="DataAwsccEc2RouteServerEndpoints" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_endpoints awscc_ec2_route_server_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_endpoints awscc_ec2_route_server_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoints.DataAwsccEc2RouteServerEndpoints.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerEnd
 
 The id of the existing DataAwsccEc2RouteServerEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

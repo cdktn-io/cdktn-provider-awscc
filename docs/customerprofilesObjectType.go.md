@@ -4,7 +4,7 @@
 
 ### CustomerprofilesObjectType <a name="CustomerprofilesObjectType" id="@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectType.Initializer"></a>
 
@@ -598,7 +598,7 @@ The construct id used in the generated config for the CustomerprofilesObjectType
 
 The id of the existing CustomerprofilesObjectType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1261,7 +1261,7 @@ Description *string
 
 Description of the profile object type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#description CustomerprofilesObjectType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#description CustomerprofilesObjectType#description}
 
 ---
 
@@ -1275,7 +1275,7 @@ DomainName *string
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#domain_name CustomerprofilesObjectType#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#domain_name CustomerprofilesObjectType#domain_name}
 
 ---
 
@@ -1289,7 +1289,7 @@ ObjectTypeName *string
 
 The name of the profile object type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#object_type_name CustomerprofilesObjectType#object_type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#object_type_name CustomerprofilesObjectType#object_type_name}
 
 ---
 
@@ -1303,7 +1303,7 @@ AllowProfileCreation interface{}
 
 Indicates whether a profile should be created when data is received.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#allow_profile_creation CustomerprofilesObjectType#allow_profile_creation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#allow_profile_creation CustomerprofilesObjectType#allow_profile_creation}
 
 ---
 
@@ -1317,7 +1317,7 @@ EncryptionKey *string
 
 The default encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#encryption_key CustomerprofilesObjectType#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#encryption_key CustomerprofilesObjectType#encryption_key}
 
 ---
 
@@ -1331,7 +1331,7 @@ ExpirationDays *f64
 
 The default number of days until the data within the domain expires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#expiration_days CustomerprofilesObjectType#expiration_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#expiration_days CustomerprofilesObjectType#expiration_days}
 
 ---
 
@@ -1345,7 +1345,7 @@ Fields interface{}
 
 A list of the name and ObjectType field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#fields CustomerprofilesObjectType#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#fields CustomerprofilesObjectType#fields}
 
 ---
 
@@ -1359,7 +1359,7 @@ Keys interface{}
 
 A list of unique keys that can be used to map data to the profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#keys CustomerprofilesObjectType#keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#keys CustomerprofilesObjectType#keys}
 
 ---
 
@@ -1373,7 +1373,7 @@ MaxProfileObjectCount *f64
 
 The maximum number of profile objects for this object type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#max_profile_object_count CustomerprofilesObjectType#max_profile_object_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#max_profile_object_count CustomerprofilesObjectType#max_profile_object_count}
 
 ---
 
@@ -1387,7 +1387,7 @@ SourceLastUpdatedTimestampFormat *string
 
 The format of your sourceLastUpdatedTimestamp that was previously set up.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#source_last_updated_timestamp_format CustomerprofilesObjectType#source_last_updated_timestamp_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#source_last_updated_timestamp_format CustomerprofilesObjectType#source_last_updated_timestamp_format}
 
 ---
 
@@ -1401,7 +1401,7 @@ SourcePriority *f64
 
 Defines the priority order of object types. Lower value indicates higher priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#source_priority CustomerprofilesObjectType#source_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#source_priority CustomerprofilesObjectType#source_priority}
 
 ---
 
@@ -1415,7 +1415,7 @@ Tags interface{}
 
 The tags (keys and values) associated with the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#tags CustomerprofilesObjectType#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#tags CustomerprofilesObjectType#tags}
 
 ---
 
@@ -1429,7 +1429,7 @@ TemplateId *string
 
 A unique identifier for the object template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#template_id CustomerprofilesObjectType#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#template_id CustomerprofilesObjectType#template_id}
 
 ---
 
@@ -1450,7 +1450,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesobject
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeFields.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeFields.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeFields.property.objectTypeField">ObjectTypeField</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeFieldsObjectTypeField">CustomerprofilesObjectTypeFieldsObjectTypeField</a></code> | Represents a field in a ProfileObjectType. |
 
 ---
@@ -1463,7 +1463,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}.
 
 ---
 
@@ -1477,7 +1477,7 @@ ObjectTypeField CustomerprofilesObjectTypeFieldsObjectTypeField
 
 Represents a field in a ProfileObjectType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#object_type_field CustomerprofilesObjectType#object_type_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#object_type_field CustomerprofilesObjectType#object_type_field}
 
 ---
 
@@ -1515,7 +1515,7 @@ ContentType *string
 
 The content type of the field. Used for determining equality when searching.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#content_type CustomerprofilesObjectType#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#content_type CustomerprofilesObjectType#content_type}
 
 ---
 
@@ -1531,7 +1531,7 @@ A field of a ProfileObject.
 
 For example: _source.FirstName, where "_source" is a ProfileObjectType of a Zendesk user and "FirstName" is a field in that ObjectType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#source CustomerprofilesObjectType#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#source CustomerprofilesObjectType#source}
 
 ---
 
@@ -1545,7 +1545,7 @@ Target *string
 
 The location of the data in the standard ProfileObject model. For example: _profile.Address.PostalCode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#target CustomerprofilesObjectType#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#target CustomerprofilesObjectType#target}
 
 ---
 
@@ -1566,8 +1566,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesobject
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeKeys.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeKeys.property.objectTypeKeyList">ObjectTypeKeyList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#object_type_key_list CustomerprofilesObjectType#object_type_key_list}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeKeys.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeKeys.property.objectTypeKeyList">ObjectTypeKeyList</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#object_type_key_list CustomerprofilesObjectType#object_type_key_list}. |
 
 ---
 
@@ -1579,7 +1579,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#name CustomerprofilesObjectType#name}.
 
 ---
 
@@ -1591,7 +1591,7 @@ ObjectTypeKeyList interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#object_type_key_list CustomerprofilesObjectType#object_type_key_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#object_type_key_list CustomerprofilesObjectType#object_type_key_list}.
 
 ---
 
@@ -1627,7 +1627,7 @@ FieldNames *[]*string
 
 The reference for the key name of the fields map.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#field_names CustomerprofilesObjectType#field_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#field_names CustomerprofilesObjectType#field_names}
 
 ---
 
@@ -1643,7 +1643,7 @@ The types of keys that a ProfileObject can have.
 
 Each ProfileObject can have only 1 UNIQUE key but multiple PROFILE keys. PROFILE means that this key can be used to tie an object to a PROFILE. UNIQUE means that it can be used to uniquely identify an object. If a key a is marked as SECONDARY, it will be used to search for profiles after all other PROFILE keys have been searched. A LOOKUP_ONLY key is only used to match a profile but is not persisted to be used for searching of the profile. A NEW_ONLY key is only used if the profile does not already exist before the object is ingested, otherwise it is only used for matching objects to profiles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#standard_identifiers CustomerprofilesObjectType#standard_identifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#standard_identifiers CustomerprofilesObjectType#standard_identifiers}
 
 ---
 
@@ -1664,8 +1664,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesobject
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#key CustomerprofilesObjectType#key}. |
-| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#value CustomerprofilesObjectType#value}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#key CustomerprofilesObjectType#key}. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesObjectType.CustomerprofilesObjectTypeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#value CustomerprofilesObjectType#value}. |
 
 ---
 
@@ -1677,7 +1677,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#key CustomerprofilesObjectType#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#key CustomerprofilesObjectType#key}.
 
 ---
 
@@ -1689,7 +1689,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_object_type#value CustomerprofilesObjectType#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_object_type#value CustomerprofilesObjectType#value}.
 
 ---
 

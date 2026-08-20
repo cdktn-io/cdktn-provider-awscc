@@ -4,7 +4,7 @@
 
 ### DataAwsccGlueJobs <a name="DataAwsccGlueJobs" id="@cdktn/provider-awscc.dataAwsccGlueJobs.DataAwsccGlueJobs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_jobs awscc_glue_jobs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_jobs awscc_glue_jobs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueJobs.DataAwsccGlueJobs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueJobs to impor
 
 The id of the existing DataAwsccGlueJobs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_jobs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_jobs#import import section} in the documentation of this resource for the id to use
 
 ---
 

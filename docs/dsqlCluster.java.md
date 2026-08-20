@@ -4,7 +4,7 @@
 
 ### DsqlCluster <a name="DsqlCluster" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster awscc_dsql_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster awscc_dsql_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer"></a>
 
@@ -42,7 +42,7 @@ DsqlCluster.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.kmsEncryptionKey">kmsEncryptionKey</a></code> | <code>java.lang.String</code> | The KMS key that encrypts data on the cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.multiRegionProperties">multiRegionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties">DsqlClusterMultiRegionProperties</a></code> | The Multi-region properties associated to this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.policyDocument">policyDocument</a></code> | <code>java.lang.String</code> | The IAM policy applied to the cluster resource. |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 Whether deletion protection is enabled in this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The KMS key that encrypts data on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Multi-region properties associated to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IAM policy applied to the cluster resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
 
 ---
 
@@ -660,7 +660,7 @@ The construct id used in the generated config for the DsqlCluster to import.
 
 The id of the existing DsqlCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1113,7 +1113,7 @@ DsqlClusterConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.kmsEncryptionKey">kmsEncryptionKey</a></code> | <code>java.lang.String</code> | The KMS key that encrypts data on the cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.multiRegionProperties">multiRegionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties">DsqlClusterMultiRegionProperties</a></code> | The Multi-region properties associated to this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.policyDocument">policyDocument</a></code> | <code>java.lang.String</code> | The IAM policy applied to the cluster resource. |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
 
 ---
 
@@ -1197,7 +1197,7 @@ public java.lang.Boolean|IResolvable getDeletionProtectionEnabled();
 
 Whether deletion protection is enabled in this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
 
 ---
 
@@ -1211,7 +1211,7 @@ public java.lang.String getKmsEncryptionKey();
 
 The KMS key that encrypts data on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
 
 ---
 
@@ -1225,7 +1225,7 @@ public DsqlClusterMultiRegionProperties getMultiRegionProperties();
 
 The Multi-region properties associated to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
 
 ---
 
@@ -1239,7 +1239,7 @@ public java.lang.String getPolicyDocument();
 
 The IAM policy applied to the cluster resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
 
 ---
 
@@ -1251,7 +1251,7 @@ public IResolvable|java.util.List<DsqlClusterTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
 
 ---
 
@@ -1284,7 +1284,7 @@ DsqlClusterMultiRegionProperties.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.clusters">clusters</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.clusters">clusters</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.witnessRegion">witnessRegion</a></code> | <code>java.lang.String</code> | The witness region in a multi-region cluster. |
 
 ---
@@ -1297,7 +1297,7 @@ public java.util.List<java.lang.String> getClusters();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
 
 ---
 
@@ -1311,7 +1311,7 @@ public java.lang.String getWitnessRegion();
 
 The witness region in a multi-region cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
 
 ---
 
@@ -1349,7 +1349,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#key DsqlCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#key DsqlCluster#key}
 
 ---
 
@@ -1365,7 +1365,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dsql_cluster#value DsqlCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dsql_cluster#value DsqlCluster#value}
 
 ---
 

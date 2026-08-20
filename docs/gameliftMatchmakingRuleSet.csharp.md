@@ -4,7 +4,7 @@
 
 ### GameliftMatchmakingRuleSet <a name="GameliftMatchmakingRuleSet" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftMatchmakingRuleSet.GameliftMatchmakingRuleSet.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the GameliftMatchmakingRuleSet
 
 The id of the existing GameliftMatchmakingRuleSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -921,7 +921,7 @@ public string Name { get; set; }
 
 A unique identifier for the matchmaking rule set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
 
 ---
 
@@ -935,7 +935,7 @@ public string RuleSetBody { get; set; }
 
 A collection of matchmaking rules, formatted as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
 
 ---
 
@@ -949,7 +949,7 @@ public IResolvable|GameliftMatchmakingRuleSetTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
 
 ---
 
@@ -987,7 +987,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
 
 ---
 
@@ -1001,7 +1001,7 @@ public string Value { get; set; }
 
 The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
 
 ---
 

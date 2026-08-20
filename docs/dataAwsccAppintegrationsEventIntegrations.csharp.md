@@ -4,7 +4,7 @@
 
 ### DataAwsccAppintegrationsEventIntegrations <a name="DataAwsccAppintegrationsEventIntegrations" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appintegrations_event_integrations awscc_appintegrations_event_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appintegrations_event_integrations awscc_appintegrations_event_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsEventIntegrations.DataAwsccAppintegrationsEventIntegrations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppintegrationsEv
 
 The id of the existing DataAwsccAppintegrationsEventIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appintegrations_event_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appintegrations_event_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

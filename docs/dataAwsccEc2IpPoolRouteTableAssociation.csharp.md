@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IpPoolRouteTableAssociation <a name="DataAwsccEc2IpPoolRouteTableAssociation" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociation.DataAwsccEc2IpPoolRouteTableAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpPoolRouteTableAssociation.DataAwsccEc2IpPoolRouteTableAssociation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpPoolRouteTab
 
 The id of the existing DataAwsccEc2IpPoolRouteTableAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_ip_pool_route_table_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ip_pool_route_table_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -729,7 +729,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_ip_pool_route_table_association#id DataAwsccEc2IpPoolRouteTableAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ip_pool_route_table_association#id DataAwsccEc2IpPoolRouteTableAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

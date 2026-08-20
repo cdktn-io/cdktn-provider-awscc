@@ -4,7 +4,7 @@
 
 ### Apigatewayv2Model <a name="Apigatewayv2Model" id="@cdktn/provider-awscc.apigatewayv2Model.Apigatewayv2Model"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2Model.Apigatewayv2Model.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Apigatewayv2Model to impor
 
 The id of the existing Apigatewayv2Model that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ public readonly apiId: string;
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model#api_id Apigatewayv2Model#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model#api_id Apigatewayv2Model#api_id}
 
 ---
 
@@ -953,7 +953,7 @@ public readonly name: string;
 
 The name of the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model#name Apigatewayv2Model#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model#name Apigatewayv2Model#name}
 
 ---
 
@@ -967,7 +967,7 @@ public readonly schema: string;
 
 The schema for the model. For application/json models, this should be JSON schema draft 4 model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model#schema Apigatewayv2Model#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model#schema Apigatewayv2Model#schema}
 
 ---
 
@@ -981,7 +981,7 @@ public readonly contentType: string;
 
 The content-type for the model, for example, "application/json".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model#content_type Apigatewayv2Model#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model#content_type Apigatewayv2Model#content_type}
 
 ---
 
@@ -995,7 +995,7 @@ public readonly description: string;
 
 The description of the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_model#description Apigatewayv2Model#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_model#description Apigatewayv2Model#description}
 
 ---
 

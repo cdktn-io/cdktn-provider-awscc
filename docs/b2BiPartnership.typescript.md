@@ -4,7 +4,7 @@
 
 ### B2BiPartnership <a name="B2BiPartnership" id="@cdktn/provider-awscc.b2BiPartnership.B2BiPartnership"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership awscc_b2bi_partnership}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership awscc_b2bi_partnership}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.b2BiPartnership.B2BiPartnership.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the B2BiPartnership to import.
 
 The id of the existing B2BiPartnership that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,8 +965,8 @@ const b2BiPartnershipCapabilityOptions: b2BiPartnership.B2BiPartnershipCapabilit
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions.property.inboundEdi">inboundEdi</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdi">B2BiPartnershipCapabilityOptionsInboundEdi</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#inbound_edi B2BiPartnership#inbound_edi}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions.property.outboundEdi">outboundEdi</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdi">B2BiPartnershipCapabilityOptionsOutboundEdi</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#outbound_edi B2BiPartnership#outbound_edi}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions.property.inboundEdi">inboundEdi</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdi">B2BiPartnershipCapabilityOptionsInboundEdi</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#inbound_edi B2BiPartnership#inbound_edi}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions.property.outboundEdi">outboundEdi</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdi">B2BiPartnershipCapabilityOptionsOutboundEdi</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#outbound_edi B2BiPartnership#outbound_edi}. |
 
 ---
 
@@ -978,7 +978,7 @@ public readonly inboundEdi: B2BiPartnershipCapabilityOptionsInboundEdi;
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdi">B2BiPartnershipCapabilityOptionsInboundEdi</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#inbound_edi B2BiPartnership#inbound_edi}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#inbound_edi B2BiPartnership#inbound_edi}.
 
 ---
 
@@ -990,7 +990,7 @@ public readonly outboundEdi: B2BiPartnershipCapabilityOptionsOutboundEdi;
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdi">B2BiPartnershipCapabilityOptionsOutboundEdi</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#outbound_edi B2BiPartnership#outbound_edi}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#outbound_edi B2BiPartnership#outbound_edi}.
 
 ---
 
@@ -1008,7 +1008,7 @@ const b2BiPartnershipCapabilityOptionsInboundEdi: b2BiPartnership.B2BiPartnershi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdi.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12">B2BiPartnershipCapabilityOptionsInboundEdiX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdi.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12">B2BiPartnershipCapabilityOptionsInboundEdiX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}. |
 
 ---
 
@@ -1020,7 +1020,7 @@ public readonly x12: B2BiPartnershipCapabilityOptionsInboundEdiX12;
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12">B2BiPartnershipCapabilityOptionsInboundEdiX12</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}.
 
 ---
 
@@ -1038,7 +1038,7 @@ const b2BiPartnershipCapabilityOptionsInboundEdiX12: b2BiPartnership.B2BiPartner
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12.property.acknowledgmentOptions">acknowledgmentOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions">B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#acknowledgment_options B2BiPartnership#acknowledgment_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12.property.acknowledgmentOptions">acknowledgmentOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions">B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#acknowledgment_options B2BiPartnership#acknowledgment_options}. |
 
 ---
 
@@ -1050,7 +1050,7 @@ public readonly acknowledgmentOptions: B2BiPartnershipCapabilityOptionsInboundEd
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions">B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#acknowledgment_options B2BiPartnership#acknowledgment_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#acknowledgment_options B2BiPartnership#acknowledgment_options}.
 
 ---
 
@@ -1068,8 +1068,8 @@ const b2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions: b2BiPa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions.property.functionalAcknowledgment">functionalAcknowledgment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#functional_acknowledgment B2BiPartnership#functional_acknowledgment}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions.property.technicalAcknowledgment">technicalAcknowledgment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#technical_acknowledgment B2BiPartnership#technical_acknowledgment}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions.property.functionalAcknowledgment">functionalAcknowledgment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#functional_acknowledgment B2BiPartnership#functional_acknowledgment}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptions.property.technicalAcknowledgment">technicalAcknowledgment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#technical_acknowledgment B2BiPartnership#technical_acknowledgment}. |
 
 ---
 
@@ -1081,7 +1081,7 @@ public readonly functionalAcknowledgment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#functional_acknowledgment B2BiPartnership#functional_acknowledgment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#functional_acknowledgment B2BiPartnership#functional_acknowledgment}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly technicalAcknowledgment: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#technical_acknowledgment B2BiPartnership#technical_acknowledgment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#technical_acknowledgment B2BiPartnership#technical_acknowledgment}.
 
 ---
 
@@ -1111,7 +1111,7 @@ const b2BiPartnershipCapabilityOptionsOutboundEdi: b2BiPartnership.B2BiPartnersh
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdi.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12">B2BiPartnershipCapabilityOptionsOutboundEdiX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdi.property.x12">x12</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12">B2BiPartnershipCapabilityOptionsOutboundEdiX12</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}. |
 
 ---
 
@@ -1123,7 +1123,7 @@ public readonly x12: B2BiPartnershipCapabilityOptionsOutboundEdiX12;
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12">B2BiPartnershipCapabilityOptionsOutboundEdiX12</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}.
 
 ---
 
@@ -1141,8 +1141,8 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12: b2BiPartnership.B2BiPartne
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12.property.common">common</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common">B2BiPartnershipCapabilityOptionsOutboundEdiX12Common</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#common B2BiPartnership#common}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12.property.wrapOptions">wrapOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions">B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#wrap_options B2BiPartnership#wrap_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12.property.common">common</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common">B2BiPartnershipCapabilityOptionsOutboundEdiX12Common</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#common B2BiPartnership#common}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12.property.wrapOptions">wrapOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions">B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#wrap_options B2BiPartnership#wrap_options}. |
 
 ---
 
@@ -1154,7 +1154,7 @@ public readonly common: B2BiPartnershipCapabilityOptionsOutboundEdiX12Common;
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common">B2BiPartnershipCapabilityOptionsOutboundEdiX12Common</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#common B2BiPartnership#common}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#common B2BiPartnership#common}.
 
 ---
 
@@ -1166,7 +1166,7 @@ public readonly wrapOptions: B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapO
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions">B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#wrap_options B2BiPartnership#wrap_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#wrap_options B2BiPartnership#wrap_options}.
 
 ---
 
@@ -1184,12 +1184,12 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12Common: b2BiPartnership.B2Bi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.controlNumbers">controlNumbers</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#control_numbers B2BiPartnership#control_numbers}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.delimiters">delimiters</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#delimiters B2BiPartnership#delimiters}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.functionalGroupHeaders">functionalGroupHeaders</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#functional_group_headers B2BiPartnership#functional_group_headers}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.gs05TimeFormat">gs05TimeFormat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#gs_05_time_format B2BiPartnership#gs_05_time_format}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.interchangeControlHeaders">interchangeControlHeaders</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#interchange_control_headers B2BiPartnership#interchange_control_headers}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.validateEdi">validateEdi</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#validate_edi B2BiPartnership#validate_edi}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.controlNumbers">controlNumbers</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#control_numbers B2BiPartnership#control_numbers}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.delimiters">delimiters</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#delimiters B2BiPartnership#delimiters}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.functionalGroupHeaders">functionalGroupHeaders</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#functional_group_headers B2BiPartnership#functional_group_headers}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.gs05TimeFormat">gs05TimeFormat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#gs_05_time_format B2BiPartnership#gs_05_time_format}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.interchangeControlHeaders">interchangeControlHeaders</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#interchange_control_headers B2BiPartnership#interchange_control_headers}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12Common.property.validateEdi">validateEdi</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#validate_edi B2BiPartnership#validate_edi}. |
 
 ---
 
@@ -1201,7 +1201,7 @@ public readonly controlNumbers: B2BiPartnershipCapabilityOptionsOutboundEdiX12Co
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#control_numbers B2BiPartnership#control_numbers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#control_numbers B2BiPartnership#control_numbers}.
 
 ---
 
@@ -1213,7 +1213,7 @@ public readonly delimiters: B2BiPartnershipCapabilityOptionsOutboundEdiX12Common
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#delimiters B2BiPartnership#delimiters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#delimiters B2BiPartnership#delimiters}.
 
 ---
 
@@ -1225,7 +1225,7 @@ public readonly functionalGroupHeaders: B2BiPartnershipCapabilityOptionsOutbound
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#functional_group_headers B2BiPartnership#functional_group_headers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#functional_group_headers B2BiPartnership#functional_group_headers}.
 
 ---
 
@@ -1237,7 +1237,7 @@ public readonly gs05TimeFormat: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#gs_05_time_format B2BiPartnership#gs_05_time_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#gs_05_time_format B2BiPartnership#gs_05_time_format}.
 
 ---
 
@@ -1249,7 +1249,7 @@ public readonly interchangeControlHeaders: B2BiPartnershipCapabilityOptionsOutbo
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders">B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#interchange_control_headers B2BiPartnership#interchange_control_headers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#interchange_control_headers B2BiPartnership#interchange_control_headers}.
 
 ---
 
@@ -1261,7 +1261,7 @@ public readonly validateEdi: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#validate_edi B2BiPartnership#validate_edi}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#validate_edi B2BiPartnership#validate_edi}.
 
 ---
 
@@ -1279,9 +1279,9 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers: b2BiPa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.property.startingFunctionalGroupControlNumber">startingFunctionalGroupControlNumber</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#starting_functional_group_control_number B2BiPartnership#starting_functional_group_control_number}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.property.startingInterchangeControlNumber">startingInterchangeControlNumber</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#starting_interchange_control_number B2BiPartnership#starting_interchange_control_number}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.property.startingTransactionSetControlNumber">startingTransactionSetControlNumber</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#starting_transaction_set_control_number B2BiPartnership#starting_transaction_set_control_number}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.property.startingFunctionalGroupControlNumber">startingFunctionalGroupControlNumber</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#starting_functional_group_control_number B2BiPartnership#starting_functional_group_control_number}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.property.startingInterchangeControlNumber">startingInterchangeControlNumber</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#starting_interchange_control_number B2BiPartnership#starting_interchange_control_number}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbers.property.startingTransactionSetControlNumber">startingTransactionSetControlNumber</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#starting_transaction_set_control_number B2BiPartnership#starting_transaction_set_control_number}. |
 
 ---
 
@@ -1293,7 +1293,7 @@ public readonly startingFunctionalGroupControlNumber: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#starting_functional_group_control_number B2BiPartnership#starting_functional_group_control_number}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#starting_functional_group_control_number B2BiPartnership#starting_functional_group_control_number}.
 
 ---
 
@@ -1305,7 +1305,7 @@ public readonly startingInterchangeControlNumber: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#starting_interchange_control_number B2BiPartnership#starting_interchange_control_number}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#starting_interchange_control_number B2BiPartnership#starting_interchange_control_number}.
 
 ---
 
@@ -1317,7 +1317,7 @@ public readonly startingTransactionSetControlNumber: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#starting_transaction_set_control_number B2BiPartnership#starting_transaction_set_control_number}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#starting_transaction_set_control_number B2BiPartnership#starting_transaction_set_control_number}.
 
 ---
 
@@ -1335,9 +1335,9 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters: b2BiPartne
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.property.componentSeparator">componentSeparator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#component_separator B2BiPartnership#component_separator}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.property.dataElementSeparator">dataElementSeparator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#data_element_separator B2BiPartnership#data_element_separator}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.property.segmentTerminator">segmentTerminator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#segment_terminator B2BiPartnership#segment_terminator}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.property.componentSeparator">componentSeparator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#component_separator B2BiPartnership#component_separator}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.property.dataElementSeparator">dataElementSeparator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#data_element_separator B2BiPartnership#data_element_separator}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimiters.property.segmentTerminator">segmentTerminator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#segment_terminator B2BiPartnership#segment_terminator}. |
 
 ---
 
@@ -1349,7 +1349,7 @@ public readonly componentSeparator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#component_separator B2BiPartnership#component_separator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#component_separator B2BiPartnership#component_separator}.
 
 ---
 
@@ -1361,7 +1361,7 @@ public readonly dataElementSeparator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#data_element_separator B2BiPartnership#data_element_separator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#data_element_separator B2BiPartnership#data_element_separator}.
 
 ---
 
@@ -1373,7 +1373,7 @@ public readonly segmentTerminator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#segment_terminator B2BiPartnership#segment_terminator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#segment_terminator B2BiPartnership#segment_terminator}.
 
 ---
 
@@ -1391,9 +1391,9 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.property.applicationReceiverCode">applicationReceiverCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#application_receiver_code B2BiPartnership#application_receiver_code}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.property.applicationSenderCode">applicationSenderCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#application_sender_code B2BiPartnership#application_sender_code}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.property.responsibleAgencyCode">responsibleAgencyCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#responsible_agency_code B2BiPartnership#responsible_agency_code}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.property.applicationReceiverCode">applicationReceiverCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#application_receiver_code B2BiPartnership#application_receiver_code}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.property.applicationSenderCode">applicationSenderCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#application_sender_code B2BiPartnership#application_sender_code}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroupHeaders.property.responsibleAgencyCode">responsibleAgencyCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#responsible_agency_code B2BiPartnership#responsible_agency_code}. |
 
 ---
 
@@ -1405,7 +1405,7 @@ public readonly applicationReceiverCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#application_receiver_code B2BiPartnership#application_receiver_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#application_receiver_code B2BiPartnership#application_receiver_code}.
 
 ---
 
@@ -1417,7 +1417,7 @@ public readonly applicationSenderCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#application_sender_code B2BiPartnership#application_sender_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#application_sender_code B2BiPartnership#application_sender_code}.
 
 ---
 
@@ -1429,7 +1429,7 @@ public readonly responsibleAgencyCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#responsible_agency_code B2BiPartnership#responsible_agency_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#responsible_agency_code B2BiPartnership#responsible_agency_code}.
 
 ---
 
@@ -1447,13 +1447,13 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHead
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.acknowledgmentRequestedCode">acknowledgmentRequestedCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#acknowledgment_requested_code B2BiPartnership#acknowledgment_requested_code}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.receiverId">receiverId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#receiver_id B2BiPartnership#receiver_id}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.receiverIdQualifier">receiverIdQualifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#receiver_id_qualifier B2BiPartnership#receiver_id_qualifier}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.repetitionSeparator">repetitionSeparator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#repetition_separator B2BiPartnership#repetition_separator}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.senderId">senderId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#sender_id B2BiPartnership#sender_id}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.senderIdQualifier">senderIdQualifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#sender_id_qualifier B2BiPartnership#sender_id_qualifier}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.usageIndicatorCode">usageIndicatorCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#usage_indicator_code B2BiPartnership#usage_indicator_code}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.acknowledgmentRequestedCode">acknowledgmentRequestedCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#acknowledgment_requested_code B2BiPartnership#acknowledgment_requested_code}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.receiverId">receiverId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#receiver_id B2BiPartnership#receiver_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.receiverIdQualifier">receiverIdQualifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#receiver_id_qualifier B2BiPartnership#receiver_id_qualifier}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.repetitionSeparator">repetitionSeparator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#repetition_separator B2BiPartnership#repetition_separator}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.senderId">senderId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#sender_id B2BiPartnership#sender_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.senderIdQualifier">senderIdQualifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#sender_id_qualifier B2BiPartnership#sender_id_qualifier}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeControlHeaders.property.usageIndicatorCode">usageIndicatorCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#usage_indicator_code B2BiPartnership#usage_indicator_code}. |
 
 ---
 
@@ -1465,7 +1465,7 @@ public readonly acknowledgmentRequestedCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#acknowledgment_requested_code B2BiPartnership#acknowledgment_requested_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#acknowledgment_requested_code B2BiPartnership#acknowledgment_requested_code}.
 
 ---
 
@@ -1477,7 +1477,7 @@ public readonly receiverId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#receiver_id B2BiPartnership#receiver_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#receiver_id B2BiPartnership#receiver_id}.
 
 ---
 
@@ -1489,7 +1489,7 @@ public readonly receiverIdQualifier: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#receiver_id_qualifier B2BiPartnership#receiver_id_qualifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#receiver_id_qualifier B2BiPartnership#receiver_id_qualifier}.
 
 ---
 
@@ -1501,7 +1501,7 @@ public readonly repetitionSeparator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#repetition_separator B2BiPartnership#repetition_separator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#repetition_separator B2BiPartnership#repetition_separator}.
 
 ---
 
@@ -1513,7 +1513,7 @@ public readonly senderId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#sender_id B2BiPartnership#sender_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#sender_id B2BiPartnership#sender_id}.
 
 ---
 
@@ -1525,7 +1525,7 @@ public readonly senderIdQualifier: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#sender_id_qualifier B2BiPartnership#sender_id_qualifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#sender_id_qualifier B2BiPartnership#sender_id_qualifier}.
 
 ---
 
@@ -1537,7 +1537,7 @@ public readonly usageIndicatorCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#usage_indicator_code B2BiPartnership#usage_indicator_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#usage_indicator_code B2BiPartnership#usage_indicator_code}.
 
 ---
 
@@ -1555,9 +1555,9 @@ const b2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions: b2BiPartnership
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.property.lineLength">lineLength</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#line_length B2BiPartnership#line_length}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.property.lineTerminator">lineTerminator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#line_terminator B2BiPartnership#line_terminator}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.property.wrapBy">wrapBy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#wrap_by B2BiPartnership#wrap_by}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.property.lineLength">lineLength</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#line_length B2BiPartnership#line_length}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.property.lineTerminator">lineTerminator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#line_terminator B2BiPartnership#line_terminator}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptions.property.wrapBy">wrapBy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#wrap_by B2BiPartnership#wrap_by}. |
 
 ---
 
@@ -1569,7 +1569,7 @@ public readonly lineLength: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#line_length B2BiPartnership#line_length}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#line_length B2BiPartnership#line_length}.
 
 ---
 
@@ -1581,7 +1581,7 @@ public readonly lineTerminator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#line_terminator B2BiPartnership#line_terminator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#line_terminator B2BiPartnership#line_terminator}.
 
 ---
 
@@ -1593,7 +1593,7 @@ public readonly wrapBy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#wrap_by B2BiPartnership#wrap_by}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#wrap_by B2BiPartnership#wrap_by}.
 
 ---
 
@@ -1618,13 +1618,13 @@ const b2BiPartnershipConfig: b2BiPartnership.B2BiPartnershipConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.capabilities">capabilities</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#capabilities B2BiPartnership#capabilities}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.email">email</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#email B2BiPartnership#email}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#name B2BiPartnership#name}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.profileId">profileId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#profile_id B2BiPartnership#profile_id}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.capabilityOptions">capabilityOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions">B2BiPartnershipCapabilityOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#capability_options B2BiPartnership#capability_options}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.phone">phone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#phone B2BiPartnership#phone}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags">B2BiPartnershipTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#tags B2BiPartnership#tags}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.capabilities">capabilities</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#capabilities B2BiPartnership#capabilities}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.email">email</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#email B2BiPartnership#email}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#name B2BiPartnership#name}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.profileId">profileId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#profile_id B2BiPartnership#profile_id}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.capabilityOptions">capabilityOptions</a></code> | <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions">B2BiPartnershipCapabilityOptions</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#capability_options B2BiPartnership#capability_options}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.phone">phone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#phone B2BiPartnership#phone}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags">B2BiPartnershipTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#tags B2BiPartnership#tags}. |
 
 ---
 
@@ -1706,7 +1706,7 @@ public readonly capabilities: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#capabilities B2BiPartnership#capabilities}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#capabilities B2BiPartnership#capabilities}.
 
 ---
 
@@ -1718,7 +1718,7 @@ public readonly email: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#email B2BiPartnership#email}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#email B2BiPartnership#email}.
 
 ---
 
@@ -1730,7 +1730,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#name B2BiPartnership#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#name B2BiPartnership#name}.
 
 ---
 
@@ -1742,7 +1742,7 @@ public readonly profileId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#profile_id B2BiPartnership#profile_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#profile_id B2BiPartnership#profile_id}.
 
 ---
 
@@ -1754,7 +1754,7 @@ public readonly capabilityOptions: B2BiPartnershipCapabilityOptions;
 
 - *Type:* <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipCapabilityOptions">B2BiPartnershipCapabilityOptions</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#capability_options B2BiPartnership#capability_options}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#capability_options B2BiPartnership#capability_options}.
 
 ---
 
@@ -1766,7 +1766,7 @@ public readonly phone: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#phone B2BiPartnership#phone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#phone B2BiPartnership#phone}.
 
 ---
 
@@ -1778,7 +1778,7 @@ public readonly tags: IResolvable | B2BiPartnershipTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags">B2BiPartnershipTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#tags B2BiPartnership#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#tags B2BiPartnership#tags}.
 
 ---
 
@@ -1796,8 +1796,8 @@ const b2BiPartnershipTags: b2BiPartnership.B2BiPartnershipTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#key B2BiPartnership#key}. |
-| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#value B2BiPartnership#value}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#key B2BiPartnership#key}. |
+| <code><a href="#@cdktn/provider-awscc.b2BiPartnership.B2BiPartnershipTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#value B2BiPartnership#value}. |
 
 ---
 
@@ -1809,7 +1809,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#key B2BiPartnership#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#key B2BiPartnership#key}.
 
 ---
 
@@ -1821,7 +1821,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_partnership#value B2BiPartnership#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_partnership#value B2BiPartnership#value}.
 
 ---
 

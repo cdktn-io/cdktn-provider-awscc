@@ -4,7 +4,7 @@
 
 ### DevopsguruResourceCollection <a name="DevopsguruResourceCollection" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection awscc_devopsguru_resource_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection awscc_devopsguru_resource_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Information about a filter used to specify which AWS resources are analyzed for anomalous behavior by DevOps Guru.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
 
 ---
 
@@ -505,7 +505,7 @@ def put_resource_collection_filter(
 
 CloudFormation resource for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
 
 ---
 
@@ -515,7 +515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tagged resources for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
 
 ---
 
@@ -633,7 +633,7 @@ The construct id used in the generated config for the DevopsguruResourceCollecti
 
 The id of the existing DevopsguruResourceCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -986,7 +986,7 @@ resource_collection_filter: DevopsguruResourceCollectionResourceCollectionFilter
 
 Information about a filter used to specify which AWS resources are analyzed for anomalous behavior by DevOps Guru.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
 
 ---
 
@@ -1022,7 +1022,7 @@ cloudformation: DevopsguruResourceCollectionResourceCollectionFilterCloudformati
 
 CloudFormation resource for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
 
 ---
 
@@ -1036,7 +1036,7 @@ tags: IResolvable | typing.List[DevopsguruResourceCollectionResourceCollectionFi
 
 Tagged resources for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
 
 ---
 
@@ -1070,7 +1070,7 @@ stack_names: typing.List[str]
 
 An array of CloudFormation stack names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
 
 ---
 
@@ -1106,7 +1106,7 @@ app_boundary_key: str
 
 A Tag key for DevOps Guru app boundary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}
 
 ---
 
@@ -1120,7 +1120,7 @@ tag_values: typing.List[str]
 
 Tag values of DevOps Guru app boundary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}
 
 ---
 
@@ -1675,7 +1675,7 @@ def put_cloudformation(
 
 An array of CloudFormation stack names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
 
 ---
 

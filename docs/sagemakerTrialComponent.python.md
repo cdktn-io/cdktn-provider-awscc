@@ -4,7 +4,7 @@
 
 ### SagemakerTrialComponent <a name="SagemakerTrialComponent" id="@cdktn/provider-awscc.sagemakerTrialComponent.SagemakerTrialComponent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerTrialComponent.SagemakerTrialComponent.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the trial component. Must be unique in your AWS account and is not case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#trial_component_name SagemakerTrialComponent#trial_component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#trial_component_name SagemakerTrialComponent#trial_component_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the component as displayed. If DisplayName isn't specified, TrialComponentName is displayed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#display_name SagemakerTrialComponent#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#display_name SagemakerTrialComponent#display_name}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The input artifacts for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#input_artifacts SagemakerTrialComponent#input_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#input_artifacts SagemakerTrialComponent#input_artifacts}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#metadata_properties SagemakerTrialComponent#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#metadata_properties SagemakerTrialComponent#metadata_properties}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The output artifacts for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#output_artifacts SagemakerTrialComponent#output_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#output_artifacts SagemakerTrialComponent#output_artifacts}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The hyperparameters for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#parameters SagemakerTrialComponent#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#parameters SagemakerTrialComponent#parameters}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#status SagemakerTrialComponent#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#status SagemakerTrialComponent#status}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags to associate with the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#tags SagemakerTrialComponent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#tags SagemakerTrialComponent#tags}
 
 ---
 
@@ -617,7 +617,7 @@ def put_metadata_properties(
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#commit_id SagemakerTrialComponent#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#commit_id SagemakerTrialComponent#commit_id}
 
 ---
 
@@ -627,7 +627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#generated_by SagemakerTrialComponent#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#generated_by SagemakerTrialComponent#generated_by}
 
 ---
 
@@ -637,7 +637,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#project_id SagemakerTrialComponent#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#project_id SagemakerTrialComponent#project_id}
 
 ---
 
@@ -647,7 +647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#repository SagemakerTrialComponent#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#repository SagemakerTrialComponent#repository}
 
 ---
 
@@ -694,7 +694,7 @@ def put_status(
 
 If the component failed, a message describing why.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#message SagemakerTrialComponent#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#message SagemakerTrialComponent#message}
 
 ---
 
@@ -704,7 +704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#primary_status SagemakerTrialComponent#primary_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#primary_status SagemakerTrialComponent#primary_status}
 
 ---
 
@@ -878,7 +878,7 @@ The construct id used in the generated config for the SagemakerTrialComponent to
 
 The id of the existing SagemakerTrialComponent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1432,7 +1432,7 @@ trial_component_name: str
 
 The name of the trial component. Must be unique in your AWS account and is not case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#trial_component_name SagemakerTrialComponent#trial_component_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#trial_component_name SagemakerTrialComponent#trial_component_name}
 
 ---
 
@@ -1446,7 +1446,7 @@ display_name: str
 
 The name of the component as displayed. If DisplayName isn't specified, TrialComponentName is displayed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#display_name SagemakerTrialComponent#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#display_name SagemakerTrialComponent#display_name}
 
 ---
 
@@ -1460,7 +1460,7 @@ input_artifacts: IResolvable | typing.Mapping[SagemakerTrialComponentInputArtifa
 
 The input artifacts for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#input_artifacts SagemakerTrialComponent#input_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#input_artifacts SagemakerTrialComponent#input_artifacts}
 
 ---
 
@@ -1474,7 +1474,7 @@ metadata_properties: SagemakerTrialComponentMetadataProperties
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#metadata_properties SagemakerTrialComponent#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#metadata_properties SagemakerTrialComponent#metadata_properties}
 
 ---
 
@@ -1488,7 +1488,7 @@ output_artifacts: IResolvable | typing.Mapping[SagemakerTrialComponentOutputArti
 
 The output artifacts for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#output_artifacts SagemakerTrialComponent#output_artifacts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#output_artifacts SagemakerTrialComponent#output_artifacts}
 
 ---
 
@@ -1502,7 +1502,7 @@ parameters: IResolvable | typing.Mapping[SagemakerTrialComponentParameters]
 
 The hyperparameters for the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#parameters SagemakerTrialComponent#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#parameters SagemakerTrialComponent#parameters}
 
 ---
 
@@ -1516,7 +1516,7 @@ status: SagemakerTrialComponentStatus
 
 The status of the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#status SagemakerTrialComponent#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#status SagemakerTrialComponent#status}
 
 ---
 
@@ -1530,7 +1530,7 @@ tags: IResolvable | typing.List[SagemakerTrialComponentTags]
 
 A list of tags to associate with the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#tags SagemakerTrialComponent#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#tags SagemakerTrialComponent#tags}
 
 ---
 
@@ -1566,7 +1566,7 @@ media_type: str
 
 The media type of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
 
 ---
 
@@ -1580,7 +1580,7 @@ value: str
 
 The location of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
 
 ---
 
@@ -1620,7 +1620,7 @@ commit_id: str
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#commit_id SagemakerTrialComponent#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#commit_id SagemakerTrialComponent#commit_id}
 
 ---
 
@@ -1634,7 +1634,7 @@ generated_by: str
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#generated_by SagemakerTrialComponent#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#generated_by SagemakerTrialComponent#generated_by}
 
 ---
 
@@ -1648,7 +1648,7 @@ project_id: str
 
 The project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#project_id SagemakerTrialComponent#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#project_id SagemakerTrialComponent#project_id}
 
 ---
 
@@ -1662,7 +1662,7 @@ repository: str
 
 The repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#repository SagemakerTrialComponent#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#repository SagemakerTrialComponent#repository}
 
 ---
 
@@ -1698,7 +1698,7 @@ media_type: str
 
 The media type of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#media_type SagemakerTrialComponent#media_type}
 
 ---
 
@@ -1712,7 +1712,7 @@ value: str
 
 The location of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
 
 ---
 
@@ -1748,7 +1748,7 @@ number_value: typing.Union[int, float]
 
 The numeric value of a numeric hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#number_value SagemakerTrialComponent#number_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#number_value SagemakerTrialComponent#number_value}
 
 ---
 
@@ -1762,7 +1762,7 @@ string_value: str
 
 The string value of a categorical hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#string_value SagemakerTrialComponent#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#string_value SagemakerTrialComponent#string_value}
 
 ---
 
@@ -1798,7 +1798,7 @@ message: str
 
 If the component failed, a message describing why.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#message SagemakerTrialComponent#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#message SagemakerTrialComponent#message}
 
 ---
 
@@ -1812,7 +1812,7 @@ primary_status: str
 
 The status of the trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#primary_status SagemakerTrialComponent#primary_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#primary_status SagemakerTrialComponent#primary_status}
 
 ---
 
@@ -1848,7 +1848,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#key SagemakerTrialComponent#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#key SagemakerTrialComponent#key}
 
 ---
 
@@ -1862,7 +1862,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
 
 ---
 

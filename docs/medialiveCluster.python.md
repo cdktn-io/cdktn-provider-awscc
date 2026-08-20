@@ -4,7 +4,7 @@
 
 ### MedialiveCluster <a name="MedialiveCluster" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster awscc_medialive_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster awscc_medialive_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveCluster.MedialiveCluster.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The hardware type for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IAM role your nodes will use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The user-specified name of the Cluster to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 On premises settings which will have the interface network mappings and default Output logical interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
 
 ---
 
@@ -559,7 +559,7 @@ def put_network_settings(
 
 Default value if the customer does not define it in channel Output API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
 
 ---
 
@@ -569,7 +569,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Network mappings for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
 
 ---
 
@@ -731,7 +731,7 @@ The construct id used in the generated config for the MedialiveCluster to import
 
 The id of the existing MedialiveCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1213,7 +1213,7 @@ cluster_type: str
 
 The hardware type for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
 
 ---
 
@@ -1227,7 +1227,7 @@ instance_role_arn: str
 
 The IAM role your nodes will use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
 
 ---
 
@@ -1241,7 +1241,7 @@ name: str
 
 The user-specified name of the Cluster to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
 
 ---
 
@@ -1255,7 +1255,7 @@ network_settings: MedialiveClusterNetworkSettings
 
 On premises settings which will have the interface network mappings and default Output logical interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
 
 ---
 
@@ -1269,7 +1269,7 @@ tags: IResolvable | typing.List[MedialiveClusterTags]
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
 
 ---
 
@@ -1305,7 +1305,7 @@ default_route: str
 
 Default value if the customer does not define it in channel Output API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#default_route MedialiveCluster#default_route}
 
 ---
 
@@ -1319,7 +1319,7 @@ interface_mappings: IResolvable | typing.List[MedialiveClusterNetworkSettingsInt
 
 Network mappings for the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#interface_mappings MedialiveCluster#interface_mappings}
 
 ---
 
@@ -1355,7 +1355,7 @@ logical_interface_name: str
 
 logical interface name, unique in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#logical_interface_name MedialiveCluster#logical_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#logical_interface_name MedialiveCluster#logical_interface_name}
 
 ---
 
@@ -1369,7 +1369,7 @@ network_id: str
 
 Network Id to be associated with the logical interface name, can be duplicated in list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#network_id MedialiveCluster#network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#network_id MedialiveCluster#network_id}
 
 ---
 
@@ -1390,8 +1390,8 @@ medialiveCluster.MedialiveClusterTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#key MedialiveCluster#key}. |
-| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#value MedialiveCluster#value}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#key MedialiveCluster#key}. |
+| <code><a href="#@cdktn/provider-awscc.medialiveCluster.MedialiveClusterTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#value MedialiveCluster#value}. |
 
 ---
 
@@ -1403,7 +1403,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#key MedialiveCluster#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#key MedialiveCluster#key}.
 
 ---
 
@@ -1415,7 +1415,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#value MedialiveCluster#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#value MedialiveCluster#value}.
 
 ---
 

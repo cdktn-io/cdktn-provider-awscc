@@ -4,7 +4,7 @@
 
 ### DataAwsccElementalinferenceFeeds <a name="DataAwsccElementalinferenceFeeds" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeeds.DataAwsccElementalinferenceFeeds"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elementalinference_feeds awscc_elementalinference_feeds}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_feeds awscc_elementalinference_feeds}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElementalinferenceFeeds.DataAwsccElementalinferenceFeeds.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElementalinferenc
 
 The id of the existing DataAwsccElementalinferenceFeeds that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elementalinference_feeds#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elementalinference_feeds#import import section} in the documentation of this resource for the id to use
 
 ---
 

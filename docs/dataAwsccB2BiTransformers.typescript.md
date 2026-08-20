@@ -4,7 +4,7 @@
 
 ### DataAwsccB2BiTransformers <a name="DataAwsccB2BiTransformers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccB2BiTransformers.DataAwsccB2BiTransformers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccB2BiTransformers 
 
 The id of the existing DataAwsccB2BiTransformers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/b2bi_transformers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_transformers#import import section} in the documentation of this resource for the id to use
 
 ---
 

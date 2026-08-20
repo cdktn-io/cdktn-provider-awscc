@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubConfigurationPolicies <a name="DataAwsccSecurityhubConfigurationPolicies" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicies.DataAwsccSecurityhubConfigurationPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConfigurationPolicies.DataAwsccSecurityhubConfigurationPolicies.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubConfig
 
 The id of the existing DataAwsccSecurityhubConfigurationPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_configuration_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_configuration_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

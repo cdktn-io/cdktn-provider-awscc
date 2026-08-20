@@ -4,7 +4,7 @@
 
 ### VpclatticeResourcePolicy <a name="VpclatticeResourcePolicy" id="@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the VpclatticeResourcePolicy t
 
 The id of the existing VpclatticeResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -770,8 +770,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/vpclatticeresourcepoli
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_resource_policy#policy VpclatticeResourcePolicy#policy}. |
-| <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_resource_policy#resource_arn VpclatticeResourcePolicy#resource_arn}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_policy#policy VpclatticeResourcePolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.vpclatticeResourcePolicy.VpclatticeResourcePolicyConfig.property.resourceArn">ResourceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_policy#resource_arn VpclatticeResourcePolicy#resource_arn}. |
 
 ---
 
@@ -853,7 +853,7 @@ Policy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_resource_policy#policy VpclatticeResourcePolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_policy#policy VpclatticeResourcePolicy#policy}.
 
 ---
 
@@ -865,7 +865,7 @@ ResourceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_resource_policy#resource_arn VpclatticeResourcePolicy#resource_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_resource_policy#resource_arn VpclatticeResourcePolicy#resource_arn}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccGlobalacceleratorAccelerators <a name="DataAwsccGlobalacceleratorAccelerators" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorAccelerators.DataAwsccGlobalacceleratorAccelerators"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/globalaccelerator_accelerators awscc_globalaccelerator_accelerators}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/globalaccelerator_accelerators awscc_globalaccelerator_accelerators}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlobalacceleratorAccelerators.DataAwsccGlobalacceleratorAccelerators.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccGlobalaccelerator
 
 The id of the existing DataAwsccGlobalacceleratorAccelerators that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/globalaccelerator_accelerators#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/globalaccelerator_accelerators#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### HealthimagingDatastore <a name="HealthimagingDatastore" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.healthimagingDatastore.HealthimagingDatastore.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 User friendly name for Datastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ARN referencing a KMS key or KMS key alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A Map of key value pairs for Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
 
 ---
 
@@ -648,7 +648,7 @@ The construct id used in the generated config for the HealthimagingDatastore to 
 
 The id of the existing HealthimagingDatastore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1093,7 +1093,7 @@ datastore_name: str
 
 User friendly name for Datastore.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#datastore_name HealthimagingDatastore#datastore_name}
 
 ---
 
@@ -1107,7 +1107,7 @@ kms_key_arn: str
 
 ARN referencing a KMS key or KMS key alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#kms_key_arn HealthimagingDatastore#kms_key_arn}
 
 ---
 
@@ -1121,7 +1121,7 @@ tags: typing.Mapping[str]
 
 A Map of key value pairs for Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthimaging_datastore#tags HealthimagingDatastore#tags}
 
 ---
 

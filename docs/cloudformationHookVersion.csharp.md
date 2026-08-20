@@ -4,7 +4,7 @@
 
 ### CloudformationHookVersion <a name="CloudformationHookVersion" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationHookVersion.CloudformationHookVersion.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the CloudformationHookVersion 
 
 The id of the existing CloudformationHookVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -987,7 +987,7 @@ A url to the S3 bucket containing the schema handler package that contains the s
 
 For information on generating a schema handler package for the type you want to register, see submit in the CloudFormation CLI User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
 
 ---
 
@@ -1003,7 +1003,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
 
 ---
 
@@ -1019,7 +1019,7 @@ The Amazon Resource Name (ARN) of the IAM execution role to use to register the 
 
 If your resource type calls AWS APIs in any of its handlers, you must create an IAM execution role that includes the necessary permissions to call those AWS APIs, and provision that execution role in your account. CloudFormation then assumes that execution role to provide your resource type with the appropriate credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
 
 ---
 
@@ -1033,7 +1033,7 @@ public CloudformationHookVersionLoggingConfig LoggingConfig { get; set; }
 
 Specifies logging configuration information for a type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
 
 ---
 
@@ -1069,7 +1069,7 @@ public string LogGroupName { get; set; }
 
 The Amazon CloudWatch log group to which CloudFormation sends error logging information when invoking the type's handlers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#log_group_name CloudformationHookVersion#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#log_group_name CloudformationHookVersion#log_group_name}
 
 ---
 
@@ -1083,7 +1083,7 @@ public string LogRoleArn { get; set; }
 
 The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#log_role_arn CloudformationHookVersion#log_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#log_role_arn CloudformationHookVersion#log_role_arn}
 
 ---
 

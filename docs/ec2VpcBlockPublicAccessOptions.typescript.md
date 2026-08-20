@@ -4,7 +4,7 @@
 
 ### Ec2VpcBlockPublicAccessOptions <a name="Ec2VpcBlockPublicAccessOptions" id="@cdktn/provider-awscc.ec2VpcBlockPublicAccessOptions.Ec2VpcBlockPublicAccessOptions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcBlockPublicAccessOptions.Ec2VpcBlockPublicAccessOptions.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Ec2VpcBlockPublicAccessOpt
 
 The id of the existing Ec2VpcBlockPublicAccessOptions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_block_public_access_options#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_block_public_access_options#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -846,7 +846,7 @@ The desired Block Public Access mode for Internet Gateways in your account.
 
 We do not allow to create in a off mode as this is the default value
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_block_public_access_options#internet_gateway_block_mode Ec2VpcBlockPublicAccessOptions#internet_gateway_block_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_block_public_access_options#internet_gateway_block_mode Ec2VpcBlockPublicAccessOptions#internet_gateway_block_mode}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### IamVirtualMfaDevice <a name="IamVirtualMfaDevice" id="@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer"></a>
 
@@ -39,10 +39,10 @@ iamVirtualMfaDevice.IamVirtualMfaDevice(
 | <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.users">users</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}. |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.path">path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}. |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceTags">IamVirtualMfaDeviceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}. |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.virtualMfaDeviceName">virtual_mfa_device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.users">users</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.path">path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceTags">IamVirtualMfaDeviceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDevice.Initializer.parameter.virtualMfaDeviceName">virtual_mfa_device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceTags">IamVirtualMfaDeviceTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}.
 
 ---
 
@@ -667,7 +667,7 @@ The construct id used in the generated config for the IamVirtualMfaDevice to imp
 
 The id of the existing IamVirtualMfaDevice that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,10 +1005,10 @@ iamVirtualMfaDevice.IamVirtualMfaDeviceConfig(
 | <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.users">users</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}. |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.path">path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}. |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceTags">IamVirtualMfaDeviceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}. |
-| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.virtualMfaDeviceName">virtual_mfa_device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.users">users</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.path">path</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceTags">IamVirtualMfaDeviceTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceConfig.property.virtualMfaDeviceName">virtual_mfa_device_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}. |
 
 ---
 
@@ -1090,7 +1090,7 @@ users: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}.
 
 ---
 
@@ -1102,7 +1102,7 @@ path: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}.
 
 ---
 
@@ -1114,7 +1114,7 @@ tags: IResolvable | typing.List[IamVirtualMfaDeviceTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.iamVirtualMfaDevice.IamVirtualMfaDeviceTags">IamVirtualMfaDeviceTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}.
 
 ---
 
@@ -1126,7 +1126,7 @@ virtual_mfa_device_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}.
 
 ---
 
@@ -1164,7 +1164,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#key IamVirtualMfaDevice#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#key IamVirtualMfaDevice#key}
 
 ---
 
@@ -1180,7 +1180,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device#value IamVirtualMfaDevice#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_virtual_mfa_device#value IamVirtualMfaDevice#value}
 
 ---
 

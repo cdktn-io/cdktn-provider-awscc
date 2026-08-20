@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_consumable_resource
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_consumable_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBatchConsumableResourceConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_consumable_resource#id DataAwsccBatchConsumableResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_consumable_resource#id DataAwsccBatchConsumableResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ export interface DataAwsccBatchConsumableResourceConfig extends cdktn.TerraformM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_consumable_resource awscc_batch_consumable_resource}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_consumable_resource awscc_batch_consumable_resource}
 */
 export class DataAwsccBatchConsumableResource extends cdktn.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataAwsccBatchConsumableResource extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccBatchConsumableResource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBatchConsumableResource to import
-  * @param importFromId The id of the existing DataAwsccBatchConsumableResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_consumable_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBatchConsumableResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_consumable_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBatchConsumableResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataAwsccBatchConsumableResource extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_consumable_resource awscc_batch_consumable_resource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_consumable_resource awscc_batch_consumable_resource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +63,7 @@ export class DataAwsccBatchConsumableResource extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_batch_consumable_resource',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

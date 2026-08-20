@@ -4,7 +4,7 @@
 
 ### EcrSigningConfiguration <a name="EcrSigningConfiguration" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrSigningConfiguration.EcrSigningConfiguration.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the EcrSigningConfiguration to
 
 The id of the existing EcrSigningConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ public IResolvable|EcrSigningConfigurationRules[] Rules { get; set; }
 
 Array of signing rules that define which repositories should be signed and with which signing profiles.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
 
 ---
 
@@ -891,7 +891,7 @@ public string SigningProfileArn { get; set; }
 
 AWS Signer signing profile ARN to use for matched repositories.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#signing_profile_arn EcrSigningConfiguration#signing_profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration#signing_profile_arn EcrSigningConfiguration#signing_profile_arn}
 
 ---
 
@@ -907,7 +907,7 @@ Optional array of repository filters.
 
 If omitted, the rule matches all repositories. If provided, must contain at least one filter. Empty arrays are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#repository_filters EcrSigningConfiguration#repository_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration#repository_filters EcrSigningConfiguration#repository_filters}
 
 ---
 
@@ -943,7 +943,7 @@ public string Filter { get; set; }
 
 Repository name pattern (supports '*' wildcard).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
 
 ---
 
@@ -957,7 +957,7 @@ public string FilterType { get; set; }
 
 Type of repository filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
 
 ---
 

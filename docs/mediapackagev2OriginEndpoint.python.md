@@ -4,7 +4,7 @@
 
 ### Mediapackagev2OriginEndpoint <a name="Mediapackagev2OriginEndpoint" id="@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer"></a>
 
@@ -49,10 +49,10 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.containerType">container_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.originEndpointName">origin_endpoint_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.containerType">container_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.originEndpointName">origin_endpoint_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.dashManifests">dash_manifests</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests">Mediapackagev2OriginEndpointDashManifests</a>]</code> | <p>A DASH manifest configuration.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.description">description</a></code> | <code>str</code> | <p>Enter any descriptive text that helps you to identify the origin endpoint.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.forceEndpointErrorConfiguration">force_endpoint_error_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointForceEndpointErrorConfiguration">Mediapackagev2OriginEndpointForceEndpointErrorConfiguration</a></code> | <p>The failover settings for the endpoint.</p>. |
@@ -61,8 +61,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.mssManifests">mss_manifests</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests">Mediapackagev2OriginEndpointMssManifests</a>]</code> | <p>The Microsoft Smooth Streaming (MSS) manifest configurations associated with this origin endpoint.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.segment">segment</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment">Mediapackagev2OriginEndpointSegment</a></code> | <p>The segment configuration, including the segment name, duration, and other configuration values.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.startoverWindowSeconds">startover_window_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>The size of the window (in seconds) to create a window of the live stream that's available for on-demand viewing. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags">Mediapackagev2OriginEndpointTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.uriSeparator">uri_separator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags">Mediapackagev2OriginEndpointTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpoint.Initializer.parameter.uriSeparator">uri_separator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}. |
 
 ---
 
@@ -130,7 +130,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}.
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>A DASH manifest configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#dash_manifests Mediapackagev2OriginEndpoint#dash_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#dash_manifests Mediapackagev2OriginEndpoint#dash_manifests}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Enter any descriptive text that helps you to identify the origin endpoint.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#description Mediapackagev2OriginEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#description Mediapackagev2OriginEndpoint#description}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The failover settings for the endpoint.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#force_endpoint_error_configuration Mediapackagev2OriginEndpoint#force_endpoint_error_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#force_endpoint_error_configuration Mediapackagev2OriginEndpoint#force_endpoint_error_configuration}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>An HTTP live streaming (HLS) manifest configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#hls_manifests Mediapackagev2OriginEndpoint#hls_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#hls_manifests Mediapackagev2OriginEndpoint#hls_manifests}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>A low-latency HLS manifest configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#low_latency_hls_manifests Mediapackagev2OriginEndpoint#low_latency_hls_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#low_latency_hls_manifests Mediapackagev2OriginEndpoint#low_latency_hls_manifests}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The Microsoft Smooth Streaming (MSS) manifest configurations associated with this origin endpoint.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#mss_manifests Mediapackagev2OriginEndpoint#mss_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#mss_manifests Mediapackagev2OriginEndpoint#mss_manifests}
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The segment configuration, including the segment name, duration, and other configuration values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment Mediapackagev2OriginEndpoint#segment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment Mediapackagev2OriginEndpoint#segment}
 
 ---
 
@@ -236,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Viewers can start-over or catch-up on content that falls within the window. The maximum startover window is 1,209,600 seconds (14 days).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#startover_window_seconds Mediapackagev2OriginEndpoint#startover_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#startover_window_seconds Mediapackagev2OriginEndpoint#startover_window_seconds}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags">Mediapackagev2OriginEndpointTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}.
 
 ---
 
@@ -252,7 +252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}.
 
 ---
 
@@ -682,7 +682,7 @@ def put_force_endpoint_error_configuration(
 
 The options are:</p> <ul> <li> <p> <code>STALE_MANIFEST</code> - The manifest stalled and there are no new segments or parts.</p> </li> <li> <p> <code>INCOMPLETE_MANIFEST</code> - There is a gap in the manifest.</p> </li> <li> <p> <code>MISSING_DRM_KEY</code> - Key rotation is enabled but we're unable to fetch the key for the current key period.</p> </li> <li> <p> <code>SLATE_INPUT</code> - The segments which contain slate content are considered to be missing content.</p> </li> </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#endpoint_error_conditions Mediapackagev2OriginEndpoint#endpoint_error_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#endpoint_error_conditions Mediapackagev2OriginEndpoint#endpoint_error_conditions}
 
 ---
 
@@ -749,7 +749,7 @@ def put_segment(
 
 <p>The parameters for encrypting content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#encryption Mediapackagev2OriginEndpoint#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#encryption Mediapackagev2OriginEndpoint#encryption}
 
 ---
 
@@ -761,7 +761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If false, this extra stream is not included. MediaPackage generates an I-frame only stream from the first rendition in the manifest. The service inserts EXT-I-FRAMES-ONLY tags in the output manifest, and then generates and includes an I-frames only playlist in the stream. This playlist permits player functionality like fast forward and rewind.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#include_iframe_only_streams Mediapackagev2OriginEndpoint#include_iframe_only_streams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#include_iframe_only_streams Mediapackagev2OriginEndpoint#include_iframe_only_streams}
 
 ---
 
@@ -769,7 +769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#output_timestamp_mode Mediapackagev2OriginEndpoint#output_timestamp_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#output_timestamp_mode Mediapackagev2OriginEndpoint#output_timestamp_mode}.
 
 ---
 
@@ -779,7 +779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The SCTE configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte Mediapackagev2OriginEndpoint#scte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte Mediapackagev2OriginEndpoint#scte}
 
 ---
 
@@ -791,7 +791,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a value equal to, or a multiple of, the input segment duration. If the value that you enter is different from the input segment duration, MediaPackage rounds segments to the nearest multiple of the input segment duration.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment_duration_seconds Mediapackagev2OriginEndpoint#segment_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment_duration_seconds Mediapackagev2OriginEndpoint#segment_duration_seconds}
 
 ---
 
@@ -803,7 +803,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name is the base name of the segment used in all content manifests inside of the endpoint. You can't use spaces in the name.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment_name Mediapackagev2OriginEndpoint#segment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment_name Mediapackagev2OriginEndpoint#segment_name}
 
 ---
 
@@ -815,7 +815,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When selected, MediaPackage passes through DVB subtitles into the output.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_include_dvb_subtitles Mediapackagev2OriginEndpoint#ts_include_dvb_subtitles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_include_dvb_subtitles Mediapackagev2OriginEndpoint#ts_include_dvb_subtitles}
 
 ---
 
@@ -827,7 +827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 All other tracks in the stream can be used with any audio rendition from the group.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_use_audio_rendition_group Mediapackagev2OriginEndpoint#ts_use_audio_rendition_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_use_audio_rendition_group Mediapackagev2OriginEndpoint#ts_use_audio_rendition_group}
 
 ---
 
@@ -1019,7 +1019,7 @@ The construct id used in the generated config for the Mediapackagev2OriginEndpoi
 
 The id of the existing Mediapackagev2OriginEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1653,10 +1653,10 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.containerType">container_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.originEndpointName">origin_endpoint_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.containerType">container_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.originEndpointName">origin_endpoint_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.dashManifests">dash_manifests</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests">Mediapackagev2OriginEndpointDashManifests</a>]</code> | <p>A DASH manifest configuration.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.description">description</a></code> | <code>str</code> | <p>Enter any descriptive text that helps you to identify the origin endpoint.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.forceEndpointErrorConfiguration">force_endpoint_error_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointForceEndpointErrorConfiguration">Mediapackagev2OriginEndpointForceEndpointErrorConfiguration</a></code> | <p>The failover settings for the endpoint.</p>. |
@@ -1665,8 +1665,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.mssManifests">mss_manifests</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests">Mediapackagev2OriginEndpointMssManifests</a>]</code> | <p>The Microsoft Smooth Streaming (MSS) manifest configurations associated with this origin endpoint.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.segment">segment</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment">Mediapackagev2OriginEndpointSegment</a></code> | <p>The segment configuration, including the segment name, duration, and other configuration values.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.startoverWindowSeconds">startover_window_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>The size of the window (in seconds) to create a window of the live stream that's available for on-demand viewing. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags">Mediapackagev2OriginEndpointTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.uriSeparator">uri_separator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags">Mediapackagev2OriginEndpointTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointConfig.property.uriSeparator">uri_separator</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}. |
 
 ---
 
@@ -1748,7 +1748,7 @@ channel_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_group_name Mediapackagev2OriginEndpoint#channel_group_name}.
 
 ---
 
@@ -1760,7 +1760,7 @@ channel_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#channel_name Mediapackagev2OriginEndpoint#channel_name}.
 
 ---
 
@@ -1772,7 +1772,7 @@ container_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#container_type Mediapackagev2OriginEndpoint#container_type}.
 
 ---
 
@@ -1784,7 +1784,7 @@ origin_endpoint_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#origin_endpoint_name Mediapackagev2OriginEndpoint#origin_endpoint_name}.
 
 ---
 
@@ -1798,7 +1798,7 @@ dash_manifests: IResolvable | typing.List[Mediapackagev2OriginEndpointDashManife
 
 <p>A DASH manifest configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#dash_manifests Mediapackagev2OriginEndpoint#dash_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#dash_manifests Mediapackagev2OriginEndpoint#dash_manifests}
 
 ---
 
@@ -1812,7 +1812,7 @@ description: str
 
 <p>Enter any descriptive text that helps you to identify the origin endpoint.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#description Mediapackagev2OriginEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#description Mediapackagev2OriginEndpoint#description}
 
 ---
 
@@ -1826,7 +1826,7 @@ force_endpoint_error_configuration: Mediapackagev2OriginEndpointForceEndpointErr
 
 <p>The failover settings for the endpoint.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#force_endpoint_error_configuration Mediapackagev2OriginEndpoint#force_endpoint_error_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#force_endpoint_error_configuration Mediapackagev2OriginEndpoint#force_endpoint_error_configuration}
 
 ---
 
@@ -1840,7 +1840,7 @@ hls_manifests: IResolvable | typing.List[Mediapackagev2OriginEndpointHlsManifest
 
 <p>An HTTP live streaming (HLS) manifest configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#hls_manifests Mediapackagev2OriginEndpoint#hls_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#hls_manifests Mediapackagev2OriginEndpoint#hls_manifests}
 
 ---
 
@@ -1854,7 +1854,7 @@ low_latency_hls_manifests: IResolvable | typing.List[Mediapackagev2OriginEndpoin
 
 <p>A low-latency HLS manifest configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#low_latency_hls_manifests Mediapackagev2OriginEndpoint#low_latency_hls_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#low_latency_hls_manifests Mediapackagev2OriginEndpoint#low_latency_hls_manifests}
 
 ---
 
@@ -1868,7 +1868,7 @@ mss_manifests: IResolvable | typing.List[Mediapackagev2OriginEndpointMssManifest
 
 <p>The Microsoft Smooth Streaming (MSS) manifest configurations associated with this origin endpoint.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#mss_manifests Mediapackagev2OriginEndpoint#mss_manifests}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#mss_manifests Mediapackagev2OriginEndpoint#mss_manifests}
 
 ---
 
@@ -1882,7 +1882,7 @@ segment: Mediapackagev2OriginEndpointSegment
 
 <p>The segment configuration, including the segment name, duration, and other configuration values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment Mediapackagev2OriginEndpoint#segment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment Mediapackagev2OriginEndpoint#segment}
 
 ---
 
@@ -1898,7 +1898,7 @@ startover_window_seconds: typing.Union[int, float]
 
 Viewers can start-over or catch-up on content that falls within the window. The maximum startover window is 1,209,600 seconds (14 days).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#startover_window_seconds Mediapackagev2OriginEndpoint#startover_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#startover_window_seconds Mediapackagev2OriginEndpoint#startover_window_seconds}
 
 ---
 
@@ -1910,7 +1910,7 @@ tags: IResolvable | typing.List[Mediapackagev2OriginEndpointTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags">Mediapackagev2OriginEndpointTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#tags Mediapackagev2OriginEndpoint#tags}.
 
 ---
 
@@ -1922,7 +1922,7 @@ uri_separator: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_separator Mediapackagev2OriginEndpoint#uri_separator}.
 
 ---
 
@@ -1961,11 +1961,11 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.audioTimelinePattern">audio_timeline_pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#audio_timeline_pattern Mediapackagev2OriginEndpoint#audio_timeline_pattern}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.audioTimelinePattern">audio_timeline_pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#audio_timeline_pattern Mediapackagev2OriginEndpoint#audio_timeline_pattern}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.availabilityStartTimeConfiguration">availability_start_time_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsAvailabilityStartTimeConfiguration">Mediapackagev2OriginEndpointDashManifestsAvailabilityStartTimeConfiguration</a></code> | <p>The configuration for the DASH <code>availabilityStartTime</code> attribute of the Media Presentation Description (MPD). |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.baseUrls">base_urls</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsBaseUrls">Mediapackagev2OriginEndpointDashManifestsBaseUrls</a>]</code> | <p>The base URL to use for retrieving segments.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.compactness">compactness</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#compactness Mediapackagev2OriginEndpoint#compactness}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.drmSignaling">drm_signaling</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_signaling Mediapackagev2OriginEndpoint#drm_signaling}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.compactness">compactness</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#compactness Mediapackagev2OriginEndpoint#compactness}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.drmSignaling">drm_signaling</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_signaling Mediapackagev2OriginEndpoint#drm_signaling}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.dvbSettings">dvb_settings</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsDvbSettings">Mediapackagev2OriginEndpointDashManifestsDvbSettings</a></code> | <p>For endpoints that use the DVB-DASH profile only. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.filterConfiguration">filter_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsFilterConfiguration">Mediapackagev2OriginEndpointDashManifestsFilterConfiguration</a></code> | <p>Filter configuration includes settings for manifest filtering, start and end times, and time delay that apply to all of your egress requests for this manifest. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.manifestName">manifest_name</a></code> | <code>str</code> | <p>A short string that's appended to the endpoint URL. |
@@ -1976,10 +1976,10 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.profiles">profiles</a></code> | <code>typing.List[str]</code> | <p>The profile that the output is compliant with.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.programInformation">program_information</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsProgramInformation">Mediapackagev2OriginEndpointDashManifestsProgramInformation</a></code> | <p>Details about the content that you want MediaPackage to pass through in the manifest to the playback device.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.scteDash">scte_dash</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsScteDash">Mediapackagev2OriginEndpointDashManifestsScteDash</a></code> | <p>The SCTE configuration.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.segmentTemplateFormat">segment_template_format</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment_template_format Mediapackagev2OriginEndpoint#segment_template_format}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.segmentTemplateFormat">segment_template_format</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment_template_format Mediapackagev2OriginEndpoint#segment_template_format}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.subtitleConfiguration">subtitle_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsSubtitleConfiguration">Mediapackagev2OriginEndpointDashManifestsSubtitleConfiguration</a></code> | <p>The configuration for DASH subtitles.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.suggestedPresentationDelaySeconds">suggested_presentation_delay_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>The amount of time (in seconds) that the player should be from the end of the manifest.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.uriPathType">uri_path_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.uriPathType">uri_path_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifests.property.utcTiming">utc_timing</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsUtcTiming">Mediapackagev2OriginEndpointDashManifestsUtcTiming</a></code> | <p>Determines the type of UTC timing included in the DASH Media Presentation Description (MPD).</p>. |
 
 ---
@@ -1992,7 +1992,7 @@ audio_timeline_pattern: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#audio_timeline_pattern Mediapackagev2OriginEndpoint#audio_timeline_pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#audio_timeline_pattern Mediapackagev2OriginEndpoint#audio_timeline_pattern}.
 
 ---
 
@@ -2008,7 +2008,7 @@ availability_start_time_configuration: Mediapackagev2OriginEndpointDashManifests
 
 Use this configuration to set a custom availability start time for your DASH manifest.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#availability_start_time_configuration Mediapackagev2OriginEndpoint#availability_start_time_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#availability_start_time_configuration Mediapackagev2OriginEndpoint#availability_start_time_configuration}
 
 ---
 
@@ -2022,7 +2022,7 @@ base_urls: IResolvable | typing.List[Mediapackagev2OriginEndpointDashManifestsBa
 
 <p>The base URL to use for retrieving segments.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#base_urls Mediapackagev2OriginEndpoint#base_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#base_urls Mediapackagev2OriginEndpoint#base_urls}
 
 ---
 
@@ -2034,7 +2034,7 @@ compactness: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#compactness Mediapackagev2OriginEndpoint#compactness}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#compactness Mediapackagev2OriginEndpoint#compactness}.
 
 ---
 
@@ -2046,7 +2046,7 @@ drm_signaling: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_signaling Mediapackagev2OriginEndpoint#drm_signaling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_signaling Mediapackagev2OriginEndpoint#drm_signaling}.
 
 ---
 
@@ -2062,7 +2062,7 @@ dvb_settings: Mediapackagev2OriginEndpointDashManifestsDvbSettings
 
 The font download and error reporting information that you want MediaPackage to pass through to the manifest.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#dvb_settings Mediapackagev2OriginEndpoint#dvb_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#dvb_settings Mediapackagev2OriginEndpoint#dvb_settings}
 
 ---
 
@@ -2078,7 +2078,7 @@ filter_configuration: Mediapackagev2OriginEndpointDashManifestsFilterConfigurati
 
 </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
 
 ---
 
@@ -2094,7 +2094,7 @@ manifest_name: str
 
 The manifest name creates a unique path to this endpoint. If you don't enter a value, MediaPackage uses the default manifest name, index. </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
 
 ---
 
@@ -2108,7 +2108,7 @@ manifest_window_seconds: typing.Union[int, float]
 
 <p>The total duration (in seconds) of the manifest's content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
 
 ---
 
@@ -2122,7 +2122,7 @@ min_buffer_time_seconds: typing.Union[int, float]
 
 <p>Minimum amount of content (in seconds) that a player must keep available in the buffer.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#min_buffer_time_seconds Mediapackagev2OriginEndpoint#min_buffer_time_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#min_buffer_time_seconds Mediapackagev2OriginEndpoint#min_buffer_time_seconds}
 
 ---
 
@@ -2136,7 +2136,7 @@ min_update_period_seconds: typing.Union[int, float]
 
 <p>Minimum amount of time (in seconds) that the player should wait before requesting updates to the manifest.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#min_update_period_seconds Mediapackagev2OriginEndpoint#min_update_period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#min_update_period_seconds Mediapackagev2OriginEndpoint#min_update_period_seconds}
 
 ---
 
@@ -2152,7 +2152,7 @@ period_triggers: typing.List[str]
 
 Leave this value empty to indicate that the manifest is contained all in one period. For more information about periods in the DASH manifest, see <a href="https://docs.aws.amazon.com/mediapackage/latest/userguide/multi-period.html">Multi-period DASH in AWS Elemental MediaPackage</a>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#period_triggers Mediapackagev2OriginEndpoint#period_triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#period_triggers Mediapackagev2OriginEndpoint#period_triggers}
 
 ---
 
@@ -2166,7 +2166,7 @@ profiles: typing.List[str]
 
 <p>The profile that the output is compliant with.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#profiles Mediapackagev2OriginEndpoint#profiles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#profiles Mediapackagev2OriginEndpoint#profiles}
 
 ---
 
@@ -2180,7 +2180,7 @@ program_information: Mediapackagev2OriginEndpointDashManifestsProgramInformation
 
 <p>Details about the content that you want MediaPackage to pass through in the manifest to the playback device.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#program_information Mediapackagev2OriginEndpoint#program_information}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#program_information Mediapackagev2OriginEndpoint#program_information}
 
 ---
 
@@ -2194,7 +2194,7 @@ scte_dash: Mediapackagev2OriginEndpointDashManifestsScteDash
 
 <p>The SCTE configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_dash Mediapackagev2OriginEndpoint#scte_dash}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_dash Mediapackagev2OriginEndpoint#scte_dash}
 
 ---
 
@@ -2206,7 +2206,7 @@ segment_template_format: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment_template_format Mediapackagev2OriginEndpoint#segment_template_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment_template_format Mediapackagev2OriginEndpoint#segment_template_format}.
 
 ---
 
@@ -2220,7 +2220,7 @@ subtitle_configuration: Mediapackagev2OriginEndpointDashManifestsSubtitleConfigu
 
 <p>The configuration for DASH subtitles.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#subtitle_configuration Mediapackagev2OriginEndpoint#subtitle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#subtitle_configuration Mediapackagev2OriginEndpoint#subtitle_configuration}
 
 ---
 
@@ -2234,7 +2234,7 @@ suggested_presentation_delay_seconds: typing.Union[int, float]
 
 <p>The amount of time (in seconds) that the player should be from the end of the manifest.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#suggested_presentation_delay_seconds Mediapackagev2OriginEndpoint#suggested_presentation_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#suggested_presentation_delay_seconds Mediapackagev2OriginEndpoint#suggested_presentation_delay_seconds}
 
 ---
 
@@ -2246,7 +2246,7 @@ uri_path_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}.
 
 ---
 
@@ -2260,7 +2260,7 @@ utc_timing: Mediapackagev2OriginEndpointDashManifestsUtcTiming
 
 <p>Determines the type of UTC timing included in the DASH Media Presentation Description (MPD).</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#utc_timing Mediapackagev2OriginEndpoint#utc_timing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#utc_timing Mediapackagev2OriginEndpoint#utc_timing}
 
 ---
 
@@ -2296,7 +2296,7 @@ fixed_availability_start_time: str
 
 The value must have hourly granularity, meaning that the minutes, seconds, and fractional seconds must be zero. The value must be on or after <code>2024-01-01T00:00:00Z</code> and must be at least 14 days before the current time.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#fixed_availability_start_time Mediapackagev2OriginEndpoint#fixed_availability_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#fixed_availability_start_time Mediapackagev2OriginEndpoint#fixed_availability_start_time}
 
 ---
 
@@ -2338,7 +2338,7 @@ dvb_priority: typing.Union[int, float]
 
 The priority of this location for servings segments. The lower the number, the higher the priority.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#dvb_priority Mediapackagev2OriginEndpoint#dvb_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#dvb_priority Mediapackagev2OriginEndpoint#dvb_priority}
 
 ---
 
@@ -2352,7 +2352,7 @@ dvb_weight: typing.Union[int, float]
 
 <p>For use with DVB-DASH profiles only. The weighting for source locations that have the same priority. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#dvb_weight Mediapackagev2OriginEndpoint#dvb_weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#dvb_weight Mediapackagev2OriginEndpoint#dvb_weight}
 
 ---
 
@@ -2366,7 +2366,7 @@ service_location: str
 
 <p>The name of the source location.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#service_location Mediapackagev2OriginEndpoint#service_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#service_location Mediapackagev2OriginEndpoint#service_location}
 
 ---
 
@@ -2380,7 +2380,7 @@ url: str
 
 <p>A source location for segments.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -2416,7 +2416,7 @@ error_metrics: IResolvable | typing.List[Mediapackagev2OriginEndpointDashManifes
 
 <p>Playback device error reporting settings.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#error_metrics Mediapackagev2OriginEndpoint#error_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#error_metrics Mediapackagev2OriginEndpoint#error_metrics}
 
 ---
 
@@ -2432,7 +2432,7 @@ font_download: Mediapackagev2OriginEndpointDashManifestsDvbSettingsFontDownload
 
 The settings for font downloads that you want Elemental MediaPackage to pass through to the manifest.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#font_download Mediapackagev2OriginEndpoint#font_download}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#font_download Mediapackagev2OriginEndpoint#font_download}
 
 ---
 
@@ -2470,7 +2470,7 @@ probability: typing.Union[int, float]
 
 This represents the probability that a playback device will be a reporting player for this session.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#probability Mediapackagev2OriginEndpoint#probability}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#probability Mediapackagev2OriginEndpoint#probability}
 
 ---
 
@@ -2484,7 +2484,7 @@ reporting_url: str
 
 <p>The URL where playback devices send error reports.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#reporting_url Mediapackagev2OriginEndpoint#reporting_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#reporting_url Mediapackagev2OriginEndpoint#reporting_url}
 
 ---
 
@@ -2522,7 +2522,7 @@ font_family: str
 
 <p>The <code>fontFamily</code> name for subtitles, as described in <a href="https://tech.ebu.ch/publications/tech3380">EBU-TT-D Subtitling Distribution Format</a>. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#font_family Mediapackagev2OriginEndpoint#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#font_family Mediapackagev2OriginEndpoint#font_family}
 
 ---
 
@@ -2536,7 +2536,7 @@ mime_type: str
 
 <p>The <code>mimeType</code> of the resource that's at the font download URL.</p> <p>For information about font MIME types, see the <a href="https://dvb.org/wp-content/uploads/2021/06/A168r4_MPEG-DASH-Profile-for-Transport-of-ISO-BMFF-Based-DVB-Services_Draft-ts_103-285-v140_November_2021.pdf">MPEG-DASH Profile for Transport of ISO BMFF Based DVB Services over IP Based Networks</a> document. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#mime_type Mediapackagev2OriginEndpoint#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#mime_type Mediapackagev2OriginEndpoint#mime_type}
 
 ---
 
@@ -2550,7 +2550,7 @@ url: str
 
 <p>The URL for downloading fonts for subtitles.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -2596,7 +2596,7 @@ clip_start_time: str
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -2612,7 +2612,7 @@ drm_settings: str
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -2628,7 +2628,7 @@ end: str
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -2644,7 +2644,7 @@ manifest_filter: str
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -2660,7 +2660,7 @@ start: str
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -2676,7 +2676,7 @@ time_delay_seconds: typing.Union[int, float]
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -2718,7 +2718,7 @@ copyright: str
 
 <p>A copyright statement about the content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#copyright Mediapackagev2OriginEndpoint#copyright}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#copyright Mediapackagev2OriginEndpoint#copyright}
 
 ---
 
@@ -2732,7 +2732,7 @@ language_code: str
 
 <p>The language code for this manifest.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#language_code Mediapackagev2OriginEndpoint#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#language_code Mediapackagev2OriginEndpoint#language_code}
 
 ---
 
@@ -2746,7 +2746,7 @@ more_information_url: str
 
 <p>An absolute URL that contains more information about this content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#more_information_url Mediapackagev2OriginEndpoint#more_information_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#more_information_url Mediapackagev2OriginEndpoint#more_information_url}
 
 ---
 
@@ -2760,7 +2760,7 @@ source: str
 
 <p>Information about the content provider.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#source Mediapackagev2OriginEndpoint#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#source Mediapackagev2OriginEndpoint#source}
 
 ---
 
@@ -2774,7 +2774,7 @@ title: str
 
 <p>The title for the manifest.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#title Mediapackagev2OriginEndpoint#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#title Mediapackagev2OriginEndpoint#title}
 
 ---
 
@@ -2795,8 +2795,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsScteDash(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsScteDash.property.adMarkerDash">ad_marker_dash</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_dash Mediapackagev2OriginEndpoint#ad_marker_dash}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsScteDash.property.scteInManifests">scte_in_manifests</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsScteDash.property.adMarkerDash">ad_marker_dash</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_dash Mediapackagev2OriginEndpoint#ad_marker_dash}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsScteDash.property.scteInManifests">scte_in_manifests</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}. |
 
 ---
 
@@ -2808,7 +2808,7 @@ ad_marker_dash: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_dash Mediapackagev2OriginEndpoint#ad_marker_dash}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_dash Mediapackagev2OriginEndpoint#ad_marker_dash}.
 
 ---
 
@@ -2820,7 +2820,7 @@ scte_in_manifests: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
 
 ---
 
@@ -2854,7 +2854,7 @@ ttml_configuration: Mediapackagev2OriginEndpointDashManifestsSubtitleConfigurati
 
 <p>The settings for TTML subtitles.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ttml_configuration Mediapackagev2OriginEndpoint#ttml_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ttml_configuration Mediapackagev2OriginEndpoint#ttml_configuration}
 
 ---
 
@@ -2874,7 +2874,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsSubtitleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsSubtitleConfigurationTtmlConfiguration.property.ttmlProfile">ttml_profile</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ttml_profile Mediapackagev2OriginEndpoint#ttml_profile}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsSubtitleConfigurationTtmlConfiguration.property.ttmlProfile">ttml_profile</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ttml_profile Mediapackagev2OriginEndpoint#ttml_profile}. |
 
 ---
 
@@ -2886,7 +2886,7 @@ ttml_profile: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ttml_profile Mediapackagev2OriginEndpoint#ttml_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ttml_profile Mediapackagev2OriginEndpoint#ttml_profile}.
 
 ---
 
@@ -2907,7 +2907,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsUtcTiming(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsUtcTiming.property.timingMode">timing_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#timing_mode Mediapackagev2OriginEndpoint#timing_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsUtcTiming.property.timingMode">timing_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#timing_mode Mediapackagev2OriginEndpoint#timing_mode}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsUtcTiming.property.timingSource">timing_source</a></code> | <code>str</code> | <p>The the method that the player uses to synchronize to coordinated universal time (UTC) wall clock time.</p>. |
 
 ---
@@ -2920,7 +2920,7 @@ timing_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#timing_mode Mediapackagev2OriginEndpoint#timing_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#timing_mode Mediapackagev2OriginEndpoint#timing_mode}.
 
 ---
 
@@ -2934,7 +2934,7 @@ timing_source: str
 
 <p>The the method that the player uses to synchronize to coordinated universal time (UTC) wall clock time.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#timing_source Mediapackagev2OriginEndpoint#timing_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#timing_source Mediapackagev2OriginEndpoint#timing_source}
 
 ---
 
@@ -2970,7 +2970,7 @@ endpoint_error_conditions: typing.List[str]
 
 The options are:</p> <ul> <li> <p> <code>STALE_MANIFEST</code> - The manifest stalled and there are no new segments or parts.</p> </li> <li> <p> <code>INCOMPLETE_MANIFEST</code> - There is a gap in the manifest.</p> </li> <li> <p> <code>MISSING_DRM_KEY</code> - Key rotation is enabled but we're unable to fetch the key for the current key period.</p> </li> <li> <p> <code>SLATE_INPUT</code> - The segments which contain slate content are considered to be missing content.</p> </li> </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#endpoint_error_conditions Mediapackagev2OriginEndpoint#endpoint_error_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#endpoint_error_conditions Mediapackagev2OriginEndpoint#endpoint_error_conditions}
 
 ---
 
@@ -3006,7 +3006,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.programDateTimeIntervalSeconds">program_date_time_interval_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>Inserts EXT-X-PROGRAM-DATE-TIME tags in the output manifest at the interval that you specify. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.scteHls">scte_hls</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsScteHls">Mediapackagev2OriginEndpointHlsManifestsScteHls</a></code> | <p>The SCTE configuration.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.startTag">start_tag</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsStartTag">Mediapackagev2OriginEndpointHlsManifestsStartTag</a></code> | <p>To insert an EXT-X-START tag in your HLS playlist, specify a StartTag configuration object with a valid TimeOffset. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.uriPathType">uri_path_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.uriPathType">uri_path_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.url">url</a></code> | <code>str</code> | <p>The egress domain URL for stream delivery from MediaPackage.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifests.property.urlEncodeChildManifest">url_encode_child_manifest</a></code> | <code>bool \| cdktn.IResolvable</code> | <p>When enabled, MediaPackage URL-encodes the query string for API requests for HLS child manifests to comply with Amazon Web Services Signature Version 4 (SigV4) signature signing protocol. |
 
@@ -3024,7 +3024,7 @@ child_manifest_name: str
 
 The child manifest name creates a unique path to this endpoint. If you don't enter a value, MediaPackage uses the default child manifest name, index_1. The manifestName on the HLSManifest object overrides the manifestName you provided on the originEndpoint object.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#child_manifest_name Mediapackagev2OriginEndpoint#child_manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#child_manifest_name Mediapackagev2OriginEndpoint#child_manifest_name}
 
 ---
 
@@ -3040,7 +3040,7 @@ filter_configuration: Mediapackagev2OriginEndpointHlsManifestsFilterConfiguratio
 
 </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
 
 ---
 
@@ -3056,7 +3056,7 @@ manifest_name: str
 
 The manifest name creates a unique path to this endpoint. If you don't enter a value, MediaPackage uses the default manifest name, index. MediaPackage automatically inserts the format extension, such as .m3u8. You can't use the same manifest name if you use HLS manifest and low-latency HLS manifest. The manifestName on the HLSManifest object overrides the manifestName you provided on the originEndpoint object.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
 
 ---
 
@@ -3070,7 +3070,7 @@ manifest_window_seconds: typing.Union[int, float]
 
 <p>The total duration (in seconds) of the manifest's content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
 
 ---
 
@@ -3086,7 +3086,7 @@ program_date_time_interval_seconds: typing.Union[int, float]
 
 If you don't enter an interval, EXT-X-PROGRAM-DATE-TIME tags aren't included in the manifest. The tags sync the stream to the wall clock so that viewers can seek to a specific time in the playback timeline on the player.</p> <p>Irrespective of this parameter, if any ID3Timed metadata is in the HLS input, it is passed through to the HLS output.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#program_date_time_interval_seconds Mediapackagev2OriginEndpoint#program_date_time_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#program_date_time_interval_seconds Mediapackagev2OriginEndpoint#program_date_time_interval_seconds}
 
 ---
 
@@ -3100,7 +3100,7 @@ scte_hls: Mediapackagev2OriginEndpointHlsManifestsScteHls
 
 <p>The SCTE configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_hls Mediapackagev2OriginEndpoint#scte_hls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_hls Mediapackagev2OriginEndpoint#scte_hls}
 
 ---
 
@@ -3116,7 +3116,7 @@ start_tag: Mediapackagev2OriginEndpointHlsManifestsStartTag
 
 When you do, you can also optionally specify whether to include a PRECISE value in the EXT-X-START tag.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start_tag Mediapackagev2OriginEndpoint#start_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start_tag Mediapackagev2OriginEndpoint#start_tag}
 
 ---
 
@@ -3128,7 +3128,7 @@ uri_path_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}.
 
 ---
 
@@ -3142,7 +3142,7 @@ url: str
 
 <p>The egress domain URL for stream delivery from MediaPackage.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -3158,7 +3158,7 @@ url_encode_child_manifest: bool | IResolvable
 
 For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html">Amazon Web Services Signature Version 4 for API requests</a> in <i>Identity and Access Management User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url_encode_child_manifest Mediapackagev2OriginEndpoint#url_encode_child_manifest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url_encode_child_manifest Mediapackagev2OriginEndpoint#url_encode_child_manifest}
 
 ---
 
@@ -3204,7 +3204,7 @@ clip_start_time: str
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -3220,7 +3220,7 @@ drm_settings: str
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -3236,7 +3236,7 @@ end: str
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -3252,7 +3252,7 @@ manifest_filter: str
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -3268,7 +3268,7 @@ start: str
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -3284,7 +3284,7 @@ time_delay_seconds: typing.Union[int, float]
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -3305,8 +3305,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsScteHls(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsScteHls.property.adMarkerHls">ad_marker_hls</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsScteHls.property.scteInManifests">scte_in_manifests</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsScteHls.property.adMarkerHls">ad_marker_hls</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsScteHls.property.scteInManifests">scte_in_manifests</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}. |
 
 ---
 
@@ -3318,7 +3318,7 @@ ad_marker_hls: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
 
 ---
 
@@ -3330,7 +3330,7 @@ scte_in_manifests: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
 
 ---
 
@@ -3368,7 +3368,7 @@ precise: bool | IResolvable
 
 Leave blank, or choose false, to use the default value NO. Choose yes to use the value YES.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
 
 ---
 
@@ -3384,7 +3384,7 @@ time_offset: typing.Union[int, float]
 
 Enter a signed floating point value which, if positive, must be less than the configured manifest duration minus three times the configured segment target duration. If negative, the absolute value must be larger than three times the configured segment target duration, and the absolute value must be smaller than the configured manifest duration.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
 
 ---
 
@@ -3420,7 +3420,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.programDateTimeIntervalSeconds">program_date_time_interval_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>Inserts EXT-X-PROGRAM-DATE-TIME tags in the output manifest at the interval that you specify. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.scteHls">scte_hls</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls">Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls</a></code> | <p>The SCTE configuration.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.startTag">start_tag</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsStartTag">Mediapackagev2OriginEndpointLowLatencyHlsManifestsStartTag</a></code> | <p>To insert an EXT-X-START tag in your HLS playlist, specify a StartTag configuration object with a valid TimeOffset. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.uriPathType">uri_path_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.uriPathType">uri_path_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.url">url</a></code> | <code>str</code> | <p>The egress domain URL for stream delivery from MediaPackage.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifests.property.urlEncodeChildManifest">url_encode_child_manifest</a></code> | <code>bool \| cdktn.IResolvable</code> | <p>When enabled, MediaPackage URL-encodes the query string for API requests for LL-HLS child manifests to comply with Amazon Web Services Signature Version 4 (SigV4) signature signing protocol. |
 
@@ -3438,7 +3438,7 @@ child_manifest_name: str
 
 The child manifest name creates a unique path to this endpoint. If you don't enter a value, MediaPackage uses the default child manifest name, index_1. The manifestName on the HLSManifest object overrides the manifestName you provided on the originEndpoint object.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#child_manifest_name Mediapackagev2OriginEndpoint#child_manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#child_manifest_name Mediapackagev2OriginEndpoint#child_manifest_name}
 
 ---
 
@@ -3454,7 +3454,7 @@ filter_configuration: Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterCo
 
 </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
 
 ---
 
@@ -3470,7 +3470,7 @@ manifest_name: str
 
 The manifest name creates a unique path to this endpoint. If you don't enter a value, MediaPackage uses the default manifest name, index. MediaPackage automatically inserts the format extension, such as .m3u8. You can't use the same manifest name if you use HLS manifest and low-latency HLS manifest. The manifestName on the HLSManifest object overrides the manifestName you provided on the originEndpoint object.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
 
 ---
 
@@ -3484,7 +3484,7 @@ manifest_window_seconds: typing.Union[int, float]
 
 <p>The total duration (in seconds) of the manifest's content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
 
 ---
 
@@ -3500,7 +3500,7 @@ program_date_time_interval_seconds: typing.Union[int, float]
 
 If you don't enter an interval, EXT-X-PROGRAM-DATE-TIME tags aren't included in the manifest. The tags sync the stream to the wall clock so that viewers can seek to a specific time in the playback timeline on the player.</p> <p>Irrespective of this parameter, if any ID3Timed metadata is in the HLS input, it is passed through to the HLS output.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#program_date_time_interval_seconds Mediapackagev2OriginEndpoint#program_date_time_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#program_date_time_interval_seconds Mediapackagev2OriginEndpoint#program_date_time_interval_seconds}
 
 ---
 
@@ -3514,7 +3514,7 @@ scte_hls: Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls
 
 <p>The SCTE configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_hls Mediapackagev2OriginEndpoint#scte_hls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_hls Mediapackagev2OriginEndpoint#scte_hls}
 
 ---
 
@@ -3530,7 +3530,7 @@ start_tag: Mediapackagev2OriginEndpointLowLatencyHlsManifestsStartTag
 
 When you do, you can also optionally specify whether to include a PRECISE value in the EXT-X-START tag.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start_tag Mediapackagev2OriginEndpoint#start_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start_tag Mediapackagev2OriginEndpoint#start_tag}
 
 ---
 
@@ -3542,7 +3542,7 @@ uri_path_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#uri_path_type Mediapackagev2OriginEndpoint#uri_path_type}.
 
 ---
 
@@ -3556,7 +3556,7 @@ url: str
 
 <p>The egress domain URL for stream delivery from MediaPackage.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -3572,7 +3572,7 @@ url_encode_child_manifest: bool | IResolvable
 
 For more information, see <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html">Amazon Web Services Signature Version 4 for API requests</a> in <i>Identity and Access Management User Guide</i>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url_encode_child_manifest Mediapackagev2OriginEndpoint#url_encode_child_manifest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url_encode_child_manifest Mediapackagev2OriginEndpoint#url_encode_child_manifest}
 
 ---
 
@@ -3618,7 +3618,7 @@ clip_start_time: str
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -3634,7 +3634,7 @@ drm_settings: str
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -3650,7 +3650,7 @@ end: str
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -3666,7 +3666,7 @@ manifest_filter: str
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -3682,7 +3682,7 @@ start: str
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -3698,7 +3698,7 @@ time_delay_seconds: typing.Union[int, float]
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -3719,8 +3719,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls.property.adMarkerHls">ad_marker_hls</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls.property.scteInManifests">scte_in_manifests</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls.property.adMarkerHls">ad_marker_hls</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHls.property.scteInManifests">scte_in_manifests</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}. |
 
 ---
 
@@ -3732,7 +3732,7 @@ ad_marker_hls: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
 
 ---
 
@@ -3744,7 +3744,7 @@ scte_in_manifests: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
 
 ---
 
@@ -3782,7 +3782,7 @@ precise: bool | IResolvable
 
 Leave blank, or choose false, to use the default value NO. Choose yes to use the value YES.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
 
 ---
 
@@ -3798,7 +3798,7 @@ time_offset: typing.Union[int, float]
 
 Enter a signed floating point value which, if positive, must be less than the configured manifest duration minus three times the configured segment target duration. If negative, the absolute value must be larger than three times the configured segment target duration, and the absolute value must be smaller than the configured manifest duration.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
 
 ---
 
@@ -3822,7 +3822,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests.property.filterConfiguration">filter_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifestsFilterConfiguration">Mediapackagev2OriginEndpointMssManifestsFilterConfiguration</a></code> | <p>Filter configuration includes settings for manifest filtering, start and end times, and time delay that apply to all of your egress requests for this manifest. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests.property.manifestLayout">manifest_layout</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_layout Mediapackagev2OriginEndpoint#manifest_layout}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests.property.manifestLayout">manifest_layout</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_layout Mediapackagev2OriginEndpoint#manifest_layout}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests.property.manifestName">manifest_name</a></code> | <code>str</code> | <p>The name of the MSS manifest. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointMssManifests.property.manifestWindowSeconds">manifest_window_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>The duration (in seconds) of the manifest window. |
 
@@ -3840,7 +3840,7 @@ filter_configuration: Mediapackagev2OriginEndpointMssManifestsFilterConfiguratio
 
 </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#filter_configuration Mediapackagev2OriginEndpoint#filter_configuration}
 
 ---
 
@@ -3852,7 +3852,7 @@ manifest_layout: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_layout Mediapackagev2OriginEndpoint#manifest_layout}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_layout Mediapackagev2OriginEndpoint#manifest_layout}.
 
 ---
 
@@ -3868,7 +3868,7 @@ manifest_name: str
 
 This name is appended to the origin endpoint URL to create the unique path for accessing this specific MSS manifest.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_name Mediapackagev2OriginEndpoint#manifest_name}
 
 ---
 
@@ -3884,7 +3884,7 @@ manifest_window_seconds: typing.Union[int, float]
 
 This represents the total amount of content available in the manifest at any given time.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_window_seconds Mediapackagev2OriginEndpoint#manifest_window_seconds}
 
 ---
 
@@ -3930,7 +3930,7 @@ clip_start_time: str
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -3946,7 +3946,7 @@ drm_settings: str
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -3962,7 +3962,7 @@ end: str
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -3978,7 +3978,7 @@ manifest_filter: str
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -3994,7 +3994,7 @@ start: str
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -4010,7 +4010,7 @@ time_delay_seconds: typing.Union[int, float]
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -4039,7 +4039,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.encryption">encryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryption">Mediapackagev2OriginEndpointSegmentEncryption</a></code> | <p>The parameters for encrypting content.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.includeIframeOnlyStreams">include_iframe_only_streams</a></code> | <code>bool \| cdktn.IResolvable</code> | <p>When selected, the stream set includes an additional I-frame only stream, along with the other tracks. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.outputTimestampMode">output_timestamp_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#output_timestamp_mode Mediapackagev2OriginEndpoint#output_timestamp_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.outputTimestampMode">output_timestamp_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#output_timestamp_mode Mediapackagev2OriginEndpoint#output_timestamp_mode}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.scte">scte</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentScte">Mediapackagev2OriginEndpointSegmentScte</a></code> | <p>The SCTE configuration.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.segmentDurationSeconds">segment_duration_seconds</a></code> | <code>typing.Union[int, float]</code> | <p>The duration (in seconds) of each segment. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegment.property.segmentName">segment_name</a></code> | <code>str</code> | <p>The name that describes the segment. |
@@ -4058,7 +4058,7 @@ encryption: Mediapackagev2OriginEndpointSegmentEncryption
 
 <p>The parameters for encrypting content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#encryption Mediapackagev2OriginEndpoint#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#encryption Mediapackagev2OriginEndpoint#encryption}
 
 ---
 
@@ -4074,7 +4074,7 @@ include_iframe_only_streams: bool | IResolvable
 
 If false, this extra stream is not included. MediaPackage generates an I-frame only stream from the first rendition in the manifest. The service inserts EXT-I-FRAMES-ONLY tags in the output manifest, and then generates and includes an I-frames only playlist in the stream. This playlist permits player functionality like fast forward and rewind.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#include_iframe_only_streams Mediapackagev2OriginEndpoint#include_iframe_only_streams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#include_iframe_only_streams Mediapackagev2OriginEndpoint#include_iframe_only_streams}
 
 ---
 
@@ -4086,7 +4086,7 @@ output_timestamp_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#output_timestamp_mode Mediapackagev2OriginEndpoint#output_timestamp_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#output_timestamp_mode Mediapackagev2OriginEndpoint#output_timestamp_mode}.
 
 ---
 
@@ -4100,7 +4100,7 @@ scte: Mediapackagev2OriginEndpointSegmentScte
 
 <p>The SCTE configuration.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte Mediapackagev2OriginEndpoint#scte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte Mediapackagev2OriginEndpoint#scte}
 
 ---
 
@@ -4116,7 +4116,7 @@ segment_duration_seconds: typing.Union[int, float]
 
 Enter a value equal to, or a multiple of, the input segment duration. If the value that you enter is different from the input segment duration, MediaPackage rounds segments to the nearest multiple of the input segment duration.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment_duration_seconds Mediapackagev2OriginEndpoint#segment_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment_duration_seconds Mediapackagev2OriginEndpoint#segment_duration_seconds}
 
 ---
 
@@ -4132,7 +4132,7 @@ segment_name: str
 
 The name is the base name of the segment used in all content manifests inside of the endpoint. You can't use spaces in the name.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#segment_name Mediapackagev2OriginEndpoint#segment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#segment_name Mediapackagev2OriginEndpoint#segment_name}
 
 ---
 
@@ -4148,7 +4148,7 @@ ts_include_dvb_subtitles: bool | IResolvable
 
 When selected, MediaPackage passes through DVB subtitles into the output.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_include_dvb_subtitles Mediapackagev2OriginEndpoint#ts_include_dvb_subtitles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_include_dvb_subtitles Mediapackagev2OriginEndpoint#ts_include_dvb_subtitles}
 
 ---
 
@@ -4164,7 +4164,7 @@ ts_use_audio_rendition_group: bool | IResolvable
 
 All other tracks in the stream can be used with any audio rendition from the group.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_use_audio_rendition_group Mediapackagev2OriginEndpoint#ts_use_audio_rendition_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_use_audio_rendition_group Mediapackagev2OriginEndpoint#ts_use_audio_rendition_group}
 
 ---
 
@@ -4206,7 +4206,7 @@ cmaf_exclude_segment_drm_metadata: bool | IResolvable
 
 <p>Excludes SEIG and SGPD boxes from segment metadata in CMAF containers.</p> <p>When set to <code>true</code>, MediaPackage omits these DRM metadata boxes from CMAF segments, which can improve compatibility with certain devices and players that don't support these boxes.</p> <p>Important considerations:</p> <ul> <li> <p>This setting only affects CMAF container formats</p> </li> <li> <p>Key rotation can still be handled through media playlist signaling</p> </li> <li> <p>PSSH and TENC boxes remain unaffected</p> </li> <li> <p>Default behavior is preserved when this setting is disabled</p> </li> </ul> <p>Valid values: <code>true</code> | <code>false</code> </p> <p>Default: <code>false</code> </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_exclude_segment_drm_metadata Mediapackagev2OriginEndpoint#cmaf_exclude_segment_drm_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_exclude_segment_drm_metadata Mediapackagev2OriginEndpoint#cmaf_exclude_segment_drm_metadata}
 
 ---
 
@@ -4222,7 +4222,7 @@ constant_initialization_vector: str
 
 If you don't specify a value, then MediaPackage creates the constant initialization vector (IV).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#constant_initialization_vector Mediapackagev2OriginEndpoint#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#constant_initialization_vector Mediapackagev2OriginEndpoint#constant_initialization_vector}
 
 ---
 
@@ -4236,7 +4236,7 @@ encryption_method: Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod
 
 <p>The encryption type.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#encryption_method Mediapackagev2OriginEndpoint#encryption_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#encryption_method Mediapackagev2OriginEndpoint#encryption_method}
 
 ---
 
@@ -4252,7 +4252,7 @@ key_rotation_interval_seconds: typing.Union[int, float]
 
 The service retrieves content keys before the live content begins streaming, and then retrieves them as needed over the lifetime of the workflow. By default, key rotation is set to 300 seconds (5 minutes), the minimum rotation interval, which is equivalent to setting it to 300. If you don't enter an interval, content keys aren't rotated.</p> <p>The following example setting causes the service to rotate keys every thirty minutes: <code>1800</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#key_rotation_interval_seconds Mediapackagev2OriginEndpoint#key_rotation_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#key_rotation_interval_seconds Mediapackagev2OriginEndpoint#key_rotation_interval_seconds}
 
 ---
 
@@ -4266,7 +4266,7 @@ speke_key_provider: Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvide
 
 <p>The parameters for the SPEKE key provider.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#speke_key_provider Mediapackagev2OriginEndpoint#speke_key_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#speke_key_provider Mediapackagev2OriginEndpoint#speke_key_provider}
 
 ---
 
@@ -4288,9 +4288,9 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod.property.cmafEncryptionMethod">cmaf_encryption_method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_encryption_method Mediapackagev2OriginEndpoint#cmaf_encryption_method}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod.property.ismEncryptionMethod">ism_encryption_method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ism_encryption_method Mediapackagev2OriginEndpoint#ism_encryption_method}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod.property.tsEncryptionMethod">ts_encryption_method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_encryption_method Mediapackagev2OriginEndpoint#ts_encryption_method}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod.property.cmafEncryptionMethod">cmaf_encryption_method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_encryption_method Mediapackagev2OriginEndpoint#cmaf_encryption_method}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod.property.ismEncryptionMethod">ism_encryption_method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ism_encryption_method Mediapackagev2OriginEndpoint#ism_encryption_method}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethod.property.tsEncryptionMethod">ts_encryption_method</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_encryption_method Mediapackagev2OriginEndpoint#ts_encryption_method}. |
 
 ---
 
@@ -4302,7 +4302,7 @@ cmaf_encryption_method: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_encryption_method Mediapackagev2OriginEndpoint#cmaf_encryption_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_encryption_method Mediapackagev2OriginEndpoint#cmaf_encryption_method}.
 
 ---
 
@@ -4314,7 +4314,7 @@ ism_encryption_method: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ism_encryption_method Mediapackagev2OriginEndpoint#ism_encryption_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ism_encryption_method Mediapackagev2OriginEndpoint#ism_encryption_method}.
 
 ---
 
@@ -4326,7 +4326,7 @@ ts_encryption_method: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_encryption_method Mediapackagev2OriginEndpoint#ts_encryption_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_encryption_method Mediapackagev2OriginEndpoint#ts_encryption_method}.
 
 ---
 
@@ -4372,7 +4372,7 @@ certificate_arn: str
 
 For this feature to work, your DRM key provider must support content key encryption.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#certificate_arn Mediapackagev2OriginEndpoint#certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#certificate_arn Mediapackagev2OriginEndpoint#certificate_arn}
 
 ---
 
@@ -4386,7 +4386,7 @@ drm_systems: typing.List[str]
 
 <p>The DRM solution provider you're using to protect your content during distribution.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_systems Mediapackagev2OriginEndpoint#drm_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_systems Mediapackagev2OriginEndpoint#drm_systems}
 
 ---
 
@@ -4400,7 +4400,7 @@ encryption_contract_configuration: Mediapackagev2OriginEndpointSegmentEncryption
 
 <p>Configure one or more content encryption keys for your endpoints that use SPEKE Version 2.0. The encryption contract defines which content keys are used to encrypt the audio and video tracks in your stream. To configure the encryption contract, specify which audio and video encryption presets to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#encryption_contract_configuration Mediapackagev2OriginEndpoint#encryption_contract_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#encryption_contract_configuration Mediapackagev2OriginEndpoint#encryption_contract_configuration}
 
 ---
 
@@ -4416,7 +4416,7 @@ resource_id: str
 
 The service sends this to the key server to identify the current endpoint. How unique you make this depends on how fine-grained you want access controls to be. The service does not permit you to use the same ID for two simultaneous encryption processes. The resource ID is also known as the content ID.</p> <p>The following example shows a resource ID: <code>MovieNight20171126093045</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#resource_id Mediapackagev2OriginEndpoint#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#resource_id Mediapackagev2OriginEndpoint#resource_id}
 
 ---
 
@@ -4432,7 +4432,7 @@ role_arn: str
 
 This role must have a trust policy that allows MediaPackage to assume the role, and it must have a sufficient permissions policy to allow access to the specific key retrieval URL. Get this from your DRM solution provider.</p> <p>Valid format: <code>arn:aws:iam::{accountID}:role/{name}</code>. The following example shows a role ARN: <code>arn:aws:iam::444455556666:role/SpekeAccess</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#role_arn Mediapackagev2OriginEndpoint#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#role_arn Mediapackagev2OriginEndpoint#role_arn}
 
 ---
 
@@ -4448,7 +4448,7 @@ url: str
 
 The API Gateway proxy must reside in the same AWS Region as MediaPackage and must start with https://.</p> <p>The following example shows a URL: <code>https://1wm2dx1f33.execute-api.us-west-2.amazonaws.com/SpekeSample/copyProtection</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -4469,8 +4469,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeK
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration.property.presetSpeke20Audio">preset_speke20_audio</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_audio Mediapackagev2OriginEndpoint#preset_speke_20_audio}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration.property.presetSpeke20Video">preset_speke20_video</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_video Mediapackagev2OriginEndpoint#preset_speke_20_video}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration.property.presetSpeke20Audio">preset_speke20_audio</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_audio Mediapackagev2OriginEndpoint#preset_speke_20_audio}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration.property.presetSpeke20Video">preset_speke20_video</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_video Mediapackagev2OriginEndpoint#preset_speke_20_video}. |
 
 ---
 
@@ -4482,7 +4482,7 @@ preset_speke20_audio: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_audio Mediapackagev2OriginEndpoint#preset_speke_20_audio}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_audio Mediapackagev2OriginEndpoint#preset_speke_20_audio}.
 
 ---
 
@@ -4494,7 +4494,7 @@ preset_speke20_video: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_video Mediapackagev2OriginEndpoint#preset_speke_20_video}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_video Mediapackagev2OriginEndpoint#preset_speke_20_video}.
 
 ---
 
@@ -4518,7 +4518,7 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentScte(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentScte.property.customAdTypes">custom_ad_types</a></code> | <code>typing.List[str]</code> | <p>A list of additional non-Ad SCTE-35 event types to treat as advertisements. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentScte.property.scteFilter">scte_filter</a></code> | <code>typing.List[str]</code> | <p>The SCTE-35 message types that you want to be treated as ad markers in the output.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentScte.property.scteInSegments">scte_in_segments</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_segments Mediapackagev2OriginEndpoint#scte_in_segments}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentScte.property.scteInSegments">scte_in_segments</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_segments Mediapackagev2OriginEndpoint#scte_in_segments}. |
 
 ---
 
@@ -4534,7 +4534,7 @@ custom_ad_types: typing.List[str]
 
 When configured, events matching these types produce ad markers (such as <code>SCTE35-OUT</code> and <code>SCTE35-IN</code> in HLS DATERANGE tags) in manifests.</p> <p>Valid values: <code>PROGRAM</code> | <code>CHAPTER</code> | <code>UNSCHEDULED_EVENT</code> | <code>ALTERNATE_CONTENT_OPPORTUNITY</code> | <code>NETWORK</code> </p> <p>If you don't specify any values, the default is empty (only default ad types are used).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#custom_ad_types Mediapackagev2OriginEndpoint#custom_ad_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#custom_ad_types Mediapackagev2OriginEndpoint#custom_ad_types}
 
 ---
 
@@ -4548,7 +4548,7 @@ scte_filter: typing.List[str]
 
 <p>The SCTE-35 message types that you want to be treated as ad markers in the output.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_filter Mediapackagev2OriginEndpoint#scte_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_filter Mediapackagev2OriginEndpoint#scte_filter}
 
 ---
 
@@ -4560,7 +4560,7 @@ scte_in_segments: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_segments Mediapackagev2OriginEndpoint#scte_in_segments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_segments Mediapackagev2OriginEndpoint#scte_in_segments}.
 
 ---
 
@@ -4581,8 +4581,8 @@ mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#key Mediapackagev2OriginEndpoint#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#value Mediapackagev2OriginEndpoint#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#key Mediapackagev2OriginEndpoint#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#value Mediapackagev2OriginEndpoint#value}. |
 
 ---
 
@@ -4594,7 +4594,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#key Mediapackagev2OriginEndpoint#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#key Mediapackagev2OriginEndpoint#key}.
 
 ---
 
@@ -4606,7 +4606,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#value Mediapackagev2OriginEndpoint#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#value Mediapackagev2OriginEndpoint#value}.
 
 ---
 
@@ -6640,7 +6640,7 @@ def put_font_download(
 
 <p>The <code>fontFamily</code> name for subtitles, as described in <a href="https://tech.ebu.ch/publications/tech3380">EBU-TT-D Subtitling Distribution Format</a>. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#font_family Mediapackagev2OriginEndpoint#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#font_family Mediapackagev2OriginEndpoint#font_family}
 
 ---
 
@@ -6650,7 +6650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The <code>mimeType</code> of the resource that's at the font download URL.</p> <p>For information about font MIME types, see the <a href="https://dvb.org/wp-content/uploads/2021/06/A168r4_MPEG-DASH-Profile-for-Transport-of-ISO-BMFF-Based-DVB-Services_Draft-ts_103-285-v140_November_2021.pdf">MPEG-DASH Profile for Transport of ISO BMFF Based DVB Services over IP Based Networks</a> document. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#mime_type Mediapackagev2OriginEndpoint#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#mime_type Mediapackagev2OriginEndpoint#mime_type}
 
 ---
 
@@ -6660,7 +6660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The URL for downloading fonts for subtitles.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -7676,7 +7676,7 @@ def put_availability_start_time_configuration(
 
 The value must have hourly granularity, meaning that the minutes, seconds, and fractional seconds must be zero. The value must be on or after <code>2024-01-01T00:00:00Z</code> and must be at least 14 days before the current time.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#fixed_availability_start_time Mediapackagev2OriginEndpoint#fixed_availability_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#fixed_availability_start_time Mediapackagev2OriginEndpoint#fixed_availability_start_time}
 
 ---
 
@@ -7709,7 +7709,7 @@ def put_dvb_settings(
 
 <p>Playback device error reporting settings.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#error_metrics Mediapackagev2OriginEndpoint#error_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#error_metrics Mediapackagev2OriginEndpoint#error_metrics}
 
 ---
 
@@ -7721,7 +7721,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The settings for font downloads that you want Elemental MediaPackage to pass through to the manifest.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#font_download Mediapackagev2OriginEndpoint#font_download}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#font_download Mediapackagev2OriginEndpoint#font_download}
 
 ---
 
@@ -7746,7 +7746,7 @@ def put_filter_configuration(
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -7758,7 +7758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -7770,7 +7770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -7782,7 +7782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -7794,7 +7794,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -7806,7 +7806,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -7828,7 +7828,7 @@ def put_program_information(
 
 <p>A copyright statement about the content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#copyright Mediapackagev2OriginEndpoint#copyright}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#copyright Mediapackagev2OriginEndpoint#copyright}
 
 ---
 
@@ -7838,7 +7838,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The language code for this manifest.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#language_code Mediapackagev2OriginEndpoint#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#language_code Mediapackagev2OriginEndpoint#language_code}
 
 ---
 
@@ -7848,7 +7848,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>An absolute URL that contains more information about this content.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#more_information_url Mediapackagev2OriginEndpoint#more_information_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#more_information_url Mediapackagev2OriginEndpoint#more_information_url}
 
 ---
 
@@ -7858,7 +7858,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Information about the content provider.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#source Mediapackagev2OriginEndpoint#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#source Mediapackagev2OriginEndpoint#source}
 
 ---
 
@@ -7868,7 +7868,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The title for the manifest.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#title Mediapackagev2OriginEndpoint#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#title Mediapackagev2OriginEndpoint#title}
 
 ---
 
@@ -7885,7 +7885,7 @@ def put_scte_dash(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_dash Mediapackagev2OriginEndpoint#ad_marker_dash}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_dash Mediapackagev2OriginEndpoint#ad_marker_dash}.
 
 ---
 
@@ -7893,7 +7893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
 
 ---
 
@@ -7911,7 +7911,7 @@ def put_subtitle_configuration(
 
 <p>The settings for TTML subtitles.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ttml_configuration Mediapackagev2OriginEndpoint#ttml_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ttml_configuration Mediapackagev2OriginEndpoint#ttml_configuration}
 
 ---
 
@@ -7928,7 +7928,7 @@ def put_utc_timing(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#timing_mode Mediapackagev2OriginEndpoint#timing_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#timing_mode Mediapackagev2OriginEndpoint#timing_mode}.
 
 ---
 
@@ -7938,7 +7938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The the method that the player uses to synchronize to coordinated universal time (UTC) wall clock time.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#timing_source Mediapackagev2OriginEndpoint#timing_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#timing_source Mediapackagev2OriginEndpoint#timing_source}
 
 ---
 
@@ -9541,7 +9541,7 @@ def put_ttml_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ttml_profile Mediapackagev2OriginEndpoint#ttml_profile}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ttml_profile Mediapackagev2OriginEndpoint#ttml_profile}.
 
 ---
 
@@ -11457,7 +11457,7 @@ def put_filter_configuration(
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -11469,7 +11469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -11481,7 +11481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -11493,7 +11493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -11505,7 +11505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -11517,7 +11517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -11534,7 +11534,7 @@ def put_scte_hls(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
 
 ---
 
@@ -11542,7 +11542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
 
 ---
 
@@ -11563,7 +11563,7 @@ def put_start_tag(
 
 Leave blank, or choose false, to use the default value NO. Choose yes to use the value YES.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
 
 ---
 
@@ -11575,7 +11575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a signed floating point value which, if positive, must be less than the configured manifest duration minus three times the configured segment target duration. If negative, the absolute value must be larger than three times the configured segment target duration, and the absolute value must be smaller than the configured manifest duration.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
 
 ---
 
@@ -13469,7 +13469,7 @@ def put_filter_configuration(
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -13481,7 +13481,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -13493,7 +13493,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -13505,7 +13505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -13517,7 +13517,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -13529,7 +13529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -13546,7 +13546,7 @@ def put_scte_hls(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ad_marker_hls Mediapackagev2OriginEndpoint#ad_marker_hls}.
 
 ---
 
@@ -13554,7 +13554,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_manifests Mediapackagev2OriginEndpoint#scte_in_manifests}.
 
 ---
 
@@ -13575,7 +13575,7 @@ def put_start_tag(
 
 Leave blank, or choose false, to use the default value NO. Choose yes to use the value YES.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#precise Mediapackagev2OriginEndpoint#precise}
 
 ---
 
@@ -13587,7 +13587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a signed floating point value which, if positive, must be less than the configured manifest duration minus three times the configured segment target duration. If negative, the absolute value must be larger than three times the configured segment target duration, and the absolute value must be smaller than the configured manifest duration.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_offset Mediapackagev2OriginEndpoint#time_offset}
 
 ---
 
@@ -15473,7 +15473,7 @@ def put_filter_configuration(
 
 When you include clip start time, note that you cannot use clip start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#clip_start_time Mediapackagev2OriginEndpoint#clip_start_time}
 
 ---
 
@@ -15485,7 +15485,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a DRM setting, note that you cannot use an identical DRM setting query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_settings Mediapackagev2OriginEndpoint#drm_settings}
 
 ---
 
@@ -15497,7 +15497,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include end time, note that you cannot use end time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#end Mediapackagev2OriginEndpoint#end}
 
 ---
 
@@ -15509,7 +15509,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include a manifest filter, note that you cannot use an identical manifest filter query parameter for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#manifest_filter Mediapackagev2OriginEndpoint#manifest_filter}
 
 ---
 
@@ -15521,7 +15521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When you include start time, note that you cannot use start time query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#start Mediapackagev2OriginEndpoint#start}
 
 ---
 
@@ -15533,7 +15533,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enter a value that is smaller than your endpoint's startover window. When you include time delay, note that you cannot use time delay query parameters for this manifest's endpoint URL.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#time_delay_seconds Mediapackagev2OriginEndpoint#time_delay_seconds}
 
 ---
 
@@ -16305,7 +16305,7 @@ def put_encryption_method(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_encryption_method Mediapackagev2OriginEndpoint#cmaf_encryption_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_encryption_method Mediapackagev2OriginEndpoint#cmaf_encryption_method}.
 
 ---
 
@@ -16313,7 +16313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ism_encryption_method Mediapackagev2OriginEndpoint#ism_encryption_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ism_encryption_method Mediapackagev2OriginEndpoint#ism_encryption_method}.
 
 ---
 
@@ -16321,7 +16321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#ts_encryption_method Mediapackagev2OriginEndpoint#ts_encryption_method}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#ts_encryption_method Mediapackagev2OriginEndpoint#ts_encryption_method}.
 
 ---
 
@@ -16346,7 +16346,7 @@ def put_speke_key_provider(
 
 For this feature to work, your DRM key provider must support content key encryption.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#certificate_arn Mediapackagev2OriginEndpoint#certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#certificate_arn Mediapackagev2OriginEndpoint#certificate_arn}
 
 ---
 
@@ -16356,7 +16356,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The DRM solution provider you're using to protect your content during distribution.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#drm_systems Mediapackagev2OriginEndpoint#drm_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#drm_systems Mediapackagev2OriginEndpoint#drm_systems}
 
 ---
 
@@ -16366,7 +16366,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Configure one or more content encryption keys for your endpoints that use SPEKE Version 2.0. The encryption contract defines which content keys are used to encrypt the audio and video tracks in your stream. To configure the encryption contract, specify which audio and video encryption presets to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#encryption_contract_configuration Mediapackagev2OriginEndpoint#encryption_contract_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#encryption_contract_configuration Mediapackagev2OriginEndpoint#encryption_contract_configuration}
 
 ---
 
@@ -16378,7 +16378,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The service sends this to the key server to identify the current endpoint. How unique you make this depends on how fine-grained you want access controls to be. The service does not permit you to use the same ID for two simultaneous encryption processes. The resource ID is also known as the content ID.</p> <p>The following example shows a resource ID: <code>MovieNight20171126093045</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#resource_id Mediapackagev2OriginEndpoint#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#resource_id Mediapackagev2OriginEndpoint#resource_id}
 
 ---
 
@@ -16390,7 +16390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This role must have a trust policy that allows MediaPackage to assume the role, and it must have a sufficient permissions policy to allow access to the specific key retrieval URL. Get this from your DRM solution provider.</p> <p>Valid format: <code>arn:aws:iam::{accountID}:role/{name}</code>. The following example shows a role ARN: <code>arn:aws:iam::444455556666:role/SpekeAccess</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#role_arn Mediapackagev2OriginEndpoint#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#role_arn Mediapackagev2OriginEndpoint#role_arn}
 
 ---
 
@@ -16402,7 +16402,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The API Gateway proxy must reside in the same AWS Region as MediaPackage and must start with https://.</p> <p>The following example shows a URL: <code>https://1wm2dx1f33.execute-api.us-west-2.amazonaws.com/SpekeSample/copyProtection</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#url Mediapackagev2OriginEndpoint#url}
 
 ---
 
@@ -17172,7 +17172,7 @@ def put_encryption_contract_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_audio Mediapackagev2OriginEndpoint#preset_speke_20_audio}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_audio Mediapackagev2OriginEndpoint#preset_speke_20_audio}.
 
 ---
 
@@ -17180,7 +17180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_video Mediapackagev2OriginEndpoint#preset_speke_20_video}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#preset_speke_20_video Mediapackagev2OriginEndpoint#preset_speke_20_video}.
 
 ---
 
@@ -17654,7 +17654,7 @@ def put_encryption(
 
 <p>Excludes SEIG and SGPD boxes from segment metadata in CMAF containers.</p> <p>When set to <code>true</code>, MediaPackage omits these DRM metadata boxes from CMAF segments, which can improve compatibility with certain devices and players that don't support these boxes.</p> <p>Important considerations:</p> <ul> <li> <p>This setting only affects CMAF container formats</p> </li> <li> <p>Key rotation can still be handled through media playlist signaling</p> </li> <li> <p>PSSH and TENC boxes remain unaffected</p> </li> <li> <p>Default behavior is preserved when this setting is disabled</p> </li> </ul> <p>Valid values: <code>true</code> | <code>false</code> </p> <p>Default: <code>false</code> </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_exclude_segment_drm_metadata Mediapackagev2OriginEndpoint#cmaf_exclude_segment_drm_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#cmaf_exclude_segment_drm_metadata Mediapackagev2OriginEndpoint#cmaf_exclude_segment_drm_metadata}
 
 ---
 
@@ -17666,7 +17666,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If you don't specify a value, then MediaPackage creates the constant initialization vector (IV).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#constant_initialization_vector Mediapackagev2OriginEndpoint#constant_initialization_vector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#constant_initialization_vector Mediapackagev2OriginEndpoint#constant_initialization_vector}
 
 ---
 
@@ -17676,7 +17676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The encryption type.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#encryption_method Mediapackagev2OriginEndpoint#encryption_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#encryption_method Mediapackagev2OriginEndpoint#encryption_method}
 
 ---
 
@@ -17688,7 +17688,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The service retrieves content keys before the live content begins streaming, and then retrieves them as needed over the lifetime of the workflow. By default, key rotation is set to 300 seconds (5 minutes), the minimum rotation interval, which is equivalent to setting it to 300. If you don't enter an interval, content keys aren't rotated.</p> <p>The following example setting causes the service to rotate keys every thirty minutes: <code>1800</code> </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#key_rotation_interval_seconds Mediapackagev2OriginEndpoint#key_rotation_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#key_rotation_interval_seconds Mediapackagev2OriginEndpoint#key_rotation_interval_seconds}
 
 ---
 
@@ -17698,7 +17698,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The parameters for the SPEKE key provider.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#speke_key_provider Mediapackagev2OriginEndpoint#speke_key_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#speke_key_provider Mediapackagev2OriginEndpoint#speke_key_provider}
 
 ---
 
@@ -17720,7 +17720,7 @@ def put_scte(
 
 When configured, events matching these types produce ad markers (such as <code>SCTE35-OUT</code> and <code>SCTE35-IN</code> in HLS DATERANGE tags) in manifests.</p> <p>Valid values: <code>PROGRAM</code> | <code>CHAPTER</code> | <code>UNSCHEDULED_EVENT</code> | <code>ALTERNATE_CONTENT_OPPORTUNITY</code> | <code>NETWORK</code> </p> <p>If you don't specify any values, the default is empty (only default ad types are used).</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#custom_ad_types Mediapackagev2OriginEndpoint#custom_ad_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#custom_ad_types Mediapackagev2OriginEndpoint#custom_ad_types}
 
 ---
 
@@ -17730,7 +17730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The SCTE-35 message types that you want to be treated as ad markers in the output.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_filter Mediapackagev2OriginEndpoint#scte_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_filter Mediapackagev2OriginEndpoint#scte_filter}
 
 ---
 
@@ -17738,7 +17738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_segments Mediapackagev2OriginEndpoint#scte_in_segments}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_origin_endpoint#scte_in_segments Mediapackagev2OriginEndpoint#scte_in_segments}.
 
 ---
 

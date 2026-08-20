@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,41 +15,41 @@ export interface WellarchitectedReviewTemplateConfig extends cdktn.TerraformMeta
   /**
   * The review template description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
   */
   readonly description: string;
   /**
   * The lenses applied to the review template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
   */
   readonly lenses: string[];
   /**
   * The notes associated with the review template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
   */
   readonly notes?: string;
   /**
   * The tags assigned to the review template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
   */
   readonly tags?: WellarchitectedReviewTemplateTags[] | cdktn.IResolvable;
   /**
   * The name of the review template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
   */
   readonly templateName: string;
 }
 export interface WellarchitectedReviewTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#key WellarchitectedReviewTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#value WellarchitectedReviewTemplate#value}
   */
   readonly value?: string;
 }
@@ -194,7 +194,7 @@ export class WellarchitectedReviewTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}
 */
 export class WellarchitectedReviewTemplate extends cdktn.TerraformResource {
 
@@ -210,7 +210,7 @@ export class WellarchitectedReviewTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WellarchitectedReviewTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WellarchitectedReviewTemplate to import
-  * @param importFromId The id of the existing WellarchitectedReviewTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WellarchitectedReviewTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WellarchitectedReviewTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -222,7 +222,7 @@ export class WellarchitectedReviewTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,7 +233,7 @@ export class WellarchitectedReviewTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wellarchitected_review_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

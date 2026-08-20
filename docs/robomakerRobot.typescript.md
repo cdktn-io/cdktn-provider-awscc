@@ -4,7 +4,7 @@
 
 ### RobomakerRobot <a name="RobomakerRobot" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot awscc_robomaker_robot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot awscc_robomaker_robot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobot.RobomakerRobot.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the RobomakerRobot to import.
 
 The id of the existing RobomakerRobot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,7 +946,7 @@ public readonly architecture: string;
 
 The target architecture of the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
 
 ---
 
@@ -960,7 +960,7 @@ public readonly greengrassGroupId: string;
 
 The Greengrass group id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
 
 ---
 
@@ -974,7 +974,7 @@ public readonly fleet: string;
 
 The Amazon Resource Name (ARN) of the fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
 
 ---
 
@@ -988,7 +988,7 @@ public readonly name: string;
 
 The name for the robot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
 
 ---
 
@@ -1002,7 +1002,7 @@ public readonly tags: {[ key: string ]: string};
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
 
 ---
 

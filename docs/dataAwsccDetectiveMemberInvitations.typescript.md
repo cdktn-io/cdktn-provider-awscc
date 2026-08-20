@@ -4,7 +4,7 @@
 
 ### DataAwsccDetectiveMemberInvitations <a name="DataAwsccDetectiveMemberInvitations" id="@cdktn/provider-awscc.dataAwsccDetectiveMemberInvitations.DataAwsccDetectiveMemberInvitations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/detective_member_invitations awscc_detective_member_invitations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_member_invitations awscc_detective_member_invitations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveMemberInvitations.DataAwsccDetectiveMemberInvitations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDetectiveMemberIn
 
 The id of the existing DataAwsccDetectiveMemberInvitations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/detective_member_invitations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_member_invitations#import import section} in the documentation of this resource for the id to use
 
 ---
 

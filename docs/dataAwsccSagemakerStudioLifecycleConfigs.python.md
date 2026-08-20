@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerStudioLifecycleConfigs <a name="DataAwsccSagemakerStudioLifecycleConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerStudioLifecycleConfigs.DataAwsccSagemakerStudioLifecycleConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerStudioLifecycleConfigs.DataAwsccSagemakerStudioLifecycleConfigs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSagemakerStudioLi
 
 The id of the existing DataAwsccSagemakerStudioLifecycleConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_studio_lifecycle_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_studio_lifecycle_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

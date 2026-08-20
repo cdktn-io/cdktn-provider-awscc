@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchMetricStreams <a name="DataAwsccCloudwatchMetricStreams" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_metric_streams awscc_cloudwatch_metric_streams}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_metric_streams awscc_cloudwatch_metric_streams}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchMetricStreams.DataAwsccCloudwatchMetricStreams.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchMetricS
 
 The id of the existing DataAwsccCloudwatchMetricStreams that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_metric_streams#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_metric_streams#import import section} in the documentation of this resource for the id to use
 
 ---
 

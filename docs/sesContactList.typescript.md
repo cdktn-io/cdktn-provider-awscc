@@ -4,7 +4,7 @@
 
 ### SesContactList <a name="SesContactList" id="@cdktn/provider-awscc.sesContactList.SesContactList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list awscc_ses_contact_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list awscc_ses_contact_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesContactList.SesContactList.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the SesContactList to import.
 
 The id of the existing SesContactList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ public readonly contactListName: string;
 
 The name of the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#contact_list_name SesContactList#contact_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#contact_list_name SesContactList#contact_list_name}
 
 ---
 
@@ -959,7 +959,7 @@ public readonly description: string;
 
 The description of the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#description SesContactList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#description SesContactList#description}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly tags: IResolvable | SesContactListTags[];
 
 The tags (keys and values) associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#tags SesContactList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#tags SesContactList#tags}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly topics: IResolvable | SesContactListTopics[];
 
 The topics associated with the contact list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#topics SesContactList#topics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#topics SesContactList#topics}
 
 ---
 
@@ -1005,8 +1005,8 @@ const sesContactListTags: sesContactList.SesContactListTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#key SesContactList#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#value SesContactList#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#key SesContactList#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#value SesContactList#value}. |
 
 ---
 
@@ -1018,7 +1018,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#key SesContactList#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#key SesContactList#key}.
 
 ---
 
@@ -1030,7 +1030,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#value SesContactList#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#value SesContactList#value}.
 
 ---
 
@@ -1048,7 +1048,7 @@ const sesContactListTopics: sesContactList.SesContactListTopics = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.defaultSubscriptionStatus">defaultSubscriptionStatus</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}. |
+| <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.defaultSubscriptionStatus">defaultSubscriptionStatus</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}. |
 | <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.description">description</a></code> | <code>string</code> | The description of the topic. |
 | <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.displayName">displayName</a></code> | <code>string</code> | The display name of the topic. |
 | <code><a href="#@cdktn/provider-awscc.sesContactList.SesContactListTopics.property.topicName">topicName</a></code> | <code>string</code> | The name of the topic. |
@@ -1063,7 +1063,7 @@ public readonly defaultSubscriptionStatus: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#default_subscription_status SesContactList#default_subscription_status}.
 
 ---
 
@@ -1077,7 +1077,7 @@ public readonly description: string;
 
 The description of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#description SesContactList#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#description SesContactList#description}
 
 ---
 
@@ -1091,7 +1091,7 @@ public readonly displayName: string;
 
 The display name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#display_name SesContactList#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#display_name SesContactList#display_name}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly topicName: string;
 
 The name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#topic_name SesContactList#topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#topic_name SesContactList#topic_name}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### PipesPipe <a name="PipesPipe" id="@cdktn/provider-awscc.pipesPipe.PipesPipe"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe awscc_pipes_pipe}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe awscc_pipes_pipe}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pipesPipe.PipesPipe.Initializer"></a>
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the PipesPipe to import.
 
 The id of the existing PipesPipe that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1200,19 +1200,19 @@ new PipesPipeConfig {
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.roleArn">RoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#role_arn PipesPipe#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#source PipesPipe#source}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#target PipesPipe#target}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#description PipesPipe#description}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.desiredState">DesiredState</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#desired_state PipesPipe#desired_state}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.enrichment">Enrichment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enrichment PipesPipe#enrichment}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.enrichmentParameters">EnrichmentParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters">PipesPipeEnrichmentParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enrichment_parameters PipesPipe#enrichment_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.kmsKeyIdentifier">KmsKeyIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#kms_key_identifier PipesPipe#kms_key_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.logConfiguration">LogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration">PipesPipeLogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#log_configuration PipesPipe#log_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.sourceParameters">SourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters">PipesPipeSourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#source_parameters PipesPipe#source_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#tags PipesPipe#tags}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.targetParameters">TargetParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters">PipesPipeTargetParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#target_parameters PipesPipe#target_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.roleArn">RoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#role_arn PipesPipe#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#source PipesPipe#source}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.target">Target</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#target PipesPipe#target}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#description PipesPipe#description}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.desiredState">DesiredState</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#desired_state PipesPipe#desired_state}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.enrichment">Enrichment</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enrichment PipesPipe#enrichment}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.enrichmentParameters">EnrichmentParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters">PipesPipeEnrichmentParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enrichment_parameters PipesPipe#enrichment_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.kmsKeyIdentifier">KmsKeyIdentifier</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#kms_key_identifier PipesPipe#kms_key_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.logConfiguration">LogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration">PipesPipeLogConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#log_configuration PipesPipe#log_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.sourceParameters">SourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters">PipesPipeSourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#source_parameters PipesPipe#source_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#tags PipesPipe#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeConfig.property.targetParameters">TargetParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters">PipesPipeTargetParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#target_parameters PipesPipe#target_parameters}. |
 
 ---
 
@@ -1294,7 +1294,7 @@ public string RoleArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#role_arn PipesPipe#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#role_arn PipesPipe#role_arn}.
 
 ---
 
@@ -1306,7 +1306,7 @@ public string Source { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#source PipesPipe#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#source PipesPipe#source}.
 
 ---
 
@@ -1318,7 +1318,7 @@ public string Target { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#target PipesPipe#target}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#target PipesPipe#target}.
 
 ---
 
@@ -1330,7 +1330,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#description PipesPipe#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#description PipesPipe#description}.
 
 ---
 
@@ -1342,7 +1342,7 @@ public string DesiredState { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#desired_state PipesPipe#desired_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#desired_state PipesPipe#desired_state}.
 
 ---
 
@@ -1354,7 +1354,7 @@ public string Enrichment { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enrichment PipesPipe#enrichment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enrichment PipesPipe#enrichment}.
 
 ---
 
@@ -1366,7 +1366,7 @@ public PipesPipeEnrichmentParameters EnrichmentParameters { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters">PipesPipeEnrichmentParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enrichment_parameters PipesPipe#enrichment_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enrichment_parameters PipesPipe#enrichment_parameters}.
 
 ---
 
@@ -1378,7 +1378,7 @@ public string KmsKeyIdentifier { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#kms_key_identifier PipesPipe#kms_key_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#kms_key_identifier PipesPipe#kms_key_identifier}.
 
 ---
 
@@ -1390,7 +1390,7 @@ public PipesPipeLogConfiguration LogConfiguration { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration">PipesPipeLogConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#log_configuration PipesPipe#log_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#log_configuration PipesPipe#log_configuration}.
 
 ---
 
@@ -1402,7 +1402,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}.
 
 ---
 
@@ -1414,7 +1414,7 @@ public PipesPipeSourceParameters SourceParameters { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters">PipesPipeSourceParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#source_parameters PipesPipe#source_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#source_parameters PipesPipe#source_parameters}.
 
 ---
 
@@ -1426,7 +1426,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#tags PipesPipe#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#tags PipesPipe#tags}.
 
 ---
 
@@ -1438,7 +1438,7 @@ public PipesPipeTargetParameters TargetParameters { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters">PipesPipeTargetParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#target_parameters PipesPipe#target_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#target_parameters PipesPipe#target_parameters}.
 
 ---
 
@@ -1459,8 +1459,8 @@ new PipesPipeEnrichmentParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters.property.httpParameters">HttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters">PipesPipeEnrichmentParametersHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters.property.inputTemplate">InputTemplate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters.property.httpParameters">HttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters">PipesPipeEnrichmentParametersHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParameters.property.inputTemplate">InputTemplate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}. |
 
 ---
 
@@ -1472,7 +1472,7 @@ public PipesPipeEnrichmentParametersHttpParameters HttpParameters { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters">PipesPipeEnrichmentParametersHttpParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}.
 
 ---
 
@@ -1484,7 +1484,7 @@ public string InputTemplate { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.
 
 ---
 
@@ -1506,9 +1506,9 @@ new PipesPipeEnrichmentParametersHttpParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters.property.pathParameterValues">PathParameterValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters.property.pathParameterValues">PathParameterValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeEnrichmentParametersHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}. |
 
 ---
 
@@ -1520,7 +1520,7 @@ public System.Collections.Generic.IDictionary<string, string> HeaderParameters {
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}.
 
 ---
 
@@ -1532,7 +1532,7 @@ public string[] PathParameterValues { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}.
 
 ---
 
@@ -1544,7 +1544,7 @@ public System.Collections.Generic.IDictionary<string, string> QueryStringParamet
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}.
 
 ---
 
@@ -1568,11 +1568,11 @@ new PipesPipeLogConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.cloudwatchLogsLogDestination">CloudwatchLogsLogDestination</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination">PipesPipeLogConfigurationCloudwatchLogsLogDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cloudwatch_logs_log_destination PipesPipe#cloudwatch_logs_log_destination}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.firehoseLogDestination">FirehoseLogDestination</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination">PipesPipeLogConfigurationFirehoseLogDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#firehose_log_destination PipesPipe#firehose_log_destination}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.includeExecutionData">IncludeExecutionData</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#include_execution_data PipesPipe#include_execution_data}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.level">Level</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#level PipesPipe#level}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.s3LogDestination">S3LogDestination</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination">PipesPipeLogConfigurationS3LogDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#s3_log_destination PipesPipe#s3_log_destination}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.cloudwatchLogsLogDestination">CloudwatchLogsLogDestination</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination">PipesPipeLogConfigurationCloudwatchLogsLogDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cloudwatch_logs_log_destination PipesPipe#cloudwatch_logs_log_destination}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.firehoseLogDestination">FirehoseLogDestination</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination">PipesPipeLogConfigurationFirehoseLogDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#firehose_log_destination PipesPipe#firehose_log_destination}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.includeExecutionData">IncludeExecutionData</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#include_execution_data PipesPipe#include_execution_data}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.level">Level</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#level PipesPipe#level}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfiguration.property.s3LogDestination">S3LogDestination</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination">PipesPipeLogConfigurationS3LogDestination</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#s3_log_destination PipesPipe#s3_log_destination}. |
 
 ---
 
@@ -1584,7 +1584,7 @@ public PipesPipeLogConfigurationCloudwatchLogsLogDestination CloudwatchLogsLogDe
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination">PipesPipeLogConfigurationCloudwatchLogsLogDestination</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cloudwatch_logs_log_destination PipesPipe#cloudwatch_logs_log_destination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cloudwatch_logs_log_destination PipesPipe#cloudwatch_logs_log_destination}.
 
 ---
 
@@ -1596,7 +1596,7 @@ public PipesPipeLogConfigurationFirehoseLogDestination FirehoseLogDestination { 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination">PipesPipeLogConfigurationFirehoseLogDestination</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#firehose_log_destination PipesPipe#firehose_log_destination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#firehose_log_destination PipesPipe#firehose_log_destination}.
 
 ---
 
@@ -1608,7 +1608,7 @@ public string[] IncludeExecutionData { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#include_execution_data PipesPipe#include_execution_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#include_execution_data PipesPipe#include_execution_data}.
 
 ---
 
@@ -1620,7 +1620,7 @@ public string Level { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#level PipesPipe#level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#level PipesPipe#level}.
 
 ---
 
@@ -1632,7 +1632,7 @@ public PipesPipeLogConfigurationS3LogDestination S3LogDestination { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination">PipesPipeLogConfigurationS3LogDestination</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#s3_log_destination PipesPipe#s3_log_destination}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#s3_log_destination PipesPipe#s3_log_destination}.
 
 ---
 
@@ -1652,7 +1652,7 @@ new PipesPipeLogConfigurationCloudwatchLogsLogDestination {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination.property.logGroupArn">LogGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationCloudwatchLogsLogDestination.property.logGroupArn">LogGroupArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}. |
 
 ---
 
@@ -1664,7 +1664,7 @@ public string LogGroupArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#log_group_arn PipesPipe#log_group_arn}.
 
 ---
 
@@ -1684,7 +1684,7 @@ new PipesPipeLogConfigurationFirehoseLogDestination {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination.property.deliveryStreamArn">DeliveryStreamArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationFirehoseLogDestination.property.deliveryStreamArn">DeliveryStreamArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}. |
 
 ---
 
@@ -1696,7 +1696,7 @@ public string DeliveryStreamArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#delivery_stream_arn PipesPipe#delivery_stream_arn}.
 
 ---
 
@@ -1719,10 +1719,10 @@ new PipesPipeLogConfigurationS3LogDestination {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.bucketName">BucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#bucket_name PipesPipe#bucket_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.bucketOwner">BucketOwner</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#bucket_owner PipesPipe#bucket_owner}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.outputFormat">OutputFormat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#output_format PipesPipe#output_format}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.prefix">Prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#prefix PipesPipe#prefix}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.bucketName">BucketName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#bucket_name PipesPipe#bucket_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.bucketOwner">BucketOwner</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#bucket_owner PipesPipe#bucket_owner}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.outputFormat">OutputFormat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#output_format PipesPipe#output_format}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeLogConfigurationS3LogDestination.property.prefix">Prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#prefix PipesPipe#prefix}. |
 
 ---
 
@@ -1734,7 +1734,7 @@ public string BucketName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#bucket_name PipesPipe#bucket_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#bucket_name PipesPipe#bucket_name}.
 
 ---
 
@@ -1746,7 +1746,7 @@ public string BucketOwner { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#bucket_owner PipesPipe#bucket_owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#bucket_owner PipesPipe#bucket_owner}.
 
 ---
 
@@ -1758,7 +1758,7 @@ public string OutputFormat { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#output_format PipesPipe#output_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#output_format PipesPipe#output_format}.
 
 ---
 
@@ -1770,7 +1770,7 @@ public string Prefix { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#prefix PipesPipe#prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#prefix PipesPipe#prefix}.
 
 ---
 
@@ -1797,14 +1797,14 @@ new PipesPipeSourceParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.activeMqBrokerParameters">ActiveMqBrokerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters">PipesPipeSourceParametersActiveMqBrokerParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#active_mq_broker_parameters PipesPipe#active_mq_broker_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.dynamoDbStreamParameters">DynamoDbStreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters">PipesPipeSourceParametersDynamoDbStreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dynamo_db_stream_parameters PipesPipe#dynamo_db_stream_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.filterCriteria">FilterCriteria</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteria">PipesPipeSourceParametersFilterCriteria</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#filter_criteria PipesPipe#filter_criteria}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.kinesisStreamParameters">KinesisStreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters">PipesPipeSourceParametersKinesisStreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.managedStreamingKafkaParameters">ManagedStreamingKafkaParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters">PipesPipeSourceParametersManagedStreamingKafkaParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#managed_streaming_kafka_parameters PipesPipe#managed_streaming_kafka_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.rabbitMqBrokerParameters">RabbitMqBrokerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters">PipesPipeSourceParametersRabbitMqBrokerParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#rabbit_mq_broker_parameters PipesPipe#rabbit_mq_broker_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.selfManagedKafkaParameters">SelfManagedKafkaParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters">PipesPipeSourceParametersSelfManagedKafkaParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#self_managed_kafka_parameters PipesPipe#self_managed_kafka_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.sqsQueueParameters">SqsQueueParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters">PipesPipeSourceParametersSqsQueueParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.activeMqBrokerParameters">ActiveMqBrokerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters">PipesPipeSourceParametersActiveMqBrokerParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#active_mq_broker_parameters PipesPipe#active_mq_broker_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.dynamoDbStreamParameters">DynamoDbStreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters">PipesPipeSourceParametersDynamoDbStreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dynamo_db_stream_parameters PipesPipe#dynamo_db_stream_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.filterCriteria">FilterCriteria</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteria">PipesPipeSourceParametersFilterCriteria</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#filter_criteria PipesPipe#filter_criteria}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.kinesisStreamParameters">KinesisStreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters">PipesPipeSourceParametersKinesisStreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.managedStreamingKafkaParameters">ManagedStreamingKafkaParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters">PipesPipeSourceParametersManagedStreamingKafkaParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#managed_streaming_kafka_parameters PipesPipe#managed_streaming_kafka_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.rabbitMqBrokerParameters">RabbitMqBrokerParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters">PipesPipeSourceParametersRabbitMqBrokerParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#rabbit_mq_broker_parameters PipesPipe#rabbit_mq_broker_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.selfManagedKafkaParameters">SelfManagedKafkaParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters">PipesPipeSourceParametersSelfManagedKafkaParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#self_managed_kafka_parameters PipesPipe#self_managed_kafka_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParameters.property.sqsQueueParameters">SqsQueueParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters">PipesPipeSourceParametersSqsQueueParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}. |
 
 ---
 
@@ -1816,7 +1816,7 @@ public PipesPipeSourceParametersActiveMqBrokerParameters ActiveMqBrokerParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters">PipesPipeSourceParametersActiveMqBrokerParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#active_mq_broker_parameters PipesPipe#active_mq_broker_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#active_mq_broker_parameters PipesPipe#active_mq_broker_parameters}.
 
 ---
 
@@ -1828,7 +1828,7 @@ public PipesPipeSourceParametersDynamoDbStreamParameters DynamoDbStreamParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters">PipesPipeSourceParametersDynamoDbStreamParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dynamo_db_stream_parameters PipesPipe#dynamo_db_stream_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dynamo_db_stream_parameters PipesPipe#dynamo_db_stream_parameters}.
 
 ---
 
@@ -1840,7 +1840,7 @@ public PipesPipeSourceParametersFilterCriteria FilterCriteria { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteria">PipesPipeSourceParametersFilterCriteria</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#filter_criteria PipesPipe#filter_criteria}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#filter_criteria PipesPipe#filter_criteria}.
 
 ---
 
@@ -1852,7 +1852,7 @@ public PipesPipeSourceParametersKinesisStreamParameters KinesisStreamParameters 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters">PipesPipeSourceParametersKinesisStreamParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}.
 
 ---
 
@@ -1864,7 +1864,7 @@ public PipesPipeSourceParametersManagedStreamingKafkaParameters ManagedStreaming
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters">PipesPipeSourceParametersManagedStreamingKafkaParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#managed_streaming_kafka_parameters PipesPipe#managed_streaming_kafka_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#managed_streaming_kafka_parameters PipesPipe#managed_streaming_kafka_parameters}.
 
 ---
 
@@ -1876,7 +1876,7 @@ public PipesPipeSourceParametersRabbitMqBrokerParameters RabbitMqBrokerParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters">PipesPipeSourceParametersRabbitMqBrokerParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#rabbit_mq_broker_parameters PipesPipe#rabbit_mq_broker_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#rabbit_mq_broker_parameters PipesPipe#rabbit_mq_broker_parameters}.
 
 ---
 
@@ -1888,7 +1888,7 @@ public PipesPipeSourceParametersSelfManagedKafkaParameters SelfManagedKafkaParam
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters">PipesPipeSourceParametersSelfManagedKafkaParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#self_managed_kafka_parameters PipesPipe#self_managed_kafka_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#self_managed_kafka_parameters PipesPipe#self_managed_kafka_parameters}.
 
 ---
 
@@ -1900,7 +1900,7 @@ public PipesPipeSourceParametersSqsQueueParameters SqsQueueParameters { get; set
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters">PipesPipeSourceParametersSqsQueueParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}.
 
 ---
 
@@ -1923,10 +1923,10 @@ new PipesPipeSourceParametersActiveMqBrokerParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParametersCredentials">PipesPipeSourceParametersActiveMqBrokerParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.queueName">QueueName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParametersCredentials">PipesPipeSourceParametersActiveMqBrokerParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParameters.property.queueName">QueueName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}. |
 
 ---
 
@@ -1938,7 +1938,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -1950,7 +1950,7 @@ public PipesPipeSourceParametersActiveMqBrokerParametersCredentials Credentials 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersActiveMqBrokerParametersCredentials">PipesPipeSourceParametersActiveMqBrokerParametersCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
 
 ---
 
@@ -1962,7 +1962,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -1974,7 +1974,7 @@ public string QueueName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}.
 
 ---
 
@@ -2008,7 +2008,7 @@ public string BasicAuth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
 
 ---
 
@@ -2035,14 +2035,14 @@ new PipesPipeSourceParametersDynamoDbStreamParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.deadLetterConfig">DeadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig">PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.maximumRecordAgeInSeconds">MaximumRecordAgeInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.maximumRetryAttempts">MaximumRetryAttempts</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.onPartialBatchItemFailure">OnPartialBatchItemFailure</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.parallelizationFactor">ParallelizationFactor</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.deadLetterConfig">DeadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig">PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.maximumRecordAgeInSeconds">MaximumRecordAgeInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.maximumRetryAttempts">MaximumRetryAttempts</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.onPartialBatchItemFailure">OnPartialBatchItemFailure</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.parallelizationFactor">ParallelizationFactor</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
 
 ---
 
@@ -2054,7 +2054,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -2066,7 +2066,7 @@ public PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig DeadLet
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig">PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}.
 
 ---
 
@@ -2078,7 +2078,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -2090,7 +2090,7 @@ public double MaximumRecordAgeInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}.
 
 ---
 
@@ -2102,7 +2102,7 @@ public double MaximumRetryAttempts { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}.
 
 ---
 
@@ -2114,7 +2114,7 @@ public string OnPartialBatchItemFailure { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}.
 
 ---
 
@@ -2126,7 +2126,7 @@ public double ParallelizationFactor { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}.
 
 ---
 
@@ -2138,7 +2138,7 @@ public string StartingPosition { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
 
 ---
 
@@ -2158,7 +2158,7 @@ new PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig.property.arn">Arn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#arn PipesPipe#arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig.property.arn">Arn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#arn PipesPipe#arn}. |
 
 ---
 
@@ -2170,7 +2170,7 @@ public string Arn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.
 
 ---
 
@@ -2190,7 +2190,7 @@ new PipesPipeSourceParametersFilterCriteria {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteria.property.filters">Filters</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilters">PipesPipeSourceParametersFilterCriteriaFilters</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#filters PipesPipe#filters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteria.property.filters">Filters</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilters">PipesPipeSourceParametersFilterCriteriaFilters</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#filters PipesPipe#filters}. |
 
 ---
 
@@ -2202,7 +2202,7 @@ public IResolvable|PipesPipeSourceParametersFilterCriteriaFilters[] Filters { ge
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilters">PipesPipeSourceParametersFilterCriteriaFilters</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#filters PipesPipe#filters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#filters PipesPipe#filters}.
 
 ---
 
@@ -2222,7 +2222,7 @@ new PipesPipeSourceParametersFilterCriteriaFilters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilters.property.pattern">Pattern</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#pattern PipesPipe#pattern}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersFilterCriteriaFilters.property.pattern">Pattern</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#pattern PipesPipe#pattern}. |
 
 ---
 
@@ -2234,7 +2234,7 @@ public string Pattern { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#pattern PipesPipe#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#pattern PipesPipe#pattern}.
 
 ---
 
@@ -2262,15 +2262,15 @@ new PipesPipeSourceParametersKinesisStreamParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.deadLetterConfig">DeadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig">PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.maximumRecordAgeInSeconds">MaximumRecordAgeInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.maximumRetryAttempts">MaximumRetryAttempts</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.onPartialBatchItemFailure">OnPartialBatchItemFailure</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.parallelizationFactor">ParallelizationFactor</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.startingPositionTimestamp">StartingPositionTimestamp</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position_timestamp PipesPipe#starting_position_timestamp}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.deadLetterConfig">DeadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig">PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.maximumRecordAgeInSeconds">MaximumRecordAgeInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.maximumRetryAttempts">MaximumRetryAttempts</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.onPartialBatchItemFailure">OnPartialBatchItemFailure</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.parallelizationFactor">ParallelizationFactor</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParameters.property.startingPositionTimestamp">StartingPositionTimestamp</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position_timestamp PipesPipe#starting_position_timestamp}. |
 
 ---
 
@@ -2282,7 +2282,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -2294,7 +2294,7 @@ public PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig DeadLett
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig">PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dead_letter_config PipesPipe#dead_letter_config}.
 
 ---
 
@@ -2306,7 +2306,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -2318,7 +2318,7 @@ public double MaximumRecordAgeInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_record_age_in_seconds PipesPipe#maximum_record_age_in_seconds}.
 
 ---
 
@@ -2330,7 +2330,7 @@ public double MaximumRetryAttempts { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_retry_attempts PipesPipe#maximum_retry_attempts}.
 
 ---
 
@@ -2342,7 +2342,7 @@ public string OnPartialBatchItemFailure { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#on_partial_batch_item_failure PipesPipe#on_partial_batch_item_failure}.
 
 ---
 
@@ -2354,7 +2354,7 @@ public double ParallelizationFactor { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#parallelization_factor PipesPipe#parallelization_factor}.
 
 ---
 
@@ -2366,7 +2366,7 @@ public string StartingPosition { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
 
 ---
 
@@ -2378,7 +2378,7 @@ public string StartingPositionTimestamp { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position_timestamp PipesPipe#starting_position_timestamp}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position_timestamp PipesPipe#starting_position_timestamp}.
 
 ---
 
@@ -2398,7 +2398,7 @@ new PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig.property.arn">Arn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#arn PipesPipe#arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfig.property.arn">Arn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#arn PipesPipe#arn}. |
 
 ---
 
@@ -2410,7 +2410,7 @@ public string Arn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.
 
 ---
 
@@ -2435,12 +2435,12 @@ new PipesPipeSourceParametersManagedStreamingKafkaParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.consumerGroupId">ConsumerGroupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials">PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.topicName">TopicName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.consumerGroupId">ConsumerGroupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials">PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParameters.property.topicName">TopicName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}. |
 
 ---
 
@@ -2452,7 +2452,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -2464,7 +2464,7 @@ public string ConsumerGroupId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.
 
 ---
 
@@ -2476,7 +2476,7 @@ public PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials Crede
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials">PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
 
 ---
 
@@ -2488,7 +2488,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -2500,7 +2500,7 @@ public string StartingPosition { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
 
 ---
 
@@ -2512,7 +2512,7 @@ public string TopicName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.
 
 ---
 
@@ -2548,7 +2548,7 @@ public string ClientCertificateTlsAuth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
 
 ---
 
@@ -2562,7 +2562,7 @@ public string SaslScram512Auth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
 
 ---
 
@@ -2586,11 +2586,11 @@ new PipesPipeSourceParametersRabbitMqBrokerParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParametersCredentials">PipesPipeSourceParametersRabbitMqBrokerParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.queueName">QueueName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.virtualHost">VirtualHost</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#virtual_host PipesPipe#virtual_host}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParametersCredentials">PipesPipeSourceParametersRabbitMqBrokerParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.queueName">QueueName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParameters.property.virtualHost">VirtualHost</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#virtual_host PipesPipe#virtual_host}. |
 
 ---
 
@@ -2602,7 +2602,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -2614,7 +2614,7 @@ public PipesPipeSourceParametersRabbitMqBrokerParametersCredentials Credentials 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersRabbitMqBrokerParametersCredentials">PipesPipeSourceParametersRabbitMqBrokerParametersCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
 
 ---
 
@@ -2626,7 +2626,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -2638,7 +2638,7 @@ public string QueueName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#queue_name PipesPipe#queue_name}.
 
 ---
 
@@ -2650,7 +2650,7 @@ public string VirtualHost { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#virtual_host PipesPipe#virtual_host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#virtual_host PipesPipe#virtual_host}.
 
 ---
 
@@ -2684,7 +2684,7 @@ public string BasicAuth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
 
 ---
 
@@ -2712,15 +2712,15 @@ new PipesPipeSourceParametersSelfManagedKafkaParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.additionalBootstrapServers">AdditionalBootstrapServers</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#additional_bootstrap_servers PipesPipe#additional_bootstrap_servers}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.consumerGroupId">ConsumerGroupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentials">PipesPipeSourceParametersSelfManagedKafkaParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.additionalBootstrapServers">AdditionalBootstrapServers</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#additional_bootstrap_servers PipesPipe#additional_bootstrap_servers}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.consumerGroupId">ConsumerGroupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.credentials">Credentials</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentials">PipesPipeSourceParametersSelfManagedKafkaParametersCredentials</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.serverRootCaCertificate">ServerRootCaCertificate</a></code> | <code>string</code> | Optional SecretManager ARN which stores the database credentials. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.topicName">TopicName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.vpc">Vpc</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpc">PipesPipeSourceParametersSelfManagedKafkaParametersVpc</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#vpc PipesPipe#vpc}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.startingPosition">StartingPosition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.topicName">TopicName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParameters.property.vpc">Vpc</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpc">PipesPipeSourceParametersSelfManagedKafkaParametersVpc</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#vpc PipesPipe#vpc}. |
 
 ---
 
@@ -2732,7 +2732,7 @@ public string[] AdditionalBootstrapServers { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#additional_bootstrap_servers PipesPipe#additional_bootstrap_servers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#additional_bootstrap_servers PipesPipe#additional_bootstrap_servers}.
 
 ---
 
@@ -2744,7 +2744,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -2756,7 +2756,7 @@ public string ConsumerGroupId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.
 
 ---
 
@@ -2768,7 +2768,7 @@ public PipesPipeSourceParametersSelfManagedKafkaParametersCredentials Credential
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersCredentials">PipesPipeSourceParametersSelfManagedKafkaParametersCredentials</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
 
 ---
 
@@ -2780,7 +2780,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -2794,7 +2794,7 @@ public string ServerRootCaCertificate { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#server_root_ca_certificate PipesPipe#server_root_ca_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#server_root_ca_certificate PipesPipe#server_root_ca_certificate}
 
 ---
 
@@ -2806,7 +2806,7 @@ public string StartingPosition { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
 
 ---
 
@@ -2818,7 +2818,7 @@ public string TopicName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.
 
 ---
 
@@ -2830,7 +2830,7 @@ public PipesPipeSourceParametersSelfManagedKafkaParametersVpc Vpc { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSelfManagedKafkaParametersVpc">PipesPipeSourceParametersSelfManagedKafkaParametersVpc</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#vpc PipesPipe#vpc}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#vpc PipesPipe#vpc}.
 
 ---
 
@@ -2870,7 +2870,7 @@ public string BasicAuth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#basic_auth PipesPipe#basic_auth}
 
 ---
 
@@ -2884,7 +2884,7 @@ public string ClientCertificateTlsAuth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#client_certificate_tls_auth PipesPipe#client_certificate_tls_auth}
 
 ---
 
@@ -2898,7 +2898,7 @@ public string SaslScram256Auth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sasl_scram_256_auth PipesPipe#sasl_scram_256_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sasl_scram_256_auth PipesPipe#sasl_scram_256_auth}
 
 ---
 
@@ -2912,7 +2912,7 @@ public string SaslScram512Auth { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sasl_scram_512_auth PipesPipe#sasl_scram_512_auth}
 
 ---
 
@@ -2948,7 +2948,7 @@ public string[] SecurityGroup { get; set; }
 
 List of SecurityGroupId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#security_group PipesPipe#security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#security_group PipesPipe#security_group}
 
 ---
 
@@ -2962,7 +2962,7 @@ public string[] Subnets { get; set; }
 
 List of SubnetId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}
 
 ---
 
@@ -2983,8 +2983,8 @@ new PipesPipeSourceParametersSqsQueueParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters.property.batchSize">BatchSize</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeSourceParametersSqsQueueParameters.property.maximumBatchingWindowInSeconds">MaximumBatchingWindowInSeconds</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}. |
 
 ---
 
@@ -2996,7 +2996,7 @@ public double BatchSize { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 
 ---
 
@@ -3008,7 +3008,7 @@ public double MaximumBatchingWindowInSeconds { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 
 ---
 
@@ -3040,19 +3040,19 @@ new PipesPipeTargetParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.batchJobParameters">BatchJobParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters">PipesPipeTargetParametersBatchJobParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_job_parameters PipesPipe#batch_job_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.cloudwatchLogsParameters">CloudwatchLogsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters">PipesPipeTargetParametersCloudwatchLogsParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cloudwatch_logs_parameters PipesPipe#cloudwatch_logs_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.ecsTaskParameters">EcsTaskParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters">PipesPipeTargetParametersEcsTaskParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#ecs_task_parameters PipesPipe#ecs_task_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.eventBridgeEventBusParameters">EventBridgeEventBusParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters">PipesPipeTargetParametersEventBridgeEventBusParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#event_bridge_event_bus_parameters PipesPipe#event_bridge_event_bus_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.httpParameters">HttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters">PipesPipeTargetParametersHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.inputTemplate">InputTemplate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.kinesisStreamParameters">KinesisStreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters">PipesPipeTargetParametersKinesisStreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.lambdaFunctionParameters">LambdaFunctionParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters">PipesPipeTargetParametersLambdaFunctionParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#lambda_function_parameters PipesPipe#lambda_function_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.redshiftDataParameters">RedshiftDataParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters">PipesPipeTargetParametersRedshiftDataParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#redshift_data_parameters PipesPipe#redshift_data_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.sageMakerPipelineParameters">SageMakerPipelineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParameters">PipesPipeTargetParametersSageMakerPipelineParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sage_maker_pipeline_parameters PipesPipe#sage_maker_pipeline_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.sqsQueueParameters">SqsQueueParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters">PipesPipeTargetParametersSqsQueueParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.stepFunctionStateMachineParameters">StepFunctionStateMachineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters">PipesPipeTargetParametersStepFunctionStateMachineParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#step_function_state_machine_parameters PipesPipe#step_function_state_machine_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.timestreamParameters">TimestreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters">PipesPipeTargetParametersTimestreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#timestream_parameters PipesPipe#timestream_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.batchJobParameters">BatchJobParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters">PipesPipeTargetParametersBatchJobParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_job_parameters PipesPipe#batch_job_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.cloudwatchLogsParameters">CloudwatchLogsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters">PipesPipeTargetParametersCloudwatchLogsParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cloudwatch_logs_parameters PipesPipe#cloudwatch_logs_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.ecsTaskParameters">EcsTaskParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters">PipesPipeTargetParametersEcsTaskParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#ecs_task_parameters PipesPipe#ecs_task_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.eventBridgeEventBusParameters">EventBridgeEventBusParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters">PipesPipeTargetParametersEventBridgeEventBusParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#event_bridge_event_bus_parameters PipesPipe#event_bridge_event_bus_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.httpParameters">HttpParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters">PipesPipeTargetParametersHttpParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.inputTemplate">InputTemplate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.kinesisStreamParameters">KinesisStreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters">PipesPipeTargetParametersKinesisStreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.lambdaFunctionParameters">LambdaFunctionParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters">PipesPipeTargetParametersLambdaFunctionParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#lambda_function_parameters PipesPipe#lambda_function_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.redshiftDataParameters">RedshiftDataParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters">PipesPipeTargetParametersRedshiftDataParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#redshift_data_parameters PipesPipe#redshift_data_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.sageMakerPipelineParameters">SageMakerPipelineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParameters">PipesPipeTargetParametersSageMakerPipelineParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sage_maker_pipeline_parameters PipesPipe#sage_maker_pipeline_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.sqsQueueParameters">SqsQueueParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters">PipesPipeTargetParametersSqsQueueParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.stepFunctionStateMachineParameters">StepFunctionStateMachineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters">PipesPipeTargetParametersStepFunctionStateMachineParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#step_function_state_machine_parameters PipesPipe#step_function_state_machine_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParameters.property.timestreamParameters">TimestreamParameters</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters">PipesPipeTargetParametersTimestreamParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#timestream_parameters PipesPipe#timestream_parameters}. |
 
 ---
 
@@ -3064,7 +3064,7 @@ public PipesPipeTargetParametersBatchJobParameters BatchJobParameters { get; set
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters">PipesPipeTargetParametersBatchJobParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#batch_job_parameters PipesPipe#batch_job_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#batch_job_parameters PipesPipe#batch_job_parameters}.
 
 ---
 
@@ -3076,7 +3076,7 @@ public PipesPipeTargetParametersCloudwatchLogsParameters CloudwatchLogsParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters">PipesPipeTargetParametersCloudwatchLogsParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cloudwatch_logs_parameters PipesPipe#cloudwatch_logs_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cloudwatch_logs_parameters PipesPipe#cloudwatch_logs_parameters}.
 
 ---
 
@@ -3088,7 +3088,7 @@ public PipesPipeTargetParametersEcsTaskParameters EcsTaskParameters { get; set; 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters">PipesPipeTargetParametersEcsTaskParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#ecs_task_parameters PipesPipe#ecs_task_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#ecs_task_parameters PipesPipe#ecs_task_parameters}.
 
 ---
 
@@ -3100,7 +3100,7 @@ public PipesPipeTargetParametersEventBridgeEventBusParameters EventBridgeEventBu
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters">PipesPipeTargetParametersEventBridgeEventBusParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#event_bridge_event_bus_parameters PipesPipe#event_bridge_event_bus_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#event_bridge_event_bus_parameters PipesPipe#event_bridge_event_bus_parameters}.
 
 ---
 
@@ -3112,7 +3112,7 @@ public PipesPipeTargetParametersHttpParameters HttpParameters { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters">PipesPipeTargetParametersHttpParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#http_parameters PipesPipe#http_parameters}.
 
 ---
 
@@ -3124,7 +3124,7 @@ public string InputTemplate { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#input_template PipesPipe#input_template}.
 
 ---
 
@@ -3136,7 +3136,7 @@ public PipesPipeTargetParametersKinesisStreamParameters KinesisStreamParameters 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters">PipesPipeTargetParametersKinesisStreamParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#kinesis_stream_parameters PipesPipe#kinesis_stream_parameters}.
 
 ---
 
@@ -3148,7 +3148,7 @@ public PipesPipeTargetParametersLambdaFunctionParameters LambdaFunctionParameter
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters">PipesPipeTargetParametersLambdaFunctionParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#lambda_function_parameters PipesPipe#lambda_function_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#lambda_function_parameters PipesPipe#lambda_function_parameters}.
 
 ---
 
@@ -3160,7 +3160,7 @@ public PipesPipeTargetParametersRedshiftDataParameters RedshiftDataParameters { 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters">PipesPipeTargetParametersRedshiftDataParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#redshift_data_parameters PipesPipe#redshift_data_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#redshift_data_parameters PipesPipe#redshift_data_parameters}.
 
 ---
 
@@ -3172,7 +3172,7 @@ public PipesPipeTargetParametersSageMakerPipelineParameters SageMakerPipelinePar
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParameters">PipesPipeTargetParametersSageMakerPipelineParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sage_maker_pipeline_parameters PipesPipe#sage_maker_pipeline_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sage_maker_pipeline_parameters PipesPipe#sage_maker_pipeline_parameters}.
 
 ---
 
@@ -3184,7 +3184,7 @@ public PipesPipeTargetParametersSqsQueueParameters SqsQueueParameters { get; set
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters">PipesPipeTargetParametersSqsQueueParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sqs_queue_parameters PipesPipe#sqs_queue_parameters}.
 
 ---
 
@@ -3196,7 +3196,7 @@ public PipesPipeTargetParametersStepFunctionStateMachineParameters StepFunctionS
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters">PipesPipeTargetParametersStepFunctionStateMachineParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#step_function_state_machine_parameters PipesPipe#step_function_state_machine_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#step_function_state_machine_parameters PipesPipe#step_function_state_machine_parameters}.
 
 ---
 
@@ -3208,7 +3208,7 @@ public PipesPipeTargetParametersTimestreamParameters TimestreamParameters { get;
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters">PipesPipeTargetParametersTimestreamParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#timestream_parameters PipesPipe#timestream_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#timestream_parameters PipesPipe#timestream_parameters}.
 
 ---
 
@@ -3234,13 +3234,13 @@ new PipesPipeTargetParametersBatchJobParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.arrayProperties">ArrayProperties</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties">PipesPipeTargetParametersBatchJobParametersArrayProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.containerOverrides">ContainerOverrides</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides">PipesPipeTargetParametersBatchJobParametersContainerOverrides</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.dependsOn">DependsOn</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn">PipesPipeTargetParametersBatchJobParametersDependsOn</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.jobDefinition">JobDefinition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.jobName">JobName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.parameters">Parameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.retryStrategy">RetryStrategy</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy">PipesPipeTargetParametersBatchJobParametersRetryStrategy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.arrayProperties">ArrayProperties</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties">PipesPipeTargetParametersBatchJobParametersArrayProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.containerOverrides">ContainerOverrides</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides">PipesPipeTargetParametersBatchJobParametersContainerOverrides</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.dependsOn">DependsOn</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn">PipesPipeTargetParametersBatchJobParametersDependsOn</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.jobDefinition">JobDefinition</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.jobName">JobName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.parameters">Parameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParameters.property.retryStrategy">RetryStrategy</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy">PipesPipeTargetParametersBatchJobParametersRetryStrategy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}. |
 
 ---
 
@@ -3252,7 +3252,7 @@ public PipesPipeTargetParametersBatchJobParametersArrayProperties ArrayPropertie
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties">PipesPipeTargetParametersBatchJobParametersArrayProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}.
 
 ---
 
@@ -3264,7 +3264,7 @@ public PipesPipeTargetParametersBatchJobParametersContainerOverrides ContainerOv
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides">PipesPipeTargetParametersBatchJobParametersContainerOverrides</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}.
 
 ---
 
@@ -3276,7 +3276,7 @@ public IResolvable|PipesPipeTargetParametersBatchJobParametersDependsOn[] Depend
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn">PipesPipeTargetParametersBatchJobParametersDependsOn</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}.
 
 ---
 
@@ -3288,7 +3288,7 @@ public string JobDefinition { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}.
 
 ---
 
@@ -3300,7 +3300,7 @@ public string JobName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}.
 
 ---
 
@@ -3312,7 +3312,7 @@ public System.Collections.Generic.IDictionary<string, string> Parameters { get; 
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}.
 
 ---
 
@@ -3324,7 +3324,7 @@ public PipesPipeTargetParametersBatchJobParametersRetryStrategy RetryStrategy { 
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy">PipesPipeTargetParametersBatchJobParametersRetryStrategy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}.
 
 ---
 
@@ -3344,7 +3344,7 @@ new PipesPipeTargetParametersBatchJobParametersArrayProperties {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties.property.size">Size</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#size PipesPipe#size}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties.property.size">Size</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#size PipesPipe#size}. |
 
 ---
 
@@ -3356,7 +3356,7 @@ public double Size { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#size PipesPipe#size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#size PipesPipe#size}.
 
 ---
 
@@ -3379,10 +3379,10 @@ new PipesPipeTargetParametersBatchJobParametersContainerOverrides {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.command">Command</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#command PipesPipe#command}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.environment">Environment</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment">PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#environment PipesPipe#environment}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.instanceType">InstanceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#instance_type PipesPipe#instance_type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.resourceRequirements">ResourceRequirements</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements">PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.command">Command</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#command PipesPipe#command}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.environment">Environment</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment">PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#environment PipesPipe#environment}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.instanceType">InstanceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#instance_type PipesPipe#instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides.property.resourceRequirements">ResourceRequirements</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements">PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}. |
 
 ---
 
@@ -3394,7 +3394,7 @@ public string[] Command { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#command PipesPipe#command}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#command PipesPipe#command}.
 
 ---
 
@@ -3406,7 +3406,7 @@ public IResolvable|PipesPipeTargetParametersBatchJobParametersContainerOverrides
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment">PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#environment PipesPipe#environment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#environment PipesPipe#environment}.
 
 ---
 
@@ -3418,7 +3418,7 @@ public string InstanceType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#instance_type PipesPipe#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#instance_type PipesPipe#instance_type}.
 
 ---
 
@@ -3430,7 +3430,7 @@ public IResolvable|PipesPipeTargetParametersBatchJobParametersContainerOverrides
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements">PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}.
 
 ---
 
@@ -3451,8 +3451,8 @@ new PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesEnvironment.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -3464,7 +3464,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}.
 
 ---
 
@@ -3476,7 +3476,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -3497,8 +3497,8 @@ new PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequire
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverridesResourceRequirements.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -3510,7 +3510,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 
 ---
 
@@ -3522,7 +3522,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -3543,8 +3543,8 @@ new PipesPipeTargetParametersBatchJobParametersDependsOn {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn.property.jobId">JobId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#job_id PipesPipe#job_id}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn.property.jobId">JobId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#job_id PipesPipe#job_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
 
 ---
 
@@ -3556,7 +3556,7 @@ public string JobId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#job_id PipesPipe#job_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#job_id PipesPipe#job_id}.
 
 ---
 
@@ -3568,7 +3568,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 
 ---
 
@@ -3588,7 +3588,7 @@ new PipesPipeTargetParametersBatchJobParametersRetryStrategy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy.property.attempts">Attempts</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy.property.attempts">Attempts</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}. |
 
 ---
 
@@ -3600,7 +3600,7 @@ public double Attempts { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#attempts PipesPipe#attempts}.
 
 ---
 
@@ -3621,8 +3621,8 @@ new PipesPipeTargetParametersCloudwatchLogsParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters.property.logStreamName">LogStreamName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#log_stream_name PipesPipe#log_stream_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters.property.timestamp">Timestamp</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#timestamp PipesPipe#timestamp}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters.property.logStreamName">LogStreamName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#log_stream_name PipesPipe#log_stream_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersCloudwatchLogsParameters.property.timestamp">Timestamp</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#timestamp PipesPipe#timestamp}. |
 
 ---
 
@@ -3634,7 +3634,7 @@ public string LogStreamName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#log_stream_name PipesPipe#log_stream_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#log_stream_name PipesPipe#log_stream_name}.
 
 ---
 
@@ -3646,7 +3646,7 @@ public string Timestamp { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#timestamp PipesPipe#timestamp}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#timestamp PipesPipe#timestamp}.
 
 ---
 
@@ -3680,21 +3680,21 @@ new PipesPipeTargetParametersEcsTaskParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.capacityProviderStrategy">CapacityProviderStrategy</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy">PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#capacity_provider_strategy PipesPipe#capacity_provider_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.enableEcsManagedTags">EnableEcsManagedTags</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enable_ecs_managed_tags PipesPipe#enable_ecs_managed_tags}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.enableExecuteCommand">EnableExecuteCommand</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enable_execute_command PipesPipe#enable_execute_command}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.group">Group</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#group PipesPipe#group}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.launchType">LaunchType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#launch_type PipesPipe#launch_type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.networkConfiguration">NetworkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration">PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#network_configuration PipesPipe#network_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.overrides">Overrides</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides">PipesPipeTargetParametersEcsTaskParametersOverrides</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#overrides PipesPipe#overrides}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.placementConstraints">PlacementConstraints</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints">PipesPipeTargetParametersEcsTaskParametersPlacementConstraints</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#placement_constraints PipesPipe#placement_constraints}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.placementStrategy">PlacementStrategy</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy">PipesPipeTargetParametersEcsTaskParametersPlacementStrategy</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#placement_strategy PipesPipe#placement_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.platformVersion">PlatformVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#platform_version PipesPipe#platform_version}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.propagateTags">PropagateTags</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#propagate_tags PipesPipe#propagate_tags}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.referenceId">ReferenceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#reference_id PipesPipe#reference_id}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags">PipesPipeTargetParametersEcsTaskParametersTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#tags PipesPipe#tags}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.taskCount">TaskCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#task_count PipesPipe#task_count}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.taskDefinitionArn">TaskDefinitionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#task_definition_arn PipesPipe#task_definition_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.capacityProviderStrategy">CapacityProviderStrategy</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy">PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#capacity_provider_strategy PipesPipe#capacity_provider_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.enableEcsManagedTags">EnableEcsManagedTags</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enable_ecs_managed_tags PipesPipe#enable_ecs_managed_tags}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.enableExecuteCommand">EnableExecuteCommand</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enable_execute_command PipesPipe#enable_execute_command}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.group">Group</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#group PipesPipe#group}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.launchType">LaunchType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#launch_type PipesPipe#launch_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.networkConfiguration">NetworkConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration">PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#network_configuration PipesPipe#network_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.overrides">Overrides</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides">PipesPipeTargetParametersEcsTaskParametersOverrides</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#overrides PipesPipe#overrides}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.placementConstraints">PlacementConstraints</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints">PipesPipeTargetParametersEcsTaskParametersPlacementConstraints</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#placement_constraints PipesPipe#placement_constraints}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.placementStrategy">PlacementStrategy</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy">PipesPipeTargetParametersEcsTaskParametersPlacementStrategy</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#placement_strategy PipesPipe#placement_strategy}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.platformVersion">PlatformVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#platform_version PipesPipe#platform_version}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.propagateTags">PropagateTags</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#propagate_tags PipesPipe#propagate_tags}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.referenceId">ReferenceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#reference_id PipesPipe#reference_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags">PipesPipeTargetParametersEcsTaskParametersTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#tags PipesPipe#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.taskCount">TaskCount</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#task_count PipesPipe#task_count}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParameters.property.taskDefinitionArn">TaskDefinitionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#task_definition_arn PipesPipe#task_definition_arn}. |
 
 ---
 
@@ -3706,7 +3706,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersCapacityProviderStr
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy">PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#capacity_provider_strategy PipesPipe#capacity_provider_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#capacity_provider_strategy PipesPipe#capacity_provider_strategy}.
 
 ---
 
@@ -3718,7 +3718,7 @@ public bool|IResolvable EnableEcsManagedTags { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enable_ecs_managed_tags PipesPipe#enable_ecs_managed_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enable_ecs_managed_tags PipesPipe#enable_ecs_managed_tags}.
 
 ---
 
@@ -3730,7 +3730,7 @@ public bool|IResolvable EnableExecuteCommand { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#enable_execute_command PipesPipe#enable_execute_command}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#enable_execute_command PipesPipe#enable_execute_command}.
 
 ---
 
@@ -3742,7 +3742,7 @@ public string Group { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#group PipesPipe#group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#group PipesPipe#group}.
 
 ---
 
@@ -3754,7 +3754,7 @@ public string LaunchType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#launch_type PipesPipe#launch_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#launch_type PipesPipe#launch_type}.
 
 ---
 
@@ -3766,7 +3766,7 @@ public PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration NetworkCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration">PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#network_configuration PipesPipe#network_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#network_configuration PipesPipe#network_configuration}.
 
 ---
 
@@ -3778,7 +3778,7 @@ public PipesPipeTargetParametersEcsTaskParametersOverrides Overrides { get; set;
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides">PipesPipeTargetParametersEcsTaskParametersOverrides</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#overrides PipesPipe#overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#overrides PipesPipe#overrides}.
 
 ---
 
@@ -3790,7 +3790,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersPlacementConstraint
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints">PipesPipeTargetParametersEcsTaskParametersPlacementConstraints</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#placement_constraints PipesPipe#placement_constraints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#placement_constraints PipesPipe#placement_constraints}.
 
 ---
 
@@ -3802,7 +3802,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersPlacementStrategy[]
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy">PipesPipeTargetParametersEcsTaskParametersPlacementStrategy</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#placement_strategy PipesPipe#placement_strategy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#placement_strategy PipesPipe#placement_strategy}.
 
 ---
 
@@ -3814,7 +3814,7 @@ public string PlatformVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#platform_version PipesPipe#platform_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#platform_version PipesPipe#platform_version}.
 
 ---
 
@@ -3826,7 +3826,7 @@ public string PropagateTags { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#propagate_tags PipesPipe#propagate_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#propagate_tags PipesPipe#propagate_tags}.
 
 ---
 
@@ -3838,7 +3838,7 @@ public string ReferenceId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#reference_id PipesPipe#reference_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#reference_id PipesPipe#reference_id}.
 
 ---
 
@@ -3850,7 +3850,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersTags[] Tags { get; 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags">PipesPipeTargetParametersEcsTaskParametersTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#tags PipesPipe#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#tags PipesPipe#tags}.
 
 ---
 
@@ -3862,7 +3862,7 @@ public double TaskCount { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#task_count PipesPipe#task_count}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#task_count PipesPipe#task_count}.
 
 ---
 
@@ -3874,7 +3874,7 @@ public string TaskDefinitionArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#task_definition_arn PipesPipe#task_definition_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#task_definition_arn PipesPipe#task_definition_arn}.
 
 ---
 
@@ -3896,9 +3896,9 @@ new PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy.property.base">Base</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#base PipesPipe#base}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy.property.capacityProvider">CapacityProvider</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#capacity_provider PipesPipe#capacity_provider}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy.property.weight">Weight</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#weight PipesPipe#weight}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy.property.base">Base</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#base PipesPipe#base}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy.property.capacityProvider">CapacityProvider</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#capacity_provider PipesPipe#capacity_provider}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategy.property.weight">Weight</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#weight PipesPipe#weight}. |
 
 ---
 
@@ -3910,7 +3910,7 @@ public double Base { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#base PipesPipe#base}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#base PipesPipe#base}.
 
 ---
 
@@ -3922,7 +3922,7 @@ public string CapacityProvider { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#capacity_provider PipesPipe#capacity_provider}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#capacity_provider PipesPipe#capacity_provider}.
 
 ---
 
@@ -3934,7 +3934,7 @@ public double Weight { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#weight PipesPipe#weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#weight PipesPipe#weight}.
 
 ---
 
@@ -3954,7 +3954,7 @@ new PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration.property.awsvpcConfiguration">AwsvpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration">PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#awsvpc_configuration PipesPipe#awsvpc_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfiguration.property.awsvpcConfiguration">AwsvpcConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration">PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#awsvpc_configuration PipesPipe#awsvpc_configuration}. |
 
 ---
 
@@ -3966,7 +3966,7 @@ public PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfi
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration">PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#awsvpc_configuration PipesPipe#awsvpc_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#awsvpc_configuration PipesPipe#awsvpc_configuration}.
 
 ---
 
@@ -3988,9 +3988,9 @@ new PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfigur
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration.property.assignPublicIp">AssignPublicIp</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#assign_public_ip PipesPipe#assign_public_ip}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration.property.securityGroups">SecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#security_groups PipesPipe#security_groups}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration.property.subnets">Subnets</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration.property.assignPublicIp">AssignPublicIp</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#assign_public_ip PipesPipe#assign_public_ip}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration.property.securityGroups">SecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#security_groups PipesPipe#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsvpcConfiguration.property.subnets">Subnets</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}. |
 
 ---
 
@@ -4002,7 +4002,7 @@ public string AssignPublicIp { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#assign_public_ip PipesPipe#assign_public_ip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#assign_public_ip PipesPipe#assign_public_ip}.
 
 ---
 
@@ -4014,7 +4014,7 @@ public string[] SecurityGroups { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#security_groups PipesPipe#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#security_groups PipesPipe#security_groups}.
 
 ---
 
@@ -4026,7 +4026,7 @@ public string[] Subnets { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#subnets PipesPipe#subnets}.
 
 ---
 
@@ -4052,13 +4052,13 @@ new PipesPipeTargetParametersEcsTaskParametersOverrides {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.containerOverrides">ContainerOverrides</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.cpu">Cpu</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.ephemeralStorage">EphemeralStorage</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage">PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.inferenceAcceleratorOverrides">InferenceAcceleratorOverrides</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides">PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#inference_accelerator_overrides PipesPipe#inference_accelerator_overrides}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.memory">Memory</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#memory PipesPipe#memory}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.taskRoleArn">TaskRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.containerOverrides">ContainerOverrides</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.cpu">Cpu</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.ephemeralStorage">EphemeralStorage</a></code> | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage">PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.inferenceAcceleratorOverrides">InferenceAcceleratorOverrides</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides">PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#inference_accelerator_overrides PipesPipe#inference_accelerator_overrides}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.memory">Memory</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#memory PipesPipe#memory}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverrides.property.taskRoleArn">TaskRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}. |
 
 ---
 
@@ -4070,7 +4070,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}.
 
 ---
 
@@ -4082,7 +4082,7 @@ public string Cpu { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}.
 
 ---
 
@@ -4094,7 +4094,7 @@ public PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage Ephem
 
 - *Type:* <a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage">PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}.
 
 ---
 
@@ -4106,7 +4106,7 @@ public string ExecutionRoleArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}.
 
 ---
 
@@ -4118,7 +4118,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersOverridesInferenceA
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides">PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#inference_accelerator_overrides PipesPipe#inference_accelerator_overrides}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#inference_accelerator_overrides PipesPipe#inference_accelerator_overrides}.
 
 ---
 
@@ -4130,7 +4130,7 @@ public string Memory { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#memory PipesPipe#memory}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#memory PipesPipe#memory}.
 
 ---
 
@@ -4142,7 +4142,7 @@ public string TaskRoleArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}.
 
 ---
 
@@ -4169,14 +4169,14 @@ new PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.command">Command</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#command PipesPipe#command}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.cpu">Cpu</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.environment">Environment</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#environment PipesPipe#environment}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.environmentFiles">EnvironmentFiles</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#environment_files PipesPipe#environment_files}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.memory">Memory</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#memory PipesPipe#memory}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.memoryReservation">MemoryReservation</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#memory_reservation PipesPipe#memory_reservation}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.resourceRequirements">ResourceRequirements</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.command">Command</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#command PipesPipe#command}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.cpu">Cpu</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.environment">Environment</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#environment PipesPipe#environment}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.environmentFiles">EnvironmentFiles</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#environment_files PipesPipe#environment_files}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.memory">Memory</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#memory PipesPipe#memory}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.memoryReservation">MemoryReservation</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#memory_reservation PipesPipe#memory_reservation}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrides.property.resourceRequirements">ResourceRequirements</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}. |
 
 ---
 
@@ -4188,7 +4188,7 @@ public string[] Command { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#command PipesPipe#command}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#command PipesPipe#command}.
 
 ---
 
@@ -4200,7 +4200,7 @@ public double Cpu { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}.
 
 ---
 
@@ -4212,7 +4212,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#environment PipesPipe#environment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#environment PipesPipe#environment}.
 
 ---
 
@@ -4224,7 +4224,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#environment_files PipesPipe#environment_files}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#environment_files PipesPipe#environment_files}.
 
 ---
 
@@ -4236,7 +4236,7 @@ public double Memory { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#memory PipesPipe#memory}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#memory PipesPipe#memory}.
 
 ---
 
@@ -4248,7 +4248,7 @@ public double MemoryReservation { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#memory_reservation PipesPipe#memory_reservation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#memory_reservation PipesPipe#memory_reservation}.
 
 ---
 
@@ -4260,7 +4260,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}.
 
 ---
 
@@ -4272,7 +4272,7 @@ public IResolvable|PipesPipeTargetParametersEcsTaskParametersOverridesContainerO
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements">PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#resource_requirements PipesPipe#resource_requirements}.
 
 ---
 
@@ -4293,8 +4293,8 @@ new PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnviron
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -4306,7 +4306,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}.
 
 ---
 
@@ -4318,7 +4318,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -4339,8 +4339,8 @@ new PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnviron
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -4352,7 +4352,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 
 ---
 
@@ -4364,7 +4364,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -4385,8 +4385,8 @@ new PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -4398,7 +4398,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 
 ---
 
@@ -4410,7 +4410,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -4430,7 +4430,7 @@ new PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage.property.sizeInGiB">SizeInGiB</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#size_in_gi_b PipesPipe#size_in_gi_b}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage.property.sizeInGiB">SizeInGiB</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#size_in_gi_b PipesPipe#size_in_gi_b}. |
 
 ---
 
@@ -4442,7 +4442,7 @@ public double SizeInGiB { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#size_in_gi_b PipesPipe#size_in_gi_b}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#size_in_gi_b PipesPipe#size_in_gi_b}.
 
 ---
 
@@ -4463,8 +4463,8 @@ new PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides.property.deviceName">DeviceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#device_name PipesPipe#device_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides.property.deviceType">DeviceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#device_type PipesPipe#device_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides.property.deviceName">DeviceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#device_name PipesPipe#device_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides.property.deviceType">DeviceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#device_type PipesPipe#device_type}. |
 
 ---
 
@@ -4476,7 +4476,7 @@ public string DeviceName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#device_name PipesPipe#device_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#device_name PipesPipe#device_name}.
 
 ---
 
@@ -4488,7 +4488,7 @@ public string DeviceType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#device_type PipesPipe#device_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#device_type PipesPipe#device_type}.
 
 ---
 
@@ -4509,8 +4509,8 @@ new PipesPipeTargetParametersEcsTaskParametersPlacementConstraints {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#expression PipesPipe#expression}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#expression PipesPipe#expression}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementConstraints.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
 
 ---
 
@@ -4522,7 +4522,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#expression PipesPipe#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#expression PipesPipe#expression}.
 
 ---
 
@@ -4534,7 +4534,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 
 ---
 
@@ -4555,8 +4555,8 @@ new PipesPipeTargetParametersEcsTaskParametersPlacementStrategy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy.property.field">Field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#field PipesPipe#field}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy.property.field">Field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#field PipesPipe#field}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersPlacementStrategy.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}. |
 
 ---
 
@@ -4568,7 +4568,7 @@ public string Field { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#field PipesPipe#field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#field PipesPipe#field}.
 
 ---
 
@@ -4580,7 +4580,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#type PipesPipe#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#type PipesPipe#type}.
 
 ---
 
@@ -4601,8 +4601,8 @@ new PipesPipeTargetParametersEcsTaskParametersTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#key PipesPipe#key}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#key PipesPipe#key}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEcsTaskParametersTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -4614,7 +4614,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#key PipesPipe#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#key PipesPipe#key}.
 
 ---
 
@@ -4626,7 +4626,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -4650,11 +4650,11 @@ new PipesPipeTargetParametersEventBridgeEventBusParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.detailType">DetailType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#detail_type PipesPipe#detail_type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.endpointId">EndpointId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#endpoint_id PipesPipe#endpoint_id}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.resources">Resources</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#resources PipesPipe#resources}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#source PipesPipe#source}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.time">Time</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#time PipesPipe#time}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.detailType">DetailType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#detail_type PipesPipe#detail_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.endpointId">EndpointId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#endpoint_id PipesPipe#endpoint_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.resources">Resources</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#resources PipesPipe#resources}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.source">Source</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#source PipesPipe#source}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersEventBridgeEventBusParameters.property.time">Time</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#time PipesPipe#time}. |
 
 ---
 
@@ -4666,7 +4666,7 @@ public string DetailType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#detail_type PipesPipe#detail_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#detail_type PipesPipe#detail_type}.
 
 ---
 
@@ -4678,7 +4678,7 @@ public string EndpointId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#endpoint_id PipesPipe#endpoint_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#endpoint_id PipesPipe#endpoint_id}.
 
 ---
 
@@ -4690,7 +4690,7 @@ public string[] Resources { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#resources PipesPipe#resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#resources PipesPipe#resources}.
 
 ---
 
@@ -4702,7 +4702,7 @@ public string Source { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#source PipesPipe#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#source PipesPipe#source}.
 
 ---
 
@@ -4714,7 +4714,7 @@ public string Time { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#time PipesPipe#time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#time PipesPipe#time}.
 
 ---
 
@@ -4736,9 +4736,9 @@ new PipesPipeTargetParametersHttpParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters.property.pathParameterValues">PathParameterValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters.property.headerParameters">HeaderParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters.property.pathParameterValues">PathParameterValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersHttpParameters.property.queryStringParameters">QueryStringParameters</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}. |
 
 ---
 
@@ -4750,7 +4750,7 @@ public System.Collections.Generic.IDictionary<string, string> HeaderParameters {
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#header_parameters PipesPipe#header_parameters}.
 
 ---
 
@@ -4762,7 +4762,7 @@ public string[] PathParameterValues { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#path_parameter_values PipesPipe#path_parameter_values}.
 
 ---
 
@@ -4774,7 +4774,7 @@ public System.Collections.Generic.IDictionary<string, string> QueryStringParamet
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#query_string_parameters PipesPipe#query_string_parameters}.
 
 ---
 
@@ -4794,7 +4794,7 @@ new PipesPipeTargetParametersKinesisStreamParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters.property.partitionKey">PartitionKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersKinesisStreamParameters.property.partitionKey">PartitionKey</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}. |
 
 ---
 
@@ -4806,7 +4806,7 @@ public string PartitionKey { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.
 
 ---
 
@@ -4826,7 +4826,7 @@ new PipesPipeTargetParametersLambdaFunctionParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters.property.invocationType">InvocationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersLambdaFunctionParameters.property.invocationType">InvocationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}. |
 
 ---
 
@@ -4838,7 +4838,7 @@ public string InvocationType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}.
 
 ---
 
@@ -4868,7 +4868,7 @@ new PipesPipeTargetParametersRedshiftDataParameters {
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters.property.secretManagerArn">SecretManagerArn</a></code> | <code>string</code> | Optional SecretManager ARN which stores the database credentials. |
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters.property.sqls">Sqls</a></code> | <code>string[]</code> | A list of SQLs. |
 | <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters.property.statementName">StatementName</a></code> | <code>string</code> | A name for Redshift DataAPI statement which can be used as filter of ListStatement. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters.property.withEvent">WithEvent</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#with_event PipesPipe#with_event}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersRedshiftDataParameters.property.withEvent">WithEvent</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#with_event PipesPipe#with_event}. |
 
 ---
 
@@ -4882,7 +4882,7 @@ public string Database { get; set; }
 
 Redshift Database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#database PipesPipe#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#database PipesPipe#database}
 
 ---
 
@@ -4896,7 +4896,7 @@ public string DbUser { get; set; }
 
 Database user name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#db_user PipesPipe#db_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#db_user PipesPipe#db_user}
 
 ---
 
@@ -4910,7 +4910,7 @@ public string SecretManagerArn { get; set; }
 
 Optional SecretManager ARN which stores the database credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#secret_manager_arn PipesPipe#secret_manager_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#secret_manager_arn PipesPipe#secret_manager_arn}
 
 ---
 
@@ -4924,7 +4924,7 @@ public string[] Sqls { get; set; }
 
 A list of SQLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#sqls PipesPipe#sqls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#sqls PipesPipe#sqls}
 
 ---
 
@@ -4938,7 +4938,7 @@ public string StatementName { get; set; }
 
 A name for Redshift DataAPI statement which can be used as filter of ListStatement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#statement_name PipesPipe#statement_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#statement_name PipesPipe#statement_name}
 
 ---
 
@@ -4950,7 +4950,7 @@ public bool|IResolvable WithEvent { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#with_event PipesPipe#with_event}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#with_event PipesPipe#with_event}.
 
 ---
 
@@ -4970,7 +4970,7 @@ new PipesPipeTargetParametersSageMakerPipelineParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParameters.property.pipelineParameterList">PipelineParameterList</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct">PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#pipeline_parameter_list PipesPipe#pipeline_parameter_list}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParameters.property.pipelineParameterList">PipelineParameterList</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct">PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#pipeline_parameter_list PipesPipe#pipeline_parameter_list}. |
 
 ---
 
@@ -4982,7 +4982,7 @@ public IResolvable|PipesPipeTargetParametersSageMakerPipelineParametersPipelineP
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct">PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#pipeline_parameter_list PipesPipe#pipeline_parameter_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#pipeline_parameter_list PipesPipe#pipeline_parameter_list}.
 
 ---
 
@@ -5003,8 +5003,8 @@ new PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSageMakerPipelineParametersPipelineParameterListStruct.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}. |
 
 ---
 
@@ -5016,7 +5016,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#name PipesPipe#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#name PipesPipe#name}.
 
 ---
 
@@ -5028,7 +5028,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#value PipesPipe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#value PipesPipe#value}.
 
 ---
 
@@ -5049,8 +5049,8 @@ new PipesPipeTargetParametersSqsQueueParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters.property.messageDeduplicationId">MessageDeduplicationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters.property.messageGroupId">MessageGroupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters.property.messageDeduplicationId">MessageDeduplicationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersSqsQueueParameters.property.messageGroupId">MessageGroupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}. |
 
 ---
 
@@ -5062,7 +5062,7 @@ public string MessageDeduplicationId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#message_deduplication_id PipesPipe#message_deduplication_id}.
 
 ---
 
@@ -5074,7 +5074,7 @@ public string MessageGroupId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#message_group_id PipesPipe#message_group_id}.
 
 ---
 
@@ -5094,7 +5094,7 @@ new PipesPipeTargetParametersStepFunctionStateMachineParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters.property.invocationType">InvocationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersStepFunctionStateMachineParameters.property.invocationType">InvocationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}. |
 
 ---
 
@@ -5106,7 +5106,7 @@ public string InvocationType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#invocation_type PipesPipe#invocation_type}.
 
 ---
 
@@ -5133,14 +5133,14 @@ new PipesPipeTargetParametersTimestreamParameters {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.dimensionMappings">DimensionMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings">PipesPipeTargetParametersTimestreamParametersDimensionMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_mappings PipesPipe#dimension_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.epochTimeUnit">EpochTimeUnit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#epoch_time_unit PipesPipe#epoch_time_unit}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.multiMeasureMappings">MultiMeasureMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings">PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_mappings PipesPipe#multi_measure_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.singleMeasureMappings">SingleMeasureMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings">PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#single_measure_mappings PipesPipe#single_measure_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.timeFieldType">TimeFieldType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#time_field_type PipesPipe#time_field_type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.timestampFormat">TimestampFormat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#timestamp_format PipesPipe#timestamp_format}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.timeValue">TimeValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#time_value PipesPipe#time_value}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.versionValue">VersionValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#version_value PipesPipe#version_value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.dimensionMappings">DimensionMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings">PipesPipeTargetParametersTimestreamParametersDimensionMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_mappings PipesPipe#dimension_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.epochTimeUnit">EpochTimeUnit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#epoch_time_unit PipesPipe#epoch_time_unit}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.multiMeasureMappings">MultiMeasureMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings">PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_mappings PipesPipe#multi_measure_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.singleMeasureMappings">SingleMeasureMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings">PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#single_measure_mappings PipesPipe#single_measure_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.timeFieldType">TimeFieldType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#time_field_type PipesPipe#time_field_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.timestampFormat">TimestampFormat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#timestamp_format PipesPipe#timestamp_format}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.timeValue">TimeValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#time_value PipesPipe#time_value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParameters.property.versionValue">VersionValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#version_value PipesPipe#version_value}. |
 
 ---
 
@@ -5152,7 +5152,7 @@ public IResolvable|PipesPipeTargetParametersTimestreamParametersDimensionMapping
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings">PipesPipeTargetParametersTimestreamParametersDimensionMappings</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_mappings PipesPipe#dimension_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_mappings PipesPipe#dimension_mappings}.
 
 ---
 
@@ -5164,7 +5164,7 @@ public string EpochTimeUnit { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#epoch_time_unit PipesPipe#epoch_time_unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#epoch_time_unit PipesPipe#epoch_time_unit}.
 
 ---
 
@@ -5176,7 +5176,7 @@ public IResolvable|PipesPipeTargetParametersTimestreamParametersMultiMeasureMapp
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings">PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_mappings PipesPipe#multi_measure_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_mappings PipesPipe#multi_measure_mappings}.
 
 ---
 
@@ -5188,7 +5188,7 @@ public IResolvable|PipesPipeTargetParametersTimestreamParametersSingleMeasureMap
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings">PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#single_measure_mappings PipesPipe#single_measure_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#single_measure_mappings PipesPipe#single_measure_mappings}.
 
 ---
 
@@ -5200,7 +5200,7 @@ public string TimeFieldType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#time_field_type PipesPipe#time_field_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#time_field_type PipesPipe#time_field_type}.
 
 ---
 
@@ -5212,7 +5212,7 @@ public string TimestampFormat { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#timestamp_format PipesPipe#timestamp_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#timestamp_format PipesPipe#timestamp_format}.
 
 ---
 
@@ -5224,7 +5224,7 @@ public string TimeValue { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#time_value PipesPipe#time_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#time_value PipesPipe#time_value}.
 
 ---
 
@@ -5236,7 +5236,7 @@ public string VersionValue { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#version_value PipesPipe#version_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#version_value PipesPipe#version_value}.
 
 ---
 
@@ -5258,9 +5258,9 @@ new PipesPipeTargetParametersTimestreamParametersDimensionMappings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings.property.dimensionName">DimensionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_name PipesPipe#dimension_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings.property.dimensionValue">DimensionValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_value PipesPipe#dimension_value}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings.property.dimensionValueType">DimensionValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_value_type PipesPipe#dimension_value_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings.property.dimensionName">DimensionName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_name PipesPipe#dimension_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings.property.dimensionValue">DimensionValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_value PipesPipe#dimension_value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersDimensionMappings.property.dimensionValueType">DimensionValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_value_type PipesPipe#dimension_value_type}. |
 
 ---
 
@@ -5272,7 +5272,7 @@ public string DimensionName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_name PipesPipe#dimension_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_name PipesPipe#dimension_name}.
 
 ---
 
@@ -5284,7 +5284,7 @@ public string DimensionValue { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_value PipesPipe#dimension_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_value PipesPipe#dimension_value}.
 
 ---
 
@@ -5296,7 +5296,7 @@ public string DimensionValueType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#dimension_value_type PipesPipe#dimension_value_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#dimension_value_type PipesPipe#dimension_value_type}.
 
 ---
 
@@ -5317,8 +5317,8 @@ new PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings.property.multiMeasureAttributeMappings">MultiMeasureAttributeMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings">PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_attribute_mappings PipesPipe#multi_measure_attribute_mappings}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings.property.multiMeasureName">MultiMeasureName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_name PipesPipe#multi_measure_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings.property.multiMeasureAttributeMappings">MultiMeasureAttributeMappings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings">PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_attribute_mappings PipesPipe#multi_measure_attribute_mappings}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappings.property.multiMeasureName">MultiMeasureName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_name PipesPipe#multi_measure_name}. |
 
 ---
 
@@ -5330,7 +5330,7 @@ public IResolvable|PipesPipeTargetParametersTimestreamParametersMultiMeasureMapp
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings">PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_attribute_mappings PipesPipe#multi_measure_attribute_mappings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_attribute_mappings PipesPipe#multi_measure_attribute_mappings}.
 
 ---
 
@@ -5342,7 +5342,7 @@ public string MultiMeasureName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_name PipesPipe#multi_measure_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_name PipesPipe#multi_measure_name}.
 
 ---
 
@@ -5364,9 +5364,9 @@ new PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasur
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings.property.measureValue">MeasureValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings.property.measureValueType">MeasureValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings.property.multiMeasureAttributeName">MultiMeasureAttributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings.property.measureValue">MeasureValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings.property.measureValueType">MeasureValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings.property.multiMeasureAttributeName">MultiMeasureAttributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}. |
 
 ---
 
@@ -5378,7 +5378,7 @@ public string MeasureValue { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}.
 
 ---
 
@@ -5390,7 +5390,7 @@ public string MeasureValueType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}.
 
 ---
 
@@ -5402,7 +5402,7 @@ public string MultiMeasureAttributeName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}.
 
 ---
 
@@ -5424,9 +5424,9 @@ new PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings.property.measureName">MeasureName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_name PipesPipe#measure_name}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings.property.measureValue">MeasureValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}. |
-| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings.property.measureValueType">MeasureValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings.property.measureName">MeasureName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_name PipesPipe#measure_name}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings.property.measureValue">MeasureValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}. |
+| <code><a href="#@cdktn/provider-awscc.pipesPipe.PipesPipeTargetParametersTimestreamParametersSingleMeasureMappings.property.measureValueType">MeasureValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}. |
 
 ---
 
@@ -5438,7 +5438,7 @@ public string MeasureName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_name PipesPipe#measure_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_name PipesPipe#measure_name}.
 
 ---
 
@@ -5450,7 +5450,7 @@ public string MeasureValue { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}.
 
 ---
 
@@ -5462,7 +5462,7 @@ public string MeasureValueType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}.
 
 ---
 

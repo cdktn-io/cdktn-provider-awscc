@@ -4,7 +4,7 @@
 
 ### DataAwsccIotanalyticsDatastores <a name="DataAwsccIotanalyticsDatastores" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotanalytics_datastores awscc_iotanalytics_datastores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotanalytics_datastores awscc_iotanalytics_datastores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotanalyticsDatastores.DataAwsccIotanalyticsDatastores.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotanalyticsDatas
 
 The id of the existing DataAwsccIotanalyticsDatastores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotanalytics_datastores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotanalytics_datastores#import import section} in the documentation of this resource for the id to use
 
 ---
 

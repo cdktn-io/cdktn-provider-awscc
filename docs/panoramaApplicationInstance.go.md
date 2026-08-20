@@ -4,7 +4,7 @@
 
 ### PanoramaApplicationInstance <a name="PanoramaApplicationInstance" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance awscc_panorama_application_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance awscc_panorama_application_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstance.Initializer"></a>
 
@@ -570,7 +570,7 @@ The construct id used in the generated config for the PanoramaApplicationInstanc
 
 The id of the existing PanoramaApplicationInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1168,7 +1168,7 @@ DefaultRuntimeContextDevice *string
 
 The device's ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#default_runtime_context_device PanoramaApplicationInstance#default_runtime_context_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#default_runtime_context_device PanoramaApplicationInstance#default_runtime_context_device}
 
 ---
 
@@ -1182,7 +1182,7 @@ ManifestPayload PanoramaApplicationInstanceManifestPayload
 
 The application's manifest document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#manifest_payload PanoramaApplicationInstance#manifest_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#manifest_payload PanoramaApplicationInstance#manifest_payload}
 
 ---
 
@@ -1196,7 +1196,7 @@ ApplicationInstanceIdToReplace *string
 
 The ID of an application instance to replace with the new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#application_instance_id_to_replace PanoramaApplicationInstance#application_instance_id_to_replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#application_instance_id_to_replace PanoramaApplicationInstance#application_instance_id_to_replace}
 
 ---
 
@@ -1210,7 +1210,7 @@ Description *string
 
 A description for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#description PanoramaApplicationInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#description PanoramaApplicationInstance#description}
 
 ---
 
@@ -1224,7 +1224,7 @@ ManifestOverridesPayload PanoramaApplicationInstanceManifestOverridesPayload
 
 Setting overrides for the application manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#manifest_overrides_payload PanoramaApplicationInstance#manifest_overrides_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#manifest_overrides_payload PanoramaApplicationInstance#manifest_overrides_payload}
 
 ---
 
@@ -1238,7 +1238,7 @@ Name *string
 
 A name for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#name PanoramaApplicationInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#name PanoramaApplicationInstance#name}
 
 ---
 
@@ -1252,7 +1252,7 @@ RuntimeRoleArn *string
 
 The ARN of a runtime role for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#runtime_role_arn PanoramaApplicationInstance#runtime_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#runtime_role_arn PanoramaApplicationInstance#runtime_role_arn}
 
 ---
 
@@ -1266,7 +1266,7 @@ Tags interface{}
 
 Tags for the application instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#tags PanoramaApplicationInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#tags PanoramaApplicationInstance#tags}
 
 ---
 
@@ -1300,7 +1300,7 @@ PayloadData *string
 
 The overrides document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
 
 ---
 
@@ -1334,7 +1334,7 @@ PayloadData *string
 
 The application manifest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
 
 ---
 
@@ -1355,8 +1355,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/panoramaapplicationins
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}. |
-| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}. |
+| <code><a href="#@cdktn/provider-awscc.panoramaApplicationInstance.PanoramaApplicationInstanceTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}. |
 
 ---
 
@@ -1368,7 +1368,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#key PanoramaApplicationInstance#key}.
 
 ---
 
@@ -1380,7 +1380,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_application_instance#value PanoramaApplicationInstance#value}.
 
 ---
 

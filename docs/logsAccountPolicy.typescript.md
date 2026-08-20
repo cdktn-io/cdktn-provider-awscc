@@ -4,7 +4,7 @@
 
 ### LogsAccountPolicy <a name="LogsAccountPolicy" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy awscc_logs_account_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy awscc_logs_account_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsAccountPolicy.LogsAccountPolicy.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the LogsAccountPolicy to impor
 
 The id of the existing LogsAccountPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ The policy must be in JSON string format.
 
 Length Constraints: Maximum length of 30720
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
 
 ---
 
@@ -959,7 +959,7 @@ public readonly policyName: string;
 
 The name of the account policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy#policy_name LogsAccountPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#policy_name LogsAccountPolicy#policy_name}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly policyType: string;
 
 Type of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy#policy_type LogsAccountPolicy#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#policy_type LogsAccountPolicy#policy_type}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly scope: string;
 
 Scope for policy application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy#scope LogsAccountPolicy#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#scope LogsAccountPolicy#scope}
 
 ---
 
@@ -1003,7 +1003,7 @@ Log group  selection criteria to apply policy only to a subset of log groups.
 
 SelectionCriteria string can be up to 25KB and cloudwatchlogs determines the length of selectionCriteria by using its UTF-8 bytes
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_account_policy#selection_criteria LogsAccountPolicy#selection_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#selection_criteria LogsAccountPolicy#selection_criteria}
 
 ---
 

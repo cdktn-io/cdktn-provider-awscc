@@ -4,7 +4,7 @@
 
 ### LocationTrackerConsumer <a name="LocationTrackerConsumer" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer"></a>
 
@@ -35,8 +35,8 @@ LocationTrackerConsumer.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.consumerArn">consumerArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.trackerName">trackerName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.consumerArn">consumerArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer.parameter.trackerName">trackerName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
 
 ---
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
 
 ---
 
@@ -561,7 +561,7 @@ The construct id used in the generated config for the LocationTrackerConsumer to
 
 The id of the existing LocationTrackerConsumer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,8 +842,8 @@ LocationTrackerConsumerConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.consumerArn">consumerArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.trackerName">trackerName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.consumerArn">consumerArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.trackerName">trackerName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
 
 ---
 
@@ -925,7 +925,7 @@ public java.lang.String getConsumerArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
 
 ---
 
@@ -937,7 +937,7 @@ public java.lang.String getTrackerName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
 
 ---
 

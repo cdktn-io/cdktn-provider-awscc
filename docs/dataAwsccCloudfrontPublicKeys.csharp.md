@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontPublicKeys <a name="DataAwsccCloudfrontPublicKeys" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontPublicKeys.DataAwsccCloudfrontPublicKeys.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontPublicK
 
 The id of the existing DataAwsccCloudfrontPublicKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_public_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_public_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 

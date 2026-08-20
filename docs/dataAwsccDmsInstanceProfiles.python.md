@@ -4,7 +4,7 @@
 
 ### DataAwsccDmsInstanceProfiles <a name="DataAwsccDmsInstanceProfiles" id="@cdktn/provider-awscc.dataAwsccDmsInstanceProfiles.DataAwsccDmsInstanceProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_instance_profiles awscc_dms_instance_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_instance_profiles awscc_dms_instance_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDmsInstanceProfiles.DataAwsccDmsInstanceProfiles.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDmsInstanceProfil
 
 The id of the existing DataAwsccDmsInstanceProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_instance_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_instance_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

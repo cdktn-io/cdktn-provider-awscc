@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectSecurityKeys <a name="DataAwsccConnectSecurityKeys" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectSecurityKeys.DataAwsccConnectSecurityKeys.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccConnectSecurityKe
 
 The id of the existing DataAwsccConnectSecurityKeys that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_security_keys#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_security_keys#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailStaticIps <a name="DataAwsccLightsailStaticIps" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIps.DataAwsccLightsailStaticIps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_static_ips awscc_lightsail_static_ips}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_static_ips awscc_lightsail_static_ips}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailStaticIps.DataAwsccLightsailStaticIps.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccLightsailStaticIp
 
 The id of the existing DataAwsccLightsailStaticIps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_static_ips#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_static_ips#import import section} in the documentation of this resource for the id to use
 
 ---
 

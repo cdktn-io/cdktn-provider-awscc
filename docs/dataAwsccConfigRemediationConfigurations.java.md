@@ -4,7 +4,7 @@
 
 ### DataAwsccConfigRemediationConfigurations <a name="DataAwsccConfigRemediationConfigurations" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfigurations.DataAwsccConfigRemediationConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigRemediationConfigurations.DataAwsccConfigRemediationConfigurations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccConfigRemediation
 
 The id of the existing DataAwsccConfigRemediationConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_remediation_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/config_remediation_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

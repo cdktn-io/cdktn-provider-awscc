@@ -4,7 +4,7 @@
 
 ### QuicksightRefreshSchedule <a name="QuicksightRefreshSchedule" id="@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshSchedule.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the QuicksightRefreshSchedule 
 
 The id of the existing QuicksightRefreshSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -838,9 +838,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightrefreshsched
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#aws_account_id QuicksightRefreshSchedule#aws_account_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.dataSetId">DataSetId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#data_set_id QuicksightRefreshSchedule#data_set_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule">QuicksightRefreshScheduleSchedule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#schedule QuicksightRefreshSchedule#schedule}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#aws_account_id QuicksightRefreshSchedule#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.dataSetId">DataSetId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#data_set_id QuicksightRefreshSchedule#data_set_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleConfig.property.schedule">Schedule</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule">QuicksightRefreshScheduleSchedule</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#schedule QuicksightRefreshSchedule#schedule}. |
 
 ---
 
@@ -922,7 +922,7 @@ AwsAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#aws_account_id QuicksightRefreshSchedule#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#aws_account_id QuicksightRefreshSchedule#aws_account_id}.
 
 ---
 
@@ -934,7 +934,7 @@ DataSetId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#data_set_id QuicksightRefreshSchedule#data_set_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#data_set_id QuicksightRefreshSchedule#data_set_id}.
 
 ---
 
@@ -946,7 +946,7 @@ Schedule QuicksightRefreshScheduleSchedule
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule">QuicksightRefreshScheduleSchedule</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#schedule QuicksightRefreshSchedule#schedule}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#schedule QuicksightRefreshSchedule#schedule}.
 
 ---
 
@@ -969,7 +969,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightrefreshsched
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule.property.refreshType">RefreshType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule.property.refreshType">RefreshType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule.property.scheduleFrequency">ScheduleFrequency</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency">QuicksightRefreshScheduleScheduleScheduleFrequency</a></code> | <p>Information about the schedule frequency.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule.property.scheduleId">ScheduleId</a></code> | <code>*string</code> | <p>An unique identifier for the refresh schedule.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleSchedule.property.startAfterDateTime">StartAfterDateTime</a></code> | <code>*string</code> | <p>The date time after which refresh is to be scheduled</p>. |
@@ -984,7 +984,7 @@ RefreshType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#refresh_type QuicksightRefreshSchedule#refresh_type}.
 
 ---
 
@@ -998,7 +998,7 @@ ScheduleFrequency QuicksightRefreshScheduleScheduleScheduleFrequency
 
 <p>Information about the schedule frequency.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#schedule_frequency QuicksightRefreshSchedule#schedule_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#schedule_frequency QuicksightRefreshSchedule#schedule_frequency}
 
 ---
 
@@ -1012,7 +1012,7 @@ ScheduleId *string
 
 <p>An unique identifier for the refresh schedule.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#schedule_id QuicksightRefreshSchedule#schedule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#schedule_id QuicksightRefreshSchedule#schedule_id}
 
 ---
 
@@ -1026,7 +1026,7 @@ StartAfterDateTime *string
 
 <p>The date time after which refresh is to be scheduled</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#start_after_date_time QuicksightRefreshSchedule#start_after_date_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#start_after_date_time QuicksightRefreshSchedule#start_after_date_time}
 
 ---
 
@@ -1049,7 +1049,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightrefreshsched
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency.property.interval">Interval</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency.property.interval">Interval</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency.property.refreshOnDay">RefreshOnDay</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay">QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay</a></code> | <p>The day scheduled for refresh.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency.property.timeOfTheDay">TimeOfTheDay</a></code> | <code>*string</code> | <p>The time of the day for scheduled refresh.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequency.property.timeZone">TimeZone</a></code> | <code>*string</code> | <p>The timezone for scheduled refresh.</p>. |
@@ -1064,7 +1064,7 @@ Interval *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#interval QuicksightRefreshSchedule#interval}.
 
 ---
 
@@ -1078,7 +1078,7 @@ RefreshOnDay QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay
 
 <p>The day scheduled for refresh.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#refresh_on_day QuicksightRefreshSchedule#refresh_on_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#refresh_on_day QuicksightRefreshSchedule#refresh_on_day}
 
 ---
 
@@ -1092,7 +1092,7 @@ TimeOfTheDay *string
 
 <p>The time of the day for scheduled refresh.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#time_of_the_day QuicksightRefreshSchedule#time_of_the_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#time_of_the_day QuicksightRefreshSchedule#time_of_the_day}
 
 ---
 
@@ -1106,7 +1106,7 @@ TimeZone *string
 
 <p>The timezone for scheduled refresh.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#time_zone QuicksightRefreshSchedule#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#time_zone QuicksightRefreshSchedule#time_zone}
 
 ---
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightrefreshsched
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay.property.dayOfMonth">DayOfMonth</a></code> | <code>*string</code> | <p>The Day Of Month for scheduled refresh.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay.property.dayOfWeek">DayOfWeek</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#day_of_week QuicksightRefreshSchedule#day_of_week}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightRefreshSchedule.QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDay.property.dayOfWeek">DayOfWeek</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#day_of_week QuicksightRefreshSchedule#day_of_week}. |
 
 ---
 
@@ -1142,7 +1142,7 @@ DayOfMonth *string
 
 <p>The Day Of Month for scheduled refresh.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#day_of_month QuicksightRefreshSchedule#day_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#day_of_month QuicksightRefreshSchedule#day_of_month}
 
 ---
 
@@ -1154,7 +1154,7 @@ DayOfWeek *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_refresh_schedule#day_of_week QuicksightRefreshSchedule#day_of_week}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_refresh_schedule#day_of_week QuicksightRefreshSchedule#day_of_week}.
 
 ---
 

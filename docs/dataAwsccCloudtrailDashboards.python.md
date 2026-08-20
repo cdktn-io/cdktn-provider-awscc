@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudtrailDashboards <a name="DataAwsccCloudtrailDashboards" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboards.DataAwsccCloudtrailDashboards"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudtrail_dashboards awscc_cloudtrail_dashboards}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudtrail_dashboards awscc_cloudtrail_dashboards}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudtrailDashboards.DataAwsccCloudtrailDashboards.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudtrailDashboa
 
 The id of the existing DataAwsccCloudtrailDashboards that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudtrail_dashboards#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudtrail_dashboards#import import section} in the documentation of this resource for the id to use
 
 ---
 

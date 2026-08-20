@@ -4,7 +4,7 @@
 
 ### PcaconnectorscepChallenge <a name="PcaconnectorscepChallenge" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the PcaconnectorscepChallenge 
 
 The id of the existing PcaconnectorscepChallenge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -778,8 +778,8 @@ const pcaconnectorscepChallengeConfig: pcaconnectorscepChallenge.Pcaconnectorsce
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">connectorArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">connectorArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
 
 ---
 
@@ -861,7 +861,7 @@ public readonly connectorArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 
 ---
 
@@ -873,7 +873,7 @@ public readonly tags: {[ key: string ]: string};
 
 - *Type:* {[ key: string ]: string}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 
 ---
 

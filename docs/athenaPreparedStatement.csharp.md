@@ -4,7 +4,7 @@
 
 ### AthenaPreparedStatement <a name="AthenaPreparedStatement" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.athenaPreparedStatement.AthenaPreparedStatement.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the AthenaPreparedStatement to
 
 The id of the existing AthenaPreparedStatement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ public string QueryStatement { get; set; }
 
 The query string for the prepared statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/athena_prepared_statement#query_statement AthenaPreparedStatement#query_statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_prepared_statement#query_statement AthenaPreparedStatement#query_statement}
 
 ---
 
@@ -924,7 +924,7 @@ public string StatementName { get; set; }
 
 The name of the prepared statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/athena_prepared_statement#statement_name AthenaPreparedStatement#statement_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_prepared_statement#statement_name AthenaPreparedStatement#statement_name}
 
 ---
 
@@ -938,7 +938,7 @@ public string WorkGroup { get; set; }
 
 The name of the workgroup to which the prepared statement belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/athena_prepared_statement#work_group AthenaPreparedStatement#work_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_prepared_statement#work_group AthenaPreparedStatement#work_group}
 
 ---
 
@@ -952,7 +952,7 @@ public string Description { get; set; }
 
 The description of the prepared statement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/athena_prepared_statement#description AthenaPreparedStatement#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_prepared_statement#description AthenaPreparedStatement#description}
 
 ---
 

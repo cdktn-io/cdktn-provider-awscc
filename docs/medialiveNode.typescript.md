@@ -4,7 +4,7 @@
 
 ### MedialiveNode <a name="MedialiveNode" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node awscc_medialive_node}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node awscc_medialive_node}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveNode.MedialiveNode.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the MedialiveNode to import.
 
 The id of the existing MedialiveNode that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1077,7 +1077,7 @@ public readonly clusterId: string;
 
 The ID of the Cluster that the Node belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#cluster_id MedialiveNode#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#cluster_id MedialiveNode#cluster_id}
 
 ---
 
@@ -1091,7 +1091,7 @@ public readonly name: string;
 
 The user-specified name of the Node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#name MedialiveNode#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#name MedialiveNode#name}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly nodeInterfaceMappings: IResolvable | MedialiveNodeNodeInterfaceM
 
 An array of interface mappings for the Node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#node_interface_mappings MedialiveNode#node_interface_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#node_interface_mappings MedialiveNode#node_interface_mappings}
 
 ---
 
@@ -1121,7 +1121,7 @@ The role of the Node in the Cluster.
 
 ACTIVE means the Node is available for encoding. BACKUP means the Node is a redundant Node and might get used if an ACTIVE Node fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#role MedialiveNode#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#role MedialiveNode#role}
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly sdiSourceMappings: IResolvable | MedialiveNodeSdiSourceMappings[
 
 An array of SDI source mappings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#sdi_source_mappings MedialiveNode#sdi_source_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#sdi_source_mappings MedialiveNode#sdi_source_mappings}
 
 ---
 
@@ -1149,7 +1149,7 @@ public readonly tags: IResolvable | MedialiveNodeTags[];
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#tags MedialiveNode#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#tags MedialiveNode#tags}
 
 ---
 
@@ -1183,7 +1183,7 @@ public readonly logicalInterfaceName: string;
 
 The logical name for this interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#logical_interface_name MedialiveNode#logical_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#logical_interface_name MedialiveNode#logical_interface_name}
 
 ---
 
@@ -1197,7 +1197,7 @@ public readonly networkInterfaceMode: string;
 
 The network interface mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#network_interface_mode MedialiveNode#network_interface_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#network_interface_mode MedialiveNode#network_interface_mode}
 
 ---
 
@@ -1211,7 +1211,7 @@ public readonly physicalInterfaceName: string;
 
 The physical interface name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#physical_interface_name MedialiveNode#physical_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#physical_interface_name MedialiveNode#physical_interface_name}
 
 ---
 
@@ -1245,7 +1245,7 @@ public readonly cardNumber: number;
 
 The card number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#card_number MedialiveNode#card_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#card_number MedialiveNode#card_number}
 
 ---
 
@@ -1259,7 +1259,7 @@ public readonly channelNumber: number;
 
 The channel number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#channel_number MedialiveNode#channel_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#channel_number MedialiveNode#channel_number}
 
 ---
 
@@ -1273,7 +1273,7 @@ public readonly sdiSource: string;
 
 The SDI source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#sdi_source MedialiveNode#sdi_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#sdi_source MedialiveNode#sdi_source}
 
 ---
 
@@ -1306,7 +1306,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#key MedialiveNode#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#key MedialiveNode#key}
 
 ---
 
@@ -1320,7 +1320,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#value MedialiveNode#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#value MedialiveNode#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Ec2PrefixList <a name="Ec2PrefixList" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixList.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the Ec2PrefixList to import.
 
 The id of the existing Ec2PrefixList that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ public readonly addressFamily: string;
 
 Ip Version of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
 
 ---
 
@@ -1019,7 +1019,7 @@ public readonly prefixListName: string;
 
 Name of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly entries: IResolvable | Ec2PrefixListEntries[];
 
 Entries of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
 
 ---
 
@@ -1047,7 +1047,7 @@ public readonly maxEntries: number;
 
 Max Entries of Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
 
 ---
 
@@ -1061,7 +1061,7 @@ public readonly tags: IResolvable | Ec2PrefixListTags[];
 
 Tags for Prefix List.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
 
 ---
 
@@ -1079,8 +1079,8 @@ const ec2PrefixListEntries: ec2PrefixList.Ec2PrefixListEntries = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.cidr">cidr</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}. |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.cidr">cidr</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListEntries.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}. |
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly cidr: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}.
 
 ---
 
@@ -1104,7 +1104,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}.
 
 ---
 
@@ -1122,8 +1122,8 @@ const ec2PrefixListTags: ec2PrefixList.Ec2PrefixListTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2PrefixList.Ec2PrefixListTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}. |
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}.
 
 ---
 
@@ -1147,7 +1147,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}.
 
 ---
 

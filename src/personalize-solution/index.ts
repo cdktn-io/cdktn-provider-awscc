@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,57 +15,63 @@ export interface PersonalizeSolutionConfig extends cdktn.TerraformMetaArguments 
   /**
   * The ARN of the dataset group that provides the training data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#dataset_group_arn PersonalizeSolution#dataset_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#dataset_group_arn PersonalizeSolution#dataset_group_arn}
   */
   readonly datasetGroupArn: string;
   /**
   * When your have multiple event types (using an EVENT_TYPE schema field), this parameter specifies which event type (for example, 'click' or 'like') is used for training the model. If you do not provide an eventType, Amazon Personalize will use all interactions for training with equal weight regardless of type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#event_type PersonalizeSolution#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#event_type PersonalizeSolution#event_type}
   */
   readonly eventType?: string;
   /**
   * The name for the solution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
   */
   readonly name: string;
   /**
   * Whether to perform automated machine learning (AutoML). The default is false. For this case, you must specify recipeArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#perform_auto_ml PersonalizeSolution#perform_auto_ml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#perform_auto_ml PersonalizeSolution#perform_auto_ml}
   */
   readonly performAutoMl?: boolean | cdktn.IResolvable;
   /**
   * Whether to perform hyperparameter optimization (HPO) on the specified or selected recipe. The default is false. When performing AutoML, this parameter is always true and you should not set it to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#perform_hpo PersonalizeSolution#perform_hpo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#perform_hpo PersonalizeSolution#perform_hpo}
   */
   readonly performHpo?: boolean | cdktn.IResolvable;
   /**
   * The ARN of the recipe to use for model training. Only specified when performAutoML is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#recipe_arn PersonalizeSolution#recipe_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#recipe_arn PersonalizeSolution#recipe_arn}
   */
   readonly recipeArn?: string;
   /**
   * The configuration to use with the solution. When performAutoML is set to true, Amazon Personalize only evaluates the autoMLConfig section of the solution configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#solution_config PersonalizeSolution#solution_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#solution_config PersonalizeSolution#solution_config}
   */
   readonly solutionConfig?: PersonalizeSolutionSolutionConfig;
+  /**
+  * The tags used to organize, track, or control access for this resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#tags PersonalizeSolution#tags}
+  */
+  readonly tags?: PersonalizeSolutionTags[] | cdktn.IResolvable;
 }
 export interface PersonalizeSolutionSolutionConfigAutoMlConfig {
   /**
   * The metric to optimize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
   */
   readonly metricName?: string;
   /**
   * The list of candidate recipes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#recipe_list PersonalizeSolution#recipe_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#recipe_list PersonalizeSolution#recipe_list}
   */
   readonly recipeList?: string[];
 }
@@ -190,13 +196,13 @@ export interface PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParamet
   /**
   * The name of the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
   */
   readonly name?: string;
   /**
   * A list of the categories for the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#values PersonalizeSolution#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#values PersonalizeSolution#values}
   */
   readonly values?: string[];
 }
@@ -343,19 +349,19 @@ export interface PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParamet
   /**
   * The maximum allowable value for the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
   */
   readonly maxValue?: number;
   /**
   * The minimum allowable value for the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
   */
   readonly minValue?: number;
   /**
   * The name of the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
   */
   readonly name?: string;
 }
@@ -531,19 +537,19 @@ export interface PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParamet
   /**
   * The maximum allowable value for the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
   */
   readonly maxValue?: number;
   /**
   * The minimum allowable value for the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
   */
   readonly minValue?: number;
   /**
   * The name of the hyperparameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
   */
   readonly name?: string;
 }
@@ -719,19 +725,19 @@ export interface PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParamet
   /**
   * The categorical hyperparameters and their ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#categorical_hyper_parameter_ranges PersonalizeSolution#categorical_hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#categorical_hyper_parameter_ranges PersonalizeSolution#categorical_hyper_parameter_ranges}
   */
   readonly categoricalHyperParameterRanges?: PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesCategoricalHyperParameterRanges[] | cdktn.IResolvable;
   /**
   * The continuous hyperparameters and their ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#continuous_hyper_parameter_ranges PersonalizeSolution#continuous_hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#continuous_hyper_parameter_ranges PersonalizeSolution#continuous_hyper_parameter_ranges}
   */
   readonly continuousHyperParameterRanges?: PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesContinuousHyperParameterRanges[] | cdktn.IResolvable;
   /**
   * The integer hyperparameters and their ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#integer_hyper_parameter_ranges PersonalizeSolution#integer_hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#integer_hyper_parameter_ranges PersonalizeSolution#integer_hyper_parameter_ranges}
   */
   readonly integerHyperParameterRanges?: PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRangesIntegerHyperParameterRanges[] | cdktn.IResolvable;
 }
@@ -885,19 +891,19 @@ export interface PersonalizeSolutionSolutionConfigHpoConfigHpoObjective {
   /**
   * The name of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
   */
   readonly metricName?: string;
   /**
   * A regular expression for finding the metric in the training job logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_regex PersonalizeSolution#metric_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#metric_regex PersonalizeSolution#metric_regex}
   */
   readonly metricRegex?: string;
   /**
   * The type of the metric. Valid values are Maximize and Minimize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#type PersonalizeSolution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#type PersonalizeSolution#type}
   */
   readonly type?: string;
 }
@@ -1051,13 +1057,13 @@ export interface PersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfig {
   /**
   * The maximum number of training jobs when you create a solution version. The maximum value for maxNumberOfTrainingJobs is 40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_number_of_training_jobs PersonalizeSolution#max_number_of_training_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_number_of_training_jobs PersonalizeSolution#max_number_of_training_jobs}
   */
   readonly maxNumberOfTrainingJobs?: string;
   /**
   * The maximum number of parallel training jobs when you create a solution version. The maximum value for maxParallelTrainingJobs is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_parallel_training_jobs PersonalizeSolution#max_parallel_training_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_parallel_training_jobs PersonalizeSolution#max_parallel_training_jobs}
   */
   readonly maxParallelTrainingJobs?: string;
 }
@@ -1182,19 +1188,19 @@ export interface PersonalizeSolutionSolutionConfigHpoConfig {
   /**
   * The hyperparameters and their allowable ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#algorithm_hyper_parameter_ranges PersonalizeSolution#algorithm_hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#algorithm_hyper_parameter_ranges PersonalizeSolution#algorithm_hyper_parameter_ranges}
   */
   readonly algorithmHyperParameterRanges?: PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRanges;
   /**
   * The metric to optimize during HPO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_objective PersonalizeSolution#hpo_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#hpo_objective PersonalizeSolution#hpo_objective}
   */
   readonly hpoObjective?: PersonalizeSolutionSolutionConfigHpoConfigHpoObjective;
   /**
   * Describes the resource configuration for hyperparameter optimization (HPO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_resource_config PersonalizeSolution#hpo_resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#hpo_resource_config PersonalizeSolution#hpo_resource_config}
   */
   readonly hpoResourceConfig?: PersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfig;
 }
@@ -1348,31 +1354,31 @@ export interface PersonalizeSolutionSolutionConfig {
   /**
   * Lists the hyperparameter names and ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#algorithm_hyper_parameters PersonalizeSolution#algorithm_hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#algorithm_hyper_parameters PersonalizeSolution#algorithm_hyper_parameters}
   */
   readonly algorithmHyperParameters?: { [key: string]: string };
   /**
   * The AutoMLConfig object containing a list of recipes to search when AutoML is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#auto_ml_config PersonalizeSolution#auto_ml_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#auto_ml_config PersonalizeSolution#auto_ml_config}
   */
   readonly autoMlConfig?: PersonalizeSolutionSolutionConfigAutoMlConfig;
   /**
   * Only events with a value greater than or equal to this threshold are used for training a model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#event_value_threshold PersonalizeSolution#event_value_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#event_value_threshold PersonalizeSolution#event_value_threshold}
   */
   readonly eventValueThreshold?: string;
   /**
   * Lists the feature transformation parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#feature_transformation_parameters PersonalizeSolution#feature_transformation_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#feature_transformation_parameters PersonalizeSolution#feature_transformation_parameters}
   */
   readonly featureTransformationParameters?: { [key: string]: string };
   /**
   * Describes the properties for hyperparameter optimization (HPO)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_config PersonalizeSolution#hpo_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#hpo_config PersonalizeSolution#hpo_config}
   */
   readonly hpoConfig?: PersonalizeSolutionSolutionConfigHpoConfig;
 }
@@ -1580,9 +1586,158 @@ export class PersonalizeSolutionSolutionConfigOutputReference extends cdktn.Comp
     return this._hpoConfig.internalValue;
   }
 }
+export interface PersonalizeSolutionTags {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#key PersonalizeSolution#key}
+  */
+  readonly key?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#value PersonalizeSolution#value}
+  */
+  readonly value?: string;
+}
+
+export function personalizeSolutionTagsToTerraform(struct?: PersonalizeSolutionTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function personalizeSolutionTagsToHclTerraform(struct?: PersonalizeSolutionTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class PersonalizeSolutionTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): PersonalizeSolutionTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: PersonalizeSolutionTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class PersonalizeSolutionTagsList extends cdktn.ComplexList {
+  public internalValue? : PersonalizeSolutionTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): PersonalizeSolutionTagsOutputReference {
+    return new PersonalizeSolutionTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution awscc_personalize_solution}
 */
 export class PersonalizeSolution extends cdktn.TerraformResource {
 
@@ -1598,7 +1753,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PersonalizeSolution resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PersonalizeSolution to import
-  * @param importFromId The id of the existing PersonalizeSolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PersonalizeSolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PersonalizeSolution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1610,7 +1765,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution awscc_personalize_solution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1621,7 +1776,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_personalize_solution',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1639,6 +1794,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
     this._performHpo = config.performHpo;
     this._recipeArn = config.recipeArn;
     this._solutionConfig.internalValue = config.solutionConfig;
+    this._tags.internalValue = config.tags;
   }
 
   // ==========
@@ -1761,6 +1917,22 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
     return this._solutionConfig.internalValue;
   }
 
+  // tags - computed: true, optional: true, required: false
+  private _tags = new PersonalizeSolutionTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: PersonalizeSolutionTags[] | cdktn.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -1774,6 +1946,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
       perform_hpo: cdktn.booleanToTerraform(this._performHpo),
       recipe_arn: cdktn.stringToTerraform(this._recipeArn),
       solution_config: personalizeSolutionSolutionConfigToTerraform(this._solutionConfig.internalValue),
+      tags: cdktn.listMapper(personalizeSolutionTagsToTerraform, false)(this._tags.internalValue),
     };
   }
 
@@ -1820,6 +1993,12 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "PersonalizeSolutionSolutionConfig",
+      },
+      tags: {
+        value: cdktn.listMapperHcl(personalizeSolutionTagsToHclTerraform, false)(this._tags.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "PersonalizeSolutionTagsList",
       },
     };
 

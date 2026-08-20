@@ -4,7 +4,7 @@
 
 ### ConnectDataLakeAssociation <a name="ConnectDataLakeAssociation" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectDataLakeAssociation.ConnectDataLakeAssociation.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the analytics data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#data_set_id ConnectDataLakeAssociation#data_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#data_set_id ConnectDataLakeAssociation#data_set_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#instance_id ConnectDataLakeAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#instance_id ConnectDataLakeAssociation#instance_id}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#target_account_id ConnectDataLakeAssociation#target_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#target_account_id ConnectDataLakeAssociation#target_account_id}
 
 ---
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the ConnectDataLakeAssociation
 
 The id of the existing ConnectDataLakeAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -996,7 +996,7 @@ public java.lang.String getDataSetId();
 
 The identifier of the analytics data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#data_set_id ConnectDataLakeAssociation#data_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#data_set_id ConnectDataLakeAssociation#data_set_id}
 
 ---
 
@@ -1010,7 +1010,7 @@ public java.lang.String getInstanceId();
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#instance_id ConnectDataLakeAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#instance_id ConnectDataLakeAssociation#instance_id}
 
 ---
 
@@ -1024,7 +1024,7 @@ public java.lang.String getTargetAccountId();
 
 The identifier of the target account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_lake_association#target_account_id ConnectDataLakeAssociation#target_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_data_lake_association#target_account_id ConnectDataLakeAssociation#target_account_id}
 
 ---
 

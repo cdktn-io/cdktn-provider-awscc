@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailInstanceSnapshots <a name="DataAwsccLightsailInstanceSnapshots" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshots.DataAwsccLightsailInstanceSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_instance_snapshots awscc_lightsail_instance_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_instance_snapshots awscc_lightsail_instance_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailInstanceSnapshots.DataAwsccLightsailInstanceSnapshots.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailInstance
 
 The id of the existing DataAwsccLightsailInstanceSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_instance_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_instance_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 

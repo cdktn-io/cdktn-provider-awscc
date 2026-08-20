@@ -4,7 +4,7 @@
 
 ### PcaconnectorscepChallenge <a name="PcaconnectorscepChallenge" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer"></a>
 
@@ -37,8 +37,8 @@ pcaconnectorscepChallenge.PcaconnectorscepChallenge(
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 
 ---
 
@@ -618,7 +618,7 @@ The construct id used in the generated config for the PcaconnectorscepChallenge 
 
 The id of the existing PcaconnectorscepChallenge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,8 +910,8 @@ pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig(
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
 
 ---
 
@@ -993,7 +993,7 @@ connector_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 
 ---
 
@@ -1005,7 +1005,7 @@ tags: typing.Mapping[str]
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 
 ---
 

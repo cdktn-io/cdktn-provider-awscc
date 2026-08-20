@@ -4,7 +4,7 @@
 
 ### WorkspacesWorkspaceIpGroup <a name="WorkspacesWorkspaceIpGroup" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group awscc_workspaces_workspace_ip_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group awscc_workspaces_workspace_ip_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspacesWorkspaceIpGroup.WorkspacesWorkspaceIpGroup.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the WorkspacesWorkspaceIpGroup
 
 The id of the existing WorkspacesWorkspaceIpGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ public string GroupName { get; set; }
 
 The name of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#group_name WorkspacesWorkspaceIpGroup#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#group_name WorkspacesWorkspaceIpGroup#group_name}
 
 ---
 
@@ -986,7 +986,7 @@ public string GroupDesc { get; set; }
 
 The description of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#group_desc WorkspacesWorkspaceIpGroup#group_desc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#group_desc WorkspacesWorkspaceIpGroup#group_desc}
 
 ---
 
@@ -1000,7 +1000,7 @@ public IResolvable|WorkspacesWorkspaceIpGroupTags[] Tags { get; set; }
 
 The tags for the IP access control group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#tags WorkspacesWorkspaceIpGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#tags WorkspacesWorkspaceIpGroup#tags}
 
 ---
 
@@ -1014,7 +1014,7 @@ public IResolvable|WorkspacesWorkspaceIpGroupUserRules[] UserRules { get; set; }
 
 The rules for the IP access control group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#user_rules WorkspacesWorkspaceIpGroup#user_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#user_rules WorkspacesWorkspaceIpGroup#user_rules}
 
 ---
 
@@ -1050,7 +1050,7 @@ public string Key { get; set; }
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#key WorkspacesWorkspaceIpGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#key WorkspacesWorkspaceIpGroup#key}
 
 ---
 
@@ -1064,7 +1064,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#value WorkspacesWorkspaceIpGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#value WorkspacesWorkspaceIpGroup#value}
 
 ---
 
@@ -1100,7 +1100,7 @@ public string IpRule { get; set; }
 
 The IP address range, in CIDR notation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#ip_rule WorkspacesWorkspaceIpGroup#ip_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#ip_rule WorkspacesWorkspaceIpGroup#ip_rule}
 
 ---
 
@@ -1114,7 +1114,7 @@ public string RuleDesc { get; set; }
 
 The description of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/workspaces_workspace_ip_group#rule_desc WorkspacesWorkspaceIpGroup#rule_desc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspace_ip_group#rule_desc WorkspacesWorkspaceIpGroup#rule_desc}
 
 ---
 

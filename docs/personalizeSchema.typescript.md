@@ -4,7 +4,7 @@
 
 ### PersonalizeSchema <a name="PersonalizeSchema" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema awscc_personalize_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.Initializer"></a>
 
@@ -74,7 +74,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.putTags">putTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.resetDomain">resetDomain</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.resetTags">resetTags</a></code> | *No description.* |
 
 ---
 
@@ -387,10 +389,28 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putTags` <a name="putTags" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.putTags"></a>
+
+```typescript
+public putTags(value: IResolvable | PersonalizeSchemaTags[]): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.putTags.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]
+
+---
+
 ##### `resetDomain` <a name="resetDomain" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.resetDomain"></a>
 
 ```typescript
 public resetDomain(): void
+```
+
+##### `resetTags` <a name="resetTags" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.resetTags"></a>
+
+```typescript
+public resetTags(): void
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -496,7 +516,7 @@ The construct id used in the generated config for the PersonalizeSchema to impor
 
 The id of the existing PersonalizeSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -528,9 +548,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.schemaArn">schemaArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList">PersonalizeSchemaTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.domainInput">domainInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.schemaInput">schemaInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.tagsInput">tagsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.domain">domain</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.schema">schema</a></code> | <code>string</code> | *No description.* |
@@ -699,6 +721,16 @@ public readonly schemaArn: string;
 
 ---
 
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.tags"></a>
+
+```typescript
+public readonly tags: PersonalizeSchemaTagsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList">PersonalizeSchemaTagsList</a>
+
+---
+
 ##### `domainInput`<sup>Optional</sup> <a name="domainInput" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.domainInput"></a>
 
 ```typescript
@@ -726,6 +758,16 @@ public readonly schemaInput: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `tagsInput`<sup>Optional</sup> <a name="tagsInput" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchema.property.tagsInput"></a>
+
+```typescript
+public readonly tagsInput: IResolvable | PersonalizeSchemaTags[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]
 
 ---
 
@@ -803,6 +845,7 @@ const personalizeSchemaConfig: personalizeSchema.PersonalizeSchemaConfig = { ...
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaConfig.property.name">name</a></code> | <code>string</code> | Name for the schema. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaConfig.property.schema">schema</a></code> | <code>string</code> | A schema in Avro JSON format. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaConfig.property.domain">domain</a></code> | <code>string</code> | The domain of a Domain dataset group. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]</code> | The tags used to organize, track, or control access for this resource. |
 
 ---
 
@@ -886,7 +929,7 @@ public readonly name: string;
 
 Name for the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#name PersonalizeSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#name PersonalizeSchema#name}
 
 ---
 
@@ -900,7 +943,7 @@ public readonly schema: string;
 
 A schema in Avro JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#schema PersonalizeSchema#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#schema PersonalizeSchema#schema}
 
 ---
 
@@ -914,7 +957,550 @@ public readonly domain: string;
 
 The domain of a Domain dataset group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#domain PersonalizeSchema#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#domain PersonalizeSchema#domain}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaConfig.property.tags"></a>
+
+```typescript
+public readonly tags: IResolvable | PersonalizeSchemaTags[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]
+
+The tags used to organize, track, or control access for this resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#tags PersonalizeSchema#tags}
+
+---
+
+### PersonalizeSchemaTags <a name="PersonalizeSchemaTags" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags.Initializer"></a>
+
+```typescript
+import { personalizeSchema } from '@cdktn/provider-awscc'
+
+const personalizeSchemaTags: personalizeSchema.PersonalizeSchemaTags = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#key PersonalizeSchema#key}. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#value PersonalizeSchema#value}. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags.property.key"></a>
+
+```typescript
+public readonly key: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#key PersonalizeSchema#key}.
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema#value PersonalizeSchema#value}.
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### PersonalizeSchemaTagsList <a name="PersonalizeSchemaTagsList" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer"></a>
+
+```typescript
+import { personalizeSchema } from '@cdktn/provider-awscc'
+
+new personalizeSchema.PersonalizeSchemaTagsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.get"></a>
+
+```typescript
+public get(index: number): PersonalizeSchemaTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsList.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | PersonalizeSchemaTags[];
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>[]
+
+---
+
+
+### PersonalizeSchemaTagsOutputReference <a name="PersonalizeSchemaTagsOutputReference" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer"></a>
+
+```typescript
+import { personalizeSchema } from '@cdktn/provider-awscc'
+
+new personalizeSchema.PersonalizeSchemaTagsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resetKey">resetKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resetValue">resetValue</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetKey` <a name="resetKey" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resetKey"></a>
+
+```typescript
+public resetKey(): void
+```
+
+##### `resetValue` <a name="resetValue" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.resetValue"></a>
+
+```typescript
+public resetValue(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.keyInput">keyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.valueInput">valueInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.keyInput"></a>
+
+```typescript
+public readonly keyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `valueInput`<sup>Optional</sup> <a name="valueInput" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.valueInput"></a>
+
+```typescript
+public readonly valueInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.key"></a>
+
+```typescript
+public readonly key: string;
+```
+
+- *Type:* string
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTagsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | PersonalizeSchemaTags;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.personalizeSchema.PersonalizeSchemaTags">PersonalizeSchemaTags</a>
 
 ---
 

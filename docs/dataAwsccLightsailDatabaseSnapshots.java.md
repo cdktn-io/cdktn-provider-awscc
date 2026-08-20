@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailDatabaseSnapshots <a name="DataAwsccLightsailDatabaseSnapshots" id="@cdktn/provider-awscc.dataAwsccLightsailDatabaseSnapshots.DataAwsccLightsailDatabaseSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailDatabaseSnapshots.DataAwsccLightsailDatabaseSnapshots.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccLightsailDatabase
 
 The id of the existing DataAwsccLightsailDatabaseSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_database_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_database_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 

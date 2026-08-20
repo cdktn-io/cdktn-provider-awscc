@@ -4,7 +4,7 @@
 
 ### AppconfigExperimentDefinition <a name="AppconfigExperimentDefinition" id="@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition awscc_appconfig_experiment_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition awscc_appconfig_experiment_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinition.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the AppconfigExperimentDefinit
 
 The id of the existing AppconfigExperimentDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1217,7 +1217,7 @@ public string ApplicationIdentifier { get; set; }
 
 The application ID, name, or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#application_identifier AppconfigExperimentDefinition#application_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#application_identifier AppconfigExperimentDefinition#application_identifier}
 
 ---
 
@@ -1231,7 +1231,7 @@ public string AudienceRule { get; set; }
 
 Rule expression defining the experiment audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#audience_rule AppconfigExperimentDefinition#audience_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#audience_rule AppconfigExperimentDefinition#audience_rule}
 
 ---
 
@@ -1245,7 +1245,7 @@ public string ConfigurationProfileIdentifier { get; set; }
 
 The configuration profile ID, name, or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#configuration_profile_identifier AppconfigExperimentDefinition#configuration_profile_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#configuration_profile_identifier AppconfigExperimentDefinition#configuration_profile_identifier}
 
 ---
 
@@ -1259,7 +1259,7 @@ public AppconfigExperimentDefinitionControl Control { get; set; }
 
 The control (baseline) variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#control AppconfigExperimentDefinition#control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#control AppconfigExperimentDefinition#control}
 
 ---
 
@@ -1273,7 +1273,7 @@ public string EnvironmentIdentifier { get; set; }
 
 The environment ID, name, or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#environment_identifier AppconfigExperimentDefinition#environment_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#environment_identifier AppconfigExperimentDefinition#environment_identifier}
 
 ---
 
@@ -1287,7 +1287,7 @@ public string FlagKey { get; set; }
 
 The key of the existing flag in the configuration profile to experiment on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#flag_key AppconfigExperimentDefinition#flag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#flag_key AppconfigExperimentDefinition#flag_key}
 
 ---
 
@@ -1301,7 +1301,7 @@ public string Name { get; set; }
 
 A name for the experiment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#name AppconfigExperimentDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#name AppconfigExperimentDefinition#name}
 
 ---
 
@@ -1315,7 +1315,7 @@ public IResolvable|AppconfigExperimentDefinitionTreatments[] Treatments { get; s
 
 Treatment variants (1-5).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#treatments AppconfigExperimentDefinition#treatments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#treatments AppconfigExperimentDefinition#treatments}
 
 ---
 
@@ -1329,7 +1329,7 @@ public string AudienceDescription { get; set; }
 
 Human-readable description of the audience.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#audience_description AppconfigExperimentDefinition#audience_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#audience_description AppconfigExperimentDefinition#audience_description}
 
 ---
 
@@ -1343,7 +1343,7 @@ public string Hypothesis { get; set; }
 
 The hypothesis of the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#hypothesis AppconfigExperimentDefinition#hypothesis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#hypothesis AppconfigExperimentDefinition#hypothesis}
 
 ---
 
@@ -1357,7 +1357,7 @@ public string LaunchCriteria { get; set; }
 
 Criteria for launching the experiment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#launch_criteria AppconfigExperimentDefinition#launch_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#launch_criteria AppconfigExperimentDefinition#launch_criteria}
 
 ---
 
@@ -1371,7 +1371,7 @@ public IResolvable|AppconfigExperimentDefinitionTags[] Tags { get; set; }
 
 Tags to associate with the experiment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#tags AppconfigExperimentDefinition#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#tags AppconfigExperimentDefinition#tags}
 
 ---
 
@@ -1397,7 +1397,7 @@ new AppconfigExperimentDefinitionControl {
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionControl.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the flag is enabled for this variant. |
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionControl.property.weight">Weight</a></code> | <code>double</code> | Traffic weight percentage. |
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionControl.property.attributeValues">AttributeValues</a></code> | <code>Io.Cdktn.IResolvable\|System.Collections.Generic.IDictionary<string, <a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionControlAttributeValues">AppconfigExperimentDefinitionControlAttributeValues</a>></code> | Map of attribute name to attribute value. |
-| <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionControl.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}. |
+| <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionControl.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}. |
 
 ---
 
@@ -1411,7 +1411,7 @@ public bool|IResolvable Enabled { get; set; }
 
 Whether the flag is enabled for this variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#enabled AppconfigExperimentDefinition#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#enabled AppconfigExperimentDefinition#enabled}
 
 ---
 
@@ -1425,7 +1425,7 @@ public double Weight { get; set; }
 
 Traffic weight percentage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#weight AppconfigExperimentDefinition#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#weight AppconfigExperimentDefinition#weight}
 
 ---
 
@@ -1439,7 +1439,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, AppconfigExper
 
 Map of attribute name to attribute value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#attribute_values AppconfigExperimentDefinition#attribute_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#attribute_values AppconfigExperimentDefinition#attribute_values}
 
 ---
 
@@ -1451,7 +1451,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}.
 
 ---
 
@@ -1493,7 +1493,7 @@ public bool|IResolvable BooleanValue { get; set; }
 
 A boolean value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#boolean_value AppconfigExperimentDefinition#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#boolean_value AppconfigExperimentDefinition#boolean_value}
 
 ---
 
@@ -1507,7 +1507,7 @@ public double[] NumberArray { get; set; }
 
 An array of numeric values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#number_array AppconfigExperimentDefinition#number_array}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#number_array AppconfigExperimentDefinition#number_array}
 
 ---
 
@@ -1521,7 +1521,7 @@ public double NumberValue { get; set; }
 
 A numeric value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#number_value AppconfigExperimentDefinition#number_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#number_value AppconfigExperimentDefinition#number_value}
 
 ---
 
@@ -1535,7 +1535,7 @@ public string[] StringArray { get; set; }
 
 An array of string values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#string_array AppconfigExperimentDefinition#string_array}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#string_array AppconfigExperimentDefinition#string_array}
 
 ---
 
@@ -1549,7 +1549,7 @@ public string StringValue { get; set; }
 
 A string value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#string_value AppconfigExperimentDefinition#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#string_value AppconfigExperimentDefinition#string_value}
 
 ---
 
@@ -1585,7 +1585,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#key AppconfigExperimentDefinition#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#key AppconfigExperimentDefinition#key}
 
 ---
 
@@ -1599,7 +1599,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#value AppconfigExperimentDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#value AppconfigExperimentDefinition#value}
 
 ---
 
@@ -1626,7 +1626,7 @@ new AppconfigExperimentDefinitionTreatments {
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatments.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the flag is enabled for this variant. |
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatments.property.weight">Weight</a></code> | <code>double</code> | Traffic weight percentage. |
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatments.property.attributeValues">AttributeValues</a></code> | <code>Io.Cdktn.IResolvable\|System.Collections.Generic.IDictionary<string, <a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatmentsAttributeValues">AppconfigExperimentDefinitionTreatmentsAttributeValues</a>></code> | Map of attribute name to attribute value. |
-| <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatments.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}. |
+| <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatments.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}. |
 | <code><a href="#@cdktn/provider-awscc.appconfigExperimentDefinition.AppconfigExperimentDefinitionTreatments.property.key">Key</a></code> | <code>string</code> | The treatment key (read-only, auto-generated by service). |
 
 ---
@@ -1641,7 +1641,7 @@ public bool|IResolvable Enabled { get; set; }
 
 Whether the flag is enabled for this variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#enabled AppconfigExperimentDefinition#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#enabled AppconfigExperimentDefinition#enabled}
 
 ---
 
@@ -1655,7 +1655,7 @@ public double Weight { get; set; }
 
 Traffic weight percentage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#weight AppconfigExperimentDefinition#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#weight AppconfigExperimentDefinition#weight}
 
 ---
 
@@ -1669,7 +1669,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, AppconfigExper
 
 Map of attribute name to attribute value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#attribute_values AppconfigExperimentDefinition#attribute_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#attribute_values AppconfigExperimentDefinition#attribute_values}
 
 ---
 
@@ -1681,7 +1681,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#description AppconfigExperimentDefinition#description}.
 
 ---
 
@@ -1695,7 +1695,7 @@ public string Key { get; set; }
 
 The treatment key (read-only, auto-generated by service).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#key AppconfigExperimentDefinition#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#key AppconfigExperimentDefinition#key}
 
 ---
 
@@ -1737,7 +1737,7 @@ public bool|IResolvable BooleanValue { get; set; }
 
 A boolean value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#boolean_value AppconfigExperimentDefinition#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#boolean_value AppconfigExperimentDefinition#boolean_value}
 
 ---
 
@@ -1751,7 +1751,7 @@ public double[] NumberArray { get; set; }
 
 An array of numeric values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#number_array AppconfigExperimentDefinition#number_array}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#number_array AppconfigExperimentDefinition#number_array}
 
 ---
 
@@ -1765,7 +1765,7 @@ public double NumberValue { get; set; }
 
 A numeric value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#number_value AppconfigExperimentDefinition#number_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#number_value AppconfigExperimentDefinition#number_value}
 
 ---
 
@@ -1779,7 +1779,7 @@ public string[] StringArray { get; set; }
 
 An array of string values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#string_array AppconfigExperimentDefinition#string_array}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#string_array AppconfigExperimentDefinition#string_array}
 
 ---
 
@@ -1793,7 +1793,7 @@ public string StringValue { get; set; }
 
 A string value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_experiment_definition#string_value AppconfigExperimentDefinition#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_experiment_definition#string_value AppconfigExperimentDefinition#string_value}
 
 ---
 

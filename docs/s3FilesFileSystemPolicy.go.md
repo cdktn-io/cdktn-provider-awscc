@@ -4,7 +4,7 @@
 
 ### S3FilesFileSystemPolicy <a name="S3FilesFileSystemPolicy" id="@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_file_system_policy awscc_s3files_file_system_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3files_file_system_policy awscc_s3files_file_system_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3FilesFileSystemPolicy to
 
 The id of the existing S3FilesFileSystemPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_file_system_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3files_file_system_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -770,8 +770,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3filesfilesystempolic
 | <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.fileSystemId">FileSystemId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_file_system_policy#file_system_id S3FilesFileSystemPolicy#file_system_id}. |
-| <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_file_system_policy#policy S3FilesFileSystemPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.fileSystemId">FileSystemId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3files_file_system_policy#file_system_id S3FilesFileSystemPolicy#file_system_id}. |
+| <code><a href="#@cdktn/provider-awscc.s3FilesFileSystemPolicy.S3FilesFileSystemPolicyConfig.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3files_file_system_policy#policy S3FilesFileSystemPolicy#policy}. |
 
 ---
 
@@ -853,7 +853,7 @@ FileSystemId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_file_system_policy#file_system_id S3FilesFileSystemPolicy#file_system_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3files_file_system_policy#file_system_id S3FilesFileSystemPolicy#file_system_id}.
 
 ---
 
@@ -865,7 +865,7 @@ Policy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3files_file_system_policy#policy S3FilesFileSystemPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3files_file_system_policy#policy S3FilesFileSystemPolicy#policy}.
 
 ---
 

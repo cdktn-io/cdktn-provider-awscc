@@ -4,7 +4,7 @@
 
 ### DataAwsccLogsMetricFilters <a name="DataAwsccLogsMetricFilters" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilters.DataAwsccLogsMetricFilters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_metric_filters awscc_logs_metric_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_metric_filters awscc_logs_metric_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsMetricFilters.DataAwsccLogsMetricFilters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLogsMetricFilters
 
 The id of the existing DataAwsccLogsMetricFilters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_metric_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_metric_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerAlgorithms <a name="DataAwsccSagemakerAlgorithms" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAlgorithms.DataAwsccSagemakerAlgorithms.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAlgorith
 
 The id of the existing DataAwsccSagemakerAlgorithms that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_algorithms#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_algorithms#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BedrockDataAutomationLibrary <a name="BedrockDataAutomationLibrary" id="@cdktn/provider-awscc.bedrockDataAutomationLibrary.BedrockDataAutomationLibrary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockDataAutomationLibrary.BedrockDataAutomationLibrary.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BedrockDataAutomationLibra
 
 The id of the existing BedrockDataAutomationLibrary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,7 +994,7 @@ LibraryName *string
 
 Name of the DataAutomationLibrary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#library_name BedrockDataAutomationLibrary#library_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#library_name BedrockDataAutomationLibrary#library_name}
 
 ---
 
@@ -1008,7 +1008,7 @@ EncryptionConfiguration BedrockDataAutomationLibraryEncryptionConfiguration
 
 KMS Encryption Configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#encryption_configuration BedrockDataAutomationLibrary#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#encryption_configuration BedrockDataAutomationLibrary#encryption_configuration}
 
 ---
 
@@ -1022,7 +1022,7 @@ LibraryDescription *string
 
 Description of the DataAutomationLibrary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#library_description BedrockDataAutomationLibrary#library_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#library_description BedrockDataAutomationLibrary#library_description}
 
 ---
 
@@ -1036,7 +1036,7 @@ Tags interface{}
 
 List of tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#tags BedrockDataAutomationLibrary#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#tags BedrockDataAutomationLibrary#tags}
 
 ---
 
@@ -1072,7 +1072,7 @@ KmsEncryptionContext *map[string]*string
 
 KMS Encryption Context.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#kms_encryption_context BedrockDataAutomationLibrary#kms_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#kms_encryption_context BedrockDataAutomationLibrary#kms_encryption_context}
 
 ---
 
@@ -1086,7 +1086,7 @@ KmsKeyId *string
 
 KMS Key Identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#kms_key_id BedrockDataAutomationLibrary#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#kms_key_id BedrockDataAutomationLibrary#kms_key_id}
 
 ---
 
@@ -1135,7 +1135,7 @@ Key *string
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#key BedrockDataAutomationLibrary#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#key BedrockDataAutomationLibrary#key}
 
 ---
 
@@ -1149,7 +1149,7 @@ Value *string
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_library#value BedrockDataAutomationLibrary#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_library#value BedrockDataAutomationLibrary#value}
 
 ---
 

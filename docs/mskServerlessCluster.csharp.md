@@ -4,7 +4,7 @@
 
 ### MskServerlessCluster <a name="MskServerlessCluster" id="@cdktn/provider-awscc.mskServerlessCluster.MskServerlessCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster awscc_msk_serverless_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster awscc_msk_serverless_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskServerlessCluster.MskServerlessCluster.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the MskServerlessCluster to im
 
 The id of the existing MskServerlessCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -843,7 +843,7 @@ new MskServerlessClusterClientAuthentication {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthentication.property.sasl">Sasl</a></code> | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl">MskServerlessClusterClientAuthenticationSasl</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthentication.property.sasl">Sasl</a></code> | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl">MskServerlessClusterClientAuthenticationSasl</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}. |
 
 ---
 
@@ -855,7 +855,7 @@ public MskServerlessClusterClientAuthenticationSasl Sasl { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl">MskServerlessClusterClientAuthenticationSasl</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}.
 
 ---
 
@@ -875,7 +875,7 @@ new MskServerlessClusterClientAuthenticationSasl {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl.property.iam">Iam</a></code> | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam">MskServerlessClusterClientAuthenticationSaslIam</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSasl.property.iam">Iam</a></code> | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam">MskServerlessClusterClientAuthenticationSaslIam</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}. |
 
 ---
 
@@ -887,7 +887,7 @@ public MskServerlessClusterClientAuthenticationSaslIam Iam { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam">MskServerlessClusterClientAuthenticationSaslIam</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}.
 
 ---
 
@@ -907,7 +907,7 @@ new MskServerlessClusterClientAuthenticationSaslIam {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}. |
 
 ---
 
@@ -919,7 +919,7 @@ public bool|IResolvable Enabled { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.
 
 ---
 
@@ -956,9 +956,9 @@ new MskServerlessClusterConfig {
 | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.clientAuthentication">ClientAuthentication</a></code> | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthentication">MskServerlessClusterClientAuthentication</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#client_authentication MskServerlessCluster#client_authentication}. |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.clusterName">ClusterName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#cluster_name MskServerlessCluster#cluster_name}. |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.vpcConfigs">VpcConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs">MskServerlessClusterVpcConfigs</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#vpc_configs MskServerlessCluster#vpc_configs}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.clientAuthentication">ClientAuthentication</a></code> | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthentication">MskServerlessClusterClientAuthentication</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#client_authentication MskServerlessCluster#client_authentication}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.clusterName">ClusterName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#cluster_name MskServerlessCluster#cluster_name}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.vpcConfigs">VpcConfigs</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs">MskServerlessClusterVpcConfigs</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#vpc_configs MskServerlessCluster#vpc_configs}. |
 | <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A key-value pair to associate with a resource. |
 
 ---
@@ -1041,7 +1041,7 @@ public MskServerlessClusterClientAuthentication ClientAuthentication { get; set;
 
 - *Type:* <a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterClientAuthentication">MskServerlessClusterClientAuthentication</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#client_authentication MskServerlessCluster#client_authentication}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#client_authentication MskServerlessCluster#client_authentication}.
 
 ---
 
@@ -1053,7 +1053,7 @@ public string ClusterName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#cluster_name MskServerlessCluster#cluster_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#cluster_name MskServerlessCluster#cluster_name}.
 
 ---
 
@@ -1065,7 +1065,7 @@ public IResolvable|MskServerlessClusterVpcConfigs[] VpcConfigs { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs">MskServerlessClusterVpcConfigs</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#vpc_configs MskServerlessCluster#vpc_configs}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#vpc_configs MskServerlessCluster#vpc_configs}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#tags MskServerlessCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#tags MskServerlessCluster#tags}
 
 ---
 
@@ -1100,8 +1100,8 @@ new MskServerlessClusterVpcConfigs {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#subnet_ids MskServerlessCluster#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs.property.securityGroups">SecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#security_groups MskServerlessCluster#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#subnet_ids MskServerlessCluster#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.mskServerlessCluster.MskServerlessClusterVpcConfigs.property.securityGroups">SecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#security_groups MskServerlessCluster#security_groups}. |
 
 ---
 
@@ -1113,7 +1113,7 @@ public string[] SubnetIds { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#subnet_ids MskServerlessCluster#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#subnet_ids MskServerlessCluster#subnet_ids}.
 
 ---
 
@@ -1125,7 +1125,7 @@ public string[] SecurityGroups { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_serverless_cluster#security_groups MskServerlessCluster#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_serverless_cluster#security_groups MskServerlessCluster#security_groups}.
 
 ---
 

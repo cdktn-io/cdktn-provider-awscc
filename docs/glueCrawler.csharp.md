@@ -4,7 +4,7 @@
 
 ### GlueCrawler <a name="GlueCrawler" id="@cdktn/provider-awscc.glueCrawler.GlueCrawler"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler awscc_glue_crawler}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler awscc_glue_crawler}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCrawler.GlueCrawler.Initializer"></a>
 
@@ -638,7 +638,7 @@ The construct id used in the generated config for the GlueCrawler to import.
 
 The id of the existing GlueCrawler that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1292,7 +1292,7 @@ public string Role { get; set; }
 
 The Amazon Resource Name (ARN) of an IAM role that's used to access customer resources, such as Amazon Simple Storage Service (Amazon S3) data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#role GlueCrawler#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#role GlueCrawler#role}
 
 ---
 
@@ -1306,7 +1306,7 @@ public GlueCrawlerTargets Targets { get; set; }
 
 Specifies data stores to crawl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#targets GlueCrawler#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#targets GlueCrawler#targets}
 
 ---
 
@@ -1320,7 +1320,7 @@ public string[] Classifiers { get; set; }
 
 A list of UTF-8 strings that specify the names of custom classifiers that are associated with the crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#classifiers GlueCrawler#classifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#classifiers GlueCrawler#classifiers}
 
 ---
 
@@ -1334,7 +1334,7 @@ public string Configuration { get; set; }
 
 Crawler configuration information. This versioned JSON string allows users to specify aspects of a crawler's behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#configuration GlueCrawler#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#configuration GlueCrawler#configuration}
 
 ---
 
@@ -1348,7 +1348,7 @@ public string CrawlerSecurityConfiguration { get; set; }
 
 The name of the SecurityConfiguration structure to be used by this crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#crawler_security_configuration GlueCrawler#crawler_security_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#crawler_security_configuration GlueCrawler#crawler_security_configuration}
 
 ---
 
@@ -1362,7 +1362,7 @@ public string DatabaseName { get; set; }
 
 The name of the database in which the crawler's output is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
 
 ---
 
@@ -1376,7 +1376,7 @@ public string Description { get; set; }
 
 A description of the crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#description GlueCrawler#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#description GlueCrawler#description}
 
 ---
 
@@ -1390,7 +1390,7 @@ public GlueCrawlerLakeFormationConfiguration LakeFormationConfiguration { get; s
 
 Specifies AWS Lake Formation configuration settings for the crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#lake_formation_configuration GlueCrawler#lake_formation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#lake_formation_configuration GlueCrawler#lake_formation_configuration}
 
 ---
 
@@ -1404,7 +1404,7 @@ public string Name { get; set; }
 
 The name of the crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#name GlueCrawler#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#name GlueCrawler#name}
 
 ---
 
@@ -1420,7 +1420,7 @@ When crawling an Amazon S3 data source after the first crawl is complete, specif
 
 For more information, see Incremental Crawls in AWS Glue in the developer guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#recrawl_policy GlueCrawler#recrawl_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#recrawl_policy GlueCrawler#recrawl_policy}
 
 ---
 
@@ -1434,7 +1434,7 @@ public GlueCrawlerSchedule Schedule { get; set; }
 
 A scheduling object using a cron statement to schedule an event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#schedule GlueCrawler#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#schedule GlueCrawler#schedule}
 
 ---
 
@@ -1450,7 +1450,7 @@ The policy that specifies update and delete behaviors for the crawler.
 
 The policy tells the crawler what to do in the event that it detects a change in a table that already exists in the customer's database at the time of the crawl. The SchemaChangePolicy does not affect whether or how new tables and partitions are added. New tables and partitions are always created regardless of the SchemaChangePolicy on a crawler. The SchemaChangePolicy consists of two components, UpdateBehavior and DeleteBehavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#schema_change_policy GlueCrawler#schema_change_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#schema_change_policy GlueCrawler#schema_change_policy}
 
 ---
 
@@ -1464,7 +1464,7 @@ public string TablePrefix { get; set; }
 
 The prefix added to the names of tables that are created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#table_prefix GlueCrawler#table_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#table_prefix GlueCrawler#table_prefix}
 
 ---
 
@@ -1478,7 +1478,7 @@ public string Tags { get; set; }
 
 The tags to use with this crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#tags GlueCrawler#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#tags GlueCrawler#tags}
 
 ---
 
@@ -1514,7 +1514,7 @@ public string AccountId { get; set; }
 
 Required for cross account crawls. For same account crawls as the target data, this can be left as null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#account_id GlueCrawler#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#account_id GlueCrawler#account_id}
 
 ---
 
@@ -1528,7 +1528,7 @@ public bool|IResolvable UseLakeFormationCredentials { get; set; }
 
 Specifies whether to use AWS Lake Formation credentials for the crawler instead of the IAM role credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#use_lake_formation_credentials GlueCrawler#use_lake_formation_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#use_lake_formation_credentials GlueCrawler#use_lake_formation_credentials}
 
 ---
 
@@ -1564,7 +1564,7 @@ Specifies whether to crawl the entire dataset again or to crawl only folders tha
 
 A value of CRAWL_EVERYTHING specifies crawling the entire dataset again. A value of CRAWL_NEW_FOLDERS_ONLY specifies crawling only folders that were added since the last crawler run. A value of CRAWL_EVENT_MODE specifies crawling only the changes identified by Amazon S3 events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#recrawl_behavior GlueCrawler#recrawl_behavior}
 
 ---
 
@@ -1600,7 +1600,7 @@ A cron expression used to specify the schedule.
 
 For more information, see Time-Based Schedules for Jobs and Crawlers. For example, to run something every day at 12:15 UTC, specify cron(15 12 * * ? *).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#schedule_expression GlueCrawler#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#schedule_expression GlueCrawler#schedule_expression}
 
 ---
 
@@ -1638,7 +1638,7 @@ The deletion behavior when the crawler finds a deleted object.
 
 A value of LOG specifies that if a table or partition is found to no longer exist, do not delete it, only log that it was found to no longer exist. A value of DELETE_FROM_DATABASE specifies that if a table or partition is found to have been removed, delete it from the database. A value of DEPRECATE_IN_DATABASE specifies that if a table has been found to no longer exist, to add a property to the table that says 'DEPRECATED' and includes a timestamp with the time of deprecation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#delete_behavior GlueCrawler#delete_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#delete_behavior GlueCrawler#delete_behavior}
 
 ---
 
@@ -1654,7 +1654,7 @@ The update behavior when the crawler finds a changed schema.
 
 A value of LOG specifies that if a table or a partition already exists, and a change is detected, do not update it, only log that a change was detected. Add new tables and new partitions (including on existing tables). A value of UPDATE_IN_DATABASE specifies that if a table or partition already exists, and a change is detected, update it. Add new tables and partitions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#update_behavior GlueCrawler#update_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#update_behavior GlueCrawler#update_behavior}
 
 ---
 
@@ -1702,7 +1702,7 @@ public IResolvable|GlueCrawlerTargetsCatalogTargets[] CatalogTargets { get; set;
 
 Specifies AWS Glue Data Catalog targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#catalog_targets GlueCrawler#catalog_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#catalog_targets GlueCrawler#catalog_targets}
 
 ---
 
@@ -1716,7 +1716,7 @@ public IResolvable|GlueCrawlerTargetsDeltaTargets[] DeltaTargets { get; set; }
 
 Specifies an array of Delta data store targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#delta_targets GlueCrawler#delta_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#delta_targets GlueCrawler#delta_targets}
 
 ---
 
@@ -1730,7 +1730,7 @@ public IResolvable|GlueCrawlerTargetsDynamoDbTargets[] DynamoDbTargets { get; se
 
 Specifies Amazon DynamoDB targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#dynamo_db_targets GlueCrawler#dynamo_db_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#dynamo_db_targets GlueCrawler#dynamo_db_targets}
 
 ---
 
@@ -1744,7 +1744,7 @@ public IResolvable|GlueCrawlerTargetsHudiTargets[] HudiTargets { get; set; }
 
 Specifies Apache Hudi data store targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#hudi_targets GlueCrawler#hudi_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#hudi_targets GlueCrawler#hudi_targets}
 
 ---
 
@@ -1758,7 +1758,7 @@ public IResolvable|GlueCrawlerTargetsIcebergTargets[] IcebergTargets { get; set;
 
 Specifies Apache Iceberg data store targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#iceberg_targets GlueCrawler#iceberg_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#iceberg_targets GlueCrawler#iceberg_targets}
 
 ---
 
@@ -1772,7 +1772,7 @@ public IResolvable|GlueCrawlerTargetsJdbcTargets[] JdbcTargets { get; set; }
 
 Specifies JDBC targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#jdbc_targets GlueCrawler#jdbc_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#jdbc_targets GlueCrawler#jdbc_targets}
 
 ---
 
@@ -1786,7 +1786,7 @@ public IResolvable|GlueCrawlerTargetsMongoDbTargets[] MongoDbTargets { get; set;
 
 A list of Mongo DB targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#mongo_db_targets GlueCrawler#mongo_db_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#mongo_db_targets GlueCrawler#mongo_db_targets}
 
 ---
 
@@ -1800,7 +1800,7 @@ public IResolvable|GlueCrawlerTargetsS3Targets[] S3Targets { get; set; }
 
 Specifies Amazon Simple Storage Service (Amazon S3) targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#s3_targets GlueCrawler#s3_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#s3_targets GlueCrawler#s3_targets}
 
 ---
 
@@ -1842,7 +1842,7 @@ public string ConnectionName { get; set; }
 
 The name of the connection for an Amazon S3-backed Data Catalog table to be a target of the crawl when using a Catalog connection type paired with a NETWORK Connection type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -1856,7 +1856,7 @@ public string DatabaseName { get; set; }
 
 The name of the database to be synchronized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#database_name GlueCrawler#database_name}
 
 ---
 
@@ -1870,7 +1870,7 @@ public string DlqEventQueueArn { get; set; }
 
 A valid Amazon dead-letter SQS ARN. For example, arn:aws:sqs:region:account:deadLetterQueue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
 
 ---
 
@@ -1884,7 +1884,7 @@ public string EventQueueArn { get; set; }
 
 A valid Amazon SQS ARN. For example, arn:aws:sqs:region:account:sqs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
 
 ---
 
@@ -1898,7 +1898,7 @@ public string[] Tables { get; set; }
 
 A list of the tables to be synchronized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#tables GlueCrawler#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#tables GlueCrawler#tables}
 
 ---
 
@@ -1923,7 +1923,7 @@ new GlueCrawlerTargetsDeltaTargets {
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.glueCrawler.GlueCrawlerTargetsDeltaTargets.property.connectionName">ConnectionName</a></code> | <code>string</code> | The name of the connection to use to connect to the Delta table target. |
 | <code><a href="#@cdktn/provider-awscc.glueCrawler.GlueCrawlerTargetsDeltaTargets.property.createNativeDeltaTable">CreateNativeDeltaTable</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether the crawler will create native tables, to allow integration with query engines that support querying of the Delta transaction log directly. |
-| <code><a href="#@cdktn/provider-awscc.glueCrawler.GlueCrawlerTargetsDeltaTargets.property.deltaTables">DeltaTables</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}. |
+| <code><a href="#@cdktn/provider-awscc.glueCrawler.GlueCrawlerTargetsDeltaTargets.property.deltaTables">DeltaTables</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}. |
 | <code><a href="#@cdktn/provider-awscc.glueCrawler.GlueCrawlerTargetsDeltaTargets.property.writeManifest">WriteManifest</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether to write the manifest files to the Delta table path. |
 
 ---
@@ -1938,7 +1938,7 @@ public string ConnectionName { get; set; }
 
 The name of the connection to use to connect to the Delta table target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -1952,7 +1952,7 @@ public bool|IResolvable CreateNativeDeltaTable { get; set; }
 
 Specifies whether the crawler will create native tables, to allow integration with query engines that support querying of the Delta transaction log directly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#create_native_delta_table GlueCrawler#create_native_delta_table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#create_native_delta_table GlueCrawler#create_native_delta_table}
 
 ---
 
@@ -1964,7 +1964,7 @@ public string[] DeltaTables { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#delta_tables GlueCrawler#delta_tables}.
 
 ---
 
@@ -1978,7 +1978,7 @@ public bool|IResolvable WriteManifest { get; set; }
 
 Specifies whether to write the manifest files to the Delta table path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#write_manifest GlueCrawler#write_manifest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#write_manifest GlueCrawler#write_manifest}
 
 ---
 
@@ -2016,7 +2016,7 @@ public string Path { get; set; }
 
 The name of the DynamoDB table to crawl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#path GlueCrawler#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#path GlueCrawler#path}
 
 ---
 
@@ -2032,7 +2032,7 @@ Indicates whether to scan all the records, or to sample rows from the table.
 
 Scanning all the records can take a long time when the table is not a high throughput table. A value of true means to scan all records, while a value of false means to sample the records. If no value is specified, the value defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#scan_all GlueCrawler#scan_all}
 
 ---
 
@@ -2050,7 +2050,7 @@ Read capacity units is a term defined by DynamoDB, and is a numeric value that a
 
 The valid values are null or a value between 0.1 to 1.5. A null value is used when user does not provide a value, and defaults to 0.5 of the configured Read Capacity Unit (for provisioned tables), or 0.25 of the max configured Read Capacity Unit (for tables using on-demand mode).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}
 
 ---
 
@@ -2090,7 +2090,7 @@ public string ConnectionName { get; set; }
 
 The name of the connection to use to connect to the Hudi target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -2104,7 +2104,7 @@ public string[] Exclusions { get; set; }
 
 A list of global patterns used to exclude from the crawl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
 
 ---
 
@@ -2120,7 +2120,7 @@ The maximum depth of Amazon S3 paths that the crawler can traverse to discover t
 
 Used to limit the crawler run time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
 
 ---
 
@@ -2134,7 +2134,7 @@ public string[] Paths { get; set; }
 
 One or more Amazon S3 paths that contains Hudi metadata folders as s3://bucket/prefix .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
 
 ---
 
@@ -2174,7 +2174,7 @@ public string ConnectionName { get; set; }
 
 The name of the connection to use to connect to the Iceberg target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -2188,7 +2188,7 @@ public string[] Exclusions { get; set; }
 
 A list of global patterns used to exclude from the crawl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
 
 ---
 
@@ -2204,7 +2204,7 @@ The maximum depth of Amazon S3 paths that the crawler can traverse to discover t
 
 Used to limit the crawler run time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#maximum_traversal_depth GlueCrawler#maximum_traversal_depth}
 
 ---
 
@@ -2218,7 +2218,7 @@ public string[] Paths { get; set; }
 
 One or more Amazon S3 paths that contains Iceberg metadata folders as s3://bucket/prefix .
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#paths GlueCrawler#paths}
 
 ---
 
@@ -2258,7 +2258,7 @@ public string ConnectionName { get; set; }
 
 The name of the connection to use to connect to the JDBC target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -2276,7 +2276,7 @@ RAWTYPES provides the native-level datatype. COMMENTS provides comments associat
 
 If you do not need additional metadata, keep the field empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}
 
 ---
 
@@ -2292,7 +2292,7 @@ A list of glob patterns used to exclude from the crawl.
 
 For more information, see Catalog Tables with a Crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
 
 ---
 
@@ -2306,7 +2306,7 @@ public string Path { get; set; }
 
 The path of the JDBC target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#path GlueCrawler#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#path GlueCrawler#path}
 
 ---
 
@@ -2342,7 +2342,7 @@ public string ConnectionName { get; set; }
 
 The name of the connection to use to connect to the Amazon DocumentDB or MongoDB target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -2356,7 +2356,7 @@ public string Path { get; set; }
 
 The path of the Amazon DocumentDB or MongoDB target (database/collection).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#path GlueCrawler#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#path GlueCrawler#path}
 
 ---
 
@@ -2400,7 +2400,7 @@ public string ConnectionName { get; set; }
 
 The name of a connection which allows a job or crawler to access data in Amazon S3 within an Amazon Virtual Private Cloud environment (Amazon VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#connection_name GlueCrawler#connection_name}
 
 ---
 
@@ -2414,7 +2414,7 @@ public string DlqEventQueueArn { get; set; }
 
 A valid Amazon dead-letter SQS ARN. For example, arn:aws:sqs:region:account:deadLetterQueue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#dlq_event_queue_arn GlueCrawler#dlq_event_queue_arn}
 
 ---
 
@@ -2428,7 +2428,7 @@ public string EventQueueArn { get; set; }
 
 A valid Amazon SQS ARN. For example, arn:aws:sqs:region:account:sqs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#event_queue_arn GlueCrawler#event_queue_arn}
 
 ---
 
@@ -2442,7 +2442,7 @@ public string[] Exclusions { get; set; }
 
 A list of glob patterns used to exclude from the crawl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#exclusions GlueCrawler#exclusions}
 
 ---
 
@@ -2456,7 +2456,7 @@ public string Path { get; set; }
 
 The path to the Amazon S3 target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#path GlueCrawler#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#path GlueCrawler#path}
 
 ---
 
@@ -2472,7 +2472,7 @@ Sets the number of files in each leaf folder to be crawled when crawling sample 
 
 If not set, all the files are crawled. A valid value is an integer between 1 and 249.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_crawler#sample_size GlueCrawler#sample_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_crawler#sample_size GlueCrawler#sample_size}
 
 ---
 

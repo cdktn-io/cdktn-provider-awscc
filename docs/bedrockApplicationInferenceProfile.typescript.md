@@ -4,7 +4,7 @@
 
 ### BedrockApplicationInferenceProfile <a name="BedrockApplicationInferenceProfile" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfile.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the BedrockApplicationInferenc
 
 The id of the existing BedrockApplicationInferenceProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,7 +939,7 @@ const bedrockApplicationInferenceProfileConfig: bedrockApplicationInferenceProfi
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.inferenceProfileName">inferenceProfileName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}. |
+| <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.inferenceProfileName">inferenceProfileName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}. |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.description">description</a></code> | <code>string</code> | Description of the inference profile. |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.modelSource">modelSource</a></code> | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileModelSource">BedrockApplicationInferenceProfileModelSource</a></code> | Various ways to encode a list of models in a CreateInferenceProfile request. |
 | <code><a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.bedrockApplicationInferenceProfile.BedrockApplicationInferenceProfileTags">BedrockApplicationInferenceProfileTags</a>[]</code> | List of Tags. |
@@ -1024,7 +1024,7 @@ public readonly inferenceProfileName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#inference_profile_name BedrockApplicationInferenceProfile#inference_profile_name}.
 
 ---
 
@@ -1038,7 +1038,7 @@ public readonly description: string;
 
 Description of the inference profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#description BedrockApplicationInferenceProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#description BedrockApplicationInferenceProfile#description}
 
 ---
 
@@ -1052,7 +1052,7 @@ public readonly modelSource: BedrockApplicationInferenceProfileModelSource;
 
 Various ways to encode a list of models in a CreateInferenceProfile request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#model_source BedrockApplicationInferenceProfile#model_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#model_source BedrockApplicationInferenceProfile#model_source}
 
 ---
 
@@ -1066,7 +1066,7 @@ public readonly tags: IResolvable | BedrockApplicationInferenceProfileTags[];
 
 List of Tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#tags BedrockApplicationInferenceProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#tags BedrockApplicationInferenceProfile#tags}
 
 ---
 
@@ -1112,7 +1112,7 @@ Source arns for a custom inference profile to copy its regional load balancing c
 This
 can either be a foundation model or predefined inference profile ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#copy_from BedrockApplicationInferenceProfile#copy_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#copy_from BedrockApplicationInferenceProfile#copy_from}
 
 ---
 
@@ -1145,7 +1145,7 @@ public readonly key: string;
 
 Tag Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#key BedrockApplicationInferenceProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#key BedrockApplicationInferenceProfile#key}
 
 ---
 
@@ -1159,7 +1159,7 @@ public readonly value: string;
 
 Tag Value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#value BedrockApplicationInferenceProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#value BedrockApplicationInferenceProfile#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MacieFindingsFilter <a name="MacieFindingsFilter" id="@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter awscc_macie_findings_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter awscc_macie_findings_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilter.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the MacieFindingsFilter to imp
 
 The id of the existing MacieFindingsFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1013,7 +1013,7 @@ public readonly findingCriteria: MacieFindingsFilterFindingCriteria;
 
 Findings filter criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#finding_criteria MacieFindingsFilter#finding_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#finding_criteria MacieFindingsFilter#finding_criteria}
 
 ---
 
@@ -1027,7 +1027,7 @@ public readonly name: string;
 
 Findings filter name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#name MacieFindingsFilter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#name MacieFindingsFilter#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ public readonly action: string;
 
 Findings filter action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#action MacieFindingsFilter#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#action MacieFindingsFilter#action}
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly description: string;
 
 Findings filter description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#description MacieFindingsFilter#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#description MacieFindingsFilter#description}
 
 ---
 
@@ -1069,7 +1069,7 @@ public readonly position: number;
 
 Findings filter position.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#position MacieFindingsFilter#position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#position MacieFindingsFilter#position}
 
 ---
 
@@ -1083,7 +1083,7 @@ public readonly tags: IResolvable | MacieFindingsFilterTags[];
 
 A collection of tags associated with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#tags MacieFindingsFilter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#tags MacieFindingsFilter#tags}
 
 ---
 
@@ -1115,7 +1115,7 @@ public readonly criterion: IResolvable | {[ key: string ]: MacieFindingsFilterFi
 
 Map of filter criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#criterion MacieFindingsFilter#criterion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#criterion MacieFindingsFilter#criterion}
 
 ---
 
@@ -1133,12 +1133,12 @@ const macieFindingsFilterFindingCriteriaCriterion: macieFindingsFilter.MacieFind
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.eq">eq</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#eq MacieFindingsFilter#eq}. |
-| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.gt">gt</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#gt MacieFindingsFilter#gt}. |
-| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.gte">gte</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#gte MacieFindingsFilter#gte}. |
-| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.lt">lt</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#lt MacieFindingsFilter#lt}. |
-| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.lte">lte</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#lte MacieFindingsFilter#lte}. |
-| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.neq">neq</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#neq MacieFindingsFilter#neq}. |
+| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.eq">eq</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#eq MacieFindingsFilter#eq}. |
+| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.gt">gt</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#gt MacieFindingsFilter#gt}. |
+| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.gte">gte</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#gte MacieFindingsFilter#gte}. |
+| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.lt">lt</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#lt MacieFindingsFilter#lt}. |
+| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.lte">lte</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#lte MacieFindingsFilter#lte}. |
+| <code><a href="#@cdktn/provider-awscc.macieFindingsFilter.MacieFindingsFilterFindingCriteriaCriterion.property.neq">neq</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#neq MacieFindingsFilter#neq}. |
 
 ---
 
@@ -1150,7 +1150,7 @@ public readonly eq: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#eq MacieFindingsFilter#eq}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#eq MacieFindingsFilter#eq}.
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly gt: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#gt MacieFindingsFilter#gt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#gt MacieFindingsFilter#gt}.
 
 ---
 
@@ -1174,7 +1174,7 @@ public readonly gte: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#gte MacieFindingsFilter#gte}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#gte MacieFindingsFilter#gte}.
 
 ---
 
@@ -1186,7 +1186,7 @@ public readonly lt: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#lt MacieFindingsFilter#lt}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#lt MacieFindingsFilter#lt}.
 
 ---
 
@@ -1198,7 +1198,7 @@ public readonly lte: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#lte MacieFindingsFilter#lte}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#lte MacieFindingsFilter#lte}.
 
 ---
 
@@ -1210,7 +1210,7 @@ public readonly neq: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#neq MacieFindingsFilter#neq}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#neq MacieFindingsFilter#neq}.
 
 ---
 
@@ -1243,7 +1243,7 @@ public readonly key: string;
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#key MacieFindingsFilter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#key MacieFindingsFilter#key}
 
 ---
 
@@ -1257,7 +1257,7 @@ public readonly value: string;
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_findings_filter#value MacieFindingsFilter#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/macie_findings_filter#value MacieFindingsFilter#value}
 
 ---
 

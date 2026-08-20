@@ -4,7 +4,7 @@
 
 ### CloudtrailResourcePolicy <a name="CloudtrailResourcePolicy" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailResourcePolicy.CloudtrailResourcePolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the AWS CloudTrail resource to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy#resource_arn CloudtrailResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_resource_policy#resource_arn CloudtrailResourcePolicy#resource_arn}
 
 ---
 
@@ -118,7 +118,7 @@ A policy document containing permissions to add to the specified resource.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy#resource_policy CloudtrailResourcePolicy#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_resource_policy#resource_policy CloudtrailResourcePolicy#resource_policy}
 
 ---
 
@@ -567,7 +567,7 @@ The construct id used in the generated config for the CloudtrailResourcePolicy t
 
 The id of the existing CloudtrailResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -933,7 +933,7 @@ public java.lang.String getResourceArn();
 
 The ARN of the AWS CloudTrail resource to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy#resource_arn CloudtrailResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_resource_policy#resource_arn CloudtrailResourcePolicy#resource_arn}
 
 ---
 
@@ -949,7 +949,7 @@ A policy document containing permissions to add to the specified resource.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy#resource_policy CloudtrailResourcePolicy#resource_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_resource_policy#resource_policy CloudtrailResourcePolicy#resource_policy}
 
 ---
 

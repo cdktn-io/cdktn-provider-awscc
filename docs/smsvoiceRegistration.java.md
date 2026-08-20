@@ -4,7 +4,7 @@
 
 ### SmsvoiceRegistration <a name="SmsvoiceRegistration" id="@cdktn/provider-awscc.smsvoiceRegistration.SmsvoiceRegistration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration awscc_smsvoice_registration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration awscc_smsvoice_registration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRegistration.SmsvoiceRegistration.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The type of registration form to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of tags (key and value pairs) to associate with the registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
 
 ---
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the SmsvoiceRegistration to im
 
 The id of the existing SmsvoiceRegistration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1006,7 +1006,7 @@ public java.lang.String getRegistrationType();
 
 The type of registration form to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
 
 ---
 
@@ -1020,7 +1020,7 @@ public IResolvable|java.util.List<SmsvoiceRegistrationTags> getTags();
 
 An array of tags (key and value pairs) to associate with the registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
 
 ---
 
@@ -1056,7 +1056,7 @@ public java.lang.String getKey();
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#key SmsvoiceRegistration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#key SmsvoiceRegistration#key}
 
 ---
 
@@ -1070,7 +1070,7 @@ public java.lang.String getValue();
 
 The string value associated with the key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_registration#value SmsvoiceRegistration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/smsvoice_registration#value SmsvoiceRegistration#value}
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface ApsWorkspaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The AMP Workspace alert manager definition data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
   */
   readonly alertManagerDefinition?: string;
   /**
   * AMP Workspace alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
   */
   readonly alias?: string;
   /**
   * KMS Key ARN used to encrypt and decrypt AMP workspace data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * Logging configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
   */
   readonly loggingConfiguration?: ApsWorkspaceLoggingConfiguration;
   /**
   * Query logging configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
   */
   readonly queryLoggingConfiguration?: ApsWorkspaceQueryLoggingConfiguration;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
   */
   readonly tags?: ApsWorkspaceTags[] | cdktn.IResolvable;
   /**
   * Workspace configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
   */
   readonly workspaceConfiguration?: ApsWorkspaceWorkspaceConfiguration;
 }
@@ -59,7 +59,7 @@ export interface ApsWorkspaceLoggingConfiguration {
   /**
   * CloudWatch log group ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
   */
   readonly logGroupArn?: string;
 }
@@ -155,7 +155,7 @@ export interface ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs
   /**
   * The ARN of the CloudWatch Logs log group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
   */
   readonly logGroupArn?: string;
 }
@@ -251,7 +251,7 @@ export interface ApsWorkspaceQueryLoggingConfigurationDestinationsFilters {
   /**
   * Query logs with QSP above this limit are vended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#qsp_threshold ApsWorkspace#qsp_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#qsp_threshold ApsWorkspace#qsp_threshold}
   */
   readonly qspThreshold?: number;
 }
@@ -347,13 +347,13 @@ export interface ApsWorkspaceQueryLoggingConfigurationDestinations {
   /**
   * Represents a cloudwatch logs destination for query logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#cloudwatch_logs ApsWorkspace#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#cloudwatch_logs ApsWorkspace#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs;
   /**
   * Filters for logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#filters ApsWorkspace#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#filters ApsWorkspace#filters}
   */
   readonly filters?: ApsWorkspaceQueryLoggingConfigurationDestinationsFilters;
 }
@@ -500,7 +500,7 @@ export interface ApsWorkspaceQueryLoggingConfiguration {
   /**
   * The destinations configuration for query logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#destinations ApsWorkspace#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#destinations ApsWorkspace#destinations}
   */
   readonly destinations?: ApsWorkspaceQueryLoggingConfigurationDestinations[] | cdktn.IResolvable;
 }
@@ -596,13 +596,13 @@ export interface ApsWorkspaceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#key ApsWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#key ApsWorkspace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#value ApsWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#value ApsWorkspace#value}
   */
   readonly value?: string;
 }
@@ -749,13 +749,13 @@ export interface ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSet {
   /**
   * Name of the label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#name ApsWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#name ApsWorkspace#name}
   */
   readonly name?: string;
   /**
   * Value of the label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#value ApsWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#value ApsWorkspace#value}
   */
   readonly value?: string;
 }
@@ -902,7 +902,7 @@ export interface ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits {
   /**
   * The maximum number of active series that can be ingested for this label set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#max_series ApsWorkspace#max_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#max_series ApsWorkspace#max_series}
   */
   readonly maxSeries?: number;
 }
@@ -998,13 +998,13 @@ export interface ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSets {
   /**
   * An array of series labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#label_set ApsWorkspace#label_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#label_set ApsWorkspace#label_set}
   */
   readonly labelSet?: ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSet[] | cdktn.IResolvable;
   /**
   * Limits that can be applied to a label set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#limits ApsWorkspace#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#limits ApsWorkspace#limits}
   */
   readonly limits?: ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits;
 }
@@ -1151,25 +1151,25 @@ export interface ApsWorkspaceWorkspaceConfiguration {
   /**
   * An array of label set and associated limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#limits_per_label_sets ApsWorkspace#limits_per_label_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#limits_per_label_sets ApsWorkspace#limits_per_label_sets}
   */
   readonly limitsPerLabelSets?: ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSets[] | cdktn.IResolvable;
   /**
   * The time window in seconds for accepting out-of-order samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#out_of_order_time_window_in_seconds ApsWorkspace#out_of_order_time_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#out_of_order_time_window_in_seconds ApsWorkspace#out_of_order_time_window_in_seconds}
   */
   readonly outOfOrderTimeWindowInSeconds?: number;
   /**
   * How many days that metrics are retained in the workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#retention_period_in_days ApsWorkspace#retention_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#retention_period_in_days ApsWorkspace#retention_period_in_days}
   */
   readonly retentionPeriodInDays?: number;
   /**
   * Duration in seconds to offset rule evaluation queries into the past
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#rule_query_offset_in_seconds ApsWorkspace#rule_query_offset_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#rule_query_offset_in_seconds ApsWorkspace#rule_query_offset_in_seconds}
   */
   readonly ruleQueryOffsetInSeconds?: number;
 }
@@ -1350,7 +1350,7 @@ export class ApsWorkspaceWorkspaceConfigurationOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace awscc_aps_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace awscc_aps_workspace}
 */
 export class ApsWorkspace extends cdktn.TerraformResource {
 
@@ -1366,7 +1366,7 @@ export class ApsWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApsWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsWorkspace to import
-  * @param importFromId The id of the existing ApsWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1378,7 +1378,7 @@ export class ApsWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace awscc_aps_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace awscc_aps_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1389,7 +1389,7 @@ export class ApsWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_aps_workspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

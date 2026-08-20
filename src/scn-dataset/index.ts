@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface ScnDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#description ScnDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#description ScnDataset#description}
   */
   readonly description?: string;
   /**
   * The Amazon Web Services Supply Chain instance identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#instance_id ScnDataset#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#instance_id ScnDataset#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#name ScnDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#name ScnDataset#name}
   */
   readonly name: string;
   /**
   * The namespace of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#namespace ScnDataset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#namespace ScnDataset#namespace}
   */
   readonly namespace: string;
   /**
   * The partition specification of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#partition_spec ScnDataset#partition_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#partition_spec ScnDataset#partition_spec}
   */
   readonly partitionSpec?: ScnDatasetPartitionSpec;
   /**
   * The schema of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#schema ScnDataset#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#schema ScnDataset#schema}
   */
   readonly schema?: ScnDatasetSchema;
   /**
   * The tags for the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#tags ScnDataset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#tags ScnDataset#tags}
   */
   readonly tags?: ScnDatasetTags[] | cdktn.IResolvable;
 }
@@ -59,7 +59,7 @@ export interface ScnDatasetPartitionSpecFieldsTransform {
   /**
   * The type of partitioning transformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#type ScnDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#type ScnDataset#type}
   */
   readonly type?: string;
 }
@@ -155,13 +155,13 @@ export interface ScnDatasetPartitionSpecFields {
   /**
   * The name of the partition field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#name ScnDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#name ScnDataset#name}
   */
   readonly name?: string;
   /**
   * The transformation of the partition field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#transform ScnDataset#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#transform ScnDataset#transform}
   */
   readonly transform?: ScnDatasetPartitionSpecFieldsTransform;
 }
@@ -308,7 +308,7 @@ export interface ScnDatasetPartitionSpec {
   /**
   * The partition fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#fields ScnDataset#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#fields ScnDataset#fields}
   */
   readonly fields?: ScnDatasetPartitionSpecFields[] | cdktn.IResolvable;
 }
@@ -404,19 +404,19 @@ export interface ScnDatasetSchemaFields {
   /**
   * Indicate if the field is required or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#is_required ScnDataset#is_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#is_required ScnDataset#is_required}
   */
   readonly isRequired?: boolean | cdktn.IResolvable;
   /**
   * The dataset field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#name ScnDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#name ScnDataset#name}
   */
   readonly name?: string;
   /**
   * The dataset field type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#type ScnDataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#type ScnDataset#type}
   */
   readonly type?: string;
 }
@@ -592,7 +592,7 @@ export interface ScnDatasetSchemaPrimaryKeys {
   /**
   * The name of the primary key field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#name ScnDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#name ScnDataset#name}
   */
   readonly name?: string;
 }
@@ -710,19 +710,19 @@ export interface ScnDatasetSchema {
   /**
   * The list of field details of the dataset schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#fields ScnDataset#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#fields ScnDataset#fields}
   */
   readonly fields?: ScnDatasetSchemaFields[] | cdktn.IResolvable;
   /**
   * The name of the dataset schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#name ScnDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#name ScnDataset#name}
   */
   readonly name?: string;
   /**
   * The list of primary key fields for the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#primary_keys ScnDataset#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#primary_keys ScnDataset#primary_keys}
   */
   readonly primaryKeys?: ScnDatasetSchemaPrimaryKeys[] | cdktn.IResolvable;
 }
@@ -876,13 +876,13 @@ export interface ScnDatasetTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#key ScnDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#key ScnDataset#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#value ScnDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#value ScnDataset#value}
   */
   readonly value?: string;
 }
@@ -1027,7 +1027,7 @@ export class ScnDatasetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset awscc_scn_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset awscc_scn_dataset}
 */
 export class ScnDataset extends cdktn.TerraformResource {
 
@@ -1043,7 +1043,7 @@ export class ScnDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ScnDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScnDataset to import
-  * @param importFromId The id of the existing ScnDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScnDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScnDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1055,7 +1055,7 @@ export class ScnDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/scn_dataset awscc_scn_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_dataset awscc_scn_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1066,7 +1066,7 @@ export class ScnDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_scn_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### NetworkmanagerDevice <a name="NetworkmanagerDevice" id="@cdktn/provider-awscc.networkmanagerDevice.NetworkmanagerDevice"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device awscc_networkmanager_device}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device awscc_networkmanager_device}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerDevice.NetworkmanagerDevice.Initializer"></a>
 
@@ -591,7 +591,7 @@ The construct id used in the generated config for the NetworkmanagerDevice to im
 
 The id of the existing NetworkmanagerDevice that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1093,7 +1093,7 @@ public string SubnetArn { get; set; }
 
 The Amazon Resource Name (ARN) of the subnet that the device is located in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#subnet_arn NetworkmanagerDevice#subnet_arn}
 
 ---
 
@@ -1109,7 +1109,7 @@ The Zone that the device is located in.
 
 Specify the ID of an Availability Zone, Local Zone, Wavelength Zone, or an Outpost.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#zone NetworkmanagerDevice#zone}
 
 ---
 
@@ -1245,7 +1245,7 @@ public string GlobalNetworkId { get; set; }
 
 The ID of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#global_network_id NetworkmanagerDevice#global_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#global_network_id NetworkmanagerDevice#global_network_id}
 
 ---
 
@@ -1259,7 +1259,7 @@ public NetworkmanagerDeviceAwsLocation AwsLocation { get; set; }
 
 The Amazon Web Services location of the device, if applicable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#aws_location NetworkmanagerDevice#aws_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#aws_location NetworkmanagerDevice#aws_location}
 
 ---
 
@@ -1273,7 +1273,7 @@ public string Description { get; set; }
 
 The description of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#description NetworkmanagerDevice#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#description NetworkmanagerDevice#description}
 
 ---
 
@@ -1287,7 +1287,7 @@ public NetworkmanagerDeviceLocation Location { get; set; }
 
 The site location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#location NetworkmanagerDevice#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#location NetworkmanagerDevice#location}
 
 ---
 
@@ -1301,7 +1301,7 @@ public string Model { get; set; }
 
 The device model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#model NetworkmanagerDevice#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#model NetworkmanagerDevice#model}
 
 ---
 
@@ -1315,7 +1315,7 @@ public string SerialNumber { get; set; }
 
 The device serial number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#serial_number NetworkmanagerDevice#serial_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#serial_number NetworkmanagerDevice#serial_number}
 
 ---
 
@@ -1329,7 +1329,7 @@ public string SiteId { get; set; }
 
 The site ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#site_id NetworkmanagerDevice#site_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#site_id NetworkmanagerDevice#site_id}
 
 ---
 
@@ -1343,7 +1343,7 @@ public IResolvable|NetworkmanagerDeviceTags[] Tags { get; set; }
 
 The tags for the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#tags NetworkmanagerDevice#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#tags NetworkmanagerDevice#tags}
 
 ---
 
@@ -1357,7 +1357,7 @@ public string Type { get; set; }
 
 The device type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#type NetworkmanagerDevice#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#type NetworkmanagerDevice#type}
 
 ---
 
@@ -1371,7 +1371,7 @@ public string Vendor { get; set; }
 
 The device vendor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#vendor NetworkmanagerDevice#vendor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#vendor NetworkmanagerDevice#vendor}
 
 ---
 
@@ -1409,7 +1409,7 @@ public string Address { get; set; }
 
 The physical address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#address NetworkmanagerDevice#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#address NetworkmanagerDevice#address}
 
 ---
 
@@ -1423,7 +1423,7 @@ public string Latitude { get; set; }
 
 The latitude.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#latitude NetworkmanagerDevice#latitude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#latitude NetworkmanagerDevice#latitude}
 
 ---
 
@@ -1437,7 +1437,7 @@ public string Longitude { get; set; }
 
 The longitude.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#longitude NetworkmanagerDevice#longitude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#longitude NetworkmanagerDevice#longitude}
 
 ---
 
@@ -1475,7 +1475,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#key NetworkmanagerDevice#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#key NetworkmanagerDevice#key}
 
 ---
 
@@ -1491,7 +1491,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_device#value NetworkmanagerDevice#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_device#value NetworkmanagerDevice#value}
 
 ---
 

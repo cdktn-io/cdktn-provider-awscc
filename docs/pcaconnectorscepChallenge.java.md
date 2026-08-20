@@ -4,7 +4,7 @@
 
 ### PcaconnectorscepChallenge <a name="PcaconnectorscepChallenge" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer"></a>
 
@@ -35,8 +35,8 @@ PcaconnectorscepChallenge.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.connectorArn">connectorArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.connectorArn">connectorArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallenge.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
 
 ---
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 
 ---
 
@@ -112,7 +112,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 
 ---
 
@@ -568,7 +568,7 @@ The construct id used in the generated config for the PcaconnectorscepChallenge 
 
 The id of the existing PcaconnectorscepChallenge that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -860,8 +860,8 @@ PcaconnectorscepChallengeConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">connectorArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.connectorArn">connectorArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectorscepChallenge.PcaconnectorscepChallengeConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}. |
 
 ---
 
@@ -943,7 +943,7 @@ public java.lang.String getConnectorArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 
 ---
 
@@ -955,7 +955,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 
 ---
 

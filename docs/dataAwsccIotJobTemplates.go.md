@@ -4,7 +4,7 @@
 
 ### DataAwsccIotJobTemplates <a name="DataAwsccIotJobTemplates" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_job_templates awscc_iot_job_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_job_templates awscc_iot_job_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotJobTemplates.DataAwsccIotJobTemplates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotJobTemplates t
 
 The id of the existing DataAwsccIotJobTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_job_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_job_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

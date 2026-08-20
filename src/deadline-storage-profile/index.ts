@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,33 +13,33 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineStorageProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#display_name DeadlineStorageProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#display_name DeadlineStorageProfile#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#farm_id DeadlineStorageProfile#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#farm_id DeadlineStorageProfile#farm_id}
   */
   readonly farmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#file_system_locations DeadlineStorageProfile#file_system_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#file_system_locations DeadlineStorageProfile#file_system_locations}
   */
   readonly fileSystemLocations?: DeadlineStorageProfileFileSystemLocations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#os_family DeadlineStorageProfile#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#os_family DeadlineStorageProfile#os_family}
   */
   readonly osFamily: string;
 }
 export interface DeadlineStorageProfileFileSystemLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#name DeadlineStorageProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#name DeadlineStorageProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#path DeadlineStorageProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#path DeadlineStorageProfile#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#type DeadlineStorageProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#type DeadlineStorageProfile#type}
   */
   readonly type?: string;
 }
@@ -213,7 +213,7 @@ export class DeadlineStorageProfileFileSystemLocationsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile}
 */
 export class DeadlineStorageProfile extends cdktn.TerraformResource {
 
@@ -229,7 +229,7 @@ export class DeadlineStorageProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineStorageProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineStorageProfile to import
-  * @param importFromId The id of the existing DeadlineStorageProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineStorageProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineStorageProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DeadlineStorageProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,7 +252,7 @@ export class DeadlineStorageProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_storage_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

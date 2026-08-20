@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface ConnectPhoneNumberConfig extends cdktn.TerraformMetaArguments {
   /**
   * The phone number country code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#country_code ConnectPhoneNumber#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#country_code ConnectPhoneNumber#country_code}
   */
   readonly countryCode?: string;
   /**
   * The description of the phone number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#description ConnectPhoneNumber#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#description ConnectPhoneNumber#description}
   */
   readonly description?: string;
   /**
   * The phone number prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#prefix ConnectPhoneNumber#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#prefix ConnectPhoneNumber#prefix}
   */
   readonly prefix?: string;
   /**
   * The source phone number arn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#source_phone_number_arn ConnectPhoneNumber#source_phone_number_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#source_phone_number_arn ConnectPhoneNumber#source_phone_number_arn}
   */
   readonly sourcePhoneNumberArn?: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#tags ConnectPhoneNumber#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#tags ConnectPhoneNumber#tags}
   */
   readonly tags?: ConnectPhoneNumberTags[] | cdktn.IResolvable;
   /**
   * The ARN of the target the phone number is claimed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#target_arn ConnectPhoneNumber#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#target_arn ConnectPhoneNumber#target_arn}
   */
   readonly targetArn: string;
   /**
   * The phone number type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#type ConnectPhoneNumber#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#type ConnectPhoneNumber#type}
   */
   readonly type?: string;
 }
@@ -59,13 +59,13 @@ export interface ConnectPhoneNumberTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
   */
   readonly value?: string;
 }
@@ -210,7 +210,7 @@ export class ConnectPhoneNumberTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number awscc_connect_phone_number}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number awscc_connect_phone_number}
 */
 export class ConnectPhoneNumber extends cdktn.TerraformResource {
 
@@ -226,7 +226,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectPhoneNumber resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectPhoneNumber to import
-  * @param importFromId The id of the existing ConnectPhoneNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectPhoneNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectPhoneNumber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -238,7 +238,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_phone_number awscc_connect_phone_number} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_phone_number awscc_connect_phone_number} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,7 +249,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_phone_number',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

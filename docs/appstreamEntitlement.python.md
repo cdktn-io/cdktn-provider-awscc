@@ -4,7 +4,7 @@
 
 ### AppstreamEntitlement <a name="AppstreamEntitlement" id="@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement awscc_appstream_entitlement}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement awscc_appstream_entitlement}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer"></a>
 
@@ -40,11 +40,11 @@ appstreamEntitlement.AppstreamEntitlement(
 | <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.appVisibility">app_visibility</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.attributes">attributes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes">AppstreamEntitlementAttributes</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.stackName">stack_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.appVisibility">app_visibility</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.attributes">attributes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes">AppstreamEntitlementAttributes</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.stackName">stack_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlement.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}.
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes">AppstreamEntitlementAttributes</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}.
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}.
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}.
 
 ---
 
@@ -663,7 +663,7 @@ The construct id used in the generated config for the AppstreamEntitlement to im
 
 The id of the existing AppstreamEntitlement that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1018,8 +1018,8 @@ appstreamEntitlement.AppstreamEntitlementAttributes(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#value AppstreamEntitlement#value}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#value AppstreamEntitlement#value}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}.
 
 ---
 
@@ -1043,7 +1043,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#value AppstreamEntitlement#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#value AppstreamEntitlement#value}.
 
 ---
 
@@ -1081,11 +1081,11 @@ appstreamEntitlement.AppstreamEntitlementConfig(
 | <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.appVisibility">app_visibility</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.attributes">attributes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes">AppstreamEntitlementAttributes</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.stackName">stack_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.appVisibility">app_visibility</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.attributes">attributes</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes">AppstreamEntitlementAttributes</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.stackName">stack_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}. |
 
 ---
 
@@ -1167,7 +1167,7 @@ app_visibility: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}.
 
 ---
 
@@ -1179,7 +1179,7 @@ attributes: IResolvable | typing.List[AppstreamEntitlementAttributes]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.appstreamEntitlement.AppstreamEntitlementAttributes">AppstreamEntitlementAttributes</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}.
 
 ---
 
@@ -1191,7 +1191,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}.
 
 ---
 
@@ -1203,7 +1203,7 @@ stack_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}.
 
 ---
 
@@ -1215,7 +1215,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}.
 
 ---
 

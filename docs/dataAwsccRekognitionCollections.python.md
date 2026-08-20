@@ -4,7 +4,7 @@
 
 ### DataAwsccRekognitionCollections <a name="DataAwsccRekognitionCollections" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rekognition_collections awscc_rekognition_collections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rekognition_collections awscc_rekognition_collections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRekognitionCollections.DataAwsccRekognitionCollections.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRekognitionCollec
 
 The id of the existing DataAwsccRekognitionCollections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rekognition_collections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rekognition_collections#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### S3ExpressBucketPolicy <a name="S3ExpressBucketPolicy" id="@cdktn/provider-awscc.s3ExpressBucketPolicy.S3ExpressBucketPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ExpressBucketPolicy.S3ExpressBucketPolicy.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the S3 directory bucket to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#bucket S3ExpressBucketPolicy#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#bucket S3ExpressBucketPolicy#bucket}
 
 ---
 
@@ -118,7 +118,7 @@ A policy document containing permissions to add to the specified bucket.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#policy_document S3ExpressBucketPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#policy_document S3ExpressBucketPolicy#policy_document}
 
 ---
 
@@ -567,7 +567,7 @@ The construct id used in the generated config for the S3ExpressBucketPolicy to i
 
 The id of the existing S3ExpressBucketPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -933,7 +933,7 @@ public java.lang.String getBucket();
 
 The name of the S3 directory bucket to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#bucket S3ExpressBucketPolicy#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#bucket S3ExpressBucketPolicy#bucket}
 
 ---
 
@@ -949,7 +949,7 @@ A policy document containing permissions to add to the specified bucket.
 
 In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#policy_document S3ExpressBucketPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#policy_document S3ExpressBucketPolicy#policy_document}
 
 ---
 

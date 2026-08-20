@@ -4,7 +4,7 @@
 
 ### Ec2RouteServerEndpoint <a name="Ec2RouteServerEndpoint" id="@cdktn/provider-awscc.ec2RouteServerEndpoint.Ec2RouteServerEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint awscc_ec2_route_server_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint awscc_ec2_route_server_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerEndpoint.Ec2RouteServerEndpoint.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the Ec2RouteServerEndpoint to 
 
 The id of the existing Ec2RouteServerEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ public string RouteServerId { get; set; }
 
 Route Server ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint#route_server_id Ec2RouteServerEndpoint#route_server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint#route_server_id Ec2RouteServerEndpoint#route_server_id}
 
 ---
 
@@ -968,7 +968,7 @@ public string SubnetId { get; set; }
 
 Subnet ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint#subnet_id Ec2RouteServerEndpoint#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint#subnet_id Ec2RouteServerEndpoint#subnet_id}
 
 ---
 
@@ -982,7 +982,7 @@ public IResolvable|Ec2RouteServerEndpointTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint#tags Ec2RouteServerEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint#tags Ec2RouteServerEndpoint#tags}
 
 ---
 
@@ -1020,7 +1020,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint#key Ec2RouteServerEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint#key Ec2RouteServerEndpoint#key}
 
 ---
 
@@ -1036,7 +1036,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_endpoint#value Ec2RouteServerEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_endpoint#value Ec2RouteServerEndpoint#value}
 
 ---
 

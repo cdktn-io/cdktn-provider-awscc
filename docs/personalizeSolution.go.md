@@ -4,7 +4,7 @@
 
 ### PersonalizeSolution <a name="PersonalizeSolution" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution awscc_personalize_solution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.Initializer"></a>
 
@@ -75,11 +75,13 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.putSolutionConfig">PutSolutionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetEventType">ResetEventType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetPerformAutoMl">ResetPerformAutoMl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetPerformHpo">ResetPerformHpo</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetRecipeArn">ResetRecipeArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetSolutionConfig">ResetSolutionConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetTags">ResetTags</a></code> | *No description.* |
 
 ---
 
@@ -404,6 +406,18 @@ func PutSolutionConfig(value PersonalizeSolutionSolutionConfig)
 
 ---
 
+##### `PutTags` <a name="PutTags" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.putTags"></a>
+
+```go
+func PutTags(value interface{})
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.putTags.parameter.value"></a>
+
+- *Type:* interface{}
+
+---
+
 ##### `ResetEventType` <a name="ResetEventType" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetEventType"></a>
 
 ```go
@@ -432,6 +446,12 @@ func ResetRecipeArn()
 
 ```go
 func ResetSolutionConfig()
+```
+
+##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.resetTags"></a>
+
+```go
+func ResetTags()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -537,7 +557,7 @@ The construct id used in the generated config for the PersonalizeSolution to imp
 
 The id of the existing PersonalizeSolution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -570,6 +590,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.solutionArn">SolutionArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.solutionConfig">SolutionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionSolutionConfigOutputReference">PersonalizeSolutionSolutionConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList">PersonalizeSolutionTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.datasetGroupArnInput">DatasetGroupArnInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.eventTypeInput">EventTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
@@ -577,6 +598,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.performHpoInput">PerformHpoInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.recipeArnInput">RecipeArnInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.solutionConfigInput">SolutionConfigInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.tagsInput">TagsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.datasetGroupArn">DatasetGroupArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.eventType">EventType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.name">Name</a></code> | <code>*string</code> | *No description.* |
@@ -758,6 +780,16 @@ func SolutionConfig() PersonalizeSolutionSolutionConfigOutputReference
 
 ---
 
+##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.tags"></a>
+
+```go
+func Tags() PersonalizeSolutionTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList">PersonalizeSolutionTagsList</a>
+
+---
+
 ##### `DatasetGroupArnInput`<sup>Optional</sup> <a name="DatasetGroupArnInput" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.datasetGroupArnInput"></a>
 
 ```go
@@ -822,6 +854,16 @@ func RecipeArnInput() *string
 
 ```go
 func SolutionConfigInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `TagsInput`<sup>Optional</sup> <a name="TagsInput" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolution.property.tagsInput"></a>
+
+```go
+func TagsInput() interface{}
 ```
 
 - *Type:* interface{}
@@ -930,6 +972,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizesolution"
 	PerformHpo: interface{},
 	RecipeArn: *string,
 	SolutionConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.personalizeSolution.PersonalizeSolutionSolutionConfig,
+	Tags: interface{},
 }
 ```
 
@@ -951,6 +994,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizesolution"
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionConfig.property.performHpo">PerformHpo</a></code> | <code>interface{}</code> | Whether to perform hyperparameter optimization (HPO) on the specified or selected recipe. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionConfig.property.recipeArn">RecipeArn</a></code> | <code>*string</code> | The ARN of the recipe to use for model training. Only specified when performAutoML is false. |
 | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionConfig.property.solutionConfig">SolutionConfig</a></code> | <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionSolutionConfig">PersonalizeSolutionSolutionConfig</a></code> | The configuration to use with the solution. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionConfig.property.tags">Tags</a></code> | <code>interface{}</code> | The tags used to organize, track, or control access for this resource. |
 
 ---
 
@@ -1034,7 +1078,7 @@ DatasetGroupArn *string
 
 The ARN of the dataset group that provides the training data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#dataset_group_arn PersonalizeSolution#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#dataset_group_arn PersonalizeSolution#dataset_group_arn}
 
 ---
 
@@ -1048,7 +1092,7 @@ Name *string
 
 The name for the solution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1064,7 +1108,7 @@ When your have multiple event types (using an EVENT_TYPE schema field), this par
 
 If you do not provide an eventType, Amazon Personalize will use all interactions for training with equal weight regardless of type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#event_type PersonalizeSolution#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#event_type PersonalizeSolution#event_type}
 
 ---
 
@@ -1078,7 +1122,7 @@ PerformAutoMl interface{}
 
 Whether to perform automated machine learning (AutoML). The default is false. For this case, you must specify recipeArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#perform_auto_ml PersonalizeSolution#perform_auto_ml}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#perform_auto_ml PersonalizeSolution#perform_auto_ml}
 
 ---
 
@@ -1094,7 +1138,7 @@ Whether to perform hyperparameter optimization (HPO) on the specified or selecte
 
 The default is false. When performing AutoML, this parameter is always true and you should not set it to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#perform_hpo PersonalizeSolution#perform_hpo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#perform_hpo PersonalizeSolution#perform_hpo}
 
 ---
 
@@ -1108,7 +1152,7 @@ RecipeArn *string
 
 The ARN of the recipe to use for model training. Only specified when performAutoML is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#recipe_arn PersonalizeSolution#recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#recipe_arn PersonalizeSolution#recipe_arn}
 
 ---
 
@@ -1124,7 +1168,21 @@ The configuration to use with the solution.
 
 When performAutoML is set to true, Amazon Personalize only evaluates the autoMLConfig section of the solution configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#solution_config PersonalizeSolution#solution_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#solution_config PersonalizeSolution#solution_config}
+
+---
+
+##### `Tags`<sup>Optional</sup> <a name="Tags" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionConfig.property.tags"></a>
+
+```go
+Tags interface{}
+```
+
+- *Type:* interface{}
+
+The tags used to organize, track, or control access for this resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#tags PersonalizeSolution#tags}
 
 ---
 
@@ -1166,7 +1224,7 @@ AlgorithmHyperParameters *map[string]*string
 
 Lists the hyperparameter names and ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#algorithm_hyper_parameters PersonalizeSolution#algorithm_hyper_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#algorithm_hyper_parameters PersonalizeSolution#algorithm_hyper_parameters}
 
 ---
 
@@ -1180,7 +1238,7 @@ AutoMlConfig PersonalizeSolutionSolutionConfigAutoMlConfig
 
 The AutoMLConfig object containing a list of recipes to search when AutoML is performed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#auto_ml_config PersonalizeSolution#auto_ml_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#auto_ml_config PersonalizeSolution#auto_ml_config}
 
 ---
 
@@ -1194,7 +1252,7 @@ EventValueThreshold *string
 
 Only events with a value greater than or equal to this threshold are used for training a model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#event_value_threshold PersonalizeSolution#event_value_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#event_value_threshold PersonalizeSolution#event_value_threshold}
 
 ---
 
@@ -1208,7 +1266,7 @@ FeatureTransformationParameters *map[string]*string
 
 Lists the feature transformation parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#feature_transformation_parameters PersonalizeSolution#feature_transformation_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#feature_transformation_parameters PersonalizeSolution#feature_transformation_parameters}
 
 ---
 
@@ -1222,7 +1280,7 @@ HpoConfig PersonalizeSolutionSolutionConfigHpoConfig
 
 Describes the properties for hyperparameter optimization (HPO).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_config PersonalizeSolution#hpo_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#hpo_config PersonalizeSolution#hpo_config}
 
 ---
 
@@ -1258,7 +1316,7 @@ MetricName *string
 
 The metric to optimize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
 
 ---
 
@@ -1272,7 +1330,7 @@ RecipeList *[]*string
 
 The list of candidate recipes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#recipe_list PersonalizeSolution#recipe_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#recipe_list PersonalizeSolution#recipe_list}
 
 ---
 
@@ -1310,7 +1368,7 @@ AlgorithmHyperParameterRanges PersonalizeSolutionSolutionConfigHpoConfigAlgorith
 
 The hyperparameters and their allowable ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#algorithm_hyper_parameter_ranges PersonalizeSolution#algorithm_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#algorithm_hyper_parameter_ranges PersonalizeSolution#algorithm_hyper_parameter_ranges}
 
 ---
 
@@ -1324,7 +1382,7 @@ HpoObjective PersonalizeSolutionSolutionConfigHpoConfigHpoObjective
 
 The metric to optimize during HPO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_objective PersonalizeSolution#hpo_objective}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#hpo_objective PersonalizeSolution#hpo_objective}
 
 ---
 
@@ -1338,7 +1396,7 @@ HpoResourceConfig PersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfig
 
 Describes the resource configuration for hyperparameter optimization (HPO).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#hpo_resource_config PersonalizeSolution#hpo_resource_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#hpo_resource_config PersonalizeSolution#hpo_resource_config}
 
 ---
 
@@ -1376,7 +1434,7 @@ CategoricalHyperParameterRanges interface{}
 
 The categorical hyperparameters and their ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#categorical_hyper_parameter_ranges PersonalizeSolution#categorical_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#categorical_hyper_parameter_ranges PersonalizeSolution#categorical_hyper_parameter_ranges}
 
 ---
 
@@ -1390,7 +1448,7 @@ ContinuousHyperParameterRanges interface{}
 
 The continuous hyperparameters and their ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#continuous_hyper_parameter_ranges PersonalizeSolution#continuous_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#continuous_hyper_parameter_ranges PersonalizeSolution#continuous_hyper_parameter_ranges}
 
 ---
 
@@ -1404,7 +1462,7 @@ IntegerHyperParameterRanges interface{}
 
 The integer hyperparameters and their ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#integer_hyper_parameter_ranges PersonalizeSolution#integer_hyper_parameter_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#integer_hyper_parameter_ranges PersonalizeSolution#integer_hyper_parameter_ranges}
 
 ---
 
@@ -1440,7 +1498,7 @@ Name *string
 
 The name of the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1454,7 +1512,7 @@ Values *[]*string
 
 A list of the categories for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#values PersonalizeSolution#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#values PersonalizeSolution#values}
 
 ---
 
@@ -1492,7 +1550,7 @@ MaxValue *f64
 
 The maximum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
 
 ---
 
@@ -1506,7 +1564,7 @@ MinValue *f64
 
 The minimum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
 
 ---
 
@@ -1520,7 +1578,7 @@ Name *string
 
 The name of the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1558,7 +1616,7 @@ MaxValue *f64
 
 The maximum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_value PersonalizeSolution#max_value}
 
 ---
 
@@ -1572,7 +1630,7 @@ MinValue *f64
 
 The minimum allowable value for the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#min_value PersonalizeSolution#min_value}
 
 ---
 
@@ -1586,7 +1644,7 @@ Name *string
 
 The name of the hyperparameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#name PersonalizeSolution#name}
 
 ---
 
@@ -1624,7 +1682,7 @@ MetricName *string
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#metric_name PersonalizeSolution#metric_name}
 
 ---
 
@@ -1638,7 +1696,7 @@ MetricRegex *string
 
 A regular expression for finding the metric in the training job logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#metric_regex PersonalizeSolution#metric_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#metric_regex PersonalizeSolution#metric_regex}
 
 ---
 
@@ -1652,7 +1710,7 @@ Type *string
 
 The type of the metric. Valid values are Maximize and Minimize.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#type PersonalizeSolution#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#type PersonalizeSolution#type}
 
 ---
 
@@ -1688,7 +1746,7 @@ MaxNumberOfTrainingJobs *string
 
 The maximum number of training jobs when you create a solution version. The maximum value for maxNumberOfTrainingJobs is 40.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_number_of_training_jobs PersonalizeSolution#max_number_of_training_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_number_of_training_jobs PersonalizeSolution#max_number_of_training_jobs}
 
 ---
 
@@ -1704,7 +1762,53 @@ The maximum number of parallel training jobs when you create a solution version.
 
 The maximum value for maxParallelTrainingJobs is 10.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution#max_parallel_training_jobs PersonalizeSolution#max_parallel_training_jobs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#max_parallel_training_jobs PersonalizeSolution#max_parallel_training_jobs}
+
+---
+
+### PersonalizeSolutionTags <a name="PersonalizeSolutionTags" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTags.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizesolution"
+
+&personalizesolution.PersonalizeSolutionTags {
+	Key: *string,
+	Value: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#key PersonalizeSolution#key}. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#value PersonalizeSolution#value}. |
+
+---
+
+##### `Key`<sup>Optional</sup> <a name="Key" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTags.property.key"></a>
+
+```go
+Key *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#key PersonalizeSolution#key}.
+
+---
+
+##### `Value`<sup>Optional</sup> <a name="Value" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTags.property.value"></a>
+
+```go
+Value *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution#value PersonalizeSolution#value}.
 
 ---
 
@@ -5333,6 +5437,491 @@ func FeatureTransformationParameters() *map[string]*string
 ---
 
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionSolutionConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### PersonalizeSolutionTagsList <a name="PersonalizeSolutionTagsList" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizesolution"
+
+personalizesolution.NewPersonalizeSolutionTagsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PersonalizeSolutionTagsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.get"></a>
+
+```go
+func Get(index *f64) PersonalizeSolutionTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsList.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### PersonalizeSolutionTagsOutputReference <a name="PersonalizeSolutionTagsOutputReference" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizesolution"
+
+personalizesolution.NewPersonalizeSolutionTagsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) PersonalizeSolutionTagsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resetKey">ResetKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resetValue">ResetValue</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetKey` <a name="ResetKey" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resetKey"></a>
+
+```go
+func ResetKey()
+```
+
+##### `ResetValue` <a name="ResetValue" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.resetValue"></a>
+
+```go
+func ResetValue()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.keyInput">KeyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.valueInput">ValueInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.key">Key</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.value">Value</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KeyInput`<sup>Optional</sup> <a name="KeyInput" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.keyInput"></a>
+
+```go
+func KeyInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ValueInput`<sup>Optional</sup> <a name="ValueInput" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.valueInput"></a>
+
+```go
+func ValueInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.key"></a>
+
+```go
+func Key() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.value"></a>
+
+```go
+func Value() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.personalizeSolution.PersonalizeSolutionTagsOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

@@ -4,7 +4,7 @@
 
 ### LambdaPermission <a name="LambdaPermission" id="@cdktn/provider-awscc.lambdaPermission.LambdaPermission"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission awscc_lambda_permission}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission awscc_lambda_permission}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaPermission.LambdaPermission.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The action that the principal can use on the function. For example, ``lambda:InvokeFunction`` or ``lambda:GetFunction``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#action LambdaPermission#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#action LambdaPermission#action}
 
 ---
 
@@ -138,7 +138,7 @@ The name or ARN of the Lambda function, version, or alias.
 
 You can append a version number or alias to any of the formats. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#function_name LambdaPermission#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#function_name LambdaPermission#function_name}
 
 ---
 
@@ -150,7 +150,7 @@ The AWS-service, AWS-account, IAM user, or IAM role that invokes the function.
 
 If you specify a service, use `SourceArn` or `SourceAccount` to limit who can invoke the function through that service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#principal LambdaPermission#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#principal LambdaPermission#principal}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For Alexa Smart Home functions, a token that the invoker must supply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#event_source_token LambdaPermission#event_source_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#event_source_token LambdaPermission#event_source_token}
 
 ---
 
@@ -172,7 +172,7 @@ The type of authentication that your function URL uses.
 
 Set to `AWS_IAM` if you want to restrict access to authenticated users only. Set to `NONE` if you want to bypass IAM authentication to create a public endpoint. For more information, see [Control access to Lambda function URLs](https://docs.aws.amazon.com/lambda/latest/dg/urls-auth.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#function_url_auth_type LambdaPermission#function_url_auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#function_url_auth_type LambdaPermission#function_url_auth_type}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether the permission applies when the function is invoked through a function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#invoked_via_function_url LambdaPermission#invoked_via_function_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#invoked_via_function_url LambdaPermission#invoked_via_function_url}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier for your organization in AOlong. Use this to grant permissions to all the AWS-accounts under this organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#principal_org_id LambdaPermission#principal_org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#principal_org_id LambdaPermission#principal_org_id}
 
 ---
 
@@ -204,7 +204,7 @@ For AWS-service, the ID of the AWS-account that owns the resource.
 
 Use this together with `SourceArn` to ensure that the specified account owns the resource. It is possible for an Amazon S3 bucket to be deleted by its owner and recreated by another account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#source_account LambdaPermission#source_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#source_account LambdaPermission#source_account}
 
 ---
 
@@ -217,7 +217,7 @@ For AWS-services, the ARN of the AWS resource that invokes the function.
 For example, an Amazon S3 bucket or Amazon SNS topic.
 Note that Lambda configures the comparison using the `StringLike` operator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#source_arn LambdaPermission#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#source_arn LambdaPermission#source_arn}
 
 ---
 
@@ -708,7 +708,7 @@ The construct id used in the generated config for the LambdaPermission to import
 
 The id of the existing LambdaPermission that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1253,7 +1253,7 @@ public java.lang.String getAction();
 
 The action that the principal can use on the function. For example, ``lambda:InvokeFunction`` or ``lambda:GetFunction``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#action LambdaPermission#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#action LambdaPermission#action}
 
 ---
 
@@ -1275,7 +1275,7 @@ The name or ARN of the Lambda function, version, or alias.
 
 You can append a version number or alias to any of the formats. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#function_name LambdaPermission#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#function_name LambdaPermission#function_name}
 
 ---
 
@@ -1291,7 +1291,7 @@ The AWS-service, AWS-account, IAM user, or IAM role that invokes the function.
 
 If you specify a service, use `SourceArn` or `SourceAccount` to limit who can invoke the function through that service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#principal LambdaPermission#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#principal LambdaPermission#principal}
 
 ---
 
@@ -1305,7 +1305,7 @@ public java.lang.String getEventSourceToken();
 
 For Alexa Smart Home functions, a token that the invoker must supply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#event_source_token LambdaPermission#event_source_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#event_source_token LambdaPermission#event_source_token}
 
 ---
 
@@ -1321,7 +1321,7 @@ The type of authentication that your function URL uses.
 
 Set to `AWS_IAM` if you want to restrict access to authenticated users only. Set to `NONE` if you want to bypass IAM authentication to create a public endpoint. For more information, see [Control access to Lambda function URLs](https://docs.aws.amazon.com/lambda/latest/dg/urls-auth.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#function_url_auth_type LambdaPermission#function_url_auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#function_url_auth_type LambdaPermission#function_url_auth_type}
 
 ---
 
@@ -1335,7 +1335,7 @@ public java.lang.Boolean|IResolvable getInvokedViaFunctionUrl();
 
 Indicates whether the permission applies when the function is invoked through a function URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#invoked_via_function_url LambdaPermission#invoked_via_function_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#invoked_via_function_url LambdaPermission#invoked_via_function_url}
 
 ---
 
@@ -1349,7 +1349,7 @@ public java.lang.String getPrincipalOrgId();
 
 The identifier for your organization in AOlong. Use this to grant permissions to all the AWS-accounts under this organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#principal_org_id LambdaPermission#principal_org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#principal_org_id LambdaPermission#principal_org_id}
 
 ---
 
@@ -1365,7 +1365,7 @@ For AWS-service, the ID of the AWS-account that owns the resource.
 
 Use this together with `SourceArn` to ensure that the specified account owns the resource. It is possible for an Amazon S3 bucket to be deleted by its owner and recreated by another account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#source_account LambdaPermission#source_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#source_account LambdaPermission#source_account}
 
 ---
 
@@ -1382,7 +1382,7 @@ For AWS-services, the ARN of the AWS resource that invokes the function.
 For example, an Amazon S3 bucket or Amazon SNS topic.
 Note that Lambda configures the comparison using the `StringLike` operator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_permission#source_arn LambdaPermission#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_permission#source_arn LambdaPermission#source_arn}
 
 ---
 

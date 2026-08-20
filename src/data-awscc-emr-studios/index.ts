@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studios
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studios
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEmrStudiosConfig extends cdktn.TerraformMetaArguments 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studios awscc_emr_studios}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studios awscc_emr_studios}
 */
 export class DataAwsccEmrStudios extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccEmrStudios extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccEmrStudios resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEmrStudios to import
-  * @param importFromId The id of the existing DataAwsccEmrStudios that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studios#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEmrStudios that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studios#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEmrStudios to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccEmrStudios extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studios awscc_emr_studios} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studios awscc_emr_studios} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccEmrStudios extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_emr_studios',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

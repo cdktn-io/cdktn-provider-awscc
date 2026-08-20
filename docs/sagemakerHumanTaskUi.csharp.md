@@ -4,7 +4,7 @@
 
 ### SagemakerHumanTaskUi <a name="SagemakerHumanTaskUi" id="@cdktn/provider-awscc.sagemakerHumanTaskUi.SagemakerHumanTaskUi"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerHumanTaskUi.SagemakerHumanTaskUi.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SagemakerHumanTaskUi to im
 
 The id of the existing SagemakerHumanTaskUi that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -941,7 +941,7 @@ public string HumanTaskUiName { get; set; }
 
 The name of the human task user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#human_task_ui_name SagemakerHumanTaskUi#human_task_ui_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#human_task_ui_name SagemakerHumanTaskUi#human_task_ui_name}
 
 ---
 
@@ -955,7 +955,7 @@ public IResolvable|SagemakerHumanTaskUiTags[] Tags { get; set; }
 
 An array of key-value pairs that contain metadata to help you categorize and organize a human review workflow user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#tags SagemakerHumanTaskUi#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#tags SagemakerHumanTaskUi#tags}
 
 ---
 
@@ -969,7 +969,7 @@ public SagemakerHumanTaskUiUiTemplate UiTemplate { get; set; }
 
 The Liquid template for the worker user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#ui_template SagemakerHumanTaskUi#ui_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#ui_template SagemakerHumanTaskUi#ui_template}
 
 ---
 
@@ -1005,7 +1005,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#key SagemakerHumanTaskUi#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#key SagemakerHumanTaskUi#key}
 
 ---
 
@@ -1019,7 +1019,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#value SagemakerHumanTaskUi#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#value SagemakerHumanTaskUi#value}
 
 ---
 
@@ -1053,7 +1053,7 @@ public string Content { get; set; }
 
 The content of the Liquid template for the worker user interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}
 
 ---
 

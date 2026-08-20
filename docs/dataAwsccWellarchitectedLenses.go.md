@@ -4,7 +4,7 @@
 
 ### DataAwsccWellarchitectedLenses <a name="DataAwsccWellarchitectedLenses" id="@cdktn/provider-awscc.dataAwsccWellarchitectedLenses.DataAwsccWellarchitectedLenses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wellarchitected_lenses awscc_wellarchitected_lenses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_lenses awscc_wellarchitected_lenses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedLenses.DataAwsccWellarchitectedLenses.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedLe
 
 The id of the existing DataAwsccWellarchitectedLenses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wellarchitected_lenses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_lenses#import import section} in the documentation of this resource for the id to use
 
 ---
 

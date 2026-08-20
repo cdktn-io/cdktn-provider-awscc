@@ -4,7 +4,7 @@
 
 ### GuarddutyIpSet <a name="GuarddutyIpSet" id="@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSet.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GuarddutyIpSet to import.
 
 The id of the existing GuarddutyIpSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -944,13 +944,13 @@ new GuarddutyIpSetConfig {
 | <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.format">Format</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#format GuarddutyIpSet#format}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#location GuarddutyIpSet#location}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.activate">Activate</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#activate GuarddutyIpSet#activate}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.detectorId">DetectorId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#detector_id GuarddutyIpSet#detector_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.expectedBucketOwner">ExpectedBucketOwner</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#expected_bucket_owner GuarddutyIpSet#expected_bucket_owner}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#name GuarddutyIpSet#name}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags">GuarddutyIpSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#tags GuarddutyIpSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.format">Format</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#format GuarddutyIpSet#format}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#location GuarddutyIpSet#location}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.activate">Activate</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#activate GuarddutyIpSet#activate}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.detectorId">DetectorId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#detector_id GuarddutyIpSet#detector_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.expectedBucketOwner">ExpectedBucketOwner</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#expected_bucket_owner GuarddutyIpSet#expected_bucket_owner}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#name GuarddutyIpSet#name}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags">GuarddutyIpSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#tags GuarddutyIpSet#tags}. |
 
 ---
 
@@ -1032,7 +1032,7 @@ public string Format { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#format GuarddutyIpSet#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#format GuarddutyIpSet#format}.
 
 ---
 
@@ -1044,7 +1044,7 @@ public string Location { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#location GuarddutyIpSet#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#location GuarddutyIpSet#location}.
 
 ---
 
@@ -1056,7 +1056,7 @@ public bool|IResolvable Activate { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#activate GuarddutyIpSet#activate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#activate GuarddutyIpSet#activate}.
 
 ---
 
@@ -1068,7 +1068,7 @@ public string DetectorId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#detector_id GuarddutyIpSet#detector_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#detector_id GuarddutyIpSet#detector_id}.
 
 ---
 
@@ -1080,7 +1080,7 @@ public string ExpectedBucketOwner { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#expected_bucket_owner GuarddutyIpSet#expected_bucket_owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#expected_bucket_owner GuarddutyIpSet#expected_bucket_owner}.
 
 ---
 
@@ -1092,7 +1092,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#name GuarddutyIpSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#name GuarddutyIpSet#name}.
 
 ---
 
@@ -1104,7 +1104,7 @@ public IResolvable|GuarddutyIpSetTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags">GuarddutyIpSetTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#tags GuarddutyIpSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#tags GuarddutyIpSet#tags}.
 
 ---
 
@@ -1125,8 +1125,8 @@ new GuarddutyIpSetTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#key GuarddutyIpSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#value GuarddutyIpSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#key GuarddutyIpSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyIpSet.GuarddutyIpSetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#value GuarddutyIpSet#value}. |
 
 ---
 
@@ -1138,7 +1138,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#key GuarddutyIpSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#key GuarddutyIpSet#key}.
 
 ---
 
@@ -1150,7 +1150,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_ip_set#value GuarddutyIpSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_ip_set#value GuarddutyIpSet#value}.
 
 ---
 

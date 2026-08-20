@@ -4,7 +4,7 @@
 
 ### SagemakerArtifact <a name="SagemakerArtifact" id="@cdktn/provider-awscc.sagemakerArtifact.SagemakerArtifact"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerArtifact.SagemakerArtifact.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The artifact type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#artifact_type SagemakerArtifact#artifact_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#artifact_type SagemakerArtifact#artifact_type}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#source SagemakerArtifact#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#source SagemakerArtifact#source}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the artifact. Must be unique to your account in an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#artifact_name SagemakerArtifact#artifact_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#artifact_name SagemakerArtifact#artifact_name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#metadata_properties SagemakerArtifact#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#metadata_properties SagemakerArtifact#metadata_properties}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of properties to add to the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#properties SagemakerArtifact#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#properties SagemakerArtifact#properties}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags to apply to the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#tags SagemakerArtifact#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#tags SagemakerArtifact#tags}
 
 ---
 
@@ -680,7 +680,7 @@ The construct id used in the generated config for the SagemakerArtifact to impor
 
 The id of the existing SagemakerArtifact that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1175,7 +1175,7 @@ public java.lang.String getArtifactType();
 
 The artifact type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#artifact_type SagemakerArtifact#artifact_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#artifact_type SagemakerArtifact#artifact_type}
 
 ---
 
@@ -1189,7 +1189,7 @@ public SagemakerArtifactSource getSource();
 
 The source of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#source SagemakerArtifact#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#source SagemakerArtifact#source}
 
 ---
 
@@ -1203,7 +1203,7 @@ public java.lang.String getArtifactName();
 
 The name of the artifact. Must be unique to your account in an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#artifact_name SagemakerArtifact#artifact_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#artifact_name SagemakerArtifact#artifact_name}
 
 ---
 
@@ -1217,7 +1217,7 @@ public SagemakerArtifactMetadataProperties getMetadataProperties();
 
 Metadata properties of the tracking entity, trial, or trial component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#metadata_properties SagemakerArtifact#metadata_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#metadata_properties SagemakerArtifact#metadata_properties}
 
 ---
 
@@ -1231,7 +1231,7 @@ public java.util.Map<java.lang.String, java.lang.String> getProperties();
 
 A list of properties to add to the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#properties SagemakerArtifact#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#properties SagemakerArtifact#properties}
 
 ---
 
@@ -1245,7 +1245,7 @@ public IResolvable|java.util.List<SagemakerArtifactTags> getTags();
 
 A list of tags to apply to the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#tags SagemakerArtifact#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#tags SagemakerArtifact#tags}
 
 ---
 
@@ -1285,7 +1285,7 @@ public java.lang.String getCommitId();
 
 The commit ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#commit_id SagemakerArtifact#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#commit_id SagemakerArtifact#commit_id}
 
 ---
 
@@ -1299,7 +1299,7 @@ public java.lang.String getGeneratedBy();
 
 The entity this entity was generated by.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#generated_by SagemakerArtifact#generated_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#generated_by SagemakerArtifact#generated_by}
 
 ---
 
@@ -1313,7 +1313,7 @@ public java.lang.String getProjectId();
 
 The project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#project_id SagemakerArtifact#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#project_id SagemakerArtifact#project_id}
 
 ---
 
@@ -1327,7 +1327,7 @@ public java.lang.String getRepository();
 
 The repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#repository SagemakerArtifact#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#repository SagemakerArtifact#repository}
 
 ---
 
@@ -1363,7 +1363,7 @@ public java.lang.String getSourceUri();
 
 The URI of the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#source_uri SagemakerArtifact#source_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#source_uri SagemakerArtifact#source_uri}
 
 ---
 
@@ -1377,7 +1377,7 @@ public IResolvable|java.util.List<SagemakerArtifactSourceSourceTypes> getSourceT
 
 A list of source types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#source_types SagemakerArtifact#source_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#source_types SagemakerArtifact#source_types}
 
 ---
 
@@ -1413,7 +1413,7 @@ public java.lang.String getSourceIdType();
 
 The type of ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#source_id_type SagemakerArtifact#source_id_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#source_id_type SagemakerArtifact#source_id_type}
 
 ---
 
@@ -1427,7 +1427,7 @@ public java.lang.String getValue();
 
 The ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
 
 ---
 
@@ -1463,7 +1463,7 @@ public java.lang.String getKey();
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#key SagemakerArtifact#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#key SagemakerArtifact#key}
 
 ---
 
@@ -1477,7 +1477,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
 
 ---
 

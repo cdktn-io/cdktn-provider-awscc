@@ -4,7 +4,7 @@
 
 ### MskVpcConnection <a name="MskVpcConnection" id="@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskVpcConnection.MskVpcConnection.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the MskVpcConnection to import
 
 The id of the existing MskVpcConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -881,10 +881,10 @@ new MskVpcConnectionConfig {
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.authentication">Authentication</a></code> | <code>string</code> | The type of private link authentication. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.clientSubnets">ClientSubnets</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.securityGroups">SecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.clientSubnets">ClientSubnets</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.securityGroups">SecurityGroups</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}. |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.targetClusterArn">TargetClusterArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the target cluster. |
-| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.vpcId">VpcId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.vpcId">VpcId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}. |
 | <code><a href="#@cdktn/provider-awscc.mskVpcConnection.MskVpcConnectionConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A key-value pair to associate with a resource. |
 
 ---
@@ -969,7 +969,7 @@ public string Authentication { get; set; }
 
 The type of private link authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
 
 ---
 
@@ -981,7 +981,7 @@ public string[] ClientSubnets { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}.
 
 ---
 
@@ -993,7 +993,7 @@ public string[] SecurityGroups { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}.
 
 ---
 
@@ -1007,7 +1007,7 @@ public string TargetClusterArn { get; set; }
 
 The Amazon Resource Name (ARN) of the target cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
 
 ---
 
@@ -1019,7 +1019,7 @@ public string VpcId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}.
 
 ---
 
@@ -1033,7 +1033,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
 
 ---
 

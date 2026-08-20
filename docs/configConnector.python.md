@@ -4,7 +4,7 @@
 
 ### ConfigConnector <a name="ConfigConnector" id="@cdktn/provider-awscc.configConnector.ConfigConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector awscc_config_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector awscc_config_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnector.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The configuration for the connector that specifies the third-party cloud provider connection details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#tags ConfigConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tags ConfigConnector#tags}
 
 ---
 
@@ -518,7 +518,7 @@ def put_connector_configuration(
 
 The configuration for connecting to Microsoft Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#azure ConfigConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#azure ConfigConnector#azure}
 
 ---
 
@@ -656,7 +656,7 @@ The construct id used in the generated config for the ConfigConnector to import.
 
 The id of the existing ConfigConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1055,7 +1055,7 @@ connector_configuration: ConfigConnectorConnectorConfiguration
 
 The configuration for the connector that specifies the third-party cloud provider connection details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
 
 ---
 
@@ -1069,7 +1069,7 @@ tags: IResolvable | typing.List[ConfigConnectorTags]
 
 The tags for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#tags ConfigConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tags ConfigConnector#tags}
 
 ---
 
@@ -1103,7 +1103,7 @@ azure: ConfigConnectorConnectorConfigurationAzure
 
 The configuration for connecting to Microsoft Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#azure ConfigConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#azure ConfigConnector#azure}
 
 ---
 
@@ -1139,7 +1139,7 @@ client_identifier: str
 
 The Azure client (application) identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
 
 ---
 
@@ -1153,7 +1153,7 @@ tenant_identifier: str
 
 The Azure tenant identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
 
 ---
 
@@ -1191,7 +1191,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#key ConfigConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#key ConfigConnector#key}
 
 ---
 
@@ -1207,7 +1207,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#value ConfigConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#value ConfigConnector#value}
 
 ---
 
@@ -1790,7 +1790,7 @@ def put_azure(
 
 The Azure client (application) identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
 
 ---
 
@@ -1800,7 +1800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Azure tenant identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
 
 ---
 

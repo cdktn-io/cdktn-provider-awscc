@@ -4,7 +4,7 @@
 
 ### DataAwsccApplicationautoscalingScalableTargets <a name="DataAwsccApplicationautoscalingScalableTargets" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTargets.DataAwsccApplicationautoscalingScalableTargets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTargets.DataAwsccApplicationautoscalingScalableTargets.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationautosc
 
 The id of the existing DataAwsccApplicationautoscalingScalableTargets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/applicationautoscaling_scalable_targets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationautoscaling_scalable_targets#import import section} in the documentation of this resource for the id to use
 
 ---
 

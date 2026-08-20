@@ -4,7 +4,7 @@
 
 ### CeAnomalyMonitor <a name="CeAnomalyMonitor" id="@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitor.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the CeAnomalyMonitor to import
 
 The id of the existing CeAnomalyMonitor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -929,9 +929,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ceanomalymonitor"
 | <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.monitorName">MonitorName</a></code> | <code>*string</code> | The name of the monitor. |
-| <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.monitorType">MonitorType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#monitor_type CeAnomalyMonitor#monitor_type}. |
+| <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.monitorType">MonitorType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#monitor_type CeAnomalyMonitor#monitor_type}. |
 | <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.monitorDimension">MonitorDimension</a></code> | <code>*string</code> | The dimensions to evaluate. |
-| <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.monitorSpecification">MonitorSpecification</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#monitor_specification CeAnomalyMonitor#monitor_specification}. |
+| <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.monitorSpecification">MonitorSpecification</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#monitor_specification CeAnomalyMonitor#monitor_specification}. |
 | <code><a href="#@cdktn/provider-awscc.ceAnomalyMonitor.CeAnomalyMonitorConfig.property.resourceTags">ResourceTags</a></code> | <code>interface{}</code> | Tags to assign to monitor. |
 
 ---
@@ -1016,7 +1016,7 @@ MonitorName *string
 
 The name of the monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#monitor_name CeAnomalyMonitor#monitor_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#monitor_name CeAnomalyMonitor#monitor_name}
 
 ---
 
@@ -1028,7 +1028,7 @@ MonitorType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#monitor_type CeAnomalyMonitor#monitor_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#monitor_type CeAnomalyMonitor#monitor_type}.
 
 ---
 
@@ -1042,7 +1042,7 @@ MonitorDimension *string
 
 The dimensions to evaluate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#monitor_dimension CeAnomalyMonitor#monitor_dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#monitor_dimension CeAnomalyMonitor#monitor_dimension}
 
 ---
 
@@ -1054,7 +1054,7 @@ MonitorSpecification *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#monitor_specification CeAnomalyMonitor#monitor_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#monitor_specification CeAnomalyMonitor#monitor_specification}.
 
 ---
 
@@ -1068,7 +1068,7 @@ ResourceTags interface{}
 
 Tags to assign to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#resource_tags CeAnomalyMonitor#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#resource_tags CeAnomalyMonitor#resource_tags}
 
 ---
 
@@ -1104,7 +1104,7 @@ Key *string
 
 The key name for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#key CeAnomalyMonitor#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#key CeAnomalyMonitor#key}
 
 ---
 
@@ -1118,7 +1118,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#value CeAnomalyMonitor#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_anomaly_monitor#value CeAnomalyMonitor#value}
 
 ---
 

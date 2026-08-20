@@ -4,7 +4,7 @@
 
 ### MpaIdentitySource <a name="MpaIdentitySource" id="@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source awscc_mpa_identity_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source awscc_mpa_identity_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySource.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the MpaIdentitySource to impor
 
 The id of the existing MpaIdentitySource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -869,8 +869,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mpaidentitysource"
 | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.identitySourceParameters">IdentitySourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParameters">MpaIdentitySourceIdentitySourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#identity_source_parameters MpaIdentitySource#identity_source_parameters}. |
-| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#tags MpaIdentitySource#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.identitySourceParameters">IdentitySourceParameters</a></code> | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParameters">MpaIdentitySourceIdentitySourceParameters</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#identity_source_parameters MpaIdentitySource#identity_source_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#tags MpaIdentitySource#tags}. |
 
 ---
 
@@ -952,7 +952,7 @@ IdentitySourceParameters MpaIdentitySourceIdentitySourceParameters
 
 - *Type:* <a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParameters">MpaIdentitySourceIdentitySourceParameters</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#identity_source_parameters MpaIdentitySource#identity_source_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#identity_source_parameters MpaIdentitySource#identity_source_parameters}.
 
 ---
 
@@ -964,7 +964,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#tags MpaIdentitySource#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#tags MpaIdentitySource#tags}.
 
 ---
 
@@ -984,7 +984,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mpaidentitysource"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParameters.property.iamIdentityCenter">IamIdentityCenter</a></code> | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter">MpaIdentitySourceIdentitySourceParametersIamIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#iam_identity_center MpaIdentitySource#iam_identity_center}. |
+| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParameters.property.iamIdentityCenter">IamIdentityCenter</a></code> | <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter">MpaIdentitySourceIdentitySourceParametersIamIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#iam_identity_center MpaIdentitySource#iam_identity_center}. |
 
 ---
 
@@ -996,7 +996,7 @@ IamIdentityCenter MpaIdentitySourceIdentitySourceParametersIamIdentityCenter
 
 - *Type:* <a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter">MpaIdentitySourceIdentitySourceParametersIamIdentityCenter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#iam_identity_center MpaIdentitySource#iam_identity_center}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#iam_identity_center MpaIdentitySource#iam_identity_center}.
 
 ---
 
@@ -1017,8 +1017,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mpaidentitysource"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter.property.instanceArn">InstanceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#instance_arn MpaIdentitySource#instance_arn}. |
-| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#region MpaIdentitySource#region}. |
+| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter.property.instanceArn">InstanceArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#instance_arn MpaIdentitySource#instance_arn}. |
+| <code><a href="#@cdktn/provider-awscc.mpaIdentitySource.MpaIdentitySourceIdentitySourceParametersIamIdentityCenter.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#region MpaIdentitySource#region}. |
 
 ---
 
@@ -1030,7 +1030,7 @@ InstanceArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#instance_arn MpaIdentitySource#instance_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#instance_arn MpaIdentitySource#instance_arn}.
 
 ---
 
@@ -1042,7 +1042,7 @@ Region *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#region MpaIdentitySource#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#region MpaIdentitySource#region}.
 
 ---
 
@@ -1080,7 +1080,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#key MpaIdentitySource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#key MpaIdentitySource#key}
 
 ---
 
@@ -1096,7 +1096,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#value MpaIdentitySource#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#value MpaIdentitySource#value}
 
 ---
 

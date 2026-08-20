@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncAgents <a name="DataAwsccDatasyncAgents" id="@cdktn/provider-awscc.dataAwsccDatasyncAgents.DataAwsccDatasyncAgents"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_agents awscc_datasync_agents}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_agents awscc_datasync_agents}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncAgents.DataAwsccDatasyncAgents.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncAgents to
 
 The id of the existing DataAwsccDatasyncAgents that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_agents#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_agents#import import section} in the documentation of this resource for the id to use
 
 ---
 

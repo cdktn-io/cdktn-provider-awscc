@@ -4,7 +4,7 @@
 
 ### DataAwsccSesCustomVerificationEmailTemplates <a name="DataAwsccSesCustomVerificationEmailTemplates" id="@cdktn/provider-awscc.dataAwsccSesCustomVerificationEmailTemplates.DataAwsccSesCustomVerificationEmailTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_custom_verification_email_templates awscc_ses_custom_verification_email_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_custom_verification_email_templates awscc_ses_custom_verification_email_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesCustomVerificationEmailTemplates.DataAwsccSesCustomVerificationEmailTemplates.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSesCustomVerifica
 
 The id of the existing DataAwsccSesCustomVerificationEmailTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_custom_verification_email_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_custom_verification_email_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

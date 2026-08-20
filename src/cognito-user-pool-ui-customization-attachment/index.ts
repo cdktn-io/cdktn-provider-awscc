@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,21 +13,21 @@ import * as cdktn from 'cdktn';
 
 export interface CognitoUserPoolUiCustomizationAttachmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#client_id CognitoUserPoolUiCustomizationAttachment#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#client_id CognitoUserPoolUiCustomizationAttachment#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#css CognitoUserPoolUiCustomizationAttachment#css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#css CognitoUserPoolUiCustomizationAttachment#css}
   */
   readonly css?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#user_pool_id CognitoUserPoolUiCustomizationAttachment#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#user_pool_id CognitoUserPoolUiCustomizationAttachment#user_pool_id}
   */
   readonly userPoolId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment}
 */
 export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformRes
   * Generates CDKTN code for importing a CognitoUserPoolUiCustomizationAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoUserPoolUiCustomizationAttachment to import
-  * @param importFromId The id of the existing CognitoUserPoolUiCustomizationAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoUserPoolUiCustomizationAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoUserPoolUiCustomizationAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformRes
       terraformResourceType: 'awscc_cognito_user_pool_ui_customization_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

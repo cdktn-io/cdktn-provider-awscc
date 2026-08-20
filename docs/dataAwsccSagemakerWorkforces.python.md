@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerWorkforces <a name="DataAwsccSagemakerWorkforces" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforces.DataAwsccSagemakerWorkforces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_workforces awscc_sagemaker_workforces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_workforces awscc_sagemaker_workforces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerWorkforces.DataAwsccSagemakerWorkforces.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSagemakerWorkforc
 
 The id of the existing DataAwsccSagemakerWorkforces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_workforces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_workforces#import import section} in the documentation of this resource for the id to use
 
 ---
 

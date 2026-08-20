@@ -4,7 +4,7 @@
 
 ### DataAwsccGuarddutyIpSets <a name="DataAwsccGuarddutyIpSets" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyIpSets.DataAwsccGuarddutyIpSets.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyIpSets t
 
 The id of the existing DataAwsccGuarddutyIpSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_ip_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_ip_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 

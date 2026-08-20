@@ -4,7 +4,7 @@
 
 ### CognitoUserPoolUiCustomizationAttachment <a name="CognitoUserPoolUiCustomizationAttachment" id="@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachment.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the CognitoUserPoolUiCustomiza
 
 The id of the existing CognitoUserPoolUiCustomizationAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -800,9 +800,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpooluicusto
 | <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.clientId">ClientId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#client_id CognitoUserPoolUiCustomizationAttachment#client_id}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.userPoolId">UserPoolId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#user_pool_id CognitoUserPoolUiCustomizationAttachment#user_pool_id}. |
-| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.css">Css</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#css CognitoUserPoolUiCustomizationAttachment#css}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.clientId">ClientId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#client_id CognitoUserPoolUiCustomizationAttachment#client_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.userPoolId">UserPoolId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#user_pool_id CognitoUserPoolUiCustomizationAttachment#user_pool_id}. |
+| <code><a href="#@cdktn/provider-awscc.cognitoUserPoolUiCustomizationAttachment.CognitoUserPoolUiCustomizationAttachmentConfig.property.css">Css</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#css CognitoUserPoolUiCustomizationAttachment#css}. |
 
 ---
 
@@ -884,7 +884,7 @@ ClientId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#client_id CognitoUserPoolUiCustomizationAttachment#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#client_id CognitoUserPoolUiCustomizationAttachment#client_id}.
 
 ---
 
@@ -896,7 +896,7 @@ UserPoolId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#user_pool_id CognitoUserPoolUiCustomizationAttachment#user_pool_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#user_pool_id CognitoUserPoolUiCustomizationAttachment#user_pool_id}.
 
 ---
 
@@ -908,7 +908,7 @@ Css *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_ui_customization_attachment#css CognitoUserPoolUiCustomizationAttachment#css}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_ui_customization_attachment#css CognitoUserPoolUiCustomizationAttachment#css}.
 
 ---
 

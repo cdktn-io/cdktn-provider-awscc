@@ -4,7 +4,7 @@
 
 ### ApigatewayResource <a name="ApigatewayResource" id="@cdktn/provider-awscc.apigatewayResource.ApigatewayResource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource awscc_apigateway_resource}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource awscc_apigateway_resource}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayResource.ApigatewayResource.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the ApigatewayResource to impo
 
 The id of the existing ApigatewayResource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -804,9 +804,9 @@ new ApigatewayResourceConfig {
 | <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.parentId">ParentId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#parent_id ApigatewayResource#parent_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.pathPart">PathPart</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#path_part ApigatewayResource#path_part}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.restApiId">RestApiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#rest_api_id ApigatewayResource#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.parentId">ParentId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#parent_id ApigatewayResource#parent_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.pathPart">PathPart</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#path_part ApigatewayResource#path_part}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayResource.ApigatewayResourceConfig.property.restApiId">RestApiId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#rest_api_id ApigatewayResource#rest_api_id}. |
 
 ---
 
@@ -888,7 +888,7 @@ public string ParentId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#parent_id ApigatewayResource#parent_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#parent_id ApigatewayResource#parent_id}.
 
 ---
 
@@ -900,7 +900,7 @@ public string PathPart { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#path_part ApigatewayResource#path_part}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#path_part ApigatewayResource#path_part}.
 
 ---
 
@@ -912,7 +912,7 @@ public string RestApiId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_resource#rest_api_id ApigatewayResource#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#rest_api_id ApigatewayResource#rest_api_id}.
 
 ---
 

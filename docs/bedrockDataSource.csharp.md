@@ -4,7 +4,7 @@
 
 ### BedrockDataSource <a name="BedrockDataSource" id="@cdktn/provider-awscc.bedrockDataSource.BedrockDataSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source awscc_bedrock_data_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source awscc_bedrock_data_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockDataSource.BedrockDataSource.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the BedrockDataSource to impor
 
 The id of the existing BedrockDataSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1097,7 +1097,7 @@ public BedrockDataSourceDataSourceConfiguration DataSourceConfiguration { get; s
 
 Specifies a raw data source location to ingest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#data_source_configuration BedrockDataSource#data_source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#data_source_configuration BedrockDataSource#data_source_configuration}
 
 ---
 
@@ -1111,7 +1111,7 @@ public string KnowledgeBaseId { get; set; }
 
 The unique identifier of the knowledge base to which to add the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#knowledge_base_id BedrockDataSource#knowledge_base_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#knowledge_base_id BedrockDataSource#knowledge_base_id}
 
 ---
 
@@ -1125,7 +1125,7 @@ public string Name { get; set; }
 
 The name of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#name BedrockDataSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#name BedrockDataSource#name}
 
 ---
 
@@ -1139,7 +1139,7 @@ public string DataDeletionPolicy { get; set; }
 
 The deletion policy for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#data_deletion_policy BedrockDataSource#data_deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#data_deletion_policy BedrockDataSource#data_deletion_policy}
 
 ---
 
@@ -1153,7 +1153,7 @@ public string Description { get; set; }
 
 Description of the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#description BedrockDataSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#description BedrockDataSource#description}
 
 ---
 
@@ -1167,7 +1167,7 @@ public BedrockDataSourceServerSideEncryptionConfiguration ServerSideEncryptionCo
 
 Contains details about the server-side encryption for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#server_side_encryption_configuration BedrockDataSource#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#server_side_encryption_configuration BedrockDataSource#server_side_encryption_configuration}
 
 ---
 
@@ -1183,7 +1183,7 @@ Details about how to chunk the documents in the data source.
 
 A chunk refers to an excerpt from a data source that is returned when the knowledge base that it belongs to is queried.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#vector_ingestion_configuration BedrockDataSource#vector_ingestion_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#vector_ingestion_configuration BedrockDataSource#vector_ingestion_configuration}
 
 ---
 
@@ -1229,7 +1229,7 @@ public string Type { get; set; }
 
 The type of the data source location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
 
 ---
 
@@ -1243,7 +1243,7 @@ public BedrockDataSourceDataSourceConfigurationConfluenceConfiguration Confluenc
 
 The configuration information to connect to Confluence as your data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#confluence_configuration BedrockDataSource#confluence_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#confluence_configuration BedrockDataSource#confluence_configuration}
 
 ---
 
@@ -1257,7 +1257,7 @@ public BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConf
 
 Configuration for managed knowledge base connector data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#managed_knowledge_base_connector_configuration BedrockDataSource#managed_knowledge_base_connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#managed_knowledge_base_connector_configuration BedrockDataSource#managed_knowledge_base_connector_configuration}
 
 ---
 
@@ -1271,7 +1271,7 @@ public BedrockDataSourceDataSourceConfigurationS3Configuration S3Configuration {
 
 The configuration information to connect to Amazon S3 as your data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#s3_configuration BedrockDataSource#s3_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#s3_configuration BedrockDataSource#s3_configuration}
 
 ---
 
@@ -1285,7 +1285,7 @@ public BedrockDataSourceDataSourceConfigurationSalesforceConfiguration Salesforc
 
 The configuration information to connect to Salesforce as your data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#salesforce_configuration BedrockDataSource#salesforce_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#salesforce_configuration BedrockDataSource#salesforce_configuration}
 
 ---
 
@@ -1299,7 +1299,7 @@ public BedrockDataSourceDataSourceConfigurationSharePointConfiguration SharePoin
 
 The configuration information to connect to SharePoint as your data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#share_point_configuration BedrockDataSource#share_point_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#share_point_configuration BedrockDataSource#share_point_configuration}
 
 ---
 
@@ -1313,7 +1313,7 @@ public BedrockDataSourceDataSourceConfigurationWebConfiguration WebConfiguration
 
 Configures a web data source location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#web_configuration BedrockDataSource#web_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#web_configuration BedrockDataSource#web_configuration}
 
 ---
 
@@ -1349,7 +1349,7 @@ public BedrockDataSourceDataSourceConfigurationConfluenceConfigurationCrawlerCon
 
 The configuration of the Confluence content. For example, configuring specific types of Confluence content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
 
 ---
 
@@ -1363,7 +1363,7 @@ public BedrockDataSourceDataSourceConfigurationConfluenceConfigurationSourceConf
 
 The endpoint information to connect to your Confluence data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
 
 ---
 
@@ -1399,7 +1399,7 @@ The type of filtering that you want to apply to certain objects or content of th
 
 For example, the PATTERN type is regular expression patterns you can apply to filter your content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
 
 ---
 
@@ -1435,7 +1435,7 @@ public BedrockDataSourceDataSourceConfigurationConfluenceConfigurationCrawlerCon
 
 The configuration of specific filters applied to your data source content. You can filter out or include certain content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#pattern_object_filter BedrockDataSource#pattern_object_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#pattern_object_filter BedrockDataSource#pattern_object_filter}
 
 ---
 
@@ -1449,7 +1449,7 @@ public string Type { get; set; }
 
 The crawl filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
 
 ---
 
@@ -1483,7 +1483,7 @@ public IResolvable|BedrockDataSourceDataSourceConfigurationConfluenceConfigurati
 
 Contains information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filters BedrockDataSource#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filters BedrockDataSource#filters}
 
 ---
 
@@ -1521,7 +1521,7 @@ public string[] ExclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
 
 ---
 
@@ -1535,7 +1535,7 @@ public string[] InclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
 
 ---
 
@@ -1549,7 +1549,7 @@ public string ObjectType { get; set; }
 
 The supported object type or content type of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#object_type BedrockDataSource#object_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#object_type BedrockDataSource#object_type}
 
 ---
 
@@ -1589,7 +1589,7 @@ public string AuthType { get; set; }
 
 The supported authentication type to authenticate and connect to your Confluence instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#auth_type BedrockDataSource#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#auth_type BedrockDataSource#auth_type}
 
 ---
 
@@ -1605,7 +1605,7 @@ The Amazon Resource Name of an AWS Secrets Manager secret that stores your authe
 
 For more information on the key-value pairs that must be included in your secret, depending on your authentication type, see Confluence connection configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#credentials_secret_arn BedrockDataSource#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#credentials_secret_arn BedrockDataSource#credentials_secret_arn}
 
 ---
 
@@ -1619,7 +1619,7 @@ public string HostType { get; set; }
 
 The supported host type, whether online/cloud or server/on-premises.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#host_type BedrockDataSource#host_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#host_type BedrockDataSource#host_type}
 
 ---
 
@@ -1633,7 +1633,7 @@ public string HostUrl { get; set; }
 
 The Confluence host URL or instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#host_url BedrockDataSource#host_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#host_url BedrockDataSource#host_url}
 
 ---
 
@@ -1671,7 +1671,7 @@ public string ConnectorParameters { get; set; }
 
 Connector-specific parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#connector_parameters BedrockDataSource#connector_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#connector_parameters BedrockDataSource#connector_parameters}
 
 ---
 
@@ -1685,7 +1685,7 @@ public BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConf
 
 Configuration for deletion protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#deletion_protection_configuration BedrockDataSource#deletion_protection_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#deletion_protection_configuration BedrockDataSource#deletion_protection_configuration}
 
 ---
 
@@ -1699,7 +1699,7 @@ public BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConf
 
 Configuration for media extraction settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#media_extraction_configuration BedrockDataSource#media_extraction_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#media_extraction_configuration BedrockDataSource#media_extraction_configuration}
 
 ---
 
@@ -1735,7 +1735,7 @@ public string DeletionProtectionStatus { get; set; }
 
 Indicates whether a feature is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#deletion_protection_status BedrockDataSource#deletion_protection_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#deletion_protection_status BedrockDataSource#deletion_protection_status}
 
 ---
 
@@ -1749,7 +1749,7 @@ public double DeletionProtectionThreshold { get; set; }
 
 Threshold for deletion protection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#deletion_protection_threshold BedrockDataSource#deletion_protection_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#deletion_protection_threshold BedrockDataSource#deletion_protection_threshold}
 
 ---
 
@@ -1787,7 +1787,7 @@ public BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConf
 
 Configuration for audio extraction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#audio_extraction_configuration BedrockDataSource#audio_extraction_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#audio_extraction_configuration BedrockDataSource#audio_extraction_configuration}
 
 ---
 
@@ -1801,7 +1801,7 @@ public BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConf
 
 Configuration for image extraction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#image_extraction_configuration BedrockDataSource#image_extraction_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#image_extraction_configuration BedrockDataSource#image_extraction_configuration}
 
 ---
 
@@ -1815,7 +1815,7 @@ public BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConf
 
 Configuration for video extraction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#video_extraction_configuration BedrockDataSource#video_extraction_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#video_extraction_configuration BedrockDataSource#video_extraction_configuration}
 
 ---
 
@@ -1849,7 +1849,7 @@ public string AudioExtractionStatus { get; set; }
 
 Indicates whether a feature is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#audio_extraction_status BedrockDataSource#audio_extraction_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#audio_extraction_status BedrockDataSource#audio_extraction_status}
 
 ---
 
@@ -1883,7 +1883,7 @@ public string ImageExtractionStatus { get; set; }
 
 Indicates whether a feature is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#image_extraction_status BedrockDataSource#image_extraction_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#image_extraction_status BedrockDataSource#image_extraction_status}
 
 ---
 
@@ -1917,7 +1917,7 @@ public string VideoExtractionStatus { get; set; }
 
 Indicates whether a feature is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#video_extraction_status BedrockDataSource#video_extraction_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#video_extraction_status BedrockDataSource#video_extraction_status}
 
 ---
 
@@ -1955,7 +1955,7 @@ public string BucketArn { get; set; }
 
 The ARN of the bucket that contains the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#bucket_arn BedrockDataSource#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#bucket_arn BedrockDataSource#bucket_arn}
 
 ---
 
@@ -1969,7 +1969,7 @@ public string BucketOwnerAccountId { get; set; }
 
 The account ID for the owner of the S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#bucket_owner_account_id BedrockDataSource#bucket_owner_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#bucket_owner_account_id BedrockDataSource#bucket_owner_account_id}
 
 ---
 
@@ -1983,7 +1983,7 @@ public string[] InclusionPrefixes { get; set; }
 
 A list of S3 prefixes that define the object containing the data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#inclusion_prefixes BedrockDataSource#inclusion_prefixes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#inclusion_prefixes BedrockDataSource#inclusion_prefixes}
 
 ---
 
@@ -2019,7 +2019,7 @@ public BedrockDataSourceDataSourceConfigurationSalesforceConfigurationCrawlerCon
 
 The configuration of filtering the Salesforce content. For example, configuring regular expression patterns to include or exclude certain content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
 
 ---
 
@@ -2033,7 +2033,7 @@ public BedrockDataSourceDataSourceConfigurationSalesforceConfigurationSourceConf
 
 The endpoint information to connect to your Salesforce data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
 
 ---
 
@@ -2069,7 +2069,7 @@ The type of filtering that you want to apply to certain objects or content of th
 
 For example, the PATTERN type is regular expression patterns you can apply to filter your content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
 
 ---
 
@@ -2105,7 +2105,7 @@ public BedrockDataSourceDataSourceConfigurationSalesforceConfigurationCrawlerCon
 
 The configuration of specific filters applied to your data source content. You can filter out or include certain content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#pattern_object_filter BedrockDataSource#pattern_object_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#pattern_object_filter BedrockDataSource#pattern_object_filter}
 
 ---
 
@@ -2119,7 +2119,7 @@ public string Type { get; set; }
 
 The crawl filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
 
 ---
 
@@ -2153,7 +2153,7 @@ public IResolvable|BedrockDataSourceDataSourceConfigurationSalesforceConfigurati
 
 Contains information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filters BedrockDataSource#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filters BedrockDataSource#filters}
 
 ---
 
@@ -2191,7 +2191,7 @@ public string[] ExclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
 
 ---
 
@@ -2205,7 +2205,7 @@ public string[] InclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
 
 ---
 
@@ -2219,7 +2219,7 @@ public string ObjectType { get; set; }
 
 The supported object type or content type of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#object_type BedrockDataSource#object_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#object_type BedrockDataSource#object_type}
 
 ---
 
@@ -2257,7 +2257,7 @@ public string AuthType { get; set; }
 
 The supported authentication type to authenticate and connect to your Salesforce instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#auth_type BedrockDataSource#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#auth_type BedrockDataSource#auth_type}
 
 ---
 
@@ -2273,7 +2273,7 @@ The Amazon Resource Name of an AWS Secrets Manager secret that stores your authe
 
 For more information on the key-value pairs that must be included in your secret, depending on your authentication type, see Salesforce connection configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#credentials_secret_arn BedrockDataSource#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#credentials_secret_arn BedrockDataSource#credentials_secret_arn}
 
 ---
 
@@ -2287,7 +2287,7 @@ public string HostUrl { get; set; }
 
 The Salesforce host URL or instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#host_url BedrockDataSource#host_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#host_url BedrockDataSource#host_url}
 
 ---
 
@@ -2323,7 +2323,7 @@ public BedrockDataSourceDataSourceConfigurationSharePointConfigurationCrawlerCon
 
 The configuration of the SharePoint content. For example, configuring specific types of SharePoint content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
 
 ---
 
@@ -2337,7 +2337,7 @@ public BedrockDataSourceDataSourceConfigurationSharePointConfigurationSourceConf
 
 The endpoint information to connect to your SharePoint data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
 
 ---
 
@@ -2373,7 +2373,7 @@ The type of filtering that you want to apply to certain objects or content of th
 
 For example, the PATTERN type is regular expression patterns you can apply to filter your content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
 
 ---
 
@@ -2409,7 +2409,7 @@ public BedrockDataSourceDataSourceConfigurationSharePointConfigurationCrawlerCon
 
 The configuration of specific filters applied to your data source content. You can filter out or include certain content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#pattern_object_filter BedrockDataSource#pattern_object_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#pattern_object_filter BedrockDataSource#pattern_object_filter}
 
 ---
 
@@ -2423,7 +2423,7 @@ public string Type { get; set; }
 
 The crawl filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
 
 ---
 
@@ -2457,7 +2457,7 @@ public IResolvable|BedrockDataSourceDataSourceConfigurationSharePointConfigurati
 
 Contains information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filters BedrockDataSource#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filters BedrockDataSource#filters}
 
 ---
 
@@ -2495,7 +2495,7 @@ public string[] ExclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
 
 ---
 
@@ -2509,7 +2509,7 @@ public string[] InclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
 
 ---
 
@@ -2523,7 +2523,7 @@ public string ObjectType { get; set; }
 
 The supported object type or content type of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#object_type BedrockDataSource#object_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#object_type BedrockDataSource#object_type}
 
 ---
 
@@ -2567,7 +2567,7 @@ public string AuthType { get; set; }
 
 The supported authentication type to authenticate and connect to your SharePoint site/sites.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#auth_type BedrockDataSource#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#auth_type BedrockDataSource#auth_type}
 
 ---
 
@@ -2583,7 +2583,7 @@ The Amazon Resource Name of an AWS Secrets Manager secret that stores your authe
 
 For more information on the key-value pairs that must be included in your secret, depending on your authentication type, see SharePoint connection configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#credentials_secret_arn BedrockDataSource#credentials_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#credentials_secret_arn BedrockDataSource#credentials_secret_arn}
 
 ---
 
@@ -2597,7 +2597,7 @@ public string Domain { get; set; }
 
 The domain of your SharePoint instance or site URL/URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#domain BedrockDataSource#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#domain BedrockDataSource#domain}
 
 ---
 
@@ -2611,7 +2611,7 @@ public string HostType { get; set; }
 
 The supported host type, whether online/cloud or server/on-premises.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#host_type BedrockDataSource#host_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#host_type BedrockDataSource#host_type}
 
 ---
 
@@ -2625,7 +2625,7 @@ public string[] SiteUrls { get; set; }
 
 A list of one or more SharePoint site URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#site_urls BedrockDataSource#site_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#site_urls BedrockDataSource#site_urls}
 
 ---
 
@@ -2639,7 +2639,7 @@ public string TenantId { get; set; }
 
 The identifier of your Microsoft 365 tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#tenant_id BedrockDataSource#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#tenant_id BedrockDataSource#tenant_id}
 
 ---
 
@@ -2675,7 +2675,7 @@ public BedrockDataSourceDataSourceConfigurationWebConfigurationCrawlerConfigurat
 
 Configuration for the web crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
 
 ---
 
@@ -2689,7 +2689,7 @@ public BedrockDataSourceDataSourceConfigurationWebConfigurationSourceConfigurati
 
 A web source configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
 
 ---
 
@@ -2731,7 +2731,7 @@ public BedrockDataSourceDataSourceConfigurationWebConfigurationCrawlerConfigurat
 
 Limit settings for the web crawler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#crawler_limits BedrockDataSource#crawler_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#crawler_limits BedrockDataSource#crawler_limits}
 
 ---
 
@@ -2745,7 +2745,7 @@ public string[] ExclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#exclusion_filters BedrockDataSource#exclusion_filters}
 
 ---
 
@@ -2759,7 +2759,7 @@ public string[] InclusionFilters { get; set; }
 
 A set of regular expression filter patterns for a type of object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#inclusion_filters BedrockDataSource#inclusion_filters}
 
 ---
 
@@ -2773,7 +2773,7 @@ public string Scope { get; set; }
 
 The scope that a web crawl job will be restricted to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#scope BedrockDataSource#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#scope BedrockDataSource#scope}
 
 ---
 
@@ -2787,7 +2787,7 @@ public string UserAgent { get; set; }
 
 The suffix that will be included in the user agent header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#user_agent BedrockDataSource#user_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#user_agent BedrockDataSource#user_agent}
 
 ---
 
@@ -2823,7 +2823,7 @@ public double MaxPages { get; set; }
 
 Maximum number of pages the crawler can crawl.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#max_pages BedrockDataSource#max_pages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#max_pages BedrockDataSource#max_pages}
 
 ---
 
@@ -2837,7 +2837,7 @@ public double RateLimit { get; set; }
 
 Rate of web URLs retrieved per minute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#rate_limit BedrockDataSource#rate_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#rate_limit BedrockDataSource#rate_limit}
 
 ---
 
@@ -2871,7 +2871,7 @@ public BedrockDataSourceDataSourceConfigurationWebConfigurationSourceConfigurati
 
 A url configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#url_configuration BedrockDataSource#url_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#url_configuration BedrockDataSource#url_configuration}
 
 ---
 
@@ -2905,7 +2905,7 @@ public IResolvable|BedrockDataSourceDataSourceConfigurationWebConfigurationSourc
 
 A list of web urls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#seed_urls BedrockDataSource#seed_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#seed_urls BedrockDataSource#seed_urls}
 
 ---
 
@@ -2939,7 +2939,7 @@ public string Url { get; set; }
 
 A web url.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#url BedrockDataSource#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#url BedrockDataSource#url}
 
 ---
 
@@ -2973,7 +2973,7 @@ public string KmsKeyArn { get; set; }
 
 The ARN of the AWS KMS key used to encrypt the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#kms_key_arn BedrockDataSource#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#kms_key_arn BedrockDataSource#kms_key_arn}
 
 ---
 
@@ -3015,7 +3015,7 @@ Details about how to chunk the documents in the data source.
 
 A chunk refers to an excerpt from a data source that is returned when the knowledge base that it belongs to is queried.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#chunking_configuration BedrockDataSource#chunking_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#chunking_configuration BedrockDataSource#chunking_configuration}
 
 ---
 
@@ -3029,7 +3029,7 @@ public BedrockDataSourceVectorIngestionConfigurationContextEnrichmentConfigurati
 
 Additional Enrichment Configuration for example when using GraphRag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#context_enrichment_configuration BedrockDataSource#context_enrichment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#context_enrichment_configuration BedrockDataSource#context_enrichment_configuration}
 
 ---
 
@@ -3043,7 +3043,7 @@ public BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigur
 
 Settings for customizing steps in the data source content ingestion pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#custom_transformation_configuration BedrockDataSource#custom_transformation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#custom_transformation_configuration BedrockDataSource#custom_transformation_configuration}
 
 ---
 
@@ -3057,7 +3057,7 @@ public BedrockDataSourceVectorIngestionConfigurationParsingConfiguration Parsing
 
 Settings for parsing document contents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#parsing_configuration BedrockDataSource#parsing_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#parsing_configuration BedrockDataSource#parsing_configuration}
 
 ---
 
@@ -3099,7 +3099,7 @@ Knowledge base can split your source data into chunks.
 
 A chunk refers to an excerpt from a data source that is returned when the knowledge base that it belongs to is queried. You have the following options for chunking your data. If you opt for NONE, then you may want to pre-process your files by splitting them up such that each file corresponds to a chunk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#chunking_strategy BedrockDataSource#chunking_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#chunking_strategy BedrockDataSource#chunking_strategy}
 
 ---
 
@@ -3113,7 +3113,7 @@ public BedrockDataSourceVectorIngestionConfigurationChunkingConfigurationFixedSi
 
 Configurations for when you choose fixed-size chunking. If you set the chunkingStrategy as NONE, exclude this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#fixed_size_chunking_configuration BedrockDataSource#fixed_size_chunking_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#fixed_size_chunking_configuration BedrockDataSource#fixed_size_chunking_configuration}
 
 ---
 
@@ -3127,7 +3127,7 @@ public BedrockDataSourceVectorIngestionConfigurationChunkingConfigurationHierarc
 
 Configurations for when you choose hierarchical chunking. If you set the chunkingStrategy as NONE, exclude this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#hierarchical_chunking_configuration BedrockDataSource#hierarchical_chunking_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#hierarchical_chunking_configuration BedrockDataSource#hierarchical_chunking_configuration}
 
 ---
 
@@ -3141,7 +3141,7 @@ public BedrockDataSourceVectorIngestionConfigurationChunkingConfigurationSemanti
 
 Configurations for when you choose semantic chunking. If you set the chunkingStrategy as NONE, exclude this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#semantic_chunking_configuration BedrockDataSource#semantic_chunking_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#semantic_chunking_configuration BedrockDataSource#semantic_chunking_configuration}
 
 ---
 
@@ -3177,7 +3177,7 @@ public double MaxTokens { get; set; }
 
 The maximum number of tokens to include in a chunk.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
 
 ---
 
@@ -3191,7 +3191,7 @@ public double OverlapPercentage { get; set; }
 
 The percentage of overlap between adjacent chunks of a data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#overlap_percentage BedrockDataSource#overlap_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#overlap_percentage BedrockDataSource#overlap_percentage}
 
 ---
 
@@ -3227,7 +3227,7 @@ public IResolvable|BedrockDataSourceVectorIngestionConfigurationChunkingConfigur
 
 Token settings for each layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#level_configurations BedrockDataSource#level_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#level_configurations BedrockDataSource#level_configurations}
 
 ---
 
@@ -3241,7 +3241,7 @@ public double OverlapTokens { get; set; }
 
 The number of tokens to repeat across chunks in the same layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#overlap_tokens BedrockDataSource#overlap_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#overlap_tokens BedrockDataSource#overlap_tokens}
 
 ---
 
@@ -3275,7 +3275,7 @@ public double MaxTokens { get; set; }
 
 The maximum number of tokens that a chunk can contain in this layer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
 
 ---
 
@@ -3313,7 +3313,7 @@ public double BreakpointPercentileThreshold { get; set; }
 
 The dissimilarity threshold for splitting chunks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#breakpoint_percentile_threshold BedrockDataSource#breakpoint_percentile_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#breakpoint_percentile_threshold BedrockDataSource#breakpoint_percentile_threshold}
 
 ---
 
@@ -3327,7 +3327,7 @@ public double BufferSize { get; set; }
 
 The buffer size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#buffer_size BedrockDataSource#buffer_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#buffer_size BedrockDataSource#buffer_size}
 
 ---
 
@@ -3341,7 +3341,7 @@ public double MaxTokens { get; set; }
 
 The maximum number of tokens that a chunk can contain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
 
 ---
 
@@ -3377,7 +3377,7 @@ public BedrockDataSourceVectorIngestionConfigurationContextEnrichmentConfigurati
 
 Bedrock Foundation Model configuration to be used for Context Enrichment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#bedrock_foundation_model_configuration BedrockDataSource#bedrock_foundation_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#bedrock_foundation_model_configuration BedrockDataSource#bedrock_foundation_model_configuration}
 
 ---
 
@@ -3391,7 +3391,7 @@ public string Type { get; set; }
 
 Enrichment type to be used for the vector database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#type BedrockDataSource#type}
 
 ---
 
@@ -3427,7 +3427,7 @@ public BedrockDataSourceVectorIngestionConfigurationContextEnrichmentConfigurati
 
 Strategy to be used when using Bedrock Foundation Model for Context Enrichment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#enrichment_strategy_configuration BedrockDataSource#enrichment_strategy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#enrichment_strategy_configuration BedrockDataSource#enrichment_strategy_configuration}
 
 ---
 
@@ -3441,7 +3441,7 @@ public string ModelArn { get; set; }
 
 The model's ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#model_arn BedrockDataSource#model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#model_arn BedrockDataSource#model_arn}
 
 ---
 
@@ -3475,7 +3475,7 @@ public string Method { get; set; }
 
 Enrichment Strategy method.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#method BedrockDataSource#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#method BedrockDataSource#method}
 
 ---
 
@@ -3511,7 +3511,7 @@ public BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigur
 
 A location for storing content from data sources temporarily as it is processed by custom components in the ingestion pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#intermediate_storage BedrockDataSource#intermediate_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#intermediate_storage BedrockDataSource#intermediate_storage}
 
 ---
 
@@ -3525,7 +3525,7 @@ public IResolvable|BedrockDataSourceVectorIngestionConfigurationCustomTransforma
 
 A list of Lambda functions that process documents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#transformations BedrockDataSource#transformations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#transformations BedrockDataSource#transformations}
 
 ---
 
@@ -3559,7 +3559,7 @@ public BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigur
 
 An Amazon S3 location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#s3_location BedrockDataSource#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#s3_location BedrockDataSource#s3_location}
 
 ---
 
@@ -3593,7 +3593,7 @@ public string Uri { get; set; }
 
 The location's URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#uri BedrockDataSource#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#uri BedrockDataSource#uri}
 
 ---
 
@@ -3629,7 +3629,7 @@ public string StepToApply { get; set; }
 
 When the service applies the transformation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#step_to_apply BedrockDataSource#step_to_apply}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#step_to_apply BedrockDataSource#step_to_apply}
 
 ---
 
@@ -3643,7 +3643,7 @@ public BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigur
 
 A Lambda function that processes documents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#transformation_function BedrockDataSource#transformation_function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#transformation_function BedrockDataSource#transformation_function}
 
 ---
 
@@ -3677,7 +3677,7 @@ public BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigur
 
 A Lambda function that processes documents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#transformation_lambda_configuration BedrockDataSource#transformation_lambda_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#transformation_lambda_configuration BedrockDataSource#transformation_lambda_configuration}
 
 ---
 
@@ -3711,7 +3711,7 @@ public string LambdaArn { get; set; }
 
 The function's ARN identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#lambda_arn BedrockDataSource#lambda_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#lambda_arn BedrockDataSource#lambda_arn}
 
 ---
 
@@ -3749,7 +3749,7 @@ public BedrockDataSourceVectorIngestionConfigurationParsingConfigurationBedrockD
 
 Settings for a Bedrock Data Automation used to parse documents for a data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#bedrock_data_automation_configuration BedrockDataSource#bedrock_data_automation_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#bedrock_data_automation_configuration BedrockDataSource#bedrock_data_automation_configuration}
 
 ---
 
@@ -3763,7 +3763,7 @@ public BedrockDataSourceVectorIngestionConfigurationParsingConfigurationBedrockF
 
 Settings for a foundation model used to parse documents for a data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#bedrock_foundation_model_configuration BedrockDataSource#bedrock_foundation_model_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#bedrock_foundation_model_configuration BedrockDataSource#bedrock_foundation_model_configuration}
 
 ---
 
@@ -3777,7 +3777,7 @@ public string ParsingStrategy { get; set; }
 
 The parsing strategy for the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#parsing_strategy BedrockDataSource#parsing_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#parsing_strategy BedrockDataSource#parsing_strategy}
 
 ---
 
@@ -3811,7 +3811,7 @@ public string ParsingModality { get; set; }
 
 Determine how will parsed content be stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#parsing_modality BedrockDataSource#parsing_modality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#parsing_modality BedrockDataSource#parsing_modality}
 
 ---
 
@@ -3849,7 +3849,7 @@ public string ModelArn { get; set; }
 
 The model's ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#model_arn BedrockDataSource#model_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#model_arn BedrockDataSource#model_arn}
 
 ---
 
@@ -3863,7 +3863,7 @@ public string ParsingModality { get; set; }
 
 Determine how will parsed content be stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#parsing_modality BedrockDataSource#parsing_modality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#parsing_modality BedrockDataSource#parsing_modality}
 
 ---
 
@@ -3877,7 +3877,7 @@ public BedrockDataSourceVectorIngestionConfigurationParsingConfigurationBedrockF
 
 Instructions for interpreting the contents of a document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#parsing_prompt BedrockDataSource#parsing_prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#parsing_prompt BedrockDataSource#parsing_prompt}
 
 ---
 
@@ -3911,7 +3911,7 @@ public string ParsingPromptText { get; set; }
 
 Instructions for interpreting the contents of a document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#parsing_prompt_text BedrockDataSource#parsing_prompt_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#parsing_prompt_text BedrockDataSource#parsing_prompt_text}
 
 ---
 

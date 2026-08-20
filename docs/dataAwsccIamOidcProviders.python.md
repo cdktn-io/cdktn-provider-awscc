@@ -4,7 +4,7 @@
 
 ### DataAwsccIamOidcProviders <a name="DataAwsccIamOidcProviders" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamOidcProviders.DataAwsccIamOidcProviders.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIamOidcProviders 
 
 The id of the existing DataAwsccIamOidcProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_oidc_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_oidc_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 

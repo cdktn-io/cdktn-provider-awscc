@@ -4,7 +4,7 @@
 
 ### Apigatewayv2ApiMapping <a name="Apigatewayv2ApiMapping" id="@cdktn/provider-awscc.apigatewayv2ApiMapping.Apigatewayv2ApiMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2ApiMapping.Apigatewayv2ApiMapping.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Apigatewayv2ApiMapping to 
 
 The id of the existing Apigatewayv2ApiMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_api_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_api_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -921,7 +921,7 @@ ApiId *string
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_api_mapping#api_id Apigatewayv2ApiMapping#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_api_mapping#api_id Apigatewayv2ApiMapping#api_id}
 
 ---
 
@@ -935,7 +935,7 @@ DomainName *string
 
 The domain name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_api_mapping#domain_name Apigatewayv2ApiMapping#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_api_mapping#domain_name Apigatewayv2ApiMapping#domain_name}
 
 ---
 
@@ -949,7 +949,7 @@ Stage *string
 
 The API stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_api_mapping#stage Apigatewayv2ApiMapping#stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_api_mapping#stage Apigatewayv2ApiMapping#stage}
 
 ---
 
@@ -963,7 +963,7 @@ ApiMappingKey *string
 
 The API mapping key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_api_mapping#api_mapping_key Apigatewayv2ApiMapping#api_mapping_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_api_mapping#api_mapping_key Apigatewayv2ApiMapping#api_mapping_key}
 
 ---
 

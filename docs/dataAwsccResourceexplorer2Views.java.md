@@ -4,7 +4,7 @@
 
 ### DataAwsccResourceexplorer2Views <a name="DataAwsccResourceexplorer2Views" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Views.DataAwsccResourceexplorer2Views"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resourceexplorer2_views awscc_resourceexplorer2_views}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_views awscc_resourceexplorer2_views}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResourceexplorer2Views.DataAwsccResourceexplorer2Views.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccResourceexplorer2
 
 The id of the existing DataAwsccResourceexplorer2Views that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/resourceexplorer2_views#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_views#import import section} in the documentation of this resource for the id to use
 
 ---
 

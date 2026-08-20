@@ -4,7 +4,7 @@
 
 ### RedshiftClusterSubnetGroup <a name="RedshiftClusterSubnetGroup" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftClusterSubnetGroup.RedshiftClusterSubnetGroup.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of VPC subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of tags for the cluster parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
 
 ---
 
@@ -597,7 +597,7 @@ The construct id used in the generated config for the RedshiftClusterSubnetGroup
 
 The id of the existing RedshiftClusterSubnetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -998,7 +998,7 @@ public java.lang.String getDescription();
 
 The description of the parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#description RedshiftClusterSubnetGroup#description}
 
 ---
 
@@ -1012,7 +1012,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 The list of VPC subnet IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#subnet_ids RedshiftClusterSubnetGroup#subnet_ids}
 
 ---
 
@@ -1026,7 +1026,7 @@ public IResolvable|java.util.List<RedshiftClusterSubnetGroupTags> getTags();
 
 The list of tags for the cluster parameter group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#tags RedshiftClusterSubnetGroup#tags}
 
 ---
 
@@ -1064,7 +1064,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#key RedshiftClusterSubnetGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#key RedshiftClusterSubnetGroup#key}
 
 ---
 
@@ -1080,7 +1080,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_cluster_subnet_group#value RedshiftClusterSubnetGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_cluster_subnet_group#value RedshiftClusterSubnetGroup#value}
 
 ---
 

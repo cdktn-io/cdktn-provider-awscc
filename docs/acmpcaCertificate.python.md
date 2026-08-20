@@ -4,7 +4,7 @@
 
 ### AcmpcaCertificate <a name="AcmpcaCertificate" id="@cdktn/provider-awscc.acmpcaCertificate.AcmpcaCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate awscc_acmpca_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate awscc_acmpca_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.acmpcaCertificate.AcmpcaCertificate.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) for the private CA issues the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#certificate_authority_arn AcmpcaCertificate#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#certificate_authority_arn AcmpcaCertificate#certificate_authority_arn}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The certificate signing request (CSR) for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#certificate_signing_request AcmpcaCertificate#certificate_signing_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#certificate_signing_request AcmpcaCertificate#certificate_signing_request}
 
 ---
 
@@ -141,7 +141,7 @@ The name of the algorithm that will be used to sign the certificate to be issued
 This parameter should not be confused with the `SigningAlgorithm` parameter used to sign a CSR in the `CreateCertificateAuthority` action.
 The specified signing algorithm family (RSA or ECDSA) must match the algorithm family of the CA's secret key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#signing_algorithm AcmpcaCertificate#signing_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#signing_algorithm AcmpcaCertificate#signing_algorithm}
 
 ---
 
@@ -151,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The period of time during which the certificate will be valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#validity AcmpcaCertificate#validity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#validity AcmpcaCertificate#validity}
 
 ---
 
@@ -161,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies X.509 certificate information to be included in the issued certificate. An ``APIPassthrough`` or ``APICSRPassthrough`` template variant must be selected, or else this parameter is ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#api_passthrough AcmpcaCertificate#api_passthrough}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#api_passthrough AcmpcaCertificate#api_passthrough}
 
 ---
 
@@ -173,7 +173,7 @@ Specifies a custom configuration template to use when issuing a certificate.
 
 If this parameter is not provided, PCAshort defaults to the `EndEntityCertificate/V1` template. For more information about PCAshort templates, see [Using Templates](https://docs.aws.amazon.com/privateca/latest/userguide/UsingTemplates.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#template_arn AcmpcaCertificate#template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#template_arn AcmpcaCertificate#template_arn}
 
 ---
 
@@ -188,7 +188,7 @@ By default, when issuing a certificate, PCAshort sets the "Not Before" date to t
 Unlike the `Validity` parameter, the `ValidityNotBefore` parameter is optional.
 The `ValidityNotBefore` value is expressed as an explicit date and time, using the `Validity` type value `ABSOLUTE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#validity_not_before AcmpcaCertificate#validity_not_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#validity_not_before AcmpcaCertificate#validity_not_before}
 
 ---
 
@@ -592,7 +592,7 @@ def put_api_passthrough(
 
 Specifies X.509 extension information for a certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#extensions AcmpcaCertificate#extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#extensions AcmpcaCertificate#extensions}
 
 ---
 
@@ -604,7 +604,7 @@ Contains information about the certificate subject.
 
 The Subject field in the certificate identifies the entity that owns or controls the public key in the certificate. The entity can be a user, computer, device, or service. The Subject must contain an X.500 distinguished name (DN). A DN is a sequence of relative distinguished names (RDNs). The RDNs are separated by commas in the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#subject AcmpcaCertificate#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#subject AcmpcaCertificate#subject}
 
 ---
 
@@ -623,7 +623,7 @@ def put_validity(
 
 Specifies whether the ``Value`` parameter represents days, months, or years.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
 
 ---
 
@@ -633,7 +633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A long integer interpreted according to the value of ``Type``, below.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -652,7 +652,7 @@ def put_validity_not_before(
 
 Specifies whether the ``Value`` parameter represents days, months, or years.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
 
 ---
 
@@ -662,7 +662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A long integer interpreted according to the value of ``Type``, below.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -798,7 +798,7 @@ The construct id used in the generated config for the AcmpcaCertificate to impor
 
 The id of the existing AcmpcaCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1212,7 +1212,7 @@ extensions: AcmpcaCertificateApiPassthroughExtensions
 
 Specifies X.509 extension information for a certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#extensions AcmpcaCertificate#extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#extensions AcmpcaCertificate#extensions}
 
 ---
 
@@ -1228,7 +1228,7 @@ Contains information about the certificate subject.
 
 The Subject field in the certificate identifies the entity that owns or controls the public key in the certificate. The entity can be a user, computer, device, or service. The Subject must contain an X.500 distinguished name (DN). A DN is a sequence of relative distinguished names (RDNs). The RDNs are separated by commas in the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#subject AcmpcaCertificate#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#subject AcmpcaCertificate#subject}
 
 ---
 
@@ -1273,7 +1273,7 @@ Contains a sequence of one or more policy information terms, each of which consi
 For more information, see NIST's definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).
 In an end-entity certificate, these terms indicate the policy under which the certificate was issued and the purposes for which it may be used. In a CA certificate, these terms limit the set of policies for certification paths that include this certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#certificate_policies AcmpcaCertificate#certificate_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#certificate_policies AcmpcaCertificate#certificate_policies}
 
 ---
 
@@ -1287,7 +1287,7 @@ custom_extensions: IResolvable | typing.List[AcmpcaCertificateApiPassthroughExte
 
 Contains a sequence of one or more X.509 extensions, each of which consists of an object identifier (OID), a base64-encoded value, and the critical flag. For more information, see the [Global OID reference database.](https://docs.aws.amazon.com/https://oidref.com/2.5.29).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#custom_extensions AcmpcaCertificate#custom_extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#custom_extensions AcmpcaCertificate#custom_extensions}
 
 ---
 
@@ -1301,7 +1301,7 @@ extended_key_usage: IResolvable | typing.List[AcmpcaCertificateApiPassthroughExt
 
 Specifies additional purposes for which the certified public key may be used other than basic purposes indicated in the ``KeyUsage`` extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#extended_key_usage AcmpcaCertificate#extended_key_usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#extended_key_usage AcmpcaCertificate#extended_key_usage}
 
 ---
 
@@ -1317,7 +1317,7 @@ Defines one or more purposes for which the key contained in the certificate can 
 
 Default value for each option is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_usage AcmpcaCertificate#key_usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_usage AcmpcaCertificate#key_usage}
 
 ---
 
@@ -1333,7 +1333,7 @@ The subject alternative name extension allows identities to be bound to the subj
 
 These identities may be included in addition to or in place of the identity in the subject field of the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#subject_alternative_names AcmpcaCertificate#subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#subject_alternative_names AcmpcaCertificate#subject_alternative_names}
 
 ---
 
@@ -1371,7 +1371,7 @@ Specifies the object identifier (OID) of the certificate policy under which the 
 
 For more information, see NIST's definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#cert_policy_id AcmpcaCertificate#cert_policy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#cert_policy_id AcmpcaCertificate#cert_policy_id}
 
 ---
 
@@ -1385,7 +1385,7 @@ policy_qualifiers: IResolvable | typing.List[AcmpcaCertificateApiPassthroughExte
 
 Modifies the given ``CertPolicyId`` with a qualifier. AWS Private CA supports the certification practice statement (CPS) qualifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#policy_qualifiers AcmpcaCertificate#policy_qualifiers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#policy_qualifiers AcmpcaCertificate#policy_qualifiers}
 
 ---
 
@@ -1421,7 +1421,7 @@ policy_qualifier_id: str
 
 Identifies the qualifier modifying a ``CertPolicyId``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#policy_qualifier_id AcmpcaCertificate#policy_qualifier_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#policy_qualifier_id AcmpcaCertificate#policy_qualifier_id}
 
 ---
 
@@ -1437,7 +1437,7 @@ Defines the qualifier type.
 
 AWS Private CA supports the use of a URI for a CPS qualifier in this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#qualifier AcmpcaCertificate#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#qualifier AcmpcaCertificate#qualifier}
 
 ---
 
@@ -1471,7 +1471,7 @@ cps_uri: str
 
 Contains a pointer to a certification practice statement (CPS) published by the CA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#cps_uri AcmpcaCertificate#cps_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#cps_uri AcmpcaCertificate#cps_uri}
 
 ---
 
@@ -1509,7 +1509,7 @@ critical: bool | IResolvable
 
 Specifies the critical flag of the X.509 extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#critical AcmpcaCertificate#critical}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#critical AcmpcaCertificate#critical}
 
 ---
 
@@ -1523,7 +1523,7 @@ object_identifier: str
 
 Specifies the object identifier (OID) of the X.509 extension. For more information, see the [Global OID reference database.](https://docs.aws.amazon.com/https://oidref.com/2.5.29).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
 
 ---
 
@@ -1537,7 +1537,7 @@ value: str
 
 Specifies the base64-encoded value of the X.509 extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -1573,7 +1573,7 @@ extended_key_usage_object_identifier: str
 
 Specifies a custom ``ExtendedKeyUsage`` with an object identifier (OID).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#extended_key_usage_object_identifier AcmpcaCertificate#extended_key_usage_object_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#extended_key_usage_object_identifier AcmpcaCertificate#extended_key_usage_object_identifier}
 
 ---
 
@@ -1587,7 +1587,7 @@ extended_key_usage_type: str
 
 Specifies a standard ``ExtendedKeyUsage`` as defined as in [RFC 5280](https://docs.aws.amazon.com/https://datatracker.ietf.org/doc/html/rfc5280#section-4.2.1.12).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#extended_key_usage_type AcmpcaCertificate#extended_key_usage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#extended_key_usage_type AcmpcaCertificate#extended_key_usage_type}
 
 ---
 
@@ -1637,7 +1637,7 @@ crl_sign: bool | IResolvable
 
 Key can be used to sign CRLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#crl_sign AcmpcaCertificate#crl_sign}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#crl_sign AcmpcaCertificate#crl_sign}
 
 ---
 
@@ -1651,7 +1651,7 @@ data_encipherment: bool | IResolvable
 
 Key can be used to decipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#data_encipherment AcmpcaCertificate#data_encipherment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#data_encipherment AcmpcaCertificate#data_encipherment}
 
 ---
 
@@ -1665,7 +1665,7 @@ decipher_only: bool | IResolvable
 
 Key can be used only to decipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#decipher_only AcmpcaCertificate#decipher_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#decipher_only AcmpcaCertificate#decipher_only}
 
 ---
 
@@ -1679,7 +1679,7 @@ digital_signature: bool | IResolvable
 
 Key can be used for digital signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#digital_signature AcmpcaCertificate#digital_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#digital_signature AcmpcaCertificate#digital_signature}
 
 ---
 
@@ -1693,7 +1693,7 @@ encipher_only: bool | IResolvable
 
 Key can be used only to encipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#encipher_only AcmpcaCertificate#encipher_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#encipher_only AcmpcaCertificate#encipher_only}
 
 ---
 
@@ -1707,7 +1707,7 @@ key_agreement: bool | IResolvable
 
 Key can be used in a key-agreement protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_agreement AcmpcaCertificate#key_agreement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_agreement AcmpcaCertificate#key_agreement}
 
 ---
 
@@ -1721,7 +1721,7 @@ key_cert_sign: bool | IResolvable
 
 Key can be used to sign certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_cert_sign AcmpcaCertificate#key_cert_sign}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_cert_sign AcmpcaCertificate#key_cert_sign}
 
 ---
 
@@ -1735,7 +1735,7 @@ key_encipherment: bool | IResolvable
 
 Key can be used to encipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_encipherment AcmpcaCertificate#key_encipherment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_encipherment AcmpcaCertificate#key_encipherment}
 
 ---
 
@@ -1749,7 +1749,7 @@ non_repudiation: bool | IResolvable
 
 Key can be used for non-repudiation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#non_repudiation AcmpcaCertificate#non_repudiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#non_repudiation AcmpcaCertificate#non_repudiation}
 
 ---
 
@@ -1799,7 +1799,7 @@ Contains information about the certificate subject.
 
 The certificate can be one issued by your private certificate authority (CA) or it can be your private CA certificate. The Subject field in the certificate identifies the entity that owns or controls the public key in the certificate. The entity can be a user, computer, device, or service. The Subject must contain an X.500 distinguished name (DN). A DN is a sequence of relative distinguished names (RDNs). The RDNs are separated by commas in the certificate. The DN must be unique for each entity, but your private CA can issue more than one certificate with the same DN to the same entity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#directory_name AcmpcaCertificate#directory_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#directory_name AcmpcaCertificate#directory_name}
 
 ---
 
@@ -1813,7 +1813,7 @@ dns_name: str
 
 Represents ``GeneralName`` as a DNS name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#dns_name AcmpcaCertificate#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#dns_name AcmpcaCertificate#dns_name}
 
 ---
 
@@ -1827,7 +1827,7 @@ edi_party_name: AcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNames
 
 Represents ``GeneralName`` as an ``EdiPartyName`` object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#edi_party_name AcmpcaCertificate#edi_party_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#edi_party_name AcmpcaCertificate#edi_party_name}
 
 ---
 
@@ -1841,7 +1841,7 @@ ip_address: str
 
 Represents ``GeneralName`` as an IPv4 or IPv6 address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#ip_address AcmpcaCertificate#ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#ip_address AcmpcaCertificate#ip_address}
 
 ---
 
@@ -1855,7 +1855,7 @@ other_name: AcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesOthe
 
 Represents ``GeneralName`` using an ``OtherName`` object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#other_name AcmpcaCertificate#other_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#other_name AcmpcaCertificate#other_name}
 
 ---
 
@@ -1869,7 +1869,7 @@ registered_id: str
 
 Represents ``GeneralName`` as an object identifier (OID).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#registered_id AcmpcaCertificate#registered_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#registered_id AcmpcaCertificate#registered_id}
 
 ---
 
@@ -1883,7 +1883,7 @@ rfc822_name: str
 
 Represents ``GeneralName`` as an [RFC 822](https://docs.aws.amazon.com/https://datatracker.ietf.org/doc/html/rfc822) email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#rfc_822_name AcmpcaCertificate#rfc_822_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#rfc_822_name AcmpcaCertificate#rfc_822_name}
 
 ---
 
@@ -1897,7 +1897,7 @@ uniform_resource_identifier: str
 
 Represents ``GeneralName`` as a URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#uniform_resource_identifier AcmpcaCertificate#uniform_resource_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#uniform_resource_identifier AcmpcaCertificate#uniform_resource_identifier}
 
 ---
 
@@ -1961,7 +1961,7 @@ For CA and end-entity certificates in a private PKI, the common name (CN) can be
 
 Note: In publicly trusted certificates, the common name must be a fully qualified domain name (FQDN) associated with the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
 
 ---
 
@@ -1975,7 +1975,7 @@ country: str
 
 Two-digit code that specifies the country in which the certificate subject located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
 
 ---
 
@@ -1989,7 +1989,7 @@ custom_attributes: IResolvable | typing.List[AcmpcaCertificateApiPassthroughExte
 
 Contains a sequence of one or more X.500 relative distinguished names (RDNs), each of which consists of an object identifier (OID) and a value. For more information, see NIST?s definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).   Custom attributes cannot be used in combination with standard attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
 
 ---
 
@@ -2003,7 +2003,7 @@ distinguished_name_qualifier: str
 
 Disambiguating information for the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
 
 ---
 
@@ -2019,7 +2019,7 @@ Typically a qualifier appended to the name of an individual.
 
 Examples include Jr. for junior, Sr. for senior, and III for third.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
 
 ---
 
@@ -2033,7 +2033,7 @@ given_name: str
 
 First name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
 
 ---
 
@@ -2047,7 +2047,7 @@ initials: str
 
 Concatenation that typically contains the first letter of the *GivenName*, the first letter of the middle name if one exists, and the first letter of the *Surname*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
 
 ---
 
@@ -2061,7 +2061,7 @@ locality: str
 
 The locality (such as a city or town) in which the certificate subject is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
 
 ---
 
@@ -2075,7 +2075,7 @@ organization: str
 
 Legal name of the organization with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
 
 ---
 
@@ -2089,7 +2089,7 @@ organizational_unit: str
 
 A subdivision or unit of the organization (such as sales or finance) with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
 
 ---
 
@@ -2105,7 +2105,7 @@ Typically a shortened version of a longer *GivenName*.
 
 For example, Jonathan is often shortened to John. Elizabeth is often shortened to Beth, Liz, or Eliza.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
 
 ---
 
@@ -2119,7 +2119,7 @@ serial_number: str
 
 The certificate serial number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
 
 ---
 
@@ -2133,7 +2133,7 @@ state: str
 
 State in which the subject of the certificate is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
 
 ---
 
@@ -2149,7 +2149,7 @@ Family name.
 
 In the US and the UK, for example, the surname of an individual is ordered last. In Asian cultures the surname is typically ordered first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
 
 ---
 
@@ -2165,7 +2165,7 @@ A title such as Mr.
 
 or Ms., which is pre-pended to the name to refer formally to the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
 
 ---
 
@@ -2201,7 +2201,7 @@ object_identifier: str
 
 Specifies the object identifier (OID) of the attribute type of the relative distinguished name (RDN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
 
 ---
 
@@ -2215,7 +2215,7 @@ value: str
 
 Specifies the attribute value of relative distinguished name (RDN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -2251,7 +2251,7 @@ name_assigner: str
 
 Specifies the name assigner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#name_assigner AcmpcaCertificate#name_assigner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#name_assigner AcmpcaCertificate#name_assigner}
 
 ---
 
@@ -2265,7 +2265,7 @@ party_name: str
 
 Specifies the party name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#party_name AcmpcaCertificate#party_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#party_name AcmpcaCertificate#party_name}
 
 ---
 
@@ -2301,7 +2301,7 @@ type_id: str
 
 Specifies an OID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#type_id AcmpcaCertificate#type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#type_id AcmpcaCertificate#type_id}
 
 ---
 
@@ -2315,7 +2315,7 @@ value: str
 
 Specifies an OID value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -2379,7 +2379,7 @@ For CA and end-entity certificates in a private PKI, the common name (CN) can be
 
 Note: In publicly trusted certificates, the common name must be a fully qualified domain name (FQDN) associated with the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
 
 ---
 
@@ -2393,7 +2393,7 @@ country: str
 
 Two-digit code that specifies the country in which the certificate subject located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
 
 ---
 
@@ -2407,7 +2407,7 @@ custom_attributes: IResolvable | typing.List[AcmpcaCertificateApiPassthroughSubj
 
 Contains a sequence of one or more X.500 relative distinguished names (RDNs), each of which consists of an object identifier (OID) and a value. For more information, see NIST?s definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).   Custom attributes cannot be used in combination with standard attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
 
 ---
 
@@ -2421,7 +2421,7 @@ distinguished_name_qualifier: str
 
 Disambiguating information for the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
 
 ---
 
@@ -2437,7 +2437,7 @@ Typically a qualifier appended to the name of an individual.
 
 Examples include Jr. for junior, Sr. for senior, and III for third.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
 
 ---
 
@@ -2451,7 +2451,7 @@ given_name: str
 
 First name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
 
 ---
 
@@ -2465,7 +2465,7 @@ initials: str
 
 Concatenation that typically contains the first letter of the *GivenName*, the first letter of the middle name if one exists, and the first letter of the *Surname*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
 
 ---
 
@@ -2479,7 +2479,7 @@ locality: str
 
 The locality (such as a city or town) in which the certificate subject is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
 
 ---
 
@@ -2493,7 +2493,7 @@ organization: str
 
 Legal name of the organization with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
 
 ---
 
@@ -2507,7 +2507,7 @@ organizational_unit: str
 
 A subdivision or unit of the organization (such as sales or finance) with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
 
 ---
 
@@ -2523,7 +2523,7 @@ Typically a shortened version of a longer *GivenName*.
 
 For example, Jonathan is often shortened to John. Elizabeth is often shortened to Beth, Liz, or Eliza.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
 
 ---
 
@@ -2537,7 +2537,7 @@ serial_number: str
 
 The certificate serial number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
 
 ---
 
@@ -2551,7 +2551,7 @@ state: str
 
 State in which the subject of the certificate is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
 
 ---
 
@@ -2567,7 +2567,7 @@ Family name.
 
 In the US and the UK, for example, the surname of an individual is ordered last. In Asian cultures the surname is typically ordered first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
 
 ---
 
@@ -2583,7 +2583,7 @@ A title such as Mr.
 
 or Ms., which is pre-pended to the name to refer formally to the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
 
 ---
 
@@ -2619,7 +2619,7 @@ object_identifier: str
 
 Specifies the object identifier (OID) of the attribute type of the relative distinguished name (RDN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
 
 ---
 
@@ -2633,7 +2633,7 @@ value: str
 
 Specifies the attribute value of relative distinguished name (RDN).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -2763,7 +2763,7 @@ certificate_authority_arn: str
 
 The Amazon Resource Name (ARN) for the private CA issues the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#certificate_authority_arn AcmpcaCertificate#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#certificate_authority_arn AcmpcaCertificate#certificate_authority_arn}
 
 ---
 
@@ -2777,7 +2777,7 @@ certificate_signing_request: str
 
 The certificate signing request (CSR) for the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#certificate_signing_request AcmpcaCertificate#certificate_signing_request}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#certificate_signing_request AcmpcaCertificate#certificate_signing_request}
 
 ---
 
@@ -2794,7 +2794,7 @@ The name of the algorithm that will be used to sign the certificate to be issued
 This parameter should not be confused with the `SigningAlgorithm` parameter used to sign a CSR in the `CreateCertificateAuthority` action.
 The specified signing algorithm family (RSA or ECDSA) must match the algorithm family of the CA's secret key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#signing_algorithm AcmpcaCertificate#signing_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#signing_algorithm AcmpcaCertificate#signing_algorithm}
 
 ---
 
@@ -2808,7 +2808,7 @@ validity: AcmpcaCertificateValidity
 
 The period of time during which the certificate will be valid.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#validity AcmpcaCertificate#validity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#validity AcmpcaCertificate#validity}
 
 ---
 
@@ -2822,7 +2822,7 @@ api_passthrough: AcmpcaCertificateApiPassthrough
 
 Specifies X.509 certificate information to be included in the issued certificate. An ``APIPassthrough`` or ``APICSRPassthrough`` template variant must be selected, or else this parameter is ignored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#api_passthrough AcmpcaCertificate#api_passthrough}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#api_passthrough AcmpcaCertificate#api_passthrough}
 
 ---
 
@@ -2838,7 +2838,7 @@ Specifies a custom configuration template to use when issuing a certificate.
 
 If this parameter is not provided, PCAshort defaults to the `EndEntityCertificate/V1` template. For more information about PCAshort templates, see [Using Templates](https://docs.aws.amazon.com/privateca/latest/userguide/UsingTemplates.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#template_arn AcmpcaCertificate#template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#template_arn AcmpcaCertificate#template_arn}
 
 ---
 
@@ -2857,7 +2857,7 @@ By default, when issuing a certificate, PCAshort sets the "Not Before" date to t
 Unlike the `Validity` parameter, the `ValidityNotBefore` parameter is optional.
 The `ValidityNotBefore` value is expressed as an explicit date and time, using the `Validity` type value `ABSOLUTE`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#validity_not_before AcmpcaCertificate#validity_not_before}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#validity_not_before AcmpcaCertificate#validity_not_before}
 
 ---
 
@@ -2893,7 +2893,7 @@ type: str
 
 Specifies whether the ``Value`` parameter represents days, months, or years.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
 
 ---
 
@@ -2907,7 +2907,7 @@ value: typing.Union[int, float]
 
 A long integer interpreted according to the value of ``Type``, below.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -2943,7 +2943,7 @@ type: str
 
 Specifies whether the ``Value`` parameter represents days, months, or years.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#type AcmpcaCertificate#type}
 
 ---
 
@@ -2957,7 +2957,7 @@ value: typing.Union[int, float]
 
 A long integer interpreted according to the value of ``Type``, below.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -3935,7 +3935,7 @@ def put_qualifier(
 
 Contains a pointer to a certification practice statement (CPS) published by the CA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#cps_uri AcmpcaCertificate#cps_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#cps_uri AcmpcaCertificate#cps_uri}
 
 ---
 
@@ -6254,7 +6254,7 @@ def put_key_usage(
 
 Key can be used to sign CRLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#crl_sign AcmpcaCertificate#crl_sign}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#crl_sign AcmpcaCertificate#crl_sign}
 
 ---
 
@@ -6264,7 +6264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used to decipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#data_encipherment AcmpcaCertificate#data_encipherment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#data_encipherment AcmpcaCertificate#data_encipherment}
 
 ---
 
@@ -6274,7 +6274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used only to decipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#decipher_only AcmpcaCertificate#decipher_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#decipher_only AcmpcaCertificate#decipher_only}
 
 ---
 
@@ -6284,7 +6284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used for digital signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#digital_signature AcmpcaCertificate#digital_signature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#digital_signature AcmpcaCertificate#digital_signature}
 
 ---
 
@@ -6294,7 +6294,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used only to encipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#encipher_only AcmpcaCertificate#encipher_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#encipher_only AcmpcaCertificate#encipher_only}
 
 ---
 
@@ -6304,7 +6304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used in a key-agreement protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_agreement AcmpcaCertificate#key_agreement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_agreement AcmpcaCertificate#key_agreement}
 
 ---
 
@@ -6314,7 +6314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used to sign certificates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_cert_sign AcmpcaCertificate#key_cert_sign}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_cert_sign AcmpcaCertificate#key_cert_sign}
 
 ---
 
@@ -6324,7 +6324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used to encipher data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_encipherment AcmpcaCertificate#key_encipherment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_encipherment AcmpcaCertificate#key_encipherment}
 
 ---
 
@@ -6334,7 +6334,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key can be used for non-repudiation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#non_repudiation AcmpcaCertificate#non_repudiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#non_repudiation AcmpcaCertificate#non_repudiation}
 
 ---
 
@@ -8907,7 +8907,7 @@ For CA and end-entity certificates in a private PKI, the common name (CN) can be
 
 Note: In publicly trusted certificates, the common name must be a fully qualified domain name (FQDN) associated with the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
 
 ---
 
@@ -8917,7 +8917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Two-digit code that specifies the country in which the certificate subject located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
 
 ---
 
@@ -8927,7 +8927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains a sequence of one or more X.500 relative distinguished names (RDNs), each of which consists of an object identifier (OID) and a value. For more information, see NIST?s definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).   Custom attributes cannot be used in combination with standard attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
 
 ---
 
@@ -8937,7 +8937,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Disambiguating information for the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
 
 ---
 
@@ -8949,7 +8949,7 @@ Typically a qualifier appended to the name of an individual.
 
 Examples include Jr. for junior, Sr. for senior, and III for third.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
 
 ---
 
@@ -8959,7 +8959,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 First name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
 
 ---
 
@@ -8969,7 +8969,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Concatenation that typically contains the first letter of the *GivenName*, the first letter of the middle name if one exists, and the first letter of the *Surname*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
 
 ---
 
@@ -8979,7 +8979,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The locality (such as a city or town) in which the certificate subject is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
 
 ---
 
@@ -8989,7 +8989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Legal name of the organization with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
 
 ---
 
@@ -8999,7 +8999,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A subdivision or unit of the organization (such as sales or finance) with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
 
 ---
 
@@ -9011,7 +9011,7 @@ Typically a shortened version of a longer *GivenName*.
 
 For example, Jonathan is often shortened to John. Elizabeth is often shortened to Beth, Liz, or Eliza.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
 
 ---
 
@@ -9021,7 +9021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The certificate serial number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
 
 ---
 
@@ -9031,7 +9031,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 State in which the subject of the certificate is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
 
 ---
 
@@ -9043,7 +9043,7 @@ Family name.
 
 In the US and the UK, for example, the surname of an individual is ordered last. In Asian cultures the surname is typically ordered first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
 
 ---
 
@@ -9055,7 +9055,7 @@ A title such as Mr.
 
 or Ms., which is pre-pended to the name to refer formally to the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
 
 ---
 
@@ -9074,7 +9074,7 @@ def put_edi_party_name(
 
 Specifies the name assigner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#name_assigner AcmpcaCertificate#name_assigner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#name_assigner AcmpcaCertificate#name_assigner}
 
 ---
 
@@ -9084,7 +9084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the party name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#party_name AcmpcaCertificate#party_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#party_name AcmpcaCertificate#party_name}
 
 ---
 
@@ -9103,7 +9103,7 @@ def put_other_name(
 
 Specifies an OID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#type_id AcmpcaCertificate#type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#type_id AcmpcaCertificate#type_id}
 
 ---
 
@@ -9113,7 +9113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies an OID value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 
 ---
 
@@ -9640,7 +9640,7 @@ Contains a sequence of one or more policy information terms, each of which consi
 For more information, see NIST's definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).
 In an end-entity certificate, these terms indicate the policy under which the certificate was issued and the purposes for which it may be used. In a CA certificate, these terms limit the set of policies for certification paths that include this certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#certificate_policies AcmpcaCertificate#certificate_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#certificate_policies AcmpcaCertificate#certificate_policies}
 
 ---
 
@@ -9650,7 +9650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains a sequence of one or more X.509 extensions, each of which consists of an object identifier (OID), a base64-encoded value, and the critical flag. For more information, see the [Global OID reference database.](https://docs.aws.amazon.com/https://oidref.com/2.5.29).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#custom_extensions AcmpcaCertificate#custom_extensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#custom_extensions AcmpcaCertificate#custom_extensions}
 
 ---
 
@@ -9660,7 +9660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies additional purposes for which the certified public key may be used other than basic purposes indicated in the ``KeyUsage`` extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#extended_key_usage AcmpcaCertificate#extended_key_usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#extended_key_usage AcmpcaCertificate#extended_key_usage}
 
 ---
 
@@ -9672,7 +9672,7 @@ Defines one or more purposes for which the key contained in the certificate can 
 
 Default value for each option is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#key_usage AcmpcaCertificate#key_usage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#key_usage AcmpcaCertificate#key_usage}
 
 ---
 
@@ -9684,7 +9684,7 @@ The subject alternative name extension allows identities to be bound to the subj
 
 These identities may be included in addition to or in place of the identity in the subject field of the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#subject_alternative_names AcmpcaCertificate#subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#subject_alternative_names AcmpcaCertificate#subject_alternative_names}
 
 ---
 
@@ -9718,7 +9718,7 @@ For CA and end-entity certificates in a private PKI, the common name (CN) can be
 
 Note: In publicly trusted certificates, the common name must be a fully qualified domain name (FQDN) associated with the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#common_name AcmpcaCertificate#common_name}
 
 ---
 
@@ -9728,7 +9728,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Two-digit code that specifies the country in which the certificate subject located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#country AcmpcaCertificate#country}
 
 ---
 
@@ -9738,7 +9738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains a sequence of one or more X.500 relative distinguished names (RDNs), each of which consists of an object identifier (OID) and a value. For more information, see NIST?s definition of [Object Identifier (OID)](https://docs.aws.amazon.com/https://csrc.nist.gov/glossary/term/Object_Identifier).   Custom attributes cannot be used in combination with standard attributes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#custom_attributes AcmpcaCertificate#custom_attributes}
 
 ---
 
@@ -9748,7 +9748,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Disambiguating information for the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#distinguished_name_qualifier AcmpcaCertificate#distinguished_name_qualifier}
 
 ---
 
@@ -9760,7 +9760,7 @@ Typically a qualifier appended to the name of an individual.
 
 Examples include Jr. for junior, Sr. for senior, and III for third.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#generation_qualifier AcmpcaCertificate#generation_qualifier}
 
 ---
 
@@ -9770,7 +9770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 First name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#given_name AcmpcaCertificate#given_name}
 
 ---
 
@@ -9780,7 +9780,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Concatenation that typically contains the first letter of the *GivenName*, the first letter of the middle name if one exists, and the first letter of the *Surname*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#initials AcmpcaCertificate#initials}
 
 ---
 
@@ -9790,7 +9790,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The locality (such as a city or town) in which the certificate subject is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#locality AcmpcaCertificate#locality}
 
 ---
 
@@ -9800,7 +9800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Legal name of the organization with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organization AcmpcaCertificate#organization}
 
 ---
 
@@ -9810,7 +9810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A subdivision or unit of the organization (such as sales or finance) with which the certificate subject is affiliated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#organizational_unit AcmpcaCertificate#organizational_unit}
 
 ---
 
@@ -9822,7 +9822,7 @@ Typically a shortened version of a longer *GivenName*.
 
 For example, Jonathan is often shortened to John. Elizabeth is often shortened to Beth, Liz, or Eliza.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#pseudonym AcmpcaCertificate#pseudonym}
 
 ---
 
@@ -9832,7 +9832,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The certificate serial number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#serial_number AcmpcaCertificate#serial_number}
 
 ---
 
@@ -9842,7 +9842,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 State in which the subject of the certificate is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#state AcmpcaCertificate#state}
 
 ---
 
@@ -9854,7 +9854,7 @@ Family name.
 
 In the US and the UK, for example, the surname of an individual is ordered last. In Asian cultures the surname is typically ordered first.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#surname AcmpcaCertificate#surname}
 
 ---
 
@@ -9866,7 +9866,7 @@ A title such as Mr.
 
 or Ms., which is pre-pended to the name to refer formally to the certificate subject.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_certificate#title AcmpcaCertificate#title}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEmrStudios <a name="DataAwsccEmrStudios" id="@cdktn/provider-awscc.dataAwsccEmrStudios.DataAwsccEmrStudios"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studios awscc_emr_studios}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studios awscc_emr_studios}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEmrStudios.DataAwsccEmrStudios.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEmrStudios to imp
 
 The id of the existing DataAwsccEmrStudios that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studios#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/emr_studios#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Ec2VpnConcentrator <a name="Ec2VpnConcentrator" id="@cdktn/provider-awscc.ec2VpnConcentrator.Ec2VpnConcentrator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpnConcentrator.Ec2VpnConcentrator.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the transit gateway associated with the VPN concentrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of VPN concentrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Any tags assigned to the VPN concentrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
 
 ---
 
@@ -649,7 +649,7 @@ The construct id used in the generated config for the Ec2VpnConcentrator to impo
 
 The id of the existing Ec2VpnConcentrator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1061,7 +1061,7 @@ transit_gateway_id: str
 
 The ID of the transit gateway associated with the VPN concentrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
 
 ---
 
@@ -1075,7 +1075,7 @@ type: str
 
 The type of VPN concentrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
 
 ---
 
@@ -1089,7 +1089,7 @@ tags: IResolvable | typing.List[Ec2VpnConcentratorTags]
 
 Any tags assigned to the VPN concentrator.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
 
 ---
 
@@ -1127,7 +1127,7 @@ The key of the tag.
 
 Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with `aws:`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#key Ec2VpnConcentrator#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#key Ec2VpnConcentrator#key}
 
 ---
 
@@ -1141,7 +1141,7 @@ value: str
 
 The value of the tag.  Constraints: Tag values are case-sensitive and accept a maximum of 256 Unicode characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_concentrator#value Ec2VpnConcentrator#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_concentrator#value Ec2VpnConcentrator#value}
 
 ---
 

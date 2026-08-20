@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockKnowledgeBases <a name="DataAwsccBedrockKnowledgeBases" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBases.DataAwsccBedrockKnowledgeBases"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockKnowledgeBases.DataAwsccBedrockKnowledgeBases.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockKnowledgeB
 
 The id of the existing DataAwsccBedrockKnowledgeBases that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_knowledge_bases#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_knowledge_bases#import import section} in the documentation of this resource for the id to use
 
 ---
 

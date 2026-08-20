@@ -4,7 +4,7 @@
 
 ### S3OutpostsBucket <a name="S3OutpostsBucket" id="@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket awscc_s3outposts_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket awscc_s3outposts_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucket.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the S3OutpostsBucket to import
 
 The id of the existing S3OutpostsBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ public string BucketName { get; set; }
 
 A name for the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#bucket_name S3OutpostsBucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#bucket_name S3OutpostsBucket#bucket_name}
 
 ---
 
@@ -968,7 +968,7 @@ public string OutpostId { get; set; }
 
 The id of the customer outpost on which the bucket resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#outpost_id S3OutpostsBucket#outpost_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#outpost_id S3OutpostsBucket#outpost_id}
 
 ---
 
@@ -982,7 +982,7 @@ public S3OutpostsBucketLifecycleConfiguration LifecycleConfiguration { get; set;
 
 Rules that define how Amazon S3Outposts manages objects during their lifetime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#lifecycle_configuration S3OutpostsBucket#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#lifecycle_configuration S3OutpostsBucket#lifecycle_configuration}
 
 ---
 
@@ -996,7 +996,7 @@ public IResolvable|S3OutpostsBucketTags[] Tags { get; set; }
 
 An arbitrary set of tags (key-value pairs) for this S3Outposts bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#tags S3OutpostsBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#tags S3OutpostsBucket#tags}
 
 ---
 
@@ -1030,7 +1030,7 @@ public IResolvable|S3OutpostsBucketLifecycleConfigurationRules[] Rules { get; se
 
 A list of lifecycle rules for individual objects in an Amazon S3Outposts bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#rules S3OutpostsBucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#rules S3OutpostsBucket#rules}
 
 ---
 
@@ -1060,7 +1060,7 @@ new S3OutpostsBucketLifecycleConfigurationRules {
 | <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRules.property.expirationInDays">ExpirationInDays</a></code> | <code>double</code> | Indicates the number of days after creation when objects are deleted from Amazon S3Outposts. |
 | <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRules.property.filter">Filter</a></code> | <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilter">S3OutpostsBucketLifecycleConfigurationRulesFilter</a></code> | The container for the filter of the lifecycle rule. |
 | <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRules.property.id">Id</a></code> | <code>string</code> | Unique identifier for the lifecycle rule. The value can't be longer than 255 characters. |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRules.property.status">Status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#status S3OutpostsBucket#status}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRules.property.status">Status</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#status S3OutpostsBucket#status}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public S3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload
 
 Specifies a lifecycle rule that stops incomplete multipart uploads to an Amazon S3Outposts bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#abort_incomplete_multipart_upload S3OutpostsBucket#abort_incomplete_multipart_upload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#abort_incomplete_multipart_upload S3OutpostsBucket#abort_incomplete_multipart_upload}
 
 ---
 
@@ -1090,7 +1090,7 @@ Indicates when objects are deleted from Amazon S3Outposts.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#expiration_date S3OutpostsBucket#expiration_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#expiration_date S3OutpostsBucket#expiration_date}
 
 ---
 
@@ -1104,7 +1104,7 @@ public double ExpirationInDays { get; set; }
 
 Indicates the number of days after creation when objects are deleted from Amazon S3Outposts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#expiration_in_days S3OutpostsBucket#expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#expiration_in_days S3OutpostsBucket#expiration_in_days}
 
 ---
 
@@ -1118,7 +1118,7 @@ public S3OutpostsBucketLifecycleConfigurationRulesFilter Filter { get; set; }
 
 The container for the filter of the lifecycle rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#filter S3OutpostsBucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#filter S3OutpostsBucket#filter}
 
 ---
 
@@ -1132,7 +1132,7 @@ public string Id { get; set; }
 
 Unique identifier for the lifecycle rule. The value can't be longer than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#id S3OutpostsBucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#id S3OutpostsBucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1147,7 +1147,7 @@ public string Status { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#status S3OutpostsBucket#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#status S3OutpostsBucket#status}.
 
 ---
 
@@ -1181,7 +1181,7 @@ public double DaysAfterInitiation { get; set; }
 
 Specifies the number of days after which Amazon S3Outposts aborts an incomplete multipart upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#days_after_initiation S3OutpostsBucket#days_after_initiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#days_after_initiation S3OutpostsBucket#days_after_initiation}
 
 ---
 
@@ -1221,7 +1221,7 @@ The container for the AND condition for the lifecycle rule.
 
 A combination of Prefix and 1 or more Tags OR a minimum of 2 or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#and_operator S3OutpostsBucket#and_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#and_operator S3OutpostsBucket#and_operator}
 
 ---
 
@@ -1235,7 +1235,7 @@ public string Prefix { get; set; }
 
 Object key prefix that identifies one or more objects to which this rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#prefix S3OutpostsBucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#prefix S3OutpostsBucket#prefix}
 
 ---
 
@@ -1249,7 +1249,7 @@ public S3OutpostsBucketLifecycleConfigurationRulesFilterTag Tag { get; set; }
 
 Specifies a tag used to identify a subset of objects for an Amazon S3Outposts bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#tag S3OutpostsBucket#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#tag S3OutpostsBucket#tag}
 
 ---
 
@@ -1285,7 +1285,7 @@ public string Prefix { get; set; }
 
 Prefix identifies one or more objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#prefix S3OutpostsBucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#prefix S3OutpostsBucket#prefix}
 
 ---
 
@@ -1299,7 +1299,7 @@ public IResolvable|S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorT
 
 All of these tags must exist in the object's tag set in order for the rule to apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#tags S3OutpostsBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#tags S3OutpostsBucket#tags}
 
 ---
 
@@ -1320,8 +1320,8 @@ new S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}. |
 
 ---
 
@@ -1333,7 +1333,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
 
 ---
 
@@ -1345,7 +1345,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
 
 ---
 
@@ -1366,8 +1366,8 @@ new S3OutpostsBucketLifecycleConfigurationRulesFilterTag {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterTag.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterTag.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterTag.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketLifecycleConfigurationRulesFilterTag.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}. |
 
 ---
 
@@ -1379,7 +1379,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
 
 ---
 
@@ -1391,7 +1391,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
 
 ---
 
@@ -1412,8 +1412,8 @@ new S3OutpostsBucketTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3OutpostsBucket.S3OutpostsBucketTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}. |
 
 ---
 
@@ -1425,7 +1425,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
 
 ---
 
@@ -1437,7 +1437,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
 
 ---
 

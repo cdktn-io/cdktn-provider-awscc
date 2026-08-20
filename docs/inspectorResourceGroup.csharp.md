@@ -4,7 +4,7 @@
 
 ### InspectorResourceGroup <a name="InspectorResourceGroup" id="@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group awscc_inspector_resource_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group awscc_inspector_resource_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroup.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the InspectorResourceGroup to 
 
 The id of the existing InspectorResourceGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -771,7 +771,7 @@ new InspectorResourceGroupConfig {
 | <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupConfig.property.resourceGroupTags">ResourceGroupTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags">InspectorResourceGroupResourceGroupTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#resource_group_tags InspectorResourceGroup#resource_group_tags}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupConfig.property.resourceGroupTags">ResourceGroupTags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags">InspectorResourceGroupResourceGroupTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#resource_group_tags InspectorResourceGroup#resource_group_tags}. |
 
 ---
 
@@ -853,7 +853,7 @@ public IResolvable|InspectorResourceGroupResourceGroupTags[] ResourceGroupTags {
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags">InspectorResourceGroupResourceGroupTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#resource_group_tags InspectorResourceGroup#resource_group_tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#resource_group_tags InspectorResourceGroup#resource_group_tags}.
 
 ---
 
@@ -874,8 +874,8 @@ new InspectorResourceGroupResourceGroupTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#key InspectorResourceGroup#key}. |
-| <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#value InspectorResourceGroup#value}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#key InspectorResourceGroup#key}. |
+| <code><a href="#@cdktn/provider-awscc.inspectorResourceGroup.InspectorResourceGroupResourceGroupTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#value InspectorResourceGroup#value}. |
 
 ---
 
@@ -887,7 +887,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#key InspectorResourceGroup#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#key InspectorResourceGroup#key}.
 
 ---
 
@@ -899,7 +899,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspector_resource_group#value InspectorResourceGroup#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_resource_group#value InspectorResourceGroup#value}.
 
 ---
 

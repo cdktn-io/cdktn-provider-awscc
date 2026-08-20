@@ -4,7 +4,7 @@
 
 ### IotsitewiseDataset <a name="IotsitewiseDataset" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the IotsitewiseDataset to impo
 
 The id of the existing IotsitewiseDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,7 +965,7 @@ public string DatasetName { get; set; }
 
 The name of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
 
 ---
 
@@ -979,7 +979,7 @@ public IotsitewiseDatasetDatasetSource DatasetSource { get; set; }
 
 The data source for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
 
 ---
 
@@ -993,7 +993,7 @@ public string DatasetDescription { get; set; }
 
 A description about the dataset, and its functionality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
 
 ---
 
@@ -1007,7 +1007,7 @@ public IResolvable|IotsitewiseDatasetTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
 
 ---
 
@@ -1045,7 +1045,7 @@ public string SourceFormat { get; set; }
 
 The format of the dataset source associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
 
 ---
 
@@ -1059,7 +1059,7 @@ public string SourceType { get; set; }
 
 The type of data source for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
 
 ---
 
@@ -1073,7 +1073,7 @@ public IotsitewiseDatasetDatasetSourceSourceDetail SourceDetail { get; set; }
 
 The details of the dataset source associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
 
 ---
 
@@ -1107,7 +1107,7 @@ public IotsitewiseDatasetDatasetSourceSourceDetailKendra Kendra { get; set; }
 
 Contains details about the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
 
 ---
 
@@ -1143,7 +1143,7 @@ public string KnowledgeBaseArn { get; set; }
 
 The knowledgeBaseArn details for the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
 
 ---
 
@@ -1157,7 +1157,7 @@ public string RoleArn { get; set; }
 
 The roleARN details for the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
 
 ---
 
@@ -1178,8 +1178,8 @@ new IotsitewiseDatasetTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}. |
 
 ---
 
@@ -1191,7 +1191,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}.
 
 ---
 
@@ -1203,7 +1203,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}.
 
 ---
 

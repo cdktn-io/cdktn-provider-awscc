@@ -4,7 +4,7 @@
 
 ### DataexchangeDataSet <a name="DataexchangeDataSet" id="@cdktn/provider-awscc.dataexchangeDataSet.DataexchangeDataSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataexchangeDataSet.DataexchangeDataSet.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DataexchangeDataSet to imp
 
 The id of the existing DataexchangeDataSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ AssetType *string
 
 The type of asset that is added to a data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#asset_type DataexchangeDataSet#asset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#asset_type DataexchangeDataSet#asset_type}
 
 ---
 
@@ -992,7 +992,7 @@ Description *string
 
 A description for the data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#description DataexchangeDataSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#description DataexchangeDataSet#description}
 
 ---
 
@@ -1006,7 +1006,7 @@ Name *string
 
 The name of the data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#name DataexchangeDataSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#name DataexchangeDataSet#name}
 
 ---
 
@@ -1020,7 +1020,7 @@ Tags interface{}
 
 Tags for the data set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#tags DataexchangeDataSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#tags DataexchangeDataSet#tags}
 
 ---
 
@@ -1041,8 +1041,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangedataset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dataexchangeDataSet.DataexchangeDataSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#key DataexchangeDataSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.dataexchangeDataSet.DataexchangeDataSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#value DataexchangeDataSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.dataexchangeDataSet.DataexchangeDataSetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#key DataexchangeDataSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.dataexchangeDataSet.DataexchangeDataSetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#value DataexchangeDataSet#value}. |
 
 ---
 
@@ -1054,7 +1054,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#key DataexchangeDataSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#key DataexchangeDataSet#key}.
 
 ---
 
@@ -1066,7 +1066,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dataexchange_data_set#value DataexchangeDataSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dataexchange_data_set#value DataexchangeDataSet#value}.
 
 ---
 

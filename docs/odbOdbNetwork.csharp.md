@@ -4,7 +4,7 @@
 
 ### OdbOdbNetwork <a name="OdbOdbNetwork" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network awscc_odb_odb_network}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network awscc_odb_odb_network}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.odbOdbNetwork.OdbOdbNetwork.Initializer"></a>
 
@@ -621,7 +621,7 @@ The construct id used in the generated config for the OdbOdbNetwork to import.
 
 The id of the existing OdbOdbNetwork that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1424,7 +1424,7 @@ public string AvailabilityZone { get; set; }
 
 The AWS Availability Zone (AZ) where the ODB network is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#availability_zone OdbOdbNetwork#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#availability_zone OdbOdbNetwork#availability_zone}
 
 ---
 
@@ -1438,7 +1438,7 @@ public string AvailabilityZoneId { get; set; }
 
 The AZ ID of the AZ where the ODB network is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#availability_zone_id OdbOdbNetwork#availability_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#availability_zone_id OdbOdbNetwork#availability_zone_id}
 
 ---
 
@@ -1452,7 +1452,7 @@ public string BackupSubnetCidr { get; set; }
 
 The CIDR range of the backup subnet in the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#backup_subnet_cidr OdbOdbNetwork#backup_subnet_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#backup_subnet_cidr OdbOdbNetwork#backup_subnet_cidr}
 
 ---
 
@@ -1466,7 +1466,7 @@ public string ClientSubnetCidr { get; set; }
 
 The CIDR range of the client subnet in the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#client_subnet_cidr OdbOdbNetwork#client_subnet_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#client_subnet_cidr OdbOdbNetwork#client_subnet_cidr}
 
 ---
 
@@ -1480,7 +1480,7 @@ public string[] CrossRegionS3RestoreSources { get; set; }
 
 The cross-Region Amazon S3 restore sources for the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#cross_region_s3_restore_sources OdbOdbNetwork#cross_region_s3_restore_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#cross_region_s3_restore_sources OdbOdbNetwork#cross_region_s3_restore_sources}
 
 ---
 
@@ -1494,7 +1494,7 @@ public string CustomDomainName { get; set; }
 
 The domain name to use for the resources in the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#custom_domain_name OdbOdbNetwork#custom_domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#custom_domain_name OdbOdbNetwork#custom_domain_name}
 
 ---
 
@@ -1508,7 +1508,7 @@ public string DefaultDnsPrefix { get; set; }
 
 The DNS prefix to the default DNS domain name. The default DNS domain name is oraclevcn.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#default_dns_prefix OdbOdbNetwork#default_dns_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#default_dns_prefix OdbOdbNetwork#default_dns_prefix}
 
 ---
 
@@ -1522,7 +1522,7 @@ public bool|IResolvable DeleteAssociatedResources { get; set; }
 
 Specifies whether to delete associated OCI networking resources along with the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#delete_associated_resources OdbOdbNetwork#delete_associated_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#delete_associated_resources OdbOdbNetwork#delete_associated_resources}
 
 ---
 
@@ -1536,7 +1536,7 @@ public string DisplayName { get; set; }
 
 The user-friendly name of the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#display_name OdbOdbNetwork#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#display_name OdbOdbNetwork#display_name}
 
 ---
 
@@ -1550,7 +1550,7 @@ public string KmsAccess { get; set; }
 
 The AWS Key Management Service (KMS) access configuration for the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#kms_access OdbOdbNetwork#kms_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#kms_access OdbOdbNetwork#kms_access}
 
 ---
 
@@ -1564,7 +1564,7 @@ public string KmsPolicyDocument { get; set; }
 
 The AWS Key Management Service (KMS) policy document that defines permissions for key usage within the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#kms_policy_document OdbOdbNetwork#kms_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#kms_policy_document OdbOdbNetwork#kms_policy_document}
 
 ---
 
@@ -1578,7 +1578,7 @@ public string S3Access { get; set; }
 
 Specifies the configuration for Amazon S3 access from the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#s3_access OdbOdbNetwork#s3_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#s3_access OdbOdbNetwork#s3_access}
 
 ---
 
@@ -1592,7 +1592,7 @@ public string S3PolicyDocument { get; set; }
 
 Specifies the endpoint policy for Amazon S3 access from the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#s3_policy_document OdbOdbNetwork#s3_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#s3_policy_document OdbOdbNetwork#s3_policy_document}
 
 ---
 
@@ -1606,7 +1606,7 @@ public string StsAccess { get; set; }
 
 The AWS Security Token Service (STS) access configuration for the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#sts_access OdbOdbNetwork#sts_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#sts_access OdbOdbNetwork#sts_access}
 
 ---
 
@@ -1620,7 +1620,7 @@ public string StsPolicyDocument { get; set; }
 
 The AWS Security Token Service (STS) policy document that defines permissions for token service usage within the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#sts_policy_document OdbOdbNetwork#sts_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#sts_policy_document OdbOdbNetwork#sts_policy_document}
 
 ---
 
@@ -1634,7 +1634,7 @@ public IResolvable|OdbOdbNetworkTags[] Tags { get; set; }
 
 Tags to assign to the Odb Network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#tags OdbOdbNetwork#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#tags OdbOdbNetwork#tags}
 
 ---
 
@@ -1648,7 +1648,7 @@ public string ZeroEtlAccess { get; set; }
 
 Specifies the configuration for Zero-ETL access from the ODB network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#zero_etl_access OdbOdbNetwork#zero_etl_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#zero_etl_access OdbOdbNetwork#zero_etl_access}
 
 ---
 
@@ -1804,7 +1804,7 @@ The value for the tag.
 
 You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_network#value OdbOdbNetwork#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_odb_network#value OdbOdbNetwork#value}
 
 ---
 

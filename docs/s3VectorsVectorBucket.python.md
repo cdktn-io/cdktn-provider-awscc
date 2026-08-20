@@ -4,7 +4,7 @@
 
 ### S3VectorsVectorBucket <a name="S3VectorsVectorBucket" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3VectorsVectorBucket.S3VectorsVectorBucket.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The encryption configuration for the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User tags (key-value pairs) to associate with the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
 
 ---
 
@@ -535,7 +535,7 @@ AWS Key Management Service (KMS) customer managed key ID to use for the encrypti
 
 This parameter is allowed if and only if sseType is set to aws:kms
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
 
 ---
 
@@ -547,7 +547,7 @@ The server-side encryption type to use for the encryption configuration of the v
 
 By default, if you don't specify, all new vectors in Amazon S3 vector buckets use server-side encryption with Amazon S3 managed keys (SSE-S3), specifically AES256.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
 
 ---
 
@@ -697,7 +697,7 @@ The construct id used in the generated config for the S3VectorsVectorBucket to i
 
 The id of the existing S3VectorsVectorBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1109,7 +1109,7 @@ encryption_configuration: S3VectorsVectorBucketEncryptionConfiguration
 
 The encryption configuration for the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
 
 ---
 
@@ -1123,7 +1123,7 @@ tags: IResolvable | typing.List[S3VectorsVectorBucketTags]
 
 User tags (key-value pairs) to associate with the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
 
 ---
 
@@ -1137,7 +1137,7 @@ vector_bucket_name: str
 
 The name of the vector bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
 
 ---
 
@@ -1175,7 +1175,7 @@ AWS Key Management Service (KMS) customer managed key ID to use for the encrypti
 
 This parameter is allowed if and only if sseType is set to aws:kms
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
 
 ---
 
@@ -1191,7 +1191,7 @@ The server-side encryption type to use for the encryption configuration of the v
 
 By default, if you don't specify, all new vectors in Amazon S3 vector buckets use server-side encryption with Amazon S3 managed keys (SSE-S3), specifically AES256.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
 
 ---
 

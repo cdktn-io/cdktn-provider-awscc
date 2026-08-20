@@ -4,7 +4,7 @@
 
 ### MwaaEnvironment <a name="MwaaEnvironment" id="@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment awscc_mwaa_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment awscc_mwaa_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironment.Initializer"></a>
 
@@ -154,7 +154,7 @@ Must be unique amongst siblings in the same scope
 
 Customer-defined identifier for the environment, unique per customer region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#name MwaaEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#name MwaaEnvironment#name}
 
 ---
 
@@ -173,7 +173,7 @@ Would be represented as
 "core.dags_folder": "{AIRFLOW_HOME}/dags"
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#airflow_configuration_options MwaaEnvironment#airflow_configuration_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#airflow_configuration_options MwaaEnvironment#airflow_configuration_options}
 
 ---
 
@@ -183,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Version of airflow to deploy to the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#airflow_version MwaaEnvironment#airflow_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#airflow_version MwaaEnvironment#airflow_version}
 
 ---
 
@@ -193,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#dag_s3_path MwaaEnvironment#dag_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#dag_s3_path MwaaEnvironment#dag_s3_path}
 
 ---
 
@@ -203,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Defines whether the VPC endpoints configured for the environment are created, and managed, by the customer or by Amazon MWAA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#endpoint_management MwaaEnvironment#endpoint_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#endpoint_management MwaaEnvironment#endpoint_management}
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Templated configuration for airflow processes and backing infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#environment_class MwaaEnvironment#environment_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#environment_class MwaaEnvironment#environment_class}
 
 ---
 
@@ -223,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IAM role to be used by tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#execution_role_arn MwaaEnvironment#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#execution_role_arn MwaaEnvironment#execution_role_arn}
 
 ---
 
@@ -247,7 +247,7 @@ Alias ARN. For example, arn:aws:kms:us-east-1:012345678910:alias/ExampleAlias.
 AWS authenticates the CMK asynchronously. Therefore, if you specify an ID, alias, or ARN that is not valid, the action can appear to complete, but eventually fails.
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#kms_key MwaaEnvironment#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#kms_key MwaaEnvironment#kms_key}
 
 ---
 
@@ -257,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Logging configuration for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#logging_configuration MwaaEnvironment#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#logging_configuration MwaaEnvironment#logging_configuration}
 
 ---
 
@@ -267,7 +267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum webserver compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#max_webservers MwaaEnvironment#max_webservers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#max_webservers MwaaEnvironment#max_webservers}
 
 ---
 
@@ -277,7 +277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum worker compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#max_workers MwaaEnvironment#max_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#max_workers MwaaEnvironment#max_workers}
 
 ---
 
@@ -287,7 +287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum webserver compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#min_webservers MwaaEnvironment#min_webservers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#min_webservers MwaaEnvironment#min_webservers}
 
 ---
 
@@ -297,7 +297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Minimum worker compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#min_workers MwaaEnvironment#min_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#min_workers MwaaEnvironment#min_workers}
 
 ---
 
@@ -307,7 +307,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configures the network resources of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#network_configuration MwaaEnvironment#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#network_configuration MwaaEnvironment#network_configuration}
 
 ---
 
@@ -317,7 +317,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an version ID for an S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#plugins_s3_object_version MwaaEnvironment#plugins_s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#plugins_s3_object_version MwaaEnvironment#plugins_s3_object_version}
 
 ---
 
@@ -327,7 +327,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#plugins_s3_path MwaaEnvironment#plugins_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#plugins_s3_path MwaaEnvironment#plugins_s3_path}
 
 ---
 
@@ -337,7 +337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an version ID for an S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#requirements_s3_object_version MwaaEnvironment#requirements_s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#requirements_s3_object_version MwaaEnvironment#requirements_s3_object_version}
 
 ---
 
@@ -347,7 +347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#requirements_s3_path MwaaEnvironment#requirements_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#requirements_s3_path MwaaEnvironment#requirements_s3_path}
 
 ---
 
@@ -357,7 +357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Scheduler compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#schedulers MwaaEnvironment#schedulers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#schedulers MwaaEnvironment#schedulers}
 
 ---
 
@@ -367,7 +367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ARN for the AWS S3 bucket to use as the source of DAGs and plugins for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#source_bucket_arn MwaaEnvironment#source_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#source_bucket_arn MwaaEnvironment#source_bucket_arn}
 
 ---
 
@@ -377,7 +377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an version ID for an S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#startup_script_s3_object_version MwaaEnvironment#startup_script_s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#startup_script_s3_object_version MwaaEnvironment#startup_script_s3_object_version}
 
 ---
 
@@ -387,7 +387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#startup_script_s3_path MwaaEnvironment#startup_script_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#startup_script_s3_path MwaaEnvironment#startup_script_s3_path}
 
 ---
 
@@ -397,7 +397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of tags for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#tags MwaaEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#tags MwaaEnvironment#tags}
 
 ---
 
@@ -407,7 +407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Choice for mode of webserver access including over public internet or via private VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#webserver_access_mode MwaaEnvironment#webserver_access_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#webserver_access_mode MwaaEnvironment#webserver_access_mode}
 
 ---
 
@@ -417,7 +417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Start time for the weekly maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#weekly_maintenance_window_start MwaaEnvironment#weekly_maintenance_window_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#weekly_maintenance_window_start MwaaEnvironment#weekly_maintenance_window_start}
 
 ---
 
@@ -429,7 +429,7 @@ The worker replacement strategy to use when updating the environment.
 
 Valid values: `FORCED`, `GRACEFUL`. FORCED means Apache Airflow workers will be stopped and replaced without waiting for tasks to complete before an update. GRACEFUL means Apache Airflow workers will be able to complete running tasks for up to 12 hours during an update before being stopped and replaced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#worker_replacement_strategy MwaaEnvironment#worker_replacement_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#worker_replacement_strategy MwaaEnvironment#worker_replacement_strategy}
 
 ---
 
@@ -1079,7 +1079,7 @@ The construct id used in the generated config for the MwaaEnvironment to import.
 
 The id of the existing MwaaEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2076,7 +2076,7 @@ public java.lang.String getName();
 
 Customer-defined identifier for the environment, unique per customer region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#name MwaaEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#name MwaaEnvironment#name}
 
 ---
 
@@ -2099,7 +2099,7 @@ Would be represented as
 "core.dags_folder": "{AIRFLOW_HOME}/dags"
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#airflow_configuration_options MwaaEnvironment#airflow_configuration_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#airflow_configuration_options MwaaEnvironment#airflow_configuration_options}
 
 ---
 
@@ -2113,7 +2113,7 @@ public java.lang.String getAirflowVersion();
 
 Version of airflow to deploy to the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#airflow_version MwaaEnvironment#airflow_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#airflow_version MwaaEnvironment#airflow_version}
 
 ---
 
@@ -2127,7 +2127,7 @@ public java.lang.String getDagS3Path();
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#dag_s3_path MwaaEnvironment#dag_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#dag_s3_path MwaaEnvironment#dag_s3_path}
 
 ---
 
@@ -2141,7 +2141,7 @@ public java.lang.String getEndpointManagement();
 
 Defines whether the VPC endpoints configured for the environment are created, and managed, by the customer or by Amazon MWAA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#endpoint_management MwaaEnvironment#endpoint_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#endpoint_management MwaaEnvironment#endpoint_management}
 
 ---
 
@@ -2155,7 +2155,7 @@ public java.lang.String getEnvironmentClass();
 
 Templated configuration for airflow processes and backing infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#environment_class MwaaEnvironment#environment_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#environment_class MwaaEnvironment#environment_class}
 
 ---
 
@@ -2169,7 +2169,7 @@ public java.lang.String getExecutionRoleArn();
 
 IAM role to be used by tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#execution_role_arn MwaaEnvironment#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#execution_role_arn MwaaEnvironment#execution_role_arn}
 
 ---
 
@@ -2197,7 +2197,7 @@ Alias ARN. For example, arn:aws:kms:us-east-1:012345678910:alias/ExampleAlias.
 AWS authenticates the CMK asynchronously. Therefore, if you specify an ID, alias, or ARN that is not valid, the action can appear to complete, but eventually fails.
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#kms_key MwaaEnvironment#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#kms_key MwaaEnvironment#kms_key}
 
 ---
 
@@ -2211,7 +2211,7 @@ public MwaaEnvironmentLoggingConfiguration getLoggingConfiguration();
 
 Logging configuration for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#logging_configuration MwaaEnvironment#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#logging_configuration MwaaEnvironment#logging_configuration}
 
 ---
 
@@ -2225,7 +2225,7 @@ public java.lang.Number getMaxWebservers();
 
 Maximum webserver compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#max_webservers MwaaEnvironment#max_webservers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#max_webservers MwaaEnvironment#max_webservers}
 
 ---
 
@@ -2239,7 +2239,7 @@ public java.lang.Number getMaxWorkers();
 
 Maximum worker compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#max_workers MwaaEnvironment#max_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#max_workers MwaaEnvironment#max_workers}
 
 ---
 
@@ -2253,7 +2253,7 @@ public java.lang.Number getMinWebservers();
 
 Minimum webserver compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#min_webservers MwaaEnvironment#min_webservers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#min_webservers MwaaEnvironment#min_webservers}
 
 ---
 
@@ -2267,7 +2267,7 @@ public java.lang.Number getMinWorkers();
 
 Minimum worker compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#min_workers MwaaEnvironment#min_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#min_workers MwaaEnvironment#min_workers}
 
 ---
 
@@ -2281,7 +2281,7 @@ public MwaaEnvironmentNetworkConfiguration getNetworkConfiguration();
 
 Configures the network resources of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#network_configuration MwaaEnvironment#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#network_configuration MwaaEnvironment#network_configuration}
 
 ---
 
@@ -2295,7 +2295,7 @@ public java.lang.String getPluginsS3ObjectVersion();
 
 Represents an version ID for an S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#plugins_s3_object_version MwaaEnvironment#plugins_s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#plugins_s3_object_version MwaaEnvironment#plugins_s3_object_version}
 
 ---
 
@@ -2309,7 +2309,7 @@ public java.lang.String getPluginsS3Path();
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#plugins_s3_path MwaaEnvironment#plugins_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#plugins_s3_path MwaaEnvironment#plugins_s3_path}
 
 ---
 
@@ -2323,7 +2323,7 @@ public java.lang.String getRequirementsS3ObjectVersion();
 
 Represents an version ID for an S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#requirements_s3_object_version MwaaEnvironment#requirements_s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#requirements_s3_object_version MwaaEnvironment#requirements_s3_object_version}
 
 ---
 
@@ -2337,7 +2337,7 @@ public java.lang.String getRequirementsS3Path();
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#requirements_s3_path MwaaEnvironment#requirements_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#requirements_s3_path MwaaEnvironment#requirements_s3_path}
 
 ---
 
@@ -2351,7 +2351,7 @@ public java.lang.Number getSchedulers();
 
 Scheduler compute units.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#schedulers MwaaEnvironment#schedulers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#schedulers MwaaEnvironment#schedulers}
 
 ---
 
@@ -2365,7 +2365,7 @@ public java.lang.String getSourceBucketArn();
 
 ARN for the AWS S3 bucket to use as the source of DAGs and plugins for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#source_bucket_arn MwaaEnvironment#source_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#source_bucket_arn MwaaEnvironment#source_bucket_arn}
 
 ---
 
@@ -2379,7 +2379,7 @@ public java.lang.String getStartupScriptS3ObjectVersion();
 
 Represents an version ID for an S3 object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#startup_script_s3_object_version MwaaEnvironment#startup_script_s3_object_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#startup_script_s3_object_version MwaaEnvironment#startup_script_s3_object_version}
 
 ---
 
@@ -2393,7 +2393,7 @@ public java.lang.String getStartupScriptS3Path();
 
 Represents an S3 prefix relative to the root of an S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#startup_script_s3_path MwaaEnvironment#startup_script_s3_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#startup_script_s3_path MwaaEnvironment#startup_script_s3_path}
 
 ---
 
@@ -2407,7 +2407,7 @@ public java.lang.String getTags();
 
 A map of tags for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#tags MwaaEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#tags MwaaEnvironment#tags}
 
 ---
 
@@ -2421,7 +2421,7 @@ public java.lang.String getWebserverAccessMode();
 
 Choice for mode of webserver access including over public internet or via private VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#webserver_access_mode MwaaEnvironment#webserver_access_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#webserver_access_mode MwaaEnvironment#webserver_access_mode}
 
 ---
 
@@ -2435,7 +2435,7 @@ public java.lang.String getWeeklyMaintenanceWindowStart();
 
 Start time for the weekly maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#weekly_maintenance_window_start MwaaEnvironment#weekly_maintenance_window_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#weekly_maintenance_window_start MwaaEnvironment#weekly_maintenance_window_start}
 
 ---
 
@@ -2451,7 +2451,7 @@ The worker replacement strategy to use when updating the environment.
 
 Valid values: `FORCED`, `GRACEFUL`. FORCED means Apache Airflow workers will be stopped and replaced without waiting for tasks to complete before an update. GRACEFUL means Apache Airflow workers will be able to complete running tasks for up to 12 hours during an update before being stopped and replaced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#worker_replacement_strategy MwaaEnvironment#worker_replacement_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#worker_replacement_strategy MwaaEnvironment#worker_replacement_strategy}
 
 ---
 
@@ -2493,7 +2493,7 @@ public MwaaEnvironmentLoggingConfigurationDagProcessingLogs getDagProcessingLogs
 
 Logging configuration for a specific airflow component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#dag_processing_logs MwaaEnvironment#dag_processing_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#dag_processing_logs MwaaEnvironment#dag_processing_logs}
 
 ---
 
@@ -2507,7 +2507,7 @@ public MwaaEnvironmentLoggingConfigurationSchedulerLogs getSchedulerLogs();
 
 Logging configuration for a specific airflow component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#scheduler_logs MwaaEnvironment#scheduler_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#scheduler_logs MwaaEnvironment#scheduler_logs}
 
 ---
 
@@ -2521,7 +2521,7 @@ public MwaaEnvironmentLoggingConfigurationTaskLogs getTaskLogs();
 
 Logging configuration for a specific airflow component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#task_logs MwaaEnvironment#task_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#task_logs MwaaEnvironment#task_logs}
 
 ---
 
@@ -2535,7 +2535,7 @@ public MwaaEnvironmentLoggingConfigurationWebserverLogs getWebserverLogs();
 
 Logging configuration for a specific airflow component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#webserver_logs MwaaEnvironment#webserver_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#webserver_logs MwaaEnvironment#webserver_logs}
 
 ---
 
@@ -2549,7 +2549,7 @@ public MwaaEnvironmentLoggingConfigurationWorkerLogs getWorkerLogs();
 
 Logging configuration for a specific airflow component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#worker_logs MwaaEnvironment#worker_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#worker_logs MwaaEnvironment#worker_logs}
 
 ---
 
@@ -2570,8 +2570,8 @@ MwaaEnvironmentLoggingConfigurationDagProcessingLogs.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationDagProcessingLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationDagProcessingLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationDagProcessingLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationDagProcessingLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
 
 ---
 
@@ -2583,7 +2583,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
 
 ---
 
@@ -2595,7 +2595,7 @@ public java.lang.String getLogLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
 
 ---
 
@@ -2616,8 +2616,8 @@ MwaaEnvironmentLoggingConfigurationSchedulerLogs.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationSchedulerLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationSchedulerLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationSchedulerLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationSchedulerLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
 
 ---
 
@@ -2629,7 +2629,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
 
 ---
 
@@ -2641,7 +2641,7 @@ public java.lang.String getLogLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
 
 ---
 
@@ -2662,8 +2662,8 @@ MwaaEnvironmentLoggingConfigurationTaskLogs.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationTaskLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationTaskLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationTaskLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationTaskLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
 
 ---
 
@@ -2675,7 +2675,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
 
 ---
 
@@ -2687,7 +2687,7 @@ public java.lang.String getLogLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
 
 ---
 
@@ -2708,8 +2708,8 @@ MwaaEnvironmentLoggingConfigurationWebserverLogs.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWebserverLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWebserverLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWebserverLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWebserverLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
 
 ---
 
@@ -2721,7 +2721,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
 
 ---
 
@@ -2733,7 +2733,7 @@ public java.lang.String getLogLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
 
 ---
 
@@ -2754,8 +2754,8 @@ MwaaEnvironmentLoggingConfigurationWorkerLogs.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWorkerLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWorkerLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWorkerLogs.property.enabled">enabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.mwaaEnvironment.MwaaEnvironmentLoggingConfigurationWorkerLogs.property.logLevel">logLevel</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}. |
 
 ---
 
@@ -2767,7 +2767,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#enabled MwaaEnvironment#enabled}.
 
 ---
 
@@ -2779,7 +2779,7 @@ public java.lang.String getLogLevel();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#log_level MwaaEnvironment#log_level}.
 
 ---
 
@@ -2815,7 +2815,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 A list of security groups to use for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#security_group_ids MwaaEnvironment#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#security_group_ids MwaaEnvironment#security_group_ids}
 
 ---
 
@@ -2831,7 +2831,7 @@ A list of subnets to use for the environment.
 
 These must be private subnets, in the same VPC, in two different availability zones.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaa_environment#subnet_ids MwaaEnvironment#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaa_environment#subnet_ids MwaaEnvironment#subnet_ids}
 
 ---
 

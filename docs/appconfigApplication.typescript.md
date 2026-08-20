@@ -4,7 +4,7 @@
 
 ### AppconfigApplication <a name="AppconfigApplication" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application awscc_appconfig_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application awscc_appconfig_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigApplication.AppconfigApplication.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the AppconfigApplication to im
 
 The id of the existing AppconfigApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -906,7 +906,7 @@ public readonly name: string;
 
 A name for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application#name AppconfigApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application#name AppconfigApplication#name}
 
 ---
 
@@ -920,7 +920,7 @@ public readonly description: string;
 
 A description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application#description AppconfigApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application#description AppconfigApplication#description}
 
 ---
 
@@ -936,7 +936,7 @@ Metadata to assign to the application.
 
 Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application#tags AppconfigApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application#tags AppconfigApplication#tags}
 
 ---
 
@@ -971,7 +971,7 @@ The key-value string map.
 
 The valid character set is [a-zA-Z1-9 +-=._:/-]. The tag key can be up to 128 characters and must not start with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application#key AppconfigApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application#key AppconfigApplication#key}
 
 ---
 
@@ -985,7 +985,7 @@ public readonly value: string;
 
 The tag value can be up to 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_application#value AppconfigApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_application#value AppconfigApplication#value}
 
 ---
 

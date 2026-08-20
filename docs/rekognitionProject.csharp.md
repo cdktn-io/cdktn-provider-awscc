@@ -4,7 +4,7 @@
 
 ### RekognitionProject <a name="RekognitionProject" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_project awscc_rekognition_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_project awscc_rekognition_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionProject.RekognitionProject.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the RekognitionProject to impo
 
 The id of the existing RekognitionProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ public string ProjectName { get; set; }
 
 The name of the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_project#project_name RekognitionProject#project_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_project#project_name RekognitionProject#project_name}
 
 ---
 
@@ -900,7 +900,7 @@ public IResolvable|RekognitionProjectTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_project#tags RekognitionProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_project#tags RekognitionProject#tags}
 
 ---
 
@@ -938,7 +938,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_project#key RekognitionProject#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_project#key RekognitionProject#key}
 
 ---
 
@@ -954,7 +954,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_project#value RekognitionProject#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_project#value RekognitionProject#value}
 
 ---
 

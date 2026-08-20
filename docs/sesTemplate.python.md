@@ -4,7 +4,7 @@
 
 ### SesTemplate <a name="SesTemplate" id="@cdktn/provider-awscc.sesTemplate.SesTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template awscc_ses_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template awscc_ses_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTemplate.SesTemplate.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The tags (keys and values) associated with the email template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#tags SesTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#tags SesTemplate#tags}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The content of the email, composed of a subject line, an HTML part, and a text-only part.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#template SesTemplate#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#template SesTemplate#template}
 
 ---
 
@@ -536,7 +536,7 @@ def put_template(
 
 The HTML body of the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#html_part SesTemplate#html_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#html_part SesTemplate#html_part}
 
 ---
 
@@ -546,7 +546,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The subject line of the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
 
 ---
 
@@ -556,7 +556,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#template_name SesTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#template_name SesTemplate#template_name}
 
 ---
 
@@ -566,7 +566,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The email body that is visible to recipients whose email clients do not display HTML content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#text_part SesTemplate#text_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#text_part SesTemplate#text_part}
 
 ---
 
@@ -696,7 +696,7 @@ The construct id used in the generated config for the SesTemplate to import.
 
 The id of the existing SesTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1073,7 +1073,7 @@ tags: IResolvable | typing.List[SesTemplateTags]
 
 The tags (keys and values) associated with the email template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#tags SesTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#tags SesTemplate#tags}
 
 ---
 
@@ -1087,7 +1087,7 @@ template: SesTemplateTemplate
 
 The content of the email, composed of a subject line, an HTML part, and a text-only part.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#template SesTemplate#template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#template SesTemplate#template}
 
 ---
 
@@ -1108,8 +1108,8 @@ sesTemplate.SesTemplateTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#key SesTemplate#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#value SesTemplate#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#key SesTemplate#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesTemplate.SesTemplateTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#value SesTemplate#value}. |
 
 ---
 
@@ -1121,7 +1121,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#key SesTemplate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#key SesTemplate#key}.
 
 ---
 
@@ -1133,7 +1133,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#value SesTemplate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#value SesTemplate#value}.
 
 ---
 
@@ -1173,7 +1173,7 @@ html_part: str
 
 The HTML body of the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#html_part SesTemplate#html_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#html_part SesTemplate#html_part}
 
 ---
 
@@ -1187,7 +1187,7 @@ subject_part: str
 
 The subject line of the email.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#subject_part SesTemplate#subject_part}
 
 ---
 
@@ -1201,7 +1201,7 @@ template_name: str
 
 The name of the template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#template_name SesTemplate#template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#template_name SesTemplate#template_name}
 
 ---
 
@@ -1215,7 +1215,7 @@ text_part: str
 
 The email body that is visible to recipients whose email clients do not display HTML content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_template#text_part SesTemplate#text_part}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_template#text_part SesTemplate#text_part}
 
 ---
 

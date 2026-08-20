@@ -4,7 +4,7 @@
 
 ### QuicksightAnalysis <a name="QuicksightAnalysis" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis awscc_quicksight_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis awscc_quicksight_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysis.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the QuicksightAnalysis to impo
 
 The id of the existing QuicksightAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1104,8 +1104,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.analysisId">AnalysisId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.analysisId">AnalysisId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.sourceEntity">SourceEntity</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisSourceEntity">QuicksightAnalysisSourceEntity</a></code> | <p>The source entity of an analysis.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.errors">Errors</a></code> | <code>interface{}</code> | <p>Errors associated with the analysis.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisConfig.property.name">Name</a></code> | <code>*string</code> | <p>The descriptive name of the analysis.</p>. |
@@ -1194,7 +1194,7 @@ AnalysisId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#analysis_id QuicksightAnalysis#analysis_id}.
 
 ---
 
@@ -1206,7 +1206,7 @@ AwsAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#aws_account_id QuicksightAnalysis#aws_account_id}.
 
 ---
 
@@ -1220,7 +1220,7 @@ SourceEntity QuicksightAnalysisSourceEntity
 
 <p>The source entity of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#source_entity QuicksightAnalysis#source_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#source_entity QuicksightAnalysis#source_entity}
 
 ---
 
@@ -1234,7 +1234,7 @@ Errors interface{}
 
 <p>Errors associated with the analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#errors QuicksightAnalysis#errors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#errors QuicksightAnalysis#errors}
 
 ---
 
@@ -1248,7 +1248,7 @@ Name *string
 
 <p>The descriptive name of the analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1262,7 +1262,7 @@ Parameters QuicksightAnalysisParameters
 
 <p>A list of QuickSight parameters and the list's override values.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#parameters QuicksightAnalysis#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#parameters QuicksightAnalysis#parameters}
 
 ---
 
@@ -1284,7 +1284,7 @@ principal listed by Amazon Resource Name (ARN). </p>
     <p>To specify no permissions, omit <code>Permissions</code>.</p>
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#permissions QuicksightAnalysis#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#permissions QuicksightAnalysis#permissions}
 
 ---
 
@@ -1298,7 +1298,7 @@ Tags interface{}
 
 <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the             analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#tags QuicksightAnalysis#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#tags QuicksightAnalysis#tags}
 
 ---
 
@@ -1312,7 +1312,7 @@ ThemeArn *string
 
 <p>The ARN of the theme of the analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#theme_arn QuicksightAnalysis#theme_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#theme_arn QuicksightAnalysis#theme_arn}
 
 ---
 
@@ -1334,7 +1334,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightanalysis"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.property.message">Message</a></code> | <code>*string</code> | <p>The message associated with the analysis error.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightAnalysis.QuicksightAnalysisErrors.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}. |
 
 ---
 
@@ -1348,7 +1348,7 @@ Message *string
 
 <p>The message associated with the analysis error.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#message QuicksightAnalysis#message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#message QuicksightAnalysis#message}
 
 ---
 
@@ -1360,7 +1360,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#type QuicksightAnalysis#type}.
 
 ---
 
@@ -1400,7 +1400,7 @@ DateTimeParameters interface{}
 
 <p>Date-time parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#date_time_parameters QuicksightAnalysis#date_time_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#date_time_parameters QuicksightAnalysis#date_time_parameters}
 
 ---
 
@@ -1414,7 +1414,7 @@ DecimalParameters interface{}
 
 <p>Decimal parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#decimal_parameters QuicksightAnalysis#decimal_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#decimal_parameters QuicksightAnalysis#decimal_parameters}
 
 ---
 
@@ -1428,7 +1428,7 @@ IntegerParameters interface{}
 
 <p>Integer parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#integer_parameters QuicksightAnalysis#integer_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#integer_parameters QuicksightAnalysis#integer_parameters}
 
 ---
 
@@ -1442,7 +1442,7 @@ StringParameters interface{}
 
 <p>String parameters.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#string_parameters QuicksightAnalysis#string_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#string_parameters QuicksightAnalysis#string_parameters}
 
 ---
 
@@ -1478,7 +1478,7 @@ Name *string
 
 <p>A display name for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1492,7 +1492,7 @@ Values *[]*string
 
 <p>The values for the date-time parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1528,7 +1528,7 @@ Name *string
 
 <p>A display name for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1542,7 +1542,7 @@ Values *[]*f64
 
 <p>The values for the decimal parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1578,7 +1578,7 @@ Name *string
 
 <p>The name of the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1592,7 +1592,7 @@ Values *[]*f64
 
 <p>The values for the integer parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1628,7 +1628,7 @@ Name *string
 
 <p>A display name for a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#name QuicksightAnalysis#name}
 
 ---
 
@@ -1642,7 +1642,7 @@ Values *[]*string
 
 <p>The values of a string parameter.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#values QuicksightAnalysis#values}
 
 ---
 
@@ -1678,7 +1678,7 @@ Actions *[]*string
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}
 
 ---
 
@@ -1708,7 +1708,7 @@ ARN. Use this option only to share resources (templates) across AWS accounts.
 </li>
 </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}
 
 ---
 
@@ -1755,7 +1755,7 @@ SourceTemplate QuicksightAnalysisSourceEntitySourceTemplate
 
 <p>The source template of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#source_template QuicksightAnalysis#source_template}
 
 ---
 
@@ -1791,7 +1791,7 @@ Arn *string
 
 <p>The Amazon Resource Name (ARN) of the source template of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#arn QuicksightAnalysis#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#arn QuicksightAnalysis#arn}
 
 ---
 
@@ -1805,7 +1805,7 @@ DataSetReferences interface{}
 
 <p>The dataset references of the source template of an analysis.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#data_set_references QuicksightAnalysis#data_set_references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#data_set_references QuicksightAnalysis#data_set_references}
 
 ---
 
@@ -1841,7 +1841,7 @@ DataSetArn *string
 
 <p>Dataset Amazon Resource Name (ARN).</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#data_set_arn QuicksightAnalysis#data_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#data_set_arn QuicksightAnalysis#data_set_arn}
 
 ---
 
@@ -1855,7 +1855,7 @@ DataSetPlaceholder *string
 
 <p>Dataset placeholder.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#data_set_placeholder QuicksightAnalysis#data_set_placeholder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#data_set_placeholder QuicksightAnalysis#data_set_placeholder}
 
 ---
 
@@ -1891,7 +1891,7 @@ Key *string
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#key QuicksightAnalysis#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#key QuicksightAnalysis#key}
 
 ---
 
@@ -1905,7 +1905,7 @@ Value *string
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_analysis#value QuicksightAnalysis#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_analysis#value QuicksightAnalysis#value}
 
 ---
 

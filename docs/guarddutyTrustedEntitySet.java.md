@@ -4,7 +4,7 @@
 
 ### GuarddutyTrustedEntitySet <a name="GuarddutyTrustedEntitySet" id="@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer"></a>
 
@@ -40,13 +40,13 @@ GuarddutyTrustedEntitySet.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.format">format</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.activate">activate</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.expectedBucketOwner">expectedBucketOwner</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags">GuarddutyTrustedEntitySetTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.format">format</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.activate">activate</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.expectedBucketOwner">expectedBucketOwner</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySet.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags">GuarddutyTrustedEntitySetTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}.
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags">GuarddutyTrustedEntitySetTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}.
 
 ---
 
@@ -659,7 +659,7 @@ The construct id used in the generated config for the GuarddutyTrustedEntitySet 
 
 The id of the existing GuarddutyTrustedEntitySet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1110,13 +1110,13 @@ GuarddutyTrustedEntitySetConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.format">format</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.activate">activate</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.expectedBucketOwner">expectedBucketOwner</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags">GuarddutyTrustedEntitySetTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.format">format</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.location">location</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.activate">activate</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.detectorId">detectorId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.expectedBucketOwner">expectedBucketOwner</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags">GuarddutyTrustedEntitySetTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}. |
 
 ---
 
@@ -1198,7 +1198,7 @@ public java.lang.String getFormat();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}.
 
 ---
 
@@ -1210,7 +1210,7 @@ public java.lang.String getLocation();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}.
 
 ---
 
@@ -1222,7 +1222,7 @@ public java.lang.Boolean|IResolvable getActivate();
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}.
 
 ---
 
@@ -1234,7 +1234,7 @@ public java.lang.String getDetectorId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}.
 
 ---
 
@@ -1246,7 +1246,7 @@ public java.lang.String getExpectedBucketOwner();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}.
 
 ---
 
@@ -1258,7 +1258,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}.
 
 ---
 
@@ -1270,7 +1270,7 @@ public IResolvable|java.util.List<GuarddutyTrustedEntitySetTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags">GuarddutyTrustedEntitySetTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}.
 
 ---
 
@@ -1291,8 +1291,8 @@ GuarddutyTrustedEntitySetTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyTrustedEntitySet.GuarddutyTrustedEntitySetTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}. |
 
 ---
 
@@ -1304,7 +1304,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}.
 
 ---
 
@@ -1316,7 +1316,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}.
 
 ---
 

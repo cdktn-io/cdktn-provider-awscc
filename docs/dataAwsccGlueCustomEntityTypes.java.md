@@ -4,7 +4,7 @@
 
 ### DataAwsccGlueCustomEntityTypes <a name="DataAwsccGlueCustomEntityTypes" id="@cdktn/provider-awscc.dataAwsccGlueCustomEntityTypes.DataAwsccGlueCustomEntityTypes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_custom_entity_types awscc_glue_custom_entity_types}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_custom_entity_types awscc_glue_custom_entity_types}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueCustomEntityTypes.DataAwsccGlueCustomEntityTypes.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccGlueCustomEntityT
 
 The id of the existing DataAwsccGlueCustomEntityTypes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_custom_entity_types#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_custom_entity_types#import import section} in the documentation of this resource for the id to use
 
 ---
 

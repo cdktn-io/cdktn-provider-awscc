@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2Volumes <a name="DataAwsccEc2Volumes" id="@cdktn/provider-awscc.dataAwsccEc2Volumes.DataAwsccEc2Volumes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_volumes awscc_ec2_volumes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_volumes awscc_ec2_volumes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Volumes.DataAwsccEc2Volumes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Volumes to imp
 
 The id of the existing DataAwsccEc2Volumes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_volumes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_volumes#import import section} in the documentation of this resource for the id to use
 
 ---
 

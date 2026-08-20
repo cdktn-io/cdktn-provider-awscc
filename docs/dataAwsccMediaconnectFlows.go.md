@@ -4,7 +4,7 @@
 
 ### DataAwsccMediaconnectFlows <a name="DataAwsccMediaconnectFlows" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlows.DataAwsccMediaconnectFlows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectFlows.DataAwsccMediaconnectFlows.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectFlows
 
 The id of the existing DataAwsccMediaconnectFlows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_flows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_flows#import import section} in the documentation of this resource for the id to use
 
 ---
 

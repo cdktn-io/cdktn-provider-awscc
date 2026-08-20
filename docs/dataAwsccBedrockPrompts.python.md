@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockPrompts <a name="DataAwsccBedrockPrompts" id="@cdktn/provider-awscc.dataAwsccBedrockPrompts.DataAwsccBedrockPrompts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_prompts awscc_bedrock_prompts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_prompts awscc_bedrock_prompts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockPrompts.DataAwsccBedrockPrompts.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockPrompts to
 
 The id of the existing DataAwsccBedrockPrompts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_prompts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_prompts#import import section} in the documentation of this resource for the id to use
 
 ---
 

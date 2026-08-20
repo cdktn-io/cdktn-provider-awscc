@@ -4,7 +4,7 @@
 
 ### DevopsguruNotificationChannel <a name="DevopsguruNotificationChannel" id="@cdktn/provider-awscc.devopsguruNotificationChannel.DevopsguruNotificationChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel awscc_devopsguru_notification_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel awscc_devopsguru_notification_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruNotificationChannel.DevopsguruNotificationChannel.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the DevopsguruNotificationChan
 
 The id of the existing DevopsguruNotificationChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ public DevopsguruNotificationChannelConfigA Config { get; set; }
 
 Information about notification channels you have configured with DevOps Guru.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#config DevopsguruNotificationChannel#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#config DevopsguruNotificationChannel#config}
 
 ---
 
@@ -891,7 +891,7 @@ public DevopsguruNotificationChannelConfigFilters Filters { get; set; }
 
 Information about filters of a notification channel configured in DevOpsGuru to filter for insights.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#filters DevopsguruNotificationChannel#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#filters DevopsguruNotificationChannel#filters}
 
 ---
 
@@ -905,7 +905,7 @@ public DevopsguruNotificationChannelConfigSns Sns { get; set; }
 
 Information about a notification channel configured in DevOps Guru to send notifications when insights are created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#sns DevopsguruNotificationChannel#sns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#sns DevopsguruNotificationChannel#sns}
 
 ---
 
@@ -941,7 +941,7 @@ public string[] MessageTypes { get; set; }
 
 DevOps Guru message types to filter for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#message_types DevopsguruNotificationChannel#message_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#message_types DevopsguruNotificationChannel#message_types}
 
 ---
 
@@ -955,7 +955,7 @@ public string[] Severities { get; set; }
 
 DevOps Guru insight severities to filter for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#severities DevopsguruNotificationChannel#severities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#severities DevopsguruNotificationChannel#severities}
 
 ---
 
@@ -975,7 +975,7 @@ new DevopsguruNotificationChannelConfigSns {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsguruNotificationChannel.DevopsguruNotificationChannelConfigSns.property.topicArn">TopicArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}. |
+| <code><a href="#@cdktn/provider-awscc.devopsguruNotificationChannel.DevopsguruNotificationChannelConfigSns.property.topicArn">TopicArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}. |
 
 ---
 
@@ -987,7 +987,7 @@ public string TopicArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}.
 
 ---
 

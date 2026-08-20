@@ -4,7 +4,7 @@
 
 ### SecurityhubStandard <a name="SecurityhubStandard" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard awscc_securityhub_standard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard awscc_securityhub_standard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubStandard.SecurityhubStandard.Initializer"></a>
 
@@ -108,7 +108,7 @@ The ARN of the standard that you want to enable.
 
 To view a list of available ASH standards and their ARNs, use the [DescribeStandards](https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeStandards.html) API operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#standards_arn SecurityhubStandard#standards_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#standards_arn SecurityhubStandard#standards_arn}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which controls are to be disabled in a standard.   *Maximum*: ``100``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
 
 ---
 
@@ -587,7 +587,7 @@ The construct id used in the generated config for the SecurityhubStandard to imp
 
 The id of the existing SecurityhubStandard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,7 +966,7 @@ The ARN of the standard that you want to enable.
 
 To view a list of available ASH standards and their ARNs, use the [DescribeStandards](https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DescribeStandards.html) API operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#standards_arn SecurityhubStandard#standards_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#standards_arn SecurityhubStandard#standards_arn}
 
 ---
 
@@ -980,7 +980,7 @@ public IResolvable|java.util.List<SecurityhubStandardDisabledStandardsControls> 
 
 Specifies which controls are to be disabled in a standard.   *Maximum*: ``100``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
 
 ---
 
@@ -1018,7 +1018,7 @@ A user-defined reason for changing a control's enablement status in a specified 
 
 If you are disabling a control, then this property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#reason SecurityhubStandard#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#reason SecurityhubStandard#reason}
 
 ---
 
@@ -1032,7 +1032,7 @@ public java.lang.String getStandardsControlArn();
 
 The Amazon Resource Name (ARN) of the control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_standard#standards_control_arn SecurityhubStandard#standards_control_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_standard#standards_control_arn SecurityhubStandard#standards_control_arn}
 
 ---
 

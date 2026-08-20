@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_data_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccQuicksightDataSourceConfig extends cdktn.TerraformMeta
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_data_source#id DataAwsccQuicksightDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_source#id DataAwsccQuicksightDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6655,7 +6655,7 @@ export class DataAwsccQuicksightDataSourceVpcConnectionPropertiesOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source}
 */
 export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
 
@@ -6671,7 +6671,7 @@ export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccQuicksightDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccQuicksightDataSource to import
-  * @param importFromId The id of the existing DataAwsccQuicksightDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccQuicksightDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccQuicksightDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6683,7 +6683,7 @@ export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6694,7 +6694,7 @@ export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_quicksight_data_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

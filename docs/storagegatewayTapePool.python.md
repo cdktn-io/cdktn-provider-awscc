@@ -4,7 +4,7 @@
 
 ### StoragegatewayTapePool <a name="StoragegatewayTapePool" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool awscc_storagegateway_tape_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTapePool.StoragegatewayTapePool.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the custom tape pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The storage class associated with the custom pool (S3 Glacier or S3 Glacier Deep Archive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tape retention lock time in days (up to 36,500 days / 100 years).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tape retention lock type. Governance mode allows authorized removal; compliance mode prevents all removal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of up to 50 tags for the tape pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
 
 ---
 
@@ -687,7 +687,7 @@ The construct id used in the generated config for the StoragegatewayTapePool to 
 
 The id of the existing StoragegatewayTapePool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1147,7 +1147,7 @@ pool_name: str
 
 The name of the custom tape pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#pool_name StoragegatewayTapePool#pool_name}
 
 ---
 
@@ -1161,7 +1161,7 @@ storage_class: str
 
 The storage class associated with the custom pool (S3 Glacier or S3 Glacier Deep Archive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#storage_class StoragegatewayTapePool#storage_class}
 
 ---
 
@@ -1175,7 +1175,7 @@ retention_lock_time_in_days: typing.Union[int, float]
 
 Tape retention lock time in days (up to 36,500 days / 100 years).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#retention_lock_time_in_days StoragegatewayTapePool#retention_lock_time_in_days}
 
 ---
 
@@ -1189,7 +1189,7 @@ retention_lock_type: str
 
 Tape retention lock type. Governance mode allows authorized removal; compliance mode prevents all removal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#retention_lock_type StoragegatewayTapePool#retention_lock_type}
 
 ---
 
@@ -1203,7 +1203,7 @@ tags: IResolvable | typing.List[StoragegatewayTapePoolTags]
 
 A list of up to 50 tags for the tape pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#tags StoragegatewayTapePool#tags}
 
 ---
 
@@ -1239,7 +1239,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#key StoragegatewayTapePool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#key StoragegatewayTapePool#key}
 
 ---
 
@@ -1253,7 +1253,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/storagegateway_tape_pool#value StoragegatewayTapePool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/storagegateway_tape_pool#value StoragegatewayTapePool#value}
 
 ---
 

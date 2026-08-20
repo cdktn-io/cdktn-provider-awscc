@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function
+// https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface MediatailorFunctionConfig extends cdktn.TerraformMetaArguments 
   /**
   * Configuration for custom output functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
   */
   readonly customOutputConfiguration?: MediatailorFunctionCustomOutputConfiguration;
   /**
   * A description of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
   */
   readonly description?: string;
   /**
   * The unique identifier for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
   */
   readonly functionId: string;
   /**
   * The type of the function. Determines which configuration object is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
   */
   readonly functionType: string;
   /**
   * Configuration for HTTP request functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
   */
   readonly httpRequestConfiguration?: MediatailorFunctionHttpRequestConfiguration;
   /**
   * Configuration for sequential executor functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
   */
   readonly sequentialExecutorConfiguration?: MediatailorFunctionSequentialExecutorConfiguration;
   /**
   * The tags to assign to the function resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
   */
   readonly tags?: MediatailorFunctionTags[] | cdktn.IResolvable;
 }
@@ -59,13 +59,13 @@ export interface MediatailorFunctionCustomOutputConfiguration {
   /**
   * A map of output key-value pairs that define the custom output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
   */
   readonly output?: { [key: string]: string };
   /**
   * The runtime environment for the function expression language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
   */
   readonly runtime?: string;
 }
@@ -190,43 +190,43 @@ export interface MediatailorFunctionHttpRequestConfiguration {
   /**
   * The body of the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
   */
   readonly body?: string;
   /**
   * A map of HTTP headers to include in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * The HTTP method type for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
   */
   readonly methodType?: string;
   /**
   * A map of output key-value pairs. Keys must start with session., temp., avail., scte., or be a valid adsRequest directive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
   */
   readonly output?: { [key: string]: string };
   /**
   * The timeout in milliseconds for the HTTP request. Maximum value is 2000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
   */
   readonly requestTimeoutMilliseconds?: number;
   /**
   * The runtime environment for the function expression language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
   */
   readonly runtime?: string;
   /**
   * The URL endpoint for the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
   */
   readonly url?: string;
 }
@@ -496,13 +496,13 @@ export interface MediatailorFunctionSequentialExecutorConfigurationFunctionListS
   /**
   * The identifier of the function to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
   */
   readonly functionId?: string;
   /**
   * A conditional expression that determines whether this function should execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
   */
   readonly runCondition?: string;
 }
@@ -649,25 +649,25 @@ export interface MediatailorFunctionSequentialExecutorConfiguration {
   /**
   * The list of functions to execute sequentially.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
   */
   readonly functionList?: MediatailorFunctionSequentialExecutorConfigurationFunctionListStruct[] | cdktn.IResolvable;
   /**
   * A map of output key-value pairs that define the final output from sequential execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
   */
   readonly output?: { [key: string]: string };
   /**
   * The runtime environment for the function expression language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
   */
   readonly runtime?: string;
   /**
   * The timeout in milliseconds for the entire sequential execution chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
   */
   readonly timeoutMilliseconds?: number;
 }
@@ -848,11 +848,11 @@ export class MediatailorFunctionSequentialExecutorConfigurationOutputReference e
 }
 export interface MediatailorFunctionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#value MediatailorFunction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#value MediatailorFunction#value}
   */
   readonly value?: string;
 }
@@ -997,7 +997,7 @@ export class MediatailorFunctionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function awscc_mediatailor_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function awscc_mediatailor_function}
 */
 export class MediatailorFunction extends cdktn.TerraformResource {
 
@@ -1013,7 +1013,7 @@ export class MediatailorFunction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediatailorFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediatailorFunction to import
-  * @param importFromId The id of the existing MediatailorFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediatailorFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediatailorFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1025,7 +1025,7 @@ export class MediatailorFunction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1036,7 +1036,7 @@ export class MediatailorFunction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediatailor_function',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.97.0',
+        providerVersion: '1.98.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

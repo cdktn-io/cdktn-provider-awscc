@@ -4,7 +4,7 @@
 
 ### DataAwsccGameliftGameServerGroups <a name="DataAwsccGameliftGameServerGroups" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroups.DataAwsccGameliftGameServerGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_server_groups awscc_gamelift_game_server_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_server_groups awscc_gamelift_game_server_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameServerGroups.DataAwsccGameliftGameServerGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccGameliftGameServe
 
 The id of the existing DataAwsccGameliftGameServerGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_server_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_server_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

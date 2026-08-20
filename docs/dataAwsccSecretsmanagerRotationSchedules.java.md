@@ -4,7 +4,7 @@
 
 ### DataAwsccSecretsmanagerRotationSchedules <a name="DataAwsccSecretsmanagerRotationSchedules" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedules.DataAwsccSecretsmanagerRotationSchedules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/secretsmanager_rotation_schedules awscc_secretsmanager_rotation_schedules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/secretsmanager_rotation_schedules awscc_secretsmanager_rotation_schedules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecretsmanagerRotationSchedules.DataAwsccSecretsmanagerRotationSchedules.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSecretsmanagerRot
 
 The id of the existing DataAwsccSecretsmanagerRotationSchedules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/secretsmanager_rotation_schedules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/secretsmanager_rotation_schedules#import import section} in the documentation of this resource for the id to use
 
 ---
 

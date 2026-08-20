@@ -4,7 +4,7 @@
 
 ### Ec2NetworkInsightsAnalysis <a name="Ec2NetworkInsightsAnalysis" id="@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer"></a>
 
@@ -36,9 +36,9 @@ Ec2NetworkInsightsAnalysis.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.networkInsightsPathId">networkInsightsPathId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.filterInArns">filterInArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags">Ec2NetworkInsightsAnalysisTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.networkInsightsPathId">networkInsightsPathId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.filterInArns">filterInArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysis.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags">Ec2NetworkInsightsAnalysisTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags">Ec2NetworkInsightsAnalysisTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}.
 
 ---
 
@@ -598,7 +598,7 @@ The construct id used in the generated config for the Ec2NetworkInsightsAnalysis
 
 The id of the existing Ec2NetworkInsightsAnalysis that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1024,9 +1024,9 @@ Ec2NetworkInsightsAnalysisConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.networkInsightsPathId">networkInsightsPathId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.filterInArns">filterInArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags">Ec2NetworkInsightsAnalysisTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.networkInsightsPathId">networkInsightsPathId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.filterInArns">filterInArns</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags">Ec2NetworkInsightsAnalysisTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}. |
 
 ---
 
@@ -1108,7 +1108,7 @@ public java.lang.String getNetworkInsightsPathId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#network_insights_path_id Ec2NetworkInsightsAnalysis#network_insights_path_id}.
 
 ---
 
@@ -1120,7 +1120,7 @@ public java.util.List<java.lang.String> getFilterInArns();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#filter_in_arns Ec2NetworkInsightsAnalysis#filter_in_arns}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public IResolvable|java.util.List<Ec2NetworkInsightsAnalysisTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags">Ec2NetworkInsightsAnalysisTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#tags Ec2NetworkInsightsAnalysis#tags}.
 
 ---
 
@@ -1981,8 +1981,8 @@ Ec2NetworkInsightsAnalysisTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2NetworkInsightsAnalysis.Ec2NetworkInsightsAnalysisTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}. |
 
 ---
 
@@ -1994,7 +1994,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#key Ec2NetworkInsightsAnalysis#key}.
 
 ---
 
@@ -2006,7 +2006,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_insights_analysis#value Ec2NetworkInsightsAnalysis#value}.
 
 ---
 
