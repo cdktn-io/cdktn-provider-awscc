@@ -4,7 +4,7 @@
 
 ### MskTopic <a name="MskTopic" id="@cdktn/provider-awscc.mskTopic.MskTopic"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic awscc_msk_topic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic awscc_msk_topic}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskTopic.MskTopic.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the MskTopic to import.
 
 The id of the existing MskTopic that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ public string ClusterArn { get; set; }
 
 The Amazon Resource Name (ARN) of the MSK cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
 
 ---
 
@@ -959,7 +959,7 @@ public double PartitionCount { get; set; }
 
 The number of partitions for the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
 
 ---
 
@@ -973,7 +973,7 @@ public double ReplicationFactor { get; set; }
 
 The replication factor for the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
 
 ---
 
@@ -987,7 +987,7 @@ public string TopicName { get; set; }
 
 The name of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
 
 ---
 
@@ -1001,7 +1001,7 @@ public string Configs { get; set; }
 
 Base64 encoded configuration properties of the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_topic#configs MskTopic#configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic#configs MskTopic#configs}
 
 ---
 

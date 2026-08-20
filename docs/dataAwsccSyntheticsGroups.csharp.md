@@ -4,7 +4,7 @@
 
 ### DataAwsccSyntheticsGroups <a name="DataAwsccSyntheticsGroups" id="@cdktn/provider-awscc.dataAwsccSyntheticsGroups.DataAwsccSyntheticsGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/synthetics_groups awscc_synthetics_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/synthetics_groups awscc_synthetics_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSyntheticsGroups.DataAwsccSyntheticsGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSyntheticsGroups 
 
 The id of the existing DataAwsccSyntheticsGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/synthetics_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/synthetics_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

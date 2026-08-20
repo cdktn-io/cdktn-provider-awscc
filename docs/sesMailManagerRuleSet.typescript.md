@@ -4,7 +4,7 @@
 
 ### SesMailManagerRuleSet <a name="SesMailManagerRuleSet" id="@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSet.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SesMailManagerRuleSet to i
 
 The id of the existing SesMailManagerRuleSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -844,9 +844,9 @@ const sesMailManagerRuleSetConfig: sesMailManagerRuleSet.SesMailManagerRuleSetCo
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules">SesMailManagerRuleSetRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#rules SesMailManagerRuleSet#rules}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.ruleSetName">ruleSetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#rule_set_name SesMailManagerRuleSet#rule_set_name}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags">SesMailManagerRuleSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#tags SesMailManagerRuleSet#tags}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.rules">rules</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules">SesMailManagerRuleSetRules</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#rules SesMailManagerRuleSet#rules}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.ruleSetName">ruleSetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#rule_set_name SesMailManagerRuleSet#rule_set_name}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags">SesMailManagerRuleSetTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#tags SesMailManagerRuleSet#tags}. |
 
 ---
 
@@ -928,7 +928,7 @@ public readonly rules: IResolvable | SesMailManagerRuleSetRules[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules">SesMailManagerRuleSetRules</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#rules SesMailManagerRuleSet#rules}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#rules SesMailManagerRuleSet#rules}.
 
 ---
 
@@ -940,7 +940,7 @@ public readonly ruleSetName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#rule_set_name SesMailManagerRuleSet#rule_set_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#rule_set_name SesMailManagerRuleSet#rule_set_name}.
 
 ---
 
@@ -952,7 +952,7 @@ public readonly tags: IResolvable | SesMailManagerRuleSetTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags">SesMailManagerRuleSetTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#tags SesMailManagerRuleSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#tags SesMailManagerRuleSet#tags}.
 
 ---
 
@@ -970,10 +970,10 @@ const sesMailManagerRuleSetRules: sesMailManagerRuleSet.SesMailManagerRuleSetRul
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.actions">actions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions">SesMailManagerRuleSetRulesActions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#actions SesMailManagerRuleSet#actions}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions">SesMailManagerRuleSetRulesConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#conditions SesMailManagerRuleSet#conditions}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#name SesMailManagerRuleSet#name}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.unless">unless</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless">SesMailManagerRuleSetRulesUnless</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#unless SesMailManagerRuleSet#unless}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.actions">actions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions">SesMailManagerRuleSetRulesActions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#actions SesMailManagerRuleSet#actions}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions">SesMailManagerRuleSetRulesConditions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#conditions SesMailManagerRuleSet#conditions}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#name SesMailManagerRuleSet#name}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRules.property.unless">unless</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless">SesMailManagerRuleSetRulesUnless</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#unless SesMailManagerRuleSet#unless}. |
 
 ---
 
@@ -985,7 +985,7 @@ public readonly actions: IResolvable | SesMailManagerRuleSetRulesActions[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions">SesMailManagerRuleSetRulesActions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#actions SesMailManagerRuleSet#actions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#actions SesMailManagerRuleSet#actions}.
 
 ---
 
@@ -997,7 +997,7 @@ public readonly conditions: IResolvable | SesMailManagerRuleSetRulesConditions[]
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions">SesMailManagerRuleSetRulesConditions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#conditions SesMailManagerRuleSet#conditions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#conditions SesMailManagerRuleSet#conditions}.
 
 ---
 
@@ -1009,7 +1009,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#name SesMailManagerRuleSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#name SesMailManagerRuleSet#name}.
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly unless: IResolvable | SesMailManagerRuleSetRulesUnless[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless">SesMailManagerRuleSetRulesUnless</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#unless SesMailManagerRuleSet#unless}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#unless SesMailManagerRuleSet#unless}.
 
 ---
 
@@ -1039,18 +1039,18 @@ const sesMailManagerRuleSetRulesActions: sesMailManagerRuleSet.SesMailManagerRul
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.addHeader">addHeader</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader">SesMailManagerRuleSetRulesActionsAddHeader</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#add_header SesMailManagerRuleSet#add_header}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.archive">archive</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive">SesMailManagerRuleSetRulesActionsArchive</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#archive SesMailManagerRuleSet#archive}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.bounce">bounce</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce">SesMailManagerRuleSetRulesActionsBounce</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#bounce SesMailManagerRuleSet#bounce}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.deliverToMailbox">deliverToMailbox</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox">SesMailManagerRuleSetRulesActionsDeliverToMailbox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#deliver_to_mailbox SesMailManagerRuleSet#deliver_to_mailbox}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.deliverToQBusiness">deliverToQBusiness</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness">SesMailManagerRuleSetRulesActionsDeliverToQBusiness</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#deliver_to_q_business SesMailManagerRuleSet#deliver_to_q_business}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.drop">drop</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#drop SesMailManagerRuleSet#drop}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.invokeLambda">invokeLambda</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda">SesMailManagerRuleSetRulesActionsInvokeLambda</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#invoke_lambda SesMailManagerRuleSet#invoke_lambda}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.publishToSns">publishToSns</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns">SesMailManagerRuleSetRulesActionsPublishToSns</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#publish_to_sns SesMailManagerRuleSet#publish_to_sns}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.relay">relay</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay">SesMailManagerRuleSetRulesActionsRelay</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.replaceRecipient">replaceRecipient</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsReplaceRecipient">SesMailManagerRuleSetRulesActionsReplaceRecipient</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#replace_recipient SesMailManagerRuleSet#replace_recipient}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.send">send</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend">SesMailManagerRuleSetRulesActionsSend</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#send SesMailManagerRuleSet#send}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.writeToS3">writeToS3</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3">SesMailManagerRuleSetRulesActionsWriteToS3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#write_to_s3 SesMailManagerRuleSet#write_to_s3}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.addHeader">addHeader</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader">SesMailManagerRuleSetRulesActionsAddHeader</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#add_header SesMailManagerRuleSet#add_header}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.archive">archive</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive">SesMailManagerRuleSetRulesActionsArchive</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#archive SesMailManagerRuleSet#archive}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.bounce">bounce</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce">SesMailManagerRuleSetRulesActionsBounce</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#bounce SesMailManagerRuleSet#bounce}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.deliverToMailbox">deliverToMailbox</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox">SesMailManagerRuleSetRulesActionsDeliverToMailbox</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#deliver_to_mailbox SesMailManagerRuleSet#deliver_to_mailbox}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.deliverToQBusiness">deliverToQBusiness</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness">SesMailManagerRuleSetRulesActionsDeliverToQBusiness</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#deliver_to_q_business SesMailManagerRuleSet#deliver_to_q_business}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.drop">drop</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#drop SesMailManagerRuleSet#drop}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.invokeLambda">invokeLambda</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda">SesMailManagerRuleSetRulesActionsInvokeLambda</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#invoke_lambda SesMailManagerRuleSet#invoke_lambda}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.publishToSns">publishToSns</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns">SesMailManagerRuleSetRulesActionsPublishToSns</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#publish_to_sns SesMailManagerRuleSet#publish_to_sns}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.relay">relay</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay">SesMailManagerRuleSetRulesActionsRelay</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.replaceRecipient">replaceRecipient</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsReplaceRecipient">SesMailManagerRuleSetRulesActionsReplaceRecipient</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#replace_recipient SesMailManagerRuleSet#replace_recipient}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.send">send</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend">SesMailManagerRuleSetRulesActionsSend</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#send SesMailManagerRuleSet#send}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActions.property.writeToS3">writeToS3</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3">SesMailManagerRuleSetRulesActionsWriteToS3</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#write_to_s3 SesMailManagerRuleSet#write_to_s3}. |
 
 ---
 
@@ -1062,7 +1062,7 @@ public readonly addHeader: SesMailManagerRuleSetRulesActionsAddHeader;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader">SesMailManagerRuleSetRulesActionsAddHeader</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#add_header SesMailManagerRuleSet#add_header}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#add_header SesMailManagerRuleSet#add_header}.
 
 ---
 
@@ -1074,7 +1074,7 @@ public readonly archive: SesMailManagerRuleSetRulesActionsArchive;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive">SesMailManagerRuleSetRulesActionsArchive</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#archive SesMailManagerRuleSet#archive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#archive SesMailManagerRuleSet#archive}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public readonly bounce: SesMailManagerRuleSetRulesActionsBounce;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce">SesMailManagerRuleSetRulesActionsBounce</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#bounce SesMailManagerRuleSet#bounce}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#bounce SesMailManagerRuleSet#bounce}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public readonly deliverToMailbox: SesMailManagerRuleSetRulesActionsDeliverToMail
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox">SesMailManagerRuleSetRulesActionsDeliverToMailbox</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#deliver_to_mailbox SesMailManagerRuleSet#deliver_to_mailbox}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#deliver_to_mailbox SesMailManagerRuleSet#deliver_to_mailbox}.
 
 ---
 
@@ -1110,7 +1110,7 @@ public readonly deliverToQBusiness: SesMailManagerRuleSetRulesActionsDeliverToQB
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness">SesMailManagerRuleSetRulesActionsDeliverToQBusiness</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#deliver_to_q_business SesMailManagerRuleSet#deliver_to_q_business}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#deliver_to_q_business SesMailManagerRuleSet#deliver_to_q_business}.
 
 ---
 
@@ -1122,7 +1122,7 @@ public readonly drop: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#drop SesMailManagerRuleSet#drop}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#drop SesMailManagerRuleSet#drop}.
 
 ---
 
@@ -1134,7 +1134,7 @@ public readonly invokeLambda: SesMailManagerRuleSetRulesActionsInvokeLambda;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda">SesMailManagerRuleSetRulesActionsInvokeLambda</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#invoke_lambda SesMailManagerRuleSet#invoke_lambda}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#invoke_lambda SesMailManagerRuleSet#invoke_lambda}.
 
 ---
 
@@ -1146,7 +1146,7 @@ public readonly publishToSns: SesMailManagerRuleSetRulesActionsPublishToSns;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns">SesMailManagerRuleSetRulesActionsPublishToSns</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#publish_to_sns SesMailManagerRuleSet#publish_to_sns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#publish_to_sns SesMailManagerRuleSet#publish_to_sns}.
 
 ---
 
@@ -1158,7 +1158,7 @@ public readonly relay: SesMailManagerRuleSetRulesActionsRelay;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay">SesMailManagerRuleSetRulesActionsRelay</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}.
 
 ---
 
@@ -1170,7 +1170,7 @@ public readonly replaceRecipient: SesMailManagerRuleSetRulesActionsReplaceRecipi
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsReplaceRecipient">SesMailManagerRuleSetRulesActionsReplaceRecipient</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#replace_recipient SesMailManagerRuleSet#replace_recipient}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#replace_recipient SesMailManagerRuleSet#replace_recipient}.
 
 ---
 
@@ -1182,7 +1182,7 @@ public readonly send: SesMailManagerRuleSetRulesActionsSend;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend">SesMailManagerRuleSetRulesActionsSend</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#send SesMailManagerRuleSet#send}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#send SesMailManagerRuleSet#send}.
 
 ---
 
@@ -1194,7 +1194,7 @@ public readonly writeToS3: SesMailManagerRuleSetRulesActionsWriteToS3;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3">SesMailManagerRuleSetRulesActionsWriteToS3</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#write_to_s3 SesMailManagerRuleSet#write_to_s3}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#write_to_s3 SesMailManagerRuleSet#write_to_s3}.
 
 ---
 
@@ -1212,8 +1212,8 @@ const sesMailManagerRuleSetRulesActionsAddHeader: sesMailManagerRuleSet.SesMailM
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader.property.headerName">headerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#header_name SesMailManagerRuleSet#header_name}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader.property.headerValue">headerValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#header_value SesMailManagerRuleSet#header_value}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader.property.headerName">headerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#header_name SesMailManagerRuleSet#header_name}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsAddHeader.property.headerValue">headerValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#header_value SesMailManagerRuleSet#header_value}. |
 
 ---
 
@@ -1225,7 +1225,7 @@ public readonly headerName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#header_name SesMailManagerRuleSet#header_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#header_name SesMailManagerRuleSet#header_name}.
 
 ---
 
@@ -1237,7 +1237,7 @@ public readonly headerValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#header_value SesMailManagerRuleSet#header_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#header_value SesMailManagerRuleSet#header_value}.
 
 ---
 
@@ -1255,8 +1255,8 @@ const sesMailManagerRuleSetRulesActionsArchive: sesMailManagerRuleSet.SesMailMan
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive.property.targetArchive">targetArchive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#target_archive SesMailManagerRuleSet#target_archive}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsArchive.property.targetArchive">targetArchive</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#target_archive SesMailManagerRuleSet#target_archive}. |
 
 ---
 
@@ -1268,7 +1268,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1280,7 +1280,7 @@ public readonly targetArchive: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#target_archive SesMailManagerRuleSet#target_archive}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#target_archive SesMailManagerRuleSet#target_archive}.
 
 ---
 
@@ -1298,13 +1298,13 @@ const sesMailManagerRuleSetRulesActionsBounce: sesMailManagerRuleSet.SesMailMana
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.diagnosticMessage">diagnosticMessage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#diagnostic_message SesMailManagerRuleSet#diagnostic_message}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.message">message</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#message SesMailManagerRuleSet#message}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.sender">sender</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#sender SesMailManagerRuleSet#sender}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.smtpReplyCode">smtpReplyCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#smtp_reply_code SesMailManagerRuleSet#smtp_reply_code}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.statusCode">statusCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#status_code SesMailManagerRuleSet#status_code}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.diagnosticMessage">diagnosticMessage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#diagnostic_message SesMailManagerRuleSet#diagnostic_message}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.message">message</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#message SesMailManagerRuleSet#message}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.sender">sender</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#sender SesMailManagerRuleSet#sender}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.smtpReplyCode">smtpReplyCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#smtp_reply_code SesMailManagerRuleSet#smtp_reply_code}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsBounce.property.statusCode">statusCode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#status_code SesMailManagerRuleSet#status_code}. |
 
 ---
 
@@ -1316,7 +1316,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1328,7 +1328,7 @@ public readonly diagnosticMessage: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#diagnostic_message SesMailManagerRuleSet#diagnostic_message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#diagnostic_message SesMailManagerRuleSet#diagnostic_message}.
 
 ---
 
@@ -1340,7 +1340,7 @@ public readonly message: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#message SesMailManagerRuleSet#message}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#message SesMailManagerRuleSet#message}.
 
 ---
 
@@ -1352,7 +1352,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1364,7 +1364,7 @@ public readonly sender: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#sender SesMailManagerRuleSet#sender}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#sender SesMailManagerRuleSet#sender}.
 
 ---
 
@@ -1376,7 +1376,7 @@ public readonly smtpReplyCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#smtp_reply_code SesMailManagerRuleSet#smtp_reply_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#smtp_reply_code SesMailManagerRuleSet#smtp_reply_code}.
 
 ---
 
@@ -1388,7 +1388,7 @@ public readonly statusCode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#status_code SesMailManagerRuleSet#status_code}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#status_code SesMailManagerRuleSet#status_code}.
 
 ---
 
@@ -1406,9 +1406,9 @@ const sesMailManagerRuleSetRulesActionsDeliverToMailbox: sesMailManagerRuleSet.S
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox.property.mailboxArn">mailboxArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mailbox_arn SesMailManagerRuleSet#mailbox_arn}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox.property.mailboxArn">mailboxArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mailbox_arn SesMailManagerRuleSet#mailbox_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToMailbox.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
 
 ---
 
@@ -1420,7 +1420,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1432,7 +1432,7 @@ public readonly mailboxArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mailbox_arn SesMailManagerRuleSet#mailbox_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mailbox_arn SesMailManagerRuleSet#mailbox_arn}.
 
 ---
 
@@ -1444,7 +1444,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1462,10 +1462,10 @@ const sesMailManagerRuleSetRulesActionsDeliverToQBusiness: sesMailManagerRuleSet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.applicationId">applicationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#application_id SesMailManagerRuleSet#application_id}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.indexId">indexId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#index_id SesMailManagerRuleSet#index_id}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.applicationId">applicationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#application_id SesMailManagerRuleSet#application_id}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.indexId">indexId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#index_id SesMailManagerRuleSet#index_id}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsDeliverToQBusiness.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
 
 ---
 
@@ -1477,7 +1477,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1489,7 +1489,7 @@ public readonly applicationId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#application_id SesMailManagerRuleSet#application_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#application_id SesMailManagerRuleSet#application_id}.
 
 ---
 
@@ -1501,7 +1501,7 @@ public readonly indexId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#index_id SesMailManagerRuleSet#index_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#index_id SesMailManagerRuleSet#index_id}.
 
 ---
 
@@ -1513,7 +1513,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1531,11 +1531,11 @@ const sesMailManagerRuleSetRulesActionsInvokeLambda: sesMailManagerRuleSet.SesMa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.functionArn">functionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#function_arn SesMailManagerRuleSet#function_arn}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.invocationType">invocationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#invocation_type SesMailManagerRuleSet#invocation_type}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.retryTimeMinutes">retryTimeMinutes</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#retry_time_minutes SesMailManagerRuleSet#retry_time_minutes}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.functionArn">functionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#function_arn SesMailManagerRuleSet#function_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.invocationType">invocationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#invocation_type SesMailManagerRuleSet#invocation_type}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.retryTimeMinutes">retryTimeMinutes</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#retry_time_minutes SesMailManagerRuleSet#retry_time_minutes}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsInvokeLambda.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
 
 ---
 
@@ -1547,7 +1547,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1559,7 +1559,7 @@ public readonly functionArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#function_arn SesMailManagerRuleSet#function_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#function_arn SesMailManagerRuleSet#function_arn}.
 
 ---
 
@@ -1571,7 +1571,7 @@ public readonly invocationType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#invocation_type SesMailManagerRuleSet#invocation_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#invocation_type SesMailManagerRuleSet#invocation_type}.
 
 ---
 
@@ -1583,7 +1583,7 @@ public readonly retryTimeMinutes: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#retry_time_minutes SesMailManagerRuleSet#retry_time_minutes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#retry_time_minutes SesMailManagerRuleSet#retry_time_minutes}.
 
 ---
 
@@ -1595,7 +1595,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1613,11 +1613,11 @@ const sesMailManagerRuleSetRulesActionsPublishToSns: sesMailManagerRuleSet.SesMa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.encoding">encoding</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#encoding SesMailManagerRuleSet#encoding}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.payloadType">payloadType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#payload_type SesMailManagerRuleSet#payload_type}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.topicArn">topicArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#topic_arn SesMailManagerRuleSet#topic_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.encoding">encoding</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#encoding SesMailManagerRuleSet#encoding}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.payloadType">payloadType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#payload_type SesMailManagerRuleSet#payload_type}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsPublishToSns.property.topicArn">topicArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#topic_arn SesMailManagerRuleSet#topic_arn}. |
 
 ---
 
@@ -1629,7 +1629,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1641,7 +1641,7 @@ public readonly encoding: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#encoding SesMailManagerRuleSet#encoding}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#encoding SesMailManagerRuleSet#encoding}.
 
 ---
 
@@ -1653,7 +1653,7 @@ public readonly payloadType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#payload_type SesMailManagerRuleSet#payload_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#payload_type SesMailManagerRuleSet#payload_type}.
 
 ---
 
@@ -1665,7 +1665,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1677,7 +1677,7 @@ public readonly topicArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#topic_arn SesMailManagerRuleSet#topic_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#topic_arn SesMailManagerRuleSet#topic_arn}.
 
 ---
 
@@ -1695,9 +1695,9 @@ const sesMailManagerRuleSetRulesActionsRelay: sesMailManagerRuleSet.SesMailManag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay.property.mailFrom">mailFrom</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mail_from SesMailManagerRuleSet#mail_from}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay.property.relay">relay</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay.property.mailFrom">mailFrom</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mail_from SesMailManagerRuleSet#mail_from}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsRelay.property.relay">relay</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}. |
 
 ---
 
@@ -1709,7 +1709,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1721,7 +1721,7 @@ public readonly mailFrom: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mail_from SesMailManagerRuleSet#mail_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mail_from SesMailManagerRuleSet#mail_from}.
 
 ---
 
@@ -1733,7 +1733,7 @@ public readonly relay: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#relay SesMailManagerRuleSet#relay}.
 
 ---
 
@@ -1751,7 +1751,7 @@ const sesMailManagerRuleSetRulesActionsReplaceRecipient: sesMailManagerRuleSet.S
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsReplaceRecipient.property.replaceWith">replaceWith</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#replace_with SesMailManagerRuleSet#replace_with}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsReplaceRecipient.property.replaceWith">replaceWith</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#replace_with SesMailManagerRuleSet#replace_with}. |
 
 ---
 
@@ -1763,7 +1763,7 @@ public readonly replaceWith: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#replace_with SesMailManagerRuleSet#replace_with}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#replace_with SesMailManagerRuleSet#replace_with}.
 
 ---
 
@@ -1781,8 +1781,8 @@ const sesMailManagerRuleSetRulesActionsSend: sesMailManagerRuleSet.SesMailManage
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsSend.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
 
 ---
 
@@ -1794,7 +1794,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1806,7 +1806,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1824,11 +1824,11 @@ const sesMailManagerRuleSetRulesActionsWriteToS3: sesMailManagerRuleSet.SesMailM
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.s3Bucket">s3Bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#s3_bucket SesMailManagerRuleSet#s3_bucket}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.s3Prefix">s3Prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#s3_prefix SesMailManagerRuleSet#s3_prefix}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.s3SseKmsKeyId">s3SseKmsKeyId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#s3_sse_kms_key_id SesMailManagerRuleSet#s3_sse_kms_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.actionFailurePolicy">actionFailurePolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.roleArn">roleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.s3Bucket">s3Bucket</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#s3_bucket SesMailManagerRuleSet#s3_bucket}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.s3Prefix">s3Prefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#s3_prefix SesMailManagerRuleSet#s3_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesActionsWriteToS3.property.s3SseKmsKeyId">s3SseKmsKeyId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#s3_sse_kms_key_id SesMailManagerRuleSet#s3_sse_kms_key_id}. |
 
 ---
 
@@ -1840,7 +1840,7 @@ public readonly actionFailurePolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#action_failure_policy SesMailManagerRuleSet#action_failure_policy}.
 
 ---
 
@@ -1852,7 +1852,7 @@ public readonly roleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#role_arn SesMailManagerRuleSet#role_arn}.
 
 ---
 
@@ -1864,7 +1864,7 @@ public readonly s3Bucket: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#s3_bucket SesMailManagerRuleSet#s3_bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#s3_bucket SesMailManagerRuleSet#s3_bucket}.
 
 ---
 
@@ -1876,7 +1876,7 @@ public readonly s3Prefix: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#s3_prefix SesMailManagerRuleSet#s3_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#s3_prefix SesMailManagerRuleSet#s3_prefix}.
 
 ---
 
@@ -1888,7 +1888,7 @@ public readonly s3SseKmsKeyId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#s3_sse_kms_key_id SesMailManagerRuleSet#s3_sse_kms_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#s3_sse_kms_key_id SesMailManagerRuleSet#s3_sse_kms_key_id}.
 
 ---
 
@@ -1906,12 +1906,12 @@ const sesMailManagerRuleSetRulesConditions: sesMailManagerRuleSet.SesMailManager
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.booleanExpression">booleanExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression">SesMailManagerRuleSetRulesConditionsBooleanExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.dmarcExpression">dmarcExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression">SesMailManagerRuleSetRulesConditionsDmarcExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.ipExpression">ipExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression">SesMailManagerRuleSetRulesConditionsIpExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.numberExpression">numberExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression">SesMailManagerRuleSetRulesConditionsNumberExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.stringExpression">stringExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression">SesMailManagerRuleSetRulesConditionsStringExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.verdictExpression">verdictExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression">SesMailManagerRuleSetRulesConditionsVerdictExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.booleanExpression">booleanExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression">SesMailManagerRuleSetRulesConditionsBooleanExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.dmarcExpression">dmarcExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression">SesMailManagerRuleSetRulesConditionsDmarcExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.ipExpression">ipExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression">SesMailManagerRuleSetRulesConditionsIpExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.numberExpression">numberExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression">SesMailManagerRuleSetRulesConditionsNumberExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.stringExpression">stringExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression">SesMailManagerRuleSetRulesConditionsStringExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditions.property.verdictExpression">verdictExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression">SesMailManagerRuleSetRulesConditionsVerdictExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}. |
 
 ---
 
@@ -1923,7 +1923,7 @@ public readonly booleanExpression: SesMailManagerRuleSetRulesConditionsBooleanEx
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression">SesMailManagerRuleSetRulesConditionsBooleanExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}.
 
 ---
 
@@ -1935,7 +1935,7 @@ public readonly dmarcExpression: SesMailManagerRuleSetRulesConditionsDmarcExpres
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression">SesMailManagerRuleSetRulesConditionsDmarcExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}.
 
 ---
 
@@ -1947,7 +1947,7 @@ public readonly ipExpression: SesMailManagerRuleSetRulesConditionsIpExpression;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression">SesMailManagerRuleSetRulesConditionsIpExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}.
 
 ---
 
@@ -1959,7 +1959,7 @@ public readonly numberExpression: SesMailManagerRuleSetRulesConditionsNumberExpr
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression">SesMailManagerRuleSetRulesConditionsNumberExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}.
 
 ---
 
@@ -1971,7 +1971,7 @@ public readonly stringExpression: SesMailManagerRuleSetRulesConditionsStringExpr
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression">SesMailManagerRuleSetRulesConditionsStringExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}.
 
 ---
 
@@ -1983,7 +1983,7 @@ public readonly verdictExpression: SesMailManagerRuleSetRulesConditionsVerdictEx
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression">SesMailManagerRuleSetRulesConditionsVerdictExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}.
 
 ---
 
@@ -2001,8 +2001,8 @@ const sesMailManagerRuleSetRulesConditionsBooleanExpression: sesMailManagerRuleS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
 
 ---
 
@@ -2014,7 +2014,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesConditionsBooleanExpressionE
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -2026,7 +2026,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2044,9 +2044,9 @@ const sesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate: sesMailMana
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.property.isInAddressList">isInAddressList</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluate.property.isInAddressList">isInAddressList</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}. |
 
 ---
 
@@ -2058,7 +2058,7 @@ public readonly analysis: SesMailManagerRuleSetRulesConditionsBooleanExpressionE
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 
 ---
 
@@ -2070,7 +2070,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2082,7 +2082,7 @@ public readonly isInAddressList: SesMailManagerRuleSetRulesConditionsBooleanExpr
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct">SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}.
 
 ---
 
@@ -2100,8 +2100,8 @@ const sesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis: ses
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
 
 ---
 
@@ -2113,7 +2113,7 @@ public readonly analyzer: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
 
 ---
 
@@ -2125,7 +2125,7 @@ public readonly resultField: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
 
 ---
 
@@ -2143,8 +2143,8 @@ const sesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressLi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct.property.addressLists">addressLists</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct.property.addressLists">addressLists</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAddressListStruct.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -2156,7 +2156,7 @@ public readonly addressLists: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}.
 
 ---
 
@@ -2168,7 +2168,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2186,8 +2186,8 @@ const sesMailManagerRuleSetRulesConditionsDmarcExpression: sesMailManagerRuleSet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsDmarcExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -2199,7 +2199,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2211,7 +2211,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -2229,9 +2229,9 @@ const sesMailManagerRuleSetRulesConditionsIpExpression: sesMailManagerRuleSet.Se
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate">SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate">SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -2243,7 +2243,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesConditionsIpExpressionEvalua
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate">SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -2255,7 +2255,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2267,7 +2267,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -2285,7 +2285,7 @@ const sesMailManagerRuleSetRulesConditionsIpExpressionEvaluate: sesMailManagerRu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsIpExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -2297,7 +2297,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2315,9 +2315,9 @@ const sesMailManagerRuleSetRulesConditionsNumberExpression: sesMailManagerRuleSe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate">SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate">SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpression.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}. |
 
 ---
 
@@ -2329,7 +2329,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesConditionsNumberExpressionEv
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate">SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -2341,7 +2341,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2353,7 +2353,7 @@ public readonly value: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}.
 
 ---
 
@@ -2371,7 +2371,7 @@ const sesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate: sesMailManag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -2383,7 +2383,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2401,9 +2401,9 @@ const sesMailManagerRuleSetRulesConditionsStringExpression: sesMailManagerRuleSe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate">SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate">SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -2415,7 +2415,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesConditionsStringExpressionEv
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate">SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -2427,7 +2427,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2439,7 +2439,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -2457,10 +2457,10 @@ const sesMailManagerRuleSetRulesConditionsStringExpressionEvaluate: sesMailManag
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.clientCertificateAttribute">clientCertificateAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.mimeHeaderAttribute">mimeHeaderAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.clientCertificateAttribute">clientCertificateAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluate.property.mimeHeaderAttribute">mimeHeaderAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}. |
 
 ---
 
@@ -2472,7 +2472,7 @@ public readonly analysis: SesMailManagerRuleSetRulesConditionsStringExpressionEv
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 
 ---
 
@@ -2484,7 +2484,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2496,7 +2496,7 @@ public readonly clientCertificateAttribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}.
 
 ---
 
@@ -2508,7 +2508,7 @@ public readonly mimeHeaderAttribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}.
 
 ---
 
@@ -2526,8 +2526,8 @@ const sesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis: sesM
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
 
 ---
 
@@ -2539,7 +2539,7 @@ public readonly analyzer: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
 
 ---
 
@@ -2551,7 +2551,7 @@ public readonly resultField: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
 
 ---
 
@@ -2569,9 +2569,9 @@ const sesMailManagerRuleSetRulesConditionsVerdictExpression: sesMailManagerRuleS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate">SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate">SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -2583,7 +2583,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesConditionsVerdictExpressionE
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate">SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -2595,7 +2595,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2607,7 +2607,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -2625,8 +2625,8 @@ const sesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate: sesMailMana
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -2638,7 +2638,7 @@ public readonly analysis: SesMailManagerRuleSetRulesConditionsVerdictExpressionE
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 
 ---
 
@@ -2650,7 +2650,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2668,8 +2668,8 @@ const sesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis: ses
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
 
 ---
 
@@ -2681,7 +2681,7 @@ public readonly analyzer: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
 
 ---
 
@@ -2693,7 +2693,7 @@ public readonly resultField: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
 
 ---
 
@@ -2711,12 +2711,12 @@ const sesMailManagerRuleSetRulesUnless: sesMailManagerRuleSet.SesMailManagerRule
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.booleanExpression">booleanExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression">SesMailManagerRuleSetRulesUnlessBooleanExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.dmarcExpression">dmarcExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression">SesMailManagerRuleSetRulesUnlessDmarcExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.ipExpression">ipExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression">SesMailManagerRuleSetRulesUnlessIpExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.numberExpression">numberExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression">SesMailManagerRuleSetRulesUnlessNumberExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.stringExpression">stringExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression">SesMailManagerRuleSetRulesUnlessStringExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.verdictExpression">verdictExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression">SesMailManagerRuleSetRulesUnlessVerdictExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.booleanExpression">booleanExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression">SesMailManagerRuleSetRulesUnlessBooleanExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.dmarcExpression">dmarcExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression">SesMailManagerRuleSetRulesUnlessDmarcExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.ipExpression">ipExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression">SesMailManagerRuleSetRulesUnlessIpExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.numberExpression">numberExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression">SesMailManagerRuleSetRulesUnlessNumberExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.stringExpression">stringExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression">SesMailManagerRuleSetRulesUnlessStringExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnless.property.verdictExpression">verdictExpression</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression">SesMailManagerRuleSetRulesUnlessVerdictExpression</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}. |
 
 ---
 
@@ -2728,7 +2728,7 @@ public readonly booleanExpression: SesMailManagerRuleSetRulesUnlessBooleanExpres
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression">SesMailManagerRuleSetRulesUnlessBooleanExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#boolean_expression SesMailManagerRuleSet#boolean_expression}.
 
 ---
 
@@ -2740,7 +2740,7 @@ public readonly dmarcExpression: SesMailManagerRuleSetRulesUnlessDmarcExpression
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression">SesMailManagerRuleSetRulesUnlessDmarcExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#dmarc_expression SesMailManagerRuleSet#dmarc_expression}.
 
 ---
 
@@ -2752,7 +2752,7 @@ public readonly ipExpression: SesMailManagerRuleSetRulesUnlessIpExpression;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression">SesMailManagerRuleSetRulesUnlessIpExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#ip_expression SesMailManagerRuleSet#ip_expression}.
 
 ---
 
@@ -2764,7 +2764,7 @@ public readonly numberExpression: SesMailManagerRuleSetRulesUnlessNumberExpressi
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression">SesMailManagerRuleSetRulesUnlessNumberExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#number_expression SesMailManagerRuleSet#number_expression}.
 
 ---
 
@@ -2776,7 +2776,7 @@ public readonly stringExpression: SesMailManagerRuleSetRulesUnlessStringExpressi
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression">SesMailManagerRuleSetRulesUnlessStringExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#string_expression SesMailManagerRuleSet#string_expression}.
 
 ---
 
@@ -2788,7 +2788,7 @@ public readonly verdictExpression: SesMailManagerRuleSetRulesUnlessVerdictExpres
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression">SesMailManagerRuleSetRulesUnlessVerdictExpression</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#verdict_expression SesMailManagerRuleSet#verdict_expression}.
 
 ---
 
@@ -2806,8 +2806,8 @@ const sesMailManagerRuleSetRulesUnlessBooleanExpression: sesMailManagerRuleSet.S
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
 
 ---
 
@@ -2819,7 +2819,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesUnlessBooleanExpressionEvalu
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -2831,7 +2831,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -2849,9 +2849,9 @@ const sesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate: sesMailManagerR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.property.isInAddressList">isInAddressList</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluate.property.isInAddressList">isInAddressList</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}. |
 
 ---
 
@@ -2863,7 +2863,7 @@ public readonly analysis: SesMailManagerRuleSetRulesUnlessBooleanExpressionEvalu
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 
 ---
 
@@ -2875,7 +2875,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2887,7 +2887,7 @@ public readonly isInAddressList: SesMailManagerRuleSetRulesUnlessBooleanExpressi
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct">SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#is_in_address_list SesMailManagerRuleSet#is_in_address_list}.
 
 ---
 
@@ -2905,8 +2905,8 @@ const sesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis: sesMail
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
 
 ---
 
@@ -2918,7 +2918,7 @@ public readonly analyzer: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
 
 ---
 
@@ -2930,7 +2930,7 @@ public readonly resultField: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
 
 ---
 
@@ -2948,8 +2948,8 @@ const sesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListSt
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct.property.addressLists">addressLists</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct.property.addressLists">addressLists</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddressListStruct.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -2961,7 +2961,7 @@ public readonly addressLists: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#address_lists SesMailManagerRuleSet#address_lists}.
 
 ---
 
@@ -2973,7 +2973,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -2991,8 +2991,8 @@ const sesMailManagerRuleSetRulesUnlessDmarcExpression: sesMailManagerRuleSet.Ses
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessDmarcExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -3004,7 +3004,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -3016,7 +3016,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -3034,9 +3034,9 @@ const sesMailManagerRuleSetRulesUnlessIpExpression: sesMailManagerRuleSet.SesMai
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate">SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate">SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -3048,7 +3048,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate;
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate">SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -3060,7 +3060,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -3072,7 +3072,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -3090,7 +3090,7 @@ const sesMailManagerRuleSetRulesUnlessIpExpressionEvaluate: sesMailManagerRuleSe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessIpExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -3102,7 +3102,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -3120,9 +3120,9 @@ const sesMailManagerRuleSetRulesUnlessNumberExpression: sesMailManagerRuleSet.Se
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate">SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate">SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpression.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}. |
 
 ---
 
@@ -3134,7 +3134,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesUnlessNumberExpressionEvalua
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate">SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -3146,7 +3146,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -3158,7 +3158,7 @@ public readonly value: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}.
 
 ---
 
@@ -3176,7 +3176,7 @@ const sesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate: sesMailManagerRu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -3188,7 +3188,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -3206,9 +3206,9 @@ const sesMailManagerRuleSetRulesUnlessStringExpression: sesMailManagerRuleSet.Se
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate">SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate">SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -3220,7 +3220,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesUnlessStringExpressionEvalua
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate">SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -3232,7 +3232,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -3244,7 +3244,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -3262,10 +3262,10 @@ const sesMailManagerRuleSetRulesUnlessStringExpressionEvaluate: sesMailManagerRu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.clientCertificateAttribute">clientCertificateAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.mimeHeaderAttribute">mimeHeaderAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.clientCertificateAttribute">clientCertificateAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluate.property.mimeHeaderAttribute">mimeHeaderAttribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}. |
 
 ---
 
@@ -3277,7 +3277,7 @@ public readonly analysis: SesMailManagerRuleSetRulesUnlessStringExpressionEvalua
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 
 ---
 
@@ -3289,7 +3289,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -3301,7 +3301,7 @@ public readonly clientCertificateAttribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#client_certificate_attribute SesMailManagerRuleSet#client_certificate_attribute}.
 
 ---
 
@@ -3313,7 +3313,7 @@ public readonly mimeHeaderAttribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#mime_header_attribute SesMailManagerRuleSet#mime_header_attribute}.
 
 ---
 
@@ -3331,8 +3331,8 @@ const sesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis: sesMailM
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
 
 ---
 
@@ -3344,7 +3344,7 @@ public readonly analyzer: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
 
 ---
 
@@ -3356,7 +3356,7 @@ public readonly resultField: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
 
 ---
 
@@ -3374,9 +3374,9 @@ const sesMailManagerRuleSetRulesUnlessVerdictExpression: sesMailManagerRuleSet.S
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate">SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression.property.evaluate">evaluate</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate">SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression.property.operator">operator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpression.property.values">values</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}. |
 
 ---
 
@@ -3388,7 +3388,7 @@ public readonly evaluate: SesMailManagerRuleSetRulesUnlessVerdictExpressionEvalu
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate">SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 
 ---
 
@@ -3400,7 +3400,7 @@ public readonly operator: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 
 ---
 
@@ -3412,7 +3412,7 @@ public readonly values: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 
 ---
 
@@ -3430,8 +3430,8 @@ const sesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate: sesMailManagerR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate.property.analysis">analysis</a></code> | <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluate.property.attribute">attribute</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}. |
 
 ---
 
@@ -3443,7 +3443,7 @@ public readonly analysis: SesMailManagerRuleSetRulesUnlessVerdictExpressionEvalu
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis">SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 
 ---
 
@@ -3455,7 +3455,7 @@ public readonly attribute: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 
 ---
 
@@ -3473,8 +3473,8 @@ const sesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis: sesMail
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis.property.analyzer">analyzer</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysis.property.resultField">resultField</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}. |
 
 ---
 
@@ -3486,7 +3486,7 @@ public readonly analyzer: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analyzer SesMailManagerRuleSet#analyzer}.
 
 ---
 
@@ -3498,7 +3498,7 @@ public readonly resultField: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#result_field SesMailManagerRuleSet#result_field}.
 
 ---
 
@@ -3516,8 +3516,8 @@ const sesMailManagerRuleSetTags: sesMailManagerRuleSet.SesMailManagerRuleSetTags
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#key SesMailManagerRuleSet#key}. |
-| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#key SesMailManagerRuleSet#key}. |
+| <code><a href="#@cdktn/provider-awscc.sesMailManagerRuleSet.SesMailManagerRuleSetTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}. |
 
 ---
 
@@ -3529,7 +3529,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#key SesMailManagerRuleSet#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#key SesMailManagerRuleSet#key}.
 
 ---
 
@@ -3541,7 +3541,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#value SesMailManagerRuleSet#value}.
 
 ---
 

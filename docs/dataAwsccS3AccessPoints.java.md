@@ -4,7 +4,7 @@
 
 ### DataAwsccS3AccessPoints <a name="DataAwsccS3AccessPoints" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_access_points awscc_s3_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_access_points awscc_s3_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3AccessPoints.DataAwsccS3AccessPoints.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccS3AccessPoints to
 
 The id of the existing DataAwsccS3AccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 

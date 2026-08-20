@@ -4,7 +4,7 @@
 
 ### OrganizationsPolicy <a name="OrganizationsPolicy" id="@cdktn/provider-awscc.organizationsPolicy.OrganizationsPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy awscc_organizations_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy awscc_organizations_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsPolicy.OrganizationsPolicy.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the OrganizationsPolicy to imp
 
 The id of the existing OrganizationsPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1020,7 +1020,7 @@ The Policy text content.
 
 For AWS CloudFormation templates formatted in YAML, you can provide the policy in JSON or YAML format. AWS CloudFormation always converts a YAML policy to JSON format before submitting it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#content OrganizationsPolicy#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#content OrganizationsPolicy#content}
 
 ---
 
@@ -1034,7 +1034,7 @@ public string Name { get; set; }
 
 Name of the Policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#name OrganizationsPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#name OrganizationsPolicy#name}
 
 ---
 
@@ -1050,7 +1050,7 @@ The type of policy to create.
 
 You can specify one of the following values: AISERVICES_OPT_OUT_POLICY, BACKUP_POLICY, BEDROCK_POLICY, CHATBOT_POLICY, DECLARATIVE_POLICY_EC2, INSPECTOR_POLICY, NETWORK_SECURITY_DIRECTOR_POLICY, RESOURCE_CONTROL_POLICY, S3_POLICY, SECURITYHUB_POLICY, SERVICE_CONTROL_POLICY, TAG_POLICY, UPGRADE_ROLLOUT_POLICY
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#type OrganizationsPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#type OrganizationsPolicy#type}
 
 ---
 
@@ -1064,7 +1064,7 @@ public string Description { get; set; }
 
 Human readable description of the policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#description OrganizationsPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#description OrganizationsPolicy#description}
 
 ---
 
@@ -1080,7 +1080,7 @@ A list of tags that you want to attach to the newly created policy.
 
 For each tag in the list, you must specify both a tag key and a value. You can set the value to an empty string, but you can't set it to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#tags OrganizationsPolicy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#tags OrganizationsPolicy#tags}
 
 ---
 
@@ -1094,7 +1094,7 @@ public string[] TargetIds { get; set; }
 
 List of unique identifiers (IDs) of the root, OU, or account that you want to attach the policy to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#target_ids OrganizationsPolicy#target_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#target_ids OrganizationsPolicy#target_ids}
 
 ---
 
@@ -1130,7 +1130,7 @@ public string Key { get; set; }
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#key OrganizationsPolicy#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#key OrganizationsPolicy#key}
 
 ---
 
@@ -1146,7 +1146,7 @@ The string value that's associated with the key of the tag.
 
 You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_policy#value OrganizationsPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_policy#value OrganizationsPolicy#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GameliftLocation <a name="GameliftLocation" id="@cdktn/provider-awscc.gameliftLocation.GameliftLocation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location awscc_gamelift_location}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location awscc_gamelift_location}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer"></a>
 
@@ -37,7 +37,7 @@ gameliftLocation.GameliftLocation(
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer.parameter.locationName">location_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer.parameter.locationName">location_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}. |
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocation.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationTags">GameliftLocationTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#tags GameliftLocation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#tags GameliftLocation#tags}
 
 ---
 
@@ -635,7 +635,7 @@ The construct id used in the generated config for the GameliftLocation to import
 
 The id of the existing GameliftLocation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -927,7 +927,7 @@ gameliftLocation.GameliftLocationConfig(
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationConfig.property.locationName">location_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationConfig.property.locationName">location_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}. |
 | <code><a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.gameliftLocation.GameliftLocationTags">GameliftLocationTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1010,7 +1010,7 @@ location_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#location_name GameliftLocation#location_name}.
 
 ---
 
@@ -1024,7 +1024,7 @@ tags: IResolvable | typing.List[GameliftLocationTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#tags GameliftLocation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#tags GameliftLocation#tags}
 
 ---
 
@@ -1062,7 +1062,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#key GameliftLocation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#key GameliftLocation#key}
 
 ---
 
@@ -1076,7 +1076,7 @@ value: str
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_location#value GameliftLocation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_location#value GameliftLocation#value}
 
 ---
 

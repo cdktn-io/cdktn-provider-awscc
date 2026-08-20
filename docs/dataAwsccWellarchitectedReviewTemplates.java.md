@@ -4,7 +4,7 @@
 
 ### DataAwsccWellarchitectedReviewTemplates <a name="DataAwsccWellarchitectedReviewTemplates" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wellarchitected_review_templates awscc_wellarchitected_review_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_review_templates awscc_wellarchitected_review_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedReviewTemplates.DataAwsccWellarchitectedReviewTemplates.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedRe
 
 The id of the existing DataAwsccWellarchitectedReviewTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wellarchitected_review_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_review_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

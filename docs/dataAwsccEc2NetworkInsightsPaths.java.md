@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2NetworkInsightsPaths <a name="DataAwsccEc2NetworkInsightsPaths" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPaths.DataAwsccEc2NetworkInsightsPaths"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_network_insights_paths awscc_ec2_network_insights_paths}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_network_insights_paths awscc_ec2_network_insights_paths}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2NetworkInsightsPaths.DataAwsccEc2NetworkInsightsPaths.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2NetworkInsight
 
 The id of the existing DataAwsccEc2NetworkInsightsPaths that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_network_insights_paths#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_network_insights_paths#import import section} in the documentation of this resource for the id to use
 
 ---
 

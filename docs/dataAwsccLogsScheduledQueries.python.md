@@ -4,7 +4,7 @@
 
 ### DataAwsccLogsScheduledQueries <a name="DataAwsccLogsScheduledQueries" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQueries.DataAwsccLogsScheduledQueries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLogsScheduledQueries.DataAwsccLogsScheduledQueries.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLogsScheduledQuer
 
 The id of the existing DataAwsccLogsScheduledQueries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_scheduled_queries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_scheduled_queries#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### RobomakerRobotApplication <a name="RobomakerRobotApplication" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application awscc_robomaker_robot_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application awscc_robomaker_robot_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.robomakerRobotApplication.RobomakerRobotApplication.Initializer"></a>
 
@@ -550,7 +550,7 @@ The construct id used in the generated config for the RobomakerRobotApplication 
 
 The id of the existing RobomakerRobotApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1023,7 +1023,7 @@ public RobomakerRobotApplicationRobotSoftwareSuite RobotSoftwareSuite { get; set
 
 The robot software suite used by the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#robot_software_suite RobomakerRobotApplication#robot_software_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#robot_software_suite RobomakerRobotApplication#robot_software_suite}
 
 ---
 
@@ -1037,7 +1037,7 @@ public string CurrentRevisionId { get; set; }
 
 The revision ID of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#current_revision_id RobomakerRobotApplication#current_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#current_revision_id RobomakerRobotApplication#current_revision_id}
 
 ---
 
@@ -1051,7 +1051,7 @@ public string Environment { get; set; }
 
 The URI of the Docker image for the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#environment RobomakerRobotApplication#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#environment RobomakerRobotApplication#environment}
 
 ---
 
@@ -1065,7 +1065,7 @@ public string Name { get; set; }
 
 The name of the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
 
 ---
 
@@ -1079,7 +1079,7 @@ public IResolvable|RobomakerRobotApplicationSources[] Sources { get; set; }
 
 The sources of the robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#sources RobomakerRobotApplication#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#sources RobomakerRobotApplication#sources}
 
 ---
 
@@ -1093,7 +1093,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#tags RobomakerRobotApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#tags RobomakerRobotApplication#tags}
 
 ---
 
@@ -1129,7 +1129,7 @@ public string Name { get; set; }
 
 The name of robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#name RobomakerRobotApplication#name}
 
 ---
 
@@ -1143,7 +1143,7 @@ public string Version { get; set; }
 
 The version of robot software suite.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#version RobomakerRobotApplication#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#version RobomakerRobotApplication#version}
 
 ---
 
@@ -1181,7 +1181,7 @@ public string Architecture { get; set; }
 
 The architecture of robot application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#architecture RobomakerRobotApplication#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#architecture RobomakerRobotApplication#architecture}
 
 ---
 
@@ -1195,7 +1195,7 @@ public string S3Bucket { get; set; }
 
 The Arn of the S3Bucket that stores the robot application source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#s3_bucket RobomakerRobotApplication#s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#s3_bucket RobomakerRobotApplication#s3_bucket}
 
 ---
 
@@ -1209,7 +1209,7 @@ public string S3Key { get; set; }
 
 The s3 key of robot application source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot_application#s3_key RobomakerRobotApplication#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application#s3_key RobomakerRobotApplication#s3_key}
 
 ---
 

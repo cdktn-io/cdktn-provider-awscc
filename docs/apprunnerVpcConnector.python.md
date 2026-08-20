@@ -4,7 +4,7 @@
 
 ### ApprunnerVpcConnector <a name="ApprunnerVpcConnector" id="@cdktn/provider-awscc.apprunnerVpcConnector.ApprunnerVpcConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apprunnerVpcConnector.ApprunnerVpcConnector.Initializer"></a>
 
@@ -114,7 +114,7 @@ A list of IDs of subnets that App Runner should use when it associates your serv
 
 Specify IDs of subnets of a single Amazon VPC. App Runner determines the Amazon VPC from the subnets you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#subnets ApprunnerVpcConnector#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#subnets ApprunnerVpcConnector#subnets}
 
 ---
 
@@ -126,7 +126,7 @@ A list of IDs of security groups that App Runner should use for access to AWS re
 
 If not specified, App Runner uses the default security group of the Amazon VPC. The default security group allows all outbound traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#security_groups ApprunnerVpcConnector#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#security_groups ApprunnerVpcConnector#security_groups}
 
 ---
 
@@ -138,7 +138,7 @@ A list of metadata items that you can associate with your VPC connector resource
 
 A tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#tags ApprunnerVpcConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#tags ApprunnerVpcConnector#tags}
 
 ---
 
@@ -150,7 +150,7 @@ A name for the VPC connector.
 
 If you don't specify a name, AWS CloudFormation generates a name for your VPC connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#vpc_connector_name ApprunnerVpcConnector#vpc_connector_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#vpc_connector_name ApprunnerVpcConnector#vpc_connector_name}
 
 ---
 
@@ -683,7 +683,7 @@ The construct id used in the generated config for the ApprunnerVpcConnector to i
 
 The id of the existing ApprunnerVpcConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1121,7 +1121,7 @@ A list of IDs of subnets that App Runner should use when it associates your serv
 
 Specify IDs of subnets of a single Amazon VPC. App Runner determines the Amazon VPC from the subnets you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#subnets ApprunnerVpcConnector#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#subnets ApprunnerVpcConnector#subnets}
 
 ---
 
@@ -1137,7 +1137,7 @@ A list of IDs of security groups that App Runner should use for access to AWS re
 
 If not specified, App Runner uses the default security group of the Amazon VPC. The default security group allows all outbound traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#security_groups ApprunnerVpcConnector#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#security_groups ApprunnerVpcConnector#security_groups}
 
 ---
 
@@ -1153,7 +1153,7 @@ A list of metadata items that you can associate with your VPC connector resource
 
 A tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#tags ApprunnerVpcConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#tags ApprunnerVpcConnector#tags}
 
 ---
 
@@ -1169,7 +1169,7 @@ A name for the VPC connector.
 
 If you don't specify a name, AWS CloudFormation generates a name for your VPC connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#vpc_connector_name ApprunnerVpcConnector#vpc_connector_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#vpc_connector_name ApprunnerVpcConnector#vpc_connector_name}
 
 ---
 
@@ -1190,8 +1190,8 @@ apprunnerVpcConnector.ApprunnerVpcConnectorTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.apprunnerVpcConnector.ApprunnerVpcConnectorTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#key ApprunnerVpcConnector#key}. |
-| <code><a href="#@cdktn/provider-awscc.apprunnerVpcConnector.ApprunnerVpcConnectorTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#value ApprunnerVpcConnector#value}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerVpcConnector.ApprunnerVpcConnectorTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#key ApprunnerVpcConnector#key}. |
+| <code><a href="#@cdktn/provider-awscc.apprunnerVpcConnector.ApprunnerVpcConnectorTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#value ApprunnerVpcConnector#value}. |
 
 ---
 
@@ -1203,7 +1203,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#key ApprunnerVpcConnector#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#key ApprunnerVpcConnector#key}.
 
 ---
 
@@ -1215,7 +1215,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apprunner_vpc_connector#value ApprunnerVpcConnector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apprunner_vpc_connector#value ApprunnerVpcConnector#value}.
 
 ---
 

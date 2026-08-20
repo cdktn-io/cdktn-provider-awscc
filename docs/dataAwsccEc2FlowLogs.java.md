@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2FlowLogs <a name="DataAwsccEc2FlowLogs" id="@cdktn/provider-awscc.dataAwsccEc2FlowLogs.DataAwsccEc2FlowLogs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_flow_logs awscc_ec2_flow_logs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_flow_logs awscc_ec2_flow_logs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2FlowLogs.DataAwsccEc2FlowLogs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2FlowLogs to im
 
 The id of the existing DataAwsccEc2FlowLogs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_flow_logs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_flow_logs#import import section} in the documentation of this resource for the id to use
 
 ---
 

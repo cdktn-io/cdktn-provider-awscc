@@ -4,7 +4,7 @@
 
 ### DataAwsccProtonServiceTemplates <a name="DataAwsccProtonServiceTemplates" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplates.DataAwsccProtonServiceTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/proton_service_templates awscc_proton_service_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/proton_service_templates awscc_proton_service_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonServiceTemplates.DataAwsccProtonServiceTemplates.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccProtonServiceTemp
 
 The id of the existing DataAwsccProtonServiceTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/proton_service_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/proton_service_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccRtbfabricResponderGateways <a name="DataAwsccRtbfabricResponderGateways" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateways.DataAwsccRtbfabricResponderGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rtbfabric_responder_gateways awscc_rtbfabric_responder_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rtbfabric_responder_gateways awscc_rtbfabric_responder_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRtbfabricResponderGateways.DataAwsccRtbfabricResponderGateways.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRtbfabricResponde
 
 The id of the existing DataAwsccRtbfabricResponderGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rtbfabric_responder_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rtbfabric_responder_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

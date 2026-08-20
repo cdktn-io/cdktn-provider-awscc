@@ -4,7 +4,7 @@
 
 ### DataAwsccDevopsguruNotificationChannels <a name="DataAwsccDevopsguruNotificationChannels" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsguruNotificationChannels.DataAwsccDevopsguruNotificationChannels.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDevopsguruNotific
 
 The id of the existing DataAwsccDevopsguruNotificationChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_notification_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_notification_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightFolders <a name="DataAwsccQuicksightFolders" id="@cdktn/provider-awscc.dataAwsccQuicksightFolders.DataAwsccQuicksightFolders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_folders awscc_quicksight_folders}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_folders awscc_quicksight_folders}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightFolders.DataAwsccQuicksightFolders.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccQuicksightFolders
 
 The id of the existing DataAwsccQuicksightFolders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_folders#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_folders#import import section} in the documentation of this resource for the id to use
 
 ---
 

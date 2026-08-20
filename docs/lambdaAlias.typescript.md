@@ -4,7 +4,7 @@
 
 ### LambdaAlias <a name="LambdaAlias" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias awscc_lambda_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias awscc_lambda_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaAlias.LambdaAlias.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the LambdaAlias to import.
 
 The id of the existing LambdaAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -995,7 +995,7 @@ public readonly functionName: string;
 
 The name of the Lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#function_name LambdaAlias#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#function_name LambdaAlias#function_name}
 
 ---
 
@@ -1009,7 +1009,7 @@ public readonly functionVersion: string;
 
 The function version that the alias invokes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
 
 ---
 
@@ -1023,7 +1023,7 @@ public readonly name: string;
 
 The name of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#name LambdaAlias#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#name LambdaAlias#name}
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly description: string;
 
 A description of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#description LambdaAlias#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#description LambdaAlias#description}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly provisionedConcurrencyConfig: LambdaAliasProvisionedConcurrencyC
 
 Specifies a provisioned concurrency configuration for a function's alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#provisioned_concurrency_config LambdaAlias#provisioned_concurrency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#provisioned_concurrency_config LambdaAlias#provisioned_concurrency_config}
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly routingConfig: LambdaAliasRoutingConfig;
 
 The routing configuration of the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#routing_config LambdaAlias#routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#routing_config LambdaAlias#routing_config}
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly provisionedConcurrentExecutions: number;
 
 The amount of provisioned concurrency to allocate for the alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#provisioned_concurrent_executions LambdaAlias#provisioned_concurrent_executions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#provisioned_concurrent_executions LambdaAlias#provisioned_concurrent_executions}
 
 ---
 
@@ -1129,7 +1129,7 @@ public readonly additionalVersionWeights: IResolvable | LambdaAliasRoutingConfig
 
 The second version, and the percentage of traffic that's routed to it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly functionVersion: string;
 
 The qualifier of the second version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
 
 ---
 
@@ -1176,7 +1176,7 @@ public readonly functionWeight: number;
 
 The percentage of traffic that the alias routes to the second version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#function_weight LambdaAlias#function_weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_alias#function_weight LambdaAlias#function_weight}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### IvsPublicKey <a name="IvsPublicKey" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key awscc_ivs_public_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key awscc_ivs_public_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsPublicKey.IvsPublicKey.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the public key to be imported. The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PublicKey resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
 
 ---
 
@@ -663,7 +663,7 @@ The construct id used in the generated config for the IvsPublicKey to import.
 
 The id of the existing IvsPublicKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1075,7 +1075,7 @@ name: str
 
 Name of the public key to be imported. The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
 
 ---
 
@@ -1089,7 +1089,7 @@ public_key_material: str
 
 The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PublicKey resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
 
 ---
 
@@ -1103,7 +1103,7 @@ tags: IResolvable | typing.List[IvsPublicKeyTags]
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
 
 ---
 
@@ -1124,8 +1124,8 @@ ivsPublicKey.IvsPublicKeyTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#key IvsPublicKey#key}. |
-| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#value IvsPublicKey#value}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#key IvsPublicKey#key}. |
+| <code><a href="#@cdktn/provider-awscc.ivsPublicKey.IvsPublicKeyTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#value IvsPublicKey#value}. |
 
 ---
 
@@ -1137,7 +1137,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#key IvsPublicKey#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#key IvsPublicKey#key}.
 
 ---
 
@@ -1149,7 +1149,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_public_key#value IvsPublicKey#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_public_key#value IvsPublicKey#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftserverlessSnapshots <a name="DataAwsccRedshiftserverlessSnapshots" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshots.DataAwsccRedshiftserverlessSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshiftserverless_snapshots awscc_redshiftserverless_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshiftserverless_snapshots awscc_redshiftserverless_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessSnapshots.DataAwsccRedshiftserverlessSnapshots.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRedshiftserverles
 
 The id of the existing DataAwsccRedshiftserverlessSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshiftserverless_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshiftserverless_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 

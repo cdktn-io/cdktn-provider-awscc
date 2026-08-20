@@ -4,7 +4,7 @@
 
 ### GlueIntegration <a name="GlueIntegration" id="@cdktn/provider-awscc.glueIntegration.GlueIntegration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration awscc_glue_integration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration awscc_glue_integration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueIntegration.GlueIntegration.Initializer"></a>
 
@@ -557,7 +557,7 @@ The construct id used in the generated config for the GlueIntegration to import.
 
 The id of the existing GlueIntegration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1019,8 +1019,8 @@ const glueIntegrationConfig: glueIntegration.GlueIntegrationConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.sourceArn">sourceArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the database to use as the source for replication. |
 | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.targetArn">targetArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the Glue data warehouse to use as the target for replication. |
 | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.additionalEncryptionContext">additionalEncryptionContext</a></code> | <code>{[ key: string ]: string}</code> | An optional set of non-secret key value pairs that contains additional contextual information about the data. |
-| <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.dataFilter">dataFilter</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#data_filter GlueIntegration#data_filter}. |
-| <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#description GlueIntegration#description}. |
+| <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.dataFilter">dataFilter</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#data_filter GlueIntegration#data_filter}. |
+| <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#description GlueIntegration#description}. |
 | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.integrationConfig">integrationConfig</a></code> | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationIntegrationConfig">GlueIntegrationIntegrationConfig</a></code> | The configuration settings for the integration. |
 | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.kmsKeyId">kmsKeyId</a></code> | <code>string</code> | An KMS key identifier for the key to use to encrypt the integration. |
 | <code><a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueIntegration.GlueIntegrationTags">GlueIntegrationTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
@@ -1107,7 +1107,7 @@ public readonly integrationName: string;
 
 The name of the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#integration_name GlueIntegration#integration_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#integration_name GlueIntegration#integration_name}
 
 ---
 
@@ -1121,7 +1121,7 @@ public readonly sourceArn: string;
 
 The Amazon Resource Name (ARN) of the database to use as the source for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#source_arn GlueIntegration#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#source_arn GlueIntegration#source_arn}
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly targetArn: string;
 
 The Amazon Resource Name (ARN) of the Glue data warehouse to use as the target for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#target_arn GlueIntegration#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#target_arn GlueIntegration#target_arn}
 
 ---
 
@@ -1149,7 +1149,7 @@ public readonly additionalEncryptionContext: {[ key: string ]: string};
 
 An optional set of non-secret key value pairs that contains additional contextual information about the data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#additional_encryption_context GlueIntegration#additional_encryption_context}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#additional_encryption_context GlueIntegration#additional_encryption_context}
 
 ---
 
@@ -1161,7 +1161,7 @@ public readonly dataFilter: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#data_filter GlueIntegration#data_filter}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#data_filter GlueIntegration#data_filter}.
 
 ---
 
@@ -1173,7 +1173,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#description GlueIntegration#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#description GlueIntegration#description}.
 
 ---
 
@@ -1187,7 +1187,7 @@ public readonly integrationConfig: GlueIntegrationIntegrationConfig;
 
 The configuration settings for the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#integration_config GlueIntegration#integration_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#integration_config GlueIntegration#integration_config}
 
 ---
 
@@ -1203,7 +1203,7 @@ An KMS key identifier for the key to use to encrypt the integration.
 
 If you don't specify an encryption key, the default AWS owned KMS key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#kms_key_id GlueIntegration#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#kms_key_id GlueIntegration#kms_key_id}
 
 ---
 
@@ -1217,7 +1217,7 @@ public readonly tags: IResolvable | GlueIntegrationTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#tags GlueIntegration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#tags GlueIntegration#tags}
 
 ---
 
@@ -1251,7 +1251,7 @@ public readonly continuousSync: boolean | IResolvable;
 
 Enables continuous synchronization for on-demand data extractions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#continuous_sync GlueIntegration#continuous_sync}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#continuous_sync GlueIntegration#continuous_sync}
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly refreshInterval: string;
 
 Specifies the frequency at which CDC (Change Data Capture) pulls or incremental loads should occur.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#refresh_interval GlueIntegration#refresh_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#refresh_interval GlueIntegration#refresh_interval}
 
 ---
 
@@ -1279,7 +1279,7 @@ public readonly sourceProperties: {[ key: string ]: string};
 
 A collection of key-value pairs that specify additional properties for the integration source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#source_properties GlueIntegration#source_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#source_properties GlueIntegration#source_properties}
 
 ---
 
@@ -1314,7 +1314,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#key GlueIntegration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#key GlueIntegration#key}
 
 ---
 
@@ -1330,7 +1330,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration#value GlueIntegration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_integration#value GlueIntegration#value}
 
 ---
 

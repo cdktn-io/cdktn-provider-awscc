@@ -4,7 +4,7 @@
 
 ### DataAwsccApprunnerVpcConnectors <a name="DataAwsccApprunnerVpcConnectors" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_vpc_connectors awscc_apprunner_vpc_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_vpc_connectors awscc_apprunner_vpc_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerVpcConnectors.DataAwsccApprunnerVpcConnectors.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApprunnerVpcConne
 
 The id of the existing DataAwsccApprunnerVpcConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_vpc_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_vpc_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 

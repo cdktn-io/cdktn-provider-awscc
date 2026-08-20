@@ -4,7 +4,7 @@
 
 ### Ec2SecurityGroupIngress <a name="Ec2SecurityGroupIngress" id="@cdktn/provider-awscc.ec2SecurityGroupIngress.Ec2SecurityGroupIngress"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress awscc_ec2_security_group_ingress}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress awscc_ec2_security_group_ingress}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2SecurityGroupIngress.Ec2SecurityGroupIngress.Initializer"></a>
 
@@ -566,7 +566,7 @@ The construct id used in the generated config for the Ec2SecurityGroupIngress to
 
 The id of the existing Ec2SecurityGroupIngress that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1165,7 +1165,7 @@ The IP protocol name (tcp, udp, icmp, icmpv6) or number (see Protocol Numbers).
 
 [VPC only] Use -1 to specify all protocols. When authorizing security group rules, specifying -1 or a protocol number other than tcp, udp, icmp, or icmpv6 allows traffic on all ports, regardless of any port range you specify. For tcp, udp, and icmp, you must specify a port range. For icmpv6, the port range is optional; if you omit the port range, traffic for all types and codes is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#ip_protocol Ec2SecurityGroupIngress#ip_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#ip_protocol Ec2SecurityGroupIngress#ip_protocol}
 
 ---
 
@@ -1179,7 +1179,7 @@ public readonly cidrIp: string;
 
 The IPv4 ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#cidr_ip Ec2SecurityGroupIngress#cidr_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#cidr_ip Ec2SecurityGroupIngress#cidr_ip}
 
 ---
 
@@ -1193,7 +1193,7 @@ public readonly cidrIpv6: string;
 
 [VPC only] The IPv6 ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#cidr_ipv_6 Ec2SecurityGroupIngress#cidr_ipv_6}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#cidr_ipv_6 Ec2SecurityGroupIngress#cidr_ipv_6}
 
 ---
 
@@ -1209,7 +1209,7 @@ Updates the description of an ingress (inbound) security group rule.
 
 You can replace an existing description, or add a description to a rule that did not have one previously
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#description Ec2SecurityGroupIngress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#description Ec2SecurityGroupIngress#description}
 
 ---
 
@@ -1227,7 +1227,7 @@ A value of -1 indicates all ICMP/ICMPv6 types. If you specify all ICMP/ICMPv6 ty
 
 Use this for ICMP and any protocol that uses ports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#from_port Ec2SecurityGroupIngress#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#from_port Ec2SecurityGroupIngress#from_port}
 
 ---
 
@@ -1245,7 +1245,7 @@ You must specify either the security group ID or the security group name in the 
 
 You must specify the GroupName property or the GroupId property. For security groups that are in a VPC, you must use the GroupId property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#group_id Ec2SecurityGroupIngress#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#group_id Ec2SecurityGroupIngress#group_id}
 
 ---
 
@@ -1259,7 +1259,7 @@ public readonly groupName: string;
 
 The name of the security group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#group_name Ec2SecurityGroupIngress#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#group_name Ec2SecurityGroupIngress#group_name}
 
 ---
 
@@ -1273,7 +1273,7 @@ public readonly sourcePrefixListId: string;
 
 [EC2-VPC only] The ID of a prefix list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#source_prefix_list_id Ec2SecurityGroupIngress#source_prefix_list_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#source_prefix_list_id Ec2SecurityGroupIngress#source_prefix_list_id}
 
 ---
 
@@ -1289,7 +1289,7 @@ The ID of the security group.
 
 You must specify either the security group ID or the security group name. For security groups in a nondefault VPC, you must specify the security group ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#source_security_group_id Ec2SecurityGroupIngress#source_security_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#source_security_group_id Ec2SecurityGroupIngress#source_security_group_id}
 
 ---
 
@@ -1305,7 +1305,7 @@ public readonly sourceSecurityGroupName: string;
 
 You must specify the GroupName property or the GroupId property. For security groups that are in a VPC, you must use the GroupId property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#source_security_group_name Ec2SecurityGroupIngress#source_security_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#source_security_group_name Ec2SecurityGroupIngress#source_security_group_name}
 
 ---
 
@@ -1323,7 +1323,7 @@ You can't specify this property with an IP address range.
 
 If you specify SourceSecurityGroupName or SourceSecurityGroupId and that security group is owned by a different account than the account creating the stack, you must specify the SourceSecurityGroupOwnerId; otherwise, this property is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#source_security_group_owner_id Ec2SecurityGroupIngress#source_security_group_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#source_security_group_owner_id Ec2SecurityGroupIngress#source_security_group_owner_id}
 
 ---
 
@@ -1341,7 +1341,7 @@ A value of -1 indicates all ICMP/ICMPv6 codes for the specified ICMP type. If yo
 
 Use this for ICMP and any protocol that uses ports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_security_group_ingress#to_port Ec2SecurityGroupIngress#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_ingress#to_port Ec2SecurityGroupIngress#to_port}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSimspaceweaverSimulations <a name="DataAwsccSimspaceweaverSimulations" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulations.DataAwsccSimspaceweaverSimulations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSimspaceweaverSimulations.DataAwsccSimspaceweaverSimulations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSimspaceweaverSim
 
 The id of the existing DataAwsccSimspaceweaverSimulations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/simspaceweaver_simulations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/simspaceweaver_simulations#import import section} in the documentation of this resource for the id to use
 
 ---
 

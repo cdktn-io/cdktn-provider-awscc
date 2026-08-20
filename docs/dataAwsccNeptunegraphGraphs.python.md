@@ -4,7 +4,7 @@
 
 ### DataAwsccNeptunegraphGraphs <a name="DataAwsccNeptunegraphGraphs" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphs.DataAwsccNeptunegraphGraphs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptunegraph_graphs awscc_neptunegraph_graphs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptunegraph_graphs awscc_neptunegraph_graphs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNeptunegraphGraphs.DataAwsccNeptunegraphGraphs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccNeptunegraphGraph
 
 The id of the existing DataAwsccNeptunegraphGraphs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptunegraph_graphs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptunegraph_graphs#import import section} in the documentation of this resource for the id to use
 
 ---
 

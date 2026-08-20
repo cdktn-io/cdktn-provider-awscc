@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2SubnetCidrBlocks <a name="DataAwsccEc2SubnetCidrBlocks" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SubnetCidrBlocks.DataAwsccEc2SubnetCidrBlocks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2SubnetCidrBloc
 
 The id of the existing DataAwsccEc2SubnetCidrBlocks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_cidr_blocks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_subnet_cidr_blocks#import import section} in the documentation of this resource for the id to use
 
 ---
 

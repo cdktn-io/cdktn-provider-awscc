@@ -4,7 +4,7 @@
 
 ### DataAwsccApplicationsignalsDiscovery <a name="DataAwsccApplicationsignalsDiscovery" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscovery.DataAwsccApplicationsignalsDiscovery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationsignalsDiscovery.DataAwsccApplicationsignalsDiscovery.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/applicationsignals_discovery#id DataAwsccApplicationsignalsDiscovery#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationsignals_discovery#id DataAwsccApplicationsignalsDiscovery#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccApplicationsignal
 
 The id of the existing DataAwsccApplicationsignalsDiscovery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/applicationsignals_discovery#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationsignals_discovery#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -772,7 +772,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/applicationsignals_discovery#id DataAwsccApplicationsignalsDiscovery#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/applicationsignals_discovery#id DataAwsccApplicationsignalsDiscovery#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

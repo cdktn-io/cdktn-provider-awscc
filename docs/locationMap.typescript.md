@@ -4,7 +4,7 @@
 
 ### LocationMap <a name="LocationMap" id="@cdktn/provider-awscc.locationMap.LocationMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map awscc_location_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map awscc_location_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationMap.LocationMap.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the LocationMap to import.
 
 The id of the existing LocationMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -917,10 +917,10 @@ const locationMapConfig: locationMap.LocationMapConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration">LocationMapConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#configuration LocationMap#configuration}. |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.mapName">mapName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#map_name LocationMap#map_name}. |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#description LocationMap#description}. |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.pricingPlan">pricingPlan</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#pricing_plan LocationMap#pricing_plan}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration">LocationMapConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#configuration LocationMap#configuration}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.mapName">mapName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#map_name LocationMap#map_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#description LocationMap#description}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.pricingPlan">pricingPlan</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#pricing_plan LocationMap#pricing_plan}. |
 | <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.locationMap.LocationMapTags">LocationMapTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1003,7 +1003,7 @@ public readonly configuration: LocationMapConfiguration;
 
 - *Type:* <a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration">LocationMapConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#configuration LocationMap#configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#configuration LocationMap#configuration}.
 
 ---
 
@@ -1015,7 +1015,7 @@ public readonly mapName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#map_name LocationMap#map_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#map_name LocationMap#map_name}.
 
 ---
 
@@ -1027,7 +1027,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#description LocationMap#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#description LocationMap#description}.
 
 ---
 
@@ -1039,7 +1039,7 @@ public readonly pricingPlan: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#pricing_plan LocationMap#pricing_plan}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#pricing_plan LocationMap#pricing_plan}.
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly tags: IResolvable | LocationMapTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#tags LocationMap#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#tags LocationMap#tags}
 
 ---
 
@@ -1071,9 +1071,9 @@ const locationMapConfiguration: locationMap.LocationMapConfiguration = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration.property.style">style</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#style LocationMap#style}. |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration.property.customLayers">customLayers</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#custom_layers LocationMap#custom_layers}. |
-| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration.property.politicalView">politicalView</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#political_view LocationMap#political_view}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration.property.style">style</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#style LocationMap#style}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration.property.customLayers">customLayers</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#custom_layers LocationMap#custom_layers}. |
+| <code><a href="#@cdktn/provider-awscc.locationMap.LocationMapConfiguration.property.politicalView">politicalView</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#political_view LocationMap#political_view}. |
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly style: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#style LocationMap#style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#style LocationMap#style}.
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly customLayers: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#custom_layers LocationMap#custom_layers}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#custom_layers LocationMap#custom_layers}.
 
 ---
 
@@ -1109,7 +1109,7 @@ public readonly politicalView: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#political_view LocationMap#political_view}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#political_view LocationMap#political_view}.
 
 ---
 
@@ -1144,7 +1144,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#key LocationMap#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#key LocationMap#key}
 
 ---
 
@@ -1160,7 +1160,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/location_map#value LocationMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_map#value LocationMap#value}
 
 ---
 

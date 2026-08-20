@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2VpnConnectionRoutes <a name="DataAwsccEc2VpnConnectionRoutes" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_vpn_connection_routes awscc_ec2_vpn_connection_routes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpn_connection_routes awscc_ec2_vpn_connection_routes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpnConnectionRoutes.DataAwsccEc2VpnConnectionRoutes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpnConnectionR
 
 The id of the existing DataAwsccEc2VpnConnectionRoutes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_vpn_connection_routes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpn_connection_routes#import import section} in the documentation of this resource for the id to use
 
 ---
 

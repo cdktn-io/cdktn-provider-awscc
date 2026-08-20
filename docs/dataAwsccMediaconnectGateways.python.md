@@ -4,7 +4,7 @@
 
 ### DataAwsccMediaconnectGateways <a name="DataAwsccMediaconnectGateways" id="@cdktn/provider-awscc.dataAwsccMediaconnectGateways.DataAwsccMediaconnectGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_gateways awscc_mediaconnect_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_gateways awscc_mediaconnect_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectGateways.DataAwsccMediaconnectGateways.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectGatew
 
 The id of the existing DataAwsccMediaconnectGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

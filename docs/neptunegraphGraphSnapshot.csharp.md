@@ -4,7 +4,7 @@
 
 ### NeptunegraphGraphSnapshot <a name="NeptunegraphGraphSnapshot" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.neptunegraphGraphSnapshot.NeptunegraphGraphSnapshot.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the NeptunegraphGraphSnapshot 
 
 The id of the existing NeptunegraphGraphSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ public string GraphIdentifier { get; set; }
 
 The unique identifier of the Neptune Analytics graph to create the snapshot from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#graph_identifier NeptunegraphGraphSnapshot#graph_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#graph_identifier NeptunegraphGraphSnapshot#graph_identifier}
 
 ---
 
@@ -968,7 +968,7 @@ public string SnapshotName { get; set; }
 
 The snapshot name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#snapshot_name NeptunegraphGraphSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#snapshot_name NeptunegraphGraphSnapshot#snapshot_name}
 
 ---
 
@@ -982,7 +982,7 @@ public IResolvable|NeptunegraphGraphSnapshotTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#tags NeptunegraphGraphSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#tags NeptunegraphGraphSnapshot#tags}
 
 ---
 
@@ -1018,7 +1018,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
 
 ---
 
@@ -1032,7 +1032,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
 
 ---
 

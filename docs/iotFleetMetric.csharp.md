@@ -4,7 +4,7 @@
 
 ### IotFleetMetric <a name="IotFleetMetric" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric awscc_iot_fleet_metric}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotFleetMetric.IotFleetMetric.Initializer"></a>
 
@@ -578,7 +578,7 @@ The construct id used in the generated config for the IotFleetMetric to import.
 
 The id of the existing IotFleetMetric that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1080,7 +1080,7 @@ public string Name { get; set; }
 
 Fleet Indexing aggregation type names such as Statistics, Percentiles and Cardinality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#name IotFleetMetric#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#name IotFleetMetric#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ public string[] Values { get; set; }
 
 Fleet Indexing aggregation type values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#values IotFleetMetric#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#values IotFleetMetric#values}
 
 ---
 
@@ -1230,7 +1230,7 @@ public string MetricName { get; set; }
 
 The name of the fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#metric_name IotFleetMetric#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#metric_name IotFleetMetric#metric_name}
 
 ---
 
@@ -1244,7 +1244,7 @@ public string AggregationField { get; set; }
 
 The aggregation field to perform aggregation and metric emission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#aggregation_field IotFleetMetric#aggregation_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#aggregation_field IotFleetMetric#aggregation_field}
 
 ---
 
@@ -1258,7 +1258,7 @@ public IotFleetMetricAggregationType AggregationType { get; set; }
 
 Aggregation types supported by Fleet Indexing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#aggregation_type IotFleetMetric#aggregation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#aggregation_type IotFleetMetric#aggregation_type}
 
 ---
 
@@ -1272,7 +1272,7 @@ public string Description { get; set; }
 
 The description of a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#description IotFleetMetric#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#description IotFleetMetric#description}
 
 ---
 
@@ -1286,7 +1286,7 @@ public string IndexName { get; set; }
 
 The index name of a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#index_name IotFleetMetric#index_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#index_name IotFleetMetric#index_name}
 
 ---
 
@@ -1300,7 +1300,7 @@ public double Period { get; set; }
 
 The period of metric emission in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#period IotFleetMetric#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#period IotFleetMetric#period}
 
 ---
 
@@ -1314,7 +1314,7 @@ public string QueryString { get; set; }
 
 The Fleet Indexing query used by a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#query_string IotFleetMetric#query_string}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#query_string IotFleetMetric#query_string}
 
 ---
 
@@ -1328,7 +1328,7 @@ public string QueryVersion { get; set; }
 
 The version of a Fleet Indexing query used by a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#query_version IotFleetMetric#query_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#query_version IotFleetMetric#query_version}
 
 ---
 
@@ -1342,7 +1342,7 @@ public IResolvable|IotFleetMetricTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#tags IotFleetMetric#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#tags IotFleetMetric#tags}
 
 ---
 
@@ -1356,7 +1356,7 @@ public string Unit { get; set; }
 
 The unit of data points emitted by a fleet metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#unit IotFleetMetric#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#unit IotFleetMetric#unit}
 
 ---
 
@@ -1392,7 +1392,7 @@ public string Key { get; set; }
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#key IotFleetMetric#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#key IotFleetMetric#key}
 
 ---
 
@@ -1406,7 +1406,7 @@ public string Value { get; set; }
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_fleet_metric#value IotFleetMetric#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_fleet_metric#value IotFleetMetric#value}
 
 ---
 

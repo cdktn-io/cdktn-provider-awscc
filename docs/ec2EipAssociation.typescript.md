@@ -4,7 +4,7 @@
 
 ### Ec2EipAssociation <a name="Ec2EipAssociation" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociation.Initializer"></a>
 
@@ -524,7 +524,7 @@ The construct id used in the generated config for the Ec2EipAssociation to impor
 
 The id of the existing Ec2EipAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ const ec2EipAssociationConfig: ec2EipAssociation.Ec2EipAssociationConfig = { ...
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.allocationId">allocationId</a></code> | <code>string</code> | The allocation ID. This is required. |
-| <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.eip">eip</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}. |
+| <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.eip">eip</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}. |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.instanceId">instanceId</a></code> | <code>string</code> | The ID of the instance. |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.networkInterfaceId">networkInterfaceId</a></code> | <code>string</code> | The ID of the network interface. |
 | <code><a href="#@cdktn/provider-awscc.ec2EipAssociation.Ec2EipAssociationConfig.property.privateIpAddress">privateIpAddress</a></code> | <code>string</code> | The primary or secondary private IP address to associate with the Elastic IP address. |
@@ -960,7 +960,7 @@ public readonly allocationId: string;
 
 The allocation ID. This is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#allocation_id Ec2EipAssociation#allocation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#allocation_id Ec2EipAssociation#allocation_id}
 
 ---
 
@@ -972,7 +972,7 @@ public readonly eip: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#eip Ec2EipAssociation#eip}.
 
 ---
 
@@ -988,7 +988,7 @@ The ID of the instance.
 
 The instance must have exactly one attached network interface. You can specify either the instance ID or the network interface ID, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#instance_id Ec2EipAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#instance_id Ec2EipAssociation#instance_id}
 
 ---
 
@@ -1005,7 +1005,7 @@ The ID of the network interface.
 If the instance has more than one network interface, you must specify a network interface ID.
  You can specify either the instance ID or the network interface ID, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#network_interface_id Ec2EipAssociation#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#network_interface_id Ec2EipAssociation#network_interface_id}
 
 ---
 
@@ -1021,7 +1021,7 @@ The primary or secondary private IP address to associate with the Elastic IP add
 
 If no private IP address is specified, the Elastic IP address is associated with the primary private IP address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_eip_association#private_ip_address Ec2EipAssociation#private_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association#private_ip_address Ec2EipAssociation#private_ip_address}
 
 ---
 

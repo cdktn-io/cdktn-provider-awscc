@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityagentTargetDomains <a name="DataAwsccSecurityagentTargetDomains" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomains.DataAwsccSecurityagentTargetDomains"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_target_domains awscc_securityagent_target_domains}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_target_domains awscc_securityagent_target_domains}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentTargetDomains.DataAwsccSecurityagentTargetDomains.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentTarg
 
 The id of the existing DataAwsccSecurityagentTargetDomains that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_target_domains#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_target_domains#import import section} in the documentation of this resource for the id to use
 
 ---
 

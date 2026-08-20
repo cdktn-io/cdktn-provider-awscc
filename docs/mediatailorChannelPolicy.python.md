@@ -4,7 +4,7 @@
 
 ### MediatailorChannelPolicy <a name="MediatailorChannelPolicy" id="@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer"></a>
 
@@ -37,7 +37,7 @@ mediatailorChannelPolicy.MediatailorChannelPolicy(
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer.parameter.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer.parameter.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicy.Initializer.parameter.policy">policy</a></code> | <code>str</code> | <p>The IAM policy for the channel. IAM policies are used to control access to your channel.</p>. |
 
 ---
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The IAM policy for the channel. IAM policies are used to control access to your channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#policy MediatailorChannelPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#policy MediatailorChannelPolicy#policy}
 
 ---
 
@@ -613,7 +613,7 @@ The construct id used in the generated config for the MediatailorChannelPolicy t
 
 The id of the existing MediatailorChannelPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,7 +894,7 @@ mediatailorChannelPolicy.MediatailorChannelPolicyConfig(
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicyConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicyConfig.property.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicyConfig.property.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorChannelPolicy.MediatailorChannelPolicyConfig.property.policy">policy</a></code> | <code>str</code> | <p>The IAM policy for the channel. IAM policies are used to control access to your channel.</p>. |
 
 ---
@@ -977,7 +977,7 @@ channel_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}.
 
 ---
 
@@ -991,7 +991,7 @@ policy: str
 
 <p>The IAM policy for the channel. IAM policies are used to control access to your channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy#policy MediatailorChannelPolicy#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_channel_policy#policy MediatailorChannelPolicy#policy}
 
 ---
 

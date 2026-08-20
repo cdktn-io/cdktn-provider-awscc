@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerProcessingJobs <a name="DataAwsccSagemakerProcessingJobs" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_processing_jobs awscc_sagemaker_processing_jobs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_processing_jobs awscc_sagemaker_processing_jobs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerProcessingJobs.DataAwsccSagemakerProcessingJobs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSagemakerProcessi
 
 The id of the existing DataAwsccSagemakerProcessingJobs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_processing_jobs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_processing_jobs#import import section} in the documentation of this resource for the id to use
 
 ---
 

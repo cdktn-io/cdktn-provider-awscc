@@ -4,7 +4,7 @@
 
 ### IotsitewiseAsset <a name="IotsitewiseAsset" id="@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAsset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset awscc_iotsitewise_asset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset awscc_iotsitewise_asset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAsset.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the IotsitewiseAsset to import
 
 The id of the existing IotsitewiseAsset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ ChildAssetId *string
 
 The ID of the child asset to be associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#child_asset_id IotsitewiseAsset#child_asset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#child_asset_id IotsitewiseAsset#child_asset_id}
 
 ---
 
@@ -995,7 +995,7 @@ ExternalId *string
 
 String-friendly customer provided external ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
 
 ---
 
@@ -1009,7 +1009,7 @@ Id *string
 
 Customer provided actual UUID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1026,7 +1026,7 @@ LogicalId *string
 
 The LogicalID of a hierarchy in the parent asset's model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
 
 ---
 
@@ -1070,7 +1070,7 @@ Alias *string
 
 The property alias that identifies the property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#alias IotsitewiseAsset#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#alias IotsitewiseAsset#alias}
 
 ---
 
@@ -1084,7 +1084,7 @@ ExternalId *string
 
 String-friendly customer provided external ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#external_id IotsitewiseAsset#external_id}
 
 ---
 
@@ -1098,7 +1098,7 @@ Id *string
 
 Customer provided actual UUID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#id IotsitewiseAsset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1115,7 +1115,7 @@ LogicalId *string
 
 Customer provided ID for property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#logical_id IotsitewiseAsset#logical_id}
 
 ---
 
@@ -1129,7 +1129,7 @@ NotificationState *string
 
 The MQTT notification state (ENABLED or DISABLED) for this asset property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#notification_state IotsitewiseAsset#notification_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#notification_state IotsitewiseAsset#notification_state}
 
 ---
 
@@ -1145,7 +1145,7 @@ The unit of measure (such as Newtons or RPM) of the asset property.
 
 If you don't specify a value for this parameter, the service uses the value of the assetModelProperty in the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#unit IotsitewiseAsset#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#unit IotsitewiseAsset#unit}
 
 ---
 
@@ -1189,8 +1189,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseasset"
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetName">AssetName</a></code> | <code>*string</code> | A unique, friendly name for the asset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetDescription">AssetDescription</a></code> | <code>*string</code> | A description for the asset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetExternalId">AssetExternalId</a></code> | <code>*string</code> | The External ID of the asset. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetHierarchies">AssetHierarchies</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_hierarchies IotsitewiseAsset#asset_hierarchies}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetProperties">AssetProperties</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_properties IotsitewiseAsset#asset_properties}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetHierarchies">AssetHierarchies</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_hierarchies IotsitewiseAsset#asset_hierarchies}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.assetProperties">AssetProperties</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_properties IotsitewiseAsset#asset_properties}. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetConfig.property.tags">Tags</a></code> | <code>interface{}</code> | A list of key-value pairs that contain metadata for the asset. |
 
 ---
@@ -1275,7 +1275,7 @@ AssetModelId *string
 
 The ID of the asset model from which to create the asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_model_id IotsitewiseAsset#asset_model_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_model_id IotsitewiseAsset#asset_model_id}
 
 ---
 
@@ -1289,7 +1289,7 @@ AssetName *string
 
 A unique, friendly name for the asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_name IotsitewiseAsset#asset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_name IotsitewiseAsset#asset_name}
 
 ---
 
@@ -1303,7 +1303,7 @@ AssetDescription *string
 
 A description for the asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_description IotsitewiseAsset#asset_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_description IotsitewiseAsset#asset_description}
 
 ---
 
@@ -1317,7 +1317,7 @@ AssetExternalId *string
 
 The External ID of the asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_external_id IotsitewiseAsset#asset_external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_external_id IotsitewiseAsset#asset_external_id}
 
 ---
 
@@ -1329,7 +1329,7 @@ AssetHierarchies interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_hierarchies IotsitewiseAsset#asset_hierarchies}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_hierarchies IotsitewiseAsset#asset_hierarchies}.
 
 ---
 
@@ -1341,7 +1341,7 @@ AssetProperties interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#asset_properties IotsitewiseAsset#asset_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#asset_properties IotsitewiseAsset#asset_properties}.
 
 ---
 
@@ -1355,7 +1355,7 @@ Tags interface{}
 
 A list of key-value pairs that contain metadata for the asset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#tags IotsitewiseAsset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#tags IotsitewiseAsset#tags}
 
 ---
 
@@ -1376,8 +1376,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseasset"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#key IotsitewiseAsset#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#value IotsitewiseAsset#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#key IotsitewiseAsset#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseAsset.IotsitewiseAssetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#value IotsitewiseAsset#value}. |
 
 ---
 
@@ -1389,7 +1389,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#key IotsitewiseAsset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#key IotsitewiseAsset#key}.
 
 ---
 
@@ -1401,7 +1401,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset#value IotsitewiseAsset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_asset#value IotsitewiseAsset#value}.
 
 ---
 

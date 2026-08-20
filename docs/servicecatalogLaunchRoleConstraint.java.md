@@ -4,7 +4,7 @@
 
 ### ServicecatalogLaunchRoleConstraint <a name="ServicecatalogLaunchRoleConstraint" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogLaunchRoleConstraint.ServicecatalogLaunchRoleConstraint.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the portfolio to which this launch role constraint applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#portfolio_id ServicecatalogLaunchRoleConstraint#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#portfolio_id ServicecatalogLaunchRoleConstraint#portfolio_id}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the product to which this launch role constraint applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#product_id ServicecatalogLaunchRoleConstraint#product_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#product_id ServicecatalogLaunchRoleConstraint#product_id}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The language code for the constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#accept_language ServicecatalogLaunchRoleConstraint#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#accept_language ServicecatalogLaunchRoleConstraint#accept_language}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the launch role constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#description ServicecatalogLaunchRoleConstraint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#description ServicecatalogLaunchRoleConstraint#description}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The local IAM role name to use in the launch constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#local_role_name ServicecatalogLaunchRoleConstraint#local_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#local_role_name ServicecatalogLaunchRoleConstraint#local_role_name}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the IAM role used for the launch constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#role_arn ServicecatalogLaunchRoleConstraint#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#role_arn ServicecatalogLaunchRoleConstraint#role_arn}
 
 ---
 
@@ -641,7 +641,7 @@ The construct id used in the generated config for the ServicecatalogLaunchRoleCo
 
 The id of the existing ServicecatalogLaunchRoleConstraint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1114,7 +1114,7 @@ public java.lang.String getPortfolioId();
 
 The ID of the portfolio to which this launch role constraint applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#portfolio_id ServicecatalogLaunchRoleConstraint#portfolio_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#portfolio_id ServicecatalogLaunchRoleConstraint#portfolio_id}
 
 ---
 
@@ -1128,7 +1128,7 @@ public java.lang.String getProductId();
 
 The ID of the product to which this launch role constraint applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#product_id ServicecatalogLaunchRoleConstraint#product_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#product_id ServicecatalogLaunchRoleConstraint#product_id}
 
 ---
 
@@ -1142,7 +1142,7 @@ public java.lang.String getAcceptLanguage();
 
 The language code for the constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#accept_language ServicecatalogLaunchRoleConstraint#accept_language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#accept_language ServicecatalogLaunchRoleConstraint#accept_language}
 
 ---
 
@@ -1156,7 +1156,7 @@ public java.lang.String getDescription();
 
 The description of the launch role constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#description ServicecatalogLaunchRoleConstraint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#description ServicecatalogLaunchRoleConstraint#description}
 
 ---
 
@@ -1170,7 +1170,7 @@ public java.lang.String getLocalRoleName();
 
 The local IAM role name to use in the launch constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#local_role_name ServicecatalogLaunchRoleConstraint#local_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#local_role_name ServicecatalogLaunchRoleConstraint#local_role_name}
 
 ---
 
@@ -1184,7 +1184,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role used for the launch constraint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_launch_role_constraint#role_arn ServicecatalogLaunchRoleConstraint#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_launch_role_constraint#role_arn ServicecatalogLaunchRoleConstraint#role_arn}
 
 ---
 

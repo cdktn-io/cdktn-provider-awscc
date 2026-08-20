@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupLegalHolds <a name="DataAwsccBackupLegalHolds" id="@cdktn/provider-awscc.dataAwsccBackupLegalHolds.DataAwsccBackupLegalHolds"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_legal_holds awscc_backup_legal_holds}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_legal_holds awscc_backup_legal_holds}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupLegalHolds.DataAwsccBackupLegalHolds.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBackupLegalHolds 
 
 The id of the existing DataAwsccBackupLegalHolds that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_legal_holds#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_legal_holds#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ApplicationsignalsServiceLevelObjective <a name="ApplicationsignalsServiceLevelObjective" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjective.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The name of this SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -132,7 +132,7 @@ Each object in this array defines the length of the look-back window used to cal
 
 The burn rate measures how fast the service is consuming the error budget, relative to the attainment goal of the SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#burn_rate_configurations ApplicationsignalsServiceLevelObjective#burn_rate_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#burn_rate_configurations ApplicationsignalsServiceLevelObjective#burn_rate_configurations}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description for this SLO. Default is 'No description'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#description ApplicationsignalsServiceLevelObjective#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#description ApplicationsignalsServiceLevelObjective#description}
 
 ---
 
@@ -154,7 +154,7 @@ Each object in this array defines a time exclusion window for this SLO.
 
 The time exclusion window is used to exclude breaching data points from affecting attainment rate, error budget, and burn rate metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#exclusion_windows ApplicationsignalsServiceLevelObjective#exclusion_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#exclusion_windows ApplicationsignalsServiceLevelObjective#exclusion_windows}
 
 ---
 
@@ -166,7 +166,7 @@ A structure that contains the attributes that determine the goal of the SLO.
 
 This includes the time period for evaluation and the attainment threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#goal ApplicationsignalsServiceLevelObjective#goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#goal ApplicationsignalsServiceLevelObjective#goal}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This structure contains information about the performance metric that a request-based SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#request_based_sli ApplicationsignalsServiceLevelObjective#request_based_sli}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#request_based_sli ApplicationsignalsServiceLevelObjective#request_based_sli}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This structure contains information about the performance metric that an SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#sli ApplicationsignalsServiceLevelObjective#sli}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#sli ApplicationsignalsServiceLevelObjective#sli}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of tag keys and values associated with the resource you specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#tags ApplicationsignalsServiceLevelObjective#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#tags ApplicationsignalsServiceLevelObjective#tags}
 
 ---
 
@@ -639,7 +639,7 @@ The threshold that determines if the goal is being met.
 An attainment goal is the ratio of good periods that meet the threshold requirements to the total periods within the interval. For example, an attainment goal of 99.9% means that within your interval, you are targeting 99.9% of the periods to be in healthy state.
 If you omit this parameter, 99 is used to represent 99% as the attainment goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#attainment_goal ApplicationsignalsServiceLevelObjective#attainment_goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#attainment_goal ApplicationsignalsServiceLevelObjective#attainment_goal}
 
 ---
 
@@ -652,7 +652,7 @@ The time period used to evaluate the SLO.
 It can be either a calendar interval or rolling interval.
 If you omit this parameter, a rolling interval of 7 days is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#interval ApplicationsignalsServiceLevelObjective#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#interval ApplicationsignalsServiceLevelObjective#interval}
 
 ---
 
@@ -664,7 +664,7 @@ The percentage of remaining budget over total budget that you want to get warnin
 
 If you omit this parameter, the default of 50.0 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#warning_threshold ApplicationsignalsServiceLevelObjective#warning_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#warning_threshold ApplicationsignalsServiceLevelObjective#warning_threshold}
 
 ---
 
@@ -684,7 +684,7 @@ def put_request_based_sli(
 
 The arithmetic operation used when comparing the specified metric to the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
 
 ---
 
@@ -694,7 +694,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value that the SLI metric is compared to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
 
 ---
 
@@ -704,7 +704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This structure contains the information about the metric that is used for a request-based SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#request_based_sli_metric ApplicationsignalsServiceLevelObjective#request_based_sli_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#request_based_sli_metric ApplicationsignalsServiceLevelObjective#request_based_sli_metric}
 
 ---
 
@@ -724,7 +724,7 @@ def put_sli(
 
 The arithmetic operation used when comparing the specified metric to the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
 
 ---
 
@@ -734,7 +734,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value that the SLI metric is compared to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
 
 ---
 
@@ -744,7 +744,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure that contains information about the metric that the SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#sli_metric ApplicationsignalsServiceLevelObjective#sli_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#sli_metric ApplicationsignalsServiceLevelObjective#sli_metric}
 
 ---
 
@@ -918,7 +918,7 @@ The construct id used in the generated config for the ApplicationsignalsServiceL
 
 The id of the existing ApplicationsignalsServiceLevelObjective that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1374,7 +1374,7 @@ look_back_window_minutes: typing.Union[int, float]
 
 The number of minutes to use as the look-back window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#look_back_window_minutes ApplicationsignalsServiceLevelObjective#look_back_window_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#look_back_window_minutes ApplicationsignalsServiceLevelObjective#look_back_window_minutes}
 
 ---
 
@@ -1506,7 +1506,7 @@ name: str
 
 The name of this SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -1522,7 +1522,7 @@ Each object in this array defines the length of the look-back window used to cal
 
 The burn rate measures how fast the service is consuming the error budget, relative to the attainment goal of the SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#burn_rate_configurations ApplicationsignalsServiceLevelObjective#burn_rate_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#burn_rate_configurations ApplicationsignalsServiceLevelObjective#burn_rate_configurations}
 
 ---
 
@@ -1536,7 +1536,7 @@ description: str
 
 An optional description for this SLO. Default is 'No description'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#description ApplicationsignalsServiceLevelObjective#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#description ApplicationsignalsServiceLevelObjective#description}
 
 ---
 
@@ -1552,7 +1552,7 @@ Each object in this array defines a time exclusion window for this SLO.
 
 The time exclusion window is used to exclude breaching data points from affecting attainment rate, error budget, and burn rate metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#exclusion_windows ApplicationsignalsServiceLevelObjective#exclusion_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#exclusion_windows ApplicationsignalsServiceLevelObjective#exclusion_windows}
 
 ---
 
@@ -1568,7 +1568,7 @@ A structure that contains the attributes that determine the goal of the SLO.
 
 This includes the time period for evaluation and the attainment threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#goal ApplicationsignalsServiceLevelObjective#goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#goal ApplicationsignalsServiceLevelObjective#goal}
 
 ---
 
@@ -1582,7 +1582,7 @@ request_based_sli: ApplicationsignalsServiceLevelObjectiveRequestBasedSli
 
 This structure contains information about the performance metric that a request-based SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#request_based_sli ApplicationsignalsServiceLevelObjective#request_based_sli}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#request_based_sli ApplicationsignalsServiceLevelObjective#request_based_sli}
 
 ---
 
@@ -1596,7 +1596,7 @@ sli: ApplicationsignalsServiceLevelObjectiveSli
 
 This structure contains information about the performance metric that an SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#sli ApplicationsignalsServiceLevelObjective#sli}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#sli ApplicationsignalsServiceLevelObjective#sli}
 
 ---
 
@@ -1610,7 +1610,7 @@ tags: IResolvable | typing.List[ApplicationsignalsServiceLevelObjectiveTags]
 
 The list of tag keys and values associated with the resource you specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#tags ApplicationsignalsServiceLevelObjective#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#tags ApplicationsignalsServiceLevelObjective#tags}
 
 ---
 
@@ -1650,7 +1650,7 @@ reason: str
 
 An optional reason for scheduling this time exclusion window. Default is 'No reason'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#reason ApplicationsignalsServiceLevelObjective#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#reason ApplicationsignalsServiceLevelObjective#reason}
 
 ---
 
@@ -1664,7 +1664,7 @@ recurrence_rule: ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurren
 
 This object defines how often to repeat a time exclusion window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#recurrence_rule ApplicationsignalsServiceLevelObjective#recurrence_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#recurrence_rule ApplicationsignalsServiceLevelObjective#recurrence_rule}
 
 ---
 
@@ -1680,7 +1680,7 @@ The time you want the exclusion window to start at.
 
 Note that time exclusion windows can only be scheduled in the future, not the past.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
 
 ---
 
@@ -1694,7 +1694,7 @@ window: ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindow
 
 This object defines the length of time an exclusion window should span.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#window ApplicationsignalsServiceLevelObjective#window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#window ApplicationsignalsServiceLevelObjective#window}
 
 ---
 
@@ -1728,7 +1728,7 @@ expression: str
 
 A cron or rate expression denoting how often to repeat this exclusion window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -1766,7 +1766,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -1780,7 +1780,7 @@ duration_unit: str
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -1821,7 +1821,7 @@ The threshold that determines if the goal is being met.
 An attainment goal is the ratio of good periods that meet the threshold requirements to the total periods within the interval. For example, an attainment goal of 99.9% means that within your interval, you are targeting 99.9% of the periods to be in healthy state.
 If you omit this parameter, 99 is used to represent 99% as the attainment goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#attainment_goal ApplicationsignalsServiceLevelObjective#attainment_goal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#attainment_goal ApplicationsignalsServiceLevelObjective#attainment_goal}
 
 ---
 
@@ -1838,7 +1838,7 @@ The time period used to evaluate the SLO.
 It can be either a calendar interval or rolling interval.
 If you omit this parameter, a rolling interval of 7 days is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#interval ApplicationsignalsServiceLevelObjective#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#interval ApplicationsignalsServiceLevelObjective#interval}
 
 ---
 
@@ -1854,7 +1854,7 @@ The percentage of remaining budget over total budget that you want to get warnin
 
 If you omit this parameter, the default of 50.0 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#warning_threshold ApplicationsignalsServiceLevelObjective#warning_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#warning_threshold ApplicationsignalsServiceLevelObjective#warning_threshold}
 
 ---
 
@@ -1890,7 +1890,7 @@ calendar_interval: ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarIn
 
 If the interval for this service level objective is a calendar interval, this structure contains the interval specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#calendar_interval ApplicationsignalsServiceLevelObjective#calendar_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#calendar_interval ApplicationsignalsServiceLevelObjective#calendar_interval}
 
 ---
 
@@ -1904,7 +1904,7 @@ rolling_interval: ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingInte
 
 If the interval is a calendar interval, this structure contains the interval specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#rolling_interval ApplicationsignalsServiceLevelObjective#rolling_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#rolling_interval ApplicationsignalsServiceLevelObjective#rolling_interval}
 
 ---
 
@@ -1944,7 +1944,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -1958,7 +1958,7 @@ duration_unit: str
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -1975,7 +1975,7 @@ Epoch time in seconds you want the first interval to start.
 Be sure to choose a time that configures the intervals the way that you want. For example, if you want weekly intervals starting on Mondays at 6 a.m., be sure to specify a start time that is a Monday at 6 a.m.
 As soon as one calendar interval ends, another automatically begins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
 
 ---
 
@@ -2013,7 +2013,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -2027,7 +2027,7 @@ duration_unit: str
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -2065,7 +2065,7 @@ comparison_operator: str
 
 The arithmetic operation used when comparing the specified metric to the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
 
 ---
 
@@ -2079,7 +2079,7 @@ metric_threshold: typing.Union[int, float]
 
 The value that the SLI metric is compared to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
 
 ---
 
@@ -2093,7 +2093,7 @@ request_based_sli_metric: ApplicationsignalsServiceLevelObjectiveRequestBasedSli
 
 This structure contains the information about the metric that is used for a request-based SLO.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#request_based_sli_metric ApplicationsignalsServiceLevelObjective#request_based_sli_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#request_based_sli_metric ApplicationsignalsServiceLevelObjective#request_based_sli_metric}
 
 ---
 
@@ -2121,7 +2121,7 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.compositeSliConfig">composite_sli_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.compositeSliConfig">composite_sli_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.dependencyConfig">dependency_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricDependencyConfig</a></code> | Configuration for identifying a dependency and its operation. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.keyAttributes">key_attributes</a></code> | <code>typing.Mapping[str]</code> | This is a string-to-string map that contains information about the type of object that this SLO is related to. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetric.property.metricName">metric_name</a></code> | <code>str</code> | The name of the metric for non-Application Signals services. |
@@ -2141,7 +2141,7 @@ composite_sli_config: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequ
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
 
 ---
 
@@ -2155,7 +2155,7 @@ dependency_config: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequest
 
 Configuration for identifying a dependency and its operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
 
 ---
 
@@ -2169,7 +2169,7 @@ key_attributes: typing.Mapping[str]
 
 This is a string-to-string map that contains information about the type of object that this SLO is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
 
 ---
 
@@ -2183,7 +2183,7 @@ metric_name: str
 
 The name of the metric for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -2197,7 +2197,7 @@ metric_source: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBase
 
 Configuration for identifying the source of metrics for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
 
 ---
 
@@ -2211,7 +2211,7 @@ metric_type: str
 
 If the SLO monitors either the LATENCY or AVAILABILITY metric that Application Signals collects, this field displays which of those metrics is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
 
 ---
 
@@ -2227,7 +2227,7 @@ This structure defines the metric that is used as the "good request" or "bad req
 
 This value observed for the metric defined in `TotalRequestCountMetric` is divided by the number found for `MonitoredRequestCountMetric` to determine the percentage of successful requests that this SLO tracks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#monitored_request_count_metric ApplicationsignalsServiceLevelObjective#monitored_request_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#monitored_request_count_metric ApplicationsignalsServiceLevelObjective#monitored_request_count_metric}
 
 ---
 
@@ -2241,7 +2241,7 @@ operation_name: str
 
 If the SLO monitors a specific operation of the service, this field displays that operation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
 
 ---
 
@@ -2257,7 +2257,7 @@ This structure defines the metric that is used as the "total requests" number fo
 
 The number observed for this metric is divided by the number of "good requests" or "bad requests" that is observed for the metric defined in `MonitoredRequestCountMetric`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#total_request_count_metric ApplicationsignalsServiceLevelObjective#total_request_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#total_request_count_metric ApplicationsignalsServiceLevelObjective#total_request_count_metric}
 
 ---
 
@@ -2278,8 +2278,8 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.compositeSliComponents">composite_sli_components</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.selectionConfig">selection_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.compositeSliComponents">composite_sli_components</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig.property.selectionConfig">selection_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
 
 ---
 
@@ -2291,7 +2291,7 @@ composite_sli_components: IResolvable | typing.List[ApplicationsignalsServiceLev
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
 
 ---
 
@@ -2303,7 +2303,7 @@ selection_config: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestB
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
 
 ---
 
@@ -2323,7 +2323,7 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">operation_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">operation_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
 
 ---
 
@@ -2335,7 +2335,7 @@ operation_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
 
 ---
 
@@ -2356,8 +2356,8 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveR
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.pattern">pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.pattern">pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
 
 ---
 
@@ -2369,7 +2369,7 @@ pattern: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 
 ---
 
@@ -2381,7 +2381,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 
 ---
 
@@ -2417,7 +2417,7 @@ dependency_key_attributes: typing.Mapping[str]
 
 If this SLO is related to a metric collected by Application Signals, you must use this field to specify which dependency the SLO metric is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
 
 ---
 
@@ -2431,7 +2431,7 @@ dependency_operation_name: str
 
 When the SLO monitors a specific operation of the dependency, this field specifies the name of that operation in the dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
 
 ---
 
@@ -2467,7 +2467,7 @@ metric_source_attributes: typing.Mapping[str]
 
 Optional additional attributes for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
 
 ---
 
@@ -2481,7 +2481,7 @@ metric_source_key_attributes: typing.Mapping[str]
 
 Required attributes that identify the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
 
 ---
 
@@ -2517,7 +2517,7 @@ bad_count_metric: IResolvable | typing.List[ApplicationsignalsServiceLevelObject
 
 If you want to count "bad requests" to determine the percentage of successful requests for this request-based SLO, specify the metric to use as "bad requests" in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#bad_count_metric ApplicationsignalsServiceLevelObjective#bad_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#bad_count_metric ApplicationsignalsServiceLevelObjective#bad_count_metric}
 
 ---
 
@@ -2531,7 +2531,7 @@ good_count_metric: IResolvable | typing.List[ApplicationsignalsServiceLevelObjec
 
 If you want to count "good requests" to determine the percentage of successful requests for this request-based SLO, specify the metric to use as "good requests" in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#good_count_metric ApplicationsignalsServiceLevelObjective#good_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#good_count_metric ApplicationsignalsServiceLevelObjective#good_count_metric}
 
 ---
 
@@ -2573,7 +2573,7 @@ account_id: str
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -2587,7 +2587,7 @@ expression: str
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -2601,7 +2601,7 @@ id: str
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2620,7 +2620,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -2634,7 +2634,7 @@ return_data: bool | IResolvable
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -2674,7 +2674,7 @@ metric: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMet
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -2688,7 +2688,7 @@ period: typing.Union[int, float]
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -2702,7 +2702,7 @@ stat: str
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -2718,7 +2718,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -2756,7 +2756,7 @@ dimensions: IResolvable | typing.List[ApplicationsignalsServiceLevelObjectiveReq
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -2770,7 +2770,7 @@ metric_name: str
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -2784,7 +2784,7 @@ namespace: str
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -2822,7 +2822,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -2838,7 +2838,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -2880,7 +2880,7 @@ account_id: str
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -2894,7 +2894,7 @@ expression: str
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -2908,7 +2908,7 @@ id: str
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2927,7 +2927,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -2941,7 +2941,7 @@ return_data: bool | IResolvable
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -2981,7 +2981,7 @@ metric: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMet
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -2995,7 +2995,7 @@ period: typing.Union[int, float]
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -3009,7 +3009,7 @@ stat: str
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -3025,7 +3025,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -3063,7 +3063,7 @@ dimensions: IResolvable | typing.List[ApplicationsignalsServiceLevelObjectiveReq
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -3077,7 +3077,7 @@ metric_name: str
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -3091,7 +3091,7 @@ namespace: str
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -3129,7 +3129,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -3145,7 +3145,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -3187,7 +3187,7 @@ account_id: str
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -3201,7 +3201,7 @@ expression: str
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -3215,7 +3215,7 @@ id: str
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3234,7 +3234,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -3248,7 +3248,7 @@ return_data: bool | IResolvable
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -3288,7 +3288,7 @@ metric: ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMet
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -3302,7 +3302,7 @@ period: typing.Union[int, float]
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -3316,7 +3316,7 @@ stat: str
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -3332,7 +3332,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -3370,7 +3370,7 @@ dimensions: IResolvable | typing.List[ApplicationsignalsServiceLevelObjectiveReq
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -3384,7 +3384,7 @@ metric_name: str
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -3398,7 +3398,7 @@ namespace: str
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -3436,7 +3436,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -3452,7 +3452,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -3490,7 +3490,7 @@ comparison_operator: str
 
 The arithmetic operation used when comparing the specified metric to the threshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#comparison_operator ApplicationsignalsServiceLevelObjective#comparison_operator}
 
 ---
 
@@ -3504,7 +3504,7 @@ metric_threshold: typing.Union[int, float]
 
 The value that the SLI metric is compared to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_threshold ApplicationsignalsServiceLevelObjective#metric_threshold}
 
 ---
 
@@ -3518,7 +3518,7 @@ sli_metric: ApplicationsignalsServiceLevelObjectiveSliSliMetric
 
 A structure that contains information about the metric that the SLO monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#sli_metric ApplicationsignalsServiceLevelObjective#sli_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#sli_metric ApplicationsignalsServiceLevelObjective#sli_metric}
 
 ---
 
@@ -3547,7 +3547,7 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.compositeSliConfig">composite_sli_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.compositeSliConfig">composite_sli_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.dependencyConfig">dependency_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig</a></code> | Configuration for identifying a dependency and its operation. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.keyAttributes">key_attributes</a></code> | <code>typing.Mapping[str]</code> | This is a string-to-string map that contains information about the type of object that this SLO is related to. |
 | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetric.property.metricDataQueries">metric_data_queries</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueries">ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueries</a>]</code> | If this SLO monitors a CloudWatch metric or the result of a CloudWatch metric math expression, this structure includes the information about that metric or expression. |
@@ -3568,7 +3568,7 @@ composite_sli_config: ApplicationsignalsServiceLevelObjectiveSliSliMetricComposi
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
 
 ---
 
@@ -3582,7 +3582,7 @@ dependency_config: ApplicationsignalsServiceLevelObjectiveSliSliMetricDependency
 
 Configuration for identifying a dependency and its operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
 
 ---
 
@@ -3596,7 +3596,7 @@ key_attributes: typing.Mapping[str]
 
 This is a string-to-string map that contains information about the type of object that this SLO is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
 
 ---
 
@@ -3610,7 +3610,7 @@ metric_data_queries: IResolvable | typing.List[ApplicationsignalsServiceLevelObj
 
 If this SLO monitors a CloudWatch metric or the result of a CloudWatch metric math expression, this structure includes the information about that metric or expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_data_queries ApplicationsignalsServiceLevelObjective#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_data_queries ApplicationsignalsServiceLevelObjective#metric_data_queries}
 
 ---
 
@@ -3624,7 +3624,7 @@ metric_name: str
 
 The name of the metric for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -3638,7 +3638,7 @@ metric_source: ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSource
 
 Configuration for identifying the source of metrics for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
 
 ---
 
@@ -3652,7 +3652,7 @@ metric_type: str
 
 If the SLO monitors either the LATENCY or AVAILABILITY metric that Application Signals collects, this field displays which of those metrics is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
 
 ---
 
@@ -3666,7 +3666,7 @@ operation_name: str
 
 If the SLO monitors a specific operation of the service, this field displays that operation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
 
 ---
 
@@ -3682,7 +3682,7 @@ The number of seconds to use as the period for SLO evaluation.
 
 Your application's performance is compared to the SLI during each period. For each period, the application is determined to have either achieved or not achieved the necessary performance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period_seconds ApplicationsignalsServiceLevelObjective#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period_seconds ApplicationsignalsServiceLevelObjective#period_seconds}
 
 ---
 
@@ -3696,7 +3696,7 @@ statistic: str
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#statistic ApplicationsignalsServiceLevelObjective#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#statistic ApplicationsignalsServiceLevelObjective#statistic}
 
 ---
 
@@ -3717,8 +3717,8 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.compositeSliComponents">composite_sli_components</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.selectionConfig">selection_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.compositeSliComponents">composite_sli_components</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig.property.selectionConfig">selection_config</a></code> | <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}. |
 
 ---
 
@@ -3730,7 +3730,7 @@ composite_sli_components: IResolvable | typing.List[ApplicationsignalsServiceLev
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
 
 ---
 
@@ -3742,7 +3742,7 @@ selection_config: ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSl
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
 
 ---
 
@@ -3762,7 +3762,7 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">operation_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents.property.operationName">operation_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}. |
 
 ---
 
@@ -3774,7 +3774,7 @@ operation_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
 
 ---
 
@@ -3795,8 +3795,8 @@ applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.pattern">pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
-| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.pattern">pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}. |
+| <code><a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}. |
 
 ---
 
@@ -3808,7 +3808,7 @@ pattern: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 
 ---
 
@@ -3820,7 +3820,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 
 ---
 
@@ -3856,7 +3856,7 @@ dependency_key_attributes: typing.Mapping[str]
 
 If this SLO is related to a metric collected by Application Signals, you must use this field to specify which dependency the SLO metric is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
 
 ---
 
@@ -3870,7 +3870,7 @@ dependency_operation_name: str
 
 When the SLO monitors a specific operation of the dependency, this field specifies the name of that operation in the dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
 
 ---
 
@@ -3912,7 +3912,7 @@ account_id: str
 
 The ID of the account where the metrics are located, if this is a cross-account alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#account_id ApplicationsignalsServiceLevelObjective#account_id}
 
 ---
 
@@ -3926,7 +3926,7 @@ expression: str
 
 The math expression to be performed on the returned data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -3940,7 +3940,7 @@ id: str
 
 A short name used to tie this object to the results in the response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#id ApplicationsignalsServiceLevelObjective#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3959,7 +3959,7 @@ A metric to be used directly for the SLO, or to be used in the math expression t
 
 Within one MetricDataQuery, you must specify either Expression or MetricStat but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_stat ApplicationsignalsServiceLevelObjective#metric_stat}
 
 ---
 
@@ -3973,7 +3973,7 @@ return_data: bool | IResolvable
 
 This option indicates whether to return the timestamps and raw data values of this metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#return_data ApplicationsignalsServiceLevelObjective#return_data}
 
 ---
 
@@ -4013,7 +4013,7 @@ metric: ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQueriesMetr
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -4027,7 +4027,7 @@ period: typing.Union[int, float]
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -4041,7 +4041,7 @@ stat: str
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -4057,7 +4057,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -4095,7 +4095,7 @@ dimensions: IResolvable | typing.List[ApplicationsignalsServiceLevelObjectiveSli
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -4109,7 +4109,7 @@ metric_name: str
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -4123,7 +4123,7 @@ namespace: str
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -4161,7 +4161,7 @@ The name of the dimension.
 
 Dimension names must contain only ASCII characters, must include at least one non-whitespace character, and cannot start with a colon (:). ASCII control characters are not supported as part of dimension names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#name ApplicationsignalsServiceLevelObjective#name}
 
 ---
 
@@ -4177,7 +4177,7 @@ The value of the dimension.
 
 Dimension values must contain only ASCII characters and must include at least one non-whitespace character. ASCII control characters are not supported as part of dimension values
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -4213,7 +4213,7 @@ metric_source_attributes: typing.Mapping[str]
 
 Optional additional attributes for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
 
 ---
 
@@ -4227,7 +4227,7 @@ metric_source_key_attributes: typing.Mapping[str]
 
 Required attributes that identify the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
 
 ---
 
@@ -4265,7 +4265,7 @@ A string that you can use to assign a value.
 
 The combination of tag keys and values can help you organize and categorize your resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#key ApplicationsignalsServiceLevelObjective#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#key ApplicationsignalsServiceLevelObjective#key}
 
 ---
 
@@ -4279,7 +4279,7 @@ value: str
 
 The value for the specified tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 
 ---
 
@@ -5216,7 +5216,7 @@ def put_recurrence_rule(
 
 A cron or rate expression denoting how often to repeat this exclusion window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#expression ApplicationsignalsServiceLevelObjective#expression}
 
 ---
 
@@ -5237,7 +5237,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -5247,7 +5247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -6655,7 +6655,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -6665,7 +6665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -6678,7 +6678,7 @@ Epoch time in seconds you want the first interval to start.
 Be sure to choose a time that configures the intervals the way that you want. For example, if you want weekly intervals starting on Mondays at 6 a.m., be sure to specify a start time that is a Monday at 6 a.m.
 As soon as one calendar interval ends, another automatically begins.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#start_time ApplicationsignalsServiceLevelObjective#start_time}
 
 ---
 
@@ -6699,7 +6699,7 @@ Specifies the duration of each interval.
 
 For example, if `Duration` is 1 and `DurationUnit` is `MONTH`, each interval is one month, aligned with the calendar.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration ApplicationsignalsServiceLevelObjective#duration}
 
 ---
 
@@ -6709,7 +6709,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the interval unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#duration_unit ApplicationsignalsServiceLevelObjective#duration_unit}
 
 ---
 
@@ -7394,7 +7394,7 @@ def put_interval(
 
 If the interval for this service level objective is a calendar interval, this structure contains the interval specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#calendar_interval ApplicationsignalsServiceLevelObjective#calendar_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#calendar_interval ApplicationsignalsServiceLevelObjective#calendar_interval}
 
 ---
 
@@ -7404,7 +7404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If the interval is a calendar interval, this structure contains the interval specifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#rolling_interval ApplicationsignalsServiceLevelObjective#rolling_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#rolling_interval ApplicationsignalsServiceLevelObjective#rolling_interval}
 
 ---
 
@@ -7790,7 +7790,7 @@ def put_request_based_sli_metric(
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
 
 ---
 
@@ -7800,7 +7800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for identifying a dependency and its operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
 
 ---
 
@@ -7810,7 +7810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This is a string-to-string map that contains information about the type of object that this SLO is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
 
 ---
 
@@ -7820,7 +7820,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the metric for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -7830,7 +7830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for identifying the source of metrics for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
 
 ---
 
@@ -7840,7 +7840,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If the SLO monitors either the LATENCY or AVAILABILITY metric that Application Signals collects, this field displays which of those metrics is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
 
 ---
 
@@ -7852,7 +7852,7 @@ This structure defines the metric that is used as the "good request" or "bad req
 
 This value observed for the metric defined in `TotalRequestCountMetric` is divided by the number found for `MonitoredRequestCountMetric` to determine the percentage of successful requests that this SLO tracks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#monitored_request_count_metric ApplicationsignalsServiceLevelObjective#monitored_request_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#monitored_request_count_metric ApplicationsignalsServiceLevelObjective#monitored_request_count_metric}
 
 ---
 
@@ -7862,7 +7862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If the SLO monitors a specific operation of the service, this field displays that operation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
 
 ---
 
@@ -7874,7 +7874,7 @@ This structure defines the metric that is used as the "total requests" number fo
 
 The number observed for this metric is divided by the number of "good requests" or "bad requests" that is observed for the metric defined in `MonitoredRequestCountMetric`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#total_request_count_metric ApplicationsignalsServiceLevelObjective#total_request_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#total_request_count_metric ApplicationsignalsServiceLevelObjective#total_request_count_metric}
 
 ---
 
@@ -8760,7 +8760,7 @@ def put_selection_config(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 
 ---
 
@@ -8768,7 +8768,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 
 ---
 
@@ -11187,7 +11187,7 @@ def put_metric(
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -11197,7 +11197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -11207,7 +11207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -11640,7 +11640,7 @@ def put_metric_stat(
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -11650,7 +11650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -11660,7 +11660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -11672,7 +11672,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -13179,7 +13179,7 @@ def put_metric(
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -13189,7 +13189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -13199,7 +13199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -13632,7 +13632,7 @@ def put_metric_stat(
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -13642,7 +13642,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -13652,7 +13652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -13664,7 +13664,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -14471,7 +14471,7 @@ def put_composite_sli_config(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigCompositeSliComponents</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
 
 ---
 
@@ -14479,7 +14479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedSliMetricCompositeSliConfigSelectionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
 
 ---
 
@@ -14498,7 +14498,7 @@ def put_dependency_config(
 
 If this SLO is related to a metric collected by Application Signals, you must use this field to specify which dependency the SLO metric is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
 
 ---
 
@@ -14508,7 +14508,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When the SLO monitors a specific operation of the dependency, this field specifies the name of that operation in the dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
 
 ---
 
@@ -14527,7 +14527,7 @@ def put_metric_source(
 
 Optional additional attributes for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
 
 ---
 
@@ -14537,7 +14537,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required attributes that identify the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
 
 ---
 
@@ -14556,7 +14556,7 @@ def put_monitored_request_count_metric(
 
 If you want to count "bad requests" to determine the percentage of successful requests for this request-based SLO, specify the metric to use as "bad requests" in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#bad_count_metric ApplicationsignalsServiceLevelObjective#bad_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#bad_count_metric ApplicationsignalsServiceLevelObjective#bad_count_metric}
 
 ---
 
@@ -14566,7 +14566,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If you want to count "good requests" to determine the percentage of successful requests for this request-based SLO, specify the metric to use as "good requests" in this structure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#good_count_metric ApplicationsignalsServiceLevelObjective#good_count_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#good_count_metric ApplicationsignalsServiceLevelObjective#good_count_metric}
 
 ---
 
@@ -16199,7 +16199,7 @@ def put_metric(
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -16209,7 +16209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -16219,7 +16219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -16652,7 +16652,7 @@ def put_metric_stat(
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -16662,7 +16662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -16672,7 +16672,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -16684,7 +16684,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -17127,7 +17127,7 @@ def put_sli_metric(
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_config ApplicationsignalsServiceLevelObjective#composite_sli_config}.
 
 ---
 
@@ -17137,7 +17137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for identifying a dependency and its operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_config ApplicationsignalsServiceLevelObjective#dependency_config}
 
 ---
 
@@ -17147,7 +17147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This is a string-to-string map that contains information about the type of object that this SLO is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#key_attributes ApplicationsignalsServiceLevelObjective#key_attributes}
 
 ---
 
@@ -17157,7 +17157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If this SLO monitors a CloudWatch metric or the result of a CloudWatch metric math expression, this structure includes the information about that metric or expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_data_queries ApplicationsignalsServiceLevelObjective#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_data_queries ApplicationsignalsServiceLevelObjective#metric_data_queries}
 
 ---
 
@@ -17167,7 +17167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the metric for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -17177,7 +17177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for identifying the source of metrics for non-Application Signals services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source ApplicationsignalsServiceLevelObjective#metric_source}
 
 ---
 
@@ -17187,7 +17187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If the SLO monitors either the LATENCY or AVAILABILITY metric that Application Signals collects, this field displays which of those metrics is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_type ApplicationsignalsServiceLevelObjective#metric_type}
 
 ---
 
@@ -17197,7 +17197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If the SLO monitors a specific operation of the service, this field displays that operation name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}
 
 ---
 
@@ -17209,7 +17209,7 @@ The number of seconds to use as the period for SLO evaluation.
 
 Your application's performance is compared to the SLI during each period. For each period, the application is determined to have either achieved or not achieved the necessary performance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period_seconds ApplicationsignalsServiceLevelObjective#period_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period_seconds ApplicationsignalsServiceLevelObjective#period_seconds}
 
 ---
 
@@ -17219,7 +17219,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#statistic ApplicationsignalsServiceLevelObjective#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#statistic ApplicationsignalsServiceLevelObjective#statistic}
 
 ---
 
@@ -18105,7 +18105,7 @@ def put_selection_config(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 
 ---
 
@@ -18113,7 +18113,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 
 ---
 
@@ -20200,7 +20200,7 @@ def put_metric(
 
 An array of one or more dimensions to use to define the metric that you want to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dimensions ApplicationsignalsServiceLevelObjective#dimensions}
 
 ---
 
@@ -20210,7 +20210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_name ApplicationsignalsServiceLevelObjective#metric_name}
 
 ---
 
@@ -20220,7 +20220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#namespace ApplicationsignalsServiceLevelObjective#namespace}
 
 ---
 
@@ -20653,7 +20653,7 @@ def put_metric_stat(
 
 This structure defines the metric used for a service level indicator, including the metric name, namespace, and dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric ApplicationsignalsServiceLevelObjective#metric}
 
 ---
 
@@ -20663,7 +20663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The granularity, in seconds, to be used for the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#period ApplicationsignalsServiceLevelObjective#period}
 
 ---
 
@@ -20673,7 +20673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The statistic to use for comparison to the threshold. It can be any CloudWatch statistic or extended statistic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#stat ApplicationsignalsServiceLevelObjective#stat}
 
 ---
 
@@ -20685,7 +20685,7 @@ If you omit Unit then all data that was collected with any unit is returned, alo
 
 If you specify a unit, the operation returns only data that was collected with that unit specified. If you specify a unit that does not match the data collected, the results of the operation are null. CloudWatch does not perform unit conversions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#unit ApplicationsignalsServiceLevelObjective#unit}
 
 ---
 
@@ -21462,7 +21462,7 @@ def put_composite_sli_config(
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#composite_sli_components ApplicationsignalsServiceLevelObjective#composite_sli_components}.
 
 ---
 
@@ -21470,7 +21470,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.applicationsignalsServiceLevelObjective.ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig">ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#selection_config ApplicationsignalsServiceLevelObjective#selection_config}.
 
 ---
 
@@ -21489,7 +21489,7 @@ def put_dependency_config(
 
 If this SLO is related to a metric collected by Application Signals, you must use this field to specify which dependency the SLO metric is related to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_key_attributes ApplicationsignalsServiceLevelObjective#dependency_key_attributes}
 
 ---
 
@@ -21499,7 +21499,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When the SLO monitors a specific operation of the dependency, this field specifies the name of that operation in the dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#dependency_operation_name ApplicationsignalsServiceLevelObjective#dependency_operation_name}
 
 ---
 
@@ -21532,7 +21532,7 @@ def put_metric_source(
 
 Optional additional attributes for the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_attributes ApplicationsignalsServiceLevelObjective#metric_source_attributes}
 
 ---
 
@@ -21542,7 +21542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required attributes that identify the metric source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#metric_source_key_attributes ApplicationsignalsServiceLevelObjective#metric_source_key_attributes}
 
 ---
 

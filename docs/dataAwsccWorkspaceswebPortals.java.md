@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspaceswebPortals <a name="DataAwsccWorkspaceswebPortals" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebPortals.DataAwsccWorkspaceswebPortals"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspaceswebPortals.DataAwsccWorkspaceswebPortals.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWorkspaceswebPort
 
 The id of the existing DataAwsccWorkspaceswebPortals that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_portals#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_portals#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCodegurureviewerRepositoryAssociations <a name="DataAwsccCodegurureviewerRepositoryAssociations" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociations.DataAwsccCodegurureviewerRepositoryAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codegurureviewer_repository_associations awscc_codegurureviewer_repository_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codegurureviewer_repository_associations awscc_codegurureviewer_repository_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodegurureviewerRepositoryAssociations.DataAwsccCodegurureviewerRepositoryAssociations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodegurureviewerR
 
 The id of the existing DataAwsccCodegurureviewerRepositoryAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codegurureviewer_repository_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codegurureviewer_repository_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

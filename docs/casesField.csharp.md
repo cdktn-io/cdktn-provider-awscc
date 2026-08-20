@@ -4,7 +4,7 @@
 
 ### CasesField <a name="CasesField" id="@cdktn/provider-awscc.casesField.CasesField"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field awscc_cases_field}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field awscc_cases_field}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesField.CasesField.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the CasesField to import.
 
 The id of the existing CasesField that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -966,7 +966,7 @@ public CasesFieldAttributesText Text { get; set; }
 
 Field attributes for Text field type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#text CasesField#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#text CasesField#text}
 
 ---
 
@@ -1000,7 +1000,7 @@ public bool|IResolvable IsMultiline { get; set; }
 
 Attribute that defines rendering component and validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#is_multiline CasesField#is_multiline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#is_multiline CasesField#is_multiline}
 
 ---
 
@@ -1130,7 +1130,7 @@ The display name of the field as it appears to agents in the case interface.
 
 Should be descriptive and user-friendly (e.g., 'Customer Priority Level', 'Issue Category').
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#name CasesField#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#name CasesField#name}
 
 ---
 
@@ -1146,7 +1146,7 @@ The data type of the field, which determines validation rules, input constraints
 
 Each type has specific constraints: Text (string input), Number (numeric values), Boolean (true/false), DateTime (date/time picker), SingleSelect (dropdown options), Url (URL validation), User (Amazon Connect user selection).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#type CasesField#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#type CasesField#type}
 
 ---
 
@@ -1160,7 +1160,7 @@ public CasesFieldAttributes Attributes { get; set; }
 
 Field-type specific attributes that control rendering and validation behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#attributes CasesField#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#attributes CasesField#attributes}
 
 ---
 
@@ -1176,7 +1176,7 @@ A description explaining the purpose and usage of this field in cases.
 
 Helps agents and administrators understand what information should be captured in this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#description CasesField#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#description CasesField#description}
 
 ---
 
@@ -1190,7 +1190,7 @@ public string DomainId { get; set; }
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#domain_id CasesField#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#domain_id CasesField#domain_id}
 
 ---
 
@@ -1204,7 +1204,7 @@ public IResolvable|CasesFieldTags[] Tags { get; set; }
 
 The tags that you attach to this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#tags CasesField#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#tags CasesField#tags}
 
 ---
 
@@ -1242,7 +1242,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#key CasesField#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#key CasesField#key}
 
 ---
 
@@ -1258,7 +1258,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_field#value CasesField#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_field#value CasesField#value}
 
 ---
 

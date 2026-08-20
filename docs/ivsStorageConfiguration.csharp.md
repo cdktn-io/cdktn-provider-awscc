@@ -4,7 +4,7 @@
 
 ### IvsStorageConfiguration <a name="IvsStorageConfiguration" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsStorageConfiguration.IvsStorageConfiguration.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the IvsStorageConfiguration to
 
 The id of the existing IvsStorageConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ public IvsStorageConfigurationS3 S3 { get; set; }
 
 A complex type that describes an S3 location where recorded videos will be stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#s3 IvsStorageConfiguration#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#s3 IvsStorageConfiguration#s3}
 
 ---
 
@@ -944,7 +944,7 @@ public string Name { get; set; }
 
 Storage Configuration Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#name IvsStorageConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#name IvsStorageConfiguration#name}
 
 ---
 
@@ -958,7 +958,7 @@ public IResolvable|IvsStorageConfigurationTags[] Tags { get; set; }
 
 A list of key-value pairs that contain metadata for the asset model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#tags IvsStorageConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#tags IvsStorageConfiguration#tags}
 
 ---
 
@@ -994,7 +994,7 @@ Location (S3 bucket name) where recorded videos will be stored.
 
 Note that the StorageConfiguration and S3 bucket must be in the same region as the Composition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#bucket_name IvsStorageConfiguration#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#bucket_name IvsStorageConfiguration#bucket_name}
 
 ---
 
@@ -1032,7 +1032,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#key IvsStorageConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#key IvsStorageConfiguration#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration#value IvsStorageConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_storage_configuration#value IvsStorageConfiguration#value}
 
 ---
 

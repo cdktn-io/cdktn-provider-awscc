@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockmantleProjects <a name="DataAwsccBedrockmantleProjects" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockmantleProjects.DataAwsccBedrockmantleProjects.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBedrockmantleProj
 
 The id of the existing DataAwsccBedrockmantleProjects that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockmantle_projects#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockmantle_projects#import import section} in the documentation of this resource for the id to use
 
 ---
 

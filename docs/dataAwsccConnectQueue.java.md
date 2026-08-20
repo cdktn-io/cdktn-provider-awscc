@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectQueue <a name="DataAwsccConnectQueue" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue awscc_connect_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue awscc_connect_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccConnectQueue to i
 
 The id of the existing DataAwsccConnectQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -484,6 +484,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.hoursOfOperationArn">hoursOfOperationArn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.instanceArn">instanceArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.lastModifiedRegion">lastModifiedRegion</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.lastModifiedTime">lastModifiedTime</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.maxContacts">maxContacts</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.outboundCallerConfig">outboundCallerConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueueOutboundCallerConfigOutputReference">DataAwsccConnectQueueOutboundCallerConfigOutputReference</a></code> | *No description.* |
@@ -657,6 +659,26 @@ public java.lang.String getInstanceArn();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `lastModifiedRegion`<sup>Required</sup> <a name="lastModifiedRegion" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.lastModifiedRegion"></a>
+
+```java
+public java.lang.String getLastModifiedRegion();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `lastModifiedTime`<sup>Required</sup> <a name="lastModifiedTime" id="@cdktn/provider-awscc.dataAwsccConnectQueue.DataAwsccConnectQueue.property.lastModifiedTime"></a>
+
+```java
+public java.lang.Number getLastModifiedTime();
+```
+
+- *Type:* java.lang.Number
 
 ---
 
@@ -916,7 +938,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue#id DataAwsccConnectQueue#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

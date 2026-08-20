@@ -4,7 +4,7 @@
 
 ### DataAwsccServicecatalogPortfolios <a name="DataAwsccServicecatalogPortfolios" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_portfolios awscc_servicecatalog_portfolios}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_portfolios awscc_servicecatalog_portfolios}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicecatalogPortfolios.DataAwsccServicecatalogPortfolios.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccServicecatalogPor
 
 The id of the existing DataAwsccServicecatalogPortfolios that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_portfolios#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_portfolios#import import section} in the documentation of this resource for the id to use
 
 ---
 

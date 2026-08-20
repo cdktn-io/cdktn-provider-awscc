@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2DhcpOptionsPlural <a name="DataAwsccEc2DhcpOptionsPlural" id="@cdktn/provider-awscc.dataAwsccEc2DhcpOptionsPlural.DataAwsccEc2DhcpOptionsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2DhcpOptionsPlural.DataAwsccEc2DhcpOptionsPlural.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2DhcpOptionsPlu
 
 The id of the existing DataAwsccEc2DhcpOptionsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_dhcp_options_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_dhcp_options_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

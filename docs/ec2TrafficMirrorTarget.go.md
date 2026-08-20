@@ -4,7 +4,7 @@
 
 ### Ec2TrafficMirrorTarget <a name="Ec2TrafficMirrorTarget" id="@cdktn/provider-awscc.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target awscc_ec2_traffic_mirror_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target awscc_ec2_traffic_mirror_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2TrafficMirrorTarget.Ec2TrafficMirrorTarget.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the Ec2TrafficMirrorTarget to 
 
 The id of the existing Ec2TrafficMirrorTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -986,7 +986,7 @@ Description *string
 
 The description of the Traffic Mirror target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#description Ec2TrafficMirrorTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#description Ec2TrafficMirrorTarget#description}
 
 ---
 
@@ -1000,7 +1000,7 @@ GatewayLoadBalancerEndpointId *string
 
 The ID of the Gateway Load Balancer endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#gateway_load_balancer_endpoint_id Ec2TrafficMirrorTarget#gateway_load_balancer_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#gateway_load_balancer_endpoint_id Ec2TrafficMirrorTarget#gateway_load_balancer_endpoint_id}
 
 ---
 
@@ -1014,7 +1014,7 @@ NetworkInterfaceId *string
 
 The network interface ID that is associated with the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#network_interface_id Ec2TrafficMirrorTarget#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#network_interface_id Ec2TrafficMirrorTarget#network_interface_id}
 
 ---
 
@@ -1028,7 +1028,7 @@ NetworkLoadBalancerArn *string
 
 The Amazon Resource Name (ARN) of the Network Load Balancer that is associated with the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#network_load_balancer_arn Ec2TrafficMirrorTarget#network_load_balancer_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#network_load_balancer_arn Ec2TrafficMirrorTarget#network_load_balancer_arn}
 
 ---
 
@@ -1042,7 +1042,7 @@ Tags interface{}
 
 The tags to assign to the Traffic Mirror target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#tags Ec2TrafficMirrorTarget#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#tags Ec2TrafficMirrorTarget#tags}
 
 ---
 
@@ -1063,8 +1063,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2trafficmirrortarget
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorTarget.Ec2TrafficMirrorTargetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#key Ec2TrafficMirrorTarget#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorTarget.Ec2TrafficMirrorTargetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#value Ec2TrafficMirrorTarget#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorTarget.Ec2TrafficMirrorTargetTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#key Ec2TrafficMirrorTarget#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2TrafficMirrorTarget.Ec2TrafficMirrorTargetTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#value Ec2TrafficMirrorTarget#value}. |
 
 ---
 
@@ -1076,7 +1076,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#key Ec2TrafficMirrorTarget#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#key Ec2TrafficMirrorTarget#key}.
 
 ---
 
@@ -1088,7 +1088,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_target#value Ec2TrafficMirrorTarget#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_traffic_mirror_target#value Ec2TrafficMirrorTarget#value}.
 
 ---
 

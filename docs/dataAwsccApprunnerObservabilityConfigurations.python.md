@@ -4,7 +4,7 @@
 
 ### DataAwsccApprunnerObservabilityConfigurations <a name="DataAwsccApprunnerObservabilityConfigurations" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApprunnerObservabilityConfigurations.DataAwsccApprunnerObservabilityConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccApprunnerObservab
 
 The id of the existing DataAwsccApprunnerObservabilityConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_observability_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

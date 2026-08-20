@@ -4,7 +4,7 @@
 
 ### SyntheticsGroup <a name="SyntheticsGroup" id="@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group awscc_synthetics_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group awscc_synthetics_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroup.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SyntheticsGroup to import.
 
 The id of the existing SyntheticsGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -832,8 +832,8 @@ new SyntheticsGroupConfig {
 | <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.name">Name</a></code> | <code>string</code> | Name of the group. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.resourceArns">ResourceArns</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#resource_arns SyntheticsGroup#resource_arns}. |
-| <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupTags">SyntheticsGroupTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#tags SyntheticsGroup#tags}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.resourceArns">ResourceArns</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#resource_arns SyntheticsGroup#resource_arns}. |
+| <code><a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupTags">SyntheticsGroupTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#tags SyntheticsGroup#tags}. |
 
 ---
 
@@ -917,7 +917,7 @@ public string Name { get; set; }
 
 Name of the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#name SyntheticsGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#name SyntheticsGroup#name}
 
 ---
 
@@ -929,7 +929,7 @@ public string[] ResourceArns { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#resource_arns SyntheticsGroup#resource_arns}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#resource_arns SyntheticsGroup#resource_arns}.
 
 ---
 
@@ -941,7 +941,7 @@ public IResolvable|SyntheticsGroupTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.syntheticsGroup.SyntheticsGroupTags">SyntheticsGroupTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#tags SyntheticsGroup#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#tags SyntheticsGroup#tags}.
 
 ---
 
@@ -979,7 +979,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#key SyntheticsGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#key SyntheticsGroup#key}
 
 ---
 
@@ -995,7 +995,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/synthetics_group#value SyntheticsGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/synthetics_group#value SyntheticsGroup#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEntityresolutionMatchingWorkflows <a name="DataAwsccEntityresolutionMatchingWorkflows" id="@cdktn/provider-awscc.dataAwsccEntityresolutionMatchingWorkflows.DataAwsccEntityresolutionMatchingWorkflows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionMatchingWorkflows.DataAwsccEntityresolutionMatchingWorkflows.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEntityresolutionM
 
 The id of the existing DataAwsccEntityresolutionMatchingWorkflows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_matching_workflows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_matching_workflows#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### OpensearchserviceApplication <a name="OpensearchserviceApplication" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application awscc_opensearchservice_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application awscc_opensearchservice_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.opensearchserviceApplication.OpensearchserviceApplication.Initializer"></a>
 
@@ -583,7 +583,7 @@ The construct id used in the generated config for the OpensearchserviceApplicati
 
 The id of the existing OpensearchserviceApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ Key *string
 
 The configuration key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
 
 ---
 
@@ -1011,7 +1011,7 @@ Value *string
 
 The configuration value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
 
 ---
 
@@ -1141,7 +1141,7 @@ Name *string
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#name OpensearchserviceApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#name OpensearchserviceApplication#name}
 
 ---
 
@@ -1155,7 +1155,7 @@ AppConfigs interface{}
 
 List of application configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#app_configs OpensearchserviceApplication#app_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#app_configs OpensearchserviceApplication#app_configs}
 
 ---
 
@@ -1169,7 +1169,7 @@ DataSources interface{}
 
 List of data sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#data_sources OpensearchserviceApplication#data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#data_sources OpensearchserviceApplication#data_sources}
 
 ---
 
@@ -1183,7 +1183,7 @@ Endpoint *string
 
 The endpoint for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#endpoint OpensearchserviceApplication#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#endpoint OpensearchserviceApplication#endpoint}
 
 ---
 
@@ -1197,7 +1197,7 @@ IamIdentityCenterOptions OpensearchserviceApplicationIamIdentityCenterOptions
 
 Options for configuring IAM Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#iam_identity_center_options OpensearchserviceApplication#iam_identity_center_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#iam_identity_center_options OpensearchserviceApplication#iam_identity_center_options}
 
 ---
 
@@ -1211,7 +1211,7 @@ KmsKeyArn *string
 
 The ARN of the KMS key used to encrypt the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#kms_key_arn OpensearchserviceApplication#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#kms_key_arn OpensearchserviceApplication#kms_key_arn}
 
 ---
 
@@ -1225,7 +1225,7 @@ Tags interface{}
 
 An arbitrary set of tags (key-value pairs) for this application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#tags OpensearchserviceApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#tags OpensearchserviceApplication#tags}
 
 ---
 
@@ -1261,7 +1261,7 @@ DataSourceArn *string
 
 The ARN of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#data_source_arn OpensearchserviceApplication#data_source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#data_source_arn OpensearchserviceApplication#data_source_arn}
 
 ---
 
@@ -1275,7 +1275,7 @@ DataSourceDescription *string
 
 Description of the data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#data_source_description OpensearchserviceApplication#data_source_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#data_source_description OpensearchserviceApplication#data_source_description}
 
 ---
 
@@ -1313,7 +1313,7 @@ Enabled interface{}
 
 Whether IAM Identity Center is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#enabled OpensearchserviceApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#enabled OpensearchserviceApplication#enabled}
 
 ---
 
@@ -1327,7 +1327,7 @@ IamIdentityCenterInstanceArn *string
 
 The ARN of the IAM Identity Center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#iam_identity_center_instance_arn OpensearchserviceApplication#iam_identity_center_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#iam_identity_center_instance_arn OpensearchserviceApplication#iam_identity_center_instance_arn}
 
 ---
 
@@ -1341,7 +1341,7 @@ IamRoleForIdentityCenterApplicationArn *string
 
 The ARN of the IAM role for Identity Center application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#iam_role_for_identity_center_application_arn OpensearchserviceApplication#iam_role_for_identity_center_application_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#iam_role_for_identity_center_application_arn OpensearchserviceApplication#iam_role_for_identity_center_application_arn}
 
 ---
 
@@ -1377,7 +1377,7 @@ Key *string
 
 The key in the key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#key OpensearchserviceApplication#key}
 
 ---
 
@@ -1391,7 +1391,7 @@ Value *string
 
 The value in the key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_application#value OpensearchserviceApplication#value}
 
 ---
 

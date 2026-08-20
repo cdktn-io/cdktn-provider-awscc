@@ -4,7 +4,7 @@
 
 ### M2Deployment <a name="M2Deployment" id="@cdktn/provider-awscc.m2Deployment.M2Deployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment awscc_m2_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment awscc_m2_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.m2Deployment.M2Deployment.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version number of the application to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The environment ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
 
 ---
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the M2Deployment to import.
 
 The id of the existing M2Deployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -989,7 +989,7 @@ public java.lang.String getApplicationId();
 
 The application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
 
 ---
 
@@ -1003,7 +1003,7 @@ public java.lang.Number getApplicationVersion();
 
 The version number of the application to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
 
 ---
 
@@ -1017,7 +1017,7 @@ public java.lang.String getEnvironmentId();
 
 The environment ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
 
 ---
 

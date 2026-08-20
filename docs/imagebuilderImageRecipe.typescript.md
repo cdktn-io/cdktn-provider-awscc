@@ -4,7 +4,7 @@
 
 ### ImagebuilderImageRecipe <a name="ImagebuilderImageRecipe" id="@cdktn/provider-awscc.imagebuilderImageRecipe.ImagebuilderImageRecipe"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImageRecipe.ImagebuilderImageRecipe.Initializer"></a>
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the ImagebuilderImageRecipe to
 
 The id of the existing ImagebuilderImageRecipe that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1083,7 +1083,7 @@ public readonly systemsManagerAgent: ImagebuilderImageRecipeAdditionalInstanceCo
 
 Contains settings for the SSM agent on your build instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#systems_manager_agent ImagebuilderImageRecipe#systems_manager_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#systems_manager_agent ImagebuilderImageRecipe#systems_manager_agent}
 
 ---
 
@@ -1097,7 +1097,7 @@ public readonly userDataOverride: string;
 
 Use this property to provide commands or a command script to run when you launch your build instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#user_data_override ImagebuilderImageRecipe#user_data_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#user_data_override ImagebuilderImageRecipe#user_data_override}
 
 ---
 
@@ -1131,7 +1131,7 @@ Controls whether the SSM agent is removed from your final build image, prior to 
 
 If this is set to true, then the agent is removed from the final image. If it's set to false, then the agent is left in, so that it is included in the new AMI. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#uninstall_after_build ImagebuilderImageRecipe#uninstall_after_build}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#uninstall_after_build ImagebuilderImageRecipe#uninstall_after_build}
 
 ---
 
@@ -1166,7 +1166,7 @@ public readonly deviceName: string;
 
 The device to which these mappings apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#device_name ImagebuilderImageRecipe#device_name}
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly ebs: ImagebuilderImageRecipeBlockDeviceMappingsEbs;
 
 Use to manage Amazon EBS-specific configuration for this mapping.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#ebs ImagebuilderImageRecipe#ebs}
 
 ---
 
@@ -1194,7 +1194,7 @@ public readonly noDevice: string;
 
 Use to remove a mapping from the parent image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#no_device ImagebuilderImageRecipe#no_device}
 
 ---
 
@@ -1208,7 +1208,7 @@ public readonly virtualName: string;
 
 Use to manage instance ephemeral devices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#virtual_name ImagebuilderImageRecipe#virtual_name}
 
 ---
 
@@ -1247,7 +1247,7 @@ public readonly deleteOnTermination: boolean | IResolvable;
 
 Use to configure delete on termination of the associated device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#delete_on_termination ImagebuilderImageRecipe#delete_on_termination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#delete_on_termination ImagebuilderImageRecipe#delete_on_termination}
 
 ---
 
@@ -1261,7 +1261,7 @@ public readonly encrypted: boolean | IResolvable;
 
 Use to configure device encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#encrypted ImagebuilderImageRecipe#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#encrypted ImagebuilderImageRecipe#encrypted}
 
 ---
 
@@ -1275,7 +1275,7 @@ public readonly iops: number;
 
 Use to configure device IOPS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#iops ImagebuilderImageRecipe#iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#iops ImagebuilderImageRecipe#iops}
 
 ---
 
@@ -1289,7 +1289,7 @@ public readonly kmsKeyId: string;
 
 Use to configure the KMS key to use when encrypting the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#kms_key_id ImagebuilderImageRecipe#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#kms_key_id ImagebuilderImageRecipe#kms_key_id}
 
 ---
 
@@ -1303,7 +1303,7 @@ public readonly snapshotId: string;
 
 The snapshot that defines the device contents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#snapshot_id ImagebuilderImageRecipe#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#snapshot_id ImagebuilderImageRecipe#snapshot_id}
 
 ---
 
@@ -1317,7 +1317,7 @@ public readonly throughput: number;
 
 For GP3 volumes only - The throughput in MiB/s that the volume supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#throughput ImagebuilderImageRecipe#throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#throughput ImagebuilderImageRecipe#throughput}
 
 ---
 
@@ -1331,7 +1331,7 @@ public readonly volumeSize: number;
 
 Use to override the device's volume size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#volume_size ImagebuilderImageRecipe#volume_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#volume_size ImagebuilderImageRecipe#volume_size}
 
 ---
 
@@ -1345,7 +1345,7 @@ public readonly volumeType: string;
 
 Use to override the device's volume type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#volume_type ImagebuilderImageRecipe#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#volume_type ImagebuilderImageRecipe#volume_type}
 
 ---
 
@@ -1378,7 +1378,7 @@ public readonly componentArn: string;
 
 The Amazon Resource Name (ARN) of the component.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#component_arn ImagebuilderImageRecipe#component_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#component_arn ImagebuilderImageRecipe#component_arn}
 
 ---
 
@@ -1392,7 +1392,7 @@ public readonly parameters: IResolvable | ImagebuilderImageRecipeComponentsParam
 
 A group of parameter settings that are used to configure the component for a specific recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#parameters ImagebuilderImageRecipe#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#parameters ImagebuilderImageRecipe#parameters}
 
 ---
 
@@ -1425,7 +1425,7 @@ public readonly name: string;
 
 The name of the component parameter to set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
 
 ---
 
@@ -1439,7 +1439,7 @@ public readonly value: string[];
 
 Sets the value for the named component parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#value ImagebuilderImageRecipe#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#value ImagebuilderImageRecipe#value}
 
 ---
 
@@ -1558,7 +1558,7 @@ public readonly name: string;
 
 The name of the image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#name ImagebuilderImageRecipe#name}
 
 ---
 
@@ -1572,7 +1572,7 @@ public readonly parentImage: string;
 
 The parent image of the image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#parent_image ImagebuilderImageRecipe#parent_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#parent_image ImagebuilderImageRecipe#parent_image}
 
 ---
 
@@ -1586,7 +1586,7 @@ public readonly version: string;
 
 The version of the image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#version ImagebuilderImageRecipe#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#version ImagebuilderImageRecipe#version}
 
 ---
 
@@ -1600,7 +1600,7 @@ public readonly additionalInstanceConfiguration: ImagebuilderImageRecipeAddition
 
 Specify additional settings and launch scripts for your build instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#additional_instance_configuration ImagebuilderImageRecipe#additional_instance_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#additional_instance_configuration ImagebuilderImageRecipe#additional_instance_configuration}
 
 ---
 
@@ -1614,7 +1614,7 @@ public readonly amiTags: {[ key: string ]: string};
 
 The tags to apply to the AMI created by this image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#ami_tags ImagebuilderImageRecipe#ami_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#ami_tags ImagebuilderImageRecipe#ami_tags}
 
 ---
 
@@ -1630,7 +1630,7 @@ The AMI watermark names to attach to the output AMI from this recipe.
 
 AMI watermarks are lineage markers that automatically propagate to derivative AMIs when the source AMI is copied or distributed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#ami_watermarks ImagebuilderImageRecipe#ami_watermarks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#ami_watermarks ImagebuilderImageRecipe#ami_watermarks}
 
 ---
 
@@ -1644,7 +1644,7 @@ public readonly blockDeviceMappings: IResolvable | ImagebuilderImageRecipeBlockD
 
 The block device mappings to apply when creating images from this recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#block_device_mappings ImagebuilderImageRecipe#block_device_mappings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#block_device_mappings ImagebuilderImageRecipe#block_device_mappings}
 
 ---
 
@@ -1658,7 +1658,7 @@ public readonly components: IResolvable | ImagebuilderImageRecipeComponents[];
 
 The components of the image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#components ImagebuilderImageRecipe#components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#components ImagebuilderImageRecipe#components}
 
 ---
 
@@ -1672,7 +1672,7 @@ public readonly description: string;
 
 The description of the image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#description ImagebuilderImageRecipe#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#description ImagebuilderImageRecipe#description}
 
 ---
 
@@ -1686,7 +1686,7 @@ public readonly tags: {[ key: string ]: string};
 
 The tags of the image recipe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#tags ImagebuilderImageRecipe#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#tags ImagebuilderImageRecipe#tags}
 
 ---
 
@@ -1700,7 +1700,7 @@ public readonly workingDirectory: string;
 
 The working directory to be used during build and test workflows.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/imagebuilder_image_recipe#working_directory ImagebuilderImageRecipe#working_directory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image_recipe#working_directory ImagebuilderImageRecipe#working_directory}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BackupgatewayHypervisor <a name="BackupgatewayHypervisor" id="@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer"></a>
 
@@ -40,13 +40,13 @@ BackupgatewayHypervisor.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.logGroupArn">logGroupArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.password">password</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags">BackupgatewayHypervisorTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.username">username</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.logGroupArn">logGroupArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.password">password</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags">BackupgatewayHypervisorTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisor.Initializer.parameter.username">username</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags">BackupgatewayHypervisorTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}.
 
 ---
 
@@ -162,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}.
 
 ---
 
@@ -673,7 +673,7 @@ The construct id used in the generated config for the BackupgatewayHypervisor to
 
 The id of the existing BackupgatewayHypervisor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1080,13 +1080,13 @@ BackupgatewayHypervisorConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.logGroupArn">logGroupArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.password">password</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags">BackupgatewayHypervisorTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.username">username</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.host">host</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.logGroupArn">logGroupArn</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.password">password</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags">BackupgatewayHypervisorTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorConfig.property.username">username</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}. |
 
 ---
 
@@ -1168,7 +1168,7 @@ public java.lang.String getHost();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#host BackupgatewayHypervisor#host}.
 
 ---
 
@@ -1180,7 +1180,7 @@ public java.lang.String getKmsKeyArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#kms_key_arn BackupgatewayHypervisor#kms_key_arn}.
 
 ---
 
@@ -1192,7 +1192,7 @@ public java.lang.String getLogGroupArn();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#log_group_arn BackupgatewayHypervisor#log_group_arn}.
 
 ---
 
@@ -1204,7 +1204,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#name BackupgatewayHypervisor#name}.
 
 ---
 
@@ -1216,7 +1216,7 @@ public java.lang.String getPassword();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#password BackupgatewayHypervisor#password}.
 
 ---
 
@@ -1228,7 +1228,7 @@ public IResolvable|java.util.List<BackupgatewayHypervisorTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags">BackupgatewayHypervisorTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#tags BackupgatewayHypervisor#tags}.
 
 ---
 
@@ -1240,7 +1240,7 @@ public java.lang.String getUsername();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#username BackupgatewayHypervisor#username}.
 
 ---
 
@@ -1261,8 +1261,8 @@ BackupgatewayHypervisorTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#key BackupgatewayHypervisor#key}. |
-| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#value BackupgatewayHypervisor#value}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#key BackupgatewayHypervisor#key}. |
+| <code><a href="#@cdktn/provider-awscc.backupgatewayHypervisor.BackupgatewayHypervisorTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#value BackupgatewayHypervisor#value}. |
 
 ---
 
@@ -1274,7 +1274,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#key BackupgatewayHypervisor#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#key BackupgatewayHypervisor#key}.
 
 ---
 
@@ -1286,7 +1286,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backupgateway_hypervisor#value BackupgatewayHypervisor#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backupgateway_hypervisor#value BackupgatewayHypervisor#value}.
 
 ---
 

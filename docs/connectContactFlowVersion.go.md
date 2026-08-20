@@ -4,7 +4,7 @@
 
 ### ConnectContactFlowVersion <a name="ConnectContactFlowVersion" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectContactFlowVersion.ConnectContactFlowVersion.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ConnectContactFlowVersion 
 
 The id of the existing ConnectContactFlowVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ ContactFlowId *string
 
 The ARN of the contact flow this version is tied to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_version#contact_flow_id ConnectContactFlowVersion#contact_flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow_version#contact_flow_id ConnectContactFlowVersion#contact_flow_id}
 
 ---
 
@@ -909,7 +909,7 @@ Description *string
 
 The description of the version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_contact_flow_version#description ConnectContactFlowVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_contact_flow_version#description ConnectContactFlowVersion#description}
 
 ---
 

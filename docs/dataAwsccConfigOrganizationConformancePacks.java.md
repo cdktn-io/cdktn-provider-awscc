@@ -4,7 +4,7 @@
 
 ### DataAwsccConfigOrganizationConformancePacks <a name="DataAwsccConfigOrganizationConformancePacks" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigOrganizationConformancePacks.DataAwsccConfigOrganizationConformancePacks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccConfigOrganizatio
 
 The id of the existing DataAwsccConfigOrganizationConformancePacks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_organization_conformance_packs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/config_organization_conformance_packs#import import section} in the documentation of this resource for the id to use
 
 ---
 

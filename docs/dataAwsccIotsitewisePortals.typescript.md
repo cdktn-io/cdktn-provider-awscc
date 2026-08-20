@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewisePortals <a name="DataAwsccIotsitewisePortals" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_portals awscc_iotsitewise_portals}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotsitewise_portals awscc_iotsitewise_portals}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewisePortals.DataAwsccIotsitewisePortals.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewisePortal
 
 The id of the existing DataAwsccIotsitewisePortals that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_portals#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotsitewise_portals#import import section} in the documentation of this resource for the id to use
 
 ---
 

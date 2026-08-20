@@ -4,7 +4,7 @@
 
 ### DataAwsccIvsChannels <a name="DataAwsccIvsChannels" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_channels awscc_ivs_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_channels awscc_ivs_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIvsChannels.DataAwsccIvsChannels.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIvsChannels to im
 
 The id of the existing DataAwsccIvsChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 

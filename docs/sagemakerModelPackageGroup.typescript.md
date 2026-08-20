@@ -4,7 +4,7 @@
 
 ### SagemakerModelPackageGroup <a name="SagemakerModelPackageGroup" id="@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group awscc_sagemaker_model_package_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group awscc_sagemaker_model_package_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroup.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SagemakerModelPackageGroup
 
 The id of the existing SagemakerModelPackageGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,7 +873,7 @@ const sagemakerModelPackageGroupConfig: sagemakerModelPackageGroup.SagemakerMode
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupConfig.property.modelPackageGroupName">modelPackageGroupName</a></code> | <code>string</code> | The name of the model package group. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupConfig.property.modelPackageGroupDescription">modelPackageGroupDescription</a></code> | <code>string</code> | The description of the model package group. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupConfig.property.modelPackageGroupPolicy">modelPackageGroupPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#model_package_group_policy SagemakerModelPackageGroup#model_package_group_policy}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupConfig.property.modelPackageGroupPolicy">modelPackageGroupPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#model_package_group_policy SagemakerModelPackageGroup#model_package_group_policy}. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sagemakerModelPackageGroup.SagemakerModelPackageGroupTags">SagemakerModelPackageGroupTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -958,7 +958,7 @@ public readonly modelPackageGroupName: string;
 
 The name of the model package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#model_package_group_name SagemakerModelPackageGroup#model_package_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#model_package_group_name SagemakerModelPackageGroup#model_package_group_name}
 
 ---
 
@@ -972,7 +972,7 @@ public readonly modelPackageGroupDescription: string;
 
 The description of the model package group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#model_package_group_description SagemakerModelPackageGroup#model_package_group_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#model_package_group_description SagemakerModelPackageGroup#model_package_group_description}
 
 ---
 
@@ -984,7 +984,7 @@ public readonly modelPackageGroupPolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#model_package_group_policy SagemakerModelPackageGroup#model_package_group_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#model_package_group_policy SagemakerModelPackageGroup#model_package_group_policy}.
 
 ---
 
@@ -998,7 +998,7 @@ public readonly tags: IResolvable | SagemakerModelPackageGroupTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#tags SagemakerModelPackageGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#tags SagemakerModelPackageGroup#tags}
 
 ---
 
@@ -1033,7 +1033,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#key SagemakerModelPackageGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#key SagemakerModelPackageGroup#key}
 
 ---
 
@@ -1049,7 +1049,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package_group#value SagemakerModelPackageGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package_group#value SagemakerModelPackageGroup#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccLambdaFunctions <a name="DataAwsccLambdaFunctions" id="@cdktn/provider-awscc.dataAwsccLambdaFunctions.DataAwsccLambdaFunctions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lambda_functions awscc_lambda_functions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_functions awscc_lambda_functions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaFunctions.DataAwsccLambdaFunctions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccLambdaFunctions t
 
 The id of the existing DataAwsccLambdaFunctions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lambda_functions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_functions#import import section} in the documentation of this resource for the id to use
 
 ---
 

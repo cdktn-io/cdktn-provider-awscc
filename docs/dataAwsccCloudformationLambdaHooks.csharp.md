@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationLambdaHooks <a name="DataAwsccCloudformationLambdaHooks" id="@cdktn/provider-awscc.dataAwsccCloudformationLambdaHooks.DataAwsccCloudformationLambdaHooks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_lambda_hooks awscc_cloudformation_lambda_hooks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_lambda_hooks awscc_cloudformation_lambda_hooks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationLambdaHooks.DataAwsccCloudformationLambdaHooks.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationLam
 
 The id of the existing DataAwsccCloudformationLambdaHooks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_lambda_hooks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_lambda_hooks#import import section} in the documentation of this resource for the id to use
 
 ---
 

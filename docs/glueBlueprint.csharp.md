@@ -4,7 +4,7 @@
 
 ### GlueBlueprint <a name="GlueBlueprint" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint awscc_glue_blueprint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint awscc_glue_blueprint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueBlueprint.GlueBlueprint.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GlueBlueprint to import.
 
 The id of the existing GlueBlueprint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,7 +985,7 @@ public string BlueprintLocation { get; set; }
 
 Specifies a path in Amazon S3 where the blueprint is published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#blueprint_location GlueBlueprint#blueprint_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#blueprint_location GlueBlueprint#blueprint_location}
 
 ---
 
@@ -999,7 +999,7 @@ public string Name { get; set; }
 
 The name of the blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#name GlueBlueprint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#name GlueBlueprint#name}
 
 ---
 
@@ -1013,7 +1013,7 @@ public string Description { get; set; }
 
 A description of the blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#description GlueBlueprint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#description GlueBlueprint#description}
 
 ---
 
@@ -1027,7 +1027,7 @@ public IResolvable|GlueBlueprintTags[] Tags { get; set; }
 
 The tags to be applied to this blueprint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#tags GlueBlueprint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#tags GlueBlueprint#tags}
 
 ---
 
@@ -1063,7 +1063,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#key GlueBlueprint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#key GlueBlueprint#key}
 
 ---
 
@@ -1077,7 +1077,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_blueprint#value GlueBlueprint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#value GlueBlueprint#value}
 
 ---
 

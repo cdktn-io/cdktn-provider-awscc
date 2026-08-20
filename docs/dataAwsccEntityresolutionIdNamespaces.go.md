@@ -4,7 +4,7 @@
 
 ### DataAwsccEntityresolutionIdNamespaces <a name="DataAwsccEntityresolutionIdNamespaces" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespaces.DataAwsccEntityresolutionIdNamespaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_id_namespaces awscc_entityresolution_id_namespaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_id_namespaces awscc_entityresolution_id_namespaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEntityresolutionIdNamespaces.DataAwsccEntityresolutionIdNamespaces.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEntityresolutionI
 
 The id of the existing DataAwsccEntityresolutionIdNamespaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_id_namespaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_id_namespaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

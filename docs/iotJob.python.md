@@ -4,7 +4,7 @@
 
 ### IotJob <a name="IotJob" id="@cdktn/provider-awscc.iotJob.IotJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job awscc_iot_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job awscc_iot_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotJob.IotJob.Initializer"></a>
 
@@ -138,7 +138,7 @@ A job identifier which must be unique for your AWS account.
 
 We recommend using a UUID. Alpha-numeric characters, '-' and '_' are valid for use here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_id IotJob#job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_id IotJob#job_id}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of things and thing groups to which the job should be sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#targets IotJob#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#targets IotJob#targets}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The criteria that determine when and how a job abort takes place.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#abort_config IotJob#abort_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#abort_config IotJob#abort_config}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A short text description of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#description IotJob#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#description IotJob#description}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The package version Amazon Resource Names (ARNs) that are installed on the device when the job successfully completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#destination_package_versions IotJob#destination_package_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#destination_package_versions IotJob#destination_package_versions}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The job document. Required if you don't specify a value for documentSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#document IotJob#document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#document IotJob#document}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Parameters of an Amazon Web Services managed template that you can specify to create the job document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#document_parameters IotJob#document_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#document_parameters IotJob#document_parameters}
 
 ---
 
@@ -210,7 +210,7 @@ An S3 link, or S3 object URL, to the job document.
 
 The link is an Amazon S3 object URL and is required if you don't specify a value for document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#document_source IotJob#document_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#document_source IotJob#document_source}
 
 ---
 
@@ -220,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration that determines how many retries are allowed for each failure type for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_executions_retry_config IotJob#job_executions_retry_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_executions_retry_config IotJob#job_executions_retry_config}
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Allows you to create a staged rollout of a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_executions_rollout_config IotJob#job_executions_rollout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_executions_rollout_config IotJob#job_executions_rollout_config}
 
 ---
 
@@ -240,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the job template used to create the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_template_arn IotJob#job_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_template_arn IotJob#job_template_arn}
 
 ---
 
@@ -250,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for pre-signed S3 URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#presigned_url_config IotJob#presigned_url_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#presigned_url_config IotJob#presigned_url_config}
 
 ---
 
@@ -260,7 +260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the date and time that a job will begin the rollout of the job document to all devices in the target group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#scheduling_config IotJob#scheduling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#scheduling_config IotJob#scheduling_config}
 
 ---
 
@@ -270,7 +270,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata which can be used to manage the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#tags IotJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#tags IotJob#tags}
 
 ---
 
@@ -280,7 +280,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the job will continue to run (CONTINUOUS), or will be complete after all those things specified as targets have completed the job (SNAPSHOT).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#target_selection IotJob#target_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#target_selection IotJob#target_selection}
 
 ---
 
@@ -290,7 +290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the amount of time each device has to finish its execution of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#timeout_config IotJob#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#timeout_config IotJob#timeout_config}
 
 ---
 
@@ -708,7 +708,7 @@ def put_abort_config(
 
 The list of criteria that determine when and how to abort the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
 
 ---
 
@@ -726,7 +726,7 @@ def put_job_executions_retry_config(
 
 The list of criteria that determines how many retries are allowed for each failure type for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
 
 ---
 
@@ -745,7 +745,7 @@ def put_job_executions_rollout_config(
 
 Allows you to create an exponential rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#exponential_rate IotJob#exponential_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#exponential_rate IotJob#exponential_rate}
 
 ---
 
@@ -757,7 +757,7 @@ The maximum number of things that will be notified of a pending job, per minute.
 
 This parameter allows you to create a staged rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#maximum_per_minute IotJob#maximum_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#maximum_per_minute IotJob#maximum_per_minute}
 
 ---
 
@@ -778,7 +778,7 @@ How long (in seconds) pre-signed URLs are valid.
 
 Valid values are 60 - 3600, the default value is 3600 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#expires_in_sec IotJob#expires_in_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#expires_in_sec IotJob#expires_in_sec}
 
 ---
 
@@ -788,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of an IAM role that grants permission to download files from the S3 bucket where the job data/updates are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#role_arn IotJob#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#role_arn IotJob#role_arn}
 
 ---
 
@@ -809,7 +809,7 @@ def put_scheduling_config(
 
 Specifies the end behavior for all job executions after a job reaches the selected endTime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#end_behavior IotJob#end_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#end_behavior IotJob#end_behavior}
 
 ---
 
@@ -819,7 +819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The time a job will stop rollout of the job document to all devices in the target group for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#end_time IotJob#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#end_time IotJob#end_time}
 
 ---
 
@@ -829,7 +829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional configuration within the SchedulingConfig to setup a recurring maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#maintenance_windows IotJob#maintenance_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#maintenance_windows IotJob#maintenance_windows}
 
 ---
 
@@ -839,7 +839,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The time a job will begin rollout of the job document to all devices in the target group for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#start_time IotJob#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#start_time IotJob#start_time}
 
 ---
 
@@ -873,7 +873,7 @@ Specifies the amount of time, in minutes, this device has to finish execution of
 
 The timeout interval can be anywhere between 1 minute and 7 days (1 to 10080 minutes).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#in_progress_timeout_in_minutes IotJob#in_progress_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#in_progress_timeout_in_minutes IotJob#in_progress_timeout_in_minutes}
 
 ---
 
@@ -1075,7 +1075,7 @@ The construct id used in the generated config for the IotJob to import.
 
 The id of the existing IotJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1685,7 +1685,7 @@ criteria_list: IResolvable | typing.List[IotJobAbortConfigCriteriaListStruct]
 
 The list of criteria that determine when and how to abort the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
 
 ---
 
@@ -1725,7 +1725,7 @@ action: str
 
 The type of job action to take to initiate the job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#action IotJob#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#action IotJob#action}
 
 ---
 
@@ -1739,7 +1739,7 @@ failure_type: str
 
 The type of job execution failures that can initiate a job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#failure_type IotJob#failure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#failure_type IotJob#failure_type}
 
 ---
 
@@ -1753,7 +1753,7 @@ min_number_of_executed_things: typing.Union[int, float]
 
 The minimum number of things which must receive job execution notifications before the job can be aborted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#min_number_of_executed_things IotJob#min_number_of_executed_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#min_number_of_executed_things IotJob#min_number_of_executed_things}
 
 ---
 
@@ -1767,7 +1767,7 @@ threshold_percentage: typing.Union[int, float]
 
 The minimum percentage of job execution failures that must occur to initiate the job abort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#threshold_percentage IotJob#threshold_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#threshold_percentage IotJob#threshold_percentage}
 
 ---
 
@@ -1917,7 +1917,7 @@ A job identifier which must be unique for your AWS account.
 
 We recommend using a UUID. Alpha-numeric characters, '-' and '_' are valid for use here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_id IotJob#job_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_id IotJob#job_id}
 
 ---
 
@@ -1931,7 +1931,7 @@ targets: typing.List[str]
 
 A list of things and thing groups to which the job should be sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#targets IotJob#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#targets IotJob#targets}
 
 ---
 
@@ -1945,7 +1945,7 @@ abort_config: IotJobAbortConfig
 
 The criteria that determine when and how a job abort takes place.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#abort_config IotJob#abort_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#abort_config IotJob#abort_config}
 
 ---
 
@@ -1959,7 +1959,7 @@ description: str
 
 A short text description of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#description IotJob#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#description IotJob#description}
 
 ---
 
@@ -1973,7 +1973,7 @@ destination_package_versions: typing.List[str]
 
 The package version Amazon Resource Names (ARNs) that are installed on the device when the job successfully completes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#destination_package_versions IotJob#destination_package_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#destination_package_versions IotJob#destination_package_versions}
 
 ---
 
@@ -1987,7 +1987,7 @@ document: str
 
 The job document. Required if you don't specify a value for documentSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#document IotJob#document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#document IotJob#document}
 
 ---
 
@@ -2001,7 +2001,7 @@ document_parameters: typing.Mapping[str]
 
 Parameters of an Amazon Web Services managed template that you can specify to create the job document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#document_parameters IotJob#document_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#document_parameters IotJob#document_parameters}
 
 ---
 
@@ -2017,7 +2017,7 @@ An S3 link, or S3 object URL, to the job document.
 
 The link is an Amazon S3 object URL and is required if you don't specify a value for document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#document_source IotJob#document_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#document_source IotJob#document_source}
 
 ---
 
@@ -2031,7 +2031,7 @@ job_executions_retry_config: IotJobJobExecutionsRetryConfig
 
 The configuration that determines how many retries are allowed for each failure type for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_executions_retry_config IotJob#job_executions_retry_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_executions_retry_config IotJob#job_executions_retry_config}
 
 ---
 
@@ -2045,7 +2045,7 @@ job_executions_rollout_config: IotJobJobExecutionsRolloutConfig
 
 Allows you to create a staged rollout of a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_executions_rollout_config IotJob#job_executions_rollout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_executions_rollout_config IotJob#job_executions_rollout_config}
 
 ---
 
@@ -2059,7 +2059,7 @@ job_template_arn: str
 
 The ARN of the job template used to create the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#job_template_arn IotJob#job_template_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#job_template_arn IotJob#job_template_arn}
 
 ---
 
@@ -2073,7 +2073,7 @@ presigned_url_config: IotJobPresignedUrlConfig
 
 Configuration for pre-signed S3 URLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#presigned_url_config IotJob#presigned_url_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#presigned_url_config IotJob#presigned_url_config}
 
 ---
 
@@ -2087,7 +2087,7 @@ scheduling_config: IotJobSchedulingConfig
 
 Specifies the date and time that a job will begin the rollout of the job document to all devices in the target group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#scheduling_config IotJob#scheduling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#scheduling_config IotJob#scheduling_config}
 
 ---
 
@@ -2101,7 +2101,7 @@ tags: IResolvable | typing.List[IotJobTags]
 
 Metadata which can be used to manage the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#tags IotJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#tags IotJob#tags}
 
 ---
 
@@ -2115,7 +2115,7 @@ target_selection: str
 
 Specifies whether the job will continue to run (CONTINUOUS), or will be complete after all those things specified as targets have completed the job (SNAPSHOT).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#target_selection IotJob#target_selection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#target_selection IotJob#target_selection}
 
 ---
 
@@ -2129,7 +2129,7 @@ timeout_config: IotJobTimeoutConfig
 
 Specifies the amount of time each device has to finish its execution of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#timeout_config IotJob#timeout_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#timeout_config IotJob#timeout_config}
 
 ---
 
@@ -2163,7 +2163,7 @@ criteria_list: IResolvable | typing.List[IotJobJobExecutionsRetryConfigCriteriaL
 
 The list of criteria that determines how many retries are allowed for each failure type for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#criteria_list IotJob#criteria_list}
 
 ---
 
@@ -2199,7 +2199,7 @@ failure_type: str
 
 The type of job execution failures that can initiate a job retry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#failure_type IotJob#failure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#failure_type IotJob#failure_type}
 
 ---
 
@@ -2213,7 +2213,7 @@ number_of_retries: typing.Union[int, float]
 
 The number of retries allowed for a failure type for the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#number_of_retries IotJob#number_of_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#number_of_retries IotJob#number_of_retries}
 
 ---
 
@@ -2249,7 +2249,7 @@ exponential_rate: IotJobJobExecutionsRolloutConfigExponentialRate
 
 Allows you to create an exponential rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#exponential_rate IotJob#exponential_rate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#exponential_rate IotJob#exponential_rate}
 
 ---
 
@@ -2265,7 +2265,7 @@ The maximum number of things that will be notified of a pending job, per minute.
 
 This parameter allows you to create a staged rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#maximum_per_minute IotJob#maximum_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#maximum_per_minute IotJob#maximum_per_minute}
 
 ---
 
@@ -2303,7 +2303,7 @@ base_rate_per_minute: typing.Union[int, float]
 
 The minimum number of things that will be notified of a pending job, per minute at the start of job rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#base_rate_per_minute IotJob#base_rate_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#base_rate_per_minute IotJob#base_rate_per_minute}
 
 ---
 
@@ -2317,7 +2317,7 @@ increment_factor: typing.Union[int, float]
 
 The exponential factor to increase the rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#increment_factor IotJob#increment_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#increment_factor IotJob#increment_factor}
 
 ---
 
@@ -2331,7 +2331,7 @@ rate_increase_criteria: IotJobJobExecutionsRolloutConfigExponentialRateRateIncre
 
 Allows you to define a criteria to initiate the increase in rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#rate_increase_criteria IotJob#rate_increase_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#rate_increase_criteria IotJob#rate_increase_criteria}
 
 ---
 
@@ -2367,7 +2367,7 @@ number_of_notified_things: typing.Union[int, float]
 
 The threshold for number of notified things that will initiate the increase in rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#number_of_notified_things IotJob#number_of_notified_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#number_of_notified_things IotJob#number_of_notified_things}
 
 ---
 
@@ -2381,7 +2381,7 @@ number_of_succeeded_things: typing.Union[int, float]
 
 The threshold for number of succeeded things that will initiate the increase in rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#number_of_succeeded_things IotJob#number_of_succeeded_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#number_of_succeeded_things IotJob#number_of_succeeded_things}
 
 ---
 
@@ -2419,7 +2419,7 @@ How long (in seconds) pre-signed URLs are valid.
 
 Valid values are 60 - 3600, the default value is 3600 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#expires_in_sec IotJob#expires_in_sec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#expires_in_sec IotJob#expires_in_sec}
 
 ---
 
@@ -2433,7 +2433,7 @@ role_arn: str
 
 The ARN of an IAM role that grants permission to download files from the S3 bucket where the job data/updates are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#role_arn IotJob#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#role_arn IotJob#role_arn}
 
 ---
 
@@ -2473,7 +2473,7 @@ end_behavior: str
 
 Specifies the end behavior for all job executions after a job reaches the selected endTime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#end_behavior IotJob#end_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#end_behavior IotJob#end_behavior}
 
 ---
 
@@ -2487,7 +2487,7 @@ end_time: str
 
 The time a job will stop rollout of the job document to all devices in the target group for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#end_time IotJob#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#end_time IotJob#end_time}
 
 ---
 
@@ -2501,7 +2501,7 @@ maintenance_windows: IResolvable | typing.List[IotJobSchedulingConfigMaintenance
 
 An optional configuration within the SchedulingConfig to setup a recurring maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#maintenance_windows IotJob#maintenance_windows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#maintenance_windows IotJob#maintenance_windows}
 
 ---
 
@@ -2515,7 +2515,7 @@ start_time: str
 
 The time a job will begin rollout of the job document to all devices in the target group for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#start_time IotJob#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#start_time IotJob#start_time}
 
 ---
 
@@ -2551,7 +2551,7 @@ duration_in_minutes: typing.Union[int, float]
 
 Displays the duration of the next maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#duration_in_minutes IotJob#duration_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#duration_in_minutes IotJob#duration_in_minutes}
 
 ---
 
@@ -2565,7 +2565,7 @@ start_time: str
 
 Displays the start time of the next maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#start_time IotJob#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#start_time IotJob#start_time}
 
 ---
 
@@ -2601,7 +2601,7 @@ key: str
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#key IotJob#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#key IotJob#key}
 
 ---
 
@@ -2615,7 +2615,7 @@ value: str
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#value IotJob#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#value IotJob#value}
 
 ---
 
@@ -2651,7 +2651,7 @@ Specifies the amount of time, in minutes, this device has to finish execution of
 
 The timeout interval can be anywhere between 1 minute and 7 days (1 to 10080 minutes).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#in_progress_timeout_in_minutes IotJob#in_progress_timeout_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#in_progress_timeout_in_minutes IotJob#in_progress_timeout_in_minutes}
 
 ---
 
@@ -4642,7 +4642,7 @@ def put_rate_increase_criteria(
 
 The threshold for number of notified things that will initiate the increase in rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#number_of_notified_things IotJob#number_of_notified_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#number_of_notified_things IotJob#number_of_notified_things}
 
 ---
 
@@ -4652,7 +4652,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The threshold for number of succeeded things that will initiate the increase in rate of rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#number_of_succeeded_things IotJob#number_of_succeeded_things}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#number_of_succeeded_things IotJob#number_of_succeeded_things}
 
 ---
 
@@ -5365,7 +5365,7 @@ def put_exponential_rate(
 
 The minimum number of things that will be notified of a pending job, per minute at the start of job rollout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#base_rate_per_minute IotJob#base_rate_per_minute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#base_rate_per_minute IotJob#base_rate_per_minute}
 
 ---
 
@@ -5375,7 +5375,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The exponential factor to increase the rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#increment_factor IotJob#increment_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#increment_factor IotJob#increment_factor}
 
 ---
 
@@ -5385,7 +5385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Allows you to define a criteria to initiate the increase in rate of rollout for a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#rate_increase_criteria IotJob#rate_increase_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#rate_increase_criteria IotJob#rate_increase_criteria}
 
 ---
 

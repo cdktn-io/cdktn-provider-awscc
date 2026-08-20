@@ -4,7 +4,7 @@
 
 ### Route53ResolverResolverDnssecConfig <a name="Route53ResolverResolverDnssecConfig" id="@cdktn/provider-awscc.route53ResolverResolverDnssecConfig.Route53ResolverResolverDnssecConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverDnssecConfig.Route53ResolverResolverDnssecConfig.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 ResourceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_dnssec_config#resource_id Route53ResolverResolverDnssecConfig#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_dnssec_config#resource_id Route53ResolverResolverDnssecConfig#resource_id}
 
 ---
 
@@ -610,7 +610,7 @@ The construct id used in the generated config for the Route53ResolverResolverDns
 
 The id of the existing Route53ResolverResolverDnssecConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_dnssec_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_dnssec_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,7 +985,7 @@ resource_id: str
 
 ResourceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_dnssec_config#resource_id Route53ResolverResolverDnssecConfig#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_dnssec_config#resource_id Route53ResolverResolverDnssecConfig#resource_id}
 
 ---
 

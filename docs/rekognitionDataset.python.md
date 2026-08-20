@@ -4,7 +4,7 @@
 
 ### RekognitionDataset <a name="RekognitionDataset" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rekognitionDataset.RekognitionDataset.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The type of the dataset. Specify TRAIN to create a training dataset. Specify TEST to create a test dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the project to which the dataset belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
 
 ---
 
@@ -656,7 +656,7 @@ The construct id used in the generated config for the RekognitionDataset to impo
 
 The id of the existing RekognitionDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1057,7 +1057,7 @@ dataset_type: str
 
 The type of the dataset. Specify TRAIN to create a training dataset. Specify TEST to create a test dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
 
 ---
 
@@ -1071,7 +1071,7 @@ project_arn: str
 
 The ARN of the project to which the dataset belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
 
 ---
 
@@ -1085,7 +1085,7 @@ tags: IResolvable | typing.List[RekognitionDatasetTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
 
 ---
 
@@ -1121,7 +1121,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#key RekognitionDataset#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#key RekognitionDataset#key}
 
 ---
 
@@ -1135,7 +1135,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rekognition_dataset#value RekognitionDataset#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rekognition_dataset#value RekognitionDataset#value}
 
 ---
 

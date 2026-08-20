@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubFindingAggregators <a name="DataAwsccSecurityhubFindingAggregators" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubFindingAggregators.DataAwsccSecurityhubFindingAggregators.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubFindin
 
 The id of the existing DataAwsccSecurityhubFindingAggregators that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_finding_aggregators#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_finding_aggregators#import import section} in the documentation of this resource for the id to use
 
 ---
 

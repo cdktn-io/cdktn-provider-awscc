@@ -4,7 +4,7 @@
 
 ### DataAwsccDsqlClusters <a name="DataAwsccDsqlClusters" id="@cdktn/provider-awscc.dataAwsccDsqlClusters.DataAwsccDsqlClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dsql_clusters awscc_dsql_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dsql_clusters awscc_dsql_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDsqlClusters.DataAwsccDsqlClusters.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDsqlClusters to i
 
 The id of the existing DataAwsccDsqlClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dsql_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dsql_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

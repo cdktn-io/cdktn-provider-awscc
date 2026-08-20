@@ -4,7 +4,7 @@
 
 ### DataAwsccCurReportDefinitions <a name="DataAwsccCurReportDefinitions" id="@cdktn/provider-awscc.dataAwsccCurReportDefinitions.DataAwsccCurReportDefinitions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cur_report_definitions awscc_cur_report_definitions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cur_report_definitions awscc_cur_report_definitions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCurReportDefinitions.DataAwsccCurReportDefinitions.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCurReportDefiniti
 
 The id of the existing DataAwsccCurReportDefinitions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cur_report_definitions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cur_report_definitions#import import section} in the documentation of this resource for the id to use
 
 ---
 

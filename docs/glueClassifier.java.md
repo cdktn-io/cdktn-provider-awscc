@@ -4,7 +4,7 @@
 
 ### GlueClassifier <a name="GlueClassifier" id="@cdktn/provider-awscc.glueClassifier.GlueClassifier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier awscc_glue_classifier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier awscc_glue_classifier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueClassifier.GlueClassifier.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 A classifier for comma-separated values (CSV).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A classifier that uses grok.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A classifier for JSON content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A classifier for XML content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
 
 ---
 
@@ -669,7 +669,7 @@ The construct id used in the generated config for the GlueClassifier to import.
 
 The id of the existing GlueClassifier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1094,7 +1094,7 @@ public GlueClassifierCsvClassifier getCsvClassifier();
 
 A classifier for comma-separated values (CSV).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
 
 ---
 
@@ -1108,7 +1108,7 @@ public GlueClassifierGrokClassifier getGrokClassifier();
 
 A classifier that uses grok.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
 
 ---
 
@@ -1122,7 +1122,7 @@ public GlueClassifierJsonClassifier getJsonClassifier();
 
 A classifier for JSON content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
 
 ---
 
@@ -1136,7 +1136,7 @@ public GlueClassifierXmlClassifier getXmlClassifier();
 
 A classifier for XML content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
 
 ---
 
@@ -1186,7 +1186,7 @@ public java.lang.Boolean|IResolvable getAllowSingleColumn();
 
 Enables the processing of files that contain only one column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#allow_single_column GlueClassifier#allow_single_column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#allow_single_column GlueClassifier#allow_single_column}
 
 ---
 
@@ -1200,7 +1200,7 @@ public java.util.List<java.lang.String> getContainsCustomDatatype();
 
 Indicates whether the CSV file contains custom data types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#contains_custom_datatype GlueClassifier#contains_custom_datatype}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#contains_custom_datatype GlueClassifier#contains_custom_datatype}
 
 ---
 
@@ -1216,7 +1216,7 @@ Indicates whether the CSV file contains a header.
 
 A value of UNKNOWN specifies that the classifier will detect whether the CSV file contains headings. A value of PRESENT specifies that the CSV file contains headings. A value of ABSENT specifies that the CSV file does not contain headings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#contains_header GlueClassifier#contains_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#contains_header GlueClassifier#contains_header}
 
 ---
 
@@ -1230,7 +1230,7 @@ public java.lang.Boolean|IResolvable getCustomDatatypeConfigured();
 
 Enables the configuration of custom data types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#custom_datatype_configured GlueClassifier#custom_datatype_configured}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#custom_datatype_configured GlueClassifier#custom_datatype_configured}
 
 ---
 
@@ -1244,7 +1244,7 @@ public java.lang.String getDelimiter();
 
 A custom symbol to denote what separates each column entry in the row.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#delimiter GlueClassifier#delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#delimiter GlueClassifier#delimiter}
 
 ---
 
@@ -1258,7 +1258,7 @@ public java.lang.Boolean|IResolvable getDisableValueTrimming();
 
 Specifies not to trim values before identifying the type of column values. The default value is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#disable_value_trimming GlueClassifier#disable_value_trimming}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#disable_value_trimming GlueClassifier#disable_value_trimming}
 
 ---
 
@@ -1272,7 +1272,7 @@ public java.util.List<java.lang.String> getHeader();
 
 A list of strings representing column names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#header GlueClassifier#header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#header GlueClassifier#header}
 
 ---
 
@@ -1286,7 +1286,7 @@ public java.lang.String getName();
 
 The name of the classifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#name GlueClassifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#name GlueClassifier#name}
 
 ---
 
@@ -1302,7 +1302,7 @@ A custom symbol to denote what combines content into a single column value.
 
 It must be different from the column delimiter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#quote_symbol GlueClassifier#quote_symbol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#quote_symbol GlueClassifier#quote_symbol}
 
 ---
 
@@ -1342,7 +1342,7 @@ public java.lang.String getClassification();
 
 An identifier of the data format that the classifier matches, such as Twitter, JSON, Omniture logs, and so on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
 
 ---
 
@@ -1356,7 +1356,7 @@ public java.lang.String getCustomPatterns();
 
 Optional custom grok patterns defined by this classifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#custom_patterns GlueClassifier#custom_patterns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#custom_patterns GlueClassifier#custom_patterns}
 
 ---
 
@@ -1370,7 +1370,7 @@ public java.lang.String getGrokPattern();
 
 The grok pattern applied to a data store by this classifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#grok_pattern GlueClassifier#grok_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#grok_pattern GlueClassifier#grok_pattern}
 
 ---
 
@@ -1384,7 +1384,7 @@ public java.lang.String getName();
 
 The name of the classifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#name GlueClassifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#name GlueClassifier#name}
 
 ---
 
@@ -1422,7 +1422,7 @@ A JsonPath string defining the JSON data for the classifier to classify.
 
 AWS Glue supports a subset of JsonPath, as described in Writing JsonPath Custom Classifiers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#json_path GlueClassifier#json_path}
 
 ---
 
@@ -1436,7 +1436,7 @@ public java.lang.String getName();
 
 The name of the classifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#name GlueClassifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#name GlueClassifier#name}
 
 ---
 
@@ -1474,7 +1474,7 @@ public java.lang.String getClassification();
 
 An identifier of the data format that the classifier matches.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#classification GlueClassifier#classification}
 
 ---
 
@@ -1488,7 +1488,7 @@ public java.lang.String getName();
 
 The name of the classifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#name GlueClassifier#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#name GlueClassifier#name}
 
 ---
 
@@ -1504,7 +1504,7 @@ The XML tag designating the element that contains each record in an XML document
 
 This can't identify a self-closing element (closed by />). An empty row element that contains only attributes can be parsed as long as it ends with a closing tag (for example, <row item_a="A" item_b="B"></row> is okay, but <row item_a="A" item_b="B" /> is not).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#row_tag GlueClassifier#row_tag}
 
 ---
 

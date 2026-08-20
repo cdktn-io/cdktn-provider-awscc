@@ -4,7 +4,7 @@
 
 ### IotSecurityProfile <a name="IotSecurityProfile" id="@cdktn/provider-awscc.iotSecurityProfile.IotSecurityProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile awscc_iot_security_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile awscc_iot_security_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotSecurityProfile.IotSecurityProfile.Initializer"></a>
 
@@ -120,7 +120,7 @@ A list of metrics whose data is retained (stored).
 
 By default, data is retained for any metric used in the profile's behaviors, but it is also retained for any metric specified here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#additional_metrics_to_retain_v2 IotSecurityProfile#additional_metrics_to_retain_v2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#additional_metrics_to_retain_v2 IotSecurityProfile#additional_metrics_to_retain_v2}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the destinations to which alerts are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#alert_targets IotSecurityProfile#alert_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#alert_targets IotSecurityProfile#alert_targets}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the behaviors that, when violated by a device (thing), cause an alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#behaviors IotSecurityProfile#behaviors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#behaviors IotSecurityProfile#behaviors}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A structure containing the mqtt topic for metrics export.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#metrics_export_config IotSecurityProfile#metrics_export_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#metrics_export_config IotSecurityProfile#metrics_export_config}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#security_profile_description IotSecurityProfile#security_profile_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#security_profile_description IotSecurityProfile#security_profile_description}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A unique identifier for the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#security_profile_name IotSecurityProfile#security_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#security_profile_name IotSecurityProfile#security_profile_name}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Metadata that can be used to manage the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#tags IotSecurityProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#tags IotSecurityProfile#tags}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A set of target ARNs that the security profile is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#target_arns IotSecurityProfile#target_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#target_arns IotSecurityProfile#target_arns}
 
 ---
 
@@ -760,7 +760,7 @@ The construct id used in the generated config for the IotSecurityProfile to impo
 
 The id of the existing IotSecurityProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1187,7 +1187,7 @@ public java.lang.Boolean|IResolvable getExportMetric();
 
 Flag to enable/disable metrics export for metric to be retained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#export_metric IotSecurityProfile#export_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#export_metric IotSecurityProfile#export_metric}
 
 ---
 
@@ -1201,7 +1201,7 @@ public java.lang.String getMetric();
 
 What is measured by the behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#metric IotSecurityProfile#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#metric IotSecurityProfile#metric}
 
 ---
 
@@ -1215,7 +1215,7 @@ public IotSecurityProfileAdditionalMetricsToRetainV2MetricDimension getMetricDim
 
 The dimension of a metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#metric_dimension IotSecurityProfile#metric_dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#metric_dimension IotSecurityProfile#metric_dimension}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.String getDimensionName();
 
 A unique identifier for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#dimension_name IotSecurityProfile#dimension_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#dimension_name IotSecurityProfile#dimension_name}
 
 ---
 
@@ -1265,7 +1265,7 @@ public java.lang.String getOperator();
 
 Defines how the dimensionValues of a dimension are interpreted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#operator IotSecurityProfile#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#operator IotSecurityProfile#operator}
 
 ---
 
@@ -1301,7 +1301,7 @@ public java.lang.String getAlertTargetArn();
 
 The ARN of the notification target to which alerts are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#alert_target_arn IotSecurityProfile#alert_target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#alert_target_arn IotSecurityProfile#alert_target_arn}
 
 ---
 
@@ -1315,7 +1315,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the role that grants permission to send alerts to the notification target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#role_arn IotSecurityProfile#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#role_arn IotSecurityProfile#role_arn}
 
 ---
 
@@ -1359,7 +1359,7 @@ public IotSecurityProfileBehaviorsCriteria getCriteria();
 
 The criteria by which the behavior is determined to be normal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#criteria IotSecurityProfile#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#criteria IotSecurityProfile#criteria}
 
 ---
 
@@ -1373,7 +1373,7 @@ public java.lang.Boolean|IResolvable getExportMetric();
 
 Flag to enable/disable metrics export for metric to be retained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#export_metric IotSecurityProfile#export_metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#export_metric IotSecurityProfile#export_metric}
 
 ---
 
@@ -1387,7 +1387,7 @@ public java.lang.String getMetric();
 
 What is measured by the behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#metric IotSecurityProfile#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#metric IotSecurityProfile#metric}
 
 ---
 
@@ -1401,7 +1401,7 @@ public IotSecurityProfileBehaviorsMetricDimension getMetricDimension();
 
 The dimension of a metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#metric_dimension IotSecurityProfile#metric_dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#metric_dimension IotSecurityProfile#metric_dimension}
 
 ---
 
@@ -1415,7 +1415,7 @@ public java.lang.String getName();
 
 The name for the behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#name IotSecurityProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#name IotSecurityProfile#name}
 
 ---
 
@@ -1431,7 +1431,7 @@ Manage Detect alarm SNS notifications by setting behavior notification to on or 
 
 Detect will continue to performing device behavior evaluations. However, suppressed alarms wouldn't be forwarded for SNS notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#suppress_alerts IotSecurityProfile#suppress_alerts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#suppress_alerts IotSecurityProfile#suppress_alerts}
 
 ---
 
@@ -1477,7 +1477,7 @@ public java.lang.String getComparisonOperator();
 
 The operator that relates the thing measured (metric) to the criteria (containing a value or statisticalThreshold).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#comparison_operator IotSecurityProfile#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#comparison_operator IotSecurityProfile#comparison_operator}
 
 ---
 
@@ -1493,7 +1493,7 @@ If a device is in violation of the behavior for the specified number of consecut
 
 If not specified, the default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#consecutive_datapoints_to_alarm IotSecurityProfile#consecutive_datapoints_to_alarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#consecutive_datapoints_to_alarm IotSecurityProfile#consecutive_datapoints_to_alarm}
 
 ---
 
@@ -1509,7 +1509,7 @@ If an alarm has occurred and the offending device is no longer in violation of t
 
 If not specified, the default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#consecutive_datapoints_to_clear IotSecurityProfile#consecutive_datapoints_to_clear}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#consecutive_datapoints_to_clear IotSecurityProfile#consecutive_datapoints_to_clear}
 
 ---
 
@@ -1523,7 +1523,7 @@ public java.lang.Number getDurationSeconds();
 
 Use this to specify the time duration over which the behavior is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#duration_seconds IotSecurityProfile#duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#duration_seconds IotSecurityProfile#duration_seconds}
 
 ---
 
@@ -1537,7 +1537,7 @@ public IotSecurityProfileBehaviorsCriteriaMlDetectionConfig getMlDetectionConfig
 
 The configuration of an ML Detect Security Profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#ml_detection_config IotSecurityProfile#ml_detection_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#ml_detection_config IotSecurityProfile#ml_detection_config}
 
 ---
 
@@ -1551,7 +1551,7 @@ public IotSecurityProfileBehaviorsCriteriaStatisticalThreshold getStatisticalThr
 
 A statistical ranking (percentile) which indicates a threshold value by which a behavior is determined to be in compliance or in violation of the behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#statistical_threshold IotSecurityProfile#statistical_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#statistical_threshold IotSecurityProfile#statistical_threshold}
 
 ---
 
@@ -1565,7 +1565,7 @@ public IotSecurityProfileBehaviorsCriteriaValue getValue();
 
 The value to be compared with the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#value IotSecurityProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#value IotSecurityProfile#value}
 
 ---
 
@@ -1599,7 +1599,7 @@ public java.lang.String getConfidenceLevel();
 
 The sensitivity of anomalous behavior evaluation. Can be Low, Medium, or High.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#confidence_level IotSecurityProfile#confidence_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#confidence_level IotSecurityProfile#confidence_level}
 
 ---
 
@@ -1633,7 +1633,7 @@ public java.lang.String getStatistic();
 
 The percentile which resolves to a threshold value by which compliance with a behavior is determined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#statistic IotSecurityProfile#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#statistic IotSecurityProfile#statistic}
 
 ---
 
@@ -1677,7 +1677,7 @@ public java.util.List<java.lang.String> getCidrs();
 
 If the ComparisonOperator calls for a set of CIDRs, use this to specify that set to be compared with the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#cidrs IotSecurityProfile#cidrs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#cidrs IotSecurityProfile#cidrs}
 
 ---
 
@@ -1691,7 +1691,7 @@ public java.lang.String getCount();
 
 If the ComparisonOperator calls for a numeric value, use this to specify that (integer) numeric value to be compared with the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#count IotSecurityProfile#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#count IotSecurityProfile#count}
 
 ---
 
@@ -1705,7 +1705,7 @@ public java.lang.Number getNumber();
 
 The numeral value of a metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#number IotSecurityProfile#number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#number IotSecurityProfile#number}
 
 ---
 
@@ -1719,7 +1719,7 @@ public java.util.List<java.lang.Number> getNumbers();
 
 The numeral values of a metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#numbers IotSecurityProfile#numbers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#numbers IotSecurityProfile#numbers}
 
 ---
 
@@ -1733,7 +1733,7 @@ public java.util.List<java.lang.Number> getPorts();
 
 If the ComparisonOperator calls for a set of ports, use this to specify that set to be compared with the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#ports IotSecurityProfile#ports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#ports IotSecurityProfile#ports}
 
 ---
 
@@ -1747,7 +1747,7 @@ public java.util.List<java.lang.String> getStrings();
 
 The string values of a metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#strings IotSecurityProfile#strings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#strings IotSecurityProfile#strings}
 
 ---
 
@@ -1783,7 +1783,7 @@ public java.lang.String getDimensionName();
 
 A unique identifier for the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#dimension_name IotSecurityProfile#dimension_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#dimension_name IotSecurityProfile#dimension_name}
 
 ---
 
@@ -1797,7 +1797,7 @@ public java.lang.String getOperator();
 
 Defines how the dimensionValues of a dimension are interpreted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#operator IotSecurityProfile#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#operator IotSecurityProfile#operator}
 
 ---
 
@@ -1931,7 +1931,7 @@ A list of metrics whose data is retained (stored).
 
 By default, data is retained for any metric used in the profile's behaviors, but it is also retained for any metric specified here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#additional_metrics_to_retain_v2 IotSecurityProfile#additional_metrics_to_retain_v2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#additional_metrics_to_retain_v2 IotSecurityProfile#additional_metrics_to_retain_v2}
 
 ---
 
@@ -1945,7 +1945,7 @@ public IResolvable|java.util.Map<java.lang.String, IotSecurityProfileAlertTarget
 
 Specifies the destinations to which alerts are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#alert_targets IotSecurityProfile#alert_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#alert_targets IotSecurityProfile#alert_targets}
 
 ---
 
@@ -1959,7 +1959,7 @@ public IResolvable|java.util.List<IotSecurityProfileBehaviors> getBehaviors();
 
 Specifies the behaviors that, when violated by a device (thing), cause an alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#behaviors IotSecurityProfile#behaviors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#behaviors IotSecurityProfile#behaviors}
 
 ---
 
@@ -1973,7 +1973,7 @@ public IotSecurityProfileMetricsExportConfig getMetricsExportConfig();
 
 A structure containing the mqtt topic for metrics export.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#metrics_export_config IotSecurityProfile#metrics_export_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#metrics_export_config IotSecurityProfile#metrics_export_config}
 
 ---
 
@@ -1987,7 +1987,7 @@ public java.lang.String getSecurityProfileDescription();
 
 A description of the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#security_profile_description IotSecurityProfile#security_profile_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#security_profile_description IotSecurityProfile#security_profile_description}
 
 ---
 
@@ -2001,7 +2001,7 @@ public java.lang.String getSecurityProfileName();
 
 A unique identifier for the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#security_profile_name IotSecurityProfile#security_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#security_profile_name IotSecurityProfile#security_profile_name}
 
 ---
 
@@ -2015,7 +2015,7 @@ public IResolvable|java.util.List<IotSecurityProfileTags> getTags();
 
 Metadata that can be used to manage the security profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#tags IotSecurityProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#tags IotSecurityProfile#tags}
 
 ---
 
@@ -2029,7 +2029,7 @@ public java.util.List<java.lang.String> getTargetArns();
 
 A set of target ARNs that the security profile is attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#target_arns IotSecurityProfile#target_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#target_arns IotSecurityProfile#target_arns}
 
 ---
 
@@ -2065,7 +2065,7 @@ public java.lang.String getMqttTopic();
 
 The topic for metrics export.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#mqtt_topic IotSecurityProfile#mqtt_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#mqtt_topic IotSecurityProfile#mqtt_topic}
 
 ---
 
@@ -2079,7 +2079,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the role that grants permission to publish to mqtt topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#role_arn IotSecurityProfile#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#role_arn IotSecurityProfile#role_arn}
 
 ---
 
@@ -2115,7 +2115,7 @@ public java.lang.String getKey();
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#key IotSecurityProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#key IotSecurityProfile#key}
 
 ---
 
@@ -2129,7 +2129,7 @@ public java.lang.String getValue();
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_security_profile#value IotSecurityProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_security_profile#value IotSecurityProfile#value}
 
 ---
 

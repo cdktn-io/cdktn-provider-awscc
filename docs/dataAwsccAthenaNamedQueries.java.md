@@ -4,7 +4,7 @@
 
 ### DataAwsccAthenaNamedQueries <a name="DataAwsccAthenaNamedQueries" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/athena_named_queries awscc_athena_named_queries}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_named_queries awscc_athena_named_queries}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAthenaNamedQueries.DataAwsccAthenaNamedQueries.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccAthenaNamedQuerie
 
 The id of the existing DataAwsccAthenaNamedQueries that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/athena_named_queries#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_named_queries#import import section} in the documentation of this resource for the id to use
 
 ---
 

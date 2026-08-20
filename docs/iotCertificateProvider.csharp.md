@@ -4,7 +4,7 @@
 
 ### IotCertificateProvider <a name="IotCertificateProvider" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProvider.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the IotCertificateProvider to 
 
 The id of the existing IotCertificateProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -854,9 +854,9 @@ new IotCertificateProviderConfig {
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.accountDefaultForOperations">AccountDefaultForOperations</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.lambdaFunctionArn">LambdaFunctionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.certificateProviderName">CertificateProviderName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.accountDefaultForOperations">AccountDefaultForOperations</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.lambdaFunctionArn">LambdaFunctionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.certificateProviderName">CertificateProviderName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}. |
 | <code><a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotCertificateProvider.IotCertificateProviderTags">IotCertificateProviderTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -939,7 +939,7 @@ public string[] AccountDefaultForOperations { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#account_default_for_operations IotCertificateProvider#account_default_for_operations}.
 
 ---
 
@@ -951,7 +951,7 @@ public string LambdaFunctionArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#lambda_function_arn IotCertificateProvider#lambda_function_arn}.
 
 ---
 
@@ -963,7 +963,7 @@ public string CertificateProviderName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#certificate_provider_name IotCertificateProvider#certificate_provider_name}.
 
 ---
 
@@ -977,7 +977,7 @@ public IResolvable|IotCertificateProviderTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#tags IotCertificateProvider#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#tags IotCertificateProvider#tags}
 
 ---
 
@@ -1015,7 +1015,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#key IotCertificateProvider#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#key IotCertificateProvider#key}
 
 ---
 
@@ -1031,7 +1031,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_certificate_provider#value IotCertificateProvider#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_certificate_provider#value IotCertificateProvider#value}
 
 ---
 

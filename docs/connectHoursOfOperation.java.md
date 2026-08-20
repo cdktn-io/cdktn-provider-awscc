@@ -4,7 +4,7 @@
 
 ### ConnectHoursOfOperation <a name="ConnectHoursOfOperation" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation awscc_connect_hours_of_operation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperation.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Configuration information for the hours of operation: day, start time, and end time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The time zone of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of child hours of operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more hours of operation overrides assigned to an hour of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of parent hours of operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
 
 ---
 
@@ -749,7 +749,7 @@ The construct id used in the generated config for the ConnectHoursOfOperation to
 
 The id of the existing ConnectHoursOfOperation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1196,7 +1196,7 @@ public java.lang.String getId();
 
 The identifier for the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1213,7 +1213,7 @@ public java.lang.String getName();
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -1347,7 +1347,7 @@ public IResolvable|java.util.List<ConnectHoursOfOperationConfigA> getConfig();
 
 Configuration information for the hours of operation: day, start time, and end time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#config ConnectHoursOfOperation#config}
 
 ---
 
@@ -1361,7 +1361,7 @@ public java.lang.String getInstanceArn();
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#instance_arn ConnectHoursOfOperation#instance_arn}
 
 ---
 
@@ -1375,7 +1375,7 @@ public java.lang.String getName();
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -1389,7 +1389,7 @@ public java.lang.String getTimeZone();
 
 The time zone of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#time_zone ConnectHoursOfOperation#time_zone}
 
 ---
 
@@ -1403,7 +1403,7 @@ public IResolvable|java.util.List<ConnectHoursOfOperationChildHoursOfOperations>
 
 List of child hours of operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#child_hours_of_operations ConnectHoursOfOperation#child_hours_of_operations}
 
 ---
 
@@ -1417,7 +1417,7 @@ public java.lang.String getDescription();
 
 The description of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#description ConnectHoursOfOperation#description}
 
 ---
 
@@ -1431,7 +1431,7 @@ public IResolvable|java.util.List<ConnectHoursOfOperationHoursOfOperationOverrid
 
 One or more hours of operation overrides assigned to an hour of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours_of_operation_overrides ConnectHoursOfOperation#hours_of_operation_overrides}
 
 ---
 
@@ -1445,7 +1445,7 @@ public IResolvable|java.util.List<ConnectHoursOfOperationParentHoursOfOperations
 
 List of parent hours of operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#parent_hours_of_operations ConnectHoursOfOperation#parent_hours_of_operations}
 
 ---
 
@@ -1459,7 +1459,7 @@ public IResolvable|java.util.List<ConnectHoursOfOperationTags> getTags();
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#tags ConnectHoursOfOperation#tags}
 
 ---
 
@@ -1497,7 +1497,7 @@ public java.lang.String getDay();
 
 The day that the hours of operation applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
 
 ---
 
@@ -1511,7 +1511,7 @@ public ConnectHoursOfOperationConfigEndTime getEndTime();
 
 The end time that your contact center closes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
 
 ---
 
@@ -1525,7 +1525,7 @@ public ConnectHoursOfOperationConfigStartTime getStartTime();
 
 The start time that your contact center opens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
 
 ---
 
@@ -1561,7 +1561,7 @@ public java.lang.Number getHours();
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1575,7 +1575,7 @@ public java.lang.Number getMinutes();
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1611,7 +1611,7 @@ public java.lang.Number getHours();
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1625,7 +1625,7 @@ public java.lang.Number getMinutes();
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1673,7 +1673,7 @@ public java.lang.String getEffectiveFrom();
 
 The date from which the hours of operation override would be effective.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#effective_from ConnectHoursOfOperation#effective_from}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#effective_from ConnectHoursOfOperation#effective_from}
 
 ---
 
@@ -1687,7 +1687,7 @@ public java.lang.String getEffectiveTill();
 
 The date till which the hours of operation override would be effective.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#effective_till ConnectHoursOfOperation#effective_till}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#effective_till ConnectHoursOfOperation#effective_till}
 
 ---
 
@@ -1701,7 +1701,7 @@ public java.lang.String getHoursOfOperationOverrideId();
 
 The Resource Identifier for the hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours_of_operation_override_id ConnectHoursOfOperation#hours_of_operation_override_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours_of_operation_override_id ConnectHoursOfOperation#hours_of_operation_override_id}
 
 ---
 
@@ -1715,7 +1715,7 @@ public IResolvable|java.util.List<ConnectHoursOfOperationHoursOfOperationOverrid
 
 Configuration information for the hours of operation override: day, start time, and end time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#override_config ConnectHoursOfOperation#override_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_config ConnectHoursOfOperation#override_config}
 
 ---
 
@@ -1729,7 +1729,7 @@ public java.lang.String getOverrideDescription();
 
 The description of the hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#override_description ConnectHoursOfOperation#override_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_description ConnectHoursOfOperation#override_description}
 
 ---
 
@@ -1743,7 +1743,7 @@ public java.lang.String getOverrideName();
 
 The name of the hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#override_name ConnectHoursOfOperation#override_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_name ConnectHoursOfOperation#override_name}
 
 ---
 
@@ -1757,7 +1757,7 @@ public java.lang.String getOverrideType();
 
 The type of hours of operation override.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#override_type ConnectHoursOfOperation#override_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#override_type ConnectHoursOfOperation#override_type}
 
 ---
 
@@ -1771,7 +1771,7 @@ public ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfig getRecur
 
 Configuration for recurring hours of operation overrides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#recurrence_config ConnectHoursOfOperation#recurrence_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#recurrence_config ConnectHoursOfOperation#recurrence_config}
 
 ---
 
@@ -1809,7 +1809,7 @@ public java.lang.String getDay();
 
 The day that the hours of operation override applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#day ConnectHoursOfOperation#day}
 
 ---
 
@@ -1823,7 +1823,7 @@ public ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTime get
 
 The new end time that your contact center closes for the overriden days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#end_time ConnectHoursOfOperation#end_time}
 
 ---
 
@@ -1837,7 +1837,7 @@ public ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStartTime g
 
 The new start time that your contact center opens for the overriden days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#start_time ConnectHoursOfOperation#start_time}
 
 ---
 
@@ -1873,7 +1873,7 @@ public java.lang.Number getHours();
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1887,7 +1887,7 @@ public java.lang.Number getMinutes();
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1923,7 +1923,7 @@ public java.lang.Number getHours();
 
 The hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#hours ConnectHoursOfOperation#hours}
 
 ---
 
@@ -1937,7 +1937,7 @@ public java.lang.Number getMinutes();
 
 The minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#minutes ConnectHoursOfOperation#minutes}
 
 ---
 
@@ -1971,7 +1971,7 @@ public ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrenc
 
 Pattern for recurring hours of operation overrides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#recurrence_pattern ConnectHoursOfOperation#recurrence_pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#recurrence_pattern ConnectHoursOfOperation#recurrence_pattern}
 
 ---
 
@@ -1997,9 +1997,9 @@ ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePatter
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byMonth">byMonth</a></code> | <code>java.util.List<java.lang.Number></code> | List of months (1-12) for recurrence pattern. |
 | <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byMonthDay">byMonthDay</a></code> | <code>java.util.List<java.lang.Number></code> | List of month days (-1 to 31) for recurrence pattern. |
-| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byWeekdayOccurrence">byWeekdayOccurrence</a></code> | <code>java.util.List<java.lang.Number></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}. |
+| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.byWeekdayOccurrence">byWeekdayOccurrence</a></code> | <code>java.util.List<java.lang.Number></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}. |
 | <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.frequency">frequency</a></code> | <code>java.lang.String</code> | The frequency of recurrence for hours of operation overrides. |
-| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.interval">interval</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}. |
+| <code><a href="#@cdktn/provider-awscc.connectHoursOfOperation.ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRecurrencePattern.property.interval">interval</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}. |
 
 ---
 
@@ -2013,7 +2013,7 @@ public java.util.List<java.lang.Number> getByMonth();
 
 List of months (1-12) for recurrence pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#by_month ConnectHoursOfOperation#by_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_month ConnectHoursOfOperation#by_month}
 
 ---
 
@@ -2027,7 +2027,7 @@ public java.util.List<java.lang.Number> getByMonthDay();
 
 List of month days (-1 to 31) for recurrence pattern.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#by_month_day ConnectHoursOfOperation#by_month_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_month_day ConnectHoursOfOperation#by_month_day}
 
 ---
 
@@ -2039,7 +2039,7 @@ public java.util.List<java.lang.Number> getByWeekdayOccurrence();
 
 - *Type:* java.util.List<java.lang.Number>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#by_weekday_occurrence ConnectHoursOfOperation#by_weekday_occurrence}.
 
 ---
 
@@ -2053,7 +2053,7 @@ public java.lang.String getFrequency();
 
 The frequency of recurrence for hours of operation overrides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#frequency ConnectHoursOfOperation#frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#frequency ConnectHoursOfOperation#frequency}
 
 ---
 
@@ -2065,7 +2065,7 @@ public java.lang.Number getInterval();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#interval ConnectHoursOfOperation#interval}.
 
 ---
 
@@ -2101,7 +2101,7 @@ public java.lang.String getId();
 
 The identifier for the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#id ConnectHoursOfOperation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2118,7 +2118,7 @@ public java.lang.String getName();
 
 The name of the hours of operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#name ConnectHoursOfOperation#name}
 
 ---
 
@@ -2156,7 +2156,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
 
 ---
 
@@ -2172,7 +2172,7 @@ The value for the tag.
 
 You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
 
 ---
 

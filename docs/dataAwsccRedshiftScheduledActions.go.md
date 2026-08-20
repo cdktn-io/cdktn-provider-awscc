@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftScheduledActions <a name="DataAwsccRedshiftScheduledActions" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftScheduledActions.DataAwsccRedshiftScheduledActions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftScheduled
 
 The id of the existing DataAwsccRedshiftScheduledActions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_scheduled_actions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_scheduled_actions#import import section} in the documentation of this resource for the id to use
 
 ---
 

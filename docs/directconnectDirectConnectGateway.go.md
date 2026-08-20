@@ -4,7 +4,7 @@
 
 ### DirectconnectDirectConnectGateway <a name="DirectconnectDirectConnectGateway" id="@cdktn/provider-awscc.directconnectDirectConnectGateway.DirectconnectDirectConnectGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectDirectConnectGateway.DirectconnectDirectConnectGateway.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the DirectconnectDirectConnect
 
 The id of the existing DirectconnectDirectConnectGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ DirectConnectGatewayName *string
 
 The name of the Direct Connect gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway#direct_connect_gateway_name DirectconnectDirectConnectGateway#direct_connect_gateway_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway#direct_connect_gateway_name DirectconnectDirectConnectGateway#direct_connect_gateway_name}
 
 ---
 
@@ -942,7 +942,7 @@ AmazonSideAsn *string
 
 The autonomous system number (ASN) for the Amazon side of the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway#amazon_side_asn DirectconnectDirectConnectGateway#amazon_side_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway#amazon_side_asn DirectconnectDirectConnectGateway#amazon_side_asn}
 
 ---
 
@@ -956,7 +956,7 @@ Tags interface{}
 
 The tags associated with the Direct Connect gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway#tags DirectconnectDirectConnectGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway#tags DirectconnectDirectConnectGateway#tags}
 
 ---
 
@@ -994,7 +994,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway#key DirectconnectDirectConnectGateway#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway#key DirectconnectDirectConnectGateway#key}
 
 ---
 
@@ -1010,7 +1010,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway#value DirectconnectDirectConnectGateway#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway#value DirectconnectDirectConnectGateway#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Mediapackagev2ChannelPolicy <a name="Mediapackagev2ChannelPolicy" id="@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Mediapackagev2ChannelPolic
 
 The id of the existing Mediapackagev2ChannelPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -782,9 +782,9 @@ const mediapackagev2ChannelPolicyConfig: mediapackagev2ChannelPolicy.Mediapackag
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.channelGroupName">channelGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#channel_group_name Mediapackagev2ChannelPolicy#channel_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.channelName">channelName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#channel_name Mediapackagev2ChannelPolicy#channel_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#policy Mediapackagev2ChannelPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.channelGroupName">channelGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#channel_group_name Mediapackagev2ChannelPolicy#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.channelName">channelName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#channel_name Mediapackagev2ChannelPolicy#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2ChannelPolicy.Mediapackagev2ChannelPolicyConfig.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#policy Mediapackagev2ChannelPolicy#policy}. |
 
 ---
 
@@ -866,7 +866,7 @@ public readonly channelGroupName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#channel_group_name Mediapackagev2ChannelPolicy#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#channel_group_name Mediapackagev2ChannelPolicy#channel_group_name}.
 
 ---
 
@@ -878,7 +878,7 @@ public readonly channelName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#channel_name Mediapackagev2ChannelPolicy#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#channel_name Mediapackagev2ChannelPolicy#channel_name}.
 
 ---
 
@@ -890,7 +890,7 @@ public readonly policy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediapackagev2_channel_policy#policy Mediapackagev2ChannelPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediapackagev2_channel_policy#policy Mediapackagev2ChannelPolicy#policy}.
 
 ---
 

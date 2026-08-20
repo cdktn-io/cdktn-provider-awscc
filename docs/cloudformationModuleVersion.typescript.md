@@ -4,7 +4,7 @@
 
 ### CloudformationModuleVersion <a name="CloudformationModuleVersion" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_module_version awscc_cloudformation_module_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_version awscc_cloudformation_module_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationModuleVersion.CloudformationModuleVersion.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the CloudformationModuleVersio
 
 The id of the existing CloudformationModuleVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_module_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -935,7 +935,7 @@ The name of the module being registered.
 
 Recommended module naming pattern: company_or_organization::service::type::MODULE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_module_version#module_name CloudformationModuleVersion#module_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_version#module_name CloudformationModuleVersion#module_name}
 
 ---
 
@@ -949,7 +949,7 @@ public readonly modulePackage: string;
 
 The url to the S3 bucket containing the schema and template fragment for the module you want to register.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_module_version#module_package CloudformationModuleVersion#module_package}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_module_version#module_package CloudformationModuleVersion#module_package}
 
 ---
 

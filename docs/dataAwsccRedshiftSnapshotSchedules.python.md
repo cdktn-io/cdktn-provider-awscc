@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftSnapshotSchedules <a name="DataAwsccRedshiftSnapshotSchedules" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotSchedules.DataAwsccRedshiftSnapshotSchedules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotSchedules.DataAwsccRedshiftSnapshotSchedules.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRedshiftSnapshotS
 
 The id of the existing DataAwsccRedshiftSnapshotSchedules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_snapshot_schedules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshift_snapshot_schedules#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerInferenceComponents <a name="DataAwsccSagemakerInferenceComponents" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_inference_components awscc_sagemaker_inference_components}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_inference_components awscc_sagemaker_inference_components}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerInferenceComponents.DataAwsccSagemakerInferenceComponents.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSagemakerInferenc
 
 The id of the existing DataAwsccSagemakerInferenceComponents that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_inference_components#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_inference_components#import import section} in the documentation of this resource for the id to use
 
 ---
 

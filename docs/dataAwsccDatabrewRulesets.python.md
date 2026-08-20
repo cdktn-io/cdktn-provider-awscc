@@ -4,7 +4,7 @@
 
 ### DataAwsccDatabrewRulesets <a name="DataAwsccDatabrewRulesets" id="@cdktn/provider-awscc.dataAwsccDatabrewRulesets.DataAwsccDatabrewRulesets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatabrewRulesets.DataAwsccDatabrewRulesets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDatabrewRulesets 
 
 The id of the existing DataAwsccDatabrewRulesets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/databrew_rulesets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_rulesets#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GlueJob <a name="GlueJob" id="@cdktn/provider-awscc.glueJob.GlueJob"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job awscc_glue_job}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job awscc_glue_job}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueJob.GlueJob.Initializer"></a>
 
@@ -688,7 +688,7 @@ The construct id used in the generated config for the GlueJob to import.
 
 The id of the existing GlueJob that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1436,7 +1436,7 @@ public string Name { get; set; }
 
 The name of the job command.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#name GlueJob#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#name GlueJob#name}
 
 ---
 
@@ -1450,7 +1450,7 @@ public string PythonVersion { get; set; }
 
 The Python version being used to execute a Python shell job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#python_version GlueJob#python_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#python_version GlueJob#python_version}
 
 ---
 
@@ -1464,7 +1464,7 @@ public string Runtime { get; set; }
 
 Runtime is used to specify the versions of Ray, Python and additional libraries available in your environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#runtime GlueJob#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#runtime GlueJob#runtime}
 
 ---
 
@@ -1478,7 +1478,7 @@ public string ScriptLocation { get; set; }
 
 Specifies the Amazon Simple Storage Service (Amazon S3) path to a script that executes a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#script_location GlueJob#script_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#script_location GlueJob#script_location}
 
 ---
 
@@ -1640,7 +1640,7 @@ public GlueJobCommand Command { get; set; }
 
 The code that executes a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#command GlueJob#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#command GlueJob#command}
 
 ---
 
@@ -1654,7 +1654,7 @@ public string Role { get; set; }
 
 The name or Amazon Resource Name (ARN) of the IAM role associated with this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#role GlueJob#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#role GlueJob#role}
 
 ---
 
@@ -1668,7 +1668,7 @@ public double AllocatedCapacity { get; set; }
 
 The number of capacity units that are allocated to this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#allocated_capacity GlueJob#allocated_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#allocated_capacity GlueJob#allocated_capacity}
 
 ---
 
@@ -1682,7 +1682,7 @@ public GlueJobConnections Connections { get; set; }
 
 Specifies the connections used by a job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#connections GlueJob#connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#connections GlueJob#connections}
 
 ---
 
@@ -1696,7 +1696,7 @@ public string DefaultArguments { get; set; }
 
 The default arguments for this job, specified as name-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#default_arguments GlueJob#default_arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#default_arguments GlueJob#default_arguments}
 
 ---
 
@@ -1710,7 +1710,7 @@ public string Description { get; set; }
 
 A description of the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#description GlueJob#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#description GlueJob#description}
 
 ---
 
@@ -1724,7 +1724,7 @@ public string ExecutionClass { get; set; }
 
 Indicates whether the job is run with a standard or flexible execution class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#execution_class GlueJob#execution_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#execution_class GlueJob#execution_class}
 
 ---
 
@@ -1738,7 +1738,7 @@ public GlueJobExecutionProperty ExecutionProperty { get; set; }
 
 The maximum number of concurrent runs that are allowed for this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#execution_property GlueJob#execution_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#execution_property GlueJob#execution_property}
 
 ---
 
@@ -1752,7 +1752,7 @@ public string GlueVersion { get; set; }
 
 Glue version determines the versions of Apache Spark and Python that AWS Glue supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#glue_version GlueJob#glue_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#glue_version GlueJob#glue_version}
 
 ---
 
@@ -1766,7 +1766,7 @@ public string JobMode { get; set; }
 
 Property description not available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#job_mode GlueJob#job_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#job_mode GlueJob#job_mode}
 
 ---
 
@@ -1780,7 +1780,7 @@ public bool|IResolvable JobRunQueuingEnabled { get; set; }
 
 Property description not available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#job_run_queuing_enabled GlueJob#job_run_queuing_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#job_run_queuing_enabled GlueJob#job_run_queuing_enabled}
 
 ---
 
@@ -1794,7 +1794,7 @@ public string LogUri { get; set; }
 
 This field is reserved for future use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#log_uri GlueJob#log_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#log_uri GlueJob#log_uri}
 
 ---
 
@@ -1808,7 +1808,7 @@ public string MaintenanceWindow { get; set; }
 
 Property description not available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#maintenance_window GlueJob#maintenance_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#maintenance_window GlueJob#maintenance_window}
 
 ---
 
@@ -1822,7 +1822,7 @@ public double MaxCapacity { get; set; }
 
 The number of AWS Glue data processing units (DPUs) that can be allocated when this job runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#max_capacity GlueJob#max_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#max_capacity GlueJob#max_capacity}
 
 ---
 
@@ -1836,7 +1836,7 @@ public double MaxRetries { get; set; }
 
 The maximum number of times to retry this job after a JobRun fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#max_retries GlueJob#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#max_retries GlueJob#max_retries}
 
 ---
 
@@ -1850,7 +1850,7 @@ public string Name { get; set; }
 
 The name you assign to the job definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#name GlueJob#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#name GlueJob#name}
 
 ---
 
@@ -1864,7 +1864,7 @@ public string NonOverridableArguments { get; set; }
 
 Non-overridable arguments for this job, specified as name-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#non_overridable_arguments GlueJob#non_overridable_arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#non_overridable_arguments GlueJob#non_overridable_arguments}
 
 ---
 
@@ -1878,7 +1878,7 @@ public GlueJobNotificationProperty NotificationProperty { get; set; }
 
 Specifies configuration properties of a notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#notification_property GlueJob#notification_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#notification_property GlueJob#notification_property}
 
 ---
 
@@ -1892,7 +1892,7 @@ public double NumberOfWorkers { get; set; }
 
 The number of workers of a defined workerType that are allocated when a job runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#number_of_workers GlueJob#number_of_workers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#number_of_workers GlueJob#number_of_workers}
 
 ---
 
@@ -1906,7 +1906,7 @@ public string SecurityConfiguration { get; set; }
 
 The name of the SecurityConfiguration structure to be used with this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#security_configuration GlueJob#security_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#security_configuration GlueJob#security_configuration}
 
 ---
 
@@ -1920,7 +1920,7 @@ public string Tags { get; set; }
 
 The tags to use with this job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#tags GlueJob#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#tags GlueJob#tags}
 
 ---
 
@@ -1934,7 +1934,7 @@ public double Timeout { get; set; }
 
 The maximum time that a job run can consume resources before it is terminated and enters TIMEOUT status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#timeout GlueJob#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#timeout GlueJob#timeout}
 
 ---
 
@@ -1948,7 +1948,7 @@ public string WorkerType { get; set; }
 
 TThe type of predefined worker that is allocated when a job runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#worker_type GlueJob#worker_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#worker_type GlueJob#worker_type}
 
 ---
 
@@ -1982,7 +1982,7 @@ public string[] Connections { get; set; }
 
 A list of connections used by the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#connections GlueJob#connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#connections GlueJob#connections}
 
 ---
 
@@ -2016,7 +2016,7 @@ public double MaxConcurrentRuns { get; set; }
 
 The maximum number of concurrent runs allowed for the job.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#max_concurrent_runs GlueJob#max_concurrent_runs}
 
 ---
 
@@ -2050,7 +2050,7 @@ public double NotifyDelayAfter { get; set; }
 
 It is the number of minutes to wait before sending a job run delay notification after a job run starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job#notify_delay_after GlueJob#notify_delay_after}
 
 ---
 

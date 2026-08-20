@@ -4,7 +4,7 @@
 
 ### DataAwsccFsxDataRepositoryAssociations <a name="DataAwsccFsxDataRepositoryAssociations" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/fsx_data_repository_associations awscc_fsx_data_repository_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fsx_data_repository_associations awscc_fsx_data_repository_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxDataRepositoryAssociations.DataAwsccFsxDataRepositoryAssociations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFsxDataRepository
 
 The id of the existing DataAwsccFsxDataRepositoryAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/fsx_data_repository_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fsx_data_repository_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### ApplicationautoscalingScalingPolicy <a name="ApplicationautoscalingScalingPolicy" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicy.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the ApplicationautoscalingScal
 
 The id of the existing ApplicationautoscalingScalingPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,7 +1107,7 @@ The name of the scaling policy.
 
 Updates to the name of a target tracking scaling policy are not supported, unless you also update the metric used for scaling. To change only a target tracking scaling policy's name, first delete the policy by removing the existing ``AWS::ApplicationAutoScaling::ScalingPolicy`` resource from the template and updating the stack. Then, recreate the resource with the same settings and a different name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#policy_name ApplicationautoscalingScalingPolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#policy_name ApplicationautoscalingScalingPolicy#policy_name}
 
 ---
 
@@ -1126,7 +1126,7 @@ The following policy types are supported:
  ``StepScaling``—Not supported for DynamoDB, Amazon Comprehend, Lambda, Amazon Keyspaces, Amazon MSK, Amazon ElastiCache, or Neptune.
  ``PredictiveScaling``—Only supported for Amazon ECS
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#policy_type ApplicationautoscalingScalingPolicy#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#policy_type ApplicationautoscalingScalingPolicy#policy_type}
 
 ---
 
@@ -1140,7 +1140,7 @@ public readonly predictiveScalingPolicyConfiguration: ApplicationautoscalingScal
 
 The predictive scaling policy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predictive_scaling_policy_configuration ApplicationautoscalingScalingPolicy#predictive_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predictive_scaling_policy_configuration ApplicationautoscalingScalingPolicy#predictive_scaling_policy_configuration}
 
 ---
 
@@ -1176,7 +1176,7 @@ This string consists of the resource type and unique identifier.
   +  SageMaker inference component - The resource type is ``inference-component`` and the unique identifier is the resource ID. Example: ``inference-component/my-inference-component``.
   +  Pool of WorkSpaces - The resource type is ``workspacespool`` and the unique identifier is the pool ID. Example: ``workspacespool/wspool-123456``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#resource_id ApplicationautoscalingScalingPolicy#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#resource_id ApplicationautoscalingScalingPolicy#resource_id}
 
 ---
 
@@ -1216,7 +1216,7 @@ This string consists of the service namespace, resource type, and scaling proper
   +  ``sagemaker:inference-component:DesiredCopyCount`` - The number of copies across an endpoint for a SageMaker inference component.
   +  ``workspaces:workspacespool:DesiredUserSessions`` - The number of user sessions for the WorkSpaces in the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scalable_dimension ApplicationautoscalingScalingPolicy#scalable_dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#scalable_dimension ApplicationautoscalingScalingPolicy#scalable_dimension}
 
 ---
 
@@ -1233,7 +1233,7 @@ The CloudFormation-generated ID of an Application Auto Scaling scalable target.
 For more information about the ID, see the Return Value section of the ``AWS::ApplicationAutoScaling::ScalableTarget`` resource.
   You must specify either the ``ScalingTargetId`` property, or the ``ResourceId``, ``ScalableDimension``, and ``ServiceNamespace`` properties, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scaling_target_id ApplicationautoscalingScalingPolicy#scaling_target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#scaling_target_id ApplicationautoscalingScalingPolicy#scaling_target_id}
 
 ---
 
@@ -1247,7 +1247,7 @@ public readonly serviceNamespace: string;
 
 The namespace of the AWS service that provides the resource, or a ``custom-resource``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#service_namespace ApplicationautoscalingScalingPolicy#service_namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#service_namespace ApplicationautoscalingScalingPolicy#service_namespace}
 
 ---
 
@@ -1261,7 +1261,7 @@ public readonly stepScalingPolicyConfiguration: ApplicationautoscalingScalingPol
 
 A step scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#step_scaling_policy_configuration ApplicationautoscalingScalingPolicy#step_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#step_scaling_policy_configuration ApplicationautoscalingScalingPolicy#step_scaling_policy_configuration}
 
 ---
 
@@ -1275,7 +1275,7 @@ public readonly targetTrackingScalingPolicyConfiguration: Applicationautoscaling
 
 A target tracking scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#target_tracking_scaling_policy_configuration ApplicationautoscalingScalingPolicy#target_tracking_scaling_policy_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#target_tracking_scaling_policy_configuration ApplicationautoscalingScalingPolicy#target_tracking_scaling_policy_configuration}
 
 ---
 
@@ -1313,7 +1313,7 @@ Defines the behavior that should be applied if the forecast capacity approaches 
 
 Defaults to ``HonorMaxCapacity`` if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_breach_behavior ApplicationautoscalingScalingPolicy#max_capacity_breach_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_breach_behavior ApplicationautoscalingScalingPolicy#max_capacity_breach_behavior}
 
 ---
 
@@ -1330,7 +1330,7 @@ The size of the capacity buffer to use when the forecast capacity is close to or
 The value is specified as a percentage relative to the forecast capacity. For example, if the buffer is 10, this means a 10 percent buffer, such that if the forecast capacity is 50, and the maximum capacity is 40, then the effective maximum capacity is 55. 
  Required if the ``MaxCapacityBreachBehavior`` property is set to ``IncreaseMaxCapacity``, and cannot be used otherwise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_buffer ApplicationautoscalingScalingPolicy#max_capacity_buffer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_buffer ApplicationautoscalingScalingPolicy#max_capacity_buffer}
 
 ---
 
@@ -1346,7 +1346,7 @@ This structure includes the metrics and target utilization to use for predictive
 
 This is an array, but we currently only support a single metric specification. That is, you can specify a target value and a single metric pair, or a target value and one scaling metric and one load metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_specifications ApplicationautoscalingScalingPolicy#metric_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_specifications ApplicationautoscalingScalingPolicy#metric_specifications}
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly mode: string;
 
 The predictive scaling mode. Defaults to ``ForecastOnly`` if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#mode ApplicationautoscalingScalingPolicy#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#mode ApplicationautoscalingScalingPolicy#mode}
 
 ---
 
@@ -1376,7 +1376,7 @@ The amount of time, in seconds, that the start time can be advanced.
 
 The value must be less than the forecast interval duration of 3600 seconds (60 minutes). Defaults to 300 seconds if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scheduling_buffer_time ApplicationautoscalingScalingPolicy#scheduling_buffer_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#scheduling_buffer_time ApplicationautoscalingScalingPolicy#scheduling_buffer_time}
 
 ---
 
@@ -1414,7 +1414,7 @@ public readonly customizedCapacityMetricSpecification: ApplicationautoscalingSca
 
 The customized capacity metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#customized_capacity_metric_specification ApplicationautoscalingScalingPolicy#customized_capacity_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#customized_capacity_metric_specification ApplicationautoscalingScalingPolicy#customized_capacity_metric_specification}
 
 ---
 
@@ -1428,7 +1428,7 @@ public readonly customizedLoadMetricSpecification: ApplicationautoscalingScaling
 
 The customized load metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#customized_load_metric_specification ApplicationautoscalingScalingPolicy#customized_load_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#customized_load_metric_specification ApplicationautoscalingScalingPolicy#customized_load_metric_specification}
 
 ---
 
@@ -1442,7 +1442,7 @@ public readonly customizedScalingMetricSpecification: ApplicationautoscalingScal
 
 The customized scaling metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#customized_scaling_metric_specification ApplicationautoscalingScalingPolicy#customized_scaling_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#customized_scaling_metric_specification ApplicationautoscalingScalingPolicy#customized_scaling_metric_specification}
 
 ---
 
@@ -1456,7 +1456,7 @@ public readonly predefinedLoadMetricSpecification: ApplicationautoscalingScaling
 
 The predefined load metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_load_metric_specification ApplicationautoscalingScalingPolicy#predefined_load_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_load_metric_specification ApplicationautoscalingScalingPolicy#predefined_load_metric_specification}
 
 ---
 
@@ -1470,7 +1470,7 @@ public readonly predefinedMetricPairSpecification: ApplicationautoscalingScaling
 
 The predefined metric pair specification that determines the appropriate scaling metric and load metric to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_pair_specification ApplicationautoscalingScalingPolicy#predefined_metric_pair_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_pair_specification ApplicationautoscalingScalingPolicy#predefined_metric_pair_specification}
 
 ---
 
@@ -1484,7 +1484,7 @@ public readonly predefinedScalingMetricSpecification: ApplicationautoscalingScal
 
 The predefined scaling metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_scaling_metric_specification ApplicationautoscalingScalingPolicy#predefined_scaling_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_scaling_metric_specification ApplicationautoscalingScalingPolicy#predefined_scaling_metric_specification}
 
 ---
 
@@ -1498,7 +1498,7 @@ public readonly targetValue: number;
 
 Specifies the target utilization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
 
 ---
 
@@ -1530,7 +1530,7 @@ public readonly metricDataQueries: IResolvable | ApplicationautoscalingScalingPo
 
 One or more metric data queries to provide data points for a metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
 
 ---
 
@@ -1569,7 +1569,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -1585,7 +1585,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all ``MetricDataQuery`` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1604,7 +1604,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -1620,7 +1620,7 @@ Information about the metric data to return.
 
 Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -1637,7 +1637,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -1673,7 +1673,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -1690,7 +1690,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*. 
  The most commonly used metrics for predictive scaling are ``Average`` and ``Sum``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -1706,7 +1706,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -1740,7 +1740,7 @@ public readonly dimensions: IResolvable | ApplicationautoscalingScalingPolicyPre
 
 Describes the dimensions of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -1754,7 +1754,7 @@ public readonly metricName: string;
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -1768,7 +1768,7 @@ public readonly namespace: string;
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -1801,7 +1801,7 @@ public readonly name: string;
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -1815,7 +1815,7 @@ public readonly value: string;
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -1833,7 +1833,7 @@ const applicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification.property.metricDataQueries">metricDataQueries</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries">ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}. |
+| <code><a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecification.property.metricDataQueries">metricDataQueries</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries">ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}. |
 
 ---
 
@@ -1845,7 +1845,7 @@ public readonly metricDataQueries: IResolvable | ApplicationautoscalingScalingPo
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.applicationautoscalingScalingPolicy.ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries">ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}.
 
 ---
 
@@ -1884,7 +1884,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -1900,7 +1900,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all ``MetricDataQuery`` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1919,7 +1919,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -1935,7 +1935,7 @@ Information about the metric data to return.
 
 Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -1952,7 +1952,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -1988,7 +1988,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -2005,7 +2005,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*. 
  The most commonly used metrics for predictive scaling are ``Average`` and ``Sum``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -2021,7 +2021,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -2055,7 +2055,7 @@ public readonly dimensions: IResolvable | ApplicationautoscalingScalingPolicyPre
 
 Describes the dimensions of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -2069,7 +2069,7 @@ public readonly metricName: string;
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -2083,7 +2083,7 @@ public readonly namespace: string;
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -2116,7 +2116,7 @@ public readonly name: string;
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -2130,7 +2130,7 @@ public readonly value: string;
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -2162,7 +2162,7 @@ public readonly metricDataQueries: IResolvable | ApplicationautoscalingScalingPo
 
 One or more metric data queries to provide data points for a metric specification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_data_queries ApplicationautoscalingScalingPolicy#metric_data_queries}
 
 ---
 
@@ -2201,7 +2201,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -2217,7 +2217,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all ``MetricDataQuery`` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2236,7 +2236,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -2252,7 +2252,7 @@ Information about the metric data to return.
 
 Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -2269,7 +2269,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -2305,7 +2305,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -2322,7 +2322,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*. 
  The most commonly used metrics for predictive scaling are ``Average`` and ``Sum``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -2338,7 +2338,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -2372,7 +2372,7 @@ public readonly dimensions: IResolvable | ApplicationautoscalingScalingPolicyPre
 
 Describes the dimensions of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -2386,7 +2386,7 @@ public readonly metricName: string;
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -2400,7 +2400,7 @@ public readonly namespace: string;
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -2433,7 +2433,7 @@ public readonly name: string;
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -2447,7 +2447,7 @@ public readonly value: string;
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -2480,7 +2480,7 @@ public readonly predefinedMetricType: string;
 
 The metric type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -2494,7 +2494,7 @@ public readonly resourceLabel: string;
 
 A label that uniquely identifies a target group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -2529,7 +2529,7 @@ Indicates which metrics to use.
 
 There are two different types of metrics for each metric type: one is a load metric and one is a scaling metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -2543,7 +2543,7 @@ public readonly resourceLabel: string;
 
 A label that uniquely identifies a specific target group from which to determine the total and average request count.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -2576,7 +2576,7 @@ public readonly predefinedMetricType: string;
 
 The metric type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -2590,7 +2590,7 @@ public readonly resourceLabel: string;
 
 A label that uniquely identifies a specific target group from which to determine the average request count.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 
@@ -2626,7 +2626,7 @@ public readonly adjustmentType: string;
 
 Specifies whether the ``ScalingAdjustment`` value in the ``StepAdjustment`` property is an absolute number or a percentage of the current capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#adjustment_type ApplicationautoscalingScalingPolicy#adjustment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#adjustment_type ApplicationautoscalingScalingPolicy#adjustment_type}
 
 ---
 
@@ -2642,7 +2642,7 @@ The amount of time, in seconds, to wait for a previous scaling activity to take 
 
 If not specified, the default value is 300. For more information, see [Cooldown period](https://docs.aws.amazon.com/autoscaling/application/userguide/step-scaling-policy-overview.html#step-scaling-cooldown) in the *Application Auto Scaling User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#cooldown ApplicationautoscalingScalingPolicy#cooldown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#cooldown ApplicationautoscalingScalingPolicy#cooldown}
 
 ---
 
@@ -2658,7 +2658,7 @@ The aggregation type for the CloudWatch metrics.
 
 Valid values are ``Minimum``, ``Maximum``, and ``Average``. If the aggregation type is null, the value is treated as ``Average``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_aggregation_type ApplicationautoscalingScalingPolicy#metric_aggregation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_aggregation_type ApplicationautoscalingScalingPolicy#metric_aggregation_type}
 
 ---
 
@@ -2674,7 +2674,7 @@ The minimum value to scale by when the adjustment type is ``PercentChangeInCapac
 
 For example, suppose that you create a step scaling policy to scale out an Amazon ECS service by 25 percent and you specify a ``MinAdjustmentMagnitude`` of 2. If the service has 4 tasks and the scaling policy is performed, 25 percent of 4 is 1. However, because you specified a ``MinAdjustmentMagnitude`` of 2, Application Auto Scaling scales out the service by 2 tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#min_adjustment_magnitude ApplicationautoscalingScalingPolicy#min_adjustment_magnitude}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#min_adjustment_magnitude ApplicationautoscalingScalingPolicy#min_adjustment_magnitude}
 
 ---
 
@@ -2690,7 +2690,7 @@ A set of adjustments that enable you to scale based on the size of the alarm bre
 
 At least one step adjustment is required if you are adding a new step scaling policy configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#step_adjustments ApplicationautoscalingScalingPolicy#step_adjustments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#step_adjustments ApplicationautoscalingScalingPolicy#step_adjustments}
 
 ---
 
@@ -2727,7 +2727,7 @@ The lower bound for the difference between the alarm threshold and the CloudWatc
 If the metric value is above the breach threshold, the lower bound is inclusive (the metric must be greater than or equal to the threshold plus the lower bound). Otherwise, it is exclusive (the metric must be greater than the threshold plus the lower bound). A null value indicates negative infinity.
  You must specify at least one upper or lower bound.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_lower_bound ApplicationautoscalingScalingPolicy#metric_interval_lower_bound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_lower_bound ApplicationautoscalingScalingPolicy#metric_interval_lower_bound}
 
 ---
 
@@ -2744,7 +2744,7 @@ The upper bound for the difference between the alarm threshold and the CloudWatc
 If the metric value is above the breach threshold, the upper bound is exclusive (the metric must be less than the threshold plus the upper bound). Otherwise, it is inclusive (the metric must be less than or equal to the threshold plus the upper bound). A null value indicates positive infinity.
  You must specify at least one upper or lower bound.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_upper_bound ApplicationautoscalingScalingPolicy#metric_interval_upper_bound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_interval_upper_bound ApplicationautoscalingScalingPolicy#metric_interval_upper_bound}
 
 ---
 
@@ -2760,7 +2760,7 @@ The amount by which to scale.
 
 The adjustment is based on the value that you specified in the ``AdjustmentType`` property (either an absolute number or a percentage). A positive value adds to the current capacity and a negative number subtracts from the current capacity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scaling_adjustment ApplicationautoscalingScalingPolicy#scaling_adjustment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#scaling_adjustment ApplicationautoscalingScalingPolicy#scaling_adjustment}
 
 ---
 
@@ -2797,7 +2797,7 @@ public readonly customizedMetricSpecification: ApplicationautoscalingScalingPoli
 
 A customized metric. You can specify either a predefined metric or a customized metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#customized_metric_specification ApplicationautoscalingScalingPolicy#customized_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#customized_metric_specification ApplicationautoscalingScalingPolicy#customized_metric_specification}
 
 ---
 
@@ -2813,7 +2813,7 @@ Indicates whether scale in by the target tracking scaling policy is disabled.
 
 If the value is ``true``, scale in is disabled and the target tracking scaling policy won't remove capacity from the scalable target. Otherwise, scale in is enabled and the target tracking scaling policy can remove capacity from the scalable target. The default value is ``false``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#disable_scale_in ApplicationautoscalingScalingPolicy#disable_scale_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#disable_scale_in ApplicationautoscalingScalingPolicy#disable_scale_in}
 
 ---
 
@@ -2827,7 +2827,7 @@ public readonly predefinedMetricSpecification: ApplicationautoscalingScalingPoli
 
 A predefined metric. You can specify either a predefined metric or a customized metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_specification ApplicationautoscalingScalingPolicy#predefined_metric_specification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_specification ApplicationautoscalingScalingPolicy#predefined_metric_specification}
 
 ---
 
@@ -2843,7 +2843,7 @@ The amount of time, in seconds, after a scale-in activity completes before anoth
 
 For more information and for default values, see [Define cooldown periods](https://docs.aws.amazon.com/autoscaling/application/userguide/target-tracking-scaling-policy-overview.html#target-tracking-cooldown) in the *Application Auto Scaling User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scale_in_cooldown ApplicationautoscalingScalingPolicy#scale_in_cooldown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#scale_in_cooldown ApplicationautoscalingScalingPolicy#scale_in_cooldown}
 
 ---
 
@@ -2859,7 +2859,7 @@ The amount of time, in seconds, to wait for a previous scale-out activity to tak
 
 For more information and for default values, see [Define cooldown periods](https://docs.aws.amazon.com/autoscaling/application/userguide/target-tracking-scaling-policy-overview.html#target-tracking-cooldown) in the *Application Auto Scaling User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scale_out_cooldown ApplicationautoscalingScalingPolicy#scale_out_cooldown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#scale_out_cooldown ApplicationautoscalingScalingPolicy#scale_out_cooldown}
 
 ---
 
@@ -2875,7 +2875,7 @@ The target value for the metric.
 
 Although this property accepts numbers of type Double, it won't accept values that are either too small or too large. Values must be in the range of -2^360 to 2^360. The value must be a valid number based on the choice of metric. For example, if the metric is CPU utilization, then the target value is a percent value that represents how much of the CPU can be used before scaling out.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#target_value ApplicationautoscalingScalingPolicy#target_value}
 
 ---
 
@@ -2914,7 +2914,7 @@ The dimensions of the metric.
 
 Conditional: If you published your metric with dimensions, you must specify the same dimensions in your scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -2930,7 +2930,7 @@ The name of the metric.
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that's returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -2946,7 +2946,7 @@ The metrics to include in the target tracking scaling policy, as a metric data q
 
 This can include both raw metric and metric math expressions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metrics ApplicationautoscalingScalingPolicy#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metrics ApplicationautoscalingScalingPolicy#metrics}
 
 ---
 
@@ -2960,7 +2960,7 @@ public readonly namespace: string;
 
 The namespace of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -2974,7 +2974,7 @@ public readonly statistic: string;
 
 The statistic of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#statistic ApplicationautoscalingScalingPolicy#statistic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#statistic ApplicationautoscalingScalingPolicy#statistic}
 
 ---
 
@@ -2990,7 +2990,7 @@ The unit of the metric.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -3023,7 +3023,7 @@ public readonly name: string;
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -3037,7 +3037,7 @@ public readonly value: string;
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -3076,7 +3076,7 @@ The math expression to perform on the returned data, if this object is performin
 This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
  Conditional: Within each ``TargetTrackingMetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
 
 ---
 
@@ -3092,7 +3092,7 @@ A short name that identifies the object's results in the response.
 
 This name must be unique among all ``MetricDataQuery`` objects specified for a single scaling policy. If you are performing math expressions on this set of data, this name represents that data and can serve as a variable in the mathematical expression. The valid characters are letters, numbers, and underscores. The first character must be a lowercase letter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#id ApplicationautoscalingScalingPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3111,7 +3111,7 @@ A human-readable label for this metric or expression.
 
 This is especially useful if this is a math expression, so that you know what the value represents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#label ApplicationautoscalingScalingPolicy#label}
 
 ---
 
@@ -3127,7 +3127,7 @@ Information about the metric data to return.
 
 Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
 
 ---
 
@@ -3144,7 +3144,7 @@ Indicates whether to return the timestamps and raw data values of this metric.
 If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#return_data ApplicationautoscalingScalingPolicy#return_data}
 
 ---
 
@@ -3180,7 +3180,7 @@ The CloudWatch metric to return, including the metric name, namespace, and dimen
 
 To get the exact metric name, namespace, and dimensions, inspect the [Metric](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_Metric.html) object that is returned by a call to [ListMetrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_ListMetrics.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric ApplicationautoscalingScalingPolicy#metric}
 
 ---
 
@@ -3197,7 +3197,7 @@ The statistic to return.
 It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
  The most commonly used metric for scaling is ``Average``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
 
 ---
 
@@ -3213,7 +3213,7 @@ The unit to use for the returned data points.
 
 For a complete list of the units that CloudWatch supports, see the [MetricDatum](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDatum.html) data type in the *Amazon CloudWatch API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#unit ApplicationautoscalingScalingPolicy#unit}
 
 ---
 
@@ -3250,7 +3250,7 @@ The dimensions for the metric.
 For the list of available dimensions, see the AWS documentation available from the table in [services that publish CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html) in the *Amazon CloudWatch User Guide*. 
  Conditional: If you published your metric with dimensions, you must specify the same dimensions in your scaling policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
 
 ---
 
@@ -3264,7 +3264,7 @@ public readonly metricName: string;
 
 The name of the metric.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#metric_name ApplicationautoscalingScalingPolicy#metric_name}
 
 ---
 
@@ -3280,7 +3280,7 @@ The namespace of the metric.
 
 For more information, see the table in [services that publish CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html) in the *Amazon CloudWatch User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#namespace ApplicationautoscalingScalingPolicy#namespace}
 
 ---
 
@@ -3313,7 +3313,7 @@ public readonly name: string;
 
 The name of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#name ApplicationautoscalingScalingPolicy#name}
 
 ---
 
@@ -3327,7 +3327,7 @@ public readonly value: string;
 
 The value of the dimension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#value ApplicationautoscalingScalingPolicy#value}
 
 ---
 
@@ -3360,7 +3360,7 @@ public readonly predefinedMetricType: string;
 
 The metric type. The ``ALBRequestCountPerTarget`` metric type applies only to Spot fleet requests and ECS services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#predefined_metric_type ApplicationautoscalingScalingPolicy#predefined_metric_type}
 
 ---
 
@@ -3383,7 +3383,7 @@ You can't specify a resource label unless the metric type is ``ALBRequestCountPe
   
  To find the ARN for an Application Load Balancer, use the [DescribeLoadBalancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeLoadBalancers.html) API operation. To find the ARN for the target group, use the [DescribeTargetGroups](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeTargetGroups.html) API operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TrafficMirrorFilterRules <a name="DataAwsccEc2TrafficMirrorFilterRules" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorFilterRules.DataAwsccEc2TrafficMirrorFilterRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorFilterRules.DataAwsccEc2TrafficMirrorFilterRules.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2TrafficMirrorF
 
 The id of the existing DataAwsccEc2TrafficMirrorFilterRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_traffic_mirror_filter_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_filter_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockApplicationInferenceProfiles <a name="DataAwsccBedrockApplicationInferenceProfiles" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockApplicationInferenceProfiles.DataAwsccBedrockApplicationInferenceProfiles.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockApplicatio
 
 The id of the existing DataAwsccBedrockApplicationInferenceProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrock_application_inference_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_application_inference_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

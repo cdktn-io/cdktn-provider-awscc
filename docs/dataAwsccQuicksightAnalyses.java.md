@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightAnalyses <a name="DataAwsccQuicksightAnalyses" id="@cdktn/provider-awscc.dataAwsccQuicksightAnalyses.DataAwsccQuicksightAnalyses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightAnalyses.DataAwsccQuicksightAnalyses.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccQuicksightAnalyse
 
 The id of the existing DataAwsccQuicksightAnalyses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_analyses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_analyses#import import section} in the documentation of this resource for the id to use
 
 ---
 

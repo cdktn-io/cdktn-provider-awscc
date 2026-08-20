@@ -4,7 +4,7 @@
 
 ### DataAwsccLocationGeofenceCollections <a name="DataAwsccLocationGeofenceCollections" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/location_geofence_collections awscc_location_geofence_collections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_geofence_collections awscc_location_geofence_collections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationGeofenceCollections.DataAwsccLocationGeofenceCollections.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLocationGeofenceC
 
 The id of the existing DataAwsccLocationGeofenceCollections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/location_geofence_collections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_geofence_collections#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncLocationFsxOntaps <a name="DataAwsccDatasyncLocationFsxOntaps" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationFsxOntaps.DataAwsccDatasyncLocationFsxOntaps.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationF
 
 The id of the existing DataAwsccDatasyncLocationFsxOntaps that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_fsx_ontaps#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_fsx_ontaps#import import section} in the documentation of this resource for the id to use
 
 ---
 

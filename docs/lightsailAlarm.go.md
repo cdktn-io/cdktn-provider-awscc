@@ -4,7 +4,7 @@
 
 ### LightsailAlarm <a name="LightsailAlarm" id="@cdktn/provider-awscc.lightsailAlarm.LightsailAlarm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm awscc_lightsail_alarm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm awscc_lightsail_alarm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailAlarm.LightsailAlarm.Initializer"></a>
 
@@ -524,7 +524,7 @@ The construct id used in the generated config for the LightsailAlarm to import.
 
 The id of the existing LightsailAlarm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1130,7 +1130,7 @@ The name for the alarm.
 
 Specify the name of an existing alarm to update, and overwrite the previous configuration of the alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#alarm_name LightsailAlarm#alarm_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#alarm_name LightsailAlarm#alarm_name}
 
 ---
 
@@ -1146,7 +1146,7 @@ The arithmetic operation to use when comparing the specified statistic to the th
 
 The specified statistic value is used as the first operand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#comparison_operator LightsailAlarm#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#comparison_operator LightsailAlarm#comparison_operator}
 
 ---
 
@@ -1162,7 +1162,7 @@ The number of most recent periods over which data is compared to the specified t
 
 If you are setting an "M out of N" alarm, this value (evaluationPeriods) is the N.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#evaluation_periods LightsailAlarm#evaluation_periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#evaluation_periods LightsailAlarm#evaluation_periods}
 
 ---
 
@@ -1176,7 +1176,7 @@ MetricName *string
 
 The name of the metric to associate with the alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#metric_name LightsailAlarm#metric_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#metric_name LightsailAlarm#metric_name}
 
 ---
 
@@ -1190,7 +1190,7 @@ MonitoredResourceName *string
 
 The name of the Lightsail resource that the alarm monitors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#monitored_resource_name LightsailAlarm#monitored_resource_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#monitored_resource_name LightsailAlarm#monitored_resource_name}
 
 ---
 
@@ -1204,7 +1204,7 @@ Threshold *f64
 
 The value against which the specified statistic is compared.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#threshold LightsailAlarm#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#threshold LightsailAlarm#threshold}
 
 ---
 
@@ -1218,7 +1218,7 @@ ContactProtocols *[]*string
 
 The contact protocols to use for the alarm, such as Email, SMS (text messaging), or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#contact_protocols LightsailAlarm#contact_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#contact_protocols LightsailAlarm#contact_protocols}
 
 ---
 
@@ -1234,7 +1234,7 @@ The number of data points that must be not within the specified threshold to tri
 
 If you are setting an "M out of N" alarm, this value (datapointsToAlarm) is the M.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#datapoints_to_alarm LightsailAlarm#datapoints_to_alarm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#datapoints_to_alarm LightsailAlarm#datapoints_to_alarm}
 
 ---
 
@@ -1248,7 +1248,7 @@ NotificationEnabled interface{}
 
 Indicates whether the alarm is enabled. Notifications are enabled by default if you don't specify this parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#notification_enabled LightsailAlarm#notification_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#notification_enabled LightsailAlarm#notification_enabled}
 
 ---
 
@@ -1262,7 +1262,7 @@ NotificationTriggers *[]*string
 
 The alarm states that trigger a notification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#notification_triggers LightsailAlarm#notification_triggers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#notification_triggers LightsailAlarm#notification_triggers}
 
 ---
 
@@ -1276,7 +1276,7 @@ TreatMissingData *string
 
 Sets how this alarm will handle missing data points.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_alarm#treat_missing_data LightsailAlarm#treat_missing_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_alarm#treat_missing_data LightsailAlarm#treat_missing_data}
 
 ---
 

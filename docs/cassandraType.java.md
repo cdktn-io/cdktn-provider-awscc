@@ -4,7 +4,7 @@
 
 ### CassandraType <a name="CassandraType" id="@cdktn/provider-awscc.cassandraType.CassandraType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type awscc_cassandra_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type awscc_cassandra_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cassandraType.CassandraType.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Field definitions of the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#fields CassandraType#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#fields CassandraType#fields}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the Keyspace which contains the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
 
 ---
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the CassandraType to import.
 
 The id of the existing CassandraType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1035,7 +1035,7 @@ public IResolvable|java.util.List<CassandraTypeFields> getFields();
 
 Field definitions of the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#fields CassandraType#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#fields CassandraType#fields}
 
 ---
 
@@ -1049,7 +1049,7 @@ public java.lang.String getKeyspaceName();
 
 Name of the Keyspace which contains the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
 
 ---
 
@@ -1063,7 +1063,7 @@ public java.lang.String getTypeName();
 
 Name of the User-Defined Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
 
 ---
 
@@ -1084,8 +1084,8 @@ CassandraTypeFields.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldName">fieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#field_name CassandraType#field_name}. |
-| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldType">fieldType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#field_type CassandraType#field_type}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldName">fieldName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#field_name CassandraType#field_name}. |
+| <code><a href="#@cdktn/provider-awscc.cassandraType.CassandraTypeFields.property.fieldType">fieldType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#field_type CassandraType#field_type}. |
 
 ---
 
@@ -1097,7 +1097,7 @@ public java.lang.String getFieldName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#field_name CassandraType#field_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#field_name CassandraType#field_name}.
 
 ---
 
@@ -1109,7 +1109,7 @@ public java.lang.String getFieldType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#field_type CassandraType#field_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#field_type CassandraType#field_type}.
 
 ---
 

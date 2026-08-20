@@ -4,7 +4,7 @@
 
 ### CloudformationPublisher <a name="CloudformationPublisher" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationPublisher.CloudformationPublisher.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the CloudformationPublisher to
 
 The id of the existing CloudformationPublisher that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_publisher#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_publisher#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -898,7 +898,7 @@ Whether you accept the terms and conditions for publishing extensions in the Clo
 
 You must accept the terms and conditions in order to publish public extensions to the CloudFormation registry. The terms and conditions can be found at https://cloudformation-registry-documents.s3.amazonaws.com/Terms_and_Conditions_for_AWS_CloudFormation_Registry_Publishers.pdf
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_publisher#accept_terms_and_conditions CloudformationPublisher#accept_terms_and_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_publisher#accept_terms_and_conditions CloudformationPublisher#accept_terms_and_conditions}
 
 ---
 
@@ -912,7 +912,7 @@ public readonly connectionArn: string;
 
 If you are using a Bitbucket or GitHub account for identity verification, the Amazon Resource Name (ARN) for your connection to that account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_publisher#connection_arn CloudformationPublisher#connection_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_publisher#connection_arn CloudformationPublisher#connection_arn}
 
 ---
 

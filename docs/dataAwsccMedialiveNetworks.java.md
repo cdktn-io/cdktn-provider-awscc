@@ -4,7 +4,7 @@
 
 ### DataAwsccMedialiveNetworks <a name="DataAwsccMedialiveNetworks" id="@cdktn/provider-awscc.dataAwsccMedialiveNetworks.DataAwsccMedialiveNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_networks awscc_medialive_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_networks awscc_medialive_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveNetworks.DataAwsccMedialiveNetworks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMedialiveNetworks
 
 The id of the existing DataAwsccMedialiveNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccAiopsInvestigationGroups <a name="DataAwsccAiopsInvestigationGroups" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroups.DataAwsccAiopsInvestigationGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/aiops_investigation_groups awscc_aiops_investigation_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/aiops_investigation_groups awscc_aiops_investigation_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAiopsInvestigationGroups.DataAwsccAiopsInvestigationGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAiopsInvestigatio
 
 The id of the existing DataAwsccAiopsInvestigationGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/aiops_investigation_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/aiops_investigation_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

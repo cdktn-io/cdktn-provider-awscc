@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticloadbalancingv2TargetGroups <a name="DataAwsccElasticloadbalancingv2TargetGroups" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TargetGroups.DataAwsccElasticloadbalancingv2TargetGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2TargetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_target_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_target_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

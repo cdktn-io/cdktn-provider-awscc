@@ -4,7 +4,7 @@
 
 ### OrganizationsAccount <a name="OrganizationsAccount" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account awscc_organizations_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account awscc_organizations_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.organizationsAccount.OrganizationsAccount.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The friendly name of the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The email address of the owner to assign to the new member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#email OrganizationsAccount#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#email OrganizationsAccount#email}
 
 ---
 
@@ -134,7 +134,7 @@ List of parent nodes for the member account.
 
 Currently only one parent at a time is supported. Default is root.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
 
 ---
 
@@ -146,7 +146,7 @@ The name of an IAM role that AWS Organizations automatically preconfigures in th
 
 Default name is OrganizationAccountAccessRole if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
 
 ---
 
@@ -158,7 +158,7 @@ A list of tags that you want to attach to the newly created account.
 
 For each tag in the list, you must specify both a tag key and a value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
 
 ---
 
@@ -641,7 +641,7 @@ The construct id used in the generated config for the OrganizationsAccount to im
 
 The id of the existing OrganizationsAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1156,7 +1156,7 @@ public java.lang.String getAccountName();
 
 The friendly name of the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
 
 ---
 
@@ -1170,7 +1170,7 @@ public java.lang.String getEmail();
 
 The email address of the owner to assign to the new member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#email OrganizationsAccount#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#email OrganizationsAccount#email}
 
 ---
 
@@ -1186,7 +1186,7 @@ List of parent nodes for the member account.
 
 Currently only one parent at a time is supported. Default is root.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
 
 ---
 
@@ -1202,7 +1202,7 @@ The name of an IAM role that AWS Organizations automatically preconfigures in th
 
 Default name is OrganizationAccountAccessRole if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
 
 ---
 
@@ -1218,7 +1218,7 @@ A list of tags that you want to attach to the newly created account.
 
 For each tag in the list, you must specify both a tag key and a value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
 
 ---
 
@@ -1254,7 +1254,7 @@ public java.lang.String getKey();
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#key OrganizationsAccount#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#key OrganizationsAccount#key}
 
 ---
 
@@ -1270,7 +1270,7 @@ The string value that's associated with the key of the tag.
 
 You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_account#value OrganizationsAccount#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_account#value OrganizationsAccount#value}
 
 ---
 

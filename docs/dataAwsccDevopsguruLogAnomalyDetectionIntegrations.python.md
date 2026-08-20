@@ -4,7 +4,7 @@
 
 ### DataAwsccDevopsguruLogAnomalyDetectionIntegrations <a name="DataAwsccDevopsguruLogAnomalyDetectionIntegrations" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegrations.DataAwsccDevopsguruLogAnomalyDetectionIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsguruLogAnomalyDetectionIntegrations.DataAwsccDevopsguruLogAnomalyDetectionIntegrations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDevopsguruLogAnom
 
 The id of the existing DataAwsccDevopsguruLogAnomalyDetectionIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

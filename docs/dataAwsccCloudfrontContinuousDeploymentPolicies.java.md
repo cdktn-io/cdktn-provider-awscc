@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontContinuousDeploymentPolicies <a name="DataAwsccCloudfrontContinuousDeploymentPolicies" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontContinuousDeploymentPolicies.DataAwsccCloudfrontContinuousDeploymentPolicies.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontContinu
 
 The id of the existing DataAwsccCloudfrontContinuousDeploymentPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_continuous_deployment_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_continuous_deployment_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

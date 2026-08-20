@@ -4,7 +4,7 @@
 
 ### KmsReplicaKey <a name="KmsReplicaKey" id="@cdktn/provider-awscc.kmsReplicaKey.KmsReplicaKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key awscc_kms_replica_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key awscc_kms_replica_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kmsReplicaKey.KmsReplicaKey.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The key policy that authorizes use of the AWS KMS key. The key policy must observe the following rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#key_policy KmsReplicaKey#key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#key_policy KmsReplicaKey#key_policy}
 
 ---
 
@@ -126,7 +126,7 @@ Identifies the primary AWS KMS key to create a replica of.
 
 Specify the Amazon Resource Name (ARN) of the AWS KMS key. You cannot specify an alias or key ID. For help finding the ARN, see Finding the Key ID and ARN in the AWS Key Management Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#primary_key_arn KmsReplicaKey#primary_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#primary_key_arn KmsReplicaKey#primary_key_arn}
 
 ---
 
@@ -138,7 +138,7 @@ A description of the AWS KMS key.
 
 Use a description that helps you to distinguish this AWS KMS key from others in the account, such as its intended use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#description KmsReplicaKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#description KmsReplicaKey#description}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the AWS KMS key is enabled. Disabled AWS KMS keys cannot be used in cryptographic operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#enabled KmsReplicaKey#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#enabled KmsReplicaKey#enabled}
 
 ---
 
@@ -160,7 +160,7 @@ Specifies the number of days in the waiting period before AWS KMS deletes an AWS
 
 Enter a value between 7 and 30 days. The default value is 30 days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#pending_window_in_days KmsReplicaKey#pending_window_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#pending_window_in_days KmsReplicaKey#pending_window_in_days}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#tags KmsReplicaKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#tags KmsReplicaKey#tags}
 
 ---
 
@@ -660,7 +660,7 @@ The construct id used in the generated config for the KmsReplicaKey to import.
 
 The id of the existing KmsReplicaKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1144,7 +1144,7 @@ public java.lang.String getKeyPolicy();
 
 The key policy that authorizes use of the AWS KMS key. The key policy must observe the following rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#key_policy KmsReplicaKey#key_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#key_policy KmsReplicaKey#key_policy}
 
 ---
 
@@ -1160,7 +1160,7 @@ Identifies the primary AWS KMS key to create a replica of.
 
 Specify the Amazon Resource Name (ARN) of the AWS KMS key. You cannot specify an alias or key ID. For help finding the ARN, see Finding the Key ID and ARN in the AWS Key Management Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#primary_key_arn KmsReplicaKey#primary_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#primary_key_arn KmsReplicaKey#primary_key_arn}
 
 ---
 
@@ -1176,7 +1176,7 @@ A description of the AWS KMS key.
 
 Use a description that helps you to distinguish this AWS KMS key from others in the account, such as its intended use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#description KmsReplicaKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#description KmsReplicaKey#description}
 
 ---
 
@@ -1190,7 +1190,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Specifies whether the AWS KMS key is enabled. Disabled AWS KMS keys cannot be used in cryptographic operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#enabled KmsReplicaKey#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#enabled KmsReplicaKey#enabled}
 
 ---
 
@@ -1206,7 +1206,7 @@ Specifies the number of days in the waiting period before AWS KMS deletes an AWS
 
 Enter a value between 7 and 30 days. The default value is 30 days.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#pending_window_in_days KmsReplicaKey#pending_window_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#pending_window_in_days KmsReplicaKey#pending_window_in_days}
 
 ---
 
@@ -1220,7 +1220,7 @@ public IResolvable|java.util.List<KmsReplicaKeyTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#tags KmsReplicaKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#tags KmsReplicaKey#tags}
 
 ---
 
@@ -1258,7 +1258,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#key KmsReplicaKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#key KmsReplicaKey#key}
 
 ---
 
@@ -1274,7 +1274,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kms_replica_key#value KmsReplicaKey#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kms_replica_key#value KmsReplicaKey#value}
 
 ---
 

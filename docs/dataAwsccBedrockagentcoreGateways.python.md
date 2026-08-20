@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreGateways <a name="DataAwsccBedrockagentcoreGateways" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateways.DataAwsccBedrockagentcoreGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreGateways.DataAwsccBedrockagentcoreGateways.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreG
 
 The id of the existing DataAwsccBedrockagentcoreGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

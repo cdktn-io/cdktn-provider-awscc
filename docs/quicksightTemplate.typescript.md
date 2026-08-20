@@ -4,7 +4,7 @@
 
 ### QuicksightTemplate <a name="QuicksightTemplate" id="@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template awscc_quicksight_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template awscc_quicksight_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplate.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the QuicksightTemplate to impo
 
 The id of the existing QuicksightTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,9 +981,9 @@ const quicksightTemplateConfig: quicksightTemplate.QuicksightTemplateConfig = { 
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.awsAccountId">awsAccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#aws_account_id QuicksightTemplate#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.awsAccountId">awsAccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#aws_account_id QuicksightTemplate#aws_account_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.sourceEntity">sourceEntity</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateSourceEntity">QuicksightTemplateSourceEntity</a></code> | <p>The source entity of the template.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.templateId">templateId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#template_id QuicksightTemplate#template_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.templateId">templateId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#template_id QuicksightTemplate#template_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.name">name</a></code> | <code>string</code> | <p>A display name for the template.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.permissions">permissions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplatePermissions">QuicksightTemplatePermissions</a>[]</code> | <p>A list of resource permissions to be set on the template. </p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.quicksightTemplate.QuicksightTemplateTags">QuicksightTemplateTags</a>[]</code> | <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the resource.</p>. |
@@ -1069,7 +1069,7 @@ public readonly awsAccountId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#aws_account_id QuicksightTemplate#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#aws_account_id QuicksightTemplate#aws_account_id}.
 
 ---
 
@@ -1083,7 +1083,7 @@ public readonly sourceEntity: QuicksightTemplateSourceEntity;
 
 <p>The source entity of the template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#source_entity QuicksightTemplate#source_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#source_entity QuicksightTemplate#source_entity}
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly templateId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#template_id QuicksightTemplate#template_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#template_id QuicksightTemplate#template_id}.
 
 ---
 
@@ -1109,7 +1109,7 @@ public readonly name: string;
 
 <p>A display name for the template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#name QuicksightTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#name QuicksightTemplate#name}
 
 ---
 
@@ -1123,7 +1123,7 @@ public readonly permissions: IResolvable | QuicksightTemplatePermissions[];
 
 <p>A list of resource permissions to be set on the template. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#permissions QuicksightTemplate#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#permissions QuicksightTemplate#permissions}
 
 ---
 
@@ -1137,7 +1137,7 @@ public readonly tags: IResolvable | QuicksightTemplateTags[];
 
 <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the resource.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#tags QuicksightTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#tags QuicksightTemplate#tags}
 
 ---
 
@@ -1156,7 +1156,7 @@ This API operation creates the
 			version is created. Each version of the template maintains a description of the version
 			in the <code>VersionDescription</code> field.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#version_description QuicksightTemplate#version_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#version_description QuicksightTemplate#version_description}
 
 ---
 
@@ -1189,7 +1189,7 @@ public readonly actions: string[];
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#actions QuicksightTemplate#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#actions QuicksightTemplate#actions}
 
 ---
 
@@ -1219,7 +1219,7 @@ This can be one of the
             </li>
          </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#principal QuicksightTemplate#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#principal QuicksightTemplate#principal}
 
 ---
 
@@ -1252,7 +1252,7 @@ public readonly sourceAnalysis: QuicksightTemplateSourceEntitySourceAnalysis;
 
 <p>The source analysis of the template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#source_analysis QuicksightTemplate#source_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#source_analysis QuicksightTemplate#source_analysis}
 
 ---
 
@@ -1266,7 +1266,7 @@ public readonly sourceTemplate: QuicksightTemplateSourceEntitySourceTemplate;
 
 <p>The source template of the template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#source_template QuicksightTemplate#source_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#source_template QuicksightTemplate#source_template}
 
 ---
 
@@ -1299,7 +1299,7 @@ public readonly arn: string;
 
 <p>The Amazon Resource Name (ARN) of the resource.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
 
 ---
 
@@ -1313,7 +1313,7 @@ public readonly dataSetReferences: IResolvable | QuicksightTemplateSourceEntityS
 
 <p>A structure containing information about the dataset references used as placeholders             in the template.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
 
 ---
 
@@ -1346,7 +1346,7 @@ public readonly dataSetArn: string;
 
 <p>Dataset Amazon Resource Name (ARN).</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#data_set_arn QuicksightTemplate#data_set_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#data_set_arn QuicksightTemplate#data_set_arn}
 
 ---
 
@@ -1360,7 +1360,7 @@ public readonly dataSetPlaceholder: string;
 
 <p>Dataset placeholder.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#data_set_placeholder QuicksightTemplate#data_set_placeholder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#data_set_placeholder QuicksightTemplate#data_set_placeholder}
 
 ---
 
@@ -1392,7 +1392,7 @@ public readonly arn: string;
 
 <p>The Amazon Resource Name (ARN) of the resource.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}
 
 ---
 
@@ -1425,7 +1425,7 @@ public readonly key: string;
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#key QuicksightTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#key QuicksightTemplate#key}
 
 ---
 
@@ -1439,7 +1439,7 @@ public readonly value: string;
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_template#value QuicksightTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_template#value QuicksightTemplate#value}
 
 ---
 

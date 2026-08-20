@@ -4,7 +4,7 @@
 
 ### Ec2Ipam <a name="Ec2Ipam" id="@cdktn/provider-awscc.ec2Ipam.Ec2Ipam"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam awscc_ec2_ipam}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam awscc_ec2_ipam}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Ipam.Ec2Ipam.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the Ec2Ipam to import.
 
 The id of the existing Ec2Ipam that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1047,7 +1047,7 @@ const ec2IpamConfig: ec2Ipam.Ec2IpamConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.defaultResourceDiscoveryOrganizationalUnitExclusions">defaultResourceDiscoveryOrganizationalUnitExclusions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamDefaultResourceDiscoveryOrganizationalUnitExclusions">Ec2IpamDefaultResourceDiscoveryOrganizationalUnitExclusions</a>[]</code> | A set of organizational unit (OU) exclusions for the default resource discovery, created with this IPAM. |
-| <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#description Ec2Ipam#description}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#description Ec2Ipam#description}. |
 | <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.enablePrivateGua">enablePrivateGua</a></code> | <code>boolean \| cdktn.IResolvable</code> | Enable provisioning of GUA space in private pools. |
 | <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.meteredAccount">meteredAccount</a></code> | <code>string</code> | A metered account is an account that is charged for active IP addresses managed in IPAM. |
 | <code><a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamConfig.property.operatingRegions">operatingRegions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ec2Ipam.Ec2IpamOperatingRegions">Ec2IpamOperatingRegions</a>[]</code> | The regions IPAM is enabled for. Allows pools to be created in these regions, as well as enabling monitoring. |
@@ -1136,7 +1136,7 @@ public readonly defaultResourceDiscoveryOrganizationalUnitExclusions: IResolvabl
 
 A set of organizational unit (OU) exclusions for the default resource discovery, created with this IPAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#default_resource_discovery_organizational_unit_exclusions Ec2Ipam#default_resource_discovery_organizational_unit_exclusions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#default_resource_discovery_organizational_unit_exclusions Ec2Ipam#default_resource_discovery_organizational_unit_exclusions}
 
 ---
 
@@ -1148,7 +1148,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#description Ec2Ipam#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#description Ec2Ipam#description}.
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly enablePrivateGua: boolean | IResolvable;
 
 Enable provisioning of GUA space in private pools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#enable_private_gua Ec2Ipam#enable_private_gua}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#enable_private_gua Ec2Ipam#enable_private_gua}
 
 ---
 
@@ -1176,7 +1176,7 @@ public readonly meteredAccount: string;
 
 A metered account is an account that is charged for active IP addresses managed in IPAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#metered_account Ec2Ipam#metered_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#metered_account Ec2Ipam#metered_account}
 
 ---
 
@@ -1190,7 +1190,7 @@ public readonly operatingRegions: IResolvable | Ec2IpamOperatingRegions[];
 
 The regions IPAM is enabled for. Allows pools to be created in these regions, as well as enabling monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#operating_regions Ec2Ipam#operating_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#operating_regions Ec2Ipam#operating_regions}
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly tags: IResolvable | Ec2IpamTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#tags Ec2Ipam#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#tags Ec2Ipam#tags}
 
 ---
 
@@ -1218,7 +1218,7 @@ public readonly tier: string;
 
 The tier of the IPAM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#tier Ec2Ipam#tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#tier Ec2Ipam#tier}
 
 ---
 
@@ -1252,7 +1252,7 @@ An AWS Organizations entity path.
 
 Build the path for the OU(s) using AWS Organizations IDs separated by a '/'. Include all child OUs by ending the path with '/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#organizations_entity_path Ec2Ipam#organizations_entity_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#organizations_entity_path Ec2Ipam#organizations_entity_path}
 
 ---
 
@@ -1284,7 +1284,7 @@ public readonly regionName: string;
 
 The name of the region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#region_name Ec2Ipam#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#region_name Ec2Ipam#region_name}
 
 ---
 
@@ -1319,7 +1319,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#key Ec2Ipam#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#key Ec2Ipam#key}
 
 ---
 
@@ -1335,7 +1335,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ipam#value Ec2Ipam#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam#value Ec2Ipam#value}
 
 ---
 

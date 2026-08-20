@@ -4,7 +4,7 @@
 
 ### LightsailDistribution <a name="LightsailDistribution" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lightsailDistribution.LightsailDistribution.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the LightsailDistribution to i
 
 The id of the existing LightsailDistribution that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1084,7 +1084,7 @@ public readonly behavior: string;
 
 The cache behavior for the specified path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
 
 ---
 
@@ -1100,7 +1100,7 @@ The path to a directory or file to cached, or not cache.
 
 Use an asterisk symbol to specify wildcard directories (path/to/assets/*), and file types (*.html, *jpg, *js). Directories and file paths are case-sensitive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#path LightsailDistribution#path}
 
 ---
 
@@ -1139,7 +1139,7 @@ public readonly allowedHttpMethods: string;
 
 The HTTP methods that are processed and forwarded to the distribution's origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#allowed_http_methods LightsailDistribution#allowed_http_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#allowed_http_methods LightsailDistribution#allowed_http_methods}
 
 ---
 
@@ -1153,7 +1153,7 @@ public readonly cachedHttpMethods: string;
 
 The HTTP method responses that are cached by your distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#cached_http_methods LightsailDistribution#cached_http_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#cached_http_methods LightsailDistribution#cached_http_methods}
 
 ---
 
@@ -1167,7 +1167,7 @@ public readonly defaultTtl: number;
 
 The default amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the content has been updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#default_ttl LightsailDistribution#default_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#default_ttl LightsailDistribution#default_ttl}
 
 ---
 
@@ -1183,7 +1183,7 @@ An object that describes the cookies that are forwarded to the origin.
 
 Your content is cached based on the cookies that are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#forwarded_cookies LightsailDistribution#forwarded_cookies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#forwarded_cookies LightsailDistribution#forwarded_cookies}
 
 ---
 
@@ -1199,7 +1199,7 @@ An object that describes the headers that are forwarded to the origin.
 
 Your content is cached based on the headers that are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#forwarded_headers LightsailDistribution#forwarded_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#forwarded_headers LightsailDistribution#forwarded_headers}
 
 ---
 
@@ -1215,7 +1215,7 @@ An object that describes the query strings that are forwarded to the origin.
 
 Your content is cached based on the query strings that are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#forwarded_query_strings LightsailDistribution#forwarded_query_strings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#forwarded_query_strings LightsailDistribution#forwarded_query_strings}
 
 ---
 
@@ -1229,7 +1229,7 @@ public readonly maximumTtl: number;
 
 The maximum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#maximum_ttl LightsailDistribution#maximum_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#maximum_ttl LightsailDistribution#maximum_ttl}
 
 ---
 
@@ -1243,7 +1243,7 @@ public readonly minimumTtl: number;
 
 The minimum amount of time that objects stay in the distribution's cache before the distribution forwards another request to the origin to determine whether the object has been updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#minimum_ttl LightsailDistribution#minimum_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#minimum_ttl LightsailDistribution#minimum_ttl}
 
 ---
 
@@ -1276,7 +1276,7 @@ public readonly cookiesAllowList: string[];
 
 The specific cookies to forward to your distribution's origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#cookies_allow_list LightsailDistribution#cookies_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#cookies_allow_list LightsailDistribution#cookies_allow_list}
 
 ---
 
@@ -1290,7 +1290,7 @@ public readonly option: string;
 
 Specifies which cookies to forward to the distribution's origin for a cache behavior: all, none, or allow-list to forward only the cookies specified in the cookiesAllowList parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
 
 ---
 
@@ -1323,7 +1323,7 @@ public readonly headersAllowList: string[];
 
 The specific headers to forward to your distribution's origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#headers_allow_list LightsailDistribution#headers_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#headers_allow_list LightsailDistribution#headers_allow_list}
 
 ---
 
@@ -1337,7 +1337,7 @@ public readonly option: string;
 
 The headers that you want your distribution to forward to your origin and base caching on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
 
 ---
 
@@ -1370,7 +1370,7 @@ public readonly option: boolean | IResolvable;
 
 Indicates whether the distribution forwards and caches based on query strings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#option LightsailDistribution#option}
 
 ---
 
@@ -1384,7 +1384,7 @@ public readonly queryStringsAllowList: string[];
 
 The specific query strings that the distribution forwards to the origin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#query_strings_allow_list LightsailDistribution#query_strings_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#query_strings_allow_list LightsailDistribution#query_strings_allow_list}
 
 ---
 
@@ -1502,7 +1502,7 @@ public readonly bundleId: string;
 
 The bundle ID to use for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
 
 ---
 
@@ -1516,7 +1516,7 @@ public readonly defaultCacheBehavior: LightsailDistributionDefaultCacheBehavior;
 
 An object that describes the default cache behavior for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
 
 ---
 
@@ -1530,7 +1530,7 @@ public readonly distributionName: string;
 
 The name for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#distribution_name LightsailDistribution#distribution_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#distribution_name LightsailDistribution#distribution_name}
 
 ---
 
@@ -1544,7 +1544,7 @@ public readonly origin: LightsailDistributionOrigin;
 
 An object that describes the origin resource for the distribution, such as a Lightsail instance or load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
 
 ---
 
@@ -1558,7 +1558,7 @@ public readonly cacheBehaviors: IResolvable | LightsailDistributionCacheBehavior
 
 An array of objects that describe the per-path cache behavior for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#cache_behaviors LightsailDistribution#cache_behaviors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#cache_behaviors LightsailDistribution#cache_behaviors}
 
 ---
 
@@ -1572,7 +1572,7 @@ public readonly cacheBehaviorSettings: LightsailDistributionCacheBehaviorSetting
 
 An object that describes the cache behavior settings for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
 
 ---
 
@@ -1586,7 +1586,7 @@ public readonly certificateName: string;
 
 The certificate attached to the Distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
 
 ---
 
@@ -1600,7 +1600,7 @@ public readonly ipAddressType: string;
 
 The IP address type for the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
 
 ---
 
@@ -1614,7 +1614,7 @@ public readonly isEnabled: boolean | IResolvable;
 
 Indicates whether the distribution is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
 
 ---
 
@@ -1628,7 +1628,7 @@ public readonly tags: IResolvable | LightsailDistributionTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}
 
 ---
 
@@ -1660,7 +1660,7 @@ public readonly behavior: string;
 
 The cache behavior of the distribution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#behavior LightsailDistribution#behavior}
 
 ---
 
@@ -1694,7 +1694,7 @@ public readonly name: string;
 
 The name of the origin resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
 
 ---
 
@@ -1708,7 +1708,7 @@ public readonly protocolPolicy: string;
 
 The protocol that your Amazon Lightsail distribution uses when establishing a connection with your origin to pull content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#protocol_policy LightsailDistribution#protocol_policy}
 
 ---
 
@@ -1722,7 +1722,7 @@ public readonly regionName: string;
 
 The AWS Region name of the origin resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#region_name LightsailDistribution#region_name}
 
 ---
 
@@ -1757,7 +1757,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#key LightsailDistribution#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#key LightsailDistribution#key}
 
 ---
 
@@ -1773,7 +1773,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_distribution#value LightsailDistribution#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution#value LightsailDistribution#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccGuarddutyFilters <a name="DataAwsccGuarddutyFilters" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilters.DataAwsccGuarddutyFilters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_filters awscc_guardduty_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_filters awscc_guardduty_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyFilters.DataAwsccGuarddutyFilters.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyFilters 
 
 The id of the existing DataAwsccGuarddutyFilters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/guardduty_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 

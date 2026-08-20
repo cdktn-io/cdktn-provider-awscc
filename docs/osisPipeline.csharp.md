@@ -4,7 +4,7 @@
 
 ### OsisPipeline <a name="OsisPipeline" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline awscc_osis_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline awscc_osis_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.osisPipeline.OsisPipeline.Initializer"></a>
 
@@ -616,7 +616,7 @@ The construct id used in the generated config for the OsisPipeline to import.
 
 The id of the existing OsisPipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1138,7 +1138,7 @@ public bool|IResolvable PersistentBufferEnabled { get; set; }
 
 Whether persistent buffering should be enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#persistent_buffer_enabled OsisPipeline#persistent_buffer_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#persistent_buffer_enabled OsisPipeline#persistent_buffer_enabled}
 
 ---
 
@@ -1190,7 +1190,7 @@ new OsisPipelineConfig {
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.encryptionAtRestOptions">EncryptionAtRestOptions</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineEncryptionAtRestOptions">OsisPipelineEncryptionAtRestOptions</a></code> | Key-value pairs to configure encryption at rest. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.logPublishingOptions">LogPublishingOptions</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptions">OsisPipelineLogPublishingOptions</a></code> | Key-value pairs to configure log publishing. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.pipelineRoleArn">PipelineRoleArn</a></code> | <code>string</code> | The Pipeline Role (ARN) for the pipeline. |
-| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.resourcePolicy">ResourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy">OsisPipelineResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}. |
+| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.resourcePolicy">ResourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy">OsisPipelineResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineTags">OsisPipelineTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineConfig.property.vpcOptions">VpcOptions</a></code> | <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineVpcOptions">OsisPipelineVpcOptions</a></code> | Container for the values required to configure VPC access for the pipeline. |
 
@@ -1276,7 +1276,7 @@ public double MaxUnits { get; set; }
 
 The maximum pipeline capacity, in Ingestion OpenSearch Compute Units (OCUs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#max_units OsisPipeline#max_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#max_units OsisPipeline#max_units}
 
 ---
 
@@ -1290,7 +1290,7 @@ public double MinUnits { get; set; }
 
 The minimum pipeline capacity, in Ingestion OpenSearch Compute Units (OCUs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#min_units OsisPipeline#min_units}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#min_units OsisPipeline#min_units}
 
 ---
 
@@ -1304,7 +1304,7 @@ public string PipelineConfigurationBody { get; set; }
 
 The Data Prepper pipeline configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#pipeline_configuration_body OsisPipeline#pipeline_configuration_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#pipeline_configuration_body OsisPipeline#pipeline_configuration_body}
 
 ---
 
@@ -1320,7 +1320,7 @@ Name of the OpenSearch Ingestion Service pipeline to create.
 
 Pipeline names are unique across the pipelines owned by an account within an AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#pipeline_name OsisPipeline#pipeline_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#pipeline_name OsisPipeline#pipeline_name}
 
 ---
 
@@ -1334,7 +1334,7 @@ public OsisPipelineBufferOptions BufferOptions { get; set; }
 
 Key-value pairs to configure buffering.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#buffer_options OsisPipeline#buffer_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#buffer_options OsisPipeline#buffer_options}
 
 ---
 
@@ -1348,7 +1348,7 @@ public OsisPipelineEncryptionAtRestOptions EncryptionAtRestOptions { get; set; }
 
 Key-value pairs to configure encryption at rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#encryption_at_rest_options OsisPipeline#encryption_at_rest_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#encryption_at_rest_options OsisPipeline#encryption_at_rest_options}
 
 ---
 
@@ -1362,7 +1362,7 @@ public OsisPipelineLogPublishingOptions LogPublishingOptions { get; set; }
 
 Key-value pairs to configure log publishing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#log_publishing_options OsisPipeline#log_publishing_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#log_publishing_options OsisPipeline#log_publishing_options}
 
 ---
 
@@ -1376,7 +1376,7 @@ public string PipelineRoleArn { get; set; }
 
 The Pipeline Role (ARN) for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#pipeline_role_arn OsisPipeline#pipeline_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#pipeline_role_arn OsisPipeline#pipeline_role_arn}
 
 ---
 
@@ -1388,7 +1388,7 @@ public OsisPipelineResourcePolicy ResourcePolicy { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy">OsisPipelineResourcePolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#resource_policy OsisPipeline#resource_policy}.
 
 ---
 
@@ -1402,7 +1402,7 @@ public IResolvable|OsisPipelineTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#tags OsisPipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#tags OsisPipeline#tags}
 
 ---
 
@@ -1418,7 +1418,7 @@ Container for the values required to configure VPC access for the pipeline.
 
 If you don't specify these values, OpenSearch Ingestion Service creates the pipeline with a public endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#vpc_options OsisPipeline#vpc_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#vpc_options OsisPipeline#vpc_options}
 
 ---
 
@@ -1452,7 +1452,7 @@ public string KmsKeyArn { get; set; }
 
 The KMS key to use for encrypting data. By default an AWS owned key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#kms_key_arn OsisPipeline#kms_key_arn}
 
 ---
 
@@ -1488,7 +1488,7 @@ public OsisPipelineLogPublishingOptionsCloudwatchLogDestination CloudwatchLogDes
 
 The destination for OpenSearch Ingestion Service logs sent to Amazon CloudWatch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
 
 ---
 
@@ -1502,7 +1502,7 @@ public bool|IResolvable IsLoggingEnabled { get; set; }
 
 Whether logs should be published.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}
 
 ---
 
@@ -1522,7 +1522,7 @@ new OsisPipelineLogPublishingOptionsCloudwatchLogDestination {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination.property.logGroup">LogGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}. |
+| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineLogPublishingOptionsCloudwatchLogDestination.property.logGroup">LogGroup</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}. |
 
 ---
 
@@ -1534,7 +1534,7 @@ public string LogGroup { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#log_group OsisPipeline#log_group}.
 
 ---
 
@@ -1554,7 +1554,7 @@ new OsisPipelineResourcePolicy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy.property.policy">Policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}. |
+| <code><a href="#@cdktn/provider-awscc.osisPipeline.OsisPipelineResourcePolicy.property.policy">Policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}. |
 
 ---
 
@@ -1566,7 +1566,7 @@ public string Policy { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}.
 
 ---
 
@@ -1604,7 +1604,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#key OsisPipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#key OsisPipeline#key}
 
 ---
 
@@ -1620,7 +1620,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#value OsisPipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#value OsisPipeline#value}
 
 ---
 
@@ -1699,7 +1699,7 @@ public string[] SecurityGroupIds { get; set; }
 
 A list of security groups associated with the VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#security_group_ids OsisPipeline#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#security_group_ids OsisPipeline#security_group_ids}
 
 ---
 
@@ -1713,7 +1713,7 @@ public string[] SubnetIds { get; set; }
 
 A list of subnet IDs associated with the VPC endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#subnet_ids OsisPipeline#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#subnet_ids OsisPipeline#subnet_ids}
 
 ---
 
@@ -1727,7 +1727,7 @@ public OsisPipelineVpcOptionsVpcAttachmentOptions VpcAttachmentOptions { get; se
 
 Options for attaching a VPC to the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#vpc_attachment_options OsisPipeline#vpc_attachment_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#vpc_attachment_options OsisPipeline#vpc_attachment_options}
 
 ---
 
@@ -1741,7 +1741,7 @@ public string VpcEndpointManagement { get; set; }
 
 Defines whether you or Amazon OpenSearch Ingestion service create and manage the VPC endpoint configured for the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#vpc_endpoint_management OsisPipeline#vpc_endpoint_management}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#vpc_endpoint_management OsisPipeline#vpc_endpoint_management}
 
 ---
 
@@ -1777,7 +1777,7 @@ public bool|IResolvable AttachToVpc { get; set; }
 
 Whether the pipeline should be attached to the provided VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#attach_to_vpc OsisPipeline#attach_to_vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#attach_to_vpc OsisPipeline#attach_to_vpc}
 
 ---
 
@@ -1791,7 +1791,7 @@ public string CidrBlock { get; set; }
 
 The CIDR block to be reserved for OpenSearch Ingestion to create elastic network interfaces (ENIs).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/osis_pipeline#cidr_block OsisPipeline#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/osis_pipeline#cidr_block OsisPipeline#cidr_block}
 
 ---
 

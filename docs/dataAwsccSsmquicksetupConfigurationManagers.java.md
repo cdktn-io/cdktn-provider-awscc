@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmquicksetupConfigurationManagers <a name="DataAwsccSsmquicksetupConfigurationManagers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManagers.DataAwsccSsmquicksetupConfigurationManagers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmquicksetup_configuration_managers awscc_ssmquicksetup_configuration_managers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmquicksetup_configuration_managers awscc_ssmquicksetup_configuration_managers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmquicksetupConfigurationManagers.DataAwsccSsmquicksetupConfigurationManagers.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSsmquicksetupConf
 
 The id of the existing DataAwsccSsmquicksetupConfigurationManagers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmquicksetup_configuration_managers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmquicksetup_configuration_managers#import import section} in the documentation of this resource for the id to use
 
 ---
 

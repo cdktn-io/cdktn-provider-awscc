@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightRefreshSchedules <a name="DataAwsccQuicksightRefreshSchedules" id="@cdktn/provider-awscc.dataAwsccQuicksightRefreshSchedules.DataAwsccQuicksightRefreshSchedules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightRefreshSchedules.DataAwsccQuicksightRefreshSchedules.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccQuicksightRefresh
 
 The id of the existing DataAwsccQuicksightRefreshSchedules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_refresh_schedules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_refresh_schedules#import import section} in the documentation of this resource for the id to use
 
 ---
 
