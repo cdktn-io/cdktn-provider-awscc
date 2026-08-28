@@ -4,7 +4,7 @@
 
 ### DataAwsccIotAuthorizers <a name="DataAwsccIotAuthorizers" id="@cdktn/provider-awscc.dataAwsccIotAuthorizers.DataAwsccIotAuthorizers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_authorizers awscc_iot_authorizers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_authorizers awscc_iot_authorizers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotAuthorizers.DataAwsccIotAuthorizers.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccIotAuthorizers to
 
 The id of the existing DataAwsccIotAuthorizers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_authorizers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_authorizers#import import section} in the documentation of this resource for the id to use
 
 ---
 

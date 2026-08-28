@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationGeneratedTemplates <a name="DataAwsccCloudformationGeneratedTemplates" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplates.DataAwsccCloudformationGeneratedTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_generated_templates awscc_cloudformation_generated_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_generated_templates awscc_cloudformation_generated_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationGeneratedTemplates.DataAwsccCloudformationGeneratedTemplates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationGen
 
 The id of the existing DataAwsccCloudformationGeneratedTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_generated_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_generated_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

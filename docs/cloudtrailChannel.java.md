@@ -4,7 +4,7 @@
 
 ### CloudtrailChannel <a name="CloudtrailChannel" id="@cdktn/provider-awscc.cloudtrailChannel.CloudtrailChannel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailChannel.CloudtrailChannel.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 One or more resources to which events arriving through a channel are logged and stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#destinations CloudtrailChannel#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#destinations CloudtrailChannel#destinations}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#name CloudtrailChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#name CloudtrailChannel#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of an on-premises storage solution or application, or a partner event source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#source CloudtrailChannel#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#source CloudtrailChannel#source}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#tags CloudtrailChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#tags CloudtrailChannel#tags}
 
 ---
 
@@ -643,7 +643,7 @@ The construct id used in the generated config for the CloudtrailChannel to impor
 
 The id of the existing CloudtrailChannel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1068,7 +1068,7 @@ public IResolvable|java.util.List<CloudtrailChannelDestinations> getDestinations
 
 One or more resources to which events arriving through a channel are logged and stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#destinations CloudtrailChannel#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#destinations CloudtrailChannel#destinations}
 
 ---
 
@@ -1082,7 +1082,7 @@ public java.lang.String getName();
 
 The name of the channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#name CloudtrailChannel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#name CloudtrailChannel#name}
 
 ---
 
@@ -1096,7 +1096,7 @@ public java.lang.String getSource();
 
 The ARN of an on-premises storage solution or application, or a partner event source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#source CloudtrailChannel#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#source CloudtrailChannel#source}
 
 ---
 
@@ -1110,7 +1110,7 @@ public IResolvable|java.util.List<CloudtrailChannelTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#tags CloudtrailChannel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#tags CloudtrailChannel#tags}
 
 ---
 
@@ -1146,7 +1146,7 @@ public java.lang.String getLocation();
 
 The ARN of a resource that receives events from a channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#location CloudtrailChannel#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#location CloudtrailChannel#location}
 
 ---
 
@@ -1160,7 +1160,7 @@ public java.lang.String getType();
 
 The type of destination for events arriving from a channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#type CloudtrailChannel#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#type CloudtrailChannel#type}
 
 ---
 
@@ -1198,7 +1198,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#key CloudtrailChannel#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#key CloudtrailChannel#key}
 
 ---
 
@@ -1214,7 +1214,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel#value CloudtrailChannel#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_channel#value CloudtrailChannel#value}
 
 ---
 

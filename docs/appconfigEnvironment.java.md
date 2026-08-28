@@ -4,7 +4,7 @@
 
 ### AppconfigEnvironment <a name="AppconfigEnvironment" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment awscc_appconfig_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment awscc_appconfig_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appconfigEnvironment.AppconfigEnvironment.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A name for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
 
 ---
 
@@ -136,7 +136,7 @@ On resource deletion this controls whether the Deletion Protection check should 
 
 See https://docs.aws.amazon.com/appconfig/latest/userguide/deletion-protection.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Amazon CloudWatch alarms to monitor during the deployment process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
 
 ---
 
@@ -168,7 +168,7 @@ Metadata to assign to the environment.
 
 Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
 
 ---
 
@@ -671,7 +671,7 @@ The construct id used in the generated config for the AppconfigEnvironment to im
 
 The id of the existing AppconfigEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1144,7 +1144,7 @@ public java.lang.String getApplicationId();
 
 The application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
 
 ---
 
@@ -1158,7 +1158,7 @@ public java.lang.String getName();
 
 A name for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
 
 ---
 
@@ -1174,7 +1174,7 @@ On resource deletion this controls whether the Deletion Protection check should 
 
 See https://docs.aws.amazon.com/appconfig/latest/userguide/deletion-protection.html
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
 
 ---
 
@@ -1188,7 +1188,7 @@ public java.lang.String getDescription();
 
 A description of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
 
 ---
 
@@ -1202,7 +1202,7 @@ public IResolvable|java.util.List<AppconfigEnvironmentMonitors> getMonitors();
 
 Amazon CloudWatch alarms to monitor during the deployment process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
 
 ---
 
@@ -1218,7 +1218,7 @@ Metadata to assign to the environment.
 
 Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
 
 ---
 
@@ -1254,7 +1254,7 @@ public java.lang.String getAlarmArn();
 
 Amazon Resource Name (ARN) of the Amazon CloudWatch alarm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#alarm_arn AppconfigEnvironment#alarm_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#alarm_arn AppconfigEnvironment#alarm_arn}
 
 ---
 
@@ -1268,7 +1268,7 @@ public java.lang.String getAlarmRoleArn();
 
 ARN of an AWS Identity and Access Management (IAM) role for AWS AppConfig to monitor AlarmArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#alarm_role_arn AppconfigEnvironment#alarm_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#alarm_role_arn AppconfigEnvironment#alarm_role_arn}
 
 ---
 
@@ -1306,7 +1306,7 @@ The key-value string map.
 
 The valid character set is [a-zA-Z1-9+-=._:/]. The tag key can be up to 128 characters and must not start with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#key AppconfigEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#key AppconfigEnvironment#key}
 
 ---
 
@@ -1320,7 +1320,7 @@ public java.lang.String getValue();
 
 The tag value can be up to 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_environment#value AppconfigEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_environment#value AppconfigEnvironment#value}
 
 ---
 

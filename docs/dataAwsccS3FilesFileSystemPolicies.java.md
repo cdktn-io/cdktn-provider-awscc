@@ -4,7 +4,7 @@
 
 ### DataAwsccS3FilesFileSystemPolicies <a name="DataAwsccS3FilesFileSystemPolicies" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3FilesFileSystemPolicies.DataAwsccS3FilesFileSystemPolicies.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccS3FilesFileSystem
 
 The id of the existing DataAwsccS3FilesFileSystemPolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3files_file_system_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3files_file_system_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

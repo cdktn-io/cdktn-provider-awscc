@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2RouteServerPeers <a name="DataAwsccEc2RouteServerPeers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_peers awscc_ec2_route_server_peers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_route_server_peers awscc_ec2_route_server_peers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerPeers.DataAwsccEc2RouteServerPeers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerPee
 
 The id of the existing DataAwsccEc2RouteServerPeers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_peers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_route_server_peers#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### CloudfrontTrustStore <a name="CloudfrontTrustStore" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontTrustStore.CloudfrontTrustStore.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CloudfrontTrustStore to im
 
 The id of the existing CloudfrontTrustStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -926,7 +926,7 @@ CaCertificatesBundleS3Location CloudfrontTrustStoreCaCertificatesBundleSourceCaC
 
 The CA certificates bundle location in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
 
 ---
 
@@ -966,7 +966,7 @@ Bucket *string
 
 The S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#bucket CloudfrontTrustStore#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#bucket CloudfrontTrustStore#bucket}
 
 ---
 
@@ -980,7 +980,7 @@ Key *string
 
 The location's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#key CloudfrontTrustStore#key}
 
 ---
 
@@ -994,7 +994,7 @@ Region *string
 
 The location's Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#region CloudfrontTrustStore#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#region CloudfrontTrustStore#region}
 
 ---
 
@@ -1008,7 +1008,7 @@ Version *string
 
 The location's version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#version CloudfrontTrustStore#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#version CloudfrontTrustStore#version}
 
 ---
 
@@ -1132,7 +1132,7 @@ Name *string
 
 The trust store's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
 
 ---
 
@@ -1146,7 +1146,7 @@ CaCertificatesBundleSource CloudfrontTrustStoreCaCertificatesBundleSource
 
 A CA certificates bundle source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
 
 ---
 
@@ -1160,7 +1160,7 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
 
 ---
 
@@ -1174,7 +1174,7 @@ UseClientCertificateOcspEndpoint interface{}
 
 A boolean. When true, performs real-time certificate revocation checks by querying the OCSP endpoint specified within the client certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
 
 ---
 

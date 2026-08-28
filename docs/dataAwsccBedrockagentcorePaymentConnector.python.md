@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcorePaymentConnector <a name="DataAwsccBedrockagentcorePaymentConnector" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector#id DataAwsccBedrockagentcorePaymentConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector#id DataAwsccBedrockagentcorePaymentConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreP
 
 The id of the existing DataAwsccBedrockagentcorePaymentConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -520,6 +520,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.authorizationUrl">authorization_url</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.connectorCreatedAt">connector_created_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.connectorLastUpdatedAt">connector_last_updated_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.connectorName">connector_name</a></code> | <code>str</code> | *No description.* |
@@ -530,6 +531,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.paymentConnectorArn">payment_connector_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.paymentConnectorId">payment_connector_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.paymentManagerId">payment_manager_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.provisionMode">provision_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.id">id</a></code> | <code>str</code> | *No description.* |
 
@@ -657,6 +659,16 @@ provider: TerraformProvider
 
 ---
 
+##### `authorization_url`<sup>Required</sup> <a name="authorization_url" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.authorizationUrl"></a>
+
+```python
+authorization_url: str
+```
+
+- *Type:* str
+
+---
+
 ##### `connector_created_at`<sup>Required</sup> <a name="connector_created_at" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.connectorCreatedAt"></a>
 
 ```python
@@ -751,6 +763,16 @@ payment_connector_id: str
 
 ```python
 payment_manager_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `provision_mode`<sup>Required</sup> <a name="provision_mode" id="@cdktn/provider-awscc.dataAwsccBedrockagentcorePaymentConnector.DataAwsccBedrockagentcorePaymentConnector.property.provisionMode"></a>
+
+```python
+provision_mode: str
 ```
 
 - *Type:* str
@@ -911,7 +933,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector#id DataAwsccBedrockagentcorePaymentConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector#id DataAwsccBedrockagentcorePaymentConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

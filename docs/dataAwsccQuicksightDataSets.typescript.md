@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightDataSets <a name="DataAwsccQuicksightDataSets" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_sets awscc_quicksight_data_sets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_data_sets awscc_quicksight_data_sets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightDataSets.DataAwsccQuicksightDataSets.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightDataSet
 
 The id of the existing DataAwsccQuicksightDataSets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_data_sets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_data_sets#import import section} in the documentation of this resource for the id to use
 
 ---
 

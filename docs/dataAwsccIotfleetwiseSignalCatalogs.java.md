@@ -4,7 +4,7 @@
 
 ### DataAwsccIotfleetwiseSignalCatalogs <a name="DataAwsccIotfleetwiseSignalCatalogs" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotfleetwiseSignalCatalogs.DataAwsccIotfleetwiseSignalCatalogs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotfleetwiseSigna
 
 The id of the existing DataAwsccIotfleetwiseSignalCatalogs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotfleetwise_signal_catalogs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotfleetwise_signal_catalogs#import import section} in the documentation of this resource for the id to use
 
 ---
 

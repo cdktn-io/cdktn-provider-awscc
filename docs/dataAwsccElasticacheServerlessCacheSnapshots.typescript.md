@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticacheServerlessCacheSnapshots <a name="DataAwsccElasticacheServerlessCacheSnapshots" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshots.DataAwsccElasticacheServerlessCacheSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticacheServerlessCacheSnapshots.DataAwsccElasticacheServerlessCacheSnapshots.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccElasticacheServer
 
 The id of the existing DataAwsccElasticacheServerlessCacheSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_serverless_cache_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_serverless_cache_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 

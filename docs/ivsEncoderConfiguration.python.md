@@ -4,7 +4,7 @@
 
 ### IvsEncoderConfiguration <a name="IvsEncoderConfiguration" id="@cdktn/provider-awscc.ivsEncoderConfiguration.IvsEncoderConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsEncoderConfiguration.IvsEncoderConfiguration.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Encoder configuration name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Video configuration. Default: video resolution 1280x720, bitrate 2500 kbps, 30 fps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
 
 ---
 
@@ -549,7 +549,7 @@ def put_video(
 
 Bitrate for generated output, in bps. Default: 2500000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#bitrate IvsEncoderConfiguration#bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#bitrate IvsEncoderConfiguration#bitrate}
 
 ---
 
@@ -559,7 +559,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Video frame rate, in fps. Default: 30.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#framerate IvsEncoderConfiguration#framerate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#framerate IvsEncoderConfiguration#framerate}
 
 ---
 
@@ -571,7 +571,7 @@ Video-resolution height.
 
 This must be an even number. Note that the maximum value is determined by width times height, such that the maximum total pixels is 2073600 (1920x1080 or 1080x1920). Default: 720.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#height IvsEncoderConfiguration#height}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#height IvsEncoderConfiguration#height}
 
 ---
 
@@ -583,7 +583,7 @@ Video-resolution width.
 
 This must be an even number. Note that the maximum value is determined by width times height, such that the maximum total pixels is 2073600 (1920x1080 or 1080x1920). Default: 1280.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#width IvsEncoderConfiguration#width}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#width IvsEncoderConfiguration#width}
 
 ---
 
@@ -719,7 +719,7 @@ The construct id used in the generated config for the IvsEncoderConfiguration to
 
 The id of the existing IvsEncoderConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1120,7 +1120,7 @@ name: str
 
 Encoder configuration name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
 
 ---
 
@@ -1134,7 +1134,7 @@ tags: IResolvable | typing.List[IvsEncoderConfigurationTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
 
 ---
 
@@ -1148,7 +1148,7 @@ video: IvsEncoderConfigurationVideo
 
 Video configuration. Default: video resolution 1280x720, bitrate 2500 kbps, 30 fps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
 
 ---
 
@@ -1186,7 +1186,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#key IvsEncoderConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#key IvsEncoderConfiguration#key}
 
 ---
 
@@ -1202,7 +1202,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#value IvsEncoderConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#value IvsEncoderConfiguration#value}
 
 ---
 
@@ -1242,7 +1242,7 @@ bitrate: typing.Union[int, float]
 
 Bitrate for generated output, in bps. Default: 2500000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#bitrate IvsEncoderConfiguration#bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#bitrate IvsEncoderConfiguration#bitrate}
 
 ---
 
@@ -1256,7 +1256,7 @@ framerate: typing.Union[int, float]
 
 Video frame rate, in fps. Default: 30.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#framerate IvsEncoderConfiguration#framerate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#framerate IvsEncoderConfiguration#framerate}
 
 ---
 
@@ -1272,7 +1272,7 @@ Video-resolution height.
 
 This must be an even number. Note that the maximum value is determined by width times height, such that the maximum total pixels is 2073600 (1920x1080 or 1080x1920). Default: 720.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#height IvsEncoderConfiguration#height}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#height IvsEncoderConfiguration#height}
 
 ---
 
@@ -1288,7 +1288,7 @@ Video-resolution width.
 
 This must be an even number. Note that the maximum value is determined by width times height, such that the maximum total pixels is 2073600 (1920x1080 or 1080x1920). Default: 1280.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#width IvsEncoderConfiguration#width}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_encoder_configuration#width IvsEncoderConfiguration#width}
 
 ---
 

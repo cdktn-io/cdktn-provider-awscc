@@ -4,7 +4,7 @@
 
 ### AuditmanagerAssessment <a name="AuditmanagerAssessment" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment awscc_auditmanager_assessment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment awscc_auditmanager_assessment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessment.Initializer"></a>
 
@@ -637,7 +637,7 @@ The construct id used in the generated config for the AuditmanagerAssessment to 
 
 The id of the existing AuditmanagerAssessment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1125,7 +1125,7 @@ public readonly destination: string;
 
 The URL of the specified Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#destination AuditmanagerAssessment#destination}
 
 ---
 
@@ -1139,7 +1139,7 @@ public readonly destinationType: string;
 
 The destination type, such as Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#destination_type AuditmanagerAssessment#destination_type}
 
 ---
 
@@ -1173,7 +1173,7 @@ public readonly emailAddress: string;
 
 The unique identifier for the email account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
 
 ---
 
@@ -1187,7 +1187,7 @@ public readonly id: string;
 
 The identifier for the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1204,7 +1204,7 @@ public readonly name: string;
 
 The name of the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
 
 ---
 
@@ -1322,7 +1322,7 @@ public readonly assessmentReportsDestination: AuditmanagerAssessmentAssessmentRe
 
 The destination in which evidence reports are stored for the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#assessment_reports_destination AuditmanagerAssessment#assessment_reports_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#assessment_reports_destination AuditmanagerAssessment#assessment_reports_destination}
 
 ---
 
@@ -1336,7 +1336,7 @@ public readonly awsAccount: AuditmanagerAssessmentAwsAccount;
 
 The AWS account associated with the assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#aws_account AuditmanagerAssessment#aws_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#aws_account AuditmanagerAssessment#aws_account}
 
 ---
 
@@ -1350,7 +1350,7 @@ public readonly delegations: IResolvable | AuditmanagerAssessmentDelegations[];
 
 The list of delegations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#delegations AuditmanagerAssessment#delegations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#delegations AuditmanagerAssessment#delegations}
 
 ---
 
@@ -1364,7 +1364,7 @@ public readonly description: string;
 
 The description of the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#description AuditmanagerAssessment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#description AuditmanagerAssessment#description}
 
 ---
 
@@ -1378,7 +1378,7 @@ public readonly frameworkId: string;
 
 The identifier for the specified framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#framework_id AuditmanagerAssessment#framework_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#framework_id AuditmanagerAssessment#framework_id}
 
 ---
 
@@ -1392,7 +1392,7 @@ public readonly name: string;
 
 The name of the related assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
 
 ---
 
@@ -1406,7 +1406,7 @@ public readonly roles: IResolvable | AuditmanagerAssessmentRoles[];
 
 The list of roles for the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#roles AuditmanagerAssessment#roles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#roles AuditmanagerAssessment#roles}
 
 ---
 
@@ -1420,7 +1420,7 @@ public readonly scope: AuditmanagerAssessmentScope;
 
 The wrapper that contains the AWS accounts and AWS services in scope for the assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#scope AuditmanagerAssessment#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#scope AuditmanagerAssessment#scope}
 
 ---
 
@@ -1434,7 +1434,7 @@ public readonly status: string;
 
 The status of the specified assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
 
 ---
 
@@ -1448,7 +1448,7 @@ public readonly tags: IResolvable | AuditmanagerAssessmentTags[];
 
 The tags associated with the assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#tags AuditmanagerAssessment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#tags AuditmanagerAssessment#tags}
 
 ---
 
@@ -1466,13 +1466,13 @@ const auditmanagerAssessmentDelegations: auditmanagerAssessment.AuditmanagerAsse
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.assessmentId">assessmentId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}. |
+| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.assessmentId">assessmentId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.assessmentName">assessmentName</a></code> | <code>string</code> | The name of the related assessment. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.comment">comment</a></code> | <code>string</code> | The comment related to the delegation. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.controlSetId">controlSetId</a></code> | <code>string</code> | The identifier for the specified control set. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.createdBy">createdBy</a></code> | <code>string</code> | The IAM user or role that performed the action. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.creationTime">creationTime</a></code> | <code>number</code> | The sequence of characters that identifies when the event occurred. |
-| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}. |
+| <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.lastUpdated">lastUpdated</a></code> | <code>number</code> | The sequence of characters that identifies when the event occurred. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.roleArn">roleArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the IAM user or role. |
 | <code><a href="#@cdktn/provider-awscc.auditmanagerAssessment.AuditmanagerAssessmentDelegations.property.roleType">roleType</a></code> | <code>string</code> | The IAM role type. |
@@ -1488,7 +1488,7 @@ public readonly assessmentId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#assessment_id AuditmanagerAssessment#assessment_id}.
 
 ---
 
@@ -1502,7 +1502,7 @@ public readonly assessmentName: string;
 
 The name of the related assessment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#assessment_name AuditmanagerAssessment#assessment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#assessment_name AuditmanagerAssessment#assessment_name}
 
 ---
 
@@ -1516,7 +1516,7 @@ public readonly comment: string;
 
 The comment related to the delegation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#comment AuditmanagerAssessment#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#comment AuditmanagerAssessment#comment}
 
 ---
 
@@ -1530,7 +1530,7 @@ public readonly controlSetId: string;
 
 The identifier for the specified control set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#control_set_id AuditmanagerAssessment#control_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#control_set_id AuditmanagerAssessment#control_set_id}
 
 ---
 
@@ -1544,7 +1544,7 @@ public readonly createdBy: string;
 
 The IAM user or role that performed the action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#created_by AuditmanagerAssessment#created_by}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#created_by AuditmanagerAssessment#created_by}
 
 ---
 
@@ -1558,7 +1558,7 @@ public readonly creationTime: number;
 
 The sequence of characters that identifies when the event occurred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#creation_time AuditmanagerAssessment#creation_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#creation_time AuditmanagerAssessment#creation_time}
 
 ---
 
@@ -1570,7 +1570,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1587,7 +1587,7 @@ public readonly lastUpdated: number;
 
 The sequence of characters that identifies when the event occurred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#last_updated AuditmanagerAssessment#last_updated}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#last_updated AuditmanagerAssessment#last_updated}
 
 ---
 
@@ -1601,7 +1601,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) of the IAM user or role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
 
 ---
 
@@ -1615,7 +1615,7 @@ public readonly roleType: string;
 
 The IAM role type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
 
 ---
 
@@ -1629,7 +1629,7 @@ public readonly status: string;
 
 The status of the delegation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
 
 ---
 
@@ -1662,7 +1662,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) of the IAM user or role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#role_arn AuditmanagerAssessment#role_arn}
 
 ---
 
@@ -1676,7 +1676,7 @@ public readonly roleType: string;
 
 The IAM role type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#role_type AuditmanagerAssessment#role_type}
 
 ---
 
@@ -1709,7 +1709,7 @@ public readonly awsAccounts: IResolvable | AuditmanagerAssessmentScopeAwsAccount
 
 The AWS accounts included in scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#aws_accounts AuditmanagerAssessment#aws_accounts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#aws_accounts AuditmanagerAssessment#aws_accounts}
 
 ---
 
@@ -1723,7 +1723,7 @@ public readonly awsServices: IResolvable | AuditmanagerAssessmentScopeAwsService
 
 The AWS services included in scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#aws_services AuditmanagerAssessment#aws_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#aws_services AuditmanagerAssessment#aws_services}
 
 ---
 
@@ -1757,7 +1757,7 @@ public readonly emailAddress: string;
 
 The unique identifier for the email account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#email_address AuditmanagerAssessment#email_address}
 
 ---
 
@@ -1771,7 +1771,7 @@ public readonly id: string;
 
 The identifier for the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#id AuditmanagerAssessment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1788,7 +1788,7 @@ public readonly name: string;
 
 The name of the specified AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#name AuditmanagerAssessment#name}
 
 ---
 
@@ -1820,7 +1820,7 @@ public readonly serviceName: string;
 
 The name of the AWS service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#service_name AuditmanagerAssessment#service_name}
 
 ---
 
@@ -1855,7 +1855,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#key AuditmanagerAssessment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#key AuditmanagerAssessment#key}
 
 ---
 
@@ -1871,7 +1871,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/auditmanager_assessment#value AuditmanagerAssessment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/auditmanager_assessment#value AuditmanagerAssessment#value}
 
 ---
 

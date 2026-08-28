@@ -4,7 +4,7 @@
 
 ### EventsArchive <a name="EventsArchive" id="@cdktn/provider-awscc.eventsArchive.EventsArchive"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive awscc_events_archive}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive awscc_events_archive}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer"></a>
 
@@ -41,12 +41,12 @@ eventsArchive.EventsArchive(
 | <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.sourceArn">source_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.archiveName">archive_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#description EventsArchive#description}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.eventPattern">event_pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.kmsKeyIdentifier">kms_key_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.retentionDays">retention_days</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.sourceArn">source_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.archiveName">archive_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#description EventsArchive#description}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.eventPattern">event_pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.kmsKeyIdentifier">kms_key_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchive.Initializer.parameter.retentionDays">retention_days</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#description EventsArchive#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#description EventsArchive#description}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}.
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}.
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}.
 
 ---
 
@@ -686,7 +686,7 @@ The construct id used in the generated config for the EventsArchive to import.
 
 The id of the existing EventsArchive that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1070,12 +1070,12 @@ eventsArchive.EventsArchiveConfig(
 | <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.sourceArn">source_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.archiveName">archive_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#description EventsArchive#description}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.eventPattern">event_pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.kmsKeyIdentifier">kms_key_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}. |
-| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.retentionDays">retention_days</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.sourceArn">source_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.archiveName">archive_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#description EventsArchive#description}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.eventPattern">event_pattern</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.kmsKeyIdentifier">kms_key_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}. |
+| <code><a href="#@cdktn/provider-awscc.eventsArchive.EventsArchiveConfig.property.retentionDays">retention_days</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}. |
 
 ---
 
@@ -1157,7 +1157,7 @@ source_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}.
 
 ---
 
@@ -1169,7 +1169,7 @@ archive_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}.
 
 ---
 
@@ -1181,7 +1181,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#description EventsArchive#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#description EventsArchive#description}.
 
 ---
 
@@ -1193,7 +1193,7 @@ event_pattern: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}.
 
 ---
 
@@ -1205,7 +1205,7 @@ kms_key_identifier: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}.
 
 ---
 
@@ -1217,7 +1217,7 @@ retention_days: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}.
 
 ---
 

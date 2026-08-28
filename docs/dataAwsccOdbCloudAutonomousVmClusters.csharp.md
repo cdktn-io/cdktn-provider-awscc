@@ -4,7 +4,7 @@
 
 ### DataAwsccOdbCloudAutonomousVmClusters <a name="DataAwsccOdbCloudAutonomousVmClusters" id="@cdktn/provider-awscc.dataAwsccOdbCloudAutonomousVmClusters.DataAwsccOdbCloudAutonomousVmClusters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbCloudAutonomousVmClusters.DataAwsccOdbCloudAutonomousVmClusters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbCloudAutonomou
 
 The id of the existing DataAwsccOdbCloudAutonomousVmClusters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_cloud_autonomous_vm_clusters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_autonomous_vm_clusters#import import section} in the documentation of this resource for the id to use
 
 ---
 

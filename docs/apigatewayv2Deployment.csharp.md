@@ -4,7 +4,7 @@
 
 ### Apigatewayv2Deployment <a name="Apigatewayv2Deployment" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2Deployment.Apigatewayv2Deployment.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Apigatewayv2Deployment to 
 
 The id of the existing Apigatewayv2Deployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,7 +904,7 @@ public string ApiId { get; set; }
 
 The API identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
 
 ---
 
@@ -918,7 +918,7 @@ public string Description { get; set; }
 
 The description for the deployment resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
 
 ---
 
@@ -932,7 +932,7 @@ public string StageName { get; set; }
 
 The name of an existing stage to associate with the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
 
 ---
 

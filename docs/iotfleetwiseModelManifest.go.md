@@ -4,7 +4,7 @@
 
 ### IotfleetwiseModelManifest <a name="IotfleetwiseModelManifest" id="@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifest"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest awscc_iotfleetwise_model_manifest}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest awscc_iotfleetwise_model_manifest}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifest.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the IotfleetwiseModelManifest 
 
 The id of the existing IotfleetwiseModelManifest that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -936,12 +936,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetwisemodelmanif
 | <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#name IotfleetwiseModelManifest#name}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.signalCatalogArn">SignalCatalogArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#signal_catalog_arn IotfleetwiseModelManifest#signal_catalog_arn}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#description IotfleetwiseModelManifest#description}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.nodes">Nodes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#nodes IotfleetwiseModelManifest#nodes}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.status">Status</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#status IotfleetwiseModelManifest#status}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#tags IotfleetwiseModelManifest#tags}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#name IotfleetwiseModelManifest#name}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.signalCatalogArn">SignalCatalogArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#signal_catalog_arn IotfleetwiseModelManifest#signal_catalog_arn}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#description IotfleetwiseModelManifest#description}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.nodes">Nodes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#nodes IotfleetwiseModelManifest#nodes}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.status">Status</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#status IotfleetwiseModelManifest#status}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#tags IotfleetwiseModelManifest#tags}. |
 
 ---
 
@@ -1023,7 +1023,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#name IotfleetwiseModelManifest#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#name IotfleetwiseModelManifest#name}.
 
 ---
 
@@ -1035,7 +1035,7 @@ SignalCatalogArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#signal_catalog_arn IotfleetwiseModelManifest#signal_catalog_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#signal_catalog_arn IotfleetwiseModelManifest#signal_catalog_arn}.
 
 ---
 
@@ -1047,7 +1047,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#description IotfleetwiseModelManifest#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#description IotfleetwiseModelManifest#description}.
 
 ---
 
@@ -1059,7 +1059,7 @@ Nodes *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#nodes IotfleetwiseModelManifest#nodes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#nodes IotfleetwiseModelManifest#nodes}.
 
 ---
 
@@ -1071,7 +1071,7 @@ Status *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#status IotfleetwiseModelManifest#status}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#status IotfleetwiseModelManifest#status}.
 
 ---
 
@@ -1083,7 +1083,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#tags IotfleetwiseModelManifest#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#tags IotfleetwiseModelManifest#tags}.
 
 ---
 
@@ -1104,8 +1104,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetwisemodelmanif
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#key IotfleetwiseModelManifest#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#value IotfleetwiseModelManifest#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#key IotfleetwiseModelManifest#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotfleetwiseModelManifest.IotfleetwiseModelManifestTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#value IotfleetwiseModelManifest#value}. |
 
 ---
 
@@ -1117,7 +1117,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#key IotfleetwiseModelManifest#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#key IotfleetwiseModelManifest#key}.
 
 ---
 
@@ -1129,7 +1129,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotfleetwise_model_manifest#value IotfleetwiseModelManifest#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_model_manifest#value IotfleetwiseModelManifest#value}.
 
 ---
 

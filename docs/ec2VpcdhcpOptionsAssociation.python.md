@@ -4,7 +4,7 @@
 
 ### Ec2VpcdhcpOptionsAssociation <a name="Ec2VpcdhcpOptionsAssociation" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcdhcpOptionsAssociation.Ec2VpcdhcpOptionsAssociation.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the DHCP options set, or default to associate no DHCP options with the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the Ec2VpcdhcpOptionsAssociati
 
 The id of the existing Ec2VpcdhcpOptionsAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpcdhcp_options_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ dhcp_options_id: str
 
 The ID of the DHCP options set, or default to associate no DHCP options with the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
 
 ---
 
@@ -995,7 +995,7 @@ vpc_id: str
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
 
 ---
 

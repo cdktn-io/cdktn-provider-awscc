@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeAppInstance <a name="DataAwsccChimeAppInstance" id="@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance awscc_chime_app_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance awscc_chime_app_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccChimeAppInstance 
 
 The id of the existing DataAwsccChimeAppInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,8 +416,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.appInstanceArn">AppInstanceArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.createdTimestamp">CreatedTimestamp</a></code> | <code>double</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.lastUpdatedTimestamp">LastUpdatedTimestamp</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.createdTimestamp">CreatedTimestamp</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.lastUpdatedTimestamp">LastUpdatedTimestamp</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.metadata">Metadata</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstanceTagsList">DataAwsccChimeAppInstanceTagsList</a></code> | *No description.* |
@@ -561,20 +561,20 @@ public string AppInstanceArn { get; }
 ##### `CreatedTimestamp`<sup>Required</sup> <a name="CreatedTimestamp" id="@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.createdTimestamp"></a>
 
 ```csharp
-public double CreatedTimestamp { get; }
+public string CreatedTimestamp { get; }
 ```
 
-- *Type:* double
+- *Type:* string
 
 ---
 
 ##### `LastUpdatedTimestamp`<sup>Required</sup> <a name="LastUpdatedTimestamp" id="@cdktn/provider-awscc.dataAwsccChimeAppInstance.DataAwsccChimeAppInstance.property.lastUpdatedTimestamp"></a>
 
 ```csharp
-public double LastUpdatedTimestamp { get; }
+public string LastUpdatedTimestamp { get; }
 ```
 
-- *Type:* double
+- *Type:* string
 
 ---
 
@@ -762,7 +762,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance#id DataAwsccChimeAppInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance#id DataAwsccChimeAppInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

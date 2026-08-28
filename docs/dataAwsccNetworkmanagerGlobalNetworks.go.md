@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerGlobalNetworks <a name="DataAwsccNetworkmanagerGlobalNetworks" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerGlobalNetworks.DataAwsccNetworkmanagerGlobalNetworks.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerGlo
 
 The id of the existing DataAwsccNetworkmanagerGlobalNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_global_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_global_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### EcrRepository <a name="EcrRepository" id="@cdktn/provider-awscc.ecrRepository.EcrRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository awscc_ecr_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository awscc_ecr_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrRepository.EcrRepository.Initializer"></a>
 
@@ -122,7 +122,7 @@ If true, deleting the repository force deletes the contents of the repository.
 
 If false, the repository must be empty before attempting to delete it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#empty_on_delete EcrRepository#empty_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#empty_on_delete EcrRepository#empty_on_delete}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The encryption configuration for the repository. This determines how the contents of your repository are encrypted at rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#encryption_configuration EcrRepository#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#encryption_configuration EcrRepository#encryption_configuration}
 
 ---
 
@@ -145,7 +145,7 @@ The ``imageScanningConfiguration`` parameter is being deprecated, in favor of sp
 For more information, see `PutRegistryScanningConfiguration`.
 The image scanning configuration for the repository. This determines whether images are scanned for known vulnerabilities after being pushed to the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_scanning_configuration EcrRepository#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_scanning_configuration EcrRepository#image_scanning_configuration}
 
 ---
 
@@ -157,7 +157,7 @@ The tag mutability setting for the repository.
 
 If this parameter is omitted, the default setting of `MUTABLE` will be used which will allow image tags to be overwritten. If `IMMUTABLE` is specified, all image tags within the repository will be immutable which will prevent them from being overwritten.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_tag_mutability EcrRepository#image_tag_mutability}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_tag_mutability EcrRepository#image_tag_mutability}
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of filters that specify which image tags are excluded from the repository's image tag mutability setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filters EcrRepository#image_tag_mutability_exclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filters EcrRepository#image_tag_mutability_exclusion_filters}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Creates or updates a lifecycle policy. For information about lifecycle policy syntax, see [Lifecycle policy template](https://docs.aws.amazon.com/AmazonECR/latest/userguide/LifecyclePolicies.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#lifecycle_policy EcrRepository#lifecycle_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#lifecycle_policy EcrRepository#lifecycle_policy}
 
 ---
 
@@ -191,7 +191,7 @@ The repository name may be specified on its own (such as `nginx-web-app`) or it 
 The repository name must start with a letter and can only contain lowercase letters, numbers, hyphens, underscores, and forward slashes.
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#repository_name EcrRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#repository_name EcrRepository#repository_name}
 
 ---
 
@@ -203,7 +203,7 @@ The JSON repository policy text to apply to the repository.
 
 For more information, see [Amazon ECR repository policies](https://docs.aws.amazon.com/AmazonECR/latest/userguide/repository-policy-examples.html) in the *Amazon Elastic Container Registry User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#repository_policy_text EcrRepository#repository_policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#repository_policy_text EcrRepository#repository_policy_text}
 
 ---
 
@@ -213,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#tags EcrRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#tags EcrRepository#tags}
 
 ---
 
@@ -790,7 +790,7 @@ The construct id used in the generated config for the EcrRepository to import.
 
 The id of the existing EcrRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1348,7 +1348,7 @@ If true, deleting the repository force deletes the contents of the repository.
 
 If false, the repository must be empty before attempting to delete it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#empty_on_delete EcrRepository#empty_on_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#empty_on_delete EcrRepository#empty_on_delete}
 
 ---
 
@@ -1362,7 +1362,7 @@ public EcrRepositoryEncryptionConfiguration getEncryptionConfiguration();
 
 The encryption configuration for the repository. This determines how the contents of your repository are encrypted at rest.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#encryption_configuration EcrRepository#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#encryption_configuration EcrRepository#encryption_configuration}
 
 ---
 
@@ -1379,7 +1379,7 @@ The ``imageScanningConfiguration`` parameter is being deprecated, in favor of sp
 For more information, see `PutRegistryScanningConfiguration`.
 The image scanning configuration for the repository. This determines whether images are scanned for known vulnerabilities after being pushed to the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_scanning_configuration EcrRepository#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_scanning_configuration EcrRepository#image_scanning_configuration}
 
 ---
 
@@ -1395,7 +1395,7 @@ The tag mutability setting for the repository.
 
 If this parameter is omitted, the default setting of `MUTABLE` will be used which will allow image tags to be overwritten. If `IMMUTABLE` is specified, all image tags within the repository will be immutable which will prevent them from being overwritten.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_tag_mutability EcrRepository#image_tag_mutability}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_tag_mutability EcrRepository#image_tag_mutability}
 
 ---
 
@@ -1409,7 +1409,7 @@ public IResolvable|java.util.List<EcrRepositoryImageTagMutabilityExclusionFilter
 
 A list of filters that specify which image tags are excluded from the repository's image tag mutability setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filters EcrRepository#image_tag_mutability_exclusion_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filters EcrRepository#image_tag_mutability_exclusion_filters}
 
 ---
 
@@ -1423,7 +1423,7 @@ public EcrRepositoryLifecyclePolicy getLifecyclePolicy();
 
 Creates or updates a lifecycle policy. For information about lifecycle policy syntax, see [Lifecycle policy template](https://docs.aws.amazon.com/AmazonECR/latest/userguide/LifecyclePolicies.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#lifecycle_policy EcrRepository#lifecycle_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#lifecycle_policy EcrRepository#lifecycle_policy}
 
 ---
 
@@ -1441,7 +1441,7 @@ The repository name may be specified on its own (such as `nginx-web-app`) or it 
 The repository name must start with a letter and can only contain lowercase letters, numbers, hyphens, underscores, and forward slashes.
 If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#repository_name EcrRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#repository_name EcrRepository#repository_name}
 
 ---
 
@@ -1457,7 +1457,7 @@ The JSON repository policy text to apply to the repository.
 
 For more information, see [Amazon ECR repository policies](https://docs.aws.amazon.com/AmazonECR/latest/userguide/repository-policy-examples.html) in the *Amazon Elastic Container Registry User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#repository_policy_text EcrRepository#repository_policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#repository_policy_text EcrRepository#repository_policy_text}
 
 ---
 
@@ -1471,7 +1471,7 @@ public IResolvable|java.util.List<EcrRepositoryTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#tags EcrRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#tags EcrRepository#tags}
 
 ---
 
@@ -1512,7 +1512,7 @@ If you use the `KMS_DSSE` encryption type, the contents of the repository will b
 If you use the `AES256` encryption type, Amazon ECR uses server-side encryption with Amazon S3-managed encryption keys which encrypts the images in the repository using an AES256 encryption algorithm.
 For more information, see [Amazon ECR encryption at rest](https://docs.aws.amazon.com/AmazonECR/latest/userguide/encryption-at-rest.html) in the *Amazon Elastic Container Registry User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#encryption_type EcrRepository#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#encryption_type EcrRepository#encryption_type}
 
 ---
 
@@ -1528,7 +1528,7 @@ If you use the ``KMS`` encryption type, specify the KMS key to use for encryptio
 
 The alias, key ID, or full ARN of the KMS key can be specified. The key must exist in the same Region as the repository. If no key is specified, the default AWS managed KMS key for Amazon ECR will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#kms_key EcrRepository#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#kms_key EcrRepository#kms_key}
 
 ---
 
@@ -1564,7 +1564,7 @@ The setting that determines whether images are scanned after being pushed to a r
 
 If set to `true`, images will be scanned after being pushed. If this parameter is not specified, it will default to `false` and images will not be scanned unless a scan is manually started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}
 
 ---
 
@@ -1600,7 +1600,7 @@ public java.lang.String getImageTagMutabilityExclusionFilterType();
 
 Specifies the type of filter to use for excluding image tags from the repository's mutability setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filter_type EcrRepository#image_tag_mutability_exclusion_filter_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filter_type EcrRepository#image_tag_mutability_exclusion_filter_type}
 
 ---
 
@@ -1614,7 +1614,7 @@ public java.lang.String getImageTagMutabilityExclusionFilterValue();
 
 The value to use when filtering image tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filter_value EcrRepository#image_tag_mutability_exclusion_filter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#image_tag_mutability_exclusion_filter_value EcrRepository#image_tag_mutability_exclusion_filter_value}
 
 ---
 
@@ -1650,7 +1650,7 @@ public java.lang.String getLifecyclePolicyText();
 
 The JSON repository policy text to apply to the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#lifecycle_policy_text EcrRepository#lifecycle_policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#lifecycle_policy_text EcrRepository#lifecycle_policy_text}
 
 ---
 
@@ -1666,7 +1666,7 @@ The AWS account ID associated with the registry that contains the repository.
 
 If you do? not specify a registry, the default registry is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#registry_id EcrRepository#registry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#registry_id EcrRepository#registry_id}
 
 ---
 
@@ -1704,7 +1704,7 @@ One part of a key-value pair that make up a tag.
 
 A `key` is a general label that acts like a category for more specific tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#key EcrRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#key EcrRepository#key}
 
 ---
 
@@ -1718,7 +1718,7 @@ public java.lang.String getValue();
 
 A ``value`` acts as a descriptor within a tag category (key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_repository#value EcrRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#value EcrRepository#value}
 
 ---
 

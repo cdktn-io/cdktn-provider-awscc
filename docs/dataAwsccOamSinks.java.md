@@ -4,7 +4,7 @@
 
 ### DataAwsccOamSinks <a name="DataAwsccOamSinks" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/oam_sinks awscc_oam_sinks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/oam_sinks awscc_oam_sinks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOamSinks.DataAwsccOamSinks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccOamSinks to impor
 
 The id of the existing DataAwsccOamSinks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/oam_sinks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/oam_sinks#import import section} in the documentation of this resource for the id to use
 
 ---
 

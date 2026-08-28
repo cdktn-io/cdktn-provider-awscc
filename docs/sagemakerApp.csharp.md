@@ -4,7 +4,7 @@
 
 ### SagemakerApp <a name="SagemakerApp" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app awscc_sagemaker_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app awscc_sagemaker_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerApp.SagemakerApp.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the SagemakerApp to import.
 
 The id of the existing SagemakerApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1044,7 +1044,7 @@ public string AppName { get; set; }
 
 The name of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#app_name SagemakerApp#app_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#app_name SagemakerApp#app_name}
 
 ---
 
@@ -1058,7 +1058,7 @@ public string AppType { get; set; }
 
 The type of app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#app_type SagemakerApp#app_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#app_type SagemakerApp#app_type}
 
 ---
 
@@ -1072,7 +1072,7 @@ public string DomainId { get; set; }
 
 The domain ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#domain_id SagemakerApp#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#domain_id SagemakerApp#domain_id}
 
 ---
 
@@ -1086,7 +1086,7 @@ public string UserProfileName { get; set; }
 
 The user profile name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#user_profile_name SagemakerApp#user_profile_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#user_profile_name SagemakerApp#user_profile_name}
 
 ---
 
@@ -1100,7 +1100,7 @@ public bool|IResolvable RecoveryMode { get; set; }
 
 Indicates whether the application is launched in recovery mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#recovery_mode SagemakerApp#recovery_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#recovery_mode SagemakerApp#recovery_mode}
 
 ---
 
@@ -1114,7 +1114,7 @@ public SagemakerAppResourceSpec ResourceSpec { get; set; }
 
 The instance type and the Amazon Resource Name (ARN) of the SageMaker image created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#resource_spec SagemakerApp#resource_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#resource_spec SagemakerApp#resource_spec}
 
 ---
 
@@ -1128,7 +1128,7 @@ public IResolvable|SagemakerAppTags[] Tags { get; set; }
 
 A list of tags to apply to the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#tags SagemakerApp#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#tags SagemakerApp#tags}
 
 ---
 
@@ -1168,7 +1168,7 @@ public string InstanceType { get; set; }
 
 The instance type that the image version runs on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#instance_type SagemakerApp#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#instance_type SagemakerApp#instance_type}
 
 ---
 
@@ -1182,7 +1182,7 @@ public string LifecycleConfigArn { get; set; }
 
 The Amazon Resource Name (ARN) of the Lifecycle Configuration to attach to the Resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#lifecycle_config_arn SagemakerApp#lifecycle_config_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#lifecycle_config_arn SagemakerApp#lifecycle_config_arn}
 
 ---
 
@@ -1196,7 +1196,7 @@ public string SageMakerImageArn { get; set; }
 
 The ARN of the SageMaker image that the image version belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#sage_maker_image_arn SagemakerApp#sage_maker_image_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#sage_maker_image_arn SagemakerApp#sage_maker_image_arn}
 
 ---
 
@@ -1210,7 +1210,7 @@ public string SageMakerImageVersionArn { get; set; }
 
 The ARN of the image version created on the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#sage_maker_image_version_arn SagemakerApp#sage_maker_image_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#sage_maker_image_version_arn SagemakerApp#sage_maker_image_version_arn}
 
 ---
 
@@ -1231,8 +1231,8 @@ new SagemakerAppTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#key SagemakerApp#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#value SagemakerApp#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#key SagemakerApp#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerApp.SagemakerAppTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#value SagemakerApp#value}. |
 
 ---
 
@@ -1244,7 +1244,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#key SagemakerApp#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#key SagemakerApp#key}.
 
 ---
 
@@ -1256,7 +1256,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_app#value SagemakerApp#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_app#value SagemakerApp#value}.
 
 ---
 

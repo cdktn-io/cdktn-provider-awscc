@@ -4,7 +4,7 @@
 
 ### ServicecatalogPortfolio <a name="ServicecatalogPortfolio" id="@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolio"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio awscc_servicecatalog_portfolio}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio awscc_servicecatalog_portfolio}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolio.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ServicecatalogPortfolio to
 
 The id of the existing ServicecatalogPortfolio that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -882,11 +882,11 @@ const servicecatalogPortfolioConfig: servicecatalogPortfolio.ServicecatalogPortf
 | <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#display_name ServicecatalogPortfolio#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.providerName">providerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#provider_name ServicecatalogPortfolio#provider_name}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.acceptLanguage">acceptLanguage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#accept_language ServicecatalogPortfolio#accept_language}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#description ServicecatalogPortfolio#description}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags">ServicecatalogPortfolioTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#tags ServicecatalogPortfolio#tags}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#display_name ServicecatalogPortfolio#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.providerName">providerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#provider_name ServicecatalogPortfolio#provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.acceptLanguage">acceptLanguage</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#accept_language ServicecatalogPortfolio#accept_language}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#description ServicecatalogPortfolio#description}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags">ServicecatalogPortfolioTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#tags ServicecatalogPortfolio#tags}. |
 
 ---
 
@@ -968,7 +968,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#display_name ServicecatalogPortfolio#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#display_name ServicecatalogPortfolio#display_name}.
 
 ---
 
@@ -980,7 +980,7 @@ public readonly providerName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#provider_name ServicecatalogPortfolio#provider_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#provider_name ServicecatalogPortfolio#provider_name}.
 
 ---
 
@@ -992,7 +992,7 @@ public readonly acceptLanguage: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#accept_language ServicecatalogPortfolio#accept_language}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#accept_language ServicecatalogPortfolio#accept_language}.
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#description ServicecatalogPortfolio#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#description ServicecatalogPortfolio#description}.
 
 ---
 
@@ -1016,7 +1016,7 @@ public readonly tags: IResolvable | ServicecatalogPortfolioTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags">ServicecatalogPortfolioTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#tags ServicecatalogPortfolio#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#tags ServicecatalogPortfolio#tags}.
 
 ---
 
@@ -1034,8 +1034,8 @@ const servicecatalogPortfolioTags: servicecatalogPortfolio.ServicecatalogPortfol
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#key ServicecatalogPortfolio#key}. |
-| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#value ServicecatalogPortfolio#value}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#key ServicecatalogPortfolio#key}. |
+| <code><a href="#@cdktn/provider-awscc.servicecatalogPortfolio.ServicecatalogPortfolioTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#value ServicecatalogPortfolio#value}. |
 
 ---
 
@@ -1047,7 +1047,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#key ServicecatalogPortfolio#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#key ServicecatalogPortfolio#key}.
 
 ---
 
@@ -1059,7 +1059,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_portfolio#value ServicecatalogPortfolio#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_portfolio#value ServicecatalogPortfolio#value}.
 
 ---
 

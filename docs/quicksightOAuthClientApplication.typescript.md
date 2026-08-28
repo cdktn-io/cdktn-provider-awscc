@@ -4,7 +4,7 @@
 
 ### QuicksightOAuthClientApplication <a name="QuicksightOAuthClientApplication" id="@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application awscc_quicksight_o_auth_client_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplication.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the QuicksightOAuthClientAppli
 
 The id of the existing QuicksightOAuthClientApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1066,17 +1066,17 @@ const quicksightOAuthClientApplicationConfig: quicksightOAuthClientApplication.Q
 | <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#name QuicksightOAuthClientApplication#name}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthClientApplicationId">oAuthClientApplicationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_application_id QuicksightOAuthClientApplication#o_auth_client_application_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthClientAuthenticationType">oAuthClientAuthenticationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_authentication_type QuicksightOAuthClientApplication#o_auth_client_authentication_type}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthTokenEndpointUrl">oAuthTokenEndpointUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_token_endpoint_url QuicksightOAuthClientApplication#o_auth_token_endpoint_url}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.clientId">clientId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#client_id QuicksightOAuthClientApplication#client_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.clientSecret">clientSecret</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#client_secret QuicksightOAuthClientApplication#client_secret}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.dataSourceType">dataSourceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#data_source_type QuicksightOAuthClientApplication#data_source_type}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties">QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#identity_provider_vpc_connection_properties QuicksightOAuthClientApplication#identity_provider_vpc_connection_properties}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthAuthorizationEndpointUrl">oAuthAuthorizationEndpointUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_authorization_endpoint_url QuicksightOAuthClientApplication#o_auth_authorization_endpoint_url}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthScopes">oAuthScopes</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_scopes QuicksightOAuthClientApplication#o_auth_scopes}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags">QuicksightOAuthClientApplicationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#tags QuicksightOAuthClientApplication#tags}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#name QuicksightOAuthClientApplication#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthClientApplicationId">oAuthClientApplicationId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_application_id QuicksightOAuthClientApplication#o_auth_client_application_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthClientAuthenticationType">oAuthClientAuthenticationType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_authentication_type QuicksightOAuthClientApplication#o_auth_client_authentication_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthTokenEndpointUrl">oAuthTokenEndpointUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_token_endpoint_url QuicksightOAuthClientApplication#o_auth_token_endpoint_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.clientId">clientId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#client_id QuicksightOAuthClientApplication#client_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.clientSecret">clientSecret</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#client_secret QuicksightOAuthClientApplication#client_secret}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.dataSourceType">dataSourceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#data_source_type QuicksightOAuthClientApplication#data_source_type}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.identityProviderVpcConnectionProperties">identityProviderVpcConnectionProperties</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties">QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#identity_provider_vpc_connection_properties QuicksightOAuthClientApplication#identity_provider_vpc_connection_properties}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthAuthorizationEndpointUrl">oAuthAuthorizationEndpointUrl</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_authorization_endpoint_url QuicksightOAuthClientApplication#o_auth_authorization_endpoint_url}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.oAuthScopes">oAuthScopes</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_scopes QuicksightOAuthClientApplication#o_auth_scopes}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags">QuicksightOAuthClientApplicationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#tags QuicksightOAuthClientApplication#tags}. |
 
 ---
 
@@ -1158,7 +1158,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#name QuicksightOAuthClientApplication#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#name QuicksightOAuthClientApplication#name}.
 
 ---
 
@@ -1170,7 +1170,7 @@ public readonly oAuthClientApplicationId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_application_id QuicksightOAuthClientApplication#o_auth_client_application_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_application_id QuicksightOAuthClientApplication#o_auth_client_application_id}.
 
 ---
 
@@ -1182,7 +1182,7 @@ public readonly oAuthClientAuthenticationType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_authentication_type QuicksightOAuthClientApplication#o_auth_client_authentication_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_client_authentication_type QuicksightOAuthClientApplication#o_auth_client_authentication_type}.
 
 ---
 
@@ -1194,7 +1194,7 @@ public readonly oAuthTokenEndpointUrl: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_token_endpoint_url QuicksightOAuthClientApplication#o_auth_token_endpoint_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_token_endpoint_url QuicksightOAuthClientApplication#o_auth_token_endpoint_url}.
 
 ---
 
@@ -1206,7 +1206,7 @@ public readonly clientId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#client_id QuicksightOAuthClientApplication#client_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#client_id QuicksightOAuthClientApplication#client_id}.
 
 ---
 
@@ -1218,7 +1218,7 @@ public readonly clientSecret: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#client_secret QuicksightOAuthClientApplication#client_secret}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#client_secret QuicksightOAuthClientApplication#client_secret}.
 
 ---
 
@@ -1230,7 +1230,7 @@ public readonly dataSourceType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#data_source_type QuicksightOAuthClientApplication#data_source_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#data_source_type QuicksightOAuthClientApplication#data_source_type}.
 
 ---
 
@@ -1242,7 +1242,7 @@ public readonly identityProviderVpcConnectionProperties: QuicksightOAuthClientAp
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties">QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#identity_provider_vpc_connection_properties QuicksightOAuthClientApplication#identity_provider_vpc_connection_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#identity_provider_vpc_connection_properties QuicksightOAuthClientApplication#identity_provider_vpc_connection_properties}.
 
 ---
 
@@ -1254,7 +1254,7 @@ public readonly oAuthAuthorizationEndpointUrl: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_authorization_endpoint_url QuicksightOAuthClientApplication#o_auth_authorization_endpoint_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_authorization_endpoint_url QuicksightOAuthClientApplication#o_auth_authorization_endpoint_url}.
 
 ---
 
@@ -1266,7 +1266,7 @@ public readonly oAuthScopes: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#o_auth_scopes QuicksightOAuthClientApplication#o_auth_scopes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#o_auth_scopes QuicksightOAuthClientApplication#o_auth_scopes}.
 
 ---
 
@@ -1278,7 +1278,7 @@ public readonly tags: IResolvable | QuicksightOAuthClientApplicationTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags">QuicksightOAuthClientApplicationTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#tags QuicksightOAuthClientApplication#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#tags QuicksightOAuthClientApplication#tags}.
 
 ---
 
@@ -1296,7 +1296,7 @@ const quicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties: q
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties.property.vpcConnectionArn">vpcConnectionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#vpc_connection_arn QuicksightOAuthClientApplication#vpc_connection_arn}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProperties.property.vpcConnectionArn">vpcConnectionArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#vpc_connection_arn QuicksightOAuthClientApplication#vpc_connection_arn}. |
 
 ---
 
@@ -1308,7 +1308,7 @@ public readonly vpcConnectionArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#vpc_connection_arn QuicksightOAuthClientApplication#vpc_connection_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#vpc_connection_arn QuicksightOAuthClientApplication#vpc_connection_arn}.
 
 ---
 
@@ -1326,8 +1326,8 @@ const quicksightOAuthClientApplicationTags: quicksightOAuthClientApplication.Qui
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#key QuicksightOAuthClientApplication#key}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#value QuicksightOAuthClientApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#key QuicksightOAuthClientApplication#key}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightOAuthClientApplication.QuicksightOAuthClientApplicationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#value QuicksightOAuthClientApplication#value}. |
 
 ---
 
@@ -1339,7 +1339,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#key QuicksightOAuthClientApplication#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#key QuicksightOAuthClientApplication#key}.
 
 ---
 
@@ -1351,7 +1351,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_o_auth_client_application#value QuicksightOAuthClientApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_o_auth_client_application#value QuicksightOAuthClientApplication#value}.
 
 ---
 

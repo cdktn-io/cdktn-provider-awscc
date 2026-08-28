@@ -4,7 +4,7 @@
 
 ### DataAwsccNimblestudioStudios <a name="DataAwsccNimblestudioStudios" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudios.DataAwsccNimblestudioStudios"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNimblestudioStudios.DataAwsccNimblestudioStudios.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNimblestudioStudi
 
 The id of the existing DataAwsccNimblestudioStudios that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_studios#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/nimblestudio_studios#import import section} in the documentation of this resource for the id to use
 
 ---
 

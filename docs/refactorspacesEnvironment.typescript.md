@@ -4,7 +4,7 @@
 
 ### RefactorspacesEnvironment <a name="RefactorspacesEnvironment" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment awscc_refactorspaces_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironment.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the RefactorspacesEnvironment 
 
 The id of the existing RefactorspacesEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -878,9 +878,9 @@ const refactorspacesEnvironmentConfig: refactorspacesEnvironment.RefactorspacesE
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}. |
-| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.networkFabricType">networkFabricType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}. |
+| <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.networkFabricType">networkFabricType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}. |
 | <code><a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.refactorspacesEnvironment.RefactorspacesEnvironmentTags">RefactorspacesEnvironmentTags</a>[]</code> | Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair. |
 
 ---
@@ -963,7 +963,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#description RefactorspacesEnvironment#description}.
 
 ---
 
@@ -975,7 +975,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#name RefactorspacesEnvironment#name}.
 
 ---
 
@@ -987,7 +987,7 @@ public readonly networkFabricType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#network_fabric_type RefactorspacesEnvironment#network_fabric_type}.
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly tags: IResolvable | RefactorspacesEnvironmentTags[];
 
 Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#tags RefactorspacesEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#tags RefactorspacesEnvironment#tags}
 
 ---
 
@@ -1034,7 +1034,7 @@ public readonly key: string;
 
 A string used to identify this tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ public readonly value: string;
 
 A string containing the value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
 
 ---
 

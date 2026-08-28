@@ -4,7 +4,7 @@
 
 ### XrayResourcePolicy <a name="XrayResourcePolicy" id="@cdktn/provider-awscc.xrayResourcePolicy.XrayResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/xray_resource_policy awscc_xray_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_resource_policy awscc_xray_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xrayResourcePolicy.XrayResourcePolicy.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the XrayResourcePolicy to impo
 
 The id of the existing XrayResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/xray_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ public string PolicyDocument { get; set; }
 
 The resource policy document, which can be up to 5kb in size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/xray_resource_policy#policy_document XrayResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_resource_policy#policy_document XrayResourcePolicy#policy_document}
 
 ---
 
@@ -900,7 +900,7 @@ public string PolicyName { get; set; }
 
 The name of the resource policy. Must be unique within a specific AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/xray_resource_policy#policy_name XrayResourcePolicy#policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_resource_policy#policy_name XrayResourcePolicy#policy_name}
 
 ---
 
@@ -914,7 +914,7 @@ public bool|IResolvable BypassPolicyLockoutCheck { get; set; }
 
 A flag to indicate whether to bypass the resource policy lockout safety check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/xray_resource_policy#bypass_policy_lockout_check XrayResourcePolicy#bypass_policy_lockout_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_resource_policy#bypass_policy_lockout_check XrayResourcePolicy#bypass_policy_lockout_check}
 
 ---
 

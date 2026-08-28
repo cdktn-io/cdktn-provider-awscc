@@ -4,7 +4,7 @@
 
 ### DatazoneUserProfile <a name="DatazoneUserProfile" id="@cdktn/provider-awscc.datazoneUserProfile.DatazoneUserProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile awscc_datazone_user_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile awscc_datazone_user_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneUserProfile.DatazoneUserProfile.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the DatazoneUserProfile to imp
 
 The id of the existing DatazoneUserProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,7 +979,7 @@ public readonly domainIdentifier: string;
 
 The identifier of the Amazon DataZone domain in which the user profile would be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile#domain_identifier DatazoneUserProfile#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile#domain_identifier DatazoneUserProfile#domain_identifier}
 
 ---
 
@@ -993,7 +993,7 @@ public readonly userIdentifier: string;
 
 The ID of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile#user_identifier DatazoneUserProfile#user_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile#user_identifier DatazoneUserProfile#user_identifier}
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly sessionName: string;
 
 The session name of the user profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile#session_name DatazoneUserProfile#session_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile#session_name DatazoneUserProfile#session_name}
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly status: string;
 
 The status of the user profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile#status DatazoneUserProfile#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile#status DatazoneUserProfile#status}
 
 ---
 
@@ -1035,7 +1035,7 @@ public readonly userType: string;
 
 The type of the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile#user_type DatazoneUserProfile#user_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile#user_type DatazoneUserProfile#user_type}
 
 ---
 

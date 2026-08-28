@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontCloudfrontOriginAccessIdentities <a name="DataAwsccCloudfrontCloudfrontOriginAccessIdentities" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentities.DataAwsccCloudfrontCloudfrontOriginAccessIdentities"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_cloudfront_origin_access_identities awscc_cloudfront_cloudfront_origin_access_identities}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_cloudfront_origin_access_identities awscc_cloudfront_cloudfront_origin_access_identities}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontCloudfrontOriginAccessIdentities.DataAwsccCloudfrontCloudfrontOriginAccessIdentities.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontCloudfr
 
 The id of the existing DataAwsccCloudfrontCloudfrontOriginAccessIdentities that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_cloudfront_origin_access_identities#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_cloudfront_origin_access_identities#import import section} in the documentation of this resource for the id to use
 
 ---
 

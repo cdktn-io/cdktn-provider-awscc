@@ -4,7 +4,7 @@
 
 ### Ec2RouteServerAssociation <a name="Ec2RouteServerAssociation" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_association awscc_ec2_route_server_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerAssociation.Ec2RouteServerAssociation.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 Route Server ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 VPC ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the Ec2RouteServerAssociation 
 
 The id of the existing Ec2RouteServerAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ route_server_id: str
 
 Route Server ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
 
 ---
 
@@ -995,7 +995,7 @@ vpc_id: str
 
 VPC ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
 
 ---
 

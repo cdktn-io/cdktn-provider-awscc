@@ -4,7 +4,7 @@
 
 ### DataAwsccSesMailManagerArchives <a name="DataAwsccSesMailManagerArchives" id="@cdktn/provider-awscc.dataAwsccSesMailManagerArchives.DataAwsccSesMailManagerArchives"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_archives awscc_ses_mail_manager_archives}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_archives awscc_ses_mail_manager_archives}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesMailManagerArchives.DataAwsccSesMailManagerArchives.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSesMailManagerArc
 
 The id of the existing DataAwsccSesMailManagerArchives that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_archives#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_archives#import import section} in the documentation of this resource for the id to use
 
 ---
 

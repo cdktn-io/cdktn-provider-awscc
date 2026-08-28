@@ -4,7 +4,7 @@
 
 ### DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses <a name="DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses awscc_arczonalshift_autoshift_observer_notification_statuses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses awscc_arczonalshift_autoshift_observer_notification_statuses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccArczonalshiftAuto
 
 The id of the existing DataAwsccArczonalshiftAutoshiftObserverNotificationStatuses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/arczonalshift_autoshift_observer_notification_statuses#import import section} in the documentation of this resource for the id to use
 
 ---
 

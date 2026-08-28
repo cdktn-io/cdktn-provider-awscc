@@ -4,7 +4,7 @@
 
 ### DataAwsccIotEncryptionConfigurations <a name="DataAwsccIotEncryptionConfigurations" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_encryption_configurations awscc_iot_encryption_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_encryption_configurations awscc_iot_encryption_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotEncryptionConfigurations.DataAwsccIotEncryptionConfigurations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccIotEncryptionConf
 
 The id of the existing DataAwsccIotEncryptionConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_encryption_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_encryption_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

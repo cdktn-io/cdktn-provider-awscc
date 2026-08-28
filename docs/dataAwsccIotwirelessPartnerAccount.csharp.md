@@ -4,7 +4,7 @@
 
 ### DataAwsccIotwirelessPartnerAccount <a name="DataAwsccIotwirelessPartnerAccount" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccount.DataAwsccIotwirelessPartnerAccount.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessPartne
 
 The id of the existing DataAwsccIotwirelessPartnerAccount that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -795,7 +795,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_account#id DataAwsccIotwirelessPartnerAccount#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_account#id DataAwsccIotwirelessPartnerAccount#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

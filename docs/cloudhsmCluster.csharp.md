@@ -4,7 +4,7 @@
 
 ### CloudhsmCluster <a name="CloudhsmCluster" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudhsmCluster.CloudhsmCluster.Initializer"></a>
 
@@ -550,7 +550,7 @@ The construct id used in the generated config for the CloudhsmCluster to import.
 
 The id of the existing CloudhsmCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ public string Type { get; set; }
 
 The type of backup retention policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#type CloudhsmCluster#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#type CloudhsmCluster#type}
 
 ---
 
@@ -1011,7 +1011,7 @@ public string Value { get; set; }
 
 Use a value between 7 - 379.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
 
 ---
 
@@ -1139,7 +1139,7 @@ public string HsmType { get; set; }
 
 The type of HSM to use in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
 
 ---
 
@@ -1153,7 +1153,7 @@ public CloudhsmClusterBackupRetentionPolicy BackupRetentionPolicy { get; set; }
 
 A policy that defines how the service retains backups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
 
 ---
 
@@ -1167,7 +1167,7 @@ public string Mode { get; set; }
 
 The mode to use in the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
 
 ---
 
@@ -1181,7 +1181,7 @@ public string NetworkType { get; set; }
 
 The NetworkType to create a cluster with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
 
 ---
 
@@ -1195,7 +1195,7 @@ public string[] SubnetIds { get; set; }
 
 The identifiers (IDs) of the subnets where the cluster is created. You must specify at least one subnet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
 
 ---
 
@@ -1209,7 +1209,7 @@ public IResolvable|CloudhsmClusterTags[] Tags { get; set; }
 
 Tags to apply to the CloudHSM cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
 
 ---
 
@@ -1245,7 +1245,7 @@ public string Key { get; set; }
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#key CloudhsmCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#key CloudhsmCluster#key}
 
 ---
 
@@ -1259,7 +1259,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudhsm_cluster#value CloudhsmCluster#value}
 
 ---
 

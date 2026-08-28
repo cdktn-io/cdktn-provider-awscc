@@ -4,7 +4,7 @@
 
 ### Route53ResolverResolverQueryLoggingConfigAssociation <a name="Route53ResolverResolverQueryLoggingConfigAssociation" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfigAssociation.Route53ResolverResolverQueryLoggingConfigAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverResolverQueryLoggingConfigAssociation.Route53ResolverResolverQueryLoggingConfigAssociation.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Route53ResolverResolverQue
 
 The id of the existing Route53ResolverResolverQueryLoggingConfigAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -924,7 +924,7 @@ ResolverQueryLogConfigId *string
 
 ResolverQueryLogConfigId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config_association#resolver_query_log_config_id Route53ResolverResolverQueryLoggingConfigAssociation#resolver_query_log_config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config_association#resolver_query_log_config_id Route53ResolverResolverQueryLoggingConfigAssociation#resolver_query_log_config_id}
 
 ---
 
@@ -938,7 +938,7 @@ ResourceId *string
 
 ResourceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config_association#resource_id Route53ResolverResolverQueryLoggingConfigAssociation#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config_association#resource_id Route53ResolverResolverQueryLoggingConfigAssociation#resource_id}
 
 ---
 

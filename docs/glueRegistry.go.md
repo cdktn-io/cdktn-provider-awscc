@@ -4,7 +4,7 @@
 
 ### GlueRegistry <a name="GlueRegistry" id="@cdktn/provider-awscc.glueRegistry.GlueRegistry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry awscc_glue_registry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry awscc_glue_registry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueRegistry.GlueRegistry.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GlueRegistry to import.
 
 The id of the existing GlueRegistry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,7 +919,7 @@ Name of the registry to be created of max length of 255, and may only contain le
 
 No whitespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry#name GlueRegistry#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#name GlueRegistry#name}
 
 ---
 
@@ -933,7 +933,7 @@ Description *string
 
 A description of the registry. If description is not provided, there will not be any default value for this.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry#description GlueRegistry#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#description GlueRegistry#description}
 
 ---
 
@@ -947,7 +947,7 @@ Tags interface{}
 
 List of tags to tag the Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry#tags GlueRegistry#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#tags GlueRegistry#tags}
 
 ---
 
@@ -983,7 +983,7 @@ Key *string
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry#key GlueRegistry#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#key GlueRegistry#key}
 
 ---
 
@@ -997,7 +997,7 @@ Value *string
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_registry#value GlueRegistry#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#value GlueRegistry#value}
 
 ---
 

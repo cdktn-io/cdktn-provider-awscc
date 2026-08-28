@@ -4,7 +4,7 @@
 
 ### DatazoneDomainUnit <a name="DatazoneDomainUnit" id="@cdktn/provider-awscc.datazoneDomainUnit.DatazoneDomainUnit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datazoneDomainUnit.DatazoneDomainUnit.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the DatazoneDomainUnit to impo
 
 The id of the existing DatazoneDomainUnit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain_unit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ DomainIdentifier *string
 
 The ID of the domain where you want to create a domain unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#domain_identifier DatazoneDomainUnit#domain_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain_unit#domain_identifier DatazoneDomainUnit#domain_identifier}
 
 ---
 
@@ -990,7 +990,7 @@ Name *string
 
 The name of the domain unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#name DatazoneDomainUnit#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain_unit#name DatazoneDomainUnit#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ ParentDomainUnitIdentifier *string
 
 The ID of the parent domain unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#parent_domain_unit_identifier DatazoneDomainUnit#parent_domain_unit_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain_unit#parent_domain_unit_identifier DatazoneDomainUnit#parent_domain_unit_identifier}
 
 ---
 
@@ -1018,7 +1018,7 @@ Description *string
 
 The description of the domain unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#description DatazoneDomainUnit#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain_unit#description DatazoneDomainUnit#description}
 
 ---
 

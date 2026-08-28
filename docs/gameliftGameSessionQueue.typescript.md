@@ -4,7 +4,7 @@
 
 ### GameliftGameSessionQueue <a name="GameliftGameSessionQueue" id="@cdktn/provider-awscc.gameliftGameSessionQueue.GameliftGameSessionQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftGameSessionQueue.GameliftGameSessionQueue.Initializer"></a>
 
@@ -610,7 +610,7 @@ The construct id used in the generated config for the GameliftGameSessionQueue t
 
 The id of the existing GameliftGameSessionQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1138,7 +1138,7 @@ public readonly name: string;
 
 A descriptive label that is associated with game session queue. Queue names must be unique within each Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#name GameliftGameSessionQueue#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#name GameliftGameSessionQueue#name}
 
 ---
 
@@ -1152,7 +1152,7 @@ public readonly customEventData: string;
 
 Information that is added to all events that are related to this game session queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#custom_event_data GameliftGameSessionQueue#custom_event_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#custom_event_data GameliftGameSessionQueue#custom_event_data}
 
 ---
 
@@ -1166,7 +1166,7 @@ public readonly destinations: IResolvable | GameliftGameSessionQueueDestinations
 
 A list of fleets and/or fleet aliases that can be used to fulfill game session placement requests in the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#destinations GameliftGameSessionQueue#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#destinations GameliftGameSessionQueue#destinations}
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly filterConfiguration: GameliftGameSessionQueueFilterConfiguration
 
 A list of locations where a queue is allowed to place new game sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#filter_configuration GameliftGameSessionQueue#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#filter_configuration GameliftGameSessionQueue#filter_configuration}
 
 ---
 
@@ -1194,7 +1194,7 @@ public readonly notificationTarget: string;
 
 An SNS topic ARN that is set up to receive game session placement notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#notification_target GameliftGameSessionQueue#notification_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#notification_target GameliftGameSessionQueue#notification_target}
 
 ---
 
@@ -1208,7 +1208,7 @@ public readonly playerLatencyPolicies: IResolvable | GameliftGameSessionQueuePla
 
 A set of policies that act as a sliding cap on player latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#player_latency_policies GameliftGameSessionQueue#player_latency_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#player_latency_policies GameliftGameSessionQueue#player_latency_policies}
 
 ---
 
@@ -1222,7 +1222,7 @@ public readonly priorityConfiguration: GameliftGameSessionQueuePriorityConfigura
 
 Custom settings to use when prioritizing destinations and locations for game session placements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#priority_configuration GameliftGameSessionQueue#priority_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#priority_configuration GameliftGameSessionQueue#priority_configuration}
 
 ---
 
@@ -1236,7 +1236,7 @@ public readonly tags: IResolvable | GameliftGameSessionQueueTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#tags GameliftGameSessionQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#tags GameliftGameSessionQueue#tags}
 
 ---
 
@@ -1250,7 +1250,7 @@ public readonly timeoutInSeconds: number;
 
 The maximum time, in seconds, that a new game session placement request remains in the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#timeout_in_seconds GameliftGameSessionQueue#timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#timeout_in_seconds GameliftGameSessionQueue#timeout_in_seconds}
 
 ---
 
@@ -1268,7 +1268,7 @@ const gameliftGameSessionQueueDestinations: gameliftGameSessionQueue.GameliftGam
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.gameliftGameSessionQueue.GameliftGameSessionQueueDestinations.property.destinationArn">destinationArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}. |
+| <code><a href="#@cdktn/provider-awscc.gameliftGameSessionQueue.GameliftGameSessionQueueDestinations.property.destinationArn">destinationArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}. |
 
 ---
 
@@ -1280,7 +1280,7 @@ public readonly destinationArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}.
 
 ---
 
@@ -1312,7 +1312,7 @@ public readonly allowedLocations: string[];
 
 A list of locations to allow game session placement in, in the form of AWS Region codes such as us-west-2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#allowed_locations GameliftGameSessionQueue#allowed_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#allowed_locations GameliftGameSessionQueue#allowed_locations}
 
 ---
 
@@ -1347,7 +1347,7 @@ The maximum latency value that is allowed for any player, in milliseconds.
 
 All policies must have a value set for this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#maximum_individual_player_latency_milliseconds GameliftGameSessionQueue#maximum_individual_player_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#maximum_individual_player_latency_milliseconds GameliftGameSessionQueue#maximum_individual_player_latency_milliseconds}
 
 ---
 
@@ -1361,7 +1361,7 @@ public readonly policyDurationSeconds: number;
 
 The length of time, in seconds, that the policy is enforced while placing a new game session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#policy_duration_seconds GameliftGameSessionQueue#policy_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#policy_duration_seconds GameliftGameSessionQueue#policy_duration_seconds}
 
 ---
 
@@ -1394,7 +1394,7 @@ public readonly locationOrder: string[];
 
 The prioritization order to use for fleet locations, when the PriorityOrder property includes LOCATION.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#location_order GameliftGameSessionQueue#location_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#location_order GameliftGameSessionQueue#location_order}
 
 ---
 
@@ -1408,7 +1408,7 @@ public readonly priorityOrder: string[];
 
 The recommended sequence to use when prioritizing where to place new game sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#priority_order GameliftGameSessionQueue#priority_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#priority_order GameliftGameSessionQueue#priority_order}
 
 ---
 
@@ -1443,7 +1443,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#key GameliftGameSessionQueue#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#key GameliftGameSessionQueue#key}
 
 ---
 
@@ -1457,7 +1457,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_game_session_queue#value GameliftGameSessionQueue#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_game_session_queue#value GameliftGameSessionQueue#value}
 
 ---
 

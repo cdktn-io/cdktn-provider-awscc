@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrRegistryScanningConfigurations <a name="DataAwsccEcrRegistryScanningConfigurations" id="@cdktn/provider-awscc.dataAwsccEcrRegistryScanningConfigurations.DataAwsccEcrRegistryScanningConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_registry_scanning_configurations awscc_ecr_registry_scanning_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_registry_scanning_configurations awscc_ecr_registry_scanning_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrRegistryScanningConfigurations.DataAwsccEcrRegistryScanningConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEcrRegistryScanni
 
 The id of the existing DataAwsccEcrRegistryScanningConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_registry_scanning_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_registry_scanning_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### MskConfiguration <a name="MskConfiguration" id="@cdktn/provider-awscc.mskConfiguration.MskConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration awscc_msk_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration awscc_msk_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer"></a>
 
@@ -38,11 +38,11 @@ MskConfiguration.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#name MskConfiguration#name}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.serverProperties">serverProperties</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#description MskConfiguration#description}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.kafkaVersionsList">kafkaVersionsList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.latestRevision">latestRevision</a></code> | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationLatestRevision">MskConfigurationLatestRevision</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#name MskConfiguration#name}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.serverProperties">serverProperties</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#description MskConfiguration#description}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.kafkaVersionsList">kafkaVersionsList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfiguration.Initializer.parameter.latestRevision">latestRevision</a></code> | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationLatestRevision">MskConfigurationLatestRevision</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#name MskConfiguration#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#name MskConfiguration#name}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#description MskConfiguration#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#description MskConfiguration#description}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationLatestRevision">MskConfigurationLatestRevision</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}.
 
 ---
 
@@ -625,7 +625,7 @@ The construct id used in the generated config for the MskConfiguration to import
 
 The id of the existing MskConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -986,11 +986,11 @@ MskConfigurationConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#name MskConfiguration#name}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.serverProperties">serverProperties</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#description MskConfiguration#description}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.kafkaVersionsList">kafkaVersionsList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}. |
-| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.latestRevision">latestRevision</a></code> | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationLatestRevision">MskConfigurationLatestRevision</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#name MskConfiguration#name}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.serverProperties">serverProperties</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#description MskConfiguration#description}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.kafkaVersionsList">kafkaVersionsList</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}. |
+| <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationConfig.property.latestRevision">latestRevision</a></code> | <code><a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationLatestRevision">MskConfigurationLatestRevision</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}. |
 
 ---
 
@@ -1072,7 +1072,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#name MskConfiguration#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#name MskConfiguration#name}.
 
 ---
 
@@ -1084,7 +1084,7 @@ public java.lang.String getServerProperties();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#server_properties MskConfiguration#server_properties}.
 
 ---
 
@@ -1096,7 +1096,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#description MskConfiguration#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#description MskConfiguration#description}.
 
 ---
 
@@ -1108,7 +1108,7 @@ public java.util.List<java.lang.String> getKafkaVersionsList();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#kafka_versions_list MskConfiguration#kafka_versions_list}.
 
 ---
 
@@ -1120,7 +1120,7 @@ public MskConfigurationLatestRevision getLatestRevision();
 
 - *Type:* <a href="#@cdktn/provider-awscc.mskConfiguration.MskConfigurationLatestRevision">MskConfigurationLatestRevision</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_configuration#latest_revision MskConfiguration#latest_revision}.
 
 ---
 

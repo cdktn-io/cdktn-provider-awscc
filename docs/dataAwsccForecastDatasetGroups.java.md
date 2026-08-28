@@ -4,7 +4,7 @@
 
 ### DataAwsccForecastDatasetGroups <a name="DataAwsccForecastDatasetGroups" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroups.DataAwsccForecastDatasetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccForecastDatasetGroups.DataAwsccForecastDatasetGroups.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccForecastDatasetGr
 
 The id of the existing DataAwsccForecastDatasetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_dataset_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_dataset_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

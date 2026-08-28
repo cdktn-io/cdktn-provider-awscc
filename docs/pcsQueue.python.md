@@ -4,7 +4,7 @@
 
 ### PcsQueue <a name="PcsQueue" id="@cdktn/provider-awscc.pcsQueue.PcsQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue awscc_pcs_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue awscc_pcs_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsQueue.PcsQueue.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the cluster of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of compute node group configurations associated with the queue. Queues assign jobs to associated compute node groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name that identifies the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#name PcsQueue#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#name PcsQueue#name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Slurm configuration for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#tags PcsQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#tags PcsQueue#tags}
 
 ---
 
@@ -573,7 +573,7 @@ def put_slurm_configuration(
 
 Custom Slurm parameters that directly map to Slurm configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
 
 ---
 
@@ -715,7 +715,7 @@ The construct id used in the generated config for the PcsQueue to import.
 
 The id of the existing PcsQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1105,7 +1105,7 @@ compute_node_group_id: str
 
 The compute node group ID for the compute node group configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#compute_node_group_id PcsQueue#compute_node_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#compute_node_group_id PcsQueue#compute_node_group_id}
 
 ---
 
@@ -1231,7 +1231,7 @@ cluster_id: str
 
 The ID of the cluster of the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#cluster_id PcsQueue#cluster_id}
 
 ---
 
@@ -1245,7 +1245,7 @@ compute_node_group_configurations: IResolvable | typing.List[PcsQueueComputeNode
 
 The list of compute node group configurations associated with the queue. Queues assign jobs to associated compute node groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#compute_node_group_configurations PcsQueue#compute_node_group_configurations}
 
 ---
 
@@ -1259,7 +1259,7 @@ name: str
 
 The name that identifies the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#name PcsQueue#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#name PcsQueue#name}
 
 ---
 
@@ -1273,7 +1273,7 @@ slurm_configuration: PcsQueueSlurmConfiguration
 
 The Slurm configuration for the queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#slurm_configuration PcsQueue#slurm_configuration}
 
 ---
 
@@ -1289,7 +1289,7 @@ tags: typing.Mapping[str]
 
 Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#tags PcsQueue#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#tags PcsQueue#tags}
 
 ---
 
@@ -1334,7 +1334,7 @@ slurm_custom_settings: IResolvable | typing.List[PcsQueueSlurmConfigurationSlurm
 
 Custom Slurm parameters that directly map to Slurm configuration settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#slurm_custom_settings PcsQueue#slurm_custom_settings}
 
 ---
 
@@ -1370,7 +1370,7 @@ parameter_name: str
 
 AWS PCS supports configuration of the Slurm parameters for queues:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
 
 ---
 
@@ -1384,7 +1384,7 @@ parameter_value: str
 
 The value for the configured Slurm setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
 
 ---
 

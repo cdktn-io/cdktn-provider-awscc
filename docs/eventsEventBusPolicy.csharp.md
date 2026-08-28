@@ -4,7 +4,7 @@
 
 ### EventsEventBusPolicy <a name="EventsEventBusPolicy" id="@cdktn/provider-awscc.eventsEventBusPolicy.EventsEventBusPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy awscc_events_event_bus_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy awscc_events_event_bus_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsEventBusPolicy.EventsEventBusPolicy.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the EventsEventBusPolicy to im
 
 The id of the existing EventsEventBusPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -909,7 +909,7 @@ public string Key { get; set; }
 
 Specifies the value for the key. Currently, this must be the ID of the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#key EventsEventBusPolicy#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#key EventsEventBusPolicy#key}
 
 ---
 
@@ -923,7 +923,7 @@ public string Type { get; set; }
 
 Specifies the type of condition. Currently the only supported value is StringEquals.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#type EventsEventBusPolicy#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#type EventsEventBusPolicy#type}
 
 ---
 
@@ -937,7 +937,7 @@ public string Value { get; set; }
 
 Specifies the key for the condition. Currently the only supported key is aws:PrincipalOrgID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#value EventsEventBusPolicy#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#value EventsEventBusPolicy#value}
 
 ---
 
@@ -1065,7 +1065,7 @@ public string StatementId { get; set; }
 
 An identifier string for the external account that you are granting permissions to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#statement_id EventsEventBusPolicy#statement_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#statement_id EventsEventBusPolicy#statement_id}
 
 ---
 
@@ -1079,7 +1079,7 @@ public string Action { get; set; }
 
 The action that you are enabling the other account to perform.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#action EventsEventBusPolicy#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#action EventsEventBusPolicy#action}
 
 ---
 
@@ -1093,7 +1093,7 @@ public EventsEventBusPolicyCondition Condition { get; set; }
 
 This parameter enables you to limit the permission to accounts that fulfill a certain condition, such as being a member of a certain AWS organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#condition EventsEventBusPolicy#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#condition EventsEventBusPolicy#condition}
 
 ---
 
@@ -1109,7 +1109,7 @@ The name of the event bus associated with the rule.
 
 If you omit this, the default event bus is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#event_bus_name EventsEventBusPolicy#event_bus_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#event_bus_name EventsEventBusPolicy#event_bus_name}
 
 ---
 
@@ -1125,7 +1125,7 @@ The 12-digit AWS account ID that you are permitting to put events to your defaul
 
 Specify "*" to permit any account to put events to your default event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#principal EventsEventBusPolicy#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#principal EventsEventBusPolicy#principal}
 
 ---
 
@@ -1141,7 +1141,7 @@ A JSON string that describes the permission policy statement.
 
 You can include a Policy parameter in the request instead of using the StatementId, Action, Principal, or Condition parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_event_bus_policy#statement EventsEventBusPolicy#statement}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_event_bus_policy#statement EventsEventBusPolicy#statement}
 
 ---
 

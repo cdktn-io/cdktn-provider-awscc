@@ -4,7 +4,7 @@
 
 ### SsmOpsItem <a name="SsmOpsItem" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmOpsItem.SsmOpsItem.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the SsmOpsItem to import.
 
 The id of the existing SsmOpsItem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1100,7 +1100,7 @@ public readonly description: string;
 
 The description of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#description SsmOpsItem#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#description SsmOpsItem#description}
 
 ---
 
@@ -1114,7 +1114,7 @@ public readonly source: string;
 
 The origin of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#source SsmOpsItem#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#source SsmOpsItem#source}
 
 ---
 
@@ -1128,7 +1128,7 @@ public readonly title: string;
 
 The title of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#title SsmOpsItem#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#title SsmOpsItem#title}
 
 ---
 
@@ -1142,7 +1142,7 @@ public readonly category: string;
 
 The category of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#category SsmOpsItem#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#category SsmOpsItem#category}
 
 ---
 
@@ -1156,7 +1156,7 @@ public readonly priority: number;
 
 The priority of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#priority SsmOpsItem#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#priority SsmOpsItem#priority}
 
 ---
 
@@ -1170,7 +1170,7 @@ public readonly severity: string;
 
 The severity of the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#severity SsmOpsItem#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#severity SsmOpsItem#severity}
 
 ---
 
@@ -1184,7 +1184,7 @@ public readonly tags: IResolvable | SsmOpsItemTags[];
 
 Tags for the OpsItem.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#tags SsmOpsItem#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#tags SsmOpsItem#tags}
 
 ---
 
@@ -1202,8 +1202,8 @@ const ssmOpsItemTags: ssmOpsItem.SsmOpsItemTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmOpsItem.SsmOpsItemTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}. |
 
 ---
 
@@ -1215,7 +1215,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}.
 
 ---
 
@@ -1227,7 +1227,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}.
 
 ---
 

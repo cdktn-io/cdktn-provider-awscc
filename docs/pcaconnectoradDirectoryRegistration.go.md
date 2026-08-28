@@ -4,7 +4,7 @@
 
 ### PcaconnectoradDirectoryRegistration <a name="PcaconnectoradDirectoryRegistration" id="@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistration.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the PcaconnectoradDirectoryReg
 
 The id of the existing PcaconnectoradDirectoryRegistration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_directory_registration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -788,8 +788,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoraddirector
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.directoryId">DirectoryId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_directory_registration#directory_id PcaconnectoradDirectoryRegistration#directory_id}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_directory_registration#tags PcaconnectoradDirectoryRegistration#tags}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.directoryId">DirectoryId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration#directory_id PcaconnectoradDirectoryRegistration#directory_id}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradDirectoryRegistration.PcaconnectoradDirectoryRegistrationConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration#tags PcaconnectoradDirectoryRegistration#tags}. |
 
 ---
 
@@ -871,7 +871,7 @@ DirectoryId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_directory_registration#directory_id PcaconnectoradDirectoryRegistration#directory_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration#directory_id PcaconnectoradDirectoryRegistration#directory_id}.
 
 ---
 
@@ -883,7 +883,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_directory_registration#tags PcaconnectoradDirectoryRegistration#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration#tags PcaconnectoradDirectoryRegistration#tags}.
 
 ---
 

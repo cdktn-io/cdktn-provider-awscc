@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53RecoverycontrolControlPanels <a name="DataAwsccRoute53RecoverycontrolControlPanels" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanels.DataAwsccRoute53RecoverycontrolControlPanels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53RecoverycontrolControlPanels.DataAwsccRoute53RecoverycontrolControlPanels.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRoute53Recoveryco
 
 The id of the existing DataAwsccRoute53RecoverycontrolControlPanels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_control_panels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_control_panels#import import section} in the documentation of this resource for the id to use
 
 ---
 

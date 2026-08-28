@@ -4,7 +4,7 @@
 
 ### AppsyncSourceApiAssociation <a name="AppsyncSourceApiAssociation" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncSourceApiAssociation.AppsyncSourceApiAssociation.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Description of the SourceApiAssociation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Identifier of the Merged GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Customized configuration for SourceApiAssociation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Identifier of the Source GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
 
 ---
 
@@ -630,7 +630,7 @@ The construct id used in the generated config for the AppsyncSourceApiAssociatio
 
 The id of the existing AppsyncSourceApiAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1143,7 +1143,7 @@ public java.lang.String getDescription();
 
 Description of the SourceApiAssociation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
 
 ---
 
@@ -1157,7 +1157,7 @@ public java.lang.String getMergedApiIdentifier();
 
 Identifier of the Merged GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
 
 ---
 
@@ -1171,7 +1171,7 @@ public AppsyncSourceApiAssociationSourceApiAssociationConfig getSourceApiAssocia
 
 Customized configuration for SourceApiAssociation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
 
 ---
 
@@ -1185,7 +1185,7 @@ public java.lang.String getSourceApiIdentifier();
 
 Identifier of the Source GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
 
 ---
 
@@ -1221,7 +1221,7 @@ Configuration of the merged behavior for the association.
 
 For example when it could be auto or has to be manual.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
 
 ---
 

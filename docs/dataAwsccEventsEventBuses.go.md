@@ -4,7 +4,7 @@
 
 ### DataAwsccEventsEventBuses <a name="DataAwsccEventsEventBuses" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_event_buses awscc_events_event_buses}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_event_buses awscc_events_event_buses}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsEventBuses.DataAwsccEventsEventBuses.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsEventBuses 
 
 The id of the existing DataAwsccEventsEventBuses that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_event_buses#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_event_buses#import import section} in the documentation of this resource for the id to use
 
 ---
 

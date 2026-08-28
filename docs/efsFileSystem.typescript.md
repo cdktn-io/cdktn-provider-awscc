@@ -4,7 +4,7 @@
 
 ### EfsFileSystem <a name="EfsFileSystem" id="@cdktn/provider-awscc.efsFileSystem.EfsFileSystem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system awscc_efs_file_system}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system awscc_efs_file_system}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.efsFileSystem.EfsFileSystem.Initializer"></a>
 
@@ -645,7 +645,7 @@ The construct id used in the generated config for the EfsFileSystem to import.
 
 The id of the existing EfsFileSystem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1190,7 +1190,7 @@ Set the backup policy status for the file system.
 +  *ENABLED* - Turns automatic backups on for the file system. 
   +  *DISABLED* - Turns automatic backups off for the file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#status EfsFileSystem#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#status EfsFileSystem#status}
 
 ---
 
@@ -1314,7 +1314,7 @@ For One Zone file systems, specify the AWS Availability Zone in which to create 
 Use the format ``us-east-1a`` to specify the Availability Zone. For more information about One Zone file systems, see [EFS file system types](https://docs.aws.amazon.com/efs/latest/ug/availability-durability.html#file-system-type) in the *Amazon EFS User Guide*.
   One Zone file systems are not available in all Availability Zones in AWS-Regions where Amazon EFS is available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}
 
 ---
 
@@ -1328,7 +1328,7 @@ public readonly backupPolicy: EfsFileSystemBackupPolicy;
 
 Use the ``BackupPolicy`` to turn automatic backups on or off for the file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#backup_policy EfsFileSystem#backup_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#backup_policy EfsFileSystem#backup_policy}
 
 ---
 
@@ -1344,7 +1344,7 @@ public readonly bypassPolicyLockoutSafetyCheck: boolean | IResolvable;
 
 The lockout safety check determines whether the policy in the request will lock out, or prevent, the IAM principal that is making the request from making future ``PutFileSystemPolicy`` requests on this file system. Set ``BypassPolicyLockoutSafetyCheck`` to ``True`` only when you intend to prevent the IAM principal that is making the request from making subsequent ``PutFileSystemPolicy`` requests on this file system. The default value is ``False``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#bypass_policy_lockout_safety_check EfsFileSystem#bypass_policy_lockout_safety_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#bypass_policy_lockout_safety_check EfsFileSystem#bypass_policy_lockout_safety_check}
 
 ---
 
@@ -1360,7 +1360,7 @@ A Boolean value that, if true, creates an encrypted file system.
 
 When creating an encrypted file system, you have the option of specifying a KmsKeyId for an existing kms-key-long. If you don't specify a kms-key, then the default kms-key for EFS, ``/aws/elasticfilesystem``, is used to protect the encrypted file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#encrypted EfsFileSystem#encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#encrypted EfsFileSystem#encrypted}
 
 ---
 
@@ -1376,7 +1376,7 @@ The ``FileSystemPolicy`` for the EFS file system.
 
 A file system policy is an IAM resource policy used to control NFS access to an EFS file system. For more information, see [Using to control NFS access to Amazon EFS](https://docs.aws.amazon.com/efs/latest/ug/iam-access-control-nfs-efs.html) in the *Amazon EFS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#file_system_policy EfsFileSystem#file_system_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#file_system_policy EfsFileSystem#file_system_policy}
 
 ---
 
@@ -1390,7 +1390,7 @@ public readonly fileSystemProtection: EfsFileSystemFileSystemProtection;
 
 Describes the protection on the file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#file_system_protection EfsFileSystem#file_system_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#file_system_protection EfsFileSystem#file_system_protection}
 
 ---
 
@@ -1406,7 +1406,7 @@ Use to create one or more tags associated with the file system.
 
 Each tag is a user-defined key-value pair. Name your file system on creation by including a ``"Key":"Name","Value":"{value}"`` key-value pair. Each key must be unique. For more information, see [Tagging resources](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html) in the *General Reference Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#file_system_tags EfsFileSystem#file_system_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#file_system_tags EfsFileSystem#file_system_tags}
 
 ---
 
@@ -1428,7 +1428,7 @@ This parameter is only required if you want to use a nondefault kms-key. If this
   
  If ``KmsKeyId`` is specified, the ``Encrypted`` parameter must be set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
 
 ---
 
@@ -1449,7 +1449,7 @@ A ``LifecycleConfiguration`` object informs Lifecycle management of the followin
   
   EFS requires that each ``LifecyclePolicy`` object have only a single transition. This means that in a request body, ``LifecyclePolicies`` needs to be structured as an array of ``LifecyclePolicy`` objects, one object for each transition, ``TransitionToIA``, ``TransitionToArchive````TransitionToPrimaryStorageClass``. See the example requests in the following section for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#lifecycle_policies EfsFileSystem#lifecycle_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#lifecycle_policies EfsFileSystem#lifecycle_policies}
 
 ---
 
@@ -1467,7 +1467,7 @@ We recommend ``generalPurpose`` performance mode for all file systems. File syst
   Due to the higher per-operation latencies with Max I/O, we recommend using General Purpose performance mode for all file systems.
   Default is ``generalPurpose``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#performance_mode EfsFileSystem#performance_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#performance_mode EfsFileSystem#performance_mode}
 
 ---
 
@@ -1483,7 +1483,7 @@ The throughput, measured in mebibytes per second (MiBps), that you want to provi
 
 Required if ``ThroughputMode`` is set to ``provisioned``. Valid values are 1-3414 MiBps, with the upper limit depending on Region. To increase this limit, contact SUP. For more information, see [Amazon EFS quotas that you can increase](https://docs.aws.amazon.com/efs/latest/ug/limits.html#soft-limits) in the *Amazon EFS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#provisioned_throughput_in_mibps EfsFileSystem#provisioned_throughput_in_mibps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#provisioned_throughput_in_mibps EfsFileSystem#provisioned_throughput_in_mibps}
 
 ---
 
@@ -1497,7 +1497,7 @@ public readonly replicationConfiguration: EfsFileSystemReplicationConfiguration;
 
 Describes the replication configuration for a specific file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#replication_configuration EfsFileSystem#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#replication_configuration EfsFileSystem#replication_configuration}
 
 ---
 
@@ -1514,7 +1514,7 @@ Specifies the throughput mode for the file system.
 The mode can be ``bursting``, ``provisioned``, or ``elastic``. If you set ``ThroughputMode`` to ``provisioned``, you must also set a value for ``ProvisionedThroughputInMibps``. After you create the file system, you can decrease your file system's Provisioned throughput or change between the throughput modes, with certain time restrictions. For more information, see [Specifying throughput with provisioned mode](https://docs.aws.amazon.com/efs/latest/ug/performance.html#provisioned-throughput) in the *Amazon EFS User Guide*. 
  Default is ``bursting``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#throughput_mode EfsFileSystem#throughput_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#throughput_mode EfsFileSystem#throughput_mode}
 
 ---
 
@@ -1552,7 +1552,7 @@ The status of the file system's replication overwrite protection.
   
  If the replication configuration is deleted, the file system's replication overwrite protection is re-enabled, the file system becomes writeable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#replication_overwrite_protection EfsFileSystem#replication_overwrite_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#replication_overwrite_protection EfsFileSystem#replication_overwrite_protection}
 
 ---
 
@@ -1585,7 +1585,7 @@ public readonly key: string;
 
 The tag key (String). The key can't start with ``aws:``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#key EfsFileSystem#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#key EfsFileSystem#key}
 
 ---
 
@@ -1599,7 +1599,7 @@ public readonly value: string;
 
 The value of the tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#value EfsFileSystem#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#value EfsFileSystem#value}
 
 ---
 
@@ -1635,7 +1635,7 @@ The number of days after files were last accessed in primary storage (the Standa
 
 Metadata operations such as listing the contents of a directory don't count as file access events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#transition_to_archive EfsFileSystem#transition_to_archive}
 
 ---
 
@@ -1651,7 +1651,7 @@ The number of days after files were last accessed in primary storage (the Standa
 
 Metadata operations such as listing the contents of a directory don't count as file access events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#transition_to_ia EfsFileSystem#transition_to_ia}
 
 ---
 
@@ -1667,7 +1667,7 @@ Whether to move files back to primary (Standard) storage after they are accessed
 
 Metadata operations such as listing the contents of a directory don't count as file access events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#transition_to_primary_storage_class EfsFileSystem#transition_to_primary_storage_class}
 
 ---
 
@@ -1699,7 +1699,7 @@ public readonly destinations: IResolvable | EfsFileSystemReplicationConfiguratio
 
 An array of destination objects. Only one destination object is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#destinations EfsFileSystem#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#destinations EfsFileSystem#destinations}
 
 ---
 
@@ -1740,7 +1740,7 @@ For One Zone file systems, the replication configuration must specify the Availa
 Use the format ``us-east-1a`` to specify the Availability Zone. For more information about One Zone file systems, see [EFS file system types](https://docs.aws.amazon.com/efs/latest/ug/storage-classes.html) in the *Amazon EFS User Guide*.
   One Zone file system type is not available in all Availability Zones in AWS-Regions where Amazon EFS is available.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}
 
 ---
 
@@ -1754,7 +1754,7 @@ public readonly fileSystemId: string;
 
 The ID of the destination Amazon EFS file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#file_system_id EfsFileSystem#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#file_system_id EfsFileSystem#file_system_id}
 
 ---
 
@@ -1768,7 +1768,7 @@ public readonly kmsKeyId: string;
 
 The ID of an kms-key-long used to protect the encrypted file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
 
 ---
 
@@ -1784,7 +1784,7 @@ The AWS-Region in which the destination file system is located.
 
 For One Zone file systems, the replication configuration must specify the AWS-Region in which the destination file system is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#region EfsFileSystem#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#region EfsFileSystem#region}
 
 ---
 
@@ -1798,7 +1798,7 @@ public readonly roleArn: string;
 
 The Amazon Resource Name (ARN) of the current source file system in the replication configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#role_arn EfsFileSystem#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#role_arn EfsFileSystem#role_arn}
 
 ---
 
@@ -1814,7 +1814,7 @@ Describes the status of the replication configuration.
 
 For more information about replication status, see [Viewing replication details](https://docs.aws.amazon.com//efs/latest/ug/awsbackup.html#restoring-backup-efsmonitoring-replication-status.html) in the *Amazon EFS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#status EfsFileSystem#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#status EfsFileSystem#status}
 
 ---
 
@@ -1830,7 +1830,7 @@ Message that provides details about the ``PAUSED`` or ``ERRROR`` state of the re
 
 For more information about replication status messages, see [Viewing replication details](https://docs.aws.amazon.com//efs/latest/ug/awsbackup.html#restoring-backup-efsmonitoring-replication-status.html) in the *Amazon EFS User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/efs_file_system#status_message EfsFileSystem#status_message}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#status_message EfsFileSystem#status_message}
 
 ---
 

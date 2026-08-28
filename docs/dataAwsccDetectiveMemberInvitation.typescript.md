@@ -4,7 +4,7 @@
 
 ### DataAwsccDetectiveMemberInvitation <a name="DataAwsccDetectiveMemberInvitation" id="@cdktn/provider-awscc.dataAwsccDetectiveMemberInvitation.DataAwsccDetectiveMemberInvitation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_member_invitation awscc_detective_member_invitation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_member_invitation awscc_detective_member_invitation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDetectiveMemberInvitation.DataAwsccDetectiveMemberInvitation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDetectiveMemberIn
 
 The id of the existing DataAwsccDetectiveMemberInvitation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_member_invitation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_member_invitation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -742,7 +742,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_member_invitation#id DataAwsccDetectiveMemberInvitation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_member_invitation#id DataAwsccDetectiveMemberInvitation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

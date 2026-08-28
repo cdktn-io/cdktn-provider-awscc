@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2Ec2Fleets <a name="DataAwsccEc2Ec2Fleets" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ec2_fleets awscc_ec2_ec2_fleets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleets awscc_ec2_ec2_fleets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Ec2Fleets.DataAwsccEc2Ec2Fleets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2Ec2Fleets to i
 
 The id of the existing DataAwsccEc2Ec2Fleets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ec2_fleets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ec2_fleets#import import section} in the documentation of this resource for the id to use
 
 ---
 

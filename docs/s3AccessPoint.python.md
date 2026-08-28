@@ -4,7 +4,7 @@
 
 ### S3AccessPoint <a name="S3AccessPoint" id="@cdktn/provider-awscc.s3AccessPoint.S3AccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point awscc_s3_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point awscc_s3_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessPoint.S3AccessPoint.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the bucket that you want to associate this Access Point with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#bucket S3AccessPoint#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#bucket S3AccessPoint#bucket}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS account ID associated with the S3 bucket associated with this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#bucket_account_id S3AccessPoint#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#bucket_account_id S3AccessPoint#bucket_account_id}
 
 ---
 
@@ -140,7 +140,7 @@ The name you want to assign to this Access Point.
 
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the access point name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#name S3AccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#name S3AccessPoint#name}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Access Point Policy you want to apply to this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#policy S3AccessPoint#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#policy S3AccessPoint#policy}
 
 ---
 
@@ -162,7 +162,7 @@ The PublicAccessBlock configuration that you want to apply to this Access Point.
 
 You can enable the configuration options in any combination. For more information about when Amazon S3 considers a bucket or object public, see https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html#access-control-block-public-access-policy-status 'The Meaning of Public' in the Amazon Simple Storage Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#public_access_block_configuration S3AccessPoint#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#public_access_block_configuration S3AccessPoint#public_access_block_configuration}
 
 ---
 
@@ -172,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An arbitrary set of tags (key-value pairs) for this S3 Access Point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#tags S3AccessPoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#tags S3AccessPoint#tags}
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If you include this field, Amazon S3 restricts access to this Access Point to requests from the specified Virtual Private Cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#vpc_configuration S3AccessPoint#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#vpc_configuration S3AccessPoint#vpc_configuration}
 
 ---
 
@@ -598,7 +598,7 @@ Setting this element to TRUE causes the following behavior:
   . - PUT Bucket calls fail if the request includes a public ACL.
   Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#block_public_acls S3AccessPoint#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#block_public_acls S3AccessPoint#block_public_acls}
 
 ---
 
@@ -610,7 +610,7 @@ Specifies whether Amazon S3 should block public bucket policies for buckets in t
 
 Setting this element to TRUE causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access. Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#block_public_policy S3AccessPoint#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#block_public_policy S3AccessPoint#block_public_policy}
 
 ---
 
@@ -622,7 +622,7 @@ Specifies whether Amazon S3 should ignore public ACLs for buckets in this accoun
 
 Setting this element to TRUE causes Amazon S3 to ignore all public ACLs on buckets in this account and any objects that they contain. Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#ignore_public_acls S3AccessPoint#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#ignore_public_acls S3AccessPoint#ignore_public_acls}
 
 ---
 
@@ -635,7 +635,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to TRUE restricts access to this bucket to only AWS services and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#restrict_public_buckets S3AccessPoint#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#restrict_public_buckets S3AccessPoint#restrict_public_buckets}
 
 ---
 
@@ -667,7 +667,7 @@ def put_vpc_configuration(
 
 If this field is specified, this access point will only allow connections from the specified VPC ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}
 
 ---
 
@@ -821,7 +821,7 @@ The construct id used in the generated config for the S3AccessPoint to import.
 
 The id of the existing S3AccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1340,7 +1340,7 @@ bucket: str
 
 The name of the bucket that you want to associate this Access Point with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#bucket S3AccessPoint#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#bucket S3AccessPoint#bucket}
 
 ---
 
@@ -1354,7 +1354,7 @@ bucket_account_id: str
 
 The AWS account ID associated with the S3 bucket associated with this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#bucket_account_id S3AccessPoint#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#bucket_account_id S3AccessPoint#bucket_account_id}
 
 ---
 
@@ -1370,7 +1370,7 @@ The name you want to assign to this Access Point.
 
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the access point name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#name S3AccessPoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#name S3AccessPoint#name}
 
 ---
 
@@ -1384,7 +1384,7 @@ policy: str
 
 The Access Point Policy you want to apply to this access point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#policy S3AccessPoint#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#policy S3AccessPoint#policy}
 
 ---
 
@@ -1400,7 +1400,7 @@ The PublicAccessBlock configuration that you want to apply to this Access Point.
 
 You can enable the configuration options in any combination. For more information about when Amazon S3 considers a bucket or object public, see https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html#access-control-block-public-access-policy-status 'The Meaning of Public' in the Amazon Simple Storage Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#public_access_block_configuration S3AccessPoint#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#public_access_block_configuration S3AccessPoint#public_access_block_configuration}
 
 ---
 
@@ -1414,7 +1414,7 @@ tags: IResolvable | typing.List[S3AccessPointTags]
 
 An arbitrary set of tags (key-value pairs) for this S3 Access Point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#tags S3AccessPoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#tags S3AccessPoint#tags}
 
 ---
 
@@ -1428,7 +1428,7 @@ vpc_configuration: S3AccessPointVpcConfiguration
 
 If you include this field, Amazon S3 restricts access to this Access Point to requests from the specified Virtual Private Cloud (VPC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#vpc_configuration S3AccessPoint#vpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#vpc_configuration S3AccessPoint#vpc_configuration}
 
 ---
 
@@ -1475,7 +1475,7 @@ Setting this element to TRUE causes the following behavior:
   . - PUT Bucket calls fail if the request includes a public ACL.
   Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#block_public_acls S3AccessPoint#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#block_public_acls S3AccessPoint#block_public_acls}
 
 ---
 
@@ -1491,7 +1491,7 @@ Specifies whether Amazon S3 should block public bucket policies for buckets in t
 
 Setting this element to TRUE causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access. Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#block_public_policy S3AccessPoint#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#block_public_policy S3AccessPoint#block_public_policy}
 
 ---
 
@@ -1507,7 +1507,7 @@ Specifies whether Amazon S3 should ignore public ACLs for buckets in this accoun
 
 Setting this element to TRUE causes Amazon S3 to ignore all public ACLs on buckets in this account and any objects that they contain. Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#ignore_public_acls S3AccessPoint#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#ignore_public_acls S3AccessPoint#ignore_public_acls}
 
 ---
 
@@ -1524,7 +1524,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to TRUE restricts access to this bucket to only AWS services and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#restrict_public_buckets S3AccessPoint#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#restrict_public_buckets S3AccessPoint#restrict_public_buckets}
 
 ---
 
@@ -1545,8 +1545,8 @@ s3AccessPoint.S3AccessPointTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3AccessPoint.S3AccessPointTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#key S3AccessPoint#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessPoint.S3AccessPointTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#value S3AccessPoint#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessPoint.S3AccessPointTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#key S3AccessPoint#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessPoint.S3AccessPointTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#value S3AccessPoint#value}. |
 
 ---
 
@@ -1558,7 +1558,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#key S3AccessPoint#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#key S3AccessPoint#key}.
 
 ---
 
@@ -1570,7 +1570,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#value S3AccessPoint#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#value S3AccessPoint#value}.
 
 ---
 
@@ -1604,7 +1604,7 @@ vpc_id: str
 
 If this field is specified, this access point will only allow connections from the specified VPC ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_point#vpc_id S3AccessPoint#vpc_id}
 
 ---
 

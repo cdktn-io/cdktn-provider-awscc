@@ -4,7 +4,7 @@
 
 ### LocationPlaceIndex <a name="LocationPlaceIndex" id="@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index awscc_location_place_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index awscc_location_place_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndex.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the LocationPlaceIndex to impo
 
 The id of the existing LocationPlaceIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,11 +946,11 @@ const locationPlaceIndexConfig: locationPlaceIndex.LocationPlaceIndexConfig = { 
 | <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.dataSource">dataSource</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#data_source LocationPlaceIndex#data_source}. |
-| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#index_name LocationPlaceIndex#index_name}. |
-| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.dataSourceConfiguration">dataSourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration">LocationPlaceIndexDataSourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#data_source_configuration LocationPlaceIndex#data_source_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#description LocationPlaceIndex#description}. |
-| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.pricingPlan">pricingPlan</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#pricing_plan LocationPlaceIndex#pricing_plan}. |
+| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.dataSource">dataSource</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#data_source LocationPlaceIndex#data_source}. |
+| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#index_name LocationPlaceIndex#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.dataSourceConfiguration">dataSourceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration">LocationPlaceIndexDataSourceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#data_source_configuration LocationPlaceIndex#data_source_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#description LocationPlaceIndex#description}. |
+| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.pricingPlan">pricingPlan</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#pricing_plan LocationPlaceIndex#pricing_plan}. |
 | <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexTags">LocationPlaceIndexTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1033,7 +1033,7 @@ public readonly dataSource: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#data_source LocationPlaceIndex#data_source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#data_source LocationPlaceIndex#data_source}.
 
 ---
 
@@ -1045,7 +1045,7 @@ public readonly indexName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#index_name LocationPlaceIndex#index_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#index_name LocationPlaceIndex#index_name}.
 
 ---
 
@@ -1057,7 +1057,7 @@ public readonly dataSourceConfiguration: LocationPlaceIndexDataSourceConfigurati
 
 - *Type:* <a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration">LocationPlaceIndexDataSourceConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#data_source_configuration LocationPlaceIndex#data_source_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#data_source_configuration LocationPlaceIndex#data_source_configuration}.
 
 ---
 
@@ -1069,7 +1069,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#description LocationPlaceIndex#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#description LocationPlaceIndex#description}.
 
 ---
 
@@ -1081,7 +1081,7 @@ public readonly pricingPlan: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#pricing_plan LocationPlaceIndex#pricing_plan}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#pricing_plan LocationPlaceIndex#pricing_plan}.
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly tags: IResolvable | LocationPlaceIndexTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#tags LocationPlaceIndex#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#tags LocationPlaceIndex#tags}
 
 ---
 
@@ -1113,7 +1113,7 @@ const locationPlaceIndexDataSourceConfiguration: locationPlaceIndex.LocationPlac
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration.property.intendedUse">intendedUse</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#intended_use LocationPlaceIndex#intended_use}. |
+| <code><a href="#@cdktn/provider-awscc.locationPlaceIndex.LocationPlaceIndexDataSourceConfiguration.property.intendedUse">intendedUse</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#intended_use LocationPlaceIndex#intended_use}. |
 
 ---
 
@@ -1125,7 +1125,7 @@ public readonly intendedUse: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#intended_use LocationPlaceIndex#intended_use}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#intended_use LocationPlaceIndex#intended_use}.
 
 ---
 
@@ -1160,7 +1160,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#key LocationPlaceIndex#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#key LocationPlaceIndex#key}
 
 ---
 
@@ -1176,7 +1176,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_place_index#value LocationPlaceIndex#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_place_index#value LocationPlaceIndex#value}
 
 ---
 

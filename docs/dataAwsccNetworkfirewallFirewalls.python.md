@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkfirewallFirewalls <a name="DataAwsccNetworkfirewallFirewalls" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallFirewalls.DataAwsccNetworkfirewallFirewalls"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_firewalls awscc_networkfirewall_firewalls}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_firewalls awscc_networkfirewall_firewalls}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkfirewallFirewalls.DataAwsccNetworkfirewallFirewalls.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccNetworkfirewallFi
 
 The id of the existing DataAwsccNetworkfirewallFirewalls that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_firewalls#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_firewalls#import import section} in the documentation of this resource for the id to use
 
 ---
 

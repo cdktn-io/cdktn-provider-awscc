@@ -4,7 +4,7 @@
 
 ### OamSink <a name="OamSink" id="@cdktn/provider-awscc.oamSink.OamSink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink awscc_oam_sink}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_sink awscc_oam_sink}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.oamSink.OamSink.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the OamSink to import.
 
 The id of the existing OamSink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_sink#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -893,7 +893,7 @@ public readonly name: string;
 
 The name of the ObservabilityAccessManager Sink.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#name OamSink#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_sink#name OamSink#name}
 
 ---
 
@@ -907,7 +907,7 @@ public readonly policy: string;
 
 The policy of this ObservabilityAccessManager Sink.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#policy OamSink#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_sink#policy OamSink#policy}
 
 ---
 
@@ -921,7 +921,7 @@ public readonly tags: {[ key: string ]: string};
 
 Tags to apply to the sink.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#tags OamSink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_sink#tags OamSink#tags}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### LocationTrackerConsumer <a name="LocationTrackerConsumer" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer awscc_location_tracker_consumer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumer.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the LocationTrackerConsumer to
 
 The id of the existing LocationTrackerConsumer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -760,8 +760,8 @@ const locationTrackerConsumerConfig: locationTrackerConsumer.LocationTrackerCons
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.consumerArn">consumerArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
-| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.trackerName">trackerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.consumerArn">consumerArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}. |
+| <code><a href="#@cdktn/provider-awscc.locationTrackerConsumer.LocationTrackerConsumerConfig.property.trackerName">trackerName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}. |
 
 ---
 
@@ -843,7 +843,7 @@ public readonly consumerArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#consumer_arn LocationTrackerConsumer#consumer_arn}.
 
 ---
 
@@ -855,7 +855,7 @@ public readonly trackerName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/location_tracker_consumer#tracker_name LocationTrackerConsumer#tracker_name}.
 
 ---
 

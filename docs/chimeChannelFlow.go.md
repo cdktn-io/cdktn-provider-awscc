@@ -4,7 +4,7 @@
 
 ### ChimeChannelFlow <a name="ChimeChannelFlow" id="@cdktn/provider-awscc.chimeChannelFlow.ChimeChannelFlow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow awscc_chime_channel_flow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow awscc_chime_channel_flow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeChannelFlow.ChimeChannelFlow.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the ChimeChannelFlow to import
 
 The id of the existing ChimeChannelFlow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -991,7 +991,7 @@ AppInstanceArn *string
 
 The ARN of the app instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#app_instance_arn ChimeChannelFlow#app_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#app_instance_arn ChimeChannelFlow#app_instance_arn}
 
 ---
 
@@ -1005,7 +1005,7 @@ Name *string
 
 The name of the channel flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#name ChimeChannelFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#name ChimeChannelFlow#name}
 
 ---
 
@@ -1019,7 +1019,7 @@ Processors interface{}
 
 Information about the processor Lambda functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#processors ChimeChannelFlow#processors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#processors ChimeChannelFlow#processors}
 
 ---
 
@@ -1033,7 +1033,7 @@ Tags interface{}
 
 The tags for the channel flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#tags ChimeChannelFlow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#tags ChimeChannelFlow#tags}
 
 ---
 
@@ -1073,7 +1073,7 @@ Configuration ChimeChannelFlowProcessorsConfiguration
 
 A processor's metadata.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#configuration ChimeChannelFlow#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#configuration ChimeChannelFlow#configuration}
 
 ---
 
@@ -1087,7 +1087,7 @@ ExecutionOrder *f64
 
 The sequence in which processors run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#execution_order ChimeChannelFlow#execution_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#execution_order ChimeChannelFlow#execution_order}
 
 ---
 
@@ -1101,7 +1101,7 @@ FallbackAction *string
 
 Determines whether to continue or stop processing when communication with a processor fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#fallback_action ChimeChannelFlow#fallback_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#fallback_action ChimeChannelFlow#fallback_action}
 
 ---
 
@@ -1115,7 +1115,7 @@ Name *string
 
 The name of the processor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#name ChimeChannelFlow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#name ChimeChannelFlow#name}
 
 ---
 
@@ -1149,7 +1149,7 @@ Lambda ChimeChannelFlowProcessorsConfigurationLambda
 
 Stores metadata about a Lambda processor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#lambda ChimeChannelFlow#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#lambda ChimeChannelFlow#lambda}
 
 ---
 
@@ -1185,7 +1185,7 @@ InvocationType *string
 
 Controls how the Lambda function is invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#invocation_type ChimeChannelFlow#invocation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#invocation_type ChimeChannelFlow#invocation_type}
 
 ---
 
@@ -1199,7 +1199,7 @@ ResourceArn *string
 
 The ARN of the Lambda message processing function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#resource_arn ChimeChannelFlow#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#resource_arn ChimeChannelFlow#resource_arn}
 
 ---
 
@@ -1235,7 +1235,7 @@ Key *string
 
 The key in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#key ChimeChannelFlow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#key ChimeChannelFlow#key}
 
 ---
 
@@ -1249,7 +1249,7 @@ Value *string
 
 The value in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#value ChimeChannelFlow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#value ChimeChannelFlow#value}
 
 ---
 

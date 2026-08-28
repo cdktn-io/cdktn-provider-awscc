@@ -4,7 +4,7 @@
 
 ### SsmcontactsRotation <a name="SsmcontactsRotation" id="@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotation.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the SsmcontactsRotation to imp
 
 The id of the existing SsmcontactsRotation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -911,7 +911,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcontactsrotation"
 | <code><a href="#@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotationConfig.property.recurrence">Recurrence</a></code> | <code><a href="#@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotationRecurrence">SsmcontactsRotationRecurrence</a></code> | Information about when an on-call rotation is in effect and how long the rotation period lasts. |
 | <code><a href="#@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotationConfig.property.startTime">StartTime</a></code> | <code>*string</code> | Start time of the first shift of Oncall Schedule. |
 | <code><a href="#@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotationConfig.property.timeZoneId">TimeZoneId</a></code> | <code>*string</code> | TimeZone Identifier for the Oncall Schedule. |
-| <code><a href="#@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#tags SsmcontactsRotation#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ssmcontactsRotation.SsmcontactsRotationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#tags SsmcontactsRotation#tags}. |
 
 ---
 
@@ -995,7 +995,7 @@ ContactIds *[]*string
 
 Members of the rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#contact_ids SsmcontactsRotation#contact_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#contact_ids SsmcontactsRotation#contact_ids}
 
 ---
 
@@ -1009,7 +1009,7 @@ Name *string
 
 Name of the Rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#name SsmcontactsRotation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#name SsmcontactsRotation#name}
 
 ---
 
@@ -1023,7 +1023,7 @@ Recurrence SsmcontactsRotationRecurrence
 
 Information about when an on-call rotation is in effect and how long the rotation period lasts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#recurrence SsmcontactsRotation#recurrence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#recurrence SsmcontactsRotation#recurrence}
 
 ---
 
@@ -1037,7 +1037,7 @@ StartTime *string
 
 Start time of the first shift of Oncall Schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#start_time SsmcontactsRotation#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#start_time SsmcontactsRotation#start_time}
 
 ---
 
@@ -1051,7 +1051,7 @@ TimeZoneId *string
 
 TimeZone Identifier for the Oncall Schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#time_zone_id SsmcontactsRotation#time_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#time_zone_id SsmcontactsRotation#time_zone_id}
 
 ---
 
@@ -1063,7 +1063,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#tags SsmcontactsRotation#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#tags SsmcontactsRotation#tags}.
 
 ---
 
@@ -1107,7 +1107,7 @@ DailySettings *[]*string
 
 Information about on-call rotations that recur daily.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#daily_settings SsmcontactsRotation#daily_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#daily_settings SsmcontactsRotation#daily_settings}
 
 ---
 
@@ -1121,7 +1121,7 @@ MonthlySettings interface{}
 
 Information about on-call rotations that recur monthly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#monthly_settings SsmcontactsRotation#monthly_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#monthly_settings SsmcontactsRotation#monthly_settings}
 
 ---
 
@@ -1135,7 +1135,7 @@ NumberOfOnCalls *f64
 
 Number of Oncalls per shift.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#number_of_on_calls SsmcontactsRotation#number_of_on_calls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#number_of_on_calls SsmcontactsRotation#number_of_on_calls}
 
 ---
 
@@ -1149,7 +1149,7 @@ RecurrenceMultiplier *f64
 
 The number of days, weeks, or months a single rotation lasts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#recurrence_multiplier SsmcontactsRotation#recurrence_multiplier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#recurrence_multiplier SsmcontactsRotation#recurrence_multiplier}
 
 ---
 
@@ -1163,7 +1163,7 @@ ShiftCoverages interface{}
 
 Information about the days of the week included in on-call rotation coverage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#shift_coverages SsmcontactsRotation#shift_coverages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#shift_coverages SsmcontactsRotation#shift_coverages}
 
 ---
 
@@ -1177,7 +1177,7 @@ WeeklySettings interface{}
 
 Information about on-call rotations that recur weekly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#weekly_settings SsmcontactsRotation#weekly_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#weekly_settings SsmcontactsRotation#weekly_settings}
 
 ---
 
@@ -1213,7 +1213,7 @@ DayOfMonth *f64
 
 The day of the month when monthly recurring on-call rotations begin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#day_of_month SsmcontactsRotation#day_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#day_of_month SsmcontactsRotation#day_of_month}
 
 ---
 
@@ -1227,7 +1227,7 @@ HandOffTime *string
 
 Details about when an on-call rotation shift begins or ends. Time of the day in format HH:MM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
 
 ---
 
@@ -1263,7 +1263,7 @@ CoverageTimes interface{}
 
 Information about when an on-call shift begins and ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#coverage_times SsmcontactsRotation#coverage_times}
 
 ---
 
@@ -1277,7 +1277,7 @@ DayOfWeek *string
 
 The day of the week when weekly recurring on-call shift rotations begin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
 
 ---
 
@@ -1313,7 +1313,7 @@ EndTime *string
 
 Details about when an on-call rotation shift begins or ends. Time of the day in format HH:MM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#end_time SsmcontactsRotation#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#end_time SsmcontactsRotation#end_time}
 
 ---
 
@@ -1327,7 +1327,7 @@ StartTime *string
 
 Details about when an on-call rotation shift begins or ends. Time of the day in format HH:MM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#start_time SsmcontactsRotation#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#start_time SsmcontactsRotation#start_time}
 
 ---
 
@@ -1363,7 +1363,7 @@ DayOfWeek *string
 
 The day of the week when weekly recurring on-call shift rotations begin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
 
 ---
 
@@ -1377,7 +1377,7 @@ HandOffTime *string
 
 Details about when an on-call rotation shift begins or ends. Time of the day in format HH:MM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
 
 ---
 
@@ -1413,7 +1413,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#key SsmcontactsRotation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#key SsmcontactsRotation#key}
 
 ---
 
@@ -1427,7 +1427,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_rotation#value SsmcontactsRotation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_rotation#value SsmcontactsRotation#value}
 
 ---
 

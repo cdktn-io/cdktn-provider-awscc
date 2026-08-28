@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbProxyTargetGroups <a name="DataAwsccRdsDbProxyTargetGroups" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroups.DataAwsccRdsDbProxyTargetGroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRdsDbProxyTargetG
 
 The id of the existing DataAwsccRdsDbProxyTargetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_proxy_target_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_proxy_target_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

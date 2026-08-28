@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailLoadBalancers <a name="DataAwsccLightsailLoadBalancers" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancers.DataAwsccLightsailLoadBalancers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_load_balancers awscc_lightsail_load_balancers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancers awscc_lightsail_load_balancers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailLoadBalancers.DataAwsccLightsailLoadBalancers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLightsailLoadBala
 
 The id of the existing DataAwsccLightsailLoadBalancers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_load_balancers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancers#import import section} in the documentation of this resource for the id to use
 
 ---
 

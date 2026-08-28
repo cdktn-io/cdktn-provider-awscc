@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TrafficMirrorSessions <a name="DataAwsccEc2TrafficMirrorSessions" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorSessions.DataAwsccEc2TrafficMirrorSessions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TrafficMirrorSessions.DataAwsccEc2TrafficMirrorSessions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2TrafficMirrorS
 
 The id of the existing DataAwsccEc2TrafficMirrorSessions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_sessions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_traffic_mirror_sessions#import import section} in the documentation of this resource for the id to use
 
 ---
 

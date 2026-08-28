@@ -4,7 +4,7 @@
 
 ### ConfigStoredQuery <a name="ConfigStoredQuery" id="@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query awscc_config_stored_query}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query awscc_config_stored_query}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer"></a>
 
@@ -37,9 +37,9 @@ ConfigStoredQuery.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.queryExpression">queryExpression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}. |
-| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.queryName">queryName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}. |
-| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.queryDescription">queryDescription</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}. |
+| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.queryExpression">queryExpression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}. |
+| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.queryName">queryName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}. |
+| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.queryDescription">queryDescription</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}. |
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQuery.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryTags">ConfigStoredQueryTags</a>></code> | The tags for the stored query. |
 
 ---
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags for the stored query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
 
 ---
 
@@ -610,7 +610,7 @@ The construct id used in the generated config for the ConfigStoredQuery to impor
 
 The id of the existing ConfigStoredQuery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,9 +959,9 @@ ConfigStoredQueryConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.queryExpression">queryExpression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}. |
-| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.queryName">queryName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}. |
-| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.queryDescription">queryDescription</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}. |
+| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.queryExpression">queryExpression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}. |
+| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.queryName">queryName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}. |
+| <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.queryDescription">queryDescription</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}. |
 | <code><a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.configStoredQuery.ConfigStoredQueryTags">ConfigStoredQueryTags</a>></code> | The tags for the stored query. |
 
 ---
@@ -1044,7 +1044,7 @@ public java.lang.String getQueryExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}.
 
 ---
 
@@ -1056,7 +1056,7 @@ public java.lang.String getQueryName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}.
 
 ---
 
@@ -1068,7 +1068,7 @@ public java.lang.String getQueryDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}.
 
 ---
 
@@ -1082,7 +1082,7 @@ public IResolvable|java.util.List<ConfigStoredQueryTags> getTags();
 
 The tags for the stored query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
 
 ---
 
@@ -1120,7 +1120,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#key ConfigStoredQuery#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#key ConfigStoredQuery#key}
 
 ---
 
@@ -1136,7 +1136,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_stored_query#value ConfigStoredQuery#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_stored_query#value ConfigStoredQuery#value}
 
 ---
 

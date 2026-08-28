@@ -4,7 +4,7 @@
 
 ### RdsDbProxyEndpoint <a name="RdsDbProxyEndpoint" id="@cdktn/provider-awscc.rdsDbProxyEndpoint.RdsDbProxyEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxyEndpoint.RdsDbProxyEndpoint.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the RdsDbProxyEndpoint to impo
 
 The id of the existing RdsDbProxyEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1062,7 +1062,7 @@ The identifier for the DB proxy endpoint.
 
 This name must be unique for all DB proxy endpoints owned by your AWS account in the specified AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#db_proxy_endpoint_name RdsDbProxyEndpoint#db_proxy_endpoint_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#db_proxy_endpoint_name RdsDbProxyEndpoint#db_proxy_endpoint_name}
 
 ---
 
@@ -1078,7 +1078,7 @@ The identifier for the proxy.
 
 This name must be unique for all proxies owned by your AWS account in the specified AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#db_proxy_name RdsDbProxyEndpoint#db_proxy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#db_proxy_name RdsDbProxyEndpoint#db_proxy_name}
 
 ---
 
@@ -1092,7 +1092,7 @@ public string[] VpcSubnetIds { get; set; }
 
 VPC subnet IDs to associate with the new DB proxy endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#vpc_subnet_ids RdsDbProxyEndpoint#vpc_subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#vpc_subnet_ids RdsDbProxyEndpoint#vpc_subnet_ids}
 
 ---
 
@@ -1108,7 +1108,7 @@ The network type of the DB proxy endpoint.
 
 The network type determines the IP version that the proxy endpoint supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#endpoint_network_type RdsDbProxyEndpoint#endpoint_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#endpoint_network_type RdsDbProxyEndpoint#endpoint_network_type}
 
 ---
 
@@ -1122,7 +1122,7 @@ public IResolvable|RdsDbProxyEndpointTags[] Tags { get; set; }
 
 An optional set of key-value pairs to associate arbitrary data of your choosing with the DB proxy endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#tags RdsDbProxyEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#tags RdsDbProxyEndpoint#tags}
 
 ---
 
@@ -1136,7 +1136,7 @@ public string TargetRole { get; set; }
 
 A value that indicates whether the DB proxy endpoint can be used for read/write or read-only operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#target_role RdsDbProxyEndpoint#target_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#target_role RdsDbProxyEndpoint#target_role}
 
 ---
 
@@ -1150,7 +1150,7 @@ public string[] VpcSecurityGroupIds { get; set; }
 
 VPC security group IDs to associate with the new DB proxy endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#vpc_security_group_ids RdsDbProxyEndpoint#vpc_security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#vpc_security_group_ids RdsDbProxyEndpoint#vpc_security_group_ids}
 
 ---
 
@@ -1171,8 +1171,8 @@ new RdsDbProxyEndpointTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.rdsDbProxyEndpoint.RdsDbProxyEndpointTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#key RdsDbProxyEndpoint#key}. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbProxyEndpoint.RdsDbProxyEndpointTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#value RdsDbProxyEndpoint#value}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbProxyEndpoint.RdsDbProxyEndpointTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#key RdsDbProxyEndpoint#key}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbProxyEndpoint.RdsDbProxyEndpointTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#value RdsDbProxyEndpoint#value}. |
 
 ---
 
@@ -1184,7 +1184,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#key RdsDbProxyEndpoint#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#key RdsDbProxyEndpoint#key}.
 
 ---
 
@@ -1196,7 +1196,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy_endpoint#value RdsDbProxyEndpoint#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy_endpoint#value RdsDbProxyEndpoint#value}.
 
 ---
 

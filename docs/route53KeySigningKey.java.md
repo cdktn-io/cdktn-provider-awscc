@@ -4,7 +4,7 @@
 
 ### Route53KeySigningKey <a name="Route53KeySigningKey" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key awscc_route53_key_signing_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key awscc_route53_key_signing_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53KeySigningKey.Route53KeySigningKey.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The unique string (ID) used to identify a hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
 
 ---
 
@@ -122,7 +122,7 @@ The Amazon resource name (ARN) for a customer managed key (CMK) in AWS Key Manag
 
 The KeyManagementServiceArn must be unique for each key signing key (KSK) in a single hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
 
 ---
 
@@ -134,7 +134,7 @@ An alphanumeric string used to identify a key signing key (KSK).
 
 Name must be unique for each key signing key in the same hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
 
 ---
 
@@ -146,7 +146,7 @@ A string specifying the initial status of the key signing key (KSK).
 
 You can set the value to ACTIVE or INACTIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
 
 ---
 
@@ -595,7 +595,7 @@ The construct id used in the generated config for the Route53KeySigningKey to im
 
 The id of the existing Route53KeySigningKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1009,7 +1009,7 @@ public java.lang.String getHostedZoneId();
 
 The unique string (ID) used to identify a hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
 
 ---
 
@@ -1025,7 +1025,7 @@ The Amazon resource name (ARN) for a customer managed key (CMK) in AWS Key Manag
 
 The KeyManagementServiceArn must be unique for each key signing key (KSK) in a single hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
 
 ---
 
@@ -1041,7 +1041,7 @@ An alphanumeric string used to identify a key signing key (KSK).
 
 Name must be unique for each key signing key in the same hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
 
 ---
 
@@ -1057,7 +1057,7 @@ A string specifying the initial status of the key signing key (KSK).
 
 You can set the value to ACTIVE or INACTIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### NetworkmanagerLink <a name="NetworkmanagerLink" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link awscc_networkmanager_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link awscc_networkmanager_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmanagerLink.NetworkmanagerLink.Initializer"></a>
 
@@ -543,7 +543,7 @@ The construct id used in the generated config for the NetworkmanagerLink to impo
 
 The id of the existing NetworkmanagerLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,7 +979,7 @@ public double DownloadSpeed { get; set; }
 
 Download speed in Mbps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#download_speed NetworkmanagerLink#download_speed}
 
 ---
 
@@ -993,7 +993,7 @@ public double UploadSpeed { get; set; }
 
 Upload speed in Mbps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#upload_speed NetworkmanagerLink#upload_speed}
 
 ---
 
@@ -1123,7 +1123,7 @@ public NetworkmanagerLinkBandwidth Bandwidth { get; set; }
 
 The Bandwidth for the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#bandwidth NetworkmanagerLink#bandwidth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#bandwidth NetworkmanagerLink#bandwidth}
 
 ---
 
@@ -1137,7 +1137,7 @@ public string GlobalNetworkId { get; set; }
 
 The ID of the global network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#global_network_id NetworkmanagerLink#global_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#global_network_id NetworkmanagerLink#global_network_id}
 
 ---
 
@@ -1151,7 +1151,7 @@ public string SiteId { get; set; }
 
 The ID of the site.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#site_id NetworkmanagerLink#site_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#site_id NetworkmanagerLink#site_id}
 
 ---
 
@@ -1165,7 +1165,7 @@ public string Description { get; set; }
 
 The description of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#description NetworkmanagerLink#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#description NetworkmanagerLink#description}
 
 ---
 
@@ -1179,7 +1179,7 @@ public string ProviderName { get; set; }
 
 The provider of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#provider_name NetworkmanagerLink#provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#provider_name NetworkmanagerLink#provider_name}
 
 ---
 
@@ -1193,7 +1193,7 @@ public IResolvable|NetworkmanagerLinkTags[] Tags { get; set; }
 
 The tags for the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#tags NetworkmanagerLink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#tags NetworkmanagerLink#tags}
 
 ---
 
@@ -1207,7 +1207,7 @@ public string Type { get; set; }
 
 The type of the link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#type NetworkmanagerLink#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#type NetworkmanagerLink#type}
 
 ---
 
@@ -1245,7 +1245,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#key NetworkmanagerLink#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#key NetworkmanagerLink#key}
 
 ---
 
@@ -1261,7 +1261,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link#value NetworkmanagerLink#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link#value NetworkmanagerLink#value}
 
 ---
 

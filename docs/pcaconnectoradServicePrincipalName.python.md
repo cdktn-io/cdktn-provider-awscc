@@ -4,7 +4,7 @@
 
 ### PcaconnectoradServicePrincipalName <a name="PcaconnectoradServicePrincipalName" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer"></a>
 
@@ -37,8 +37,8 @@ pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName(
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.directoryRegistrationArn">directory_registration_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalName.Initializer.parameter.directoryRegistrationArn">directory_registration_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
 
 ---
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the PcaconnectoradServicePrinc
 
 The id of the existing PcaconnectoradServicePrincipalName that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -892,8 +892,8 @@ pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig(
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}. |
-| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.directoryRegistrationArn">directory_registration_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.connectorArn">connector_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}. |
+| <code><a href="#@cdktn/provider-awscc.pcaconnectoradServicePrincipalName.PcaconnectoradServicePrincipalNameConfig.property.directoryRegistrationArn">directory_registration_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}. |
 
 ---
 
@@ -975,7 +975,7 @@ connector_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
 
 ---
 
@@ -987,7 +987,7 @@ directory_registration_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
 
 ---
 

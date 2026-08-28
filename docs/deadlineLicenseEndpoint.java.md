@@ -4,7 +4,7 @@
 
 ### DeadlineLicenseEndpoint <a name="DeadlineLicenseEndpoint" id="@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer"></a>
 
@@ -37,9 +37,9 @@ DeadlineLicenseEndpoint.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}. |
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpoint.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointTags">DeadlineLicenseEndpointTags</a>></code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#tags DeadlineLicenseEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#tags DeadlineLicenseEndpoint#tags}
 
 ---
 
@@ -603,7 +603,7 @@ The construct id used in the generated config for the DeadlineLicenseEndpoint to
 
 The id of the existing DeadlineLicenseEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -985,9 +985,9 @@ DeadlineLicenseEndpointConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.vpcId">vpcId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}. |
 | <code><a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.deadlineLicenseEndpoint.DeadlineLicenseEndpointTags">DeadlineLicenseEndpointTags</a>></code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1070,7 +1070,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#security_group_ids DeadlineLicenseEndpoint#security_group_ids}.
 
 ---
 
@@ -1082,7 +1082,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#subnet_ids DeadlineLicenseEndpoint#subnet_ids}.
 
 ---
 
@@ -1094,7 +1094,7 @@ public java.lang.String getVpcId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#vpc_id DeadlineLicenseEndpoint#vpc_id}.
 
 ---
 
@@ -1108,7 +1108,7 @@ public IResolvable|java.util.List<DeadlineLicenseEndpointTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#tags DeadlineLicenseEndpoint#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#tags DeadlineLicenseEndpoint#tags}
 
 ---
 
@@ -1146,7 +1146,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#key DeadlineLicenseEndpoint#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#key DeadlineLicenseEndpoint#key}
 
 ---
 
@@ -1162,7 +1162,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_license_endpoint#value DeadlineLicenseEndpoint#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint#value DeadlineLicenseEndpoint#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Apigatewayv2VpcLink <a name="Apigatewayv2VpcLink" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_vpc_link awscc_apigatewayv2_vpc_link}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_vpc_link awscc_apigatewayv2_vpc_link}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayv2VpcLink.Apigatewayv2VpcLink.Initializer"></a>
 
@@ -503,7 +503,7 @@ The construct id used in the generated config for the Apigatewayv2VpcLink to imp
 
 The id of the existing Apigatewayv2VpcLink that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_vpc_link#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_vpc_link#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -928,7 +928,7 @@ public string Name { get; set; }
 
 The name of the VPC link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_vpc_link#name Apigatewayv2VpcLink#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_vpc_link#name Apigatewayv2VpcLink#name}
 
 ---
 
@@ -942,7 +942,7 @@ public string[] SubnetIds { get; set; }
 
 A list of subnet IDs to include in the VPC link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_vpc_link#subnet_ids Apigatewayv2VpcLink#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_vpc_link#subnet_ids Apigatewayv2VpcLink#subnet_ids}
 
 ---
 
@@ -956,7 +956,7 @@ public string[] SecurityGroupIds { get; set; }
 
 A list of security group IDs for the VPC link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_vpc_link#security_group_ids Apigatewayv2VpcLink#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_vpc_link#security_group_ids Apigatewayv2VpcLink#security_group_ids}
 
 ---
 
@@ -970,7 +970,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 The collection of tags. Each tag element is associated with a given resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_vpc_link#tags Apigatewayv2VpcLink#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_vpc_link#tags Apigatewayv2VpcLink#tags}
 
 ---
 

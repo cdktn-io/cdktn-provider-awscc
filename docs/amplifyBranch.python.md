@@ -4,7 +4,7 @@
 
 ### AmplifyBranch <a name="AmplifyBranch" id="@cdktn/provider-awscc.amplifyBranch.AmplifyBranch"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch awscc_amplify_branch}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch awscc_amplify_branch}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer"></a>
 
@@ -51,22 +51,22 @@ amplifyBranch.AmplifyBranch(
 | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.appId">app_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.branchName">branch_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.backend">backend</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend">AmplifyBranchBackend</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.basicAuthConfig">basic_auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig">AmplifyBranchBasicAuthConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.buildSpec">build_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.computeRoleArn">compute_role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#description AmplifyBranch#description}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enableAutoBuild">enable_auto_build</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enablePerformanceMode">enable_performance_mode</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enablePullRequestPreview">enable_pull_request_preview</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enableSkewProtection">enable_skew_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.environmentVariables">environment_variables</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables">AmplifyBranchEnvironmentVariables</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.framework">framework</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.pullRequestEnvironmentName">pull_request_environment_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags">AmplifyBranchTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.appId">app_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.branchName">branch_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.backend">backend</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend">AmplifyBranchBackend</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.basicAuthConfig">basic_auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig">AmplifyBranchBasicAuthConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.buildSpec">build_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.computeRoleArn">compute_role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#description AmplifyBranch#description}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enableAutoBuild">enable_auto_build</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enablePerformanceMode">enable_performance_mode</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enablePullRequestPreview">enable_pull_request_preview</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.enableSkewProtection">enable_skew_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.environmentVariables">environment_variables</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables">AmplifyBranchEnvironmentVariables</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.framework">framework</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.pullRequestEnvironmentName">pull_request_environment_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranch.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags">AmplifyBranchTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}. |
 
 ---
 
@@ -134,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}.
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend">AmplifyBranchBackend</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}.
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig">AmplifyBranchBasicAuthConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}.
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}.
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}.
 
 ---
 
@@ -182,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#description AmplifyBranch#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#description AmplifyBranch#description}.
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}.
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}.
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}.
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}.
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables">AmplifyBranchEnvironmentVariables</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}.
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}.
 
 ---
 
@@ -238,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}.
 
 ---
 
@@ -246,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}.
 
 ---
 
@@ -254,7 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags">AmplifyBranchTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}.
 
 ---
 
@@ -667,7 +667,7 @@ def put_backend(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}.
 
 ---
 
@@ -685,7 +685,7 @@ def put_basic_auth_config(
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}.
 
 ---
 
@@ -693,7 +693,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#password AmplifyBranch#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#password AmplifyBranch#password}.
 
 ---
 
@@ -701,7 +701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#username AmplifyBranch#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#username AmplifyBranch#username}.
 
 ---
 
@@ -931,7 +931,7 @@ The construct id used in the generated config for the AmplifyBranch to import.
 
 The id of the existing AmplifyBranch that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1516,7 +1516,7 @@ amplifyBranch.AmplifyBranchBackend(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend.property.stackArn">stack_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend.property.stackArn">stack_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}. |
 
 ---
 
@@ -1528,7 +1528,7 @@ stack_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}.
 
 ---
 
@@ -1550,9 +1550,9 @@ amplifyBranch.AmplifyBranchBasicAuthConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig.property.enableBasicAuth">enable_basic_auth</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig.property.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#password AmplifyBranch#password}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig.property.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#username AmplifyBranch#username}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig.property.enableBasicAuth">enable_basic_auth</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig.property.password">password</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#password AmplifyBranch#password}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig.property.username">username</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#username AmplifyBranch#username}. |
 
 ---
 
@@ -1564,7 +1564,7 @@ enable_basic_auth: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}.
 
 ---
 
@@ -1576,7 +1576,7 @@ password: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#password AmplifyBranch#password}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#password AmplifyBranch#password}.
 
 ---
 
@@ -1588,7 +1588,7 @@ username: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#username AmplifyBranch#username}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#username AmplifyBranch#username}.
 
 ---
 
@@ -1637,22 +1637,22 @@ amplifyBranch.AmplifyBranchConfig(
 | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.appId">app_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.branchName">branch_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.backend">backend</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend">AmplifyBranchBackend</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.basicAuthConfig">basic_auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig">AmplifyBranchBasicAuthConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.buildSpec">build_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.computeRoleArn">compute_role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#description AmplifyBranch#description}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enableAutoBuild">enable_auto_build</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enablePerformanceMode">enable_performance_mode</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enablePullRequestPreview">enable_pull_request_preview</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enableSkewProtection">enable_skew_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.environmentVariables">environment_variables</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables">AmplifyBranchEnvironmentVariables</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.framework">framework</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.pullRequestEnvironmentName">pull_request_environment_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags">AmplifyBranchTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.appId">app_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.branchName">branch_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.backend">backend</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend">AmplifyBranchBackend</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.basicAuthConfig">basic_auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig">AmplifyBranchBasicAuthConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.buildSpec">build_spec</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.computeRoleArn">compute_role_arn</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#description AmplifyBranch#description}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enableAutoBuild">enable_auto_build</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enablePerformanceMode">enable_performance_mode</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enablePullRequestPreview">enable_pull_request_preview</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.enableSkewProtection">enable_skew_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.environmentVariables">environment_variables</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables">AmplifyBranchEnvironmentVariables</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.framework">framework</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.pullRequestEnvironmentName">pull_request_environment_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.stage">stage</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags">AmplifyBranchTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}. |
 
 ---
 
@@ -1734,7 +1734,7 @@ app_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}.
 
 ---
 
@@ -1746,7 +1746,7 @@ branch_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}.
 
 ---
 
@@ -1758,7 +1758,7 @@ backend: AmplifyBranchBackend
 
 - *Type:* <a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBackend">AmplifyBranchBackend</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}.
 
 ---
 
@@ -1770,7 +1770,7 @@ basic_auth_config: AmplifyBranchBasicAuthConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchBasicAuthConfig">AmplifyBranchBasicAuthConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}.
 
 ---
 
@@ -1782,7 +1782,7 @@ build_spec: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}.
 
 ---
 
@@ -1794,7 +1794,7 @@ compute_role_arn: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}.
 
 ---
 
@@ -1806,7 +1806,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#description AmplifyBranch#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#description AmplifyBranch#description}.
 
 ---
 
@@ -1818,7 +1818,7 @@ enable_auto_build: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}.
 
 ---
 
@@ -1830,7 +1830,7 @@ enable_performance_mode: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}.
 
 ---
 
@@ -1842,7 +1842,7 @@ enable_pull_request_preview: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}.
 
 ---
 
@@ -1854,7 +1854,7 @@ enable_skew_protection: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}.
 
 ---
 
@@ -1866,7 +1866,7 @@ environment_variables: IResolvable | typing.List[AmplifyBranchEnvironmentVariabl
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables">AmplifyBranchEnvironmentVariables</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}.
 
 ---
 
@@ -1878,7 +1878,7 @@ framework: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}.
 
 ---
 
@@ -1890,7 +1890,7 @@ pull_request_environment_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}.
 
 ---
 
@@ -1902,7 +1902,7 @@ stage: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}.
 
 ---
 
@@ -1914,7 +1914,7 @@ tags: IResolvable | typing.List[AmplifyBranchTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags">AmplifyBranchTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}.
 
 ---
 
@@ -1935,8 +1935,8 @@ amplifyBranch.AmplifyBranchEnvironmentVariables(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#name AmplifyBranch#name}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#value AmplifyBranch#value}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#name AmplifyBranch#name}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchEnvironmentVariables.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#value AmplifyBranch#value}. |
 
 ---
 
@@ -1948,7 +1948,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#name AmplifyBranch#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#name AmplifyBranch#name}.
 
 ---
 
@@ -1960,7 +1960,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#value AmplifyBranch#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#value AmplifyBranch#value}.
 
 ---
 
@@ -1981,8 +1981,8 @@ amplifyBranch.AmplifyBranchTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#key AmplifyBranch#key}. |
-| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#value AmplifyBranch#value}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#key AmplifyBranch#key}. |
+| <code><a href="#@cdktn/provider-awscc.amplifyBranch.AmplifyBranchTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#value AmplifyBranch#value}. |
 
 ---
 
@@ -1994,7 +1994,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#key AmplifyBranch#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#key AmplifyBranch#key}.
 
 ---
 
@@ -2006,7 +2006,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_branch#value AmplifyBranch#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/amplify_branch#value AmplifyBranch#value}.
 
 ---
 

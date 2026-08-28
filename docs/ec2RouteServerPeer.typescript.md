@@ -4,7 +4,7 @@
 
 ### Ec2RouteServerPeer <a name="Ec2RouteServerPeer" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2RouteServerPeer.Ec2RouteServerPeer.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the Ec2RouteServerPeer to impo
 
 The id of the existing Ec2RouteServerPeer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -922,7 +922,7 @@ public readonly peerAsn: number;
 
 BGP ASN of the Route Server Peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#peer_asn Ec2RouteServerPeer#peer_asn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#peer_asn Ec2RouteServerPeer#peer_asn}
 
 ---
 
@@ -936,7 +936,7 @@ public readonly peerLivenessDetection: string;
 
 BGP Liveness Detection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#peer_liveness_detection Ec2RouteServerPeer#peer_liveness_detection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#peer_liveness_detection Ec2RouteServerPeer#peer_liveness_detection}
 
 ---
 
@@ -1048,7 +1048,7 @@ public readonly bgpOptions: Ec2RouteServerPeerBgpOptions;
 
 BGP Options.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#bgp_options Ec2RouteServerPeer#bgp_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#bgp_options Ec2RouteServerPeer#bgp_options}
 
 ---
 
@@ -1062,7 +1062,7 @@ public readonly peerAddress: string;
 
 IP address of the Route Server Peer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#peer_address Ec2RouteServerPeer#peer_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#peer_address Ec2RouteServerPeer#peer_address}
 
 ---
 
@@ -1076,7 +1076,7 @@ public readonly routeServerEndpointId: string;
 
 Route Server Endpoint ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#route_server_endpoint_id Ec2RouteServerPeer#route_server_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#route_server_endpoint_id Ec2RouteServerPeer#route_server_endpoint_id}
 
 ---
 
@@ -1090,7 +1090,7 @@ public readonly tags: IResolvable | Ec2RouteServerPeerTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#tags Ec2RouteServerPeer#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#tags Ec2RouteServerPeer#tags}
 
 ---
 
@@ -1125,7 +1125,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#key Ec2RouteServerPeer#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#key Ec2RouteServerPeer#key}
 
 ---
 
@@ -1141,7 +1141,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_server_peer#value Ec2RouteServerPeer#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_server_peer#value Ec2RouteServerPeer#value}
 
 ---
 

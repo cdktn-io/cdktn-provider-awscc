@@ -4,7 +4,7 @@
 
 ### OmicsReferenceStore <a name="OmicsReferenceStore" id="@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store awscc_omics_reference_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store awscc_omics_reference_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStore.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the OmicsReferenceStore to imp
 
 The id of the existing OmicsReferenceStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsreferencestore"
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.name">Name</a></code> | <code>*string</code> | A name for the store. |
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.description">Description</a></code> | <code>*string</code> | A description for the store. |
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.sseConfig">SseConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig">OmicsReferenceStoreSseConfig</a></code> | Server-side encryption (SSE) settings for a store. |
-| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreConfig.property.tags">Tags</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}. |
 
 ---
 
@@ -970,7 +970,7 @@ Name *string
 
 A name for the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#name OmicsReferenceStore#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#name OmicsReferenceStore#name}
 
 ---
 
@@ -984,7 +984,7 @@ Description *string
 
 A description for the store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#description OmicsReferenceStore#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#description OmicsReferenceStore#description}
 
 ---
 
@@ -998,7 +998,7 @@ SseConfig OmicsReferenceStoreSseConfig
 
 Server-side encryption (SSE) settings for a store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#sse_config OmicsReferenceStore#sse_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#sse_config OmicsReferenceStore#sse_config}
 
 ---
 
@@ -1010,7 +1010,7 @@ Tags *map[string]*string
 
 - *Type:* *map[string]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}.
 
 ---
 
@@ -1032,7 +1032,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsreferencestore"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig.property.keyArn">KeyArn</a></code> | <code>*string</code> | An encryption key ARN. |
-| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}. |
+| <code><a href="#@cdktn/provider-awscc.omicsReferenceStore.OmicsReferenceStoreSseConfig.property.type">Type</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}. |
 
 ---
 
@@ -1046,7 +1046,7 @@ KeyArn *string
 
 An encryption key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#key_arn OmicsReferenceStore#key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#key_arn OmicsReferenceStore#key_arn}
 
 ---
 
@@ -1058,7 +1058,7 @@ Type *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#type OmicsReferenceStore#type}.
 
 ---
 

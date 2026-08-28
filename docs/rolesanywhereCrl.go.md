@@ -4,7 +4,7 @@
 
 ### RolesanywhereCrl <a name="RolesanywhereCrl" id="@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrl.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the RolesanywhereCrl to import
 
 The id of the existing RolesanywhereCrl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -884,11 +884,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rolesanywherecrl"
 | <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.crlData">CrlData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}. |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}. |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}. |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.trustAnchorArn">TrustAnchorArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.crlData">CrlData</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlConfig.property.trustAnchorArn">TrustAnchorArn</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}. |
 
 ---
 
@@ -970,7 +970,7 @@ CrlData *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#crl_data RolesanywhereCrl#crl_data}.
 
 ---
 
@@ -982,7 +982,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#name RolesanywhereCrl#name}.
 
 ---
 
@@ -994,7 +994,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#enabled RolesanywhereCrl#enabled}.
 
 ---
 
@@ -1006,7 +1006,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#tags RolesanywhereCrl#tags}.
 
 ---
 
@@ -1018,7 +1018,7 @@ TrustAnchorArn *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#trust_anchor_arn RolesanywhereCrl#trust_anchor_arn}.
 
 ---
 
@@ -1039,8 +1039,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rolesanywherecrl"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}. |
-| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}. |
+| <code><a href="#@cdktn/provider-awscc.rolesanywhereCrl.RolesanywhereCrlTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}. |
 
 ---
 
@@ -1052,7 +1052,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#key RolesanywhereCrl#key}.
 
 ---
 
@@ -1064,7 +1064,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rolesanywhere_crl#value RolesanywhereCrl#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccGuarddutyMembers <a name="DataAwsccGuarddutyMembers" id="@cdktn/provider-awscc.dataAwsccGuarddutyMembers.DataAwsccGuarddutyMembers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_members awscc_guardduty_members}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_members awscc_guardduty_members}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGuarddutyMembers.DataAwsccGuarddutyMembers.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGuarddutyMembers 
 
 The id of the existing DataAwsccGuarddutyMembers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_members#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_members#import import section} in the documentation of this resource for the id to use
 
 ---
 

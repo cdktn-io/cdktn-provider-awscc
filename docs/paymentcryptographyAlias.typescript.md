@@ -4,7 +4,7 @@
 
 ### PaymentcryptographyAlias <a name="PaymentcryptographyAlias" id="@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAlias"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAlias.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the PaymentcryptographyAlias t
 
 The id of the existing PaymentcryptographyAlias that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/paymentcryptography_alias#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/paymentcryptography_alias#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -767,8 +767,8 @@ const paymentcryptographyAliasConfig: paymentcryptographyAlias.Paymentcryptograp
 | <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.aliasName">aliasName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/paymentcryptography_alias#alias_name PaymentcryptographyAlias#alias_name}. |
-| <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.keyArn">keyArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/paymentcryptography_alias#key_arn PaymentcryptographyAlias#key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.aliasName">aliasName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/paymentcryptography_alias#alias_name PaymentcryptographyAlias#alias_name}. |
+| <code><a href="#@cdktn/provider-awscc.paymentcryptographyAlias.PaymentcryptographyAliasConfig.property.keyArn">keyArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/paymentcryptography_alias#key_arn PaymentcryptographyAlias#key_arn}. |
 
 ---
 
@@ -850,7 +850,7 @@ public readonly aliasName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/paymentcryptography_alias#alias_name PaymentcryptographyAlias#alias_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/paymentcryptography_alias#alias_name PaymentcryptographyAlias#alias_name}.
 
 ---
 
@@ -862,7 +862,7 @@ public readonly keyArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/paymentcryptography_alias#key_arn PaymentcryptographyAlias#key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/paymentcryptography_alias#key_arn PaymentcryptographyAlias#key_arn}.
 
 ---
 

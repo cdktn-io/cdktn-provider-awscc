@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncLocationS3S <a name="DataAwsccDatasyncLocationS3S" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationS3S.DataAwsccDatasyncLocationS3S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationS3S.DataAwsccDatasyncLocationS3S.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationS
 
 The id of the existing DataAwsccDatasyncLocationS3S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_s3s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_s3s#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccCodedeployApplications <a name="DataAwsccCodedeployApplications" id="@cdktn/provider-awscc.dataAwsccCodedeployApplications.DataAwsccCodedeployApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCodedeployApplications.DataAwsccCodedeployApplications.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCodedeployApplica
 
 The id of the existing DataAwsccCodedeployApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codedeploy_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codedeploy_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

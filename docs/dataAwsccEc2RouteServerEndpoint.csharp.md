@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2RouteServerEndpoint <a name="DataAwsccEc2RouteServerEndpoint" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoint.DataAwsccEc2RouteServerEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_endpoint awscc_ec2_route_server_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_route_server_endpoint awscc_ec2_route_server_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2RouteServerEndpoint.DataAwsccEc2RouteServerEndpoint.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2RouteServerEnd
 
 The id of the existing DataAwsccEc2RouteServerEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_route_server_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_endpoint#id DataAwsccEc2RouteServerEndpoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_route_server_endpoint#id DataAwsccEc2RouteServerEndpoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

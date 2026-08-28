@@ -4,7 +4,7 @@
 
 ### LogsDestination <a name="LogsDestination" id="@cdktn/provider-awscc.logsDestination.LogsDestination"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination awscc_logs_destination}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination awscc_logs_destination}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDestination.LogsDestination.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the LogsDestination to import.
 
 The id of the existing LogsDestination that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,7 +952,7 @@ public readonly destinationName: string;
 
 The name of the destination resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination#destination_name LogsDestination#destination_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination#destination_name LogsDestination#destination_name}
 
 ---
 
@@ -966,7 +966,7 @@ public readonly roleArn: string;
 
 The ARN of an IAM role that permits CloudWatch Logs to send data to the specified AWS resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination#role_arn LogsDestination#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination#role_arn LogsDestination#role_arn}
 
 ---
 
@@ -980,7 +980,7 @@ public readonly targetArn: string;
 
 The ARN of the physical target where the log events are delivered (for example, a Kinesis stream).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination#target_arn LogsDestination#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination#target_arn LogsDestination#target_arn}
 
 ---
 
@@ -994,7 +994,7 @@ public readonly destinationPolicy: string;
 
 An IAM policy document that governs which AWS accounts can create subscription filters against this destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination#destination_policy LogsDestination#destination_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination#destination_policy LogsDestination#destination_policy}
 
 ---
 
@@ -1008,7 +1008,7 @@ public readonly tags: IResolvable | LogsDestinationTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_destination#tags LogsDestination#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_destination#tags LogsDestination#tags}
 
 ---
 

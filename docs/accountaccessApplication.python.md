@@ -4,7 +4,7 @@
 
 ### AccountaccessApplication <a name="AccountaccessApplication" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application awscc_accountaccess_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application awscc_accountaccess_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplication.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The identity source for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#identity_source AccountaccessApplication#identity_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#identity_source AccountaccessApplication#identity_source}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#tags AccountaccessApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#tags AccountaccessApplication#tags}
 
 ---
 
@@ -516,7 +516,7 @@ def put_identity_source(
 
 - *Type:* <a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}.
 
 ---
 
@@ -654,7 +654,7 @@ The construct id used in the generated config for the AccountaccessApplication t
 
 The id of the existing AccountaccessApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1075,7 +1075,7 @@ identity_source: AccountaccessApplicationIdentitySource
 
 The identity source for the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#identity_source AccountaccessApplication#identity_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#identity_source AccountaccessApplication#identity_source}
 
 ---
 
@@ -1089,7 +1089,7 @@ tags: IResolvable | typing.List[AccountaccessApplicationTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#tags AccountaccessApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#tags AccountaccessApplication#tags}
 
 ---
 
@@ -1109,7 +1109,7 @@ accountaccessApplication.AccountaccessApplicationIdentitySource(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySource.property.identityCenter">identity_center</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}. |
+| <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySource.property.identityCenter">identity_center</a></code> | <code><a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}. |
 
 ---
 
@@ -1121,7 +1121,7 @@ identity_center: AccountaccessApplicationIdentitySourceIdentityCenter
 
 - *Type:* <a href="#@cdktn/provider-awscc.accountaccessApplication.AccountaccessApplicationIdentitySourceIdentityCenter">AccountaccessApplicationIdentitySourceIdentityCenter</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}.
 
 ---
 
@@ -1155,7 +1155,7 @@ instance_arn: str
 
 The ARN of the Identity Center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}
 
 ---
 
@@ -1193,7 +1193,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#key AccountaccessApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#key AccountaccessApplication#key}
 
 ---
 
@@ -1209,7 +1209,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#value AccountaccessApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#value AccountaccessApplication#value}
 
 ---
 
@@ -1765,7 +1765,7 @@ def put_identity_center(
 
 The ARN of the Identity Center instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}
 
 ---
 

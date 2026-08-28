@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudformationResourceVersions <a name="DataAwsccCloudformationResourceVersions" id="@cdktn/provider-awscc.dataAwsccCloudformationResourceVersions.DataAwsccCloudformationResourceVersions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudformationResourceVersions.DataAwsccCloudformationResourceVersions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudformationRes
 
 The id of the existing DataAwsccCloudformationResourceVersions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_versions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_versions#import import section} in the documentation of this resource for the id to use
 
 ---
 

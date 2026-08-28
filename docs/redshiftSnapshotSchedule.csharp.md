@@ -4,7 +4,7 @@
 
 ### RedshiftSnapshotSchedule <a name="RedshiftSnapshotSchedule" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftSnapshotSchedule.RedshiftSnapshotSchedule.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the RedshiftSnapshotSchedule t
 
 The id of the existing RedshiftSnapshotSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ The definition of the snapshot schedule.
 
 The definition is made up of schedule expressions, for example "cron(30 12 *)" or "rate(12 hours)".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#schedule_definitions RedshiftSnapshotSchedule#schedule_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#schedule_definitions RedshiftSnapshotSchedule#schedule_definitions}
 
 ---
 
@@ -968,7 +968,7 @@ public string ScheduleIdentifier { get; set; }
 
 A unique identifier for the snapshot schedule. Only alphanumeric characters are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#schedule_identifier RedshiftSnapshotSchedule#schedule_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#schedule_identifier RedshiftSnapshotSchedule#schedule_identifier}
 
 ---
 
@@ -982,7 +982,7 @@ public string ScheduleDescription { get; set; }
 
 The description of the snapshot schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#schedule_description RedshiftSnapshotSchedule#schedule_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#schedule_description RedshiftSnapshotSchedule#schedule_description}
 
 ---
 
@@ -996,7 +996,7 @@ public IResolvable|RedshiftSnapshotScheduleTags[] Tags { get; set; }
 
 An optional set of tags for the snapshot schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#tags RedshiftSnapshotSchedule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#tags RedshiftSnapshotSchedule#tags}
 
 ---
 
@@ -1032,7 +1032,7 @@ public string Key { get; set; }
 
 The key, or name, for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
 
 ---
 
@@ -1046,7 +1046,7 @@ public string Value { get; set; }
 
 The value for the resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
 
 ---
 

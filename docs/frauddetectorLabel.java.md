@@ -4,7 +4,7 @@
 
 ### FrauddetectorLabel <a name="FrauddetectorLabel" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label awscc_frauddetector_label}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label awscc_frauddetector_label}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabel.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#name FrauddetectorLabel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#name FrauddetectorLabel#name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The label description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#description FrauddetectorLabel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#description FrauddetectorLabel#description}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags associated with this label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#tags FrauddetectorLabel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#tags FrauddetectorLabel#tags}
 
 ---
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the FrauddetectorLabel to impo
 
 The id of the existing FrauddetectorLabel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,7 +1027,7 @@ public java.lang.String getName();
 
 The name of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#name FrauddetectorLabel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#name FrauddetectorLabel#name}
 
 ---
 
@@ -1041,7 +1041,7 @@ public java.lang.String getDescription();
 
 The label description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#description FrauddetectorLabel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#description FrauddetectorLabel#description}
 
 ---
 
@@ -1055,7 +1055,7 @@ public IResolvable|java.util.List<FrauddetectorLabelTags> getTags();
 
 Tags associated with this label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#tags FrauddetectorLabel#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#tags FrauddetectorLabel#tags}
 
 ---
 
@@ -1076,8 +1076,8 @@ FrauddetectorLabelTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}. |
-| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}. |
+| <code><a href="#@cdktn/provider-awscc.frauddetectorLabel.FrauddetectorLabelTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}. |
 
 ---
 
@@ -1089,7 +1089,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#key FrauddetectorLabel#key}.
 
 ---
 
@@ -1101,7 +1101,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_label#value FrauddetectorLabel#value}.
 
 ---
 

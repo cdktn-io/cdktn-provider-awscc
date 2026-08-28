@@ -4,7 +4,7 @@
 
 ### DataAwsccQbusinessApplications <a name="DataAwsccQbusinessApplications" id="@cdktn/provider-awscc.dataAwsccQbusinessApplications.DataAwsccQbusinessApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQbusinessApplications.DataAwsccQbusinessApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccQbusinessApplicat
 
 The id of the existing DataAwsccQbusinessApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/qbusiness_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

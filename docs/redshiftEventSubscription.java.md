@@ -4,7 +4,7 @@
 
 ### RedshiftEventSubscription <a name="RedshiftEventSubscription" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.redshiftEventSubscription.RedshiftEventSubscription.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the Amazon Redshift event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
 
 ---
 
@@ -130,7 +130,7 @@ A boolean value;
 
 set to true to activate the subscription, and set to false to create the subscription but not activate it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the Amazon Redshift event categories to be published by the event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the Amazon Redshift event severity to be published by the event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic used to transmit the event notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of one or more identifiers of Amazon Redshift source objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of source that will be generating the events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
 
 ---
 
@@ -701,7 +701,7 @@ The construct id used in the generated config for the RedshiftEventSubscription 
 
 The id of the existing RedshiftEventSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1277,7 +1277,7 @@ public java.lang.String getSubscriptionName();
 
 The name of the Amazon Redshift event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
 
 ---
 
@@ -1293,7 +1293,7 @@ A boolean value;
 
 set to true to activate the subscription, and set to false to create the subscription but not activate it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
 
 ---
 
@@ -1307,7 +1307,7 @@ public java.util.List<java.lang.String> getEventCategories();
 
 Specifies the Amazon Redshift event categories to be published by the event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
 
 ---
 
@@ -1321,7 +1321,7 @@ public java.lang.String getSeverity();
 
 Specifies the Amazon Redshift event severity to be published by the event notification subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
 
 ---
 
@@ -1335,7 +1335,7 @@ public java.lang.String getSnsTopicArn();
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic used to transmit the event notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
 
 ---
 
@@ -1349,7 +1349,7 @@ public java.util.List<java.lang.String> getSourceIds();
 
 A list of one or more identifiers of Amazon Redshift source objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
 
 ---
 
@@ -1363,7 +1363,7 @@ public java.lang.String getSourceType();
 
 The type of source that will be generating the events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
 
 ---
 
@@ -1377,7 +1377,7 @@ public IResolvable|java.util.List<RedshiftEventSubscriptionTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
 
 ---
 
@@ -1415,7 +1415,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#key RedshiftEventSubscription#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#key RedshiftEventSubscription#key}
 
 ---
 
@@ -1431,7 +1431,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_event_subscription#value RedshiftEventSubscription#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/redshift_event_subscription#value RedshiftEventSubscription#value}
 
 ---
 

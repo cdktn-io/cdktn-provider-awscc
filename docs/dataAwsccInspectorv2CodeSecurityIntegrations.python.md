@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorv2CodeSecurityIntegrations <a name="DataAwsccInspectorv2CodeSecurityIntegrations" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CodeSecurityIntegrations.DataAwsccInspectorv2CodeSecurityIntegrations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2CodeSe
 
 The id of the existing DataAwsccInspectorv2CodeSecurityIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_code_security_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_code_security_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

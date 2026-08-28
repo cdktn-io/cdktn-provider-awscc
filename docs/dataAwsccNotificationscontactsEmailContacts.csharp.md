@@ -4,7 +4,7 @@
 
 ### DataAwsccNotificationscontactsEmailContacts <a name="DataAwsccNotificationscontactsEmailContacts" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContacts.DataAwsccNotificationscontactsEmailContacts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNotificationscontactsEmailContacts.DataAwsccNotificationscontactsEmailContacts.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNotificationscont
 
 The id of the existing DataAwsccNotificationscontactsEmailContacts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notificationscontacts_email_contacts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notificationscontacts_email_contacts#import import section} in the documentation of this resource for the id to use
 
 ---
 

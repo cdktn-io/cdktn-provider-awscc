@@ -4,7 +4,7 @@
 
 ### EcrPullThroughCacheRule <a name="EcrPullThroughCacheRule" id="@cdktn/provider-awscc.ecrPullThroughCacheRule.EcrPullThroughCacheRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrPullThroughCacheRule.EcrPullThroughCacheRule.Initializer"></a>
 
@@ -531,7 +531,7 @@ The construct id used in the generated config for the EcrPullThroughCacheRule to
 
 The id of the existing EcrPullThroughCacheRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -979,7 +979,7 @@ public readonly credentialArn: string;
 
 The ARN of the Secrets Manager secret associated with the pull through cache rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#credential_arn EcrPullThroughCacheRule#credential_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#credential_arn EcrPullThroughCacheRule#credential_arn}
 
 ---
 
@@ -993,7 +993,7 @@ public readonly customRoleArn: string;
 
 The ARN of the IAM role associated with the pull through cache rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#custom_role_arn EcrPullThroughCacheRule#custom_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#custom_role_arn EcrPullThroughCacheRule#custom_role_arn}
 
 ---
 
@@ -1007,7 +1007,7 @@ public readonly ecrRepositoryPrefix: string;
 
 The Amazon ECR repository prefix associated with the pull through cache rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#ecr_repository_prefix EcrPullThroughCacheRule#ecr_repository_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#ecr_repository_prefix EcrPullThroughCacheRule#ecr_repository_prefix}
 
 ---
 
@@ -1021,7 +1021,7 @@ public readonly upstreamRegistry: string;
 
 The name of the upstream source registry associated with the pull through cache rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#upstream_registry EcrPullThroughCacheRule#upstream_registry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#upstream_registry EcrPullThroughCacheRule#upstream_registry}
 
 ---
 
@@ -1035,7 +1035,7 @@ public readonly upstreamRegistryUrl: string;
 
 The upstream registry URL associated with the pull through cache rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#upstream_registry_url EcrPullThroughCacheRule#upstream_registry_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#upstream_registry_url EcrPullThroughCacheRule#upstream_registry_url}
 
 ---
 
@@ -1049,7 +1049,7 @@ public readonly upstreamRepositoryPrefix: string;
 
 The upstream repository prefix associated with the pull through cache rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_pull_through_cache_rule#upstream_repository_prefix EcrPullThroughCacheRule#upstream_repository_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_pull_through_cache_rule#upstream_repository_prefix EcrPullThroughCacheRule#upstream_repository_prefix}
 
 ---
 

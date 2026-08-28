@@ -4,7 +4,7 @@
 
 ### DataAwsccIamGroups <a name="DataAwsccIamGroups" id="@cdktn/provider-awscc.dataAwsccIamGroups.DataAwsccIamGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_groups awscc_iam_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_groups awscc_iam_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIamGroups.DataAwsccIamGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIamGroups to impo
 
 The id of the existing DataAwsccIamGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

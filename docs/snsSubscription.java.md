@@ -4,7 +4,7 @@
 
 ### SnsSubscription <a name="SnsSubscription" id="@cdktn/provider-awscc.snsSubscription.SnsSubscription"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription awscc_sns_subscription}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription awscc_sns_subscription}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.snsSubscription.SnsSubscription.Initializer"></a>
 
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The subscription's protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#protocol SnsSubscription#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#protocol SnsSubscription#protocol}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the topic to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#topic_arn SnsSubscription#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#topic_arn SnsSubscription#topic_arn}
 
 ---
 
@@ -146,7 +146,7 @@ The delivery policy JSON assigned to the subscription.
 
 Enables the subscriber to define the message delivery retry strategy in the case of an HTTP/S endpoint subscribed to the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#delivery_policy SnsSubscription#delivery_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#delivery_policy SnsSubscription#delivery_policy}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The subscription's endpoint. The endpoint value depends on the protocol that you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#endpoint SnsSubscription#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#endpoint SnsSubscription#endpoint}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The filter policy JSON assigned to the subscription. Enables the subscriber to filter out unwanted messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#filter_policy SnsSubscription#filter_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#filter_policy SnsSubscription#filter_policy}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This attribute lets you choose the filtering scope by using one of the following string value types: MessageAttributes (default) and MessageBody.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#filter_policy_scope SnsSubscription#filter_policy_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#filter_policy_scope SnsSubscription#filter_policy_scope}
 
 ---
 
@@ -188,7 +188,7 @@ When set to true, enables raw message delivery.
 
 Raw messages don't contain any JSON formatting and can be sent to Amazon SQS and HTTP/S endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#raw_message_delivery SnsSubscription#raw_message_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#raw_message_delivery SnsSubscription#raw_message_delivery}
 
 ---
 
@@ -200,7 +200,7 @@ When specified, sends undeliverable messages to the specified Amazon SQS dead-le
 
 Messages that can't be delivered due to client errors are held in the dead-letter queue for further analysis or reprocessing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#redrive_policy SnsSubscription#redrive_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#redrive_policy SnsSubscription#redrive_policy}
 
 ---
 
@@ -210,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For cross-region subscriptions, the region in which the topic resides.If no region is specified, AWS CloudFormation uses the region of the caller as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#region SnsSubscription#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#region SnsSubscription#region}
 
 ---
 
@@ -220,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether Amazon SNS resends the notification to the subscription when a message's attribute changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#replay_policy SnsSubscription#replay_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#replay_policy SnsSubscription#replay_policy}
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This property applies only to Amazon Data Firehose delivery stream subscriptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#subscription_role_arn SnsSubscription#subscription_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#subscription_role_arn SnsSubscription#subscription_role_arn}
 
 ---
 
@@ -742,7 +742,7 @@ The construct id used in the generated config for the SnsSubscription to import.
 
 The id of the existing SnsSubscription that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1335,7 +1335,7 @@ public java.lang.String getProtocol();
 
 The subscription's protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#protocol SnsSubscription#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#protocol SnsSubscription#protocol}
 
 ---
 
@@ -1349,7 +1349,7 @@ public java.lang.String getTopicArn();
 
 The ARN of the topic to subscribe to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#topic_arn SnsSubscription#topic_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#topic_arn SnsSubscription#topic_arn}
 
 ---
 
@@ -1365,7 +1365,7 @@ The delivery policy JSON assigned to the subscription.
 
 Enables the subscriber to define the message delivery retry strategy in the case of an HTTP/S endpoint subscribed to the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#delivery_policy SnsSubscription#delivery_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#delivery_policy SnsSubscription#delivery_policy}
 
 ---
 
@@ -1379,7 +1379,7 @@ public java.lang.String getEndpoint();
 
 The subscription's endpoint. The endpoint value depends on the protocol that you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#endpoint SnsSubscription#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#endpoint SnsSubscription#endpoint}
 
 ---
 
@@ -1393,7 +1393,7 @@ public java.lang.String getFilterPolicy();
 
 The filter policy JSON assigned to the subscription. Enables the subscriber to filter out unwanted messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#filter_policy SnsSubscription#filter_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#filter_policy SnsSubscription#filter_policy}
 
 ---
 
@@ -1407,7 +1407,7 @@ public java.lang.String getFilterPolicyScope();
 
 This attribute lets you choose the filtering scope by using one of the following string value types: MessageAttributes (default) and MessageBody.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#filter_policy_scope SnsSubscription#filter_policy_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#filter_policy_scope SnsSubscription#filter_policy_scope}
 
 ---
 
@@ -1423,7 +1423,7 @@ When set to true, enables raw message delivery.
 
 Raw messages don't contain any JSON formatting and can be sent to Amazon SQS and HTTP/S endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#raw_message_delivery SnsSubscription#raw_message_delivery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#raw_message_delivery SnsSubscription#raw_message_delivery}
 
 ---
 
@@ -1439,7 +1439,7 @@ When specified, sends undeliverable messages to the specified Amazon SQS dead-le
 
 Messages that can't be delivered due to client errors are held in the dead-letter queue for further analysis or reprocessing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#redrive_policy SnsSubscription#redrive_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#redrive_policy SnsSubscription#redrive_policy}
 
 ---
 
@@ -1453,7 +1453,7 @@ public java.lang.String getRegion();
 
 For cross-region subscriptions, the region in which the topic resides.If no region is specified, AWS CloudFormation uses the region of the caller as the default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#region SnsSubscription#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#region SnsSubscription#region}
 
 ---
 
@@ -1467,7 +1467,7 @@ public java.lang.String getReplayPolicy();
 
 Specifies whether Amazon SNS resends the notification to the subscription when a message's attribute changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#replay_policy SnsSubscription#replay_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#replay_policy SnsSubscription#replay_policy}
 
 ---
 
@@ -1481,7 +1481,7 @@ public java.lang.String getSubscriptionRoleArn();
 
 This property applies only to Amazon Data Firehose delivery stream subscriptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sns_subscription#subscription_role_arn SnsSubscription#subscription_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_subscription#subscription_role_arn SnsSubscription#subscription_role_arn}
 
 ---
 

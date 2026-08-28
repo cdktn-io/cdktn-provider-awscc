@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchDashboards <a name="DataAwsccCloudwatchDashboards" id="@cdktn/provider-awscc.dataAwsccCloudwatchDashboards.DataAwsccCloudwatchDashboards"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_dashboards awscc_cloudwatch_dashboards}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_dashboards awscc_cloudwatch_dashboards}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchDashboards.DataAwsccCloudwatchDashboards.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchDashboa
 
 The id of the existing DataAwsccCloudwatchDashboards that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_dashboards#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_dashboards#import import section} in the documentation of this resource for the id to use
 
 ---
 

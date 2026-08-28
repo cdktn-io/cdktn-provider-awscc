@@ -4,7 +4,7 @@
 
 ### CodedeployApplication <a name="CodedeployApplication" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployApplication.CodedeployApplication.Initializer"></a>
 
@@ -110,7 +110,7 @@ A name for the application.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The compute platform that CodeDeploy deploys the application to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
 
 ---
 
@@ -132,7 +132,7 @@ The metadata that you apply to CodeDeploy applications to help you organize and 
 
 Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the CodedeployApplication to i
 
 The id of the existing CodedeployApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1007,7 +1007,7 @@ A name for the application.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
 
 ---
 
@@ -1021,7 +1021,7 @@ public java.lang.String getComputePlatform();
 
 The compute platform that CodeDeploy deploys the application to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
 
 ---
 
@@ -1037,7 +1037,7 @@ The metadata that you apply to CodeDeploy applications to help you organize and 
 
 Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
 
 ---
 
@@ -1058,8 +1058,8 @@ CodedeployApplicationTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#key CodedeployApplication#key}. |
-| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#value CodedeployApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#key CodedeployApplication#key}. |
+| <code><a href="#@cdktn/provider-awscc.codedeployApplication.CodedeployApplicationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#value CodedeployApplication#value}. |
 
 ---
 
@@ -1071,7 +1071,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#key CodedeployApplication#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#key CodedeployApplication#key}.
 
 ---
 
@@ -1083,7 +1083,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#value CodedeployApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#value CodedeployApplication#value}.
 
 ---
 

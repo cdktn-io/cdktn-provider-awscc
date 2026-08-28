@@ -4,7 +4,7 @@
 
 ### DeadlineFarm <a name="DeadlineFarm" id="@cdktn/provider-awscc.deadlineFarm.DeadlineFarm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm awscc_deadline_farm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm awscc_deadline_farm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.deadlineFarm.DeadlineFarm.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the DeadlineFarm to import.
 
 The id of the existing DeadlineFarm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -889,10 +889,10 @@ const deadlineFarmConfig: deadlineFarm.DeadlineFarmConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#display_name DeadlineFarm#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.costScaleFactor">costScaleFactor</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#cost_scale_factor DeadlineFarm#cost_scale_factor}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#description DeadlineFarm#description}. |
-| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#kms_key_arn DeadlineFarm#kms_key_arn}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#display_name DeadlineFarm#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.costScaleFactor">costScaleFactor</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#cost_scale_factor DeadlineFarm#cost_scale_factor}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#description DeadlineFarm#description}. |
+| <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#kms_key_arn DeadlineFarm#kms_key_arn}. |
 | <code><a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.deadlineFarm.DeadlineFarmTags">DeadlineFarmTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -975,7 +975,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#display_name DeadlineFarm#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#display_name DeadlineFarm#display_name}.
 
 ---
 
@@ -987,7 +987,7 @@ public readonly costScaleFactor: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#cost_scale_factor DeadlineFarm#cost_scale_factor}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#cost_scale_factor DeadlineFarm#cost_scale_factor}.
 
 ---
 
@@ -999,7 +999,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#description DeadlineFarm#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#description DeadlineFarm#description}.
 
 ---
 
@@ -1011,7 +1011,7 @@ public readonly kmsKeyArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#kms_key_arn DeadlineFarm#kms_key_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#kms_key_arn DeadlineFarm#kms_key_arn}.
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly tags: IResolvable | DeadlineFarmTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#tags DeadlineFarm#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#tags DeadlineFarm#tags}
 
 ---
 
@@ -1060,7 +1060,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#key DeadlineFarm#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#key DeadlineFarm#key}
 
 ---
 
@@ -1076,7 +1076,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_farm#value DeadlineFarm#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_farm#value DeadlineFarm#value}
 
 ---
 

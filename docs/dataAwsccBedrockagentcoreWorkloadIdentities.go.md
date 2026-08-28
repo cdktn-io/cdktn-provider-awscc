@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreWorkloadIdentities <a name="DataAwsccBedrockagentcoreWorkloadIdentities" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentities.DataAwsccBedrockagentcoreWorkloadIdentities"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreWorkloadIdentities.DataAwsccBedrockagentcoreWorkloadIdentities.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreW
 
 The id of the existing DataAwsccBedrockagentcoreWorkloadIdentities that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_workload_identities#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_workload_identities#import import section} in the documentation of this resource for the id to use
 
 ---
 

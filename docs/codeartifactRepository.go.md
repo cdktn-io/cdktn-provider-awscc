@@ -4,7 +4,7 @@
 
 ### CodeartifactRepository <a name="CodeartifactRepository" id="@cdktn/provider-awscc.codeartifactRepository.CodeartifactRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository awscc_codeartifact_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository awscc_codeartifact_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codeartifactRepository.CodeartifactRepository.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the CodeartifactRepository to 
 
 The id of the existing CodeartifactRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1056,7 +1056,7 @@ DomainName *string
 
 The name of the domain that contains the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#domain_name CodeartifactRepository#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#domain_name CodeartifactRepository#domain_name}
 
 ---
 
@@ -1070,7 +1070,7 @@ RepositoryName *string
 
 The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}
 
 ---
 
@@ -1084,7 +1084,7 @@ Description *string
 
 A text description of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#description CodeartifactRepository#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#description CodeartifactRepository#description}
 
 ---
 
@@ -1098,7 +1098,7 @@ ExternalConnections *[]*string
 
 A list of external connections associated with the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#external_connections CodeartifactRepository#external_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#external_connections CodeartifactRepository#external_connections}
 
 ---
 
@@ -1112,7 +1112,7 @@ PermissionsPolicyDocument *string
 
 The access control resource policy on the provided repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#permissions_policy_document CodeartifactRepository#permissions_policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#permissions_policy_document CodeartifactRepository#permissions_policy_document}
 
 ---
 
@@ -1126,7 +1126,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#tags CodeartifactRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#tags CodeartifactRepository#tags}
 
 ---
 
@@ -1140,7 +1140,7 @@ Upstreams *[]*string
 
 A list of upstream repositories associated with the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#upstreams CodeartifactRepository#upstreams}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#upstreams CodeartifactRepository#upstreams}
 
 ---
 
@@ -1178,7 +1178,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#key CodeartifactRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#key CodeartifactRepository#key}
 
 ---
 
@@ -1194,7 +1194,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeartifact_repository#value CodeartifactRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeartifact_repository#value CodeartifactRepository#value}
 
 ---
 

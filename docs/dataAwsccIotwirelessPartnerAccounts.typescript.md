@@ -4,7 +4,7 @@
 
 ### DataAwsccIotwirelessPartnerAccounts <a name="DataAwsccIotwirelessPartnerAccounts" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccounts.DataAwsccIotwirelessPartnerAccounts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_accounts awscc_iotwireless_partner_accounts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_accounts awscc_iotwireless_partner_accounts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotwirelessPartnerAccounts.DataAwsccIotwirelessPartnerAccounts.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotwirelessPartne
 
 The id of the existing DataAwsccIotwirelessPartnerAccounts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_accounts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_accounts#import import section} in the documentation of this resource for the id to use
 
 ---
 

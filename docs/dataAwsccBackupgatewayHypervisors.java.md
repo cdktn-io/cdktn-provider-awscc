@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupgatewayHypervisors <a name="DataAwsccBackupgatewayHypervisors" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupgatewayHypervisors.DataAwsccBackupgatewayHypervisors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBackupgatewayHype
 
 The id of the existing DataAwsccBackupgatewayHypervisors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backupgateway_hypervisors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backupgateway_hypervisors#import import section} in the documentation of this resource for the id to use
 
 ---
 

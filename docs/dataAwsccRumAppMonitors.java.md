@@ -4,7 +4,7 @@
 
 ### DataAwsccRumAppMonitors <a name="DataAwsccRumAppMonitors" id="@cdktn/provider-awscc.dataAwsccRumAppMonitors.DataAwsccRumAppMonitors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rum_app_monitors awscc_rum_app_monitors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rum_app_monitors awscc_rum_app_monitors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRumAppMonitors.DataAwsccRumAppMonitors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRumAppMonitors to
 
 The id of the existing DataAwsccRumAppMonitors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rum_app_monitors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rum_app_monitors#import import section} in the documentation of this resource for the id to use
 
 ---
 

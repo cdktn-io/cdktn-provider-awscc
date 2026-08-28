@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmParameters <a name="DataAwsccSsmParameters" id="@cdktn/provider-awscc.dataAwsccSsmParameters.DataAwsccSsmParameters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmParameters.DataAwsccSsmParameters.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSsmParameters to 
 
 The id of the existing DataAwsccSsmParameters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssm_parameters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_parameters#import import section} in the documentation of this resource for the id to use
 
 ---
 

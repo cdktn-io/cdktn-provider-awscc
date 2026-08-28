@@ -4,7 +4,7 @@
 
 ### DevopsguruResourceCollection <a name="DevopsguruResourceCollection" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection awscc_devopsguru_resource_collection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection awscc_devopsguru_resource_collection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsguruResourceCollection.DevopsguruResourceCollection.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the DevopsguruResourceCollecti
 
 The id of the existing DevopsguruResourceCollection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ public DevopsguruResourceCollectionResourceCollectionFilter ResourceCollectionFi
 
 Information about a filter used to specify which AWS resources are analyzed for anomalous behavior by DevOps Guru.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
 
 ---
 
@@ -891,7 +891,7 @@ public DevopsguruResourceCollectionResourceCollectionFilterCloudformation Cloudf
 
 CloudFormation resource for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#cloudformation DevopsguruResourceCollection#cloudformation}
 
 ---
 
@@ -905,7 +905,7 @@ public IResolvable|DevopsguruResourceCollectionResourceCollectionFilterTags[] Ta
 
 Tagged resources for DevOps Guru to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#tags DevopsguruResourceCollection#tags}
 
 ---
 
@@ -939,7 +939,7 @@ public string[] StackNames { get; set; }
 
 An array of CloudFormation stack names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#stack_names DevopsguruResourceCollection#stack_names}
 
 ---
 
@@ -975,7 +975,7 @@ public string AppBoundaryKey { get; set; }
 
 A Tag key for DevOps Guru app boundary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#app_boundary_key DevopsguruResourceCollection#app_boundary_key}
 
 ---
 
@@ -989,7 +989,7 @@ public string[] TagValues { get; set; }
 
 Tag values of DevOps Guru app boundary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#tag_values DevopsguruResourceCollection#tag_values}
 
 ---
 

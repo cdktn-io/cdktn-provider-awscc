@@ -4,7 +4,7 @@
 
 ### DataAwsccOpensearchserviceApplications <a name="DataAwsccOpensearchserviceApplications" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/opensearchservice_applications awscc_opensearchservice_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearchservice_applications awscc_opensearchservice_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOpensearchserviceApplications.DataAwsccOpensearchserviceApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccOpensearchservice
 
 The id of the existing DataAwsccOpensearchserviceApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/opensearchservice_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearchservice_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccLocationPlaceIndex <a name="DataAwsccLocationPlaceIndex" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_place_index awscc_location_place_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/location_place_index awscc_location_place_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLocationPlaceIndex.DataAwsccLocationPlaceIndex.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLocationPlaceInde
 
 The id of the existing DataAwsccLocationPlaceIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_place_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/location_place_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/location_place_index#id DataAwsccLocationPlaceIndex#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/location_place_index#id DataAwsccLocationPlaceIndex#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### SecurityagentArtifact <a name="SecurityagentArtifact" id="@cdktn/provider-awscc.securityagentArtifact.SecurityagentArtifact"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact awscc_securityagent_artifact}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact awscc_securityagent_artifact}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityagentArtifact.SecurityagentArtifact.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The unique identifier of the agent space to add the artifact to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#agent_space_id SecurityagentArtifact#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#agent_space_id SecurityagentArtifact#agent_space_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The file type of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#artifact_type SecurityagentArtifact#artifact_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#artifact_type SecurityagentArtifact#artifact_type}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The file name of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#file_name SecurityagentArtifact#file_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#file_name SecurityagentArtifact#file_name}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The binary content of the artifact to upload, encoded as a Base64 string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#artifact_content SecurityagentArtifact#artifact_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#artifact_content SecurityagentArtifact#artifact_content}
 
 ---
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the SecurityagentArtifact to i
 
 The id of the existing SecurityagentArtifact that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1043,7 +1043,7 @@ public java.lang.String getAgentSpaceId();
 
 The unique identifier of the agent space to add the artifact to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#agent_space_id SecurityagentArtifact#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#agent_space_id SecurityagentArtifact#agent_space_id}
 
 ---
 
@@ -1057,7 +1057,7 @@ public java.lang.String getArtifactType();
 
 The file type of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#artifact_type SecurityagentArtifact#artifact_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#artifact_type SecurityagentArtifact#artifact_type}
 
 ---
 
@@ -1071,7 +1071,7 @@ public java.lang.String getFileName();
 
 The file name of the artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#file_name SecurityagentArtifact#file_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#file_name SecurityagentArtifact#file_name}
 
 ---
 
@@ -1085,7 +1085,7 @@ public java.lang.String getArtifactContent();
 
 The binary content of the artifact to upload, encoded as a Base64 string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_artifact#artifact_content SecurityagentArtifact#artifact_content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityagent_artifact#artifact_content SecurityagentArtifact#artifact_content}
 
 ---
 

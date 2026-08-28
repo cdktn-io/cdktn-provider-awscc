@@ -4,7 +4,7 @@
 
 ### LakeformationPrincipalPermissions <a name="LakeformationPrincipalPermissions" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationPrincipalPermissions.LakeformationPrincipalPermissions.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the LakeformationPrincipalPerm
 
 The id of the existing LakeformationPrincipalPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -982,7 +982,7 @@ Permissions *[]*string
 
 The permissions granted or revoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#permissions LakeformationPrincipalPermissions#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#permissions LakeformationPrincipalPermissions#permissions}
 
 ---
 
@@ -996,7 +996,7 @@ PermissionsWithGrantOption *[]*string
 
 Indicates the ability to grant permissions (as a subset of permissions granted).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#permissions_with_grant_option LakeformationPrincipalPermissions#permissions_with_grant_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#permissions_with_grant_option LakeformationPrincipalPermissions#permissions_with_grant_option}
 
 ---
 
@@ -1010,7 +1010,7 @@ Principal LakeformationPrincipalPermissionsPrincipal
 
 The principal to be granted a permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#principal LakeformationPrincipalPermissions#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#principal LakeformationPrincipalPermissions#principal}
 
 ---
 
@@ -1024,7 +1024,7 @@ Resource LakeformationPrincipalPermissionsResource
 
 The resource to be granted or revoked permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#resource LakeformationPrincipalPermissions#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#resource LakeformationPrincipalPermissions#resource}
 
 ---
 
@@ -1040,7 +1040,7 @@ The identifier for the GLUDC.
 
 By default, the account ID. The GLUDC is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your Lake Formation environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
 
 ---
 
@@ -1074,7 +1074,7 @@ DataLakePrincipalIdentifier *string
 
 An identifier for the LFlong principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#data_lake_principal_identifier LakeformationPrincipalPermissions#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#data_lake_principal_identifier LakeformationPrincipalPermissions#data_lake_principal_identifier}
 
 ---
 
@@ -1124,7 +1124,7 @@ The identifier for the Data Catalog.
 
 By default, the account ID. The Data Catalog is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your LFlong environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog LakeformationPrincipalPermissions#catalog}
 
 ---
 
@@ -1140,7 +1140,7 @@ The database for the resource.
 
 Unique to the Data Catalog. A database is a set of associated table definitions organized into a logical group. You can Grant and Revoke database permissions to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#database LakeformationPrincipalPermissions#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#database LakeformationPrincipalPermissions#database}
 
 ---
 
@@ -1154,7 +1154,7 @@ DataCellsFilter LakeformationPrincipalPermissionsResourceDataCellsFilter
 
 A data cell filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#data_cells_filter LakeformationPrincipalPermissions#data_cells_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#data_cells_filter LakeformationPrincipalPermissions#data_cells_filter}
 
 ---
 
@@ -1168,7 +1168,7 @@ DataLocation LakeformationPrincipalPermissionsResourceDataLocation
 
 The location of an Amazon S3 path where permissions are granted or revoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#data_location LakeformationPrincipalPermissions#data_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#data_location LakeformationPrincipalPermissions#data_location}
 
 ---
 
@@ -1182,7 +1182,7 @@ LfTag LakeformationPrincipalPermissionsResourceLfTag
 
 The LF-tag key and values attached to a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#lf_tag LakeformationPrincipalPermissions#lf_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#lf_tag LakeformationPrincipalPermissions#lf_tag}
 
 ---
 
@@ -1196,7 +1196,7 @@ LfTagPolicy LakeformationPrincipalPermissionsResourceLfTagPolicy
 
 A list of LF-tag conditions that define a resource's LF-tag policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#lf_tag_policy LakeformationPrincipalPermissions#lf_tag_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#lf_tag_policy LakeformationPrincipalPermissions#lf_tag_policy}
 
 ---
 
@@ -1212,7 +1212,7 @@ The table for the resource.
 
 A table is a metadata definition that represents your data. You can Grant and Revoke table privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#table LakeformationPrincipalPermissions#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#table LakeformationPrincipalPermissions#table}
 
 ---
 
@@ -1228,7 +1228,7 @@ The table with columns for the resource.
 
 A principal with permissions to this resource can select metadata from the columns of a table in the Data Catalog and the underlying data in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#table_with_columns LakeformationPrincipalPermissions#table_with_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#table_with_columns LakeformationPrincipalPermissions#table_with_columns}
 
 ---
 
@@ -1264,7 +1264,7 @@ CatalogId *string
 
 The identifier for the Data Catalog. By default, it is the account ID of the caller.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1278,7 +1278,7 @@ Name *string
 
 The name of the database resource. Unique to the Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1318,7 +1318,7 @@ DatabaseName *string
 
 A database in the GLUDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
 
 ---
 
@@ -1332,7 +1332,7 @@ Name *string
 
 The name given by the user to the data filter cell.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1346,7 +1346,7 @@ TableCatalogId *string
 
 The ID of the catalog to which the table belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#table_catalog_id LakeformationPrincipalPermissions#table_catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#table_catalog_id LakeformationPrincipalPermissions#table_catalog_id}
 
 ---
 
@@ -1360,7 +1360,7 @@ TableName *string
 
 The name of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#table_name LakeformationPrincipalPermissions#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#table_name LakeformationPrincipalPermissions#table_name}
 
 ---
 
@@ -1396,7 +1396,7 @@ CatalogId *string
 
 The identifier for the GLUDC where the location is registered with LFlong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1410,7 +1410,7 @@ ResourceArn *string
 
 The Amazon Resource Name (ARN) that uniquely identifies the data location resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#resource_arn LakeformationPrincipalPermissions#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#resource_arn LakeformationPrincipalPermissions#resource_arn}
 
 ---
 
@@ -1448,7 +1448,7 @@ CatalogId *string
 
 The identifier for the GLUDC where the location is registered with GLUDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1462,7 +1462,7 @@ TagKey *string
 
 The key-name for the LF-tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
 
 ---
 
@@ -1476,7 +1476,7 @@ TagValues *[]*string
 
 A list of possible values for the corresponding ``TagKey`` of an LF-tag key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
 
 ---
 
@@ -1516,7 +1516,7 @@ The identifier for the GLUDC.
 
 The GLUDC is the persistent metadata store. It contains database definitions, table definitions, and other control information to manage your LFlong environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1530,7 +1530,7 @@ Expression interface{}
 
 A list of LF-tag conditions that apply to the resource's LF-tag policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#expression LakeformationPrincipalPermissions#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#expression LakeformationPrincipalPermissions#expression}
 
 ---
 
@@ -1544,7 +1544,7 @@ ResourceType *string
 
 The resource type for which the LF-tag policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#resource_type LakeformationPrincipalPermissions#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#resource_type LakeformationPrincipalPermissions#resource_type}
 
 ---
 
@@ -1580,7 +1580,7 @@ TagKey *string
 
 The key-name for the LF-tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#tag_key LakeformationPrincipalPermissions#tag_key}
 
 ---
 
@@ -1594,7 +1594,7 @@ TagValues *[]*string
 
 A list of possible values of the corresponding ``TagKey`` of an LF-tag key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#tag_values LakeformationPrincipalPermissions#tag_values}
 
 ---
 
@@ -1634,7 +1634,7 @@ CatalogId *string
 
 The identifier for the Data Catalog. By default, it is the account ID of the caller.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1650,7 +1650,7 @@ The name of the database for the table.
 
 Unique to a Data Catalog. A database is a set of associated table definitions organized into a logical group. You can Grant and Revoke database privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
 
 ---
 
@@ -1664,7 +1664,7 @@ Name *string
 
 The name of the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1678,7 +1678,7 @@ TableWildcard *string
 
 A wildcard object representing every table under a database.  At least one of ``TableResource$Name`` or ``TableResource$TableWildcard`` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#table_wildcard LakeformationPrincipalPermissions#table_wildcard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#table_wildcard LakeformationPrincipalPermissions#table_wildcard}
 
 ---
 
@@ -1720,7 +1720,7 @@ CatalogId *string
 
 The identifier for the GLUDC where the location is registered with LFlong.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#catalog_id LakeformationPrincipalPermissions#catalog_id}
 
 ---
 
@@ -1734,7 +1734,7 @@ ColumnNames *[]*string
 
 The list of column names for the table. At least one of ``ColumnNames`` or ``ColumnWildcard`` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#column_names LakeformationPrincipalPermissions#column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#column_names LakeformationPrincipalPermissions#column_names}
 
 ---
 
@@ -1748,7 +1748,7 @@ ColumnWildcard LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWi
 
 A wildcard specified by a ``ColumnWildcard`` object. At least one of ``ColumnNames`` or ``ColumnWildcard`` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#column_wildcard LakeformationPrincipalPermissions#column_wildcard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#column_wildcard LakeformationPrincipalPermissions#column_wildcard}
 
 ---
 
@@ -1764,7 +1764,7 @@ The name of the database for the table with columns resource.
 
 Unique to the Data Catalog. A database is a set of associated table definitions organized into a logical group. You can Grant and Revoke database privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#database_name LakeformationPrincipalPermissions#database_name}
 
 ---
 
@@ -1780,7 +1780,7 @@ The name of the table resource.
 
 A table is a metadata definition that represents your data. You can Grant and Revoke table privileges to a principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#name LakeformationPrincipalPermissions#name}
 
 ---
 
@@ -1814,7 +1814,7 @@ ExcludedColumnNames *[]*string
 
 Excludes column names. Any column with this name will be excluded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lakeformation_principal_permissions#excluded_column_names LakeformationPrincipalPermissions#excluded_column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lakeformation_principal_permissions#excluded_column_names LakeformationPrincipalPermissions#excluded_column_names}
 
 ---
 

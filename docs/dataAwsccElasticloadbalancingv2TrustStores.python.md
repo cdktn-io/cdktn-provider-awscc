@@ -4,7 +4,7 @@
 
 ### DataAwsccElasticloadbalancingv2TrustStores <a name="DataAwsccElasticloadbalancingv2TrustStores" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStores.DataAwsccElasticloadbalancingv2TrustStores"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_trust_stores awscc_elasticloadbalancingv2_trust_stores}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticloadbalancingv2_trust_stores awscc_elasticloadbalancingv2_trust_stores}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccElasticloadbalancingv2TrustStores.DataAwsccElasticloadbalancingv2TrustStores.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccElasticloadbalanc
 
 The id of the existing DataAwsccElasticloadbalancingv2TrustStores that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_trust_stores#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticloadbalancingv2_trust_stores#import import section} in the documentation of this resource for the id to use
 
 ---
 

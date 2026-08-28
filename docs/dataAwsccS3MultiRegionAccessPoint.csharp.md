@@ -4,7 +4,7 @@
 
 ### DataAwsccS3MultiRegionAccessPoint <a name="DataAwsccS3MultiRegionAccessPoint" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoint.DataAwsccS3MultiRegionAccessPoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_multi_region_access_point awscc_s3_multi_region_access_point}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_multi_region_access_point awscc_s3_multi_region_access_point}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3MultiRegionAccessPoint.DataAwsccS3MultiRegionAccessPoint.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3MultiRegionAcce
 
 The id of the existing DataAwsccS3MultiRegionAccessPoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_multi_region_access_point#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_multi_region_access_point#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -751,7 +751,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_multi_region_access_point#id DataAwsccS3MultiRegionAccessPoint#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_multi_region_access_point#id DataAwsccS3MultiRegionAccessPoint#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

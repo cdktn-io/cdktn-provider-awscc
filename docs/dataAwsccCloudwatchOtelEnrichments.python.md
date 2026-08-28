@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchOtelEnrichments <a name="DataAwsccCloudwatchOtelEnrichments" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_otel_enrichments awscc_cloudwatch_otel_enrichments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_otel_enrichments awscc_cloudwatch_otel_enrichments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchOtelEnrichments.DataAwsccCloudwatchOtelEnrichments.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchOtelEnr
 
 The id of the existing DataAwsccCloudwatchOtelEnrichments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_otel_enrichments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_otel_enrichments#import import section} in the documentation of this resource for the id to use
 
 ---
 

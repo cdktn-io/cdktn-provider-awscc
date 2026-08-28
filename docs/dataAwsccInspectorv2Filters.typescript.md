@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorv2Filters <a name="DataAwsccInspectorv2Filters" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Filters.DataAwsccInspectorv2Filters.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2Filter
 
 The id of the existing DataAwsccInspectorv2Filters that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_filters#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_filters#import import section} in the documentation of this resource for the id to use
 
 ---
 

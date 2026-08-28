@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53HealthChecks <a name="DataAwsccRoute53HealthChecks" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_health_checks awscc_route53_health_checks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_health_checks awscc_route53_health_checks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HealthChecks.DataAwsccRoute53HealthChecks.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRoute53HealthChec
 
 The id of the existing DataAwsccRoute53HealthChecks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_health_checks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_health_checks#import import section} in the documentation of this resource for the id to use
 
 ---
 

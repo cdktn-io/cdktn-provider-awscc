@@ -4,7 +4,7 @@
 
 ### DataAwsccCertificatemanagerAcmeEndpoints <a name="DataAwsccCertificatemanagerAcmeEndpoints" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeEndpoints.DataAwsccCertificatemanagerAcmeEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/certificatemanager_acme_endpoints awscc_certificatemanager_acme_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_endpoints awscc_certificatemanager_acme_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerAcmeEndpoints.DataAwsccCertificatemanagerAcmeEndpoints.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCertificatemanage
 
 The id of the existing DataAwsccCertificatemanagerAcmeEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/certificatemanager_acme_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

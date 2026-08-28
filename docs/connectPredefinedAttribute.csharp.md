@@ -4,7 +4,7 @@
 
 ### ConnectPredefinedAttribute <a name="ConnectPredefinedAttribute" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectPredefinedAttribute.ConnectPredefinedAttribute.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the ConnectPredefinedAttribute
 
 The id of the existing ConnectPredefinedAttribute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -906,7 +906,7 @@ public bool|IResolvable EnableValueValidationOnAssociation { get; set; }
 
 Enables customers to enforce strict validation on the specific values that this predefined attribute can hold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#enable_value_validation_on_association ConnectPredefinedAttribute#enable_value_validation_on_association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#enable_value_validation_on_association ConnectPredefinedAttribute#enable_value_validation_on_association}
 
 ---
 
@@ -920,7 +920,7 @@ public bool|IResolvable IsReadOnly { get; set; }
 
 Allows the predefined attribute to show up and be managed in the Amazon Connect UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#is_read_only ConnectPredefinedAttribute#is_read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#is_read_only ConnectPredefinedAttribute#is_read_only}
 
 ---
 
@@ -1046,7 +1046,7 @@ public string InstanceArn { get; set; }
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
 
 ---
 
@@ -1060,7 +1060,7 @@ public string Name { get; set; }
 
 The name of the predefined attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
 
 ---
 
@@ -1074,7 +1074,7 @@ public ConnectPredefinedAttributeAttributeConfiguration AttributeConfiguration {
 
 Custom metadata associated to a Predefined attribute that controls how the attribute behaves when used by upstream services.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
 
 ---
 
@@ -1088,7 +1088,7 @@ public string[] Purposes { get; set; }
 
 The assigned purposes of the predefined attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
 
 ---
 
@@ -1102,7 +1102,7 @@ public ConnectPredefinedAttributeValues Values { get; set; }
 
 The values of a predefined attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
 
 ---
 
@@ -1136,7 +1136,7 @@ public string[] StringList { get; set; }
 
 Predefined attribute values of type string list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#string_list ConnectPredefinedAttribute#string_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#string_list ConnectPredefinedAttribute#string_list}
 
 ---
 

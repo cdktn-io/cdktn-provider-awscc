@@ -4,7 +4,7 @@
 
 ### IotsitewiseProject <a name="IotsitewiseProject" id="@cdktn/provider-awscc.iotsitewiseProject.IotsitewiseProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project awscc_iotsitewise_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project awscc_iotsitewise_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseProject.IotsitewiseProject.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IotsitewiseProject to impo
 
 The id of the existing IotsitewiseProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -983,7 +983,7 @@ public string PortalId { get; set; }
 
 The ID of the portal in which to create the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#portal_id IotsitewiseProject#portal_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#portal_id IotsitewiseProject#portal_id}
 
 ---
 
@@ -997,7 +997,7 @@ public string ProjectName { get; set; }
 
 A friendly name for the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#project_name IotsitewiseProject#project_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#project_name IotsitewiseProject#project_name}
 
 ---
 
@@ -1011,7 +1011,7 @@ public string[] AssetIds { get; set; }
 
 The IDs of the assets to be associated to the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#asset_ids IotsitewiseProject#asset_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#asset_ids IotsitewiseProject#asset_ids}
 
 ---
 
@@ -1025,7 +1025,7 @@ public string ProjectDescription { get; set; }
 
 A description for the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#project_description IotsitewiseProject#project_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#project_description IotsitewiseProject#project_description}
 
 ---
 
@@ -1039,7 +1039,7 @@ public IResolvable|IotsitewiseProjectTags[] Tags { get; set; }
 
 A list of key-value pairs that contain metadata for the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#tags IotsitewiseProject#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#tags IotsitewiseProject#tags}
 
 ---
 
@@ -1060,8 +1060,8 @@ new IotsitewiseProjectTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseProject.IotsitewiseProjectTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#key IotsitewiseProject#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseProject.IotsitewiseProjectTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#value IotsitewiseProject#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseProject.IotsitewiseProjectTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#key IotsitewiseProject#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseProject.IotsitewiseProjectTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#value IotsitewiseProject#value}. |
 
 ---
 
@@ -1073,7 +1073,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#key IotsitewiseProject#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#key IotsitewiseProject#key}.
 
 ---
 
@@ -1085,7 +1085,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_project#value IotsitewiseProject#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_project#value IotsitewiseProject#value}.
 
 ---
 

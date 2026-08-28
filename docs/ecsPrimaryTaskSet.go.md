@@ -4,7 +4,7 @@
 
 ### EcsPrimaryTaskSet <a name="EcsPrimaryTaskSet" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsPrimaryTaskSet.EcsPrimaryTaskSet.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the EcsPrimaryTaskSet to impor
 
 The id of the existing EcsPrimaryTaskSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_primary_task_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_primary_task_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -879,7 +879,7 @@ Cluster *string
 
 The short name or full Amazon Resource Name (ARN) of the cluster that hosts the service to create the task set in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_primary_task_set#cluster EcsPrimaryTaskSet#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_primary_task_set#cluster EcsPrimaryTaskSet#cluster}
 
 ---
 
@@ -893,7 +893,7 @@ Service *string
 
 The short name or full Amazon Resource Name (ARN) of the service to create the task set in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_primary_task_set#service EcsPrimaryTaskSet#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_primary_task_set#service EcsPrimaryTaskSet#service}
 
 ---
 
@@ -907,7 +907,7 @@ TaskSetId *string
 
 The ID or full Amazon Resource Name (ARN) of the task set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_primary_task_set#task_set_id EcsPrimaryTaskSet#task_set_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_primary_task_set#task_set_id EcsPrimaryTaskSet#task_set_id}
 
 ---
 

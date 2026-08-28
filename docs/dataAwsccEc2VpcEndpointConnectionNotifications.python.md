@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2VpcEndpointConnectionNotifications <a name="DataAwsccEc2VpcEndpointConnectionNotifications" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcEndpointConnectionNotifications.DataAwsccEc2VpcEndpointConnectionNotifications.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcEndpointCon
 
 The id of the existing DataAwsccEc2VpcEndpointConnectionNotifications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications#import import section} in the documentation of this resource for the id to use
 
 ---
 

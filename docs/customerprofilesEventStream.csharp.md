@@ -4,7 +4,7 @@
 
 ### CustomerprofilesEventStream <a name="CustomerprofilesEventStream" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventStream.CustomerprofilesEventStream.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the CustomerprofilesEventStrea
 
 The id of the existing CustomerprofilesEventStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -967,7 +967,7 @@ public string DomainName { get; set; }
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#domain_name CustomerprofilesEventStream#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#domain_name CustomerprofilesEventStream#domain_name}
 
 ---
 
@@ -981,7 +981,7 @@ public string EventStreamName { get; set; }
 
 The name of the event stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#event_stream_name CustomerprofilesEventStream#event_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#event_stream_name CustomerprofilesEventStream#event_stream_name}
 
 ---
 
@@ -995,7 +995,7 @@ public string Uri { get; set; }
 
 The StreamARN of the destination to deliver profile events to. For example, arn:aws:kinesis:region:account-id:stream/stream-name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#uri CustomerprofilesEventStream#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#uri CustomerprofilesEventStream#uri}
 
 ---
 
@@ -1009,7 +1009,7 @@ public IResolvable|CustomerprofilesEventStreamTags[] Tags { get; set; }
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#tags CustomerprofilesEventStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#tags CustomerprofilesEventStream#tags}
 
 ---
 
@@ -1060,7 +1060,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#key CustomerprofilesEventStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#key CustomerprofilesEventStream#key}
 
 ---
 
@@ -1076,7 +1076,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_event_stream#value CustomerprofilesEventStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_event_stream#value CustomerprofilesEventStream#value}
 
 ---
 

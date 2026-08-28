@@ -4,7 +4,7 @@
 
 ### EcrRegistryPolicy <a name="EcrRegistryPolicy" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_registry_policy awscc_ecr_registry_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_registry_policy awscc_ecr_registry_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecrRegistryPolicy.EcrRegistryPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the EcrRegistryPolicy to impor
 
 The id of the existing EcrRegistryPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_registry_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_registry_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -842,7 +842,7 @@ public string PolicyText { get; set; }
 
 The JSON policy text for your registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_registry_policy#policy_text EcrRegistryPolicy#policy_text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_registry_policy#policy_text EcrRegistryPolicy#policy_text}
 
 ---
 

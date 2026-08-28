@@ -4,7 +4,7 @@
 
 ### SagemakerImage <a name="SagemakerImage" id="@cdktn/provider-awscc.sagemakerImage.SagemakerImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image awscc_sagemaker_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image awscc_sagemaker_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerImage.SagemakerImage.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SagemakerImage to import.
 
 The id of the existing SagemakerImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -959,7 +959,7 @@ public readonly imageName: string;
 
 The name of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#image_name SagemakerImage#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#image_name SagemakerImage#image_name}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly imageRoleArn: string;
 
 The Amazon Resource Name (ARN) of an IAM role that enables Amazon SageMaker to perform tasks on behalf of the customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#image_role_arn SagemakerImage#image_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#image_role_arn SagemakerImage#image_role_arn}
 
 ---
 
@@ -987,7 +987,7 @@ public readonly imageDescription: string;
 
 A description of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#image_description SagemakerImage#image_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#image_description SagemakerImage#image_description}
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly imageDisplayName: string;
 
 The display name of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#image_display_name SagemakerImage#image_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#image_display_name SagemakerImage#image_display_name}
 
 ---
 
@@ -1015,7 +1015,7 @@ public readonly tags: IResolvable | SagemakerImageTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#tags SagemakerImage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#tags SagemakerImage#tags}
 
 ---
 
@@ -1050,7 +1050,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#key SagemakerImage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#key SagemakerImage#key}
 
 ---
 
@@ -1066,7 +1066,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_image#value SagemakerImage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_image#value SagemakerImage#value}
 
 ---
 

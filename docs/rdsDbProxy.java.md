@@ -4,7 +4,7 @@
 
 ### RdsDbProxy <a name="RdsDbProxy" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDbProxy.RdsDbProxy.Initializer"></a>
 
@@ -130,7 +130,7 @@ The identifier for the proxy.
 
 This name must be unique for all proxies owned by your AWS account in the specified AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The kinds of databases that the proxy can connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the IAM role that the proxy uses to access secrets in AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 VPC subnet IDs to associate with the new proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The authorization mechanism that the proxy uses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the proxy includes detailed information about SQL statements in its logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The default authentication scheme that the proxy uses for client connections to the proxy and connections from the proxy to the underlying database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
 
 ---
 
@@ -202,7 +202,7 @@ The network type of the DB proxy endpoint.
 
 The network type determines the IP version that the proxy endpoint supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
 
 ---
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of seconds that a connection to the proxy can be inactive before the proxy disconnects it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A Boolean parameter that specifies whether Transport Layer Security (TLS) encryption is required for connections to the proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
 
 ---
 
@@ -232,7 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional set of key-value pairs to associate arbitrary data of your choosing with the proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
 
 ---
 
@@ -244,7 +244,7 @@ The network type that the proxy uses to connect to the target database.
 
 The network type determines the IP version that the proxy uses for connections to the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
 
 ---
 
@@ -254,7 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 VPC security group IDs to associate with the new proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
 
 ---
 
@@ -792,7 +792,7 @@ The construct id used in the generated config for the RdsDbProxy to import.
 
 The id of the existing RdsDbProxy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1355,7 +1355,7 @@ public java.lang.String getAuthScheme();
 
 The type of authentication that the proxy uses for connections from the proxy to the underlying database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
 
 ---
 
@@ -1369,7 +1369,7 @@ public java.lang.String getClientPasswordAuthType();
 
 The type of authentication the proxy uses for connections from clients.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#client_password_auth_type RdsDbProxy#client_password_auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#client_password_auth_type RdsDbProxy#client_password_auth_type}
 
 ---
 
@@ -1383,7 +1383,7 @@ public java.lang.String getDescription();
 
 A user-specified description about the authentication used by a proxy to log in as a specific database user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
 
 ---
 
@@ -1399,7 +1399,7 @@ Whether to require or disallow Amazon Web Services Identity and Access Managemen
 
 The ENABLED value is valid only for proxies with RDS for Microsoft SQL Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#iam_auth RdsDbProxy#iam_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#iam_auth RdsDbProxy#iam_auth}
 
 ---
 
@@ -1415,7 +1415,7 @@ The Amazon Resource Name (ARN) representing the secret that the proxy uses to au
 
 These secrets are stored within Amazon Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
 
 ---
 
@@ -1559,7 +1559,7 @@ The identifier for the proxy.
 
 This name must be unique for all proxies owned by your AWS account in the specified AWS Region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#db_proxy_name RdsDbProxy#db_proxy_name}
 
 ---
 
@@ -1573,7 +1573,7 @@ public java.lang.String getEngineFamily();
 
 The kinds of databases that the proxy can connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#engine_family RdsDbProxy#engine_family}
 
 ---
 
@@ -1587,7 +1587,7 @@ public java.lang.String getRoleArn();
 
 The Amazon Resource Name (ARN) of the IAM role that the proxy uses to access secrets in AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#role_arn RdsDbProxy#role_arn}
 
 ---
 
@@ -1601,7 +1601,7 @@ public java.util.List<java.lang.String> getVpcSubnetIds();
 
 VPC subnet IDs to associate with the new proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#vpc_subnet_ids RdsDbProxy#vpc_subnet_ids}
 
 ---
 
@@ -1615,7 +1615,7 @@ public IResolvable|java.util.List<RdsDbProxyAuth> getAuth();
 
 The authorization mechanism that the proxy uses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#auth RdsDbProxy#auth}
 
 ---
 
@@ -1629,7 +1629,7 @@ public java.lang.Boolean|IResolvable getDebugLogging();
 
 Whether the proxy includes detailed information about SQL statements in its logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#debug_logging RdsDbProxy#debug_logging}
 
 ---
 
@@ -1643,7 +1643,7 @@ public java.lang.String getDefaultAuthScheme();
 
 The default authentication scheme that the proxy uses for client connections to the proxy and connections from the proxy to the underlying database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#default_auth_scheme RdsDbProxy#default_auth_scheme}
 
 ---
 
@@ -1659,7 +1659,7 @@ The network type of the DB proxy endpoint.
 
 The network type determines the IP version that the proxy endpoint supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#endpoint_network_type RdsDbProxy#endpoint_network_type}
 
 ---
 
@@ -1673,7 +1673,7 @@ public java.lang.Number getIdleClientTimeout();
 
 The number of seconds that a connection to the proxy can be inactive before the proxy disconnects it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#idle_client_timeout RdsDbProxy#idle_client_timeout}
 
 ---
 
@@ -1687,7 +1687,7 @@ public java.lang.Boolean|IResolvable getRequireTls();
 
 A Boolean parameter that specifies whether Transport Layer Security (TLS) encryption is required for connections to the proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#require_tls RdsDbProxy#require_tls}
 
 ---
 
@@ -1701,7 +1701,7 @@ public IResolvable|java.util.List<RdsDbProxyTags> getTags();
 
 An optional set of key-value pairs to associate arbitrary data of your choosing with the proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#tags RdsDbProxy#tags}
 
 ---
 
@@ -1717,7 +1717,7 @@ The network type that the proxy uses to connect to the target database.
 
 The network type determines the IP version that the proxy uses for connections to the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#target_connection_network_type RdsDbProxy#target_connection_network_type}
 
 ---
 
@@ -1731,7 +1731,7 @@ public java.util.List<java.lang.String> getVpcSecurityGroupIds();
 
 VPC security group IDs to associate with the new proxy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#vpc_security_group_ids RdsDbProxy#vpc_security_group_ids}
 
 ---
 
@@ -1752,8 +1752,8 @@ RdsDbProxyTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}. |
-| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}. |
+| <code><a href="#@cdktn/provider-awscc.rdsDbProxy.RdsDbProxyTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}. |
 
 ---
 
@@ -1765,7 +1765,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#key RdsDbProxy#key}.
 
 ---
 
@@ -1777,7 +1777,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_proxy#value RdsDbProxy#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccIotTopicRuleDestinations <a name="DataAwsccIotTopicRuleDestinations" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestinations.DataAwsccIotTopicRuleDestinations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotTopicRuleDestinations.DataAwsccIotTopicRuleDestinations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotTopicRuleDesti
 
 The id of the existing DataAwsccIotTopicRuleDestinations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_topic_rule_destinations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_topic_rule_destinations#import import section} in the documentation of this resource for the id to use
 
 ---
 

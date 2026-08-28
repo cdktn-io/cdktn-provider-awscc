@@ -4,7 +4,7 @@
 
 ### BraketSpendingLimit <a name="BraketSpendingLimit" id="@cdktn/provider-awscc.braketSpendingLimit.BraketSpendingLimit"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit awscc_braket_spending_limit}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit awscc_braket_spending_limit}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.braketSpendingLimit.BraketSpendingLimit.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the BraketSpendingLimit to imp
 
 The id of the existing BraketSpendingLimit that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -998,7 +998,7 @@ DeviceArn *string
 
 The Amazon Resource Name (ARN) of the quantum device to apply the spending limit to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#device_arn BraketSpendingLimit#device_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#device_arn BraketSpendingLimit#device_arn}
 
 ---
 
@@ -1012,7 +1012,7 @@ SpendingLimit *string
 
 The maximum amount that can be spent on the specified device, in USD.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#spending_limit BraketSpendingLimit#spending_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#spending_limit BraketSpendingLimit#spending_limit}
 
 ---
 
@@ -1026,7 +1026,7 @@ Tags interface{}
 
 The tags to apply to the spending limit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#tags BraketSpendingLimit#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#tags BraketSpendingLimit#tags}
 
 ---
 
@@ -1040,7 +1040,7 @@ TimePeriod BraketSpendingLimitTimePeriod
 
 Defines a time range for spending limits, specifying when the limit is active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#time_period BraketSpendingLimit#time_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#time_period BraketSpendingLimit#time_period}
 
 ---
 
@@ -1076,7 +1076,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#key BraketSpendingLimit#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#key BraketSpendingLimit#key}
 
 ---
 
@@ -1090,7 +1090,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#value BraketSpendingLimit#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#value BraketSpendingLimit#value}
 
 ---
 
@@ -1126,7 +1126,7 @@ EndAt *string
 
 The end date and time for the spending limit period, in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#end_at BraketSpendingLimit#end_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#end_at BraketSpendingLimit#end_at}
 
 ---
 
@@ -1140,7 +1140,7 @@ StartAt *string
 
 The start date and time for the spending limit period, in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#start_at BraketSpendingLimit#start_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#start_at BraketSpendingLimit#start_at}
 
 ---
 

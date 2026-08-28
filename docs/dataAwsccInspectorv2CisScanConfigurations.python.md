@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorv2CisScanConfigurations <a name="DataAwsccInspectorv2CisScanConfigurations" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_cis_scan_configurations awscc_inspectorv2_cis_scan_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_cis_scan_configurations awscc_inspectorv2_cis_scan_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2CisScanConfigurations.DataAwsccInspectorv2CisScanConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2CisSca
 
 The id of the existing DataAwsccInspectorv2CisScanConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_cis_scan_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspectorv2_cis_scan_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

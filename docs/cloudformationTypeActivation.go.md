@@ -4,7 +4,7 @@
 
 ### CloudformationTypeActivation <a name="CloudformationTypeActivation" id="@cdktn/provider-awscc.cloudformationTypeActivation.CloudformationTypeActivation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationTypeActivation.CloudformationTypeActivation.Initializer"></a>
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the CloudformationTypeActivati
 
 The id of the existing CloudformationTypeActivation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1143,7 +1143,7 @@ Whether to automatically update the extension in this account and region when a 
 
 Major versions released by the publisher must be manually updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#auto_update CloudformationTypeActivation#auto_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#auto_update CloudformationTypeActivation#auto_update}
 
 ---
 
@@ -1159,7 +1159,7 @@ The Amazon Resource Name (ARN) of the IAM execution role to use to register the 
 
 If your resource type calls AWS APIs in any of its handlers, you must create an IAM execution role that includes the necessary permissions to call those AWS APIs, and provision that execution role in your account. CloudFormation then assumes that execution role to provide your resource type with the appropriate credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#execution_role_arn CloudformationTypeActivation#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#execution_role_arn CloudformationTypeActivation#execution_role_arn}
 
 ---
 
@@ -1173,7 +1173,7 @@ LoggingConfig CloudformationTypeActivationLoggingConfig
 
 Specifies logging configuration information for a type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#logging_config CloudformationTypeActivation#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#logging_config CloudformationTypeActivation#logging_config}
 
 ---
 
@@ -1187,7 +1187,7 @@ MajorVersion *string
 
 The Major Version of the type you want to enable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#major_version CloudformationTypeActivation#major_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#major_version CloudformationTypeActivation#major_version}
 
 ---
 
@@ -1201,7 +1201,7 @@ PublicTypeArn *string
 
 The Amazon Resource Number (ARN) assigned to the public extension upon publication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#public_type_arn CloudformationTypeActivation#public_type_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#public_type_arn CloudformationTypeActivation#public_type_arn}
 
 ---
 
@@ -1215,7 +1215,7 @@ PublisherId *string
 
 The reserved publisher id for this type, or the publisher id assigned by CloudFormation for publishing in this region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#publisher_id CloudformationTypeActivation#publisher_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#publisher_id CloudformationTypeActivation#publisher_id}
 
 ---
 
@@ -1229,7 +1229,7 @@ Type *string
 
 The kind of extension.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#type CloudformationTypeActivation#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#type CloudformationTypeActivation#type}
 
 ---
 
@@ -1245,7 +1245,7 @@ The name of the type being registered.
 
 We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#type_name CloudformationTypeActivation#type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#type_name CloudformationTypeActivation#type_name}
 
 ---
 
@@ -1261,7 +1261,7 @@ An alias to assign to the public extension in this account and region.
 
 If you specify an alias for the extension, you must then use the alias to refer to the extension in your templates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#type_name_alias CloudformationTypeActivation#type_name_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#type_name_alias CloudformationTypeActivation#type_name_alias}
 
 ---
 
@@ -1277,7 +1277,7 @@ Manually updates a previously-enabled type to a new major or minor version, if a
 
 You can also use this parameter to update the value of AutoUpdateEnabled
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#version_bump CloudformationTypeActivation#version_bump}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#version_bump CloudformationTypeActivation#version_bump}
 
 ---
 
@@ -1313,7 +1313,7 @@ LogGroupName *string
 
 The Amazon CloudWatch log group to which CloudFormation sends error logging information when invoking the type's handlers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#log_group_name CloudformationTypeActivation#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#log_group_name CloudformationTypeActivation#log_group_name}
 
 ---
 
@@ -1327,7 +1327,7 @@ LogRoleArn *string
 
 The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_type_activation#log_role_arn CloudformationTypeActivation#log_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_type_activation#log_role_arn CloudformationTypeActivation#log_role_arn}
 
 ---
 

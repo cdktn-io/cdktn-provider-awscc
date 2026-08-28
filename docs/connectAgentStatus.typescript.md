@@ -4,7 +4,7 @@
 
 ### ConnectAgentStatus <a name="ConnectAgentStatus" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectAgentStatus.ConnectAgentStatus.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the ConnectAgentStatus to impo
 
 The id of the existing ConnectAgentStatus that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly instanceArn: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#instance_arn ConnectAgentStatus#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#instance_arn ConnectAgentStatus#instance_arn}
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly name: string;
 
 The name of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#name ConnectAgentStatus#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#name ConnectAgentStatus#name}
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly state: string;
 
 The state of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#state ConnectAgentStatus#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#state ConnectAgentStatus#state}
 
 ---
 
@@ -1106,7 +1106,7 @@ public readonly description: string;
 
 The description of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#description ConnectAgentStatus#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#description ConnectAgentStatus#description}
 
 ---
 
@@ -1120,7 +1120,7 @@ public readonly displayOrder: number;
 
 The display order of the status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#display_order ConnectAgentStatus#display_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#display_order ConnectAgentStatus#display_order}
 
 ---
 
@@ -1134,7 +1134,7 @@ public readonly resetOrderNumber: boolean | IResolvable;
 
 A number indicating the reset order of the agent status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#reset_order_number ConnectAgentStatus#reset_order_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#reset_order_number ConnectAgentStatus#reset_order_number}
 
 ---
 
@@ -1148,7 +1148,7 @@ public readonly tags: IResolvable | ConnectAgentStatusTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#tags ConnectAgentStatus#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#tags ConnectAgentStatus#tags}
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly type: string;
 
 The type of agent status.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#type ConnectAgentStatus#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#type ConnectAgentStatus#type}
 
 ---
 
@@ -1197,7 +1197,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#key ConnectAgentStatus#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#key ConnectAgentStatus#key}
 
 ---
 
@@ -1213,7 +1213,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#value ConnectAgentStatus#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#value ConnectAgentStatus#value}
 
 ---
 

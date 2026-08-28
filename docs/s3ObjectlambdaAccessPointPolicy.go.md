@@ -4,7 +4,7 @@
 
 ### S3ObjectlambdaAccessPointPolicy <a name="S3ObjectlambdaAccessPointPolicy" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3ObjectlambdaAccessPointPolicy.S3ObjectlambdaAccessPointPolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the S3ObjectlambdaAccessPointP
 
 The id of the existing S3ObjectlambdaAccessPointPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3objectlambda_access_point_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3objectlambda_access_point_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,7 +855,7 @@ ObjectLambdaAccessPoint *string
 
 The name of the Amazon S3 ObjectLambdaAccessPoint to which the policy applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3objectlambda_access_point_policy#object_lambda_access_point S3ObjectlambdaAccessPointPolicy#object_lambda_access_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3objectlambda_access_point_policy#object_lambda_access_point S3ObjectlambdaAccessPointPolicy#object_lambda_access_point}
 
 ---
 
@@ -871,7 +871,7 @@ A policy document containing permissions to add to the specified ObjectLambdaAcc
 
 For more information, see Access Policy Language Overview (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the Amazon Simple Storage Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SsmMaintenanceWindow <a name="SsmMaintenanceWindow" id="@cdktn/provider-awscc.ssmMaintenanceWindow.SsmMaintenanceWindow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window awscc_ssm_maintenance_window}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window awscc_ssm_maintenance_window}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmMaintenanceWindow.SsmMaintenanceWindow.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the SsmMaintenanceWindow to im
 
 The id of the existing SsmMaintenanceWindow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1120,7 +1120,7 @@ Enables a maintenance window task to run on managed instances, even if you have 
 
 If enabled, then you must specify the unregistered instances (by instance ID) when you register a task with the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#allow_unassociated_targets SsmMaintenanceWindow#allow_unassociated_targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#allow_unassociated_targets SsmMaintenanceWindow#allow_unassociated_targets}
 
 ---
 
@@ -1134,7 +1134,7 @@ public readonly cutoff: number;
 
 The number of hours before the end of the maintenance window that AWS Systems Manager stops scheduling new tasks for execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#cutoff SsmMaintenanceWindow#cutoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#cutoff SsmMaintenanceWindow#cutoff}
 
 ---
 
@@ -1148,7 +1148,7 @@ public readonly duration: number;
 
 The duration of the maintenance window in hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#duration SsmMaintenanceWindow#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#duration SsmMaintenanceWindow#duration}
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly name: string;
 
 The name of the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#name SsmMaintenanceWindow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#name SsmMaintenanceWindow#name}
 
 ---
 
@@ -1176,7 +1176,7 @@ public readonly schedule: string;
 
 The schedule of the maintenance window in the form of a cron or rate expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#schedule SsmMaintenanceWindow#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#schedule SsmMaintenanceWindow#schedule}
 
 ---
 
@@ -1190,7 +1190,7 @@ public readonly description: string;
 
 A description of the maintenance window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#description SsmMaintenanceWindow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#description SsmMaintenanceWindow#description}
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly endDate: string;
 
 The date and time, in ISO-8601 Extended format, for when the maintenance window is scheduled to become inactive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#end_date SsmMaintenanceWindow#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#end_date SsmMaintenanceWindow#end_date}
 
 ---
 
@@ -1218,7 +1218,7 @@ public readonly scheduleOffset: number;
 
 The number of days to wait to run a maintenance window after the scheduled cron expression date and time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#schedule_offset SsmMaintenanceWindow#schedule_offset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#schedule_offset SsmMaintenanceWindow#schedule_offset}
 
 ---
 
@@ -1232,7 +1232,7 @@ public readonly scheduleTimezone: string;
 
 The time zone that the scheduled maintenance window executions are based on, in Internet Assigned Numbers Authority (IANA) format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#schedule_timezone SsmMaintenanceWindow#schedule_timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#schedule_timezone SsmMaintenanceWindow#schedule_timezone}
 
 ---
 
@@ -1248,7 +1248,7 @@ The date and time, in ISO-8601 Extended format, for when the maintenance window 
 
 StartDate allows you to delay activation of the maintenance window until the specified future date.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#start_date SsmMaintenanceWindow#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#start_date SsmMaintenanceWindow#start_date}
 
 ---
 
@@ -1264,7 +1264,7 @@ Optional metadata that you assign to a resource in the form of an arbitrary set 
 
 Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag a maintenance window to identify the type of tasks it will run, the types of targets, and the environment it will run in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#tags SsmMaintenanceWindow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#tags SsmMaintenanceWindow#tags}
 
 ---
 
@@ -1297,7 +1297,7 @@ public readonly key: string;
 
 The name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#key SsmMaintenanceWindow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#key SsmMaintenanceWindow#key}
 
 ---
 
@@ -1311,7 +1311,7 @@ public readonly value: string;
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window#value SsmMaintenanceWindow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window#value SsmMaintenanceWindow#value}
 
 ---
 

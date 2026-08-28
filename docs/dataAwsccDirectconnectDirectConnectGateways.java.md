@@ -4,7 +4,7 @@
 
 ### DataAwsccDirectconnectDirectConnectGateways <a name="DataAwsccDirectconnectDirectConnectGateways" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDirectconnectDirectConnectGateways.DataAwsccDirectconnectDirectConnectGateways.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccDirectconnectDire
 
 The id of the existing DataAwsccDirectconnectDirectConnectGateways that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_direct_connect_gateways#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_direct_connect_gateways#import import section} in the documentation of this resource for the id to use
 
 ---
 

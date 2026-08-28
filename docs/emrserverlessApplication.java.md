@@ -4,7 +4,7 @@
 
 ### EmrserverlessApplication <a name="EmrserverlessApplication" id="@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application awscc_emrserverless_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application awscc_emrserverless_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplication.Initializer"></a>
 
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 EMR release label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#release_label EmrserverlessApplication#release_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#release_label EmrserverlessApplication#release_label}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#type EmrserverlessApplication#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#type EmrserverlessApplication#type}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The cpu architecture of an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#architecture EmrserverlessApplication#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#architecture EmrserverlessApplication#architecture}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for Auto Start of Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#auto_start_configuration EmrserverlessApplication#auto_start_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#auto_start_configuration EmrserverlessApplication#auto_start_configuration}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for Auto Stop of Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#auto_stop_configuration EmrserverlessApplication#auto_stop_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#auto_stop_configuration EmrserverlessApplication#auto_stop_configuration}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The image configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Initial capacity initialized when an Application is started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#initial_capacity EmrserverlessApplication#initial_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#initial_capacity EmrserverlessApplication#initial_capacity}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maximum allowed cumulative resources for an Application. No new resources will be created once the limit is hit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#maximum_capacity EmrserverlessApplication#maximum_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#maximum_capacity EmrserverlessApplication#maximum_capacity}
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly Application name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#name EmrserverlessApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#name EmrserverlessApplication#name}
 
 ---
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Network Configuration for customer VPC connectivity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#network_configuration EmrserverlessApplication#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#network_configuration EmrserverlessApplication#network_configuration}
 
 ---
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tag map with key and value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#tags EmrserverlessApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#tags EmrserverlessApplication#tags}
 
 ---
 
@@ -238,7 +238,7 @@ The key-value pairs that specify worker type to WorkerTypeSpecificationInput.
 
 This parameter must contain all valid worker types for a Spark or Hive application. Valid worker types include Driver and Executor for Spark applications and HiveDriver and TezTask for Hive applications. You can either set image details in this parameter for each worker type, or in imageConfiguration for all worker types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#worker_type_specifications EmrserverlessApplication#worker_type_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#worker_type_specifications EmrserverlessApplication#worker_type_specifications}
 
 ---
 
@@ -861,7 +861,7 @@ The construct id used in the generated config for the EmrserverlessApplication t
 
 The id of the existing EmrserverlessApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1383,7 +1383,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 If set to true, the Application will automatically start. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
 
 ---
 
@@ -1419,7 +1419,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 If set to true, the Application will automatically stop after being idle. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#enabled EmrserverlessApplication#enabled}
 
 ---
 
@@ -1433,7 +1433,7 @@ public java.lang.Number getIdleTimeoutMinutes();
 
 The amount of time [in minutes] to wait before auto stopping the Application when idle. Defaults to 15 minutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#idle_timeout_minutes EmrserverlessApplication#idle_timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#idle_timeout_minutes EmrserverlessApplication#idle_timeout_minutes}
 
 ---
 
@@ -1573,7 +1573,7 @@ public java.lang.String getReleaseLabel();
 
 EMR release label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#release_label EmrserverlessApplication#release_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#release_label EmrserverlessApplication#release_label}
 
 ---
 
@@ -1587,7 +1587,7 @@ public java.lang.String getType();
 
 The type of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#type EmrserverlessApplication#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#type EmrserverlessApplication#type}
 
 ---
 
@@ -1601,7 +1601,7 @@ public java.lang.String getArchitecture();
 
 The cpu architecture of an application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#architecture EmrserverlessApplication#architecture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#architecture EmrserverlessApplication#architecture}
 
 ---
 
@@ -1615,7 +1615,7 @@ public EmrserverlessApplicationAutoStartConfiguration getAutoStartConfiguration(
 
 Configuration for Auto Start of Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#auto_start_configuration EmrserverlessApplication#auto_start_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#auto_start_configuration EmrserverlessApplication#auto_start_configuration}
 
 ---
 
@@ -1629,7 +1629,7 @@ public EmrserverlessApplicationAutoStopConfiguration getAutoStopConfiguration();
 
 Configuration for Auto Stop of Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#auto_stop_configuration EmrserverlessApplication#auto_stop_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#auto_stop_configuration EmrserverlessApplication#auto_stop_configuration}
 
 ---
 
@@ -1643,7 +1643,7 @@ public EmrserverlessApplicationImageConfiguration getImageConfiguration();
 
 The image configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
 
 ---
 
@@ -1657,7 +1657,7 @@ public IResolvable|java.util.List<EmrserverlessApplicationInitialCapacity> getIn
 
 Initial capacity initialized when an Application is started.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#initial_capacity EmrserverlessApplication#initial_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#initial_capacity EmrserverlessApplication#initial_capacity}
 
 ---
 
@@ -1671,7 +1671,7 @@ public EmrserverlessApplicationMaximumCapacity getMaximumCapacity();
 
 Maximum allowed cumulative resources for an Application. No new resources will be created once the limit is hit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#maximum_capacity EmrserverlessApplication#maximum_capacity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#maximum_capacity EmrserverlessApplication#maximum_capacity}
 
 ---
 
@@ -1685,7 +1685,7 @@ public java.lang.String getName();
 
 User friendly Application name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#name EmrserverlessApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#name EmrserverlessApplication#name}
 
 ---
 
@@ -1699,7 +1699,7 @@ public EmrserverlessApplicationNetworkConfiguration getNetworkConfiguration();
 
 Network Configuration for customer VPC connectivity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#network_configuration EmrserverlessApplication#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#network_configuration EmrserverlessApplication#network_configuration}
 
 ---
 
@@ -1713,7 +1713,7 @@ public IResolvable|java.util.List<EmrserverlessApplicationTags> getTags();
 
 Tag map with key and value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#tags EmrserverlessApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#tags EmrserverlessApplication#tags}
 
 ---
 
@@ -1729,7 +1729,7 @@ The key-value pairs that specify worker type to WorkerTypeSpecificationInput.
 
 This parameter must contain all valid worker types for a Spark or Hive application. Valid worker types include Driver and Executor for Spark applications and HiveDriver and TezTask for Hive applications. You can either set image details in this parameter for each worker type, or in imageConfiguration for all worker types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#worker_type_specifications EmrserverlessApplication#worker_type_specifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#worker_type_specifications EmrserverlessApplication#worker_type_specifications}
 
 ---
 
@@ -1765,7 +1765,7 @@ The URI of an image in the Amazon ECR registry.
 
 This field is required when you create a new application. If you leave this field blank in an update, Amazon EMR will remove the image configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
 
 ---
 
@@ -1787,7 +1787,7 @@ EmrserverlessApplicationInitialCapacity.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacity.property.key">key</a></code> | <code>java.lang.String</code> | Worker type for an analytics framework. |
-| <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacity.property.value">value</a></code> | <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValue">EmrserverlessApplicationInitialCapacityValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}. |
+| <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacity.property.value">value</a></code> | <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValue">EmrserverlessApplicationInitialCapacityValue</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}. |
 
 ---
 
@@ -1801,7 +1801,7 @@ public java.lang.String getKey();
 
 Worker type for an analytics framework.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
 
 ---
 
@@ -1813,7 +1813,7 @@ public EmrserverlessApplicationInitialCapacityValue getValue();
 
 - *Type:* <a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValue">EmrserverlessApplicationInitialCapacityValue</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}.
 
 ---
 
@@ -1834,7 +1834,7 @@ EmrserverlessApplicationInitialCapacityValue.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValue.property.workerConfiguration">workerConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValueWorkerConfiguration">EmrserverlessApplicationInitialCapacityValueWorkerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValue.property.workerConfiguration">workerConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValueWorkerConfiguration">EmrserverlessApplicationInitialCapacityValueWorkerConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}. |
 | <code><a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValue.property.workerCount">workerCount</a></code> | <code>java.lang.Number</code> | Initial count of workers to be initialized when an Application is started. |
 
 ---
@@ -1847,7 +1847,7 @@ public EmrserverlessApplicationInitialCapacityValueWorkerConfiguration getWorker
 
 - *Type:* <a href="#@cdktn/provider-awscc.emrserverlessApplication.EmrserverlessApplicationInitialCapacityValueWorkerConfiguration">EmrserverlessApplicationInitialCapacityValueWorkerConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#worker_configuration EmrserverlessApplication#worker_configuration}.
 
 ---
 
@@ -1863,7 +1863,7 @@ Initial count of workers to be initialized when an Application is started.
 
 This count will be continued to be maintained until the Application is stopped
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#worker_count EmrserverlessApplication#worker_count}
 
 ---
 
@@ -1901,7 +1901,7 @@ public java.lang.String getCpu();
 
 Per worker CPU resource. vCPU is the only supported unit and specifying vCPU is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
 
 ---
 
@@ -1915,7 +1915,7 @@ public java.lang.String getDisk();
 
 Per worker Disk resource. GB is the only supported unit and specifying GB is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
 
 ---
 
@@ -1929,7 +1929,7 @@ public java.lang.String getMemory();
 
 Per worker memory resource. GB is the only supported unit and specifying GB is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
 
 ---
 
@@ -1967,7 +1967,7 @@ public java.lang.String getCpu();
 
 Per worker CPU resource. vCPU is the only supported unit and specifying vCPU is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#cpu EmrserverlessApplication#cpu}
 
 ---
 
@@ -1981,7 +1981,7 @@ public java.lang.String getDisk();
 
 Per worker Disk resource. GB is the only supported unit and specifying GB is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#disk EmrserverlessApplication#disk}
 
 ---
 
@@ -1995,7 +1995,7 @@ public java.lang.String getMemory();
 
 Per worker memory resource. GB is the only supported unit and specifying GB is optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#memory EmrserverlessApplication#memory}
 
 ---
 
@@ -2031,7 +2031,7 @@ public java.util.List<java.lang.String> getSecurityGroupIds();
 
 The ID of the security groups in the VPC to which you want to connect your job or application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#security_group_ids EmrserverlessApplication#security_group_ids}
 
 ---
 
@@ -2045,7 +2045,7 @@ public java.util.List<java.lang.String> getSubnetIds();
 
 The ID of the subnets in the VPC to which you want to connect your job or application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#subnet_ids EmrserverlessApplication#subnet_ids}
 
 ---
 
@@ -2083,7 +2083,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
 
 ---
 
@@ -2099,7 +2099,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
 
 ---
 
@@ -2133,7 +2133,7 @@ public EmrserverlessApplicationWorkerTypeSpecificationsImageConfiguration getIma
 
 The image configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#image_configuration EmrserverlessApplication#image_configuration}
 
 ---
 
@@ -2169,7 +2169,7 @@ The URI of an image in the Amazon ECR registry.
 
 This field is required when you create a new application. If you leave this field blank in an update, Amazon EMR will remove the image configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/emrserverless_application#image_uri EmrserverlessApplication#image_uri}
 
 ---
 

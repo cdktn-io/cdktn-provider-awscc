@@ -4,7 +4,7 @@
 
 ### SagemakerDevice <a name="SagemakerDevice" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device awscc_sagemaker_device}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device awscc_sagemaker_device}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerDevice.SagemakerDevice.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the edge device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Edge Device you want to register against a device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Associate tags with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
 
 ---
 
@@ -617,7 +617,7 @@ The construct id used in the generated config for the SagemakerDevice to import.
 
 The id of the existing SagemakerDevice that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1007,7 +1007,7 @@ public java.lang.String getDeviceFleetName();
 
 The name of the edge device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
 
 ---
 
@@ -1021,7 +1021,7 @@ public SagemakerDeviceDevice getDevice();
 
 The Edge Device you want to register against a device fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
 
 ---
 
@@ -1035,7 +1035,7 @@ public IResolvable|java.util.List<SagemakerDeviceTags> getTags();
 
 Associate tags with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
 
 ---
 
@@ -1073,7 +1073,7 @@ public java.lang.String getDescription();
 
 Description of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#description SagemakerDevice#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#description SagemakerDevice#description}
 
 ---
 
@@ -1087,7 +1087,7 @@ public java.lang.String getDeviceName();
 
 The name of the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#device_name SagemakerDevice#device_name}
 
 ---
 
@@ -1101,7 +1101,7 @@ public java.lang.String getIotThingName();
 
 AWS Internet of Things (IoT) object name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#iot_thing_name SagemakerDevice#iot_thing_name}
 
 ---
 
@@ -1139,7 +1139,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
 
 ---
 
@@ -1155,7 +1155,7 @@ The key value of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
 
 ---
 

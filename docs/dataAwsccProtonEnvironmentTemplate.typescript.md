@@ -4,7 +4,7 @@
 
 ### DataAwsccProtonEnvironmentTemplate <a name="DataAwsccProtonEnvironmentTemplate" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentTemplate.DataAwsccProtonEnvironmentTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/proton_environment_template awscc_proton_environment_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/proton_environment_template awscc_proton_environment_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccProtonEnvironmentTemplate.DataAwsccProtonEnvironmentTemplate.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccProtonEnvironment
 
 The id of the existing DataAwsccProtonEnvironmentTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/proton_environment_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/proton_environment_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -764,7 +764,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/proton_environment_template#id DataAwsccProtonEnvironmentTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/proton_environment_template#id DataAwsccProtonEnvironmentTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

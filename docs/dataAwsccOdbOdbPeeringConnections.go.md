@@ -4,7 +4,7 @@
 
 ### DataAwsccOdbOdbPeeringConnections <a name="DataAwsccOdbOdbPeeringConnections" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_odb_peering_connections awscc_odb_odb_peering_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_odb_peering_connections awscc_odb_odb_peering_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOdbOdbPeeringConnections.DataAwsccOdbOdbPeeringConnections.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOdbOdbPeeringConn
 
 The id of the existing DataAwsccOdbOdbPeeringConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_odb_peering_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_odb_peering_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

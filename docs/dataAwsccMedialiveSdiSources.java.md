@@ -4,7 +4,7 @@
 
 ### DataAwsccMedialiveSdiSources <a name="DataAwsccMedialiveSdiSources" id="@cdktn/provider-awscc.dataAwsccMedialiveSdiSources.DataAwsccMedialiveSdiSources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveSdiSources.DataAwsccMedialiveSdiSources.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMedialiveSdiSourc
 
 The id of the existing DataAwsccMedialiveSdiSources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_sdi_sources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_sdi_sources#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### AppstreamStackUserAssociation <a name="AppstreamStackUserAssociation" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamStackUserAssociation.AppstreamStackUserAssociation.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the AppstreamStackUserAssociat
 
 The id of the existing AppstreamStackUserAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_user_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ AuthenticationType *string
 
 The authentication type for the user who is associated with the stack. You must specify USERPOOL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
 
 ---
 
@@ -924,7 +924,7 @@ StackName *string
 
 The name of the stack that is associated with the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
 
 ---
 
@@ -938,7 +938,7 @@ UserName *string
 
 The name of the user who is associated with the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
 
 ---
 
@@ -952,7 +952,7 @@ SendEmailNotification interface{}
 
 Specifies whether a welcome email is sent to a user after the user is created in the user pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
 
 ---
 

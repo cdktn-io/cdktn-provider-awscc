@@ -4,7 +4,7 @@
 
 ### DataAwsccFrauddetectorEntityType <a name="DataAwsccFrauddetectorEntityType" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityType.DataAwsccFrauddetectorEntityType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/frauddetector_entity_type awscc_frauddetector_entity_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/frauddetector_entity_type awscc_frauddetector_entity_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorEntityType.DataAwsccFrauddetectorEntityType.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorEnti
 
 The id of the existing DataAwsccFrauddetectorEntityType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/frauddetector_entity_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/frauddetector_entity_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -762,7 +762,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/frauddetector_entity_type#id DataAwsccFrauddetectorEntityType#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/frauddetector_entity_type#id DataAwsccFrauddetectorEntityType#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

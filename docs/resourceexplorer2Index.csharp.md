@@ -4,7 +4,7 @@
 
 ### Resourceexplorer2Index <a name="Resourceexplorer2Index" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index awscc_resourceexplorer2_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2Index.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Resourceexplorer2Index to 
 
 The id of the existing Resourceexplorer2Index that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -799,8 +799,8 @@ new Resourceexplorer2IndexConfig {
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
-| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}. |
+| <code><a href="#@cdktn/provider-awscc.resourceexplorer2Index.Resourceexplorer2IndexConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}. |
 
 ---
 
@@ -882,7 +882,7 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#type Resourceexplorer2Index#type}.
 
 ---
 
@@ -894,7 +894,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 - *Type:* System.Collections.Generic.IDictionary<string, string>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resourceexplorer2_index#tags Resourceexplorer2Index#tags}.
 
 ---
 

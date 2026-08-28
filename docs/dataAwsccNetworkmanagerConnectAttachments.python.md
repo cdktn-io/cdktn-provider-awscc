@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerConnectAttachments <a name="DataAwsccNetworkmanagerConnectAttachments" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachments.DataAwsccNetworkmanagerConnectAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_connect_attachments awscc_networkmanager_connect_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_connect_attachments awscc_networkmanager_connect_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachments.DataAwsccNetworkmanagerConnectAttachments.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerCon
 
 The id of the existing DataAwsccNetworkmanagerConnectAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_connect_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_connect_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 

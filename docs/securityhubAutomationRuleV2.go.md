@@ -4,7 +4,7 @@
 
 ### SecurityhubAutomationRuleV2 <a name="SecurityhubAutomationRuleV2" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubAutomationRuleV2.SecurityhubAutomationRuleV2.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SecurityhubAutomationRuleV
 
 The id of the existing SecurityhubAutomationRuleV2 that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -967,7 +967,7 @@ Type *string
 
 The category of action to be executed by the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#type SecurityhubAutomationRuleV2#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#type SecurityhubAutomationRuleV2#type}
 
 ---
 
@@ -981,7 +981,7 @@ ExternalIntegrationConfiguration SecurityhubAutomationRuleV2ActionsExternalInteg
 
 The settings for integrating automation rule actions with external systems or service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#external_integration_configuration SecurityhubAutomationRuleV2#external_integration_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#external_integration_configuration SecurityhubAutomationRuleV2#external_integration_configuration}
 
 ---
 
@@ -995,7 +995,7 @@ FindingFieldsUpdate SecurityhubAutomationRuleV2ActionsFindingFieldsUpdate
 
 The changes to be applied to fields in a security finding when an automation rule is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#finding_fields_update SecurityhubAutomationRuleV2#finding_fields_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#finding_fields_update SecurityhubAutomationRuleV2#finding_fields_update}
 
 ---
 
@@ -1029,7 +1029,7 @@ ConnectorArn *string
 
 The ARN of the connector that establishes the integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#connector_arn SecurityhubAutomationRuleV2#connector_arn}
 
 ---
 
@@ -1067,7 +1067,7 @@ Comment *string
 
 Notes or contextual information for findings that are modified by the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#comment SecurityhubAutomationRuleV2#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#comment SecurityhubAutomationRuleV2#comment}
 
 ---
 
@@ -1081,7 +1081,7 @@ SeverityId *f64
 
 The severity level to be assigned to findings that match the automation rule criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#severity_id SecurityhubAutomationRuleV2#severity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#severity_id SecurityhubAutomationRuleV2#severity_id}
 
 ---
 
@@ -1095,7 +1095,7 @@ StatusId *f64
 
 The status to be applied to findings that match automation rule criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#status_id SecurityhubAutomationRuleV2#status_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#status_id SecurityhubAutomationRuleV2#status_id}
 
 ---
 
@@ -1225,7 +1225,7 @@ Actions interface{}
 
 A list of actions to be performed when the rule criteria is met.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#actions SecurityhubAutomationRuleV2#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#actions SecurityhubAutomationRuleV2#actions}
 
 ---
 
@@ -1239,7 +1239,7 @@ Criteria SecurityhubAutomationRuleV2Criteria
 
 Defines the parameters and conditions used to evaluate and filter security findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#criteria SecurityhubAutomationRuleV2#criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#criteria SecurityhubAutomationRuleV2#criteria}
 
 ---
 
@@ -1253,7 +1253,7 @@ Description *string
 
 A description of the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#description SecurityhubAutomationRuleV2#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#description SecurityhubAutomationRuleV2#description}
 
 ---
 
@@ -1267,7 +1267,7 @@ RuleName *string
 
 The name of the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#rule_name SecurityhubAutomationRuleV2#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#rule_name SecurityhubAutomationRuleV2#rule_name}
 
 ---
 
@@ -1281,7 +1281,7 @@ RuleOrder *f64
 
 The value for the rule priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#rule_order SecurityhubAutomationRuleV2#rule_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#rule_order SecurityhubAutomationRuleV2#rule_order}
 
 ---
 
@@ -1295,7 +1295,7 @@ RuleStatus *string
 
 The status of the automation rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#rule_status SecurityhubAutomationRuleV2#rule_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#rule_status SecurityhubAutomationRuleV2#rule_status}
 
 ---
 
@@ -1309,7 +1309,7 @@ Tags *map[string]*string
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#tags SecurityhubAutomationRuleV2#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#tags SecurityhubAutomationRuleV2#tags}
 
 ---
 
@@ -1343,7 +1343,7 @@ OcsfFindingCriteria SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria
 
 The filtering conditions that align with OCSF standards.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#ocsf_finding_criteria SecurityhubAutomationRuleV2#ocsf_finding_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#ocsf_finding_criteria SecurityhubAutomationRuleV2#ocsf_finding_criteria}
 
 ---
 
@@ -1379,7 +1379,7 @@ CompositeFilters interface{}
 
 Enables the creation of complex filtering conditions by combining filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#composite_filters SecurityhubAutomationRuleV2#composite_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#composite_filters SecurityhubAutomationRuleV2#composite_filters}
 
 ---
 
@@ -1393,7 +1393,7 @@ CompositeOperator *string
 
 The logical operator used to combine multiple conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#composite_operator SecurityhubAutomationRuleV2#composite_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#composite_operator SecurityhubAutomationRuleV2#composite_operator}
 
 ---
 
@@ -1437,7 +1437,7 @@ BooleanFilters interface{}
 
 Enables filtering based on boolean field values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#boolean_filters SecurityhubAutomationRuleV2#boolean_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#boolean_filters SecurityhubAutomationRuleV2#boolean_filters}
 
 ---
 
@@ -1451,7 +1451,7 @@ DateFilters interface{}
 
 Enables filtering based on date and timestamp fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#date_filters SecurityhubAutomationRuleV2#date_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#date_filters SecurityhubAutomationRuleV2#date_filters}
 
 ---
 
@@ -1465,7 +1465,7 @@ MapFilters interface{}
 
 Enables filtering based on map field value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#map_filters SecurityhubAutomationRuleV2#map_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#map_filters SecurityhubAutomationRuleV2#map_filters}
 
 ---
 
@@ -1479,7 +1479,7 @@ NumberFilters interface{}
 
 Enables filtering based on numerical field values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#number_filters SecurityhubAutomationRuleV2#number_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#number_filters SecurityhubAutomationRuleV2#number_filters}
 
 ---
 
@@ -1493,7 +1493,7 @@ Operator *string
 
 The logical operator used to combine multiple conditions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#operator SecurityhubAutomationRuleV2#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#operator SecurityhubAutomationRuleV2#operator}
 
 ---
 
@@ -1507,7 +1507,7 @@ StringFilters interface{}
 
 Enables filtering based on string field values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#string_filters SecurityhubAutomationRuleV2#string_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#string_filters SecurityhubAutomationRuleV2#string_filters}
 
 ---
 
@@ -1543,7 +1543,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1557,7 +1557,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBoo
 
 Boolean filter for querying findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1591,7 +1591,7 @@ Value interface{}
 
 The value of the boolean.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -1627,7 +1627,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1641,7 +1641,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersDat
 
 A date filter for querying findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1679,7 +1679,7 @@ DateRange SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilters
 
 A date range for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#date_range SecurityhubAutomationRuleV2#date_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#date_range SecurityhubAutomationRuleV2#date_range}
 
 ---
 
@@ -1693,7 +1693,7 @@ End *string
 
 The timestamp formatted in ISO8601.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#end SecurityhubAutomationRuleV2#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#end SecurityhubAutomationRuleV2#end}
 
 ---
 
@@ -1707,7 +1707,7 @@ Start *string
 
 The timestamp formatted in ISO8601.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#start SecurityhubAutomationRuleV2#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#start SecurityhubAutomationRuleV2#start}
 
 ---
 
@@ -1743,7 +1743,7 @@ Unit *string
 
 A date range unit for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#unit SecurityhubAutomationRuleV2#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#unit SecurityhubAutomationRuleV2#unit}
 
 ---
 
@@ -1757,7 +1757,7 @@ Value *f64
 
 A date range value for the date filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -1793,7 +1793,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1807,7 +1807,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersMap
 
 A map filter for filtering findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1845,7 +1845,7 @@ Comparison *string
 
 The condition to apply to the key value when filtering findings with a map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
 
 ---
 
@@ -1859,7 +1859,7 @@ Key *string
 
 The key of the map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#key SecurityhubAutomationRuleV2#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#key SecurityhubAutomationRuleV2#key}
 
 ---
 
@@ -1873,7 +1873,7 @@ Value *string
 
 The value for the key in the map filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 
@@ -1909,7 +1909,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -1923,7 +1923,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersNum
 
 A number filter for querying findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -1961,7 +1961,7 @@ Eq *f64
 
 The equal-to condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#eq SecurityhubAutomationRuleV2#eq}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#eq SecurityhubAutomationRuleV2#eq}
 
 ---
 
@@ -1975,7 +1975,7 @@ Gte *f64
 
 The greater-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#gte SecurityhubAutomationRuleV2#gte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#gte SecurityhubAutomationRuleV2#gte}
 
 ---
 
@@ -1989,7 +1989,7 @@ Lte *f64
 
 The less-than-equal condition to be applied to a single field when querying for findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#lte SecurityhubAutomationRuleV2#lte}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#lte SecurityhubAutomationRuleV2#lte}
 
 ---
 
@@ -2025,7 +2025,7 @@ FieldName *string
 
 The name of the field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
 
 ---
 
@@ -2039,7 +2039,7 @@ Filter SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersStr
 
 A string filter for filtering findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
 
 ---
 
@@ -2075,7 +2075,7 @@ Comparison *string
 
 The condition to apply to a string value when filtering findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#comparison SecurityhubAutomationRuleV2#comparison}
 
 ---
 
@@ -2089,7 +2089,7 @@ Value *string
 
 The string filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2#value SecurityhubAutomationRuleV2#value}
 
 ---
 

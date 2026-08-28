@@ -4,7 +4,7 @@
 
 ### DataAwsccMediapackageChannels <a name="DataAwsccMediapackageChannels" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackageChannels.DataAwsccMediapackageChannels.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackageChann
 
 The id of the existing DataAwsccMediapackageChannels that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackage_channels#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_channels#import import section} in the documentation of this resource for the id to use
 
 ---
 

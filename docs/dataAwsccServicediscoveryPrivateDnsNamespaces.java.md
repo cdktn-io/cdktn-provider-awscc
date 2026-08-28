@@ -4,7 +4,7 @@
 
 ### DataAwsccServicediscoveryPrivateDnsNamespaces <a name="DataAwsccServicediscoveryPrivateDnsNamespaces" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespaces.DataAwsccServicediscoveryPrivateDnsNamespaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryPrivateDnsNamespaces.DataAwsccServicediscoveryPrivateDnsNamespaces.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccServicediscoveryP
 
 The id of the existing DataAwsccServicediscoveryPrivateDnsNamespaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicediscovery_private_dns_namespaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicediscovery_private_dns_namespaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

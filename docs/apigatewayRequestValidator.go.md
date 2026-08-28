@@ -4,7 +4,7 @@
 
 ### ApigatewayRequestValidator <a name="ApigatewayRequestValidator" id="@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidator.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the ApigatewayRequestValidator
 
 The id of the existing ApigatewayRequestValidator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -848,10 +848,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayrequestvalid
 | <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.restApiId">RestApiId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#rest_api_id ApigatewayRequestValidator#rest_api_id}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#name ApigatewayRequestValidator#name}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.validateRequestBody">ValidateRequestBody</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#validate_request_body ApigatewayRequestValidator#validate_request_body}. |
-| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.validateRequestParameters">ValidateRequestParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#validate_request_parameters ApigatewayRequestValidator#validate_request_parameters}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.restApiId">RestApiId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#rest_api_id ApigatewayRequestValidator#rest_api_id}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#name ApigatewayRequestValidator#name}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.validateRequestBody">ValidateRequestBody</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#validate_request_body ApigatewayRequestValidator#validate_request_body}. |
+| <code><a href="#@cdktn/provider-awscc.apigatewayRequestValidator.ApigatewayRequestValidatorConfig.property.validateRequestParameters">ValidateRequestParameters</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#validate_request_parameters ApigatewayRequestValidator#validate_request_parameters}. |
 
 ---
 
@@ -933,7 +933,7 @@ RestApiId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#rest_api_id ApigatewayRequestValidator#rest_api_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#rest_api_id ApigatewayRequestValidator#rest_api_id}.
 
 ---
 
@@ -945,7 +945,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#name ApigatewayRequestValidator#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#name ApigatewayRequestValidator#name}.
 
 ---
 
@@ -957,7 +957,7 @@ ValidateRequestBody interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#validate_request_body ApigatewayRequestValidator#validate_request_body}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#validate_request_body ApigatewayRequestValidator#validate_request_body}.
 
 ---
 
@@ -969,7 +969,7 @@ ValidateRequestParameters interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator#validate_request_parameters ApigatewayRequestValidator#validate_request_parameters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_request_validator#validate_request_parameters ApigatewayRequestValidator#validate_request_parameters}.
 
 ---
 

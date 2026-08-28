@@ -4,7 +4,7 @@
 
 ### FinspaceEnvironment <a name="FinspaceEnvironment" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment awscc_finspace_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment awscc_finspace_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.finspaceEnvironment.FinspaceEnvironment.Initializer"></a>
 
@@ -577,7 +577,7 @@ The construct id used in the generated config for the FinspaceEnvironment to imp
 
 The id of the existing FinspaceEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1164,7 +1164,7 @@ public string Name { get; set; }
 
 Name of the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#name FinspaceEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#name FinspaceEnvironment#name}
 
 ---
 
@@ -1178,7 +1178,7 @@ public string[] DataBundles { get; set; }
 
 ARNs of FinSpace Data Bundles to install.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#data_bundles FinspaceEnvironment#data_bundles}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#data_bundles FinspaceEnvironment#data_bundles}
 
 ---
 
@@ -1192,7 +1192,7 @@ public string Description { get; set; }
 
 Description of the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#description FinspaceEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#description FinspaceEnvironment#description}
 
 ---
 
@@ -1206,7 +1206,7 @@ public string FederationMode { get; set; }
 
 Federation mode used with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#federation_mode FinspaceEnvironment#federation_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#federation_mode FinspaceEnvironment#federation_mode}
 
 ---
 
@@ -1220,7 +1220,7 @@ public FinspaceEnvironmentFederationParameters FederationParameters { get; set; 
 
 Additional parameters to identify Federation mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#federation_parameters FinspaceEnvironment#federation_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#federation_parameters FinspaceEnvironment#federation_parameters}
 
 ---
 
@@ -1234,7 +1234,7 @@ public string KmsKeyId { get; set; }
 
 KMS key used to encrypt customer data within FinSpace Environment infrastructure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#kms_key_id FinspaceEnvironment#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#kms_key_id FinspaceEnvironment#kms_key_id}
 
 ---
 
@@ -1248,7 +1248,7 @@ public FinspaceEnvironmentSuperuserParameters SuperuserParameters { get; set; }
 
 Parameters of the first Superuser for the FinSpace Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#superuser_parameters FinspaceEnvironment#superuser_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#superuser_parameters FinspaceEnvironment#superuser_parameters}
 
 ---
 
@@ -1262,7 +1262,7 @@ public IResolvable|FinspaceEnvironmentTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#tags FinspaceEnvironment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#tags FinspaceEnvironment#tags}
 
 ---
 
@@ -1306,7 +1306,7 @@ public string ApplicationCallBackUrl { get; set; }
 
 SAML metadata URL to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#application_call_back_url FinspaceEnvironment#application_call_back_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#application_call_back_url FinspaceEnvironment#application_call_back_url}
 
 ---
 
@@ -1320,7 +1320,7 @@ public IResolvable|FinspaceEnvironmentFederationParametersAttributeMap[] Attribu
 
 Attribute map for SAML configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#attribute_map FinspaceEnvironment#attribute_map}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#attribute_map FinspaceEnvironment#attribute_map}
 
 ---
 
@@ -1334,7 +1334,7 @@ public string FederationProviderName { get; set; }
 
 Federation provider name to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#federation_provider_name FinspaceEnvironment#federation_provider_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#federation_provider_name FinspaceEnvironment#federation_provider_name}
 
 ---
 
@@ -1348,7 +1348,7 @@ public string FederationUrn { get; set; }
 
 SAML metadata URL to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#federation_urn FinspaceEnvironment#federation_urn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#federation_urn FinspaceEnvironment#federation_urn}
 
 ---
 
@@ -1362,7 +1362,7 @@ public string SamlMetadataDocument { get; set; }
 
 SAML metadata document to link the federation provider to the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#saml_metadata_document FinspaceEnvironment#saml_metadata_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#saml_metadata_document FinspaceEnvironment#saml_metadata_document}
 
 ---
 
@@ -1376,7 +1376,7 @@ public string SamlMetadataUrl { get; set; }
 
 SAML metadata URL to link with the Environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#saml_metadata_url FinspaceEnvironment#saml_metadata_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#saml_metadata_url FinspaceEnvironment#saml_metadata_url}
 
 ---
 
@@ -1414,7 +1414,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
 
 ---
 
@@ -1430,7 +1430,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
 
 ---
 
@@ -1468,7 +1468,7 @@ public string EmailAddress { get; set; }
 
 Email address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#email_address FinspaceEnvironment#email_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#email_address FinspaceEnvironment#email_address}
 
 ---
 
@@ -1482,7 +1482,7 @@ public string FirstName { get; set; }
 
 First name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#first_name FinspaceEnvironment#first_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#first_name FinspaceEnvironment#first_name}
 
 ---
 
@@ -1496,7 +1496,7 @@ public string LastName { get; set; }
 
 Last name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#last_name FinspaceEnvironment#last_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#last_name FinspaceEnvironment#last_name}
 
 ---
 
@@ -1534,7 +1534,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#key FinspaceEnvironment#key}
 
 ---
 
@@ -1550,7 +1550,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/finspace_environment#value FinspaceEnvironment#value}
 
 ---
 

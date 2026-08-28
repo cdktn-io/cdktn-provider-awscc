@@ -4,7 +4,7 @@
 
 ### TransferWebApp <a name="TransferWebApp" id="@cdktn/provider-awscc.transferWebApp.TransferWebApp"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app awscc_transfer_web_app}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app awscc_transfer_web_app}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWebApp.TransferWebApp.Initializer"></a>
 
@@ -596,7 +596,7 @@ The construct id used in the generated config for the TransferWebApp to import.
 
 The id of the existing TransferWebApp that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1027,11 +1027,11 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferwebapp"
 | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.identityProviderDetails">IdentityProviderDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppIdentityProviderDetails">TransferWebAppIdentityProviderDetails</a></code> | You can provide a structure that contains the details for the identity provider to use with your web app. |
 | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.accessEndpoint">AccessEndpoint</a></code> | <code>*string</code> | The AccessEndpoint is the URL that you provide to your users for them to interact with the Transfer Family web app. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.endpointDetails">EndpointDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetails">TransferWebAppEndpointDetails</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.endpointDetails">EndpointDetails</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetails">TransferWebAppEndpointDetails</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}. |
 | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Key-value pairs that can be used to group and search for web apps. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.webAppCustomization">WebAppCustomization</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppCustomization">TransferWebAppWebAppCustomization</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#web_app_customization TransferWebApp#web_app_customization}. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.webAppEndpointPolicy">WebAppEndpointPolicy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#web_app_endpoint_policy TransferWebApp#web_app_endpoint_policy}. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.webAppUnits">WebAppUnits</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppUnits">TransferWebAppWebAppUnits</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.webAppCustomization">WebAppCustomization</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppCustomization">TransferWebAppWebAppCustomization</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#web_app_customization TransferWebApp#web_app_customization}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.webAppEndpointPolicy">WebAppEndpointPolicy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#web_app_endpoint_policy TransferWebApp#web_app_endpoint_policy}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppConfig.property.webAppUnits">WebAppUnits</a></code> | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppUnits">TransferWebAppWebAppUnits</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}. |
 
 ---
 
@@ -1115,7 +1115,7 @@ IdentityProviderDetails TransferWebAppIdentityProviderDetails
 
 You can provide a structure that contains the details for the identity provider to use with your web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#identity_provider_details TransferWebApp#identity_provider_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#identity_provider_details TransferWebApp#identity_provider_details}
 
 ---
 
@@ -1131,7 +1131,7 @@ The AccessEndpoint is the URL that you provide to your users for them to interac
 
 You can specify a custom URL or use the default value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#access_endpoint TransferWebApp#access_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#access_endpoint TransferWebApp#access_endpoint}
 
 ---
 
@@ -1143,7 +1143,7 @@ EndpointDetails TransferWebAppEndpointDetails
 
 - *Type:* <a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetails">TransferWebAppEndpointDetails</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#endpoint_details TransferWebApp#endpoint_details}.
 
 ---
 
@@ -1157,7 +1157,7 @@ Tags interface{}
 
 Key-value pairs that can be used to group and search for web apps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#tags TransferWebApp#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#tags TransferWebApp#tags}
 
 ---
 
@@ -1169,7 +1169,7 @@ WebAppCustomization TransferWebAppWebAppCustomization
 
 - *Type:* <a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppCustomization">TransferWebAppWebAppCustomization</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#web_app_customization TransferWebApp#web_app_customization}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#web_app_customization TransferWebApp#web_app_customization}.
 
 ---
 
@@ -1181,7 +1181,7 @@ WebAppEndpointPolicy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#web_app_endpoint_policy TransferWebApp#web_app_endpoint_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#web_app_endpoint_policy TransferWebApp#web_app_endpoint_policy}.
 
 ---
 
@@ -1193,7 +1193,7 @@ WebAppUnits TransferWebAppWebAppUnits
 
 - *Type:* <a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppUnits">TransferWebAppWebAppUnits</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#web_app_units TransferWebApp#web_app_units}.
 
 ---
 
@@ -1227,7 +1227,7 @@ Vpc TransferWebAppEndpointDetailsVpc
 
 You can provide a structure that contains the details for the VPC endpoint to use with your web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
 
 ---
 
@@ -1251,9 +1251,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferwebapp"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.ipAddressType">IpAddressType</a></code> | <code>*string</code> | The IP address type for the VPC endpoint used by the web app. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#security_group_ids TransferWebApp#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#subnet_ids TransferWebApp#subnet_ids}. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#vpc_id TransferWebApp#vpc_id}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#security_group_ids TransferWebApp#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#subnet_ids TransferWebApp#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppEndpointDetailsVpc.property.vpcId">VpcId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#vpc_id TransferWebApp#vpc_id}. |
 
 ---
 
@@ -1267,7 +1267,7 @@ IpAddressType *string
 
 The IP address type for the VPC endpoint used by the web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#ip_address_type TransferWebApp#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#ip_address_type TransferWebApp#ip_address_type}
 
 ---
 
@@ -1279,7 +1279,7 @@ SecurityGroupIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#security_group_ids TransferWebApp#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#security_group_ids TransferWebApp#security_group_ids}.
 
 ---
 
@@ -1291,7 +1291,7 @@ SubnetIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#subnet_ids TransferWebApp#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#subnet_ids TransferWebApp#subnet_ids}.
 
 ---
 
@@ -1303,7 +1303,7 @@ VpcId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#vpc_id TransferWebApp#vpc_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#vpc_id TransferWebApp#vpc_id}.
 
 ---
 
@@ -1339,7 +1339,7 @@ InstanceArn *string
 
 The Amazon Resource Name (ARN) for the IAM Identity Center used for the web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#instance_arn TransferWebApp#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#instance_arn TransferWebApp#instance_arn}
 
 ---
 
@@ -1353,7 +1353,7 @@ Role *string
 
 The IAM role in IAM Identity Center used for the web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#role TransferWebApp#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#role TransferWebApp#role}
 
 ---
 
@@ -1374,8 +1374,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferwebapp"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#key TransferWebApp#key}. |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#value TransferWebApp#value}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#key TransferWebApp#key}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#value TransferWebApp#value}. |
 
 ---
 
@@ -1387,7 +1387,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#key TransferWebApp#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#key TransferWebApp#key}.
 
 ---
 
@@ -1399,7 +1399,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#value TransferWebApp#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#value TransferWebApp#value}.
 
 ---
 
@@ -1437,7 +1437,7 @@ FaviconFile *string
 
 Specifies a favicon to display in the browser tab.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#favicon_file TransferWebApp#favicon_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#favicon_file TransferWebApp#favicon_file}
 
 ---
 
@@ -1451,7 +1451,7 @@ LogoFile *string
 
 Specifies a logo to display on the web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#logo_file TransferWebApp#logo_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#logo_file TransferWebApp#logo_file}
 
 ---
 
@@ -1465,7 +1465,7 @@ Title *string
 
 Specifies a title to display on the web app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#title TransferWebApp#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#title TransferWebApp#title}
 
 ---
 
@@ -1485,7 +1485,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferwebapp"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppUnits.property.provisioned">Provisioned</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}. |
+| <code><a href="#@cdktn/provider-awscc.transferWebApp.TransferWebAppWebAppUnits.property.provisioned">Provisioned</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}. |
 
 ---
 
@@ -1497,7 +1497,7 @@ Provisioned *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_web_app#provisioned TransferWebApp#provisioned}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### IotThing <a name="IotThing" id="@cdktn/provider-awscc.iotThing.IotThing"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing awscc_iot_thing}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing awscc_iot_thing}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotThing.IotThing.Initializer"></a>
 
@@ -37,8 +37,8 @@ iotThing.IotThing(
 | <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.attributePayload">attribute_payload</a></code> | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload">IotThingAttributePayload</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}. |
-| <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.thingName">thing_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#thing_name IotThing#thing_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.attributePayload">attribute_payload</a></code> | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload">IotThingAttributePayload</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}. |
+| <code><a href="#@cdktn/provider-awscc.iotThing.IotThing.Initializer.parameter.thingName">thing_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#thing_name IotThing#thing_name}. |
 
 ---
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload">IotThingAttributePayload</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}.
 
 ---
 
@@ -114,7 +114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#thing_name IotThing#thing_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#thing_name IotThing#thing_name}.
 
 ---
 
@@ -512,7 +512,7 @@ def put_attribute_payload(
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attributes IotThing#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attributes IotThing#attributes}.
 
 ---
 
@@ -642,7 +642,7 @@ The construct id used in the generated config for the IotThing to import.
 
 The id of the existing IotThing that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ iotThing.IotThingAttributePayload(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload.property.attributes">attributes</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attributes IotThing#attributes}. |
+| <code><a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload.property.attributes">attributes</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attributes IotThing#attributes}. |
 
 ---
 
@@ -942,7 +942,7 @@ attributes: typing.Mapping[str]
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attributes IotThing#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attributes IotThing#attributes}.
 
 ---
 
@@ -977,8 +977,8 @@ iotThing.IotThingConfig(
 | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.attributePayload">attribute_payload</a></code> | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload">IotThingAttributePayload</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}. |
-| <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.thingName">thing_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#thing_name IotThing#thing_name}. |
+| <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.attributePayload">attribute_payload</a></code> | <code><a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload">IotThingAttributePayload</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}. |
+| <code><a href="#@cdktn/provider-awscc.iotThing.IotThingConfig.property.thingName">thing_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#thing_name IotThing#thing_name}. |
 
 ---
 
@@ -1060,7 +1060,7 @@ attribute_payload: IotThingAttributePayload
 
 - *Type:* <a href="#@cdktn/provider-awscc.iotThing.IotThingAttributePayload">IotThingAttributePayload</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}.
 
 ---
 
@@ -1072,7 +1072,7 @@ thing_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_thing#thing_name IotThing#thing_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_thing#thing_name IotThing#thing_name}.
 
 ---
 

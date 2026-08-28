@@ -4,7 +4,7 @@
 
 ### S3TablesTableBucket <a name="S3TablesTableBucket" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer"></a>
 
@@ -609,7 +609,7 @@ The construct id used in the generated config for the S3TablesTableBucket to imp
 
 The id of the existing S3TablesTableBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1106,7 +1106,7 @@ public string TableBucketName { get; set; }
 
 A name for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
 
 ---
 
@@ -1120,7 +1120,7 @@ public S3TablesTableBucketEncryptionConfiguration EncryptionConfiguration { get;
 
 Specifies encryption settings for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
 
 ---
 
@@ -1134,7 +1134,7 @@ public S3TablesTableBucketMetricsConfiguration MetricsConfiguration { get; set; 
 
 Settings governing the Metric configuration for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
 
 ---
 
@@ -1148,7 +1148,7 @@ public S3TablesTableBucketReplicationConfiguration ReplicationConfiguration { ge
 
 Specifies replication configuration for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
 
 ---
 
@@ -1162,7 +1162,7 @@ public S3TablesTableBucketStorageClassConfiguration StorageClassConfiguration { 
 
 Specifies storage class settings for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
 
 ---
 
@@ -1176,7 +1176,7 @@ public IResolvable|S3TablesTableBucketTags[] Tags { get; set; }
 
 User tags (key-value pairs) to associate with the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
 
 ---
 
@@ -1192,7 +1192,7 @@ Settings governing the Unreferenced File Removal maintenance action.
 
 Unreferenced file removal identifies and deletes all objects that are not referenced by any table snapshots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
 
 ---
 
@@ -1228,7 +1228,7 @@ public string KmsKeyArn { get; set; }
 
 ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
 
 ---
 
@@ -1242,7 +1242,7 @@ public string SseAlgorithm { get; set; }
 
 Server-side encryption algorithm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
 
 ---
 
@@ -1276,7 +1276,7 @@ public string Status { get; set; }
 
 Indicates whether Metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
 
 ---
 
@@ -1312,7 +1312,7 @@ public string Role { get; set; }
 
 The ARN of the IAM role to use for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
 
 ---
 
@@ -1326,7 +1326,7 @@ public IResolvable|S3TablesTableBucketReplicationConfigurationRules[] Rules { ge
 
 List of replication rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
 
 ---
 
@@ -1360,7 +1360,7 @@ public IResolvable|S3TablesTableBucketReplicationConfigurationRulesDestinations[
 
 List of replication destinations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
 
 ---
 
@@ -1394,7 +1394,7 @@ public string DestinationTableBucketArn { get; set; }
 
 The ARN of the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
 
 ---
 
@@ -1428,7 +1428,7 @@ public string StorageClass { get; set; }
 
 The storage class for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
 
 ---
 
@@ -1516,7 +1516,7 @@ public double NoncurrentDays { get; set; }
 
 S3 permanently deletes noncurrent objects after the number of days specified by the NoncurrentDays property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
 
 ---
 
@@ -1530,7 +1530,7 @@ public string Status { get; set; }
 
 Indicates whether the Unreferenced File Removal maintenance action is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
 
 ---
 
@@ -1544,7 +1544,7 @@ public double UnreferencedDays { get; set; }
 
 For any object not referenced by your table and older than the UnreferencedDays property, S3 creates a delete marker and marks the object version as noncurrent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccInternetmonitorMonitors <a name="DataAwsccInternetmonitorMonitors" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/internetmonitor_monitors awscc_internetmonitor_monitors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/internetmonitor_monitors awscc_internetmonitor_monitors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInternetmonitorMonitors.DataAwsccInternetmonitorMonitors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccInternetmonitorMo
 
 The id of the existing DataAwsccInternetmonitorMonitors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/internetmonitor_monitors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/internetmonitor_monitors#import import section} in the documentation of this resource for the id to use
 
 ---
 

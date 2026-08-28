@@ -4,7 +4,7 @@
 
 ### LogsDelivery <a name="LogsDelivery" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery awscc_logs_delivery}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery awscc_logs_delivery}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.logsDelivery.LogsDelivery.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the LogsDelivery to import.
 
 The id of the existing LogsDelivery that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,7 +1041,7 @@ public readonly deliveryDestinationArn: string;
 
 The ARN of the delivery destination that is associated with this delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#delivery_destination_arn LogsDelivery#delivery_destination_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#delivery_destination_arn LogsDelivery#delivery_destination_arn}
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly deliverySourceName: string;
 
 The name of the delivery source that is associated with this delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#delivery_source_name LogsDelivery#delivery_source_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#delivery_source_name LogsDelivery#delivery_source_name}
 
 ---
 
@@ -1069,7 +1069,7 @@ public readonly fieldDelimiter: string;
 
 The field delimiter to use between record fields when the final output format of a delivery is in Plain , W3C , or Raw format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#field_delimiter LogsDelivery#field_delimiter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#field_delimiter LogsDelivery#field_delimiter}
 
 ---
 
@@ -1085,7 +1085,7 @@ The list of record fields to be delivered to the destination, in order.
 
 If the delivery's log source has mandatory fields, they must be included in this list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#record_fields LogsDelivery#record_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#record_fields LogsDelivery#record_fields}
 
 ---
 
@@ -1099,7 +1099,7 @@ public readonly s3EnableHiveCompatiblePath: boolean | IResolvable;
 
 This parameter causes the S3 objects that contain delivered logs to use a prefix structure that allows for integration with Apache Hive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#s3_enable_hive_compatible_path LogsDelivery#s3_enable_hive_compatible_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#s3_enable_hive_compatible_path LogsDelivery#s3_enable_hive_compatible_path}
 
 ---
 
@@ -1115,7 +1115,7 @@ This string allows re-configuring the S3 object prefix to contain either static 
 
 The valid variables to use in the suffix path will vary by each log source. See ConfigurationTemplate$allowedSuffixPathFields for more info on what values are supported in the suffix path for each log source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#s3_suffix_path LogsDelivery#s3_suffix_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#s3_suffix_path LogsDelivery#s3_suffix_path}
 
 ---
 
@@ -1129,7 +1129,7 @@ public readonly tags: IResolvable | LogsDeliveryTags[];
 
 The tags that have been assigned to this delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#tags LogsDelivery#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#tags LogsDelivery#tags}
 
 ---
 
@@ -1162,7 +1162,7 @@ public readonly key: string;
 
 The key name of the tag. You can specify a value that is 1 to 128 Unicode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#key LogsDelivery#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#key LogsDelivery#key}
 
 ---
 
@@ -1176,7 +1176,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery#value LogsDelivery#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_delivery#value LogsDelivery#value}
 
 ---
 

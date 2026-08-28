@@ -4,7 +4,7 @@
 
 ### DataAwsccFrauddetectorDetectors <a name="DataAwsccFrauddetectorDetectors" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetectors.DataAwsccFrauddetectorDetectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFrauddetectorDetectors.DataAwsccFrauddetectorDetectors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccFrauddetectorDete
 
 The id of the existing DataAwsccFrauddetectorDetectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/frauddetector_detectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/frauddetector_detectors#import import section} in the documentation of this resource for the id to use
 
 ---
 

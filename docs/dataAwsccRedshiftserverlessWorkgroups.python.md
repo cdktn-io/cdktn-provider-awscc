@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftserverlessWorkgroups <a name="DataAwsccRedshiftserverlessWorkgroups" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshiftserverless_workgroups awscc_redshiftserverless_workgroups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshiftserverless_workgroups awscc_redshiftserverless_workgroups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftserverlessWorkgroups.DataAwsccRedshiftserverlessWorkgroups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRedshiftserverles
 
 The id of the existing DataAwsccRedshiftserverlessWorkgroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/redshiftserverless_workgroups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshiftserverless_workgroups#import import section} in the documentation of this resource for the id to use
 
 ---
 

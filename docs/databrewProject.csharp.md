@@ -4,7 +4,7 @@
 
 ### DatabrewProject <a name="DatabrewProject" id="@cdktn/provider-awscc.databrewProject.DatabrewProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project awscc_databrew_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project awscc_databrew_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.databrewProject.DatabrewProject.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the DatabrewProject to import.
 
 The id of the existing DatabrewProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -907,7 +907,7 @@ new DatabrewProjectConfig {
 | <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectConfig.property.recipeName">RecipeName</a></code> | <code>string</code> | Recipe name. |
 | <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectConfig.property.roleArn">RoleArn</a></code> | <code>string</code> | Role arn. |
 | <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectConfig.property.sample">Sample</a></code> | <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectSample">DatabrewProjectSample</a></code> | Sample. |
-| <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags">DatabrewProjectTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#tags DatabrewProject#tags}. |
+| <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags">DatabrewProjectTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#tags DatabrewProject#tags}. |
 
 ---
 
@@ -991,7 +991,7 @@ public string DatasetName { get; set; }
 
 Dataset name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#dataset_name DatabrewProject#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#dataset_name DatabrewProject#dataset_name}
 
 ---
 
@@ -1005,7 +1005,7 @@ public string Name { get; set; }
 
 Project name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#name DatabrewProject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#name DatabrewProject#name}
 
 ---
 
@@ -1019,7 +1019,7 @@ public string RecipeName { get; set; }
 
 Recipe name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#recipe_name DatabrewProject#recipe_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#recipe_name DatabrewProject#recipe_name}
 
 ---
 
@@ -1033,7 +1033,7 @@ public string RoleArn { get; set; }
 
 Role arn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#role_arn DatabrewProject#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#role_arn DatabrewProject#role_arn}
 
 ---
 
@@ -1047,7 +1047,7 @@ public DatabrewProjectSample Sample { get; set; }
 
 Sample.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#sample DatabrewProject#sample}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#sample DatabrewProject#sample}
 
 ---
 
@@ -1059,7 +1059,7 @@ public IResolvable|DatabrewProjectTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags">DatabrewProjectTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#tags DatabrewProject#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#tags DatabrewProject#tags}.
 
 ---
 
@@ -1095,7 +1095,7 @@ public double Size { get; set; }
 
 Sample size.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#size DatabrewProject#size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#size DatabrewProject#size}
 
 ---
 
@@ -1109,7 +1109,7 @@ public string Type { get; set; }
 
 Sample type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#type DatabrewProject#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#type DatabrewProject#type}
 
 ---
 
@@ -1130,8 +1130,8 @@ new DatabrewProjectTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#key DatabrewProject#key}. |
-| <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#value DatabrewProject#value}. |
+| <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#key DatabrewProject#key}. |
+| <code><a href="#@cdktn/provider-awscc.databrewProject.DatabrewProjectTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#value DatabrewProject#value}. |
 
 ---
 
@@ -1143,7 +1143,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#key DatabrewProject#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#key DatabrewProject#key}.
 
 ---
 
@@ -1155,7 +1155,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_project#value DatabrewProject#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_project#value DatabrewProject#value}.
 
 ---
 

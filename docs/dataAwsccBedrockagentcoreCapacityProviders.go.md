@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreCapacityProviders <a name="DataAwsccBedrockagentcoreCapacityProviders" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCapacityProviders.DataAwsccBedrockagentcoreCapacityProviders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreCapacityProviders.DataAwsccBedrockagentcoreCapacityProviders.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreC
 
 The id of the existing DataAwsccBedrockagentcoreCapacityProviders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_capacity_providers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_capacity_providers#import import section} in the documentation of this resource for the id to use
 
 ---
 

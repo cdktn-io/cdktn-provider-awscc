@@ -4,7 +4,7 @@
 
 ### DataAwsccAppintegrationsDataIntegrations <a name="DataAwsccAppintegrationsDataIntegrations" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegrations.DataAwsccAppintegrationsDataIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appintegrations_data_integrations awscc_appintegrations_data_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appintegrations_data_integrations awscc_appintegrations_data_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsDataIntegrations.DataAwsccAppintegrationsDataIntegrations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccAppintegrationsDa
 
 The id of the existing DataAwsccAppintegrationsDataIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appintegrations_data_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appintegrations_data_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

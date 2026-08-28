@@ -4,7 +4,7 @@
 
 ### ApsWorkspace <a name="ApsWorkspace" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace awscc_aps_workspace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace awscc_aps_workspace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.apsWorkspace.ApsWorkspace.Initializer"></a>
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the ApsWorkspace to import.
 
 The id of the existing ApsWorkspace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1109,7 +1109,7 @@ public string AlertManagerDefinition { get; set; }
 
 The AMP Workspace alert manager definition data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
 
 ---
 
@@ -1123,7 +1123,7 @@ public string Alias { get; set; }
 
 AMP Workspace alias.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
 
 ---
 
@@ -1137,7 +1137,7 @@ public string KmsKeyArn { get; set; }
 
 KMS Key ARN used to encrypt and decrypt AMP workspace data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
 
 ---
 
@@ -1151,7 +1151,7 @@ public ApsWorkspaceLoggingConfiguration LoggingConfiguration { get; set; }
 
 Logging configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
 
 ---
 
@@ -1165,7 +1165,7 @@ public ApsWorkspaceQueryLoggingConfiguration QueryLoggingConfiguration { get; se
 
 Query logging configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
 
 ---
 
@@ -1179,7 +1179,7 @@ public IResolvable|ApsWorkspaceTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
 
 ---
 
@@ -1193,7 +1193,7 @@ public ApsWorkspaceWorkspaceConfiguration WorkspaceConfiguration { get; set; }
 
 Workspace configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
 
 ---
 
@@ -1227,7 +1227,7 @@ public string LogGroupArn { get; set; }
 
 CloudWatch log group ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
 
 ---
 
@@ -1261,7 +1261,7 @@ public IResolvable|ApsWorkspaceQueryLoggingConfigurationDestinations[] Destinati
 
 The destinations configuration for query logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#destinations ApsWorkspace#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#destinations ApsWorkspace#destinations}
 
 ---
 
@@ -1297,7 +1297,7 @@ public ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs Cloudwatc
 
 Represents a cloudwatch logs destination for query logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#cloudwatch_logs ApsWorkspace#cloudwatch_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#cloudwatch_logs ApsWorkspace#cloudwatch_logs}
 
 ---
 
@@ -1311,7 +1311,7 @@ public ApsWorkspaceQueryLoggingConfigurationDestinationsFilters Filters { get; s
 
 Filters for logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#filters ApsWorkspace#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#filters ApsWorkspace#filters}
 
 ---
 
@@ -1345,7 +1345,7 @@ public string LogGroupArn { get; set; }
 
 The ARN of the CloudWatch Logs log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
 
 ---
 
@@ -1379,7 +1379,7 @@ public double QspThreshold { get; set; }
 
 Query logs with QSP above this limit are vended.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#qsp_threshold ApsWorkspace#qsp_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#qsp_threshold ApsWorkspace#qsp_threshold}
 
 ---
 
@@ -1417,7 +1417,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#key ApsWorkspace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#key ApsWorkspace#key}
 
 ---
 
@@ -1433,7 +1433,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#value ApsWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#value ApsWorkspace#value}
 
 ---
 
@@ -1473,7 +1473,7 @@ public IResolvable|ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSets[] Limits
 
 An array of label set and associated limits.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#limits_per_label_sets ApsWorkspace#limits_per_label_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#limits_per_label_sets ApsWorkspace#limits_per_label_sets}
 
 ---
 
@@ -1487,7 +1487,7 @@ public double OutOfOrderTimeWindowInSeconds { get; set; }
 
 The time window in seconds for accepting out-of-order samples.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#out_of_order_time_window_in_seconds ApsWorkspace#out_of_order_time_window_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#out_of_order_time_window_in_seconds ApsWorkspace#out_of_order_time_window_in_seconds}
 
 ---
 
@@ -1501,7 +1501,7 @@ public double RetentionPeriodInDays { get; set; }
 
 How many days that metrics are retained in the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#retention_period_in_days ApsWorkspace#retention_period_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#retention_period_in_days ApsWorkspace#retention_period_in_days}
 
 ---
 
@@ -1515,7 +1515,7 @@ public double RuleQueryOffsetInSeconds { get; set; }
 
 Duration in seconds to offset rule evaluation queries into the past.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#rule_query_offset_in_seconds ApsWorkspace#rule_query_offset_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#rule_query_offset_in_seconds ApsWorkspace#rule_query_offset_in_seconds}
 
 ---
 
@@ -1551,7 +1551,7 @@ public IResolvable|ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSet[
 
 An array of series labels.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#label_set ApsWorkspace#label_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#label_set ApsWorkspace#label_set}
 
 ---
 
@@ -1565,7 +1565,7 @@ public ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimits Limits { get; 
 
 Limits that can be applied to a label set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#limits ApsWorkspace#limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#limits ApsWorkspace#limits}
 
 ---
 
@@ -1601,7 +1601,7 @@ public string Name { get; set; }
 
 Name of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#name ApsWorkspace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#name ApsWorkspace#name}
 
 ---
 
@@ -1615,7 +1615,7 @@ public string Value { get; set; }
 
 Value of the label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#value ApsWorkspace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#value ApsWorkspace#value}
 
 ---
 
@@ -1649,7 +1649,7 @@ public double MaxSeries { get; set; }
 
 The maximum number of active series that can be ingested for this label set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#max_series ApsWorkspace#max_series}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_workspace#max_series ApsWorkspace#max_series}
 
 ---
 

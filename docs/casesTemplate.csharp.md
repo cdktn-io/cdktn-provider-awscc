@@ -4,7 +4,7 @@
 
 ### CasesTemplate <a name="CasesTemplate" id="@cdktn/provider-awscc.casesTemplate.CasesTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template awscc_cases_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template awscc_cases_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesTemplate.CasesTemplate.Initializer"></a>
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the CasesTemplate to import.
 
 The id of the existing CasesTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1144,7 +1144,7 @@ public string Name { get; set; }
 
 A name for the template. It must be unique per domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#name CasesTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#name CasesTemplate#name}
 
 ---
 
@@ -1160,7 +1160,7 @@ A description explaining the purpose and use case for this template.
 
 Should indicate what types of cases this template is designed for and any specific workflow it supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#description CasesTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#description CasesTemplate#description}
 
 ---
 
@@ -1174,7 +1174,7 @@ public string DomainId { get; set; }
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#domain_id CasesTemplate#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#domain_id CasesTemplate#domain_id}
 
 ---
 
@@ -1190,7 +1190,7 @@ Specifies the default layout to use when displaying cases created from this temp
 
 The layout determines which fields are visible and their arrangement in the agent interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#layout_configuration CasesTemplate#layout_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#layout_configuration CasesTemplate#layout_configuration}
 
 ---
 
@@ -1204,7 +1204,7 @@ public IResolvable|CasesTemplateRequiredFields[] RequiredFields { get; set; }
 
 A list of fields that must contain a value for a case to be successfully created with this template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#required_fields CasesTemplate#required_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#required_fields CasesTemplate#required_fields}
 
 ---
 
@@ -1218,7 +1218,7 @@ public IResolvable|CasesTemplateRules[] Rules { get; set; }
 
 A list of case rules (also known as case field conditions) on a template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#rules CasesTemplate#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#rules CasesTemplate#rules}
 
 ---
 
@@ -1234,7 +1234,7 @@ The current status of the template.
 
 Active templates can be used to create new cases, while Inactive templates are disabled but preserved for existing cases.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#status CasesTemplate#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#status CasesTemplate#status}
 
 ---
 
@@ -1248,7 +1248,7 @@ public IResolvable|CasesTemplateTags[] Tags { get; set; }
 
 The tags that you attach to this template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#tags CasesTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#tags CasesTemplate#tags}
 
 ---
 
@@ -1282,7 +1282,7 @@ public string DefaultLayout { get; set; }
 
 The unique identifier of a layout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#default_layout CasesTemplate#default_layout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#default_layout CasesTemplate#default_layout}
 
 ---
 
@@ -1316,7 +1316,7 @@ public string FieldId { get; set; }
 
 The unique identifier of a field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
 
 ---
 
@@ -1352,7 +1352,7 @@ public string CaseRuleId { get; set; }
 
 The unique identifier of a case rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#case_rule_id CasesTemplate#case_rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#case_rule_id CasesTemplate#case_rule_id}
 
 ---
 
@@ -1366,7 +1366,7 @@ public string FieldId { get; set; }
 
 The ID of the field that this rule applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#field_id CasesTemplate#field_id}
 
 ---
 
@@ -1404,7 +1404,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#key CasesTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#key CasesTemplate#key}
 
 ---
 
@@ -1420,7 +1420,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_template#value CasesTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_template#value CasesTemplate#value}
 
 ---
 

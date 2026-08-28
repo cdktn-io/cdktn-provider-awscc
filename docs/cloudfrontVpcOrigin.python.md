@@ -4,7 +4,7 @@
 
 ### CloudfrontVpcOrigin <a name="CloudfrontVpcOrigin" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOrigin.Initializer"></a>
 
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 The VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
 
 ---
 
@@ -538,7 +538,7 @@ def put_vpc_origin_endpoint_config(
 
 The ARN of the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}
 
 ---
 
@@ -548,7 +548,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}
 
 ---
 
@@ -558,7 +558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The HTTP port for the CloudFront VPC origin endpoint configuration. The default value is ``80``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}
 
 ---
 
@@ -568,7 +568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The HTTPS port of the CloudFront VPC origin endpoint configuration. The default value is ``443``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}
 
 ---
 
@@ -576,7 +576,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}.
 
 ---
 
@@ -586,7 +586,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The origin protocol policy for the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}
 
 ---
 
@@ -599,7 +599,7 @@ Specifies the minimum SSL/TLS protocol that CloudFront uses when connecting to y
 Valid values include `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 For more information, see [Minimum Origin SSL Protocol](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistValuesOrigin.html#DownloadDistValuesOriginSSLProtocols) in the *Amazon CloudFront Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
 
 ---
 
@@ -723,7 +723,7 @@ The construct id used in the generated config for the CloudfrontVpcOrigin to imp
 
 The id of the existing CloudfrontVpcOrigin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1155,7 +1155,7 @@ vpc_origin_endpoint_config: CloudfrontVpcOriginVpcOriginEndpointConfig
 
 The VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
 
 ---
 
@@ -1169,7 +1169,7 @@ tags: IResolvable | typing.List[CloudfrontVpcOriginTags]
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
 
 ---
 
@@ -1249,7 +1249,7 @@ cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig(
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.name">name</a></code> | <code>str</code> | The name of the CloudFront VPC origin endpoint configuration. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.httpPort">http_port</a></code> | <code>typing.Union[int, float]</code> | The HTTP port for the CloudFront VPC origin endpoint configuration. The default value is ``80``. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.httpsPort">https_port</a></code> | <code>typing.Union[int, float]</code> | The HTTPS port of the CloudFront VPC origin endpoint configuration. The default value is ``443``. |
-| <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.ipAddressType">ip_address_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.ipAddressType">ip_address_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.originProtocolPolicy">origin_protocol_policy</a></code> | <code>str</code> | The origin protocol policy for the CloudFront VPC origin endpoint configuration. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontVpcOrigin.CloudfrontVpcOriginVpcOriginEndpointConfig.property.originSslProtocols">origin_ssl_protocols</a></code> | <code>typing.List[str]</code> | Specifies the minimum SSL/TLS protocol that CloudFront uses when connecting to your origin over HTTPS. |
 
@@ -1265,7 +1265,7 @@ arn: str
 
 The ARN of the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#arn CloudfrontVpcOrigin#arn}
 
 ---
 
@@ -1279,7 +1279,7 @@ name: str
 
 The name of the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#name CloudfrontVpcOrigin#name}
 
 ---
 
@@ -1293,7 +1293,7 @@ http_port: typing.Union[int, float]
 
 The HTTP port for the CloudFront VPC origin endpoint configuration. The default value is ``80``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#http_port CloudfrontVpcOrigin#http_port}
 
 ---
 
@@ -1307,7 +1307,7 @@ https_port: typing.Union[int, float]
 
 The HTTPS port of the CloudFront VPC origin endpoint configuration. The default value is ``443``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#https_port CloudfrontVpcOrigin#https_port}
 
 ---
 
@@ -1319,7 +1319,7 @@ ip_address_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#ip_address_type CloudfrontVpcOrigin#ip_address_type}.
 
 ---
 
@@ -1333,7 +1333,7 @@ origin_protocol_policy: str
 
 The origin protocol policy for the CloudFront VPC origin endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#origin_protocol_policy CloudfrontVpcOrigin#origin_protocol_policy}
 
 ---
 
@@ -1350,7 +1350,7 @@ Specifies the minimum SSL/TLS protocol that CloudFront uses when connecting to y
 Valid values include `SSLv3`, `TLSv1`, `TLSv1.1`, and `TLSv1.2`.
 For more information, see [Minimum Origin SSL Protocol](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistValuesOrigin.html#DownloadDistValuesOriginSSLProtocols) in the *Amazon CloudFront Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_vpc_origin#origin_ssl_protocols CloudfrontVpcOrigin#origin_ssl_protocols}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SsmcontactsPlan <a name="SsmcontactsPlan" id="@cdktn/provider-awscc.ssmcontactsPlan.SsmcontactsPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmcontactsPlan.SsmcontactsPlan.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Contact ID for the AWS SSM Incident Manager Contact to associate the plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Rotation Ids to associate with Oncall Contact for engagement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#rotation_ids SsmcontactsPlan#rotation_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#rotation_ids SsmcontactsPlan#rotation_ids}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The stages that an escalation plan or engagement plan engages contacts and contact methods in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#stages SsmcontactsPlan#stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#stages SsmcontactsPlan#stages}
 
 ---
 
@@ -663,7 +663,7 @@ The construct id used in the generated config for the SsmcontactsPlan to import.
 
 The id of the existing SsmcontactsPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1064,7 +1064,7 @@ contact_id: str
 
 Contact ID for the AWS SSM Incident Manager Contact to associate the plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
 
 ---
 
@@ -1078,7 +1078,7 @@ rotation_ids: typing.List[str]
 
 Rotation Ids to associate with Oncall Contact for engagement.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#rotation_ids SsmcontactsPlan#rotation_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#rotation_ids SsmcontactsPlan#rotation_ids}
 
 ---
 
@@ -1092,7 +1092,7 @@ stages: IResolvable | typing.List[SsmcontactsPlanStages]
 
 The stages that an escalation plan or engagement plan engages contacts and contact methods in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#stages SsmcontactsPlan#stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#stages SsmcontactsPlan#stages}
 
 ---
 
@@ -1128,7 +1128,7 @@ duration_in_minutes: typing.Union[int, float]
 
 The time to wait until beginning the next stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}
 
 ---
 
@@ -1142,7 +1142,7 @@ targets: IResolvable | typing.List[SsmcontactsPlanStagesTargets]
 
 The contacts or contact methods that the escalation plan or engagement plan is engaging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#targets SsmcontactsPlan#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#targets SsmcontactsPlan#targets}
 
 ---
 
@@ -1178,7 +1178,7 @@ channel_target_info: SsmcontactsPlanStagesTargetsChannelTargetInfo
 
 Information about the contact channel that SSM Incident Manager uses to engage the contact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#channel_target_info SsmcontactsPlan#channel_target_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#channel_target_info SsmcontactsPlan#channel_target_info}
 
 ---
 
@@ -1192,7 +1192,7 @@ contact_target_info: SsmcontactsPlanStagesTargetsContactTargetInfo
 
 The contact that SSM Incident Manager is engaging during an incident.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#contact_target_info SsmcontactsPlan#contact_target_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#contact_target_info SsmcontactsPlan#contact_target_info}
 
 ---
 
@@ -1228,7 +1228,7 @@ channel_id: str
 
 The Amazon Resource Name (ARN) of the contact channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#channel_id SsmcontactsPlan#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#channel_id SsmcontactsPlan#channel_id}
 
 ---
 
@@ -1242,7 +1242,7 @@ retry_interval_in_minutes: typing.Union[int, float]
 
 The number of minutes to wait to retry sending engagement in the case the engagement initially fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}
 
 ---
 
@@ -1278,7 +1278,7 @@ contact_id: str
 
 The Amazon Resource Name (ARN) of the contact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
 
 ---
 
@@ -1292,7 +1292,7 @@ is_essential: bool | IResolvable
 
 A Boolean value determining if the contact's acknowledgement stops the progress of stages in the plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}
 
 ---
 
@@ -2936,7 +2936,7 @@ def put_channel_target_info(
 
 The Amazon Resource Name (ARN) of the contact channel.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#channel_id SsmcontactsPlan#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#channel_id SsmcontactsPlan#channel_id}
 
 ---
 
@@ -2946,7 +2946,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of minutes to wait to retry sending engagement in the case the engagement initially fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}
 
 ---
 
@@ -2965,7 +2965,7 @@ def put_contact_target_info(
 
 The Amazon Resource Name (ARN) of the contact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
 
 ---
 
@@ -2975,7 +2975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A Boolean value determining if the contact's acknowledgement stops the progress of stages in the plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}
 
 ---
 

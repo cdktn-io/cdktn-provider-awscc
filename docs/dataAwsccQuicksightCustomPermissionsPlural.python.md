@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightCustomPermissionsPlural <a name="DataAwsccQuicksightCustomPermissionsPlural" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissionsPlural.DataAwsccQuicksightCustomPermissionsPlural.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccQuicksightCustomP
 
 The id of the existing DataAwsccQuicksightCustomPermissionsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_custom_permissions_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_custom_permissions_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

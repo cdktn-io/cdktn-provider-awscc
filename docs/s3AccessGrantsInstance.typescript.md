@@ -4,7 +4,7 @@
 
 ### S3AccessGrantsInstance <a name="S3AccessGrantsInstance" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstance.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the S3AccessGrantsInstance to 
 
 The id of the existing S3AccessGrantsInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -810,7 +810,7 @@ const s3AccessGrantsInstanceConfig: s3AccessGrantsInstance.S3AccessGrantsInstanc
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.identityCenterArn">identityCenterArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the specified AWS Identity Center. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags">S3AccessGrantsInstanceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags">S3AccessGrantsInstanceTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}. |
 
 ---
 
@@ -894,7 +894,7 @@ public readonly identityCenterArn: string;
 
 The Amazon Resource Name (ARN) of the specified AWS Identity Center.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#identity_center_arn S3AccessGrantsInstance#identity_center_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#identity_center_arn S3AccessGrantsInstance#identity_center_arn}
 
 ---
 
@@ -906,7 +906,7 @@ public readonly tags: IResolvable | S3AccessGrantsInstanceTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags">S3AccessGrantsInstanceTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#tags S3AccessGrantsInstance#tags}.
 
 ---
 
@@ -924,8 +924,8 @@ const s3AccessGrantsInstanceTags: s3AccessGrantsInstance.S3AccessGrantsInstanceT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}. |
-| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}. |
+| <code><a href="#@cdktn/provider-awscc.s3AccessGrantsInstance.S3AccessGrantsInstanceTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}. |
 
 ---
 
@@ -937,7 +937,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#key S3AccessGrantsInstance#key}.
 
 ---
 
@@ -949,7 +949,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_access_grants_instance#value S3AccessGrantsInstance#value}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### TranscribeVocabularyFilter <a name="TranscribeVocabularyFilter" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter awscc_transcribe_vocabulary_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter awscc_transcribe_vocabulary_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeVocabularyFilter.TranscribeVocabularyFilter.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The language code that represents the language of the entries in your vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A unique name, chosen by you, for your custom vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of an IAM role that has permissions to access the Amazon S3 bucket that contains your input files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#data_access_role_arn TranscribeVocabularyFilter#data_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#data_access_role_arn TranscribeVocabularyFilter#data_access_role_arn}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags associated with the vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon S3 location of the text file that contains your custom vocabulary filter terms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Use this parameter if you want to create your custom vocabulary filter by including all desired terms, as comma-separated values, within your request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
 
 ---
 
@@ -654,7 +654,7 @@ The construct id used in the generated config for the TranscribeVocabularyFilter
 
 The id of the existing TranscribeVocabularyFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1127,7 +1127,7 @@ public java.lang.String getLanguageCode();
 
 The language code that represents the language of the entries in your vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#language_code TranscribeVocabularyFilter#language_code}
 
 ---
 
@@ -1141,7 +1141,7 @@ public java.lang.String getVocabularyFilterName();
 
 A unique name, chosen by you, for your custom vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_name TranscribeVocabularyFilter#vocabulary_filter_name}
 
 ---
 
@@ -1155,7 +1155,7 @@ public java.lang.String getDataAccessRoleArn();
 
 The Amazon Resource Name (ARN) of an IAM role that has permissions to access the Amazon S3 bucket that contains your input files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#data_access_role_arn TranscribeVocabularyFilter#data_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#data_access_role_arn TranscribeVocabularyFilter#data_access_role_arn}
 
 ---
 
@@ -1169,7 +1169,7 @@ public IResolvable|java.util.List<TranscribeVocabularyFilterTags> getTags();
 
 Tags associated with the vocabulary filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#tags TranscribeVocabularyFilter#tags}
 
 ---
 
@@ -1183,7 +1183,7 @@ public java.lang.String getVocabularyFilterFileUri();
 
 The Amazon S3 location of the text file that contains your custom vocabulary filter terms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#vocabulary_filter_file_uri TranscribeVocabularyFilter#vocabulary_filter_file_uri}
 
 ---
 
@@ -1197,7 +1197,7 @@ public java.util.List<java.lang.String> getWords();
 
 Use this parameter if you want to create your custom vocabulary filter by including all desired terms, as comma-separated values, within your request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#words TranscribeVocabularyFilter#words}
 
 ---
 
@@ -1233,7 +1233,7 @@ public java.lang.String getKey();
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#key TranscribeVocabularyFilter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#key TranscribeVocabularyFilter#key}
 
 ---
 
@@ -1247,7 +1247,7 @@ public java.lang.String getValue();
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transcribe_vocabulary_filter#value TranscribeVocabularyFilter#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transcribe_vocabulary_filter#value TranscribeVocabularyFilter#value}
 
 ---
 

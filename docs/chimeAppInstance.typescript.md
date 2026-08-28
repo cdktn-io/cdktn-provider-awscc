@@ -4,7 +4,7 @@
 
 ### ChimeAppInstance <a name="ChimeAppInstance" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance awscc_chime_app_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance awscc_chime_app_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the ChimeAppInstance to import
 
 The id of the existing ChimeAppInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -547,9 +547,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.appInstanceArn">appInstanceArn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.createdTimestamp">createdTimestamp</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.createdTimestamp">createdTimestamp</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.lastUpdatedTimestamp">lastUpdatedTimestamp</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.lastUpdatedTimestamp">lastUpdatedTimestamp</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstanceTagsList">ChimeAppInstanceTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.metadataInput">metadataInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
@@ -714,10 +714,10 @@ public readonly appInstanceArn: string;
 ##### `createdTimestamp`<sup>Required</sup> <a name="createdTimestamp" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.createdTimestamp"></a>
 
 ```typescript
-public readonly createdTimestamp: number;
+public readonly createdTimestamp: string;
 ```
 
-- *Type:* number
+- *Type:* string
 
 ---
 
@@ -734,10 +734,10 @@ public readonly id: string;
 ##### `lastUpdatedTimestamp`<sup>Required</sup> <a name="lastUpdatedTimestamp" id="@cdktn/provider-awscc.chimeAppInstance.ChimeAppInstance.property.lastUpdatedTimestamp"></a>
 
 ```typescript
-public readonly lastUpdatedTimestamp: number;
+public readonly lastUpdatedTimestamp: string;
 ```
 
-- *Type:* number
+- *Type:* string
 
 ---
 
@@ -928,7 +928,7 @@ public readonly name: string;
 
 The name of the AppInstance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance#name ChimeAppInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance#name ChimeAppInstance#name}
 
 ---
 
@@ -942,7 +942,7 @@ public readonly metadata: string;
 
 The metadata of the AppInstance. Limited to a 1KB string in UTF-8.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance#metadata ChimeAppInstance#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance#metadata ChimeAppInstance#metadata}
 
 ---
 
@@ -956,7 +956,7 @@ public readonly tags: IResolvable | ChimeAppInstanceTags[];
 
 Tags assigned to the AppInstance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance#tags ChimeAppInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance#tags ChimeAppInstance#tags}
 
 ---
 
@@ -989,7 +989,7 @@ public readonly key: string;
 
 The key in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance#key ChimeAppInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance#key ChimeAppInstance#key}
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly value: string;
 
 The value in a tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance#value ChimeAppInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance#value ChimeAppInstance#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2SqlHaStandbyDetectedInstances <a name="DataAwsccEc2SqlHaStandbyDetectedInstances" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SqlHaStandbyDetectedInstances.DataAwsccEc2SqlHaStandbyDetectedInstances.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2SqlHaStandbyDe
 
 The id of the existing DataAwsccEc2SqlHaStandbyDetectedInstances that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_sql_ha_standby_detected_instances#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_sql_ha_standby_detected_instances#import import section} in the documentation of this resource for the id to use
 
 ---
 

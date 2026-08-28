@@ -4,7 +4,7 @@
 
 ### SecurityhubDelegatedAdmin <a name="SecurityhubDelegatedAdmin" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubDelegatedAdmin.SecurityhubDelegatedAdmin.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the SecurityhubDelegatedAdmin 
 
 The id of the existing SecurityhubDelegatedAdmin that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_delegated_admin#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_delegated_admin#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -853,7 +853,7 @@ public string AdminAccountId { get; set; }
 
 The AWS-account identifier of the account to designate as the Security Hub CSPM administrator account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_delegated_admin#admin_account_id SecurityhubDelegatedAdmin#admin_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_delegated_admin#admin_account_id SecurityhubDelegatedAdmin#admin_account_id}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccObservabilityadminTelemetryEnrichments <a name="DataAwsccObservabilityadminTelemetryEnrichments" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_telemetry_enrichments awscc_observabilityadmin_telemetry_enrichments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/observabilityadmin_telemetry_enrichments awscc_observabilityadmin_telemetry_enrichments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminTelemetryEnrichments.DataAwsccObservabilityadminTelemetryEnrichments.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminTelemetryEnrichments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_telemetry_enrichments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/observabilityadmin_telemetry_enrichments#import import section} in the documentation of this resource for the id to use
 
 ---
 

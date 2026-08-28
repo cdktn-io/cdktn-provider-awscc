@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubOrganizationConfigurations <a name="DataAwsccSecurityhubOrganizationConfigurations" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubOrganizationConfigurations.DataAwsccSecurityhubOrganizationConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubOrgani
 
 The id of the existing DataAwsccSecurityhubOrganizationConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_organization_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_organization_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

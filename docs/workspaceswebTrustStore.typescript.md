@@ -4,7 +4,7 @@
 
 ### WorkspaceswebTrustStore <a name="WorkspaceswebTrustStore" id="@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStore"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store awscc_workspacesweb_trust_store}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store awscc_workspacesweb_trust_store}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStore.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the WorkspaceswebTrustStore to
 
 The id of the existing WorkspaceswebTrustStore that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -802,8 +802,8 @@ const workspaceswebTrustStoreConfig: workspaceswebTrustStore.WorkspaceswebTrustS
 | <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.certificateList">certificateList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#certificate_list WorkspaceswebTrustStore#certificate_list}. |
-| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags">WorkspaceswebTrustStoreTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#tags WorkspaceswebTrustStore#tags}. |
+| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.certificateList">certificateList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#certificate_list WorkspaceswebTrustStore#certificate_list}. |
+| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags">WorkspaceswebTrustStoreTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#tags WorkspaceswebTrustStore#tags}. |
 
 ---
 
@@ -885,7 +885,7 @@ public readonly certificateList: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#certificate_list WorkspaceswebTrustStore#certificate_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#certificate_list WorkspaceswebTrustStore#certificate_list}.
 
 ---
 
@@ -897,7 +897,7 @@ public readonly tags: IResolvable | WorkspaceswebTrustStoreTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags">WorkspaceswebTrustStoreTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#tags WorkspaceswebTrustStore#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#tags WorkspaceswebTrustStore#tags}.
 
 ---
 
@@ -915,8 +915,8 @@ const workspaceswebTrustStoreTags: workspaceswebTrustStore.WorkspaceswebTrustSto
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#key WorkspaceswebTrustStore#key}. |
-| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#value WorkspaceswebTrustStore#value}. |
+| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#key WorkspaceswebTrustStore#key}. |
+| <code><a href="#@cdktn/provider-awscc.workspaceswebTrustStore.WorkspaceswebTrustStoreTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#value WorkspaceswebTrustStore#value}. |
 
 ---
 
@@ -928,7 +928,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#key WorkspaceswebTrustStore#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#key WorkspaceswebTrustStore#key}.
 
 ---
 
@@ -940,7 +940,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesweb_trust_store#value WorkspaceswebTrustStore#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_trust_store#value WorkspaceswebTrustStore#value}.
 
 ---
 

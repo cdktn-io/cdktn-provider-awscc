@@ -4,7 +4,7 @@
 
 ### DataAwsccRolesanywhereProfiles <a name="DataAwsccRolesanywhereProfiles" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_profiles awscc_rolesanywhere_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rolesanywhere_profiles awscc_rolesanywhere_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRolesanywhereProfiles.DataAwsccRolesanywhereProfiles.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccRolesanywhereProf
 
 The id of the existing DataAwsccRolesanywhereProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rolesanywhere_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

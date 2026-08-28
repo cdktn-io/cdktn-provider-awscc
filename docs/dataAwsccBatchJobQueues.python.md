@@ -4,7 +4,7 @@
 
 ### DataAwsccBatchJobQueues <a name="DataAwsccBatchJobQueues" id="@cdktn/provider-awscc.dataAwsccBatchJobQueues.DataAwsccBatchJobQueues"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_job_queues awscc_batch_job_queues}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/batch_job_queues awscc_batch_job_queues}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBatchJobQueues.DataAwsccBatchJobQueues.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBatchJobQueues to
 
 The id of the existing DataAwsccBatchJobQueues that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_job_queues#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/batch_job_queues#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Ec2VpcPeeringConnection <a name="Ec2VpcPeeringConnection" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer"></a>
 
@@ -46,7 +46,7 @@ Ec2VpcPeeringConnection.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerOwnerId">peerOwnerId</a></code> | <code>java.lang.String</code> | The AWS account ID of the owner of the accepter VPC. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerRegion">peerRegion</a></code> | <code>java.lang.String</code> | The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerRoleArn">peerRoleArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account. |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
 
 ---
 
@@ -118,7 +118,7 @@ The ID of the VPC with which you are creating the VPC peering connection.
 
 You must specify this parameter in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Region code to use when calling Security Token Service (STS) to assume the PeerRoleArn, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS account ID of the owner of the accepter VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
 
 ---
 
@@ -673,7 +673,7 @@ The construct id used in the generated config for the Ec2VpcPeeringConnection to
 
 The id of the existing Ec2VpcPeeringConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1086,7 +1086,7 @@ Ec2VpcPeeringConnectionConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerOwnerId">peerOwnerId</a></code> | <code>java.lang.String</code> | The AWS account ID of the owner of the accepter VPC. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerRegion">peerRegion</a></code> | <code>java.lang.String</code> | The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerRoleArn">peerRoleArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account. |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
 
 ---
 
@@ -1172,7 +1172,7 @@ The ID of the VPC with which you are creating the VPC peering connection.
 
 You must specify this parameter in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
 
 ---
 
@@ -1186,7 +1186,7 @@ public java.lang.String getVpcId();
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
 
 ---
 
@@ -1200,7 +1200,7 @@ public java.lang.String getAssumeRoleRegion();
 
 The Region code to use when calling Security Token Service (STS) to assume the PeerRoleArn, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
 
 ---
 
@@ -1214,7 +1214,7 @@ public java.lang.String getPeerOwnerId();
 
 The AWS account ID of the owner of the accepter VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
 
 ---
 
@@ -1228,7 +1228,7 @@ public java.lang.String getPeerRegion();
 
 The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
 
 ---
 
@@ -1242,7 +1242,7 @@ public java.lang.String getPeerRoleArn();
 
 The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
 
 ---
 
@@ -1254,7 +1254,7 @@ public IResolvable|java.util.List<Ec2VpcPeeringConnectionTags> getTags();
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
 
 ---
 
@@ -1292,7 +1292,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#key Ec2VpcPeeringConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#key Ec2VpcPeeringConnection#key}
 
 ---
 
@@ -1308,7 +1308,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_peering_connection#value Ec2VpcPeeringConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_peering_connection#value Ec2VpcPeeringConnection#value}
 
 ---
 
